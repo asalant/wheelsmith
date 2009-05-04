@@ -5,11 +5,11 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleDisplayName</key>
-	<string>${PRODUCT_NAME}</string>
+	<string>Wheelsmith</string>
 	<key>CFBundleExecutable</key>
 	<string>${EXECUTABLE_NAME}</string>
 	<key>CFBundleIconFile</key>
-	<string></string>
+	<string>app_icon.png</string>
 	<key>CFBundleIdentifier</key>
 	<string>AS97D7CQUC.*</string>
 	<key>CFBundleInfoDictionaryVersion</key>

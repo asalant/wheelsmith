@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */; };
@@ -76,7 +75,6 @@
 		DF7B12550FAEA9A3007FF0CA /* hub3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF7B12090FAEA9A3007FF0CA /* hub3.jpg */; };
 		DF7B12560FAEA9A3007FF0CA /* hub3_cropped.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF7B120A0FAEA9A3007FF0CA /* hub3_cropped.jpg */; };
 		DF7B12570FAEA9A3007FF0CA /* iPhone_GUI_1_3.psd in Resources */ = {isa = PBXBuildFile; fileRef = DF7B120B0FAEA9A3007FF0CA /* iPhone_GUI_1_3.psd */; };
-		DF7B12580FAEA9A3007FF0CA /* logo1.png in Resources */ = {isa = PBXBuildFile; fileRef = DF7B120C0FAEA9A3007FF0CA /* logo1.png */; };
 		DF7B12590FAEA9A3007FF0CA /* LabeledValueCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF7B120D0FAEA9A3007FF0CA /* LabeledValueCell.xib */; };
 		DF7B125A0FAEA9A3007FF0CA /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF7B120E0FAEA9A3007FF0CA /* MainWindow.xib */; };
 		DF7B125B0FAEA9A3007FF0CA /* parts.sqlite3 in Resources */ = {isa = PBXBuildFile; fileRef = DF7B120F0FAEA9A3007FF0CA /* parts.sqlite3 */; };
@@ -105,6 +103,8 @@
 		DFD4DA0D0FAEB48B00BC2BC2 /* HubDetailControllerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B12620FAEA9B5007FF0CA /* HubDetailControllerTest.m */; };
 		DFD4DA0E0FAEB48D00BC2BC2 /* DatabaseSelectTest.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B12610FAEA9B5007FF0CA /* DatabaseSelectTest.m */; };
 		DFD4DA0F0FAEB48F00BC2BC2 /* HubTest.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B12630FAEA9B5007FF0CA /* HubTest.m */; };
+		DFD4DA310FAEB5DD00BC2BC2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD4DA2F0FAEB5DD00BC2BC2 /* main.m */; };
+		DFD4DA400FAEB98400BC2BC2 /* app_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DFD4DA3F0FAEB98400BC2BC2 /* app_icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -126,8 +126,6 @@
 		1D6058910D05DD3D006BFB54 /* wheelsmith.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wheelsmith.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		28A0AAE50D9B0CCF005BE974 /* wheelsmith_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wheelsmith_Prefix.pch; sourceTree = "<group>"; };
-		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DF4665120FAEB1A200172895 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DF7B11470FAEA80F007FF0CA /* Unit Tests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Unit Tests.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF7B11CD0FAEA94D007FF0CA /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
@@ -186,7 +184,6 @@
 		DF7B12090FAEA9A3007FF0CA /* hub3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hub3.jpg; sourceTree = "<group>"; };
 		DF7B120A0FAEA9A3007FF0CA /* hub3_cropped.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hub3_cropped.jpg; sourceTree = "<group>"; };
 		DF7B120B0FAEA9A3007FF0CA /* iPhone_GUI_1_3.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = iPhone_GUI_1_3.psd; sourceTree = "<group>"; };
-		DF7B120C0FAEA9A3007FF0CA /* logo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo1.png; sourceTree = "<group>"; };
 		DF7B120D0FAEA9A3007FF0CA /* LabeledValueCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LabeledValueCell.xib; sourceTree = "<group>"; };
 		DF7B120E0FAEA9A3007FF0CA /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
 		DF7B120F0FAEA9A3007FF0CA /* parts.sqlite3 */ = {isa = PBXFileReference; lastKnownFileType = file; path = parts.sqlite3; sourceTree = "<group>"; };
@@ -222,6 +219,9 @@
 		DF7B12820FAEA9B5007FF0CA /* file3 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = file3; sourceTree = "<group>"; };
 		DF7B12830FAEA9B5007FF0CA /* test.sqlite3 */ = {isa = PBXFileReference; lastKnownFileType = file; path = test.sqlite3; sourceTree = "<group>"; };
 		DF7B130F0FAEACA8007FF0CA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFD4DA2F0FAEB5DD00BC2BC2 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DFD4DA300FAEB5DD00BC2BC2 /* wheelsmith_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wheelsmith_Prefix.pch; sourceTree = "<group>"; };
+		DFD4DA3F0FAEB98400BC2BC2 /* app_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app_icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -276,8 +276,6 @@
 		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
-				28A0AAE50D9B0CCF005BE974 /* wheelsmith_Prefix.pch */,
-				29B97316FDCFA39411CA2CEA /* main.m */,
 			);
 			name = "Other Sources";
 			sourceTree = "<group>";
@@ -296,6 +294,7 @@
 		DF7B11D00FAEA9A3007FF0CA /* App */ = {
 			isa = PBXGroup;
 			children = (
+				DFD4DA2E0FAEB5DD00BC2BC2 /* Source */,
 				DF7B11D10FAEA9A3007FF0CA /* Classes */,
 				DF7B12020FAEA9A3007FF0CA /* Library */,
 				DF7B12030FAEA9A3007FF0CA /* Resources */,
@@ -385,12 +384,12 @@
 		DF7B12060FAEA9A3007FF0CA /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				DFD4DA3F0FAEB98400BC2BC2 /* app_icon.png */,
 				DF7B12070FAEA9A3007FF0CA /* hub1.jpg */,
 				DF7B12080FAEA9A3007FF0CA /* hub2.jpg */,
 				DF7B12090FAEA9A3007FF0CA /* hub3.jpg */,
 				DF7B120A0FAEA9A3007FF0CA /* hub3_cropped.jpg */,
 				DF7B120B0FAEA9A3007FF0CA /* iPhone_GUI_1_3.psd */,
-				DF7B120C0FAEA9A3007FF0CA /* logo1.png */,
 			);
 			path = Images;
 			sourceTree = "<group>";
@@ -495,12 +494,21 @@
 			path = dir2;
 			sourceTree = "<group>";
 		};
+		DFD4DA2E0FAEB5DD00BC2BC2 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				DFD4DA2F0FAEB5DD00BC2BC2 /* main.m */,
+				DFD4DA300FAEB5DD00BC2BC2 /* wheelsmith_Prefix.pch */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1D6058900D05DD3D006BFB54 /* wheelsmith */ = {
+		1D6058900D05DD3D006BFB54 /* Wheelsmith */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "wheelsmith" */;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Wheelsmith" */;
 			buildPhases = (
 				1D60588D0D05DD3D006BFB54 /* Resources */,
 				1D60588E0D05DD3D006BFB54 /* Sources */,
@@ -510,7 +518,7 @@
 			);
 			dependencies = (
 			);
-			name = wheelsmith;
+			name = Wheelsmith;
 			productName = wheelsmith;
 			productReference = 1D6058910D05DD3D006BFB54 /* wheelsmith.app */;
 			productType = "com.apple.product-type.application";
@@ -553,7 +561,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1D6058900D05DD3D006BFB54 /* wheelsmith */,
+				1D6058900D05DD3D006BFB54 /* Wheelsmith */,
 				DF7B11460FAEA80F007FF0CA /* Unit Tests */,
 			);
 		};
@@ -571,13 +579,13 @@
 				DF7B12550FAEA9A3007FF0CA /* hub3.jpg in Resources */,
 				DF7B12560FAEA9A3007FF0CA /* hub3_cropped.jpg in Resources */,
 				DF7B12570FAEA9A3007FF0CA /* iPhone_GUI_1_3.psd in Resources */,
-				DF7B12580FAEA9A3007FF0CA /* logo1.png in Resources */,
 				DF7B12590FAEA9A3007FF0CA /* LabeledValueCell.xib in Resources */,
 				DF7B125A0FAEA9A3007FF0CA /* MainWindow.xib in Resources */,
 				DF7B125B0FAEA9A3007FF0CA /* parts.sqlite3 in Resources */,
 				DF7B125C0FAEA9A3007FF0CA /* PickerView.xib in Resources */,
 				DF7B125D0FAEA9A3007FF0CA /* RimCell.xib in Resources */,
 				DF7B125E0FAEA9A3007FF0CA /* RimDetailView.xib in Resources */,
+				DFD4DA400FAEB98400BC2BC2 /* app_icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -620,7 +628,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				DF7B12390FAEA9A3007FF0CA /* BrandListController.m in Sources */,
 				DF7B123A0FAEA9A3007FF0CA /* Database.m in Sources */,
 				DF7B123B0FAEA9A3007FF0CA /* DatabaseResultSet.m in Sources */,
@@ -645,6 +652,7 @@
 				DF7B124E0FAEA9A3007FF0CA /* TableCellFactory.m in Sources */,
 				DF7B124F0FAEA9A3007FF0CA /* Wheel.m in Sources */,
 				DF7B12500FAEA9A3007FF0CA /* WheelDetailController.m in Sources */,
+				DFD4DA310FAEB5DD00BC2BC2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -704,7 +712,7 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = wheelsmith_Prefix.pch;
+				GCC_PREFIX_HEADER = App/Source/wheelsmith_Prefix.pch;
 				INFOPLIST_FILE = App/Resources/Info.plist;
 				PRODUCT_NAME = wheelsmith;
 			};
@@ -809,7 +817,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "wheelsmith" */ = {
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Wheelsmith" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1D6058940D05DD3E006BFB54 /* Debug */,

@@ -1,27 +1,21 @@
 // !$*UTF8*$!
 {
-	1D6058900D05DD3D006BFB54 /* wheelsmith */ = {
+	1D6058900D05DD3D006BFB54 /* Wheelsmith */ = {
 		activeExec = 0;
 		executables = (
-			DF7B10A80FAEA69B007FF0CA /* wheelsmith */,
+			DF7B10A80FAEA69B007FF0CA /* Wheelsmith */,
 		);
-	};
-	28A0AAE50D9B0CCF005BE974 /* wheelsmith_Prefix.pch */ = {
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {951, 281}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 189}";
-		};
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
 		activeBuildConfigurationName = Debug;
-		activeExecutable = DF7B11480FAEA80F007FF0CA /* Unit Tests */;
-		activeTarget = DF7B11460FAEA80F007FF0CA /* Unit Tests */;
+		activeExecutable = DF7B10A80FAEA69B007FF0CA /* Wheelsmith */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* Wheelsmith */;
 		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* Wheelsmith */,
 		);
 		codeSenseManager = DF7B10B90FAEA6A8007FF0CA /* Code sense */;
 		executables = (
-			DF7B10A80FAEA69B007FF0CA /* wheelsmith */,
+			DF7B10A80FAEA69B007FF0CA /* Wheelsmith */,
 			DF7B11480FAEA80F007FF0CA /* Unit Tests */,
 		);
 		perUserDictionary = {
@@ -87,39 +81,41 @@
 			PBXWorkspaceStateSaveDate = 263107647;
 		};
 		perUserProjectItems = {
-			DF4664E10FAEB02400172895 = DF4664E10FAEB02400172895 /* PBXTextBookmark */;
-			DF4664E20FAEB02400172895 = DF4664E20FAEB02400172895 /* PBXBookmark */;
-			DF4664E40FAEB02400172895 = DF4664E40FAEB02400172895 /* PBXTextBookmark */;
-			DF4664E50FAEB02400172895 = DF4664E50FAEB02400172895 /* PBXBookmark */;
-			DF46650C0FAEB0F500172895 = DF46650C0FAEB0F500172895 /* PBXTextBookmark */;
-			DF4665190FAEB2D300172895 = DF4665190FAEB2D300172895 /* PBXTextBookmark */;
-			DF46651A0FAEB2D300172895 = DF46651A0FAEB2D300172895 /* PlistBookmark */;
-			DF46651C0FAEB2D300172895 = DF46651C0FAEB2D300172895 /* PBXTextBookmark */;
-			DF46651D0FAEB2D300172895 = DF46651D0FAEB2D300172895 /* PlistBookmark */;
-			DF7B13130FAEAD3F007FF0CA = DF7B13130FAEAD3F007FF0CA /* PBXTextBookmark */;
-			DF7B13140FAEAD3F007FF0CA = DF7B13140FAEAD3F007FF0CA /* PBXTextBookmark */;
-			DF7B13150FAEAD3F007FF0CA = DF7B13150FAEAD3F007FF0CA /* PlistBookmark */;
-			DF7B13170FAEAD3F007FF0CA = DF7B13170FAEAD3F007FF0CA /* PBXTextBookmark */;
-			DF7B13180FAEAD3F007FF0CA = DF7B13180FAEAD3F007FF0CA /* PBXTextBookmark */;
-			DF7B13190FAEAD3F007FF0CA = DF7B13190FAEAD3F007FF0CA /* PlistBookmark */;
-			DF7B13350FAEADF1007FF0CA = DF7B13350FAEADF1007FF0CA /* PBXTextBookmark */;
-			DF7B13390FAEAE0C007FF0CA = DF7B13390FAEAE0C007FF0CA /* PBXTextBookmark */;
-			DF8CFD8B0FAEB35900E299AF = DF8CFD8B0FAEB35900E299AF /* PBXTextBookmark */;
-			DF8CFD8C0FAEB35900E299AF = DF8CFD8C0FAEB35900E299AF /* PBXTextBookmark */;
+			DF4664E10FAEB02400172895 /* PBXTextBookmark */ = DF4664E10FAEB02400172895 /* PBXTextBookmark */;
+			DF4664E20FAEB02400172895 /* PBXBookmark */ = DF4664E20FAEB02400172895 /* PBXBookmark */;
+			DF4664E40FAEB02400172895 /* PBXTextBookmark */ = DF4664E40FAEB02400172895 /* PBXTextBookmark */;
+			DF4664E50FAEB02400172895 /* PBXBookmark */ = DF4664E50FAEB02400172895 /* PBXBookmark */;
+			DF46650C0FAEB0F500172895 /* PBXTextBookmark */ = DF46650C0FAEB0F500172895 /* PBXTextBookmark */;
+			DF46651C0FAEB2D300172895 /* PBXTextBookmark */ = DF46651C0FAEB2D300172895 /* PBXTextBookmark */;
+			DF46651D0FAEB2D300172895 /* PlistBookmark */ = DF46651D0FAEB2D300172895 /* PlistBookmark */;
+			DF7B13140FAEAD3F007FF0CA /* PBXTextBookmark */ = DF7B13140FAEAD3F007FF0CA /* PBXTextBookmark */;
+			DF7B13180FAEAD3F007FF0CA /* PBXTextBookmark */ = DF7B13180FAEAD3F007FF0CA /* PBXTextBookmark */;
+			DF7B13190FAEAD3F007FF0CA /* PlistBookmark */ = DF7B13190FAEAD3F007FF0CA /* PlistBookmark */;
+			DF7B13350FAEADF1007FF0CA /* PBXTextBookmark */ = DF7B13350FAEADF1007FF0CA /* PBXTextBookmark */;
+			DF7B13390FAEAE0C007FF0CA /* PBXTextBookmark */ = DF7B13390FAEAE0C007FF0CA /* PBXTextBookmark */;
 			DFD4DA120FAEB49500BC2BC2 /* PBXTextBookmark */ = DFD4DA120FAEB49500BC2BC2 /* PBXTextBookmark */;
 			DFD4DA130FAEB49500BC2BC2 /* PlistBookmark */ = DFD4DA130FAEB49500BC2BC2 /* PlistBookmark */;
 			DFD4DA140FAEB49500BC2BC2 /* PBXTextBookmark */ = DFD4DA140FAEB49500BC2BC2 /* PBXTextBookmark */;
 			DFD4DA150FAEB49500BC2BC2 /* PlistBookmark */ = DFD4DA150FAEB49500BC2BC2 /* PlistBookmark */;
-			DFD4DA160FAEB49500BC2BC2 /* PBXTextBookmark */ = DFD4DA160FAEB49500BC2BC2 /* PBXTextBookmark */;
-			DFD4DA170FAEB49500BC2BC2 /* PBXTextBookmark */ = DFD4DA170FAEB49500BC2BC2 /* PBXTextBookmark */;
-			DFD4DA2C0FAEB4B000BC2BC2 /* PBXTextBookmark */ = DFD4DA2C0FAEB4B000BC2BC2 /* PBXTextBookmark */;
-			DFD4DA2D0FAEB4B100BC2BC2 /* PBXTextBookmark */ = DFD4DA2D0FAEB4B100BC2BC2 /* PBXTextBookmark */;
+			DFD4DA360FAEB63200BC2BC2 /* PBXTextBookmark */ = DFD4DA360FAEB63200BC2BC2 /* PBXTextBookmark */;
+			DFD4DA380FAEB63200BC2BC2 /* PBXTextBookmark */ = DFD4DA380FAEB63200BC2BC2 /* PBXTextBookmark */;
+			DFD4DA420FAEB98700BC2BC2 /* PBXTextBookmark */ = DFD4DA420FAEB98700BC2BC2 /* PBXTextBookmark */;
+			DFD4DA440FAEB98700BC2BC2 /* PBXTextBookmark */ = DFD4DA440FAEB98700BC2BC2 /* PBXTextBookmark */;
+			DFD4DA4B0FAEBA4C00BC2BC2 /* PlistBookmark */ = DFD4DA4B0FAEBA4C00BC2BC2 /* PlistBookmark */;
+			DFD4DA4C0FAEBA4C00BC2BC2 /* PlistBookmark */ = DFD4DA4C0FAEBA4C00BC2BC2 /* PlistBookmark */;
+			DFD4DA500FAEBA5900BC2BC2 /* PBXTextBookmark */ = DFD4DA500FAEBA5900BC2BC2 /* PBXTextBookmark */;
 		};
 		sourceControlManager = DF7B10B80FAEA6A8007FF0CA /* Source Control */;
 		userBuildSettings = {
 		};
 	};
 	29B97316FDCFA39411CA2CEA /* main.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = main.m;
+		path = /Users/alon/Projects/wheelsmith/main.m;
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {951, 281}}";
 			sepNavSelRange = "{0, 0}";
@@ -164,27 +160,6 @@
 		vrLen = 762;
 		vrLoc = 0;
 	};
-	DF4665190FAEB2D300172895 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = DF7B12680FAEA9B5007FF0CA /* OCMockConstraint+Extensions.h */;
-		name = "OCMockConstraint+Extensions.h: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 109;
-		vrLoc = 0;
-	};
-	DF46651A0FAEB2D300172895 /* PlistBookmark */ = {
-		isa = PlistBookmark;
-		fRef = DF4665120FAEB1A200172895 /* Info.plist */;
-		fallbackIsa = PBXBookmark;
-		isK = 0;
-		kPath = (
-		);
-		name = /Users/alon/Projects/wheelsmith/Test/Resources/Info.plist;
-		rLen = 0;
-		rLoc = 2147483647;
-	};
 	DF46651C0FAEB2D300172895 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = DF7B12680FAEA9B5007FF0CA /* OCMockConstraint+Extensions.h */;
@@ -206,7 +181,7 @@
 		rLen = 0;
 		rLoc = 2147483647;
 	};
-	DF7B10A80FAEA69B007FF0CA /* wheelsmith */ = {
+	DF7B10A80FAEA69B007FF0CA /* Wheelsmith */ = {
 		isa = PBXExecutable;
 		activeArgIndices = (
 		);
@@ -226,7 +201,7 @@
 		executableSystemSymbolLevel = 0;
 		executableUserSymbolLevel = 0;
 		libgmallocEnabled = 0;
-		name = wheelsmith;
+		name = Wheelsmith;
 		savedGlobals = {
 		};
 		sourceDirectories = (
@@ -284,14 +259,14 @@
 	};
 	DF7B11F90FAEA9A3007FF0CA /* AppDelegate.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1219, 1184}}";
-			sepNavSelRange = "{454, 0}";
-			sepNavVisRange = "{152, 270}";
+			sepNavIntBoundsRect = "{{0, 0}, {964, 1088}}";
+			sepNavSelRange = "{2251, 23}";
+			sepNavVisRange = "{756, 1932}";
 		};
 	};
 	DF7B12680FAEA9B5007FF0CA /* OCMockConstraint+Extensions.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {853, 281}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1219, 197}}";
 			sepNavSelRange = "{0, 0}";
 			sepNavVisRange = "{0, 109}";
 		};
@@ -308,16 +283,6 @@
 			sepNavWindowFrame = "{{1240, 55}, {1277, 723}}";
 		};
 	};
-	DF7B13130FAEAD3F007FF0CA /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28A0AAE50D9B0CCF005BE974 /* wheelsmith_Prefix.pch */;
-		name = "wheelsmith_Prefix.pch: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 189;
-		vrLoc = 0;
-	};
 	DF7B13140FAEAD3F007FF0CA /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
@@ -326,27 +291,6 @@
 		rLoc = 0;
 		rType = 0;
 		vrLen = 229;
-		vrLoc = 0;
-	};
-	DF7B13150FAEAD3F007FF0CA /* PlistBookmark */ = {
-		isa = PlistBookmark;
-		fRef = DF7B130F0FAEACA8007FF0CA /* Info.plist */;
-		fallbackIsa = PBXBookmark;
-		isK = 0;
-		kPath = (
-		);
-		name = /Users/alon/Projects/wheelsmith/App/Resources/Info.plist;
-		rLen = 0;
-		rLoc = 2147483647;
-	};
-	DF7B13170FAEAD3F007FF0CA /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 28A0AAE50D9B0CCF005BE974 /* wheelsmith_Prefix.pch */;
-		name = "wheelsmith_Prefix.pch: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 189;
 		vrLoc = 0;
 	};
 	DF7B13180FAEAD3F007FF0CA /* PBXTextBookmark */ = {
@@ -390,24 +334,6 @@
 		vrLen = 314;
 		vrLoc = 0;
 	};
-	DF8CFD8B0FAEB35900E299AF /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		comments = "note: GTM Enabling zombies";
-		fRef = DF7B12780FAEA9B5007FF0CA /* RunIPhoneUnitTest.sh */;
-		rLen = 1;
-		rLoc = 72;
-		rType = 1;
-	};
-	DF8CFD8C0FAEB35900E299AF /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = DF7B12780FAEA9B5007FF0CA /* RunIPhoneUnitTest.sh */;
-		name = "RunIPhoneUnitTest.sh: 73";
-		rLen = 46;
-		rLoc = 2818;
-		rType = 0;
-		vrLen = 503;
-		vrLoc = 2927;
-	};
 	DFD4DA120FAEB49500BC2BC2 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = DF7B12780FAEA9B5007FF0CA /* RunIPhoneUnitTest.sh */;
@@ -450,7 +376,14 @@
 		rLen = 0;
 		rLoc = 2147483647;
 	};
-	DFD4DA160FAEB49500BC2BC2 /* PBXTextBookmark */ = {
+	DFD4DA300FAEB5DD00BC2BC2 /* wheelsmith_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1219, 197}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 189}";
+		};
+	};
+	DFD4DA360FAEB63200BC2BC2 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = DF7B12680FAEA9B5007FF0CA /* OCMockConstraint+Extensions.h */;
 		name = "OCMockConstraint+Extensions.h: 1";
@@ -460,7 +393,7 @@
 		vrLen = 109;
 		vrLoc = 0;
 	};
-	DFD4DA170FAEB49500BC2BC2 /* PBXTextBookmark */ = {
+	DFD4DA380FAEB63200BC2BC2 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = DF7B12680FAEA9B5007FF0CA /* OCMockConstraint+Extensions.h */;
 		name = "OCMockConstraint+Extensions.h: 1";
@@ -470,24 +403,58 @@
 		vrLen = 109;
 		vrLoc = 0;
 	};
-	DFD4DA2C0FAEB4B000BC2BC2 /* PBXTextBookmark */ = {
+	DFD4DA420FAEB98700BC2BC2 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = DF7B12680FAEA9B5007FF0CA /* OCMockConstraint+Extensions.h */;
-		name = "OCMockConstraint+Extensions.h: 1";
+		fRef = DFD4DA300FAEB5DD00BC2BC2 /* wheelsmith_Prefix.pch */;
+		name = "wheelsmith_Prefix.pch: 1";
 		rLen = 0;
 		rLoc = 0;
 		rType = 0;
-		vrLen = 109;
+		vrLen = 189;
 		vrLoc = 0;
 	};
-	DFD4DA2D0FAEB4B100BC2BC2 /* PBXTextBookmark */ = {
+	DFD4DA440FAEB98700BC2BC2 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = DF7B12680FAEA9B5007FF0CA /* OCMockConstraint+Extensions.h */;
-		name = "OCMockConstraint+Extensions.h: 1";
+		fRef = DFD4DA300FAEB5DD00BC2BC2 /* wheelsmith_Prefix.pch */;
+		name = "wheelsmith_Prefix.pch: 1";
 		rLen = 0;
 		rLoc = 0;
 		rType = 0;
-		vrLen = 109;
+		vrLen = 189;
 		vrLoc = 0;
+	};
+	DFD4DA4B0FAEBA4C00BC2BC2 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = DF7B130F0FAEACA8007FF0CA /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleExecutable,
+		);
+		name = /Users/alon/Projects/wheelsmith/App/Resources/Info.plist;
+		rLen = 18;
+		rLoc = 0;
+	};
+	DFD4DA4C0FAEBA4C00BC2BC2 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = DF7B130F0FAEACA8007FF0CA /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleExecutable,
+		);
+		name = /Users/alon/Projects/wheelsmith/App/Resources/Info.plist;
+		rLen = 18;
+		rLoc = 0;
+	};
+	DFD4DA500FAEBA5900BC2BC2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B11F90FAEA9A3007FF0CA /* AppDelegate.m */;
+		name = "AppDelegate.m: 45";
+		rLen = 23;
+		rLoc = 2251;
+		rType = 0;
+		vrLen = 1932;
+		vrLoc = 756;
 	};
 }

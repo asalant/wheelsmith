@@ -48,7 +48,7 @@
     menuController.hubBrandListController = hubBrandListController;
     
     
-    [self.navigationController pushViewController:menuController animated:NO];
+    [self.navigationController pushViewController:myWheelsController animated:NO];
     
 	// Configure and show the window
 	[window addSubview:[navigationController view]];
