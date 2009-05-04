@@ -92,6 +92,7 @@
 		DF7B13090FAEAC55007FF0CA /* OCMock.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = DF7B127A0FAEA9B5007FF0CA /* OCMock.framework */; };
 		DF7B132B0FAEADC0007FF0CA /* hamcrest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF7B12790FAEA9B5007FF0CA /* hamcrest.framework */; };
 		DF7B132C0FAEADC0007FF0CA /* OCMock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF7B127A0FAEA9B5007FF0CA /* OCMock.framework */; };
+		DFAAA3EC0FAECE7200699647 /* MyWheelsControllerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = DFAAA3EB0FAECE7200699647 /* MyWheelsControllerTest.m */; };
 		DFD4DA050FAEB47E00BC2BC2 /* WheelTest.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B126E0FAEA9B5007FF0CA /* WheelTest.m */; };
 		DFD4DA060FAEB47F00BC2BC2 /* UIViewController+Testable.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B126C0FAEA9B5007FF0CA /* UIViewController+Testable.m */; };
 		DFD4DA070FAEB48200BC2BC2 /* RimTest.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B12660FAEA9B5007FF0CA /* RimTest.m */; };
@@ -219,6 +220,7 @@
 		DF7B12820FAEA9B5007FF0CA /* file3 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = file3; sourceTree = "<group>"; };
 		DF7B12830FAEA9B5007FF0CA /* test.sqlite3 */ = {isa = PBXFileReference; lastKnownFileType = file; path = test.sqlite3; sourceTree = "<group>"; };
 		DF7B130F0FAEACA8007FF0CA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFAAA3EB0FAECE7200699647 /* MyWheelsControllerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyWheelsControllerTest.m; sourceTree = "<group>"; };
 		DFD4DA2F0FAEB5DD00BC2BC2 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DFD4DA300FAEB5DD00BC2BC2 /* wheelsmith_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wheelsmith_Prefix.pch; sourceTree = "<group>"; };
 		DFD4DA3F0FAEB98400BC2BC2 /* app_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app_icon.png; sourceTree = "<group>"; };
@@ -407,6 +409,7 @@
 		DF7B12600FAEA9B5007FF0CA /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				DFAAA3EB0FAECE7200699647 /* MyWheelsControllerTest.m */,
 				DF7B12610FAEA9B5007FF0CA /* DatabaseSelectTest.m */,
 				DF7B12620FAEA9B5007FF0CA /* HubDetailControllerTest.m */,
 				DF7B12630FAEA9B5007FF0CA /* HubTest.m */,
@@ -698,6 +701,7 @@
 				DFD4DA0D0FAEB48B00BC2BC2 /* HubDetailControllerTest.m in Sources */,
 				DFD4DA0E0FAEB48D00BC2BC2 /* DatabaseSelectTest.m in Sources */,
 				DFD4DA0F0FAEB48F00BC2BC2 /* HubTest.m in Sources */,
+				DFAAA3EC0FAECE7200699647 /* MyWheelsControllerTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

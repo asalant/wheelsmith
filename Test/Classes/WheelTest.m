@@ -62,7 +62,7 @@
     Wheel *wheel = [[Wheel alloc] init];
     wheel.spokePattern = [NSNumber numberWithInt:0];
     
-    assertThat(wheel.spokePatternDescription, equalTo(@"Radial"));
+    assertThat(wheel.spokePatternDescription, equalTo(@"radial"));
     
 }
 

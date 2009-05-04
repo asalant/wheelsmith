@@ -9,7 +9,7 @@
 
 - (NSString *) spokePatternDescription {
     if ([spokePattern intValue] == 0)
-        return @"Radial";
+        return @"radial";
     else
         return [NSString stringWithFormat:@"%@ across", spokePattern];
 }

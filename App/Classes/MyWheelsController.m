@@ -87,7 +87,7 @@
     
     Wheel *wheel = [wheels objectAtIndex:indexPath.row];
     [cell setLabel:[NSString stringWithFormat:@"%@ / %@", wheel.hub.brand, wheel.rim.brand]
-         withValue:[NSString stringWithFormat:@"%@ across", wheel.spokePattern]];
+         withValue:wheel.spokePatternDescription];
     cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
 
     return cell;

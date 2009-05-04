@@ -16,14 +16,7 @@
 
 -(void) setUp {
     controller = [[RimDetailController alloc] initWithNibName:@"RimDetailView" bundle:nil];
-    controller.brandLabel = [[UILabel alloc] init];
-    controller.descriptionLabel  = [[UILabel alloc] init];
-    controller.erdLabel  = [[UILabel alloc] init];
-    controller.offsetLabel  = [[UILabel alloc] init];
-    controller.isoLabel  = [[UILabel alloc] init];
-    controller.sizeLabel  = [[UILabel alloc] init];
-    controller.verifiedLabel  = [[UILabel alloc] init];
-    controller.notesTextView = [[UITextView alloc] init];
+    [controller loadView];
 }
 
 - (void) testErdFormatting {

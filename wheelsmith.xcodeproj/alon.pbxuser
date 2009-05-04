@@ -8,10 +8,10 @@
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
 		activeBuildConfigurationName = Debug;
-		activeExecutable = DF7B10A80FAEA69B007FF0CA /* Wheelsmith */;
-		activeTarget = 1D6058900D05DD3D006BFB54 /* Wheelsmith */;
+		activeExecutable = DF7B11480FAEA80F007FF0CA /* Unit Tests */;
+		activeTarget = DF7B11460FAEA80F007FF0CA /* Unit Tests */;
 		addToTargets = (
-			1D6058900D05DD3D006BFB54 /* Wheelsmith */,
+			DF7B11460FAEA80F007FF0CA /* Unit Tests */,
 		);
 		codeSenseManager = DF7B10B90FAEA6A8007FF0CA /* Code sense */;
 		executables = (
@@ -136,6 +136,35 @@
 			DFAAA3E80FAECDD600699647 /* PBXTextBookmark */ = DFAAA3E80FAECDD600699647 /* PBXTextBookmark */;
 			DFAAA3E90FAECDD600699647 /* PBXTextBookmark */ = DFAAA3E90FAECDD600699647 /* PBXTextBookmark */;
 			DFAAA3EA0FAECDD600699647 /* PBXTextBookmark */ = DFAAA3EA0FAECDD600699647 /* PBXTextBookmark */;
+			DFAAA3F60FAED17700699647 /* PBXTextBookmark */ = DFAAA3F60FAED17700699647 /* PBXTextBookmark */;
+			DFAAA3F70FAED17700699647 /* PBXTextBookmark */ = DFAAA3F70FAED17700699647 /* PBXTextBookmark */;
+			DFAAA3F80FAED17700699647 /* PBXTextBookmark */ = DFAAA3F80FAED17700699647 /* PBXTextBookmark */;
+			DFAAA3F90FAED17700699647 /* PBXTextBookmark */ = DFAAA3F90FAED17700699647 /* PBXTextBookmark */;
+			DFAAA3FA0FAED17700699647 /* PBXTextBookmark */ = DFAAA3FA0FAED17700699647 /* PBXTextBookmark */;
+			DFAAA3FB0FAED17700699647 /* PBXTextBookmark */ = DFAAA3FB0FAED17700699647 /* PBXTextBookmark */;
+			DFAAA3FC0FAED17700699647 /* PBXTextBookmark */ = DFAAA3FC0FAED17700699647 /* PBXTextBookmark */;
+			DFAAA3FD0FAED17700699647 /* PBXTextBookmark */ = DFAAA3FD0FAED17700699647 /* PBXTextBookmark */;
+			DFAAA3FE0FAED17700699647 /* PBXTextBookmark */ = DFAAA3FE0FAED17700699647 /* PBXTextBookmark */;
+			DFAAA3FF0FAED17700699647 /* PBXTextBookmark */ = DFAAA3FF0FAED17700699647 /* PBXTextBookmark */;
+			DFAAA4000FAED17700699647 /* PBXTextBookmark */ = DFAAA4000FAED17700699647 /* PBXTextBookmark */;
+			DFAAA4010FAED17700699647 /* PBXTextBookmark */ = DFAAA4010FAED17700699647 /* PBXTextBookmark */;
+			DFAAA4020FAED17700699647 /* PBXTextBookmark */ = DFAAA4020FAED17700699647 /* PBXTextBookmark */;
+			DFAAA4030FAED17700699647 /* PBXTextBookmark */ = DFAAA4030FAED17700699647 /* PBXTextBookmark */;
+			DFAAA4040FAED17700699647 /* PBXTextBookmark */ = DFAAA4040FAED17700699647 /* PBXTextBookmark */;
+			DFAAA4050FAED17800699647 /* PBXTextBookmark */ = DFAAA4050FAED17800699647 /* PBXTextBookmark */;
+			DFAAA4060FAED18E00699647 /* PBXTextBookmark */ = DFAAA4060FAED18E00699647 /* PBXTextBookmark */;
+			DFAAA4070FAED18E00699647 /* PBXTextBookmark */ = DFAAA4070FAED18E00699647 /* PBXTextBookmark */;
+			DFAAA4090FAED1A100699647 /* PBXTextBookmark */ = DFAAA4090FAED1A100699647 /* PBXTextBookmark */;
+			DFAAA40A0FAED1A100699647 /* PBXBookmark */ = DFAAA40A0FAED1A100699647 /* PBXBookmark */;
+			DFAAA40B0FAED1A100699647 /* PBXTextBookmark */ = DFAAA40B0FAED1A100699647 /* PBXTextBookmark */;
+			DFAAA40C0FAED1A100699647 /* PBXTextBookmark */ = DFAAA40C0FAED1A100699647 /* PBXTextBookmark */;
+			DFAAA40D0FAED1A100699647 /* PBXTextBookmark */ = DFAAA40D0FAED1A100699647 /* PBXTextBookmark */;
+			DFAAA40F0FAED1B000699647 /* PBXTextBookmark */ = DFAAA40F0FAED1B000699647 /* PBXTextBookmark */;
+			DFAAA4100FAED1B000699647 /* PBXTextBookmark */ = DFAAA4100FAED1B000699647 /* PBXTextBookmark */;
+			DFAAA4120FAED1B900699647 /* PBXTextBookmark */ = DFAAA4120FAED1B900699647 /* PBXTextBookmark */;
+			DFAAA4130FAED1B900699647 /* PBXTextBookmark */ = DFAAA4130FAED1B900699647 /* PBXTextBookmark */;
+			DFAAA4140FAED1B900699647 /* PBXTextBookmark */ = DFAAA4140FAED1B900699647 /* PBXTextBookmark */;
+			DFAAA4150FAED1B900699647 /* PBXTextBookmark */ = DFAAA4150FAED1B900699647 /* PBXTextBookmark */;
 			DFD4DA120FAEB49500BC2BC2 = DFD4DA120FAEB49500BC2BC2 /* PBXTextBookmark */;
 			DFD4DA130FAEB49500BC2BC2 = DFD4DA130FAEB49500BC2BC2 /* PlistBookmark */;
 			DFD4DA140FAEB49500BC2BC2 = DFD4DA140FAEB49500BC2BC2 /* PBXTextBookmark */;
@@ -297,9 +326,16 @@
 	};
 	DF7B11E30FAEA9A3007FF0CA /* HubDetailController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1219, 784}}";
-			sepNavSelRange = "{272, 0}";
-			sepNavVisRange = "{32, 372}";
+			sepNavIntBoundsRect = "{{0, 0}, {921, 656}}";
+			sepNavSelRange = "{546, 0}";
+			sepNavVisRange = "{0, 870}";
+		};
+	};
+	DF7B11E90FAEA9A3007FF0CA /* MyWheelsController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1069, 2416}}";
+			sepNavSelRange = "{2964, 0}";
+			sepNavVisRange = "{2158, 1067}";
 		};
 	};
 	DF7B11F80FAEA9A3007FF0CA /* AppDelegate.h */ = {
@@ -323,6 +359,13 @@
 			sepNavVisRange = "{175, 400}";
 		};
 	};
+	DF7B11FF0FAEA9A3007FF0CA /* Wheel.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1111, 1040}}";
+			sepNavSelRange = "{229, 0}";
+			sepNavVisRange = "{18, 588}";
+		};
+	};
 	DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1219, 2240}}";
@@ -334,7 +377,14 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1219, 496}}";
 			sepNavSelRange = "{770, 0}";
-			sepNavVisRange = "{384, 395}";
+			sepNavVisRange = "{433, 346}";
+		};
+	};
+	DF7B12650FAEA9B5007FF0CA /* RimDetailControllerTest.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {921, 576}}";
+			sepNavSelRange = "{502, 0}";
+			sepNavVisRange = "{327, 598}";
 		};
 	};
 	DF7B12680FAEA9B5007FF0CA /* OCMockConstraint+Extensions.h */ = {
@@ -344,11 +394,18 @@
 			sepNavVisRange = "{0, 109}";
 		};
 	};
+	DF7B126E0FAEA9B5007FF0CA /* WheelTest.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {921, 1264}}";
+			sepNavSelRange = "{1860, 0}";
+			sepNavVisRange = "{1488, 608}";
+		};
+	};
 	DF7B12780FAEA9B5007FF0CA /* RunIPhoneUnitTest.sh */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {853, 1552}}";
+			sepNavIntBoundsRect = "{{0, 0}, {921, 1532}}";
 			sepNavSelRange = "{2818, 46}";
-			sepNavVisRange = "{2922, 508}";
+			sepNavVisRange = "{2510, 569}";
 		};
 	};
 	DF7B130F0FAEACA8007FF0CA /* Info.plist */ = {
@@ -831,6 +888,294 @@
 		rType = 0;
 		vrLen = 395;
 		vrLoc = 384;
+	};
+	DFAAA3EB0FAECE7200699647 /* MyWheelsControllerTest.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1219, 512}}";
+			sepNavSelRange = "{867, 0}";
+			sepNavVisRange = "{445, 440}";
+			sepNavWindowFrame = "{{1240, 55}, {1277, 723}}";
+		};
+	};
+	DFAAA3F60FAED17700699647 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B11E30FAEA9A3007FF0CA /* HubDetailController.m */;
+		name = "HubDetailController.m: 16";
+		rLen = 0;
+		rLoc = 546;
+		rType = 0;
+		vrLen = 870;
+		vrLoc = 0;
+	};
+	DFAAA3F70FAED17700699647 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B12620FAEA9B5007FF0CA /* HubDetailControllerTest.m */;
+		name = "HubDetailControllerTest.m: 27";
+		rLen = 0;
+		rLoc = 770;
+		rType = 0;
+		vrLen = 590;
+		vrLoc = 183;
+	};
+	DFAAA3F80FAED17700699647 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B12650FAEA9B5007FF0CA /* RimDetailControllerTest.m */;
+		name = "RimDetailControllerTest.m: 19";
+		rLen = 0;
+		rLoc = 502;
+		rType = 0;
+		vrLen = 598;
+		vrLoc = 327;
+	};
+	DFAAA3F90FAED17700699647 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B126E0FAEA9B5007FF0CA /* WheelTest.m */;
+		name = "WheelTest.m: 16";
+		rLen = 57;
+		rLoc = 203;
+		rType = 0;
+		vrLen = 499;
+		vrLoc = 170;
+	};
+	DFAAA3FA0FAED17700699647 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B11E90FAEA9A3007FF0CA /* MyWheelsController.m */;
+		name = "MyWheelsController.m: 90";
+		rLen = 0;
+		rLoc = 2964;
+		rType = 0;
+		vrLen = 1067;
+		vrLoc = 2158;
+	};
+	DFAAA3FB0FAED17700699647 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B12780FAEA9B5007FF0CA /* RunIPhoneUnitTest.sh */;
+		name = "RunIPhoneUnitTest.sh: 73";
+		rLen = 46;
+		rLoc = 2818;
+		rType = 0;
+		vrLen = 569;
+		vrLoc = 2510;
+	};
+	DFAAA3FC0FAED17700699647 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "error: -[MyWheelsControllerTest testFormatsWheelCell] : Expected: is \"radial\", got: \"Radial\"";
+		fRef = DFAAA3EB0FAECE7200699647 /* MyWheelsControllerTest.m */;
+		rLen = 1;
+		rLoc = 27;
+		rType = 1;
+	};
+	DFAAA3FD0FAED17700699647 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B11E30FAEA9A3007FF0CA /* HubDetailController.m */;
+		name = "HubDetailController.m: 16";
+		rLen = 0;
+		rLoc = 546;
+		rType = 0;
+		vrLen = 870;
+		vrLoc = 0;
+	};
+	DFAAA3FE0FAED17700699647 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B12620FAEA9B5007FF0CA /* HubDetailControllerTest.m */;
+		name = "HubDetailControllerTest.m: 27";
+		rLen = 0;
+		rLoc = 770;
+		rType = 0;
+		vrLen = 590;
+		vrLoc = 183;
+	};
+	DFAAA3FF0FAED17700699647 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DFAAA3EB0FAECE7200699647 /* MyWheelsControllerTest.m */;
+		name = "MyWheelsControllerTest.m: 28";
+		rLen = 0;
+		rLoc = 876;
+		rType = 0;
+		vrLen = 640;
+		vrLoc = 239;
+	};
+	DFAAA4000FAED17700699647 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B12650FAEA9B5007FF0CA /* RimDetailControllerTest.m */;
+		name = "RimDetailControllerTest.m: 19";
+		rLen = 0;
+		rLoc = 502;
+		rType = 0;
+		vrLen = 598;
+		vrLoc = 327;
+	};
+	DFAAA4010FAED17700699647 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B126E0FAEA9B5007FF0CA /* WheelTest.m */;
+		name = "WheelTest.m: 16";
+		rLen = 57;
+		rLoc = 203;
+		rType = 0;
+		vrLen = 499;
+		vrLoc = 170;
+	};
+	DFAAA4020FAED17700699647 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B11E90FAEA9A3007FF0CA /* MyWheelsController.m */;
+		name = "MyWheelsController.m: 90";
+		rLen = 0;
+		rLoc = 2964;
+		rType = 0;
+		vrLen = 1067;
+		vrLoc = 2158;
+	};
+	DFAAA4030FAED17700699647 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B12780FAEA9B5007FF0CA /* RunIPhoneUnitTest.sh */;
+		name = "RunIPhoneUnitTest.sh: 73";
+		rLen = 46;
+		rLoc = 2818;
+		rType = 0;
+		vrLen = 569;
+		vrLoc = 2510;
+	};
+	DFAAA4040FAED17700699647 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DFAAA3EB0FAECE7200699647 /* MyWheelsControllerTest.m */;
+		name = "MyWheelsControllerTest.m: 28";
+		rLen = 0;
+		rLoc = 867;
+		rType = 0;
+		vrLen = 627;
+		vrLoc = 258;
+	};
+	DFAAA4050FAED17800699647 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DFAAA3EB0FAECE7200699647 /* MyWheelsControllerTest.m */;
+		name = "MyWheelsControllerTest.m: 28";
+		rLen = 0;
+		rLoc = 867;
+		rType = 0;
+		vrLen = 627;
+		vrLoc = 258;
+	};
+	DFAAA4060FAED18E00699647 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B12620FAEA9B5007FF0CA /* HubDetailControllerTest.m */;
+		name = "HubDetailControllerTest.m: 27";
+		rLen = 0;
+		rLoc = 770;
+		rType = 0;
+		vrLen = 346;
+		vrLoc = 433;
+	};
+	DFAAA4070FAED18E00699647 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DFAAA3EB0FAECE7200699647 /* MyWheelsControllerTest.m */;
+		name = "MyWheelsControllerTest.m: 28";
+		rLen = 0;
+		rLoc = 867;
+		rType = 0;
+		vrLen = 478;
+		vrLoc = 407;
+	};
+	DFAAA4090FAED1A100699647 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DFAAA3EB0FAECE7200699647 /* MyWheelsControllerTest.m */;
+		name = "MyWheelsControllerTest.m: 28";
+		rLen = 0;
+		rLoc = 867;
+		rType = 0;
+		vrLen = 627;
+		vrLoc = 258;
+	};
+	DFAAA40A0FAED1A100699647 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = DF7B11FF0FAEA9A3007FF0CA /* Wheel.m */;
+	};
+	DFAAA40B0FAED1A100699647 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DFAAA3EB0FAECE7200699647 /* MyWheelsControllerTest.m */;
+		name = "MyWheelsControllerTest.m: 28";
+		rLen = 0;
+		rLoc = 867;
+		rType = 0;
+		vrLen = 627;
+		vrLoc = 258;
+	};
+	DFAAA40C0FAED1A100699647 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B11FF0FAEA9A3007FF0CA /* Wheel.m */;
+		name = "Wheel.m: 12";
+		rLen = 0;
+		rLoc = 229;
+		rType = 0;
+		vrLen = 862;
+		vrLoc = 91;
+	};
+	DFAAA40D0FAED1A100699647 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B11FF0FAEA9A3007FF0CA /* Wheel.m */;
+		name = "Wheel.m: 12";
+		rLen = 0;
+		rLoc = 229;
+		rType = 0;
+		vrLen = 479;
+		vrLoc = 18;
+	};
+	DFAAA40F0FAED1B000699647 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DFAAA3EB0FAECE7200699647 /* MyWheelsControllerTest.m */;
+		name = "MyWheelsControllerTest.m: 28";
+		rLen = 0;
+		rLoc = 867;
+		rType = 0;
+		vrLen = 440;
+		vrLoc = 445;
+	};
+	DFAAA4100FAED1B000699647 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B11FF0FAEA9A3007FF0CA /* Wheel.m */;
+		name = "Wheel.m: 12";
+		rLen = 0;
+		rLoc = 229;
+		rType = 0;
+		vrLen = 372;
+		vrLoc = 91;
+	};
+	DFAAA4120FAED1B900699647 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B11FF0FAEA9A3007FF0CA /* Wheel.m */;
+		name = "Wheel.m: 12";
+		rLen = 0;
+		rLoc = 229;
+		rType = 0;
+		vrLen = 588;
+		vrLoc = 18;
+	};
+	DFAAA4130FAED1B900699647 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "error: -[WheelTest testPatternDescriptionIsRadial] : Expected: \"Radial\", got: \"radial\"";
+		fRef = DF7B126E0FAEA9B5007FF0CA /* WheelTest.m */;
+		rLen = 1;
+		rLoc = 64;
+		rType = 1;
+	};
+	DFAAA4140FAED1B900699647 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B11FF0FAEA9A3007FF0CA /* Wheel.m */;
+		name = "Wheel.m: 12";
+		rLen = 0;
+		rLoc = 229;
+		rType = 0;
+		vrLen = 588;
+		vrLoc = 18;
+	};
+	DFAAA4150FAED1B900699647 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B126E0FAEA9B5007FF0CA /* WheelTest.m */;
+		name = "WheelTest.m: 65";
+		rLen = 0;
+		rLoc = 1860;
+		rType = 0;
+		vrLen = 608;
+		vrLoc = 1488;
 	};
 	DFD4DA120FAEB49500BC2BC2 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
