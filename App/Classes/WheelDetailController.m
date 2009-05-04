@@ -26,7 +26,7 @@
         
         spokePatternPicker = [[[PickerController alloc] initWithNibName:@"PickerView" bundle:nil] retain];
         spokePatternPicker.target = self;
-        spokePatternPicker.handler = @selector(spokePatternPicked:);
+        spokePatternPicker.handler = @selector(setSpokePattern:);
         {
             NSMutableArray *options = [NSMutableArray arrayWithCapacity:20];
             int i;
@@ -57,13 +57,8 @@
                                                                                                 target:self 
                                                                                                 action:@selector(saveWheel)] autorelease];
     }
+    [self updateView];
     
-    [rimCell setValue:wheel.rim ? wheel.rim.description : @"Choose Rim"];
-    [hubCell setValue:wheel.hub ? wheel.hub.description : @"Choose Hub"];
-    [spokePatternCell setValue:wheel.spokePattern ? wheel.spokePatternDescription : @"Choose Pattern"];
-    
-    [self recalculate];
-    [self.tableView reloadData];
 }
 
 #pragma mark New Wheel controls
@@ -79,17 +74,32 @@
     [self dismissModal];
 }
 
-#pragma mark Handlers for editing views
+#pragma mark EditWheelDelegate methods
 
-- (void) spokePatternPicked:(NSNumber *)item {
-    wheel.spokePattern = item;
-    [spokePatternCell setValue:wheel.spokePatternDescription];
-    [self recalculate];
+-(void)setHub:(Hub *)hub {
+    self.wheel.hub = hub;
+    [self.navigationController popToViewController:self animated:YES];
 }
 
-- (void) recalculate {
+-(void)setRim:(Rim *)rim {
+    self.wheel.rim = rim;
+    [self.navigationController popToViewController:self animated:YES];
+}
+
+-(void)setSpokePattern:(NSNumber *)across {
+    wheel.spokePattern = across;
+    [self dismissModalViewControllerAnimated:YES];
+}
+
+- (void) updateView {
+    [rimCell setValue:wheel.rim ? wheel.rim.description : @"Choose Rim"];
+    [hubCell setValue:wheel.hub ? wheel.hub.description : @"Choose Hub"];
+    [spokePatternCell setValue:wheel.spokePattern ? wheel.spokePatternDescription : @"Choose Pattern"];
+    
     [leftLengthCell setValue:[NSString stringWithFormat:@"%@mm  ", [wheel leftSpokeLength]]];
     [rightLengthCell setValue:[NSString stringWithFormat:@"%@mm  ", [wheel rightSpokeLength]]];
+    
+    [self.tableView reloadData];
 }
 
 #pragma mark Table view methods
@@ -121,6 +131,7 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     UITableViewCell *cell = [[sections objectAtIndex:indexPath.section] objectAtIndex:indexPath.row];
     if (cell == hubCell) {
+        hubDetailController.editWheelDelegate = self;
         if (wheel.hub) {
             hubDetailController.hub = wheel.hub;
             [self.navigationController pushViewController:hubDetailController animated:YES];
@@ -130,6 +141,7 @@
         }
     }
     else if (cell == rimCell) {
+        rimDetailController.editWheelDelegate = self;
         if (wheel.rim) {
             rimDetailController.rim = wheel.rim;
             [self.navigationController pushViewController:rimDetailController animated:YES];

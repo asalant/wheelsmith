@@ -223,6 +223,7 @@
 		DF7B130F0FAEACA8007FF0CA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DFAAA3EB0FAECE7200699647 /* MyWheelsControllerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyWheelsControllerTest.m; sourceTree = "<group>"; };
 		DFAAA4320FAF1B0B00699647 /* WheelDetailControllerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WheelDetailControllerTest.m; sourceTree = "<group>"; };
+		DFAAA5A40FAF57F400699647 /* EditWheelDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditWheelDelegate.h; sourceTree = "<group>"; };
 		DFD4DA2F0FAEB5DD00BC2BC2 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DFD4DA300FAEB5DD00BC2BC2 /* wheelsmith_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wheelsmith_Prefix.pch; sourceTree = "<group>"; };
 		DFD4DA3F0FAEB98400BC2BC2 /* app_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app_icon.png; sourceTree = "<group>"; };
@@ -357,6 +358,7 @@
 				DF7B11FF0FAEA9A3007FF0CA /* Wheel.m */,
 				DF7B12000FAEA9A3007FF0CA /* WheelDetailController.h */,
 				DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */,
+				DFAAA5A40FAF57F400699647 /* EditWheelDelegate.h */,
 			);
 			path = Classes;
 			sourceTree = "<group>";

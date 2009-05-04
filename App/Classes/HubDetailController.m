@@ -6,6 +6,7 @@
 @synthesize hub;
 @synthesize brandLabel, descriptionLabel;
 @synthesize rearLabel, holeCountLabel, leftFlangeDiameter, leftFlangeToCenter, rightFlangeDiameter, rightFlangeToCenter;
+@synthesize editWheelDelegate;
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
@@ -21,7 +22,7 @@
 }
 
 -(IBAction) chooseHub {
-    //EditWheelDelegate setHub
+    [self.editWheelDelegate setHub:hub];
 }
 
 - (void)dealloc {

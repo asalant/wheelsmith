@@ -1,5 +1,6 @@
 #import <UIKit/UIKit.h>
 #import "Rim.h"
+#import "EditWheelDelegate.h"
 
 @interface RimDetailController : UIViewController {
     Rim *rim;
@@ -11,6 +12,7 @@
     IBOutlet UILabel *sizeLabel;
     IBOutlet UITextView *notesTextView;
     IBOutlet UILabel *verifiedLabel;
+    id<EditWheelDelegate> editWheelDelegate;
 }
 
 @property(nonatomic, retain) Rim *rim;
@@ -22,5 +24,8 @@
 @property(nonatomic, retain) UILabel *sizeLabel;
 @property(nonatomic, retain) UITextView *notesTextView;
 @property(nonatomic, retain) UILabel *verifiedLabel;
+@property(nonatomic, retain) id<EditWheelDelegate> editWheelDelegate;
+
+-(IBAction)chooseRim;
 
 @end

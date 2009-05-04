@@ -31,6 +31,10 @@
     assertThat(wheel.spokePattern, equalTo([NSNumber numberWithInt:3]));
 }
 
+- (void) testAddsWheel {
+    
+}
+
 - (void) testCalculatesSpokeLength {
  
     Wheel *wheel = [[Wheel alloc] init];

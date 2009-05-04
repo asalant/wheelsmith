@@ -6,8 +6,9 @@
 #import "RimBrandsController.h"
 #import "LabeledValueCell.h"
 #import "PickerController.h"
+#import "EditWheelDelegate.h"
 
-@interface WheelDetailController : UITableViewController {
+@interface WheelDetailController : UITableViewController <EditWheelDelegate> {
     Wheel *wheel;
     LabeledValueCell *rimCell;
     LabeledValueCell *hubCell;
@@ -30,6 +31,6 @@
 @property(nonatomic, retain) HubBrandsController *hubBrandsController;
 @property(nonatomic, retain) RimBrandsController *rimBrandsController;
 
-- (void) recalculate;
+- (void) updateView;
 
 @end

@@ -1,5 +1,6 @@
 #import <UIKit/UIKit.h>
 #import "Hub.h"
+#import "EditWheelDelegate.h"
 
 @interface HubDetailController : UIViewController {
     Hub *hub;
@@ -11,6 +12,7 @@
     IBOutlet UILabel *leftFlangeToCenter;
     IBOutlet UILabel *rightFlangeDiameter;
     IBOutlet UILabel *rightFlangeToCenter;
+    id<EditWheelDelegate> editWheelDelegate;
 }
 
 @property(nonatomic, retain) Hub *hub;
@@ -22,6 +24,7 @@
 @property(nonatomic, retain) UILabel *leftFlangeToCenter;
 @property(nonatomic, retain) UILabel *rightFlangeDiameter;
 @property(nonatomic, retain) UILabel *rightFlangeToCenter;
+@property(nonatomic, retain) id<EditWheelDelegate> editWheelDelegate;
 
 -(IBAction) chooseHub;
 

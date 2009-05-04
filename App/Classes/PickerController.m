@@ -24,7 +24,6 @@
 }
 
 - (void)pickerView:(UIPickerView *)pickerView didSelectRow:(NSInteger)row inComponent:(NSInteger)component {
-    [self.navigationController dismissModalViewControllerAnimated:YES];
     if (target && handler) {
         [target performSelector:handler withObject:[options objectAtIndex:row]];
     }

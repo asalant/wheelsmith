@@ -22,13 +22,13 @@
     self.title = @"My Wheels";
     self.navigationItem.rightBarButtonItem = [[[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd 
                                                                                            target:self 
-                                                                                           action:@selector(addButtonWasPressed)] autorelease];
+                                                                                           action:@selector(addWheel)] autorelease];
 }
 
 #pragma mark Add Wheel
 
--(void)addButtonWasPressed {
-    wheelDetailController.wheel = [[[Wheel alloc] init] autorelease];
+-(void)addWheel {
+    ((WheelDetailController *)newWheelController.topViewController).wheel = [[[Wheel alloc] init] autorelease];
     [self presentModalViewController:newWheelController animated:YES];
 }
 
