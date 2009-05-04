@@ -1,0 +1,21 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+record_front:
+  brand: Campagnolo
+  description: Campagnolo Record Front 32h Black
+  rear: false
+  right_flange_diameter: 39.0
+  right_flange_to_center: 35.0
+  left_flange_diameter: 39.0
+  left_flange_to_center: 35.0
+  hole_count: 32
+
+record_rear:
+  brand: Campagnolo
+  description: Campagnolo Record Front 32h Black
+  rear: false
+  right_flange_diameter: 44.0
+  right_flange_to_center: 36.0
+  left_flange_diameter: 46.0
+  left_flange_to_center: 16.5
+  hole_count: 32

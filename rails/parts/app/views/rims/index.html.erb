@@ -1,0 +1,30 @@
+<h1>Listing rims</h1>
+
+<table>
+  <tr>
+    <th>Brand</th>
+    <th>Description</th>
+    <th>Size</th>
+    <th>Erd</th>
+    <th>Offset</th>
+    <th>Hole count</th>
+  </tr>
+
+<% for rim in @rims %>
+  <tr>
+    <td><%=h rim.brand %></td>
+    <td><%=h rim.description %></td>
+    <td><%=h rim.size %></td>
+    <td><%=h rim.erd %></td>
+    <td><%=h rim.offset %></td>
+    <td><%=h rim.hole_count %></td>
+    <td><%= link_to 'Show', rim %></td>
+    <td><%= link_to 'Edit', edit_rim_path(rim) %></td>
+    <td><%= link_to 'Destroy', rim, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New rim', new_rim_path %>

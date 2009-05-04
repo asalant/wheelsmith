@@ -1,0 +1,601 @@
+Part#	Descrip	Brand	Size	ERD (mm) 	Offset (mm)	Holes
+RM0001	Surly Large Marge DH 	Surly	559	536.00	0.00	32
+RM0002	Surly Large Marge DH 	Surly	559	536.00	0.00	36
+RM0003	Surly Large Marge XC 	Surly	559	536.00	0.00	32
+RM0004	Surly 24" Large Marge DH Rim, 32-hole, black	Surly	507	487.00	0.00	32
+RM0005	Surly 24" Large Marge DH Rim, 36-hole, black	Surly	507	487.00	0.00	36
+RM0006	Surly 26" Large Marge XC rim, 36-hole, black	Surly	559	536.00	0.00	36
+RM0011	Surly Large Marge rim offset drilled, 32h, DH *Build with 12mm Brass nipples only	Surly	559	534.00	6.00	32
+RM0012	Surly Large Marge rim offset drilled, 36h, DH *Build with 12mm Brass nipples only	Surly	559	534.00	6.00	36
+RM0013	Surly Large Marge rim Offset drilled, 32h, XC *Build with 12mm Brass nipples only	Surly	559	535.00	6.00	32
+RM0050	Salsa 26" Delgado Disc 32h Black	Salsa	559	544.00	0.00	32
+RM0051	Salsa 26" Delgado Disc 36h Black	Salsa	559	544.00	0.00	36
+RM0053	Salsa Delgado 29er Disc 32h rim - Black	Salsa	622	603.00	0.00	32
+RM0054	Salsa Delgado 29er Disc 36h rim - Black	Salsa	622	603.00	0.00	36
+RM0056	Salsa Delgado Race Disc 26", 32H, Black	Salsa	559	542.00	0.00	32
+RM0057	Salsa Delgado Race Disc 26", 36H, Black	Salsa	559	543.00	0.00	36
+RM0058	Salsa Delgado Race Disc 29", 32h, Black	Salsa	622	603.00	0.00	32
+RM0059	Salsa Delgado Race Disc 29", 36H, Black	Salsa	622	603.00	0.00	36
+RM0060	Salsa Delgado Race Disc 26", 32h, Polished	Salsa	559	542.00	0.00	32
+RM0062	Salsa Delgado Race Disc 29", 32h, Polished	Salsa	622	603.00	0.00	32
+RM0063	Salsa Delgado Race Disc 29", 36h, Polished	Salsa	622	603.00	0.00	36
+RM0066	Salsa Delgado 29er Disc  32h, POLISHED	Salsa	622	604.00	0.00	32
+RM0067	Salsa Delgado 29er Disc  36h, POLISHED	Salsa	622	604.00	0.00	36
+RM0074	Salsa Semi 29'er Disc 32h, Black welded	Salsa	622	603.00	0.00	32
+RM0076	Salsa Semi 29'er Disc 36h, Black welded	Salsa	622	603.00	0.00	36
+RM0084	Salsa Semi 29'er Disc 32h, Silver welded	Salsa	622	603.00	0.00	32
+RM0094	Salsa Gordo 29'er Disc 32h, Black	Salsa Cycles	622	603.00	0.00	32
+RM0096	Salsa Gordo 29'er Disc 36h, Black	Salsa Cycles	622	603.00	0.00	36
+RM0300	Edge Composites 1.24 Tubular Rim 700c Black 20h	Edge Composites	622	588.00	0.00	20
+RM0301	Edge Composites 1.24 Tubular Rim 700c Black 24h	Edge Composites	622	588.00	0.00	24
+RM0302	Edge Composites 1.45mm Tubular Rim 700c Black 18h	Edge Composites	622	547.00	0.00	18
+RM0303	Edge Composites 1.45mm Tubular Rim 700c Black 20h	Edge Composites	622	547.00	0.00	20
+RM0304	Edge Composites 1.45mm Tubular Rim 700c Black 24h	Edge Composites	622	547.00	0.00	24
+RM0305	Edge Composites 1.45mm Tubular Rim 700c Black 28h	Edge Composites	622	547.00	0.00	28
+RM0310	Edge Composites 45mm Clincher Rim 700c Black 18h	Edge Composites	622	546.50	0.00	18
+RM0311	Edge Composites 45mm Clincher Rim 700c Black 20h	Edge Composites	622	546.50	0.00	20
+RM0312	Edge Composites 45mm Clincher Rim 700c Black 24h	Edge Composites	622	546.50	0.00	24
+RM0313	Edge Composites 45mm Clincher Rim 700c Black 28h	Edge Composites	622	546.50	0.00	28
+RM0314	Edge Composites 1.68 Tubular Rim 700c Black 16h	Edge Composites	622	506.00	0.00	16
+RM0315	Edge Composites 1.68 Tubular Rim 700c Black 20h	Edge Composites	622	506.00	0.00	20
+RM0316	Edge Composites 1.68 Tubular Rim 700c Black 24h	Edge Composites	622	506.00	0.00	24
+RM0317	Edge Composites 1.68 Tubular Rim 700c Black 28h	Edge Composites	622	506.00	0.00	28
+RM0322	Edge Composites 68 Clincher Rim 700c Black 16h	Edge Composites	622	506.00	0.00	16
+RM0323	Edge Composites 68 Clincher Rim 700c Black 20h	Edge Composites	622	506.00	0.00	20
+RM0324	Edge Composites 68 Clincher Rim 700c Black 24h	Edge Composites	622	506.00	0.00	24
+RM0325	Edge Composites 68 Clincher Rim 700c Black 28h	Edge Composites	622	506.00	0.00	28
+RM0326	Edge Composites Mountain XC Tubular Black 28h	Edge Composites	559	514.00	0.00	28
+RM0328	Edge Composites 26" Mountain XC Clincher Black 28h	Edge Composites	559	514.00	0.00	28
+RM0329	Edge Composites 26" Mountain XC Clincher Black 32h	Edge Composites	559	514.00	0.00	32
+RM1061B	Mavic A719 700c 36h Silver	Mavic	622	602.00	0.00	36
+RM1065B	Mavic A719 700c 36h Black	Mavic	622	601.50	0.00	36
+RM1066B	Mavic A719 700c 40h Black	Mavic	622	603.00	0.00	40
+RM1070B	Mavic A317 Disc 700c 36h silver	Mavic	622	600.00	0.00	36
+RM1080B	Mavic A319 32h 700c Black	Mavic	622	603.00	0.00	32
+RM1081B	Mavic A319 36h 700c Black	Mavic	622	603.00	0.00	36
+RM1100B	Mavic EX729 Disc 26" 32h  CD	Mavic	559	537.00	0.00	32
+RM1101B	Mavic EX729 Disc 26" 36h  CD	Mavic	559	537.00	0.00	36
+RM1115B	Mavic XM117 26" 32h Blac k	Mavic	559	542.00	0.00	32
+RM1120B	Mavic XC117 Disc 26" 32h  Black	Mavic	559	542.00	0.00	32
+RM1125B	Mavic XM321 Disc 26" 32h  Black	Mavic	559	539.00	0.00	32
+RM1130B	Mavic XC717 Ceramic 26" 32h Black	Mavic	559	540.00	0.00	32
+RM1135B	Mavic XC717 26" 28h Blac k	Mavic	559	540.00	0.00	28
+RM1136B	Mavic XC717 26" 32h Black	Mavic	559	540.00	0.00	32
+RM1137B	Mavic XC717 26" 36h Blac k	Mavic	559	540.00	0.00	36
+RM1140B	Mavic XC717 26" 32h Silv er	Mavic	559	540.00	0.00	32
+RM1145B	Mavic XC717 Disc 26" 32h Black	Mavic	559	540.00	0.00	32
+RM1148B	Mavic XC717 Disc 26" 32h Silver	Mavic	559	541.00	0.00	32
+RM1152B	Mavic XM819 Rim Brake  UST 26" 32h Black	Mavic	559	535.00	0.00	32
+RM1157B	Mavic XM819 Disc UST 26" 32h Black	Mavic	559	535.00	0.00	32
+RM1160B	Mavic EX823 Disc UST 26" 32h Black	Mavic	559	532.00	0.00	32
+RM1171B	Mavic XM317 32h 26" Black	Mavic	559	543.00	0.00	32
+RM1180B	Mavic EX325disc 32h 26" Black	Mavic	559	538.00	0.00	32
+RM1181B	Mavic EX325disc 36h 26" Black	Mavic	559	538.00	0.00	36
+RM1195B	Mavic XM317disc 32h 26" Black 23.5mm wide	Mavic	559	538.00	0.00	32
+RM1469	Sun ME-14A 24" Road 28 Hole Black with Silver Sides Rim ABT (Advanced Brake Track: rim sidewalls are brushed for more consistent and enhanced braking)	Sun	520	498.00	0.00	28
+RM1470	Sun ME-14A 24" 32H Black Road Rim ABT (Advanced Brake Track: rim sidewalls are brushed for more consistent and enhanced braking)	Sun	520	498.00	0.00	32
+RM1484	Sun ME-14A 700c 32 Hole Polish Road Rim ABT (Advanced Brake Track: rim sidewalls are brushed for more consistent and enhanced braking)	Sun	622	601.00	0.00	32
+RM1565	WTB SpeedMaster Rim	WTB	559	544.00	0.00	32
+RM1566	WTB Dual Duty XC Rim32 Hole Black	WTB	559	543.00	0.00	32
+RM1568	WTB Speedmaster 24x11.3  700c	WTB	622	607.00	0.00	32
+RM1569	WTB Dual Duty  XC 29'er Rim 	WTB	622	605.00	0.00	32
+RM1580	WTB LaserDisc DH Rim 32 hole Black	WTB	559	540.00	0.00	32
+RM1584	WTB LaserDisc XC Rim 32 hole, black	WTB	559	544.00	0.00	32
+RM1590	WTB SpeedDisc XC Rim	WTB	559	542.00	0.00	32
+RM1600	WTB SpeedDisc rim 32h Black     26"	WTB	559	543.00	0.00	32
+RM1602	WTB SpeedDisc 700c  rim 32h  Black	WTB	622	605.00	0.00	32
+RM1604	WTB Dual Duty XC Rim 32h Black 26"	WTB	559	543.00	0.00	32
+RM1606	WTB Dual Duty 700c Rim 32h Black	WTB	622	606.00	0.00	32
+RM1608	WTB Dual Duty FR Rim 32h Black 26"	WTB	559	540.00	0.00	32
+RM1610	WTB Dual Duty FR 29'er Rim 32h Black	WTB	622	602.00	0.00	32
+RM1615	WTB SpeedDisc Trail Rim 26" 32h Black disc only	WTB	559	542.00	0.00	32
+RM1620	WTB SpeedDisc Trail Rim 29'er 32h Blk disc only	WTB	622	607.00	0.00	32
+RM1630	WTB SpeedDisc Rim 32 hole  Black	WTB	559	541.50	0.00	32
+RM1632	WTB SpeedDisc 700c Rim 32 hole   Black	WTB	622	604.00	0.00	32
+RM1634	WTB SpeedDisc All Mtn Rim   32 hole Black	WTB	559	541.00	0.00	32
+RM1635	2007 WTB SpeedDisc All Mountain 29'er, PV Rim 32 hole Black	WTB	622	603.00	0.00	32
+RM1636	WTB SpeedDisc XL Rim 32 hole   Black	WTB	559	534.00	0.00	32
+RM1638	WTB Dual Duty XC Rim 32 hole  Black/Silver	WTB	559	542.00	0.00	32
+RM1640	WTB Dual Duty XC 700c Rim  32 hole  Black/Silver	WTB	622	605.00	0.00	32
+RM1642	WTB Dual Duty FR Rim 32 hole  Black	WTB	559	536.00	0.00	32
+RM1644	WTB Dual Duty FR 29er Rim  32 hole  Black	WTB	622	599.00	0.00	32
+RM1646	WTB LaserDisc XC Rim 32 hole Black	WTB	559	540.00	0.00	32
+RM1648	WTB LaserDisc Trail Rim 32 hole  Black	WTB	559	541.00	0.00	32
+RM1650	WTB LaserDisc Trail 29er Rim  32 hole   Black	WTB	622	605.00	0.00	32
+RM1652	WTB LaserDisc FR Rim 32 hole Black	WTB	559	540.00	0.00	32
+RM1654	WTB LaserDisc DH Rim 32 hole Black	WTB	559	537.00	0.00	32
+RM1708	DT Swiss XR4.1 28 hole 26" Mountain Black	DT Swiss	559	536.00	0.00	28
+RM1710	DT Swiss XR4.1 32 hole 26" Mountain Black	DT Swiss	559	536.00	0.00	32
+RM1712	DT Swiss XR4.1 36 hole 26" Mountain Black	DT Swiss	559	536.00	0.00	36
+RM1715	DT Swiss XR4.2d 32h Disc Mountain Rim White	DT Swiss	559	541.00	0.00	32
+RM1717	DT Swiss XR4.2d 28h Disc Mountain Rim Black	DT Swiss	559	541.00	0.00	28
+RM1718	DT Swiss XR4.1d 28 hole Disc 26" Mountain Black	DT Swiss	559	536.00	0.00	28
+RM1719	DT Swiss XR4.2d 32h Disc Mountain Rim Black	DT Swiss	559	541.00	0.00	32
+RM1720	DT Swiss XR4.1d 32 hole Disc 26" Mountain Black	DT Swiss	559	536.00	0.00	32
+RM1722	DT Swiss XR4.1d 36 hole Disc 26" Mountain Black	DT Swiss	559	536.00	0.00	36
+RM1730	DT Swiss FR 6.1d 32h Black Freeride Mountain Disc	DT Swiss	559	531.00	0.00	32
+RM1732	DT Swiss FR 6.1d 36h Black Freeride Mountain Disc	DT Swiss	559	530.00	0.00	36
+RM1734	DT Swiss EX 5.1d 32h Enduro Rim Black 26" Mountain	DT Swiss	559	537.50	0.00	32
+RM1736	DT Swiss EX 5.1d 36h Enduro Rim Black 26" Mountain	DT Swiss	559	537.50	0.00	36
+RM1738	DT Swiss RR 1.1 700c 28H White	DT Swiss	622	598.00	0.00	28
+RM1740	DT Swiss RR 1.1 700c 28H Black	DT Swiss	622	597.00	0.00	28
+RM1742	DT Swiss RR 1.1 700c 32H Black  *double eyelet*	DT Swiss	622	597.00	0.00	32
+RM1744	DT Swiss RR 1.1 700c 36H Black	DT Swiss	622	597.00	0.00	36
+RM1746	DT Swiss RR 1.1 700c 28H Silver	DT Swiss	622	597.00	0.00	28
+RM1747	DT Swiss RR 1.1 700c 32H Silver.  *double eyelet*	DT Swiss	622	597.00	0.00	32
+RM1748	DT Swiss RR 1.1 700c 36H Silver	DT Swiss	622	597.00	0.00	36
+RM1762	DT Swiss TK 7.1 700c 32H Black	DT Swiss	622	600.00	0.00	32
+RM1764	DT Swiss TK 7.1 700c 36H Black	DT Swiss	622	600.00	0.00	36
+RM1766	DT Swiss TK7.1d 32h 700c *disc specific 29'er*	DT Swiss	622	600.00	0.00	32
+RM1771	DT Swiss RR 1.2 20h Black	DT Swiss	622	581.00	0.00	20
+RM1772	DT Swiss RR 1.2 24h Black	DT Swiss	622	581.00	0.00	24
+RM1773	DT Swiss RR 1.2 28h Black	DT Swiss	622	581.00	0.00	28
+RM1774	DT Swiss RR 1.2 32h Black	DT Swiss	622	581.00	0.00	32
+RM1781	DT Swiss RR 1.2 20h Silver	DT Swiss	622	581.00	0.00	20
+RM1782	DT Swiss RR 1.2 24h Silver	DT Swiss	622	581.00	0.00	24
+RM1783	DT Swiss RR 1.2 28h Silver	DT Swiss	622	581.00	0.00	28
+RM1784	DT Swiss RR 1.2 32h Silver	DT Swiss	622	581.00	0.00	32
+RM1800	DT Swiss X450 32 Mountain Rim Brake Black	DT Swiss	559	539.00	0.00	32
+RM1804	DT Swiss X455 32 Mountain Rim Disc Only Black	DT Swiss	559	539.00	0.00	32
+RM1805	DT Swiss X430 32h Mountain Disc Rim Black	DT Swiss	559	542.50	0.00	32
+RM1810	DT Swiss E540 32h Enduro Disc  Black	DT Swiss	559	536.00	0.00	32
+RM1820	DT Swiss R520 700c 28h Rim Black	DT Swiss	622	581.50	0.00	28
+RM1821	DT Swiss R520 700c 32h Rim Black	DT Swiss	622	581.50	0.00	32
+RM1829	DT Swiss X470 29'er-700c Disc specific	DT Swiss	622	604.00	0.00	32
+RM1830	DT Swiss XRC 330 28h Mountain Carbon Rim	DT Swiss	559	539.00	0.00	28
+RM1831	DT Swiss XRC 330 32h Mountain Carbon Rim	DT Swiss	559	539.00	0.00	32
+RM2000W	Mavic Open Pro 700c 32h  Silver FOR HANDSPUN	Mavic	622	602.00	0.00	32
+RM2001W	Mavic Open Pro 700c 36h  Silver FOR HANDSPUN	Mavic	622	602.00	0.00	36
+RM2003W	Mavic Open Pro 700c 32h  Black FOR HANDSPUN	Mavic	622	602.00	0.00	32
+RM2009W	Mavic Open Pro 650c 32h  Black FOR HANDSPUN	Mavic	571	551.00	0.00	32
+RM2010W	Mavic Open Sport 700c 32h Silver FOR HANDSPUN	Mavic	622	608.00	0.00	32
+RM2011W	Mavic Open Sport 700c 36h Silver FOR HANDSPUN	Mavic	622	608.00	0.00	36
+RM2018W	Mavic CXP 33 700c 32h Black FOR HANDSPUN	Mavic	622	597.00	0.00	32
+RM2032W	Mavic Reflex Tubular 700c 32h CD FOR HANDSPUN	Mavic	622	611.00	0.00	32
+RM2041W	Mavic A719 700c 32h Black FOR HANDSPUN	Mavic	622	601.50	0.00	32
+RM2042W	Mavic A719 700c 36h Black FOR HANDSPUN	Mavic	622	601.50	0.00	36
+RM2103W	Mavic XC717 26" 32h Black FOR HANDSPUN	Mavic	559	539.50	0.00	32
+RM2107W	Mavic XC717 Disc 26" 32h Black FOR HANDSPUN	Mavic	559	540.00	0.00	32
+RM2115	Mavic XM719 26" 32h Black SUP+UB	Mavic	559	537.00	0.00	32
+RM2115W	Mavic XM719 26" 32h  Black FOR HANDSPUN	Mavic	559	537.00	0.00	32
+RM2116W	Mavic XM719 26" 36h  Black FOR HANDSPUN	Mavic	559	537.00	0.00	36
+RM2117W	Mavic XM719 Disc 26" 32h  Black FOR HANDSPUN	Mavic	559	537.00	0.00	32
+RM2120W	Mavic TN719 Disc 700c 32h Black FOR HANDSPUN	Mavic	622	601.00	0.00	32
+RM2121	Mavic TN719 Disc 700c 36h Black SUP	Mavic	622	601.00	0.00	36
+RM2141W	Mavic XM819 UST Disc 26" 32h Black FOR HANSPUN	Mavic	559	535.00	0.00	32
+RM2200B	Mavic Open Pro 28h,silver/SUP+UB	Mavic	622	602.00	0.00	28
+RM2202B	Mavic Open Pro 32hsil/SUP+UB	Mavic	622	602.00	0.00	32
+RM2204B	Mavic Open Pro 36hsilver/ SUP+UB	Mavic	622	602.00	0.00	36
+RM2208B	Mavic Open Pro 650c 32h Black	Mavic	571	552.00	0.00	32
+RM2212B	Mavic CXP 33 32h silver/SUP + UB	Mavic	622	598.00	0.00	32
+RM2216B	Mavic CXP33 26", 28h road *BLACK*	Mavic	622	545.00	0.00	28
+RM2217B	Mavic CXP-33 700c 32h  Black	Mavic	622	598.00	0.00	32
+RM2227B	Mavic Open Pro CD 32h/SUP + UB	Mavic	622	602.00	0.00	32
+RM2230B	Mavic Open Pro 28h black	Mavic	622	602.00	0.00	28
+RM2232B	Mavic Open Pro 32h black	Mavic	622	602.00	0.00	32
+RM2234B	Mavic Open Pro 36h black	Mavic	622	602.00	0.00	36
+RM2250B	Mavic CXP-22 700c 32h Black	Mavic	622	599.00	0.00	32
+RM2260B	Mavic X517 silver 28hSUP + UB	Mavic	559	539.00	0.00	28
+RM2290B	Mavic MA 3 32h silver w/eyelets	Mavic	622	608.00	0.00	32
+RM2291B	Mavic MA3 36h silver w/eyelets	Mavic	622	608.00	0.00	36
+RM2292B	Mavic Open Sport, 32h Silver	Mavic	622	608.00	0.00	32
+RM4300	Flybikes 36h Cross Lace 20x1.75 Flat Black Rim	Flybikes	406	394.00	0.00	36
+RM4301	Flybikes 36h Cross Lace 20x1.75 Coffee Rim	Flybikes	406	394.00	0.00	36
+RM4302	Flybikes 36h Cross Lace 20x1.75 Gray Rim	Flybikes	406	394.00	0.00	36
+RM4303	Flybikes 36h Cross Lace 20x1.75 White Rim	Flybikes	406	394.00	0.00	36
+RM4304	Flybikes 36h Cross Lace 20x1.75 Dark Red Rim	Flybikes	406	394.00	0.00	36
+RM4305	Flybikes 36h Cross Lace 20x1.75 Orange Rim	Flybikes	406	394.00	0.00	36
+RM4306	Flybikes 36h Cross Lace 20x1.75 Turqouise Rim	Flybikes	406	394.00	0.00	36
+RM4307	Flybikes 36h Front Flat Black 20x1.75 Rim	Flybikes	406	391.00	0.00	36
+RM4308	Flybikes 36h Front 20x1.75 Coffee Rim	Flybikes	406	391.00	0.00	36
+RM4309	Flybikes 36h Front Gray 20x1.75 Rim	Flybikes	406	391.00	0.00	36
+RM4310	Flybikes 36h Front White 20x1.75 Rim	Flybikes	406	391.00	0.00	36
+RM4311	Flybikes 36h Front Dark Red 20x1.75 Rim	Flybikes	406	391.00	0.00	36
+RM4400	Velocity AeroHead 700c 32h Silver	Velocity	622	602.00	0.00	32
+RM4401	Velocity Aerohead 700c28 h Black	Velocity	622	602.00	0.00	28
+RM4402	Velocity AeroHead 700c 32h Black	Velocity	622	602.00	0.00	32
+RM4403	Velocity AeroHead 700c 32h Silver w machined sides	Velocity	622	603.00	0.00	32
+RM4404	Velocity AeroHead 700c 36h silver	Velocity	622	602.00	0.00	36
+RM4405	Velocity AeroHead 700c 36h Silver with Machined Sidewalls	Velocity	622	603.00	0.00	36
+RM4406	Velocity AeroHead 32h Rim, Black	Velocity	622	601.00	3.00	32
+RM4407	Velocity AeroHead 700c 28hole BLk/Silver rim	Velocity	622	603.00	0.00	28
+RM4408	Velocity AeroHead 700c 32hole Blk/Silver rim	Velocity	622	603.00	0.00	32
+RM4409	Velocity AeroHead 700c 32hole Off Center Blk/Si (OC, off-center, for rear only)	Velocity	622	599.00	3.00	32
+RM4410	Velocity Deep V 700c 28h Black w/MSW	Velocity	622	582.00	0.00	28
+RM4411	Velocity Aerohead 700c 36 hole black/Silver	Velocity	622	603.00	0.00	36
+RM4412	Velocity Deep V 700c 32h Black w/MSW	Velocity	622	582.00	0.00	32
+RM4413	Velocity Deep V 700c 36h Black w/ MSW	Velocity	622	582.00	0.00	36
+RM4414	Velocity Deep V 700c Solid Black Rim, Non Machined Sidewall	Velocity	622	582.00	0.00	32
+RM4416	Velocity VXC 29"er 32 ho le rim solid black	Velocity	622	602.00	0.00	32
+RM4417	Velocity Deep V 700c 32H Solid White Rim, Non Machined Sidewall	Velocity	622	582.00	0.00	32
+RM4418	Velocity Deep V 26" Mtn 32h Black	Velocity	559	517.00	0.00	32
+RM4419	Velocity Deep V 700c 32H Frost Blue Rim	Velocity	622	582.00	0.00	32
+RM4420	Velocity Deep V 26" Mtn 36h Black	Velocity	559	517.00	0.00	36
+RM4421	Velocity Deep V ATB 26&quot;40 h Black	Velocity	559	517.00	0.00	40
+RM4422	Velocity Deep V 700c 32H Black/white Checker, Rim, Non Machined Sidewall	Velocity	622	582.00	0.00	32
+RM4423	Velocity VXC 26&quot; 32 holeAll black Disc only	Velocity	559	542.00	0.00	32
+RM4425	Velocity Fusion 700c 32h White with Machined Sidewalls	Velocity	622	590.00	0.00	32
+RM4426	Velocity Fusion 700c 32h All white	Velocity	622	590.00	0.00	32
+RM4428	Velocity Deep V 700c 32H Teak Woodgrain Non Machined Side Wall	Velocity	622	582.00	0.00	32
+RM4435	Velocity Deep V 26" 650c 28 Hole Black Rim	Velocity	571	531.00	0.00	28
+RM4436	Velocity Deep V 700c 32h White w/MSW	Velocity	622	582.00	0.00	32
+RM4437	Velocity Deep V 26" 650c 32 Hole Black Rim	Velocity	571	531.00	0.00	32
+RM4438	Velocity Fusion 650c 32h Black/Silver Rim 26 x 1 3/8"	Velocity	571	540.00	0.00	32
+RM4439	Velocity Escape 700c 32hTubular Rim Black	Velocity	622	603.00	0.00	32
+RM4441	Velocity Razor 700c 28hBlk/silver sides	Velocity	622	606.00	0.00	28
+RM4443	Velocity Razor 700c 32hBlk/Silver sides	Velocity	622	606.00	0.00	32
+RM4445	Velocity Razor 700c 36h Black/Silver Sides	Velocity	622	606.00	0.00	36
+RM4446	Velocity Razor 700c 28ho le Blk/Silver rim	Velocity	622	606.00	0.00	28
+RM4447	Velocity Razor 700c 32 hole Blk/Silver Rim	Velocity	622	606.00	0.00	32
+RM4448	Velocity Razor 700c 36 hole Blk/Silver rim	Velocity	622	606.00	0.00	36
+RM4449	Velocity Velocity Aerohead 24" x 1-1/8" 36 Hole Silver 	Velocity	520	501.00	0.00	36
+RM4450	Velocity AeroHead 24 x 1-1/8" 28h Rim, Black	Velocity	520	502.00	0.00	28
+RM4452	Velocity AeroHead 24 x 1-1/8" 36h Rim, Black	Velocity	520	502.00	0.00	36
+RM4455	Velocity AeroHead 24" 32 Hole Silver	Velocity	520	501.00	0.00	32
+RM4456	Velocity Taipan 20" x 1.75" 36 Hole Silver BMX Rim	Velocity	406	379.00	0.00	36
+RM4457	Velocity Psycho 20" x 1.75" 36 Hole Black BMX Rim	Velocity	406	393.00	0.00	36
+RM4458	Velocity Taipan 24" x 1.75" 36 Hole Silver BMX Rim 	Velocity	507	479.00	0.00	36
+RM4459	Velocity Dyad 700c 32h Silver	Velocity	622	597.00	0.00	32
+RM4460	Velocity Dyad 700c 36h Silver	Velocity	622	596.00	0.00	36
+RM4461	Velocity Dyad 700c 40h Silver	Velocity	622	597.00	0.00	40
+RM4462	Velocity Dyad 700c 48h Silver	Velocity	622	597.00	0.00	48
+RM4463	Velocity Psycho 20" x 1.75" 48 hole Black 	Velocity	406	393.00	0.00	48
+RM4465	Velocity Dyad 700c 40h Black	Velocity	622	597.00	0.00	40
+RM4466	Velocity Aero Heat 20" x 1.5" 32 Hole Black BMX Rim MSW	Velocity	406	384.00	0.00	32
+RM4468	Velocity Aero Heat 26" 559mm 32 Hole Black Rim with Silver Sides	Velocity	559	537.00	0.00	32
+RM4469	Velocity AeroHeat 16 x 1 3/8" 32 hole Black/silver rim	Velocity	xxxxxxxxxx	326.00	0.00	32
+RM4470	Velocity Zvino Rim 26" Black Rim without inserts	Velocity	559	538.00	0.00	32
+RM4471	Velocity Aero 20" x 1-1/8" 28 Hole Silver BMX Rim	Velocity	451	430.00	0.00	28
+RM4472	Velocity Aero 20" x 1-1/8" 36 Hole Silver BMX Rim	Velocity	451	430.00	0.00	36
+RM4474	Velocity Taipan 20 x 1.75" 36 Black Rim	Velocity	406	379.00	0.00	36
+RM4476	Velocity Taipan 24 x 1.75 36 hole Black	Velocity	507	479.00	0.00	36
+RM4478	Velocity Aeroheat 26" 36 h Blk Ano/Sil Sided rim	Velocity	559	536.00	0.00	36
+RM4479	Velocity Aeroheat 26" 40 h Blk Ano/Sil Sided rim	Velocity	559	536.00	0.00	40
+RM4482	Velocity Fusion 700c 28h Black/Silver Rim	Velocity	622	590.00	0.00	28
+RM4483	Velocity Fusion 700c 32h Black/Silver Rim	Velocity	622	590.00	0.00	32
+RM4484	Velocity Fusion 700c 36h Black/Silver Rim	Velocity	622	590.00	0.00	36
+RM4500	Velocity Synergy 650 B Rim 32 Hole Silver	Velocity	571	567.00	0.00	32
+RM4501	Velocity 650B Off Center 32h Silver rim	Velocity	571	567.00	3.00	32
+RM4508	Velocity Deep V 700c 32h Bright Silver, Non Machined Sidewall	Velocity	622	582.00	0.00	32
+RM4511	Velocity Cliffhanger 36h Black, 26"	Velocity	559	531.00	0.00	36
+RM4512	Velocity 650b Blunt, 32h Silver Disc Rim, 27.5'er	Velocity	xxxxxxxxxx	563.00	0.00	32
+RM4513	Velocity 29'er Blunt 32h Silver Disc Rim	Velocity	622	600.00	0.00	32
+RM4514	Velocity 29'er Blunt 36h Silver Disc Rim	Velocity	622	600.00	0.00	36
+RM4530	Velocity Aero 700c 36-Hole Silver Rim	Velocity	622	596.00	0.00	36
+RM6000	Kris Holm 29" 36h Unicycle Rim, black	Kris Holm	622	601.00	0.00	36
+RM6001	Kris Holm 29" 32h Unicycle Rim, black	Kris Holm	622	601.00	0.00	32
+RM6800	Syncros DP25 26" 32H PV black rim	Syncros	559	535.00	0.00	32
+RM6804	Syncros DS28 26" 32H PV black rim	Syncros	559	528.00	0.00	32
+RM6808	Syncros DPS32 26" 32H SV black rim	Syncros	559	539.00	0.00	32
+RM6812	Syncros DPS32 26" 36H SVblack rim	Syncros	559	539.00	0.00	36
+RM6816	Syncros DPS36 26" 32H SV black rim	Syncros	559	537.00	0.00	32
+RM6820	Syncros DPS36 26" 36H SV black rim	Syncros	559	537.00	0.00	36
+RM6900	Vicious 32h Graceful Fat Sheba Snow/Sand Rim	Vicious Cycles	559	539.00	0.00	32
+RM6901	Vicious 32h Graceful Fat Sheba Snow/Sand Rim.  Spoke holes drilled offset for Surly Pugsley	Vicious Cycles	559	539.00	11.00	32
+RM7491	Alex DM24 16" 28h Silver	Alex	xxxxxxxxxx	294.00	0.00	28
+RM7495	Alex DM24 26" 32h Silver	Alex	559	547.00	0.00	32
+RM7496	Alex DM24 26" 36h Silver	Alex	559	547.00	0.00	36
+RM7497	Alex DM24 26" 48h Silver 	Alex	559	547.00	0.00	48
+RM7498	Alex Supra Sigma Lite 20" 48H Chrome	Alex	406	394.00	0.00	48
+RM7499	Alex Supra Sigma Lite 20" 48H Black	Alex	406	394.00	0.00	48
+RM7500	Alex Supra-E 20" 48h Chrome	Alex	406	388.00	0.00	48
+RM7502	Alex Supra-J 20" 36h Black	Alex	406	387.00	0.00	36
+RM7504	Alex DM24 20" 36h Silver	Alex	406	395.00	0.00	36
+RM7505	Alex DM24 24" 36h Silver  	Alex	507	495.00	0.00	36
+RM7506	Alex DM18 26" 32h Black Rim	Alex	559	546.00	0.00	32
+RM7507	Alex DM18 26" 36h Black Rim	Alex	559	546.00	0.00	36
+RM7508	Alex DM18 700c 32h Silver	Alex	622	609.00	0.00	32
+RM7509	Alex DM18 700c 36h Silver	Alex	622	609.00	0.00	36
+RM7510	Alex Adventurer 26" 32h Black with Silver Sidewall	Alex	559	543.00	0.00	32
+RM7511	Alex Adventurer 26" 36h Black with Silver Sidewall	Alex	559	543.00	0.00	36
+RM7512	Alex Adventurer 700c 32h Black with Silver Sidewall	Alex	622	605.50	0.00	32
+RM7513	Alex Adventurer 700c 36h Black with Silver sidewall	Alex	622	605.50	0.00	36
+RM7514	Alex X202 26" 32h Silver	Alex	559	547.00	0.00	32
+RM7515	Alex X202 26" 36h Silver	Alex	559	547.00	0.00	36
+RM7516	Alex X404 27" 36 Hole Silver Rim	Alex	630	618.00	0.00	36
+RM7517	Alex TD17 26" 32h Black Disc only 	Alex	559	541.00	0.00	32
+RM7518	Alex TD17 26" 36h Black Disc only	Alex	559	542.00	0.00	36
+RM7519	Alex Supra D 26" 32h Black Disc Only	Alex	559	537.00	0.00	32
+RM7520	Alex Supra D 26" 36h Black Disc Only	Alex	559	540.00	0.00	36
+RM7521	Alex ESD25 24" 36h Black Disc only	Alex	507	488.00	0.00	36
+RM7522	Alex ESD25 26" 32h Black Disc only   	Alex	559	540.00	0.00	32
+RM7523	Alex ESD25 26" 36h Black Disc only	Alex	559	540.00	0.00	36
+RM7525	Alex DX32 20" 36h Black	Alex	406	395.00	0.00	36
+RM7526	Alex DX32 20" 48h Black	Alex	406	397.00	0.00	48
+RM7530	Alex R390 20" x 1-1/8" 32 Hole Black with Silver Sidewalls	Alex	451	430.00	0.00	32
+RM7531	Alex R390 20" x 1-1/8" 36 Hole Black with Silver Sidewalls	Alex	451	430.00	0.00	36
+RM7532	Alex R390 26" 650c 32 Hole Black 	Alex	571	551.00	0.00	32
+RM7534	Alex R390 700c 32h Black Road Rim	Alex	622	603.00	0.00	32
+RM7537	Alex R390 20" x 1-1/8" 28 Hole Black with Silver Sidewalls BMX Rim	Alex	451	430.00	0.00	28
+RM7538	Alex DA28 26"/650c 32h Black 	Alex	571	537.00	0.00	32
+RM7539	Alex BE-01 20x1.75" Rim 36h Silver	Alex	406	399.00	0.00	36
+RM7540	Alex TD17 700c 32h Black Disc Rim	Alex	622	605.00	0.00	32
+RM7543	Alex TD17 700c 36h Black Disc Rim	Alex	622	605.00	0.00	36
+RM7544	Alex Supra Feather 20" 36H Chrome	Alex	406	391.00	0.00	36
+RM7545	Alex Supra Feather 20" 48H Chrome	Alex	406	394.00	0.00	48
+RM7546	Alex DA28 700c 32h Black Rim	Alex	622	587.00	0.00	32
+RM7547	Alex DA28 700c x 28H BlkRim	Alex	622	587.00	0.00	28
+RM7548	Alex Tubular 1.0 700c 28h Rim Black	Alex	622	604.00	0.00	28
+RM7549	Alex BE-01 20x1.75" Rim 36h Black	Alex	406	399.00	0.00	36
+RM7550	Alex Tubular 1.0 700c 32h Rim Black	Alex	622	604.00	0.00	32
+RM7554	Alex DX32 19"x 2.125" Trials Rim 36h 381ETRTO	Alex	381	378.00	0.00	36
+RM7555	Alex DX32 20" 36h Black	Alex	406	397.00	0.00	36
+RM7557	Alex DX32 24" 36h Black	Alex	507	497.00	0.00	36
+RM7558	Alex DX32 26" 32h Black 	Alex	559	548.00	0.00	32
+RM7559	Alex DX32 26" 36H Black 	Alex	559	548.00	0.00	36
+RM7561	Alex ZUMA 1.0 26" 36h Rim Silver	Alex	559	549.00	0.00	36
+RM7563	Alex Supra BH 26" 32h DH Rim Black  Disc Only	Alex	559	537.00	0.00	32
+RM7564	Alex Supra BH 26" 36h DH Rim Black  Disc Only	Alex	559	538.00	0.00	36
+RM7568	Alex FD28 26" 32H Black Disc Rim	Alex	559	539.00	0.00	32
+RM7569	Alex FD28 26" 36H Black Disc Rim	Alex	559	539.00	0.00	36
+RM7572	Alex XT16 26" 32 hole Black Rim	Alex	559	544.00	0.00	32
+RM7573W	Alex Y2000, 32h, Silver, 700c	Alex	622	607.00	0.00	32
+RM7574W	Alex Y2000, 32h, Silver, 26"	Alex	622	545.00	0.00	32
+RM7579	Alex X404, 700c, Black 32h SV, Non-machine sw	Alex	622	618.50	0.00	32
+RM8082	Sun AT-18 700c 32 Hole Silver Road Rim  (Schrader Valve drilling)	Sun	622	612.00	0.00	36
+RM8083	Sun AT-18 700c 32 Hole Silver Road Rim (Schrader Valve Drilling)	Sun	622	612.00	0.00	32
+RM8211	19A-II Aero 700c 28 Hole Gray Tubular Road Rim	Sun	622	603.00	0.00	28
+RM8212	19A-II Aero 700c 32 Hole Gray Tubular Road Rim	Sun	622	603.00	0.00	32
+RM8213	19A-II Aero 700c 36 Hole Gray Tubular Road Rim	Sun	622	603.00	0.00	36
+RM8279	24x1.75" 32H Polished ABT Sun Rhyno Lite Rim	Sun	507	495.00	0.00	32
+RM8280	24x1.75" 36H Polished ABT Sun Rhyno Lite Rim	Sun	507	496.00	0.00	36
+RM8281	24x1.75" 32H Black Sun Rhyno Lite Rim	Sun Ringle	507	496.00	0.00	32
+RM8282	Sun Rhyno Lite 24" 36h Black Rim w/ Silver sides, Schrader valve	Sun	507	496.00	0.00	36
+RM8283	Sun BFR 24" x 1.75" 36 Hole All Black Rim	Sun	507	495.00	0.00	36
+RM8350	Sun Rhyno Lite 26" 32h Silver Rim, Schrader  valve	Sun Ringle	559	548.00	0.00	32
+RM8351	Sun Rhyno Lite 26" 36h Silver Rim, Presta valve drilled	Sun Ringle	559	548.00	0.00	36
+RM8352	26x1.75" 32H Polished ABT Sun Rhyno Lite Rim	Sun	559	548.00	0.00	32
+RM8353	26x1.75" 40H Silver Sun Rhyno Lite Rim	Sun Ringle	559	549.00	0.00	40
+RM8354	26x1.75" 32H Red w/Silver sides ABT Sun Rhyno Lite Rim	Sun	559	548.00	0.00	32
+RM8356	26x1.75" 36H Polished ABT Sun Rhyno Lite Rim	Sun	559	548.00	0.00	36
+RM8357	Sun Rhyno Lite 26" 32h Black Rim w/ Silver sides, Presta valve drilled	Sun	559	549.00	0.00	32
+RM8359	Sun Rhyno Lite 26" 36h Black Rim w/ Silver sides, Presta valve	Sun Ringle	559	548.00	0.00	36
+RM8360	Sun CR-18 26" 32 Hole Polish Mtn Rim ABT(Advanced Brake Track)	Sun	559	547.00	0.00	32
+RM8361	26x1.75" 32H Black w/Silver sides Sun Rhyno Lite XL Rim	Sun	559	548.00	0.00	32
+RM8362	Sun CR-18 26" 36 Hole Polish Mtn Rim ABT(Advanced Brake Track)	Sun	559	547.00	0.00	36
+RM8363	Sun CR-18 26" 32 hole Silver rim	Sun Ringle	590	548.00	0.00	32
+RM8364	Sun CR-18 26" 32 Hole Black with Silver Sides Mtn Rim ABT(Advanced Brake Track)	Sun	559	547.00	0.00	32
+RM8365	Sun CR-18 26" 36 hole Silver rim	Sun Ringle	559	548.00	0.00	36
+RM8366	Sun CR-18 26" 36 Hole Black with Silver Sides Mtn Rim ABT(Advanced Brake Track)	Sun	559	547.00	0.00	36
+RM8367	Sun RhynoLite 26", 32h PV Rim Silver	Sun Ringle	559	548.00	0.00	32
+RM8369	Sun CR-18 20" x 1.5"/1.75" 32 Hole Polish Road Rim ABT(Advanced Brake Track)	Sun	406	393.00	0.00	32
+RM8376	Sun AT-18 26" 32 Hole Silver Mtn Rim (Schrader Valve Drilling)	Sun	559	550.00	0.00	32
+RM8377	Sun AT-18 26" 36 Hole Silver Mtn Rim (Schrader Valve Drilling)	Sun	559	547.00	0.00	36
+RM8378	Sun AT-18 20" x 1.75" 36 Hole Silver BMX Rim	Sun	406	394.00	0.00	36
+RM8390	Sun Mammoth 26" 32 Hole Silver with Black Face Mtn Rim	Sun	559	547.00	0.00	32
+RM8392	Sun Mammoth 26" 32 Hole Black with Black Face Mtn Rim	Sun	559	547.00	0.00	32
+RM8394	Sun Mammoth 26" 36 Hole Black with Black Face Mtn Rim	Sun	559	547.00	0.00	36
+RM8398	Sun Mammoth 26" 36 Hole Silver with Black Face Mtn Rim	Sun	559	547.00	0.00	36
+RM8402	Sun BFR 20" x 1.75" 36 Hole Chrome BMX Rim	Sun	406	393.00	0.00	36
+RM8403	Sun BFR 20" x 1.75" 36 Hole All Black BMX Rim	Sun	406	393.00	0.00	36
+RM8404	Sun BFR 20" x 1.75" 48 Hole Chrome BMX Rim	Sun	406	393.00	0.00	48
+RM8405	Sun BFR 20" x 1.75" 48 Hole All Black BMX Rim	Sun	406	395.00	0.00	48
+RM8408	Sun ICI-1 Mini 20" x 1-1/8" 28 Hole All Black BMX Rim (Presta Valve Drilling)	Sun	451	435.00	0.00	28
+RM8410	Sun ICI-1 Mini 20" x 1-1/8" 36 Hole All Black BMX Rim (Presta Valve Drilling)	Sun	451	435.00	0.00	36
+RM8437	Sun Rhyno Lite ABT 700c 36 Hole Polish Road Rim ABT(Advanced Brake Track)	Sun	622	611.00	0.00	36
+RM8438	Sun Rhyno Lite 700c 36h Black Rim w/ Silver sides, Presta valve	Sun Ringle	622	611.00	0.00	36
+RM8439	Sun Rhyno Lite 700c 40h Black Rim w/ Silver sides, Presta valve	Sun Ringle	622	611.00	0.00	40
+RM8440	Sun Rhyno Lite 700c 48h Black Rim w/ Silver sides, Presta valve	Sun Ringle	622	611.00	0.00	48
+RM8452	Sun 0 degree XC 26" 32 Hole Polish Mtn Rim TCB(Total Control Braking)	Sun	559	545.00	0.00	32
+RM8456	Sun 0 degree XC 26" 32 Hole Black with Silver Sides Mtn Rim TCB (Total Control Braking)	Sun	559	545.00	0.00	32
+RM8460	26x1.75" 40H Polished ABT Sun Rhyno Lite Rim	Sun	559	548.00	0.00	40
+RM8462	26x1.75" 48H Polished ABT Sun Rhyno Lite Rim	Sun	559	548.00	0.00	48
+RM8471	Sun CR-18 20" x 1-1/8" 32 Hole Polish Road Rim ABT(Advanced Brake Track)	Sun	451	440.00	0.00	32
+RM8480	Sun CR-18 27" 32h PV Rim , 630 ISO, Polished	Sun Ringle	630	618.00	0.00	32
+RM8481	Sun CR-18 27" 36h PV Rim ,630 ISO, Polished	Sun Ringle	630	618.00	0.00	36
+RM8484	Sun CR-18 27" 36 Hole Polish Rim ABT(Advanced Brake Track)	Sun	630	620.00	0.00	36
+RM8487	Sun CR-18 26 x 1-3/8" 32-hole Polished Rim, fits EA-3/590 ISO	Sun	590	578.00	0.00	32
+RM8489	Sun CR-18 26 x 1-3/8" 40-hole Polished Rim, fits EA-3/590 ISO	Sun	590	578.00	0.00	40
+RM8490	Sun CR-18 700c 32 Hole Polish Road Rim ABT(Advanced Brake Track)	Sun	622	611.00	0.00	32
+RM8491	Sun CR-18 700c 36 Hole Polish Road Rim ABT(Advanced Brake Track)	Sun	622	611.00	0.00	36
+RM8492	Sun CR-18 700c 40 Hole Polish Road Rim ABT(Advanced Brake Track)	Sun	622	611.00	0.00	40
+RM8493	Sun CR-18 700c 48 Hole Polish Road Rim ABT(Advanced Brake Track)	Sun	622	611.00	0.00	48
+RM8494	Sun CR-18 26 x 1-3/8" 36-hole Polished Rim, fits EA-3/590 ISO	Sun	590	580.00	0.00	36
+RM8497	Sun CR-18 700c 32 hole Silver rim	Sun Ringle	622	611.00	0.00	32
+RM8498	Sun CR-18 700c 36 hole Silver rim	Sun Ringle	622	611.00	0.00	36
+RM8500	Sun Rhyno Lite 20" 36h Chrome Rim, Schrader valve	Sun	406	395.00	0.00	36
+RM8501	20x1.75" 36H Polished ABT Sun Rhyno Lite Rim	Sun	406	395.00	0.00	36
+RM8503	20x1.75" 48H Chrome Sun Rhyno Lite Rim	Sun	406	395.00	0.00	48
+RM8505	Sun Big City 20" x 1.75" 36 Hole All Black BMX Rim	Sun	406	390.00	0.00	36
+RM8506	Sun Rhyno Lite 20" 36h Black Rim w/ Silver sides, Schrader valve	Sun	406	395.00	0.00	36
+RM8507	Sun Rhyno Lite 20" 36h All Black Rim, Schrader valve	Sun	406	395.00	0.00	36
+RM8508	Sun Big City 20" x 1.75" 48 Hole All Black BMX Rim	Sun	406	390.00	0.00	48
+RM8509	Sun Rhyno Lite XL 20" 36h Schraeder Valve Rim Black	Sun Ringle	406	395.00	0.00	36
+RM8510	Sun City Lite 20" 36h All Black rim, Schrader valve	Sun	406	393.00	0.00	36
+RM8511	Sun Big City Lite 20" 48 hole all black (Height 18.5mm)	Sun	406	393.00	0.00	48
+RM8516	Sun City Lite 20 x 1.75" 36 hole Winter Camo	Sun Ringle	406	392.00	0.00	36
+RM8517	Sun City Lite 20 x 1.75" 36 hole TCB Camo/Silver	Sun Ringle	406	392.00	0.00	36
+RM8518	Sun City Lite 20" 36h Chrome rim, Schrader valve	Sun Ringle	406	392.00	0.00	36
+RM8519	Sun Rhyno Lite 24" 36h Chrome Rim, Schrader valve	Sun Ringle	507	497.00	0.00	36
+RM8523	Sun Rhyno Lite XL 24" 36h Schrader Valve Rim Black	Sun Ringle	507	496.00	0.00	36
+RM8524	Sun Rhyno Lite XL 24" 36h Schrader Valve Rim Chrome	Sun Ringle	507	496.00	0.00	36
+RM8526	Sun DS1-XC 26" 32 Hole All Black Mtn Rim *Disc only	Sun	559	545.00	0.00	32
+RM8531	26x1.75" 36H Black w/Silver sides ABT Sun Rhyno Lite Rim	Sun	559	548.00	0.00	36
+RM8551	Sun Double Wide 26" 32 Hole Black Mtn Rim (Schrader Valve Drilling) *Disc only	Sun	559	542.00	0.00	32
+RM8553	Sun Double Wide 26" 36 Hole Black Mtn Rim (Schrader Valve Drilling) *Disc only	Sun	559	542.00	0.00	36
+RM8554	Sun Double Wide 24" 32 Hole Black Mtn Rim (Schrader Valve Drilling)*Disc only	Sun	507	493.00	0.00	32
+RM8556	Sun Double Wide 24" 36 Hole Black Mtn Rim (Schrader Valve Drilling) *Disc only	Sun	507	491.00	0.00	36
+RM8559	Sun MTX S-Type 26" 32h  all Black rim	Sun	559	533.00	0.00	32
+RM8560	Sun Venus 700c 24 Hole Polish Road Rim TCB(Total Control Braking)	Sun	622	589.00	0.00	24
+RM8561	Sun MTX 26" 32 hole all Black Rim 	Sun	559	532.00	0.00	32
+RM8562	Sun Venus 700c 28 Hole Polish Road Rim TCB(Total Control Braking)	Sun	622	589.00	0.00	28
+RM8563	Sun MTX 26" 36 hole all Black Rim 	Sun	559	533.00	0.00	36
+RM8564	Sun Venus 700c 32 Hole Polish Road Rim TCB(Total Control Braking)	Sun	622	589.00	0.00	32
+RM8567	Sun UFO 26" 28 Hole Solid Black TCB sides(Total Control Braking)	Sun	559	542.00	0.00	28
+RM8569	Sun UFO 26" 32 Hole Solid Black TCB sides(Total Control Braking)	Sun	559	542.00	0.00	32
+RM8570	Sun ME-14A 700c 28 Hole Black with Silver Sides Welded Road Rim TCB	Sun	622	602.00	0.00	28
+RM8571	Sun Venus 700c 24 Hole Black rim	Sun Ringle	622	590.00	0.00	24
+RM8572	Sun ME-14A 700c 32 Hole Black with Silver Sides Welded Road Rim TCB (Total Control Braking: machined brake tracks for smooth, consistent braking)	Sun	622	602.00	0.00	32
+RM8573	Sun Venus 700c 28 hole Black rim	Sun	622	591.00	0.00	28
+RM8574	Sun ME-14A 700c 36 Hole Black with Silver Sides Welded Road Rim TCB (Total Control Braking: machined brake tracks for smooth, consistent braking)	Sun	622	602.00	0.00	36
+RM8575	Sun Venus 700c 32 hole Black rim	Sun	622	592.00	0.00	32
+RM8580	Sun ME-14A 26" 650c 28 Hole Black with Silver Sides Rim ABT (Advanced Brake Track: rim sidewalls are brushed for more consistent and enhanced braking)	Sun	571	549.00	0.00	28
+RM8582	Sun ME-14A 26" 650c 32 Hole Black with Silver Sides Rim ABT (Advanced Brake Track: rim sidewalls are brushed for more consistent and enhanced braking)	Sun	571	549.00	0.00	32
+RM8584	Intense Mag 30 DH 26" 32 hole All Gray Disc rim	Sun	559	530.00	0.00	32
+RM8585	Sun Intense Mag 30 26" 32 hole Solid black rim	Intense	559	526.00	0.00	32
+RM8586	Intense Mag 30 DH 26" 36 hole all Gray Disc rim	Sun	559	527.00	0.00	36
+RM8592	Sun Vista Cruiser 32h PV Tubular Rim, 622 ISO, Black	Sun Ringle	622	611.50	0.00	32
+RM8596	Single Track 26" 32 Hole Black Mtn Rim (Schrader Valve  Drilling) *Disc only	Sun	559	547.00	0.00	32
+RM8601	Salsa Delgado 26" 32h Silver	Salsa	559	543.00	0.00	32
+RM8603	Salsa Delgado 26" 32h Black	Salsa	559	541.00	0.00	32
+RM8606	Salsa Semi 26" 32h Silver	Salsa	559	544.00	0.00	32
+RM8607	Salsa Semi 26" 36h Silver	Salsa	559	544.00	0.00	36
+RM8609	Salsa Semi 26" 32h BLACK 	Salsa	559	544.00	0.00	32
+RM8610	Salsa Semi 26" 36h BLACK 	Salsa	559	544.00	0.00	36
+RM8613	Salsa Gordo 26" 32h Silver	Salsa	559	543.00	0.00	32
+RM8614	Salsa Gordo 26" 36h Silver	Salsa	559	543.00	0.00	36
+RM8615	Salsa Gordo 26" 40h Silver	Salsa	559	543.00	0.00	40
+RM8616	Salsa Gordo 26" 48h Silver	Salsa	559	543.00	0.00	48
+RM8618	Salsa Gordo 26" 32h *BLACK*	Salsa	559	543.00	0.00	32
+RM8619	Salsa Gordo 26" 36h *BLACK*	Salsa	559	543.00	0.00	36
+RM8625	Salsa Delgado Cross 700c32h Silver	Salsa	622	603.00	0.00	32
+RM8626	Salsa Delgado Cross 700c36h Silver	Salsa	622	603.00	0.00	36
+RM8628	Salsa Delgado Cross 700c32h Black	Salsa	622	603.00	0.00	32
+RM8629	Salsa Delgado Cross 700c36h Black	Salsa	622	602.00	0.00	36
+RM8630	Salsa Gordo 40h 26" Black Mtn Rim	Salsa	559	543.00	0.00	40
+RM8631	Salsa Gordo 48h 26" Black Mtn Rim	Salsa	559	543.00	0.00	48
+RM8702	Sun ICI-1 24x1-1/8, 28h presta valve rim, black	Sun Ringle	451	506.00	0.00	28
+RM8703	Sun ICI-1 24x1-1/8, 36h presta valve rim, black	Sun Ringle	520	506.00	0.00	36
+RM8705	Sun CR-18 20" 28h Shrader Valve Rim Black	Sun Ringle	406	395.00	0.00	28
+RM8706	Sun CR-18 20" 32h Shrader Valve Rim Black	Sun Ringle	406	395.00	0.00	32
+RM8707	Sun CR-18 20" 36h Shrader Valve Rim Black	Sun Ringle	406	395.00	0.00	36
+RM8709	Sun CR-18 20x1-3/8" 32h Presta Valve Rim Black	Sun Ringle	451	438.00	0.00	32
+RM8710	Sun CR-18 20x1-3/8" 36h Presta Valve Rim Black	Sun Ringle	451	438.00	0.00	36
+RM8712	Sun CR-18 24" 36h Shrader Valve Rim Black	Sun Ringle	507	496.00	0.00	36
+RM8713	Sun Big Baller 20" 36h All Black rim, Schrader valve	Sun Ringle	406	392.00	0.00	36
+RM8714	Sun Big Baller 20" 36h Chrome rim, Schrader valve	Sun Ringle	406	392.00	0.00	36
+RM8715	Sun Envy Front 20" 36h Schrader Valve Rim, Black	Sun Ringle	406	389.00	0.00	36
+RM8716	Sun Envy Front 24" 36h Schrader Valve Rim, Black	Sun Ringle	507	490.00	0.00	36
+RM8717	Sun Envy Rear 20" 36h Schrader Valve Rim, Black	Sun Ringle	406	389.00	0.00	36
+RM8718	Sun Envy Rear 24" 36h Schrader Valve Rim, Black	Sun Ringle	507	490.00	0.00	36
+RM8719	Sun Envy Front 20" 36h Schrader Valve Rim, White	Sun Ringle	406	389.00	0.00	36
+RM8720	Sun Envy Rear 20" 36h Schrader Valve Rim, White	Sun Ringle	406	389.00	0.00	36
+RM8728	Sun MTX33 26", 32h SV Disc Rim, 559 ISO, Black	Sun Ringle	559	533.00	0.00	32
+RM8729	Sun MTX33 26", 36h SV Disc Rim, 559 ISO, Black	Sun Ringle	559	533.00	0.00	36
+RM8730	Sun ELQ21 26", 32h PV Rim, 559 ISO, Black	Sun Ringle	559	542.50	0.00	32
+RM8731	Sun ELQ21 29er, 32h PV Rim, 622 ISO, Black	Sun Ringle	622	606.00	0.00	32
+RM8732	Sun EQ23 26", 32h PV Disc Rim, 559 ISO, Black	Sun Ringle	559	544.50	0.00	32
+RM8733	Sun EQ23 29er, 32h PV Disc Rim, 622 ISO, Black	Sun Ringle	622	606.50	0.00	32
+RM8734	Sun EQ27 26", 32h PV Disc Rim, 559 ISO, Black	Sun Ringle	559	542.00	0.00	32
+RM8735	Sun EQ27 29er, 32h PV Disc Rim, 622 ISO, Black	Sun Ringle	622	603.00	0.00	32
+RM8736	Sun EQ31 26", 32h PV Disc Rim, 559 ISO, Black	Sun Ringle	559	538.50	0.00	32
+RM8737	Sun EQ31 26", 32h PV Disc Rim, 559 ISO, White	Sun Ringle	559	538.50	0.00	32
+RM8738	Sun EQ31 26", 36h PV Disc Rim, 559 ISO, Black	Sun Ringle	559	538.50	0.00	36
+RM8739	Sun EQ31 26", 36h PV Disc Rim, 559 ISO, White	Sun Ringle	559	538.50	0.00	36
+RM8750	Sun Swift 700c, 28h PV Rim, 622 ISO, Blk	Sun Ringle	622	590.00	0.00	28
+RM8751	Sun Swift 700c, 32h PV Rim, 622 ISO, Blk	Sun Ringle	622	590.00	0.00	32
+RM8752	Sun Assault 700c, 28h PV Rim, 622 ISO, Blk	Sun Ringle	622	605.00	0.00	28
+RM8753	Sun Assault 700c, 32h PV Rim, 622 ISO, Blk	Sun Ringle	622	605.00	0.00	32
+RM9004	Stolen Roulette Rim Chrome 36h 20x 1.75"	Stolen	406	397.00	0.00	36
+RM9005	Stolen Roulette Rim Black 36h 20x 1.75"	Stolen	406	397.00	0.00	36
+RM9006	Stolen Roulette Rim White 36h 20x 1.75"	Stolen	406	397.00	0.00	36
+RM9007	Stolen Roulette Rim Neon Green 36h 20x 1.75"	Stolen	406	397.00	0.00	36
+RM9008	Stolen Roulette Rim Neon Orange 36h 20x1.75"	Stolen	406	397.00	0.00	36
+RM9012	Odyssey T-1000 Mini Rim 36H 20x1 1/8 Black EACH	Odyssey	451	427.00	0.00	36
+RM9013	Odyssey T-1000 Mini Rim 28H 20x1 1/8 Black EACH	Odyssey	451	427.00	0.00	28
+RM9014	Odyssey T-1000 Mini Rim 36H 24 x 1 1/8 Black EACH	Odyssey	520	495.00	0.00	36
+RM9015	Odyssey T-1000 Mini Rim 28H 24 x 1 1/8 Black EACH	Odyssey	520	495.00	0.00	28
+RM9020	Odyssey HazardLite Rim 48H 20" Chrome	Odyssey	406	395.00	0.00	48
+RM9021	Odyssey HazardLite Rim 48H 20" Black	Odyssey	406	395.00	0.00	48
+RM9022	Odyssey HazardLite Rim 36H 20" Chrome	Odyssey	406	395.00	0.00	36
+RM9023	Odyssey HazardLite Rim 36H 20" Black	Odyssey	406	395.00	0.00	36
+RM9024	Odyssey 7K BMX 20 x 1.75 48H Chrome Rim	Odyssey	406	395.00	0.00	48
+RM9025	Odyssey 7K BMX 20 x 1.75 36H Chrome Rim	Odyssey	406	395.00	0.00	36
+RM9026	Odyssey Duralectra BMX 20x1.75 48H Black Rim 	Odyssey	406	395.00	0.00	48
+RM9027	Odyssey Duralectra BMX 20x1.75 36H Black Rim	Odyssey	406	394.00	0.00	36
+RM9028	Odyssey 7KA BMX 20x1.75 48H Hard Black Rim	Odyssey	406	395.00	0.00	48
+RM9029	Odyssey 7KA BMX 20x1.75 36H Hard Black Rim	Odyssey	406	395.00	0.00	36
+RM9030	Odyssey Midway 20x1.75 36H Chrome Rim	Odyssey	406	392.00	0.00	36
+RM9031	Odyssey Midway 20x1.75 36H Black Hard Ano Rim	Odyssey	406	392.00	0.00	36
+RM9032	Odyssey Midway 20x1.75 48H Chrome Rim	Odyssey	406	392.00	0.00	48
+RM9033	Odyssey Midway 20x1.75 48H Black Hard Ano Rim	Odyssey	406	392.00	0.00	48
+RM9034	G Sport Rib Cage 20x1.75 36h Chrome Rim	G Sport	406	394.00	0.00	36
+RM9035	G Sport Rib Cage 20x1.75 36h Hard Black Rim	G Sport	406	394.00	0.00	36
+RM9036	G Sport Rib Cage 20x1.75 48h Chrome Rim	G Sport	406	394.00	0.00	48
+RM9037	G Sport Rig Cage 20x1.75 48h Hard Black Rim	G Sport	406	394.00	0.00	48
+RM9039	Odyssey Limited Edition Hazard Lite Hard Natural 48H 20" Rim	Odyssey	406	395.00	0.00	48
+RM9040	Hula Hoop 20x1.75 36h Chrome	Primo	406	394.00	0.00	36
+RM9041	Primo Hula Hoop 20X1.75 36h black	Primo	406	394.00	0.00	36
+RM9042	Primo Hula Hoop 20X1.75 48h chrome	Primo	406	394.00	0.00	48
+RM9043	Primo Hula Hoop 20X1.75 48h black	Primo	406	394.00	0.00	48
+RM9044	Primo Balance Rim Chrome 20x1.75" 36H	Primo	406	391.00	0.00	36
+RM9045	Primo Balance Rim Black 20x1.75" 36H	Primo	406	391.00	0.00	36
+RM9046	Primo Balance Rim Chrome 20x1.75" 48H	Primo	406	391.00	0.00	48
+RM9047	Primo Balance Rim Black 20x1.75" 48H	Primo	406	391.00	0.00	48
+RM9050	Primo Balance 7005 Rim 20x1.75" 36H Chrome	Primo	406	391.00	0.00	36
+RM9051	Primo Balance 7005 Rim 20x1.75" 36H Black	Primo	406	391.00	0.00	36
+RM9052	Primo Balance 7005 Rim 20x1.75" 48H Chrome	Primo	406	391.00	0.00	48
+RM9053	Primo Balance 7005 Rim 20x1.75" 48H Black	Primo	507	391.00	0.00	48
+RM9054	Primo Balance 7005 Rim 20x1.75" 36H Ti Chrome	Primo	406	391.00	0.00	36
+RM9055	Primo Balance 7005 Rim 20x1.75" 48H Ti Chrome	Primo	406	391.00	0.00	48
+RM9060	Ody L.E. Guacamole 36H Hazard Lite Rim	Odyssey	406	394.00	0.00	36
+RM9070	Odyssey Hazard Lite Chrome 24 x 1.75" 36H Rim	Odyssey	507	495.00	0.00	36
+RM9090	Demolition Black Chrome 36h Zero 20x1.75" Rim	Demolition	406	390.00	0.00	36
+RM9091	Demolition Black 36h Zero 20x1.75" Rim	Demolition	406	390.00	0.00	36
+RM9092	Demolition White 36h Zero 20x1.75" Rim	Demolition	406	390.00	0.00	36
+RM9093	Demolition Purple 36h Zero 20x1.75" Rim	Demolition	406	390.00	0.00	36
+RM9100	Stolen Roulette Rim Glow Green 36h 20x1.75"	Stolen	406	397.00	0.00	36
+RM9250	FUNN 24" Triple Box Rim, 32h, Blk	FUNN	507	485.00	0.00	32
+RM9251	FUNN 24" Triple Box Rim, 36h, Blk	FUNN	507	483.00	0.00	36
+RM9252	FUNN 24" Triple Box Rim, 48h, Blk	FUNN	507	485.00	0.00	48
+RM9255	FUNN 26" Triple Box Rim, 32h, Blk	FUNN	559	535.00	0.00	32
+RM9256	FUNN 26" Triple Box Rim, 36h, Blk	FUNN	559	536.00	0.00	36
+RM9501	Answer BMX 24x1 1/8" Rim	Answer BMX	520	499.00	0.00	28
+RM9502	Answer Expert BMX Rim 20 x 1.5" Polished	Answer BMX	406	375.00	0.00	28
+RM9504	Answer Alumilte Pro 28h 20x1.75" Polished Rim	Answer BMX	406	382.00	0.00	28
+RM9600	Alienation PBR Rim 36h Black 20x1.75"	Alienation	406	396.00	0.00	36
+RM9601	Alienation PBR Rim 36h Chrome 20x1.75"	Alienation	406	396.00	0.00	36
+RM9610	Alienation Black Sheep Rim 36h Black 20x1.75"	Alienation	406	396.00	0.00	36
+RM9611	Alienation Black Sheep Rim 36h Chrome 20x1.75"	Alienation	406	396.00	0.00	36
+RM9620	Alienation 440 Rim 36h Black 20x1.75"	Alienation	406	397.00	0.00	36
+RM9621	Alienation 440 CNC Rim 36h Black/Silver 20x1.75"	Alienation	406	397.00	0.00	36
+RM9622	Alienation 440 Rim 36h Chrome 20x1.75"	Alienation	406	397.00	0.00	36
+RM9630	Alienation Ankle Biter Rim 28h Blk/Sil 20x1 1/8	Alienation	451	431.00	0.00	28
+RM9631	Alienation Ankle Biter Rim 28h All Blue 20x1 1/8	Alienation	451	431.00	0.00	28
+RM9632	Alienation Ankle Biter Rim 28h All Red 20x1 1/8	Alienation	451	431.00	0.00	28
+RM9633	Alienation Ankle Biter Rim 28h Blk/Sil 24x1 1/8	Alienation	520	499.00	0.00	28
+RM9640	Alienation Deviant Rim 28h Black 20x1.75"	Alienation	406	389.00	0.00	28
+RM9641	Alienation Deviant Rim 36h Black 20x1.75"	Alienation	406	389.00	0.00	36
+RM9642	Alienation Deviant Rim 36h White 20x1.75"	Alienation	406	389.00	0.00	36
+RM9643	Alienation Deviant Rim 36h Black 24x1.75"	Alienation	507	489.00	0.00	36
+RM9650	Alienation Runaway Rim 36h Black 20x1.75"	Alienation	406	393.00	0.00	36
+RM9651	Alienation Runaway Rim 36h White 20x1.75"	Alienation	406	393.00	0.00	36
+RM9652	Alienation Runaway Rim 36h Chrome 20x1.75"	Alienation	406	393.00	0.00	36
+RM9653	Alienation Runaway Rim 36h All Black 24x1.75"	Alienation	507	494.00	0.00	36
+RM9654	Alienation Runaway Rim 36h Chrome 24x1.75"	Alienation	507	494.00	0.00	36
+RM9660	Alienation Delinquent Rim 36h Black 20x1.75"	Alienation	406	393.00	0.00	36
+RM9661	Alienation Delinquent Rim 36h White 20x1.75"	Alienation	406	393.00	0.00	36
+RM9662	Alienation Delinquent Rim 36h Chrome 20x1.75"	Alienation	406	393.00	0.00	36
+RM9950	ZIPP 285, 20-hole, 700c 	Zipp Speed Weaponry	622	554.00	0.00	20
+RM9951	ZIPP 285 24-h Tubular (Used on 303 wheels)	Zipp Speed Weaponry	622	554.00	0.00	24
+RM9952	ZIPP 285, 28-hole, 700c 	Zipp Speed Weaponry	622	554.00	0.00	28
+RM9953	ZIPP 285, 32-hole, 700c 	Zipp Speed Weaponry	622	554.00	0.00	32
+RM9954	ZIPP 285 Pave/Cross,28-h 700c	Zipp Speed Weaponry	622	554.00	0.00	28
+RM9955	ZIPP 285 Pave/Cross,32-h 700c	Zipp Speed Weaponry	622	554.00	0.00	32
+RM9957	ZIPP 360, 24-hole, 700c 	Zipp Speed Weaponry	622	527.00	0.00	24
+RM9958	ZIPP 417, 20-hole, 700c 	Zipp Speed Weaponry	622	554.00	0.00	20
+RM9959	ZIPP 417, 24-hole, 700c 	Zipp Speed Weaponry	622	552.00	0.00	24
+RM9960	Zipp 280 Pave Tubular 700C 28 Hole Rim	Zipp Speed Weaponry	622	569.00	0.00	28
+RM9961	ZIPP 280 Pave Tubular 700c 32 Hole rim	Zipp Speed Weaponry	622	569.00	0.00	32
+RM9962	ZIPP 280 Tubular 28 hole  700c rim	Zipp Speed Weaponry	622	569.00	0.00	28
+RM9963	ZIPP 280 Tubular 32 hole  700c rim	Zipp Speed Weaponry	622	569.00	0.00	32
+RM9964	ZIPP 360 Tubular 28 Hole 700c rim	Zipp Speed Weaponry	622	529.00	0.00	28
+RM9965	ZIPP 360 Tubular 32 Hole 700c rim	Zipp Speed Weaponry	622	529.00	0.00	32
+RM9966	ZIPP 415 Clincher 28 Hole 700c rim	Zipp Speed Weaponry	622	567.00	0.00	28
+RM9967	ZIPP 415 Clincher 32 Hole 700c rim	Zipp Speed Weaponry	622	567.00	0.00	32
+RM9968	ZIPP 505 Clincher 700c 28 Hole rim	Zipp Speed Weaponry	622	528.00	0.00	28
+RM9969	ZIPP 505 Clincher 700c 32 Hole rim	Zipp Speed Weaponry	622	528.00	0.00	32
+RM9971	ZIPP 505, 20-hole, 700c 	Zipp Speed Weaponry	622	528.00	0.00	20
+RM9972	ZIPP 505, 24-hole, 700c 	Zipp Speed Weaponry	622	528.00	0.00	24
+RM9974	2007 Zipp 417 28-h Clincher (for 303's)	Zipp Speed Weaponry	622	554.00	0.00	28
+RM9975	ZIPP 417, 32-h, 700c 	Zipp Speed Weaponry	622	554.00	0.00	32
+RM9980	Zipp 285 24 hole Tubular Rim (for 303's)	Zipp Speed Weaponry	622	554.00	0.00	24
+RM9981	Zipp 285 28 hole Tubular Rim (for 303's)	Zipp Speed Weaponry	622	554.00	0.00	28
+RM9982	Zipp 285 32 hole Tubular Rim (for 303's)	Zipp Speed Weaponry	622	554.00	0.00	32
+RM9983	Zipp 360 24 hole Tubular Rim (404 depth)	Zipp Speed Weaponry	622	529.00	0.00	24
+RM9984	Zipp 417 24 hole Clincher Rim (303 depth)	Zipp Speed Weaponry	622	554.00	0.00	24
+RM9985	Zipp 360 28 hole Tubular Rim (404 depth)	Zipp Speed Weaponry	622	529.00	0.00	28
+RM9986	Zipp 505 28 hole Clincher Rim (404 depth)	Zipp Speed Weaponry	622	526.00	0.00	28
+RM9987	Zipp 505 24 hole Clincher Rim (404 depth)	Zipp Speed Weaponry	622	526.00	0.00	24
+RM9988	Zipp 417 28 hole Clincher Rim (303 depth)	Zipp Speed Weaponry	622	554.00	0.00	28
+RM9996	Zipp 420 24 hole Tubular Rim (808 depth)	Zipp Speed Weaponry	622	481.00	0.00	24

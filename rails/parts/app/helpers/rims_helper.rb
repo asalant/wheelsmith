@@ -1,0 +1,2 @@
+module RimsHelper
+end

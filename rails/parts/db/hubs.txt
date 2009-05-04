@@ -1,0 +1,945 @@
+CR6030	Kris Holm 36H unicycle hub, 127mm crankset, blk	Kris Holm	0.00	0.00	0.00	0.00	0	56.00	56.00	33.50	33.50	36
+CR6031	Kris Holm 36H unicycle hub, 140mm crankset, blk	Kris Holm	0.00	0.00	0.00	0.00	0	56.00	56.00	33.50	33.50	36
+CR6034	Kris Holm Moment 36H unicycle hub & 127mm crankset	Kris Holm	0.00	0.00	0.00	0.00	0	56.00	56.00	37.25	37.25	36
+CR6035	Kris Holm Moment 36H unicycle hub & 140mm crankset	Kris Holm	0.00	0.00	0.00	0.00	0	56.00	56.00	37.25	37.25	36
+CR6037	Kris Holm Moment 36H unicycle hub & 150mm crankset	Kris Holm	0.00	0.00	0.00	0.00	0	56.00	56.00	37.25	37.25	36
+CR6038	Kris Holm Moment 36H unicycle hub & 165mm crankset	Kris Holm	0.00	0.00	0.00	0.00	0	56.00	56.00	37.25	37.25	36
+HU0100	NuVinci CVP rear hub, 32h, SIL	NuVinci	0.00	0.00	0.00	0.00	0	148.00	148.00	25.50	25.50	32
+HU0101	NuVinci CVP rear hub, 36h, SIL	NuVinci	0.00	0.00	0.00	0.00	0	148.00	148.00	25.50	25.50	36
+HU0103	NuVinci CVP Rear Hub, 32h, Silver	NuVinci	0.00	0.00	0.00	0.00	0	148.50	148.50	25.00	25.00	32
+HU0104	NuVinci CVP Rear Hub, 36h, Silver	NuVinci	0.00	0.00	0.00	0.00	0	148.50	148.50	25.00	25.00	36
+HU0130	I-9 Classic Front Hub 32H Black	Industry Nine	59.00	59.00	21.50	38.00	32	0.00	0.00	0.00	0.00	0
+HU0131	I-9 Classic Front Hub 32H Red	Industry Nine	59.00	59.00	21.50	38.00	32	0.00	0.00	0.00	0.00	0
+HU0132	I-9 Classic Front Hub 32H Silver	Industry Nine	59.00	59.00	21.50	38.00	32	0.00	0.00	0.00	0.00	0
+HU0140	I-9 Classic Cassette Hub 32H Black	Industry Nine	0.00	0.00	0.00	0.00	0	59.00	68.00	34.00	21.50	32
+HU0141	I-9 Classic Cassette Hub 32H Red	Industry Nine	0.00	0.00	0.00	0.00	0	59.00	68.00	34.00	21.50	32
+HU0142	I-9 Classic Cassette Hub 32H Silver	Industry Nine	0.00	0.00	0.00	0.00	0	59.00	68.00	34.00	21.50	32
+HU0150	I-9 Classic Front Hub 36H Black	Industry Nine	59.00	59.00	21.50	38.00	36	0.00	0.00	0.00	0.00	0
+HU0170	I-9 DH150 Cassette Hub 32H Black	Industry Nine	0.00	0.00	0.00	0.00	0	59.75	68.00	31.00	29.00	32
+HU0175	I-9 DH150 Cassette Hub 36H Black	Industry Nine	0.00	0.00	0.00	0.00	0	59.75	68.00	31.00	29.00	36
+HU0180	I-9 Singlespeed Hub 32H Black	Industry Nine	0.00	0.00	0.00	0.00	0	59.00	68.00	37.00	38.00	32
+HU0181	I-9 Singlespeed Hub 32H Red	Industry Nine	0.00	0.00	0.00	0.00	0	59.00	68.00	37.00	38.00	32
+HU0182	I-9 Singlespeed Hub 32H Silver	Industry Nine	0.00	0.00	0.00	0.00	0	59.00	68.00	37.00	38.00	32
+HU0200	Surly "NEW" front hub 	Surly	54.00	54.00	32.20	32.20	32	0.00	0.00	0.00	0.00	0
+HU0201	Surly "NEW" front hub	Surly	54.00	54.00	32.20	32.20	32	0.00	0.00	0.00	0.00	0
+HU0202	Surly "NEW" fixed gear hub, 120mm 	Surly	0.00	0.00	0.00	0.00	0	54.00	54.00	30.10	30.10	32
+HU0203	Surly "NEW" fixed gear hub, 120mm 	Surly	0.00	0.00	0.00	0.00	0	54.00	54.00	30.10	30.10	32
+HU0204	Surly "NEW" 1-speed hub135mm 	Surly	0.00	0.00	0.00	0.00	0	54.00	54.00	38.40	38.40	32
+HU0205	Surly "NEW" 1-speed hub135mm 	Surly	0.00	0.00	0.00	0.00	0	54.00	54.00	38.40	38.40	32
+HU0208	Surly NEW hub,32h, 135mm  silver, fixed/freewheel	Surly	0.00	0.00	0.00	0.00	0	54.00	54.00	38.40	38.40	32
+HU0209	Surly Rear Mtn hub, fixed gear/freewheel, 135mm 32h Black	Surly	0.00	0.00	0.00	0.00	0	54.00	54.00	38.40	38.40	32
+HU0210	Surly New Disc hub Front , silver 	Surly	58.00	58.00	23.00	32.00	32	0.00	0.00	0.00	0.00	0
+HU0211	Surly New Disc hub Front, black	Surly	58.00	58.00	23.00	32.00	32	0.00	0.00	0.00	0.00	0
+HU0212	Surly New Disc 1-speed rear hub, silver, 135mm	Surly	0.00	0.00	0.00	0.00	0	58.00	58.00	34.00	37.00	32
+HU0213	Surly New Disc 1-speed rear hub, black, 135mm	Surly	0.00	0.00	0.00	0.00	0	58.00	58.00	34.00	37.00	32
+HU0214	Surly NEW front hub, QR 32h Black	Surly	54.00	54.00	32.20	32.20	32	0.00	0.00	0.00	0.00	0
+HU0215	Surly NEW 1-speed rear hub, black, 135mm	Surly	0.00	0.00	0.00	0.00	0	54.00	54.00	38.00	38.00	32
+HU0216	Surly NEW Disc Front, Black, QR	Surly	58.00	58.00	23.00	32.00	32	0.00	0.00	0.00	0.00	0
+HU0217	Surly NEW 1-speed rear, black, 135mm, QR	Surly	0.00	0.00	0.00	0.00	0	58.00	58.00	34.00	37.00	32
+HU0218	Surly NEW front hub	Surly	54.00	54.00	32.20	32.20	36	0.00	0.00	0.00	0.00	0
+HU0219	Surly NEW hub, track 120mm, silver, 36 hole	Surly	0.00	0.00	0.00	0.00	0	54.00	54.00	30.10	30.10	36
+HU0220	Surly NEW hub,32h, 120mm  black, fixed/freewheel	Surly	0.00	0.00	0.00	0.00	0	54.00	54.00	30.00	30.00	32
+HU0221	Surly NEW 1-speed rear, silver, 135mm	Surly	0.00	0.00	0.00	0.00	0	54.00	54.00	38.40	38.40	36
+HU0222	Surly NEW Disc front, black	Surly	58.00	58.00	23.00	32.00	36	0.00	0.00	0.00	0.00	0
+HU0223	Surly NEW Disc 1-speed rear hub, black, 135mm	Surly	0.00	0.00	0.00	0.00	0	58.00	58.00	34.00	37.00	36
+HU0224	Surly NEW rear track hub, fixed/freewheel	Surly	0.00	0.00	0.00	0.00	0	54.00	54.00	30.00	30.00	32
+HU0226	Surly hub 130mm,fix/free  32h, black	Surly	0.00	0.00	0.00	0.00	0	54.00	54.00	33.00	31.00	32
+HU0227	Surly hub 130mm,fix/free  32h, silver	Surly	0.00	0.00	0.00	0.00	0	54.00	54.00	33.00	31.00	32
+HU0231	Surly NEW Disc/Fixed Hub 135mm, 32h, Black	Surly	0.00	0.00	0.00	0.00	0	58.00	58.00	34.00	37.50	32
+HU0236	Surly NEW QR Disc Hub, Front, Black, 36 Hole	Surly	58.00	58.00	23.00	31.00	36	0.00	0.00	0.00	0.00	0
+HU0420	Formula Adaptor Hub CL-91 Front 32 hole Black	Formula Hubs	46.00	46.00	21.00	32.00	32	0.00	0.00	0.00	0.00	0
+HU0422	Formula Adaptor Hub CL-91 Front QR 36 hole Black	Formula Hubs	46.00	46.00	21.00	32.00	36	0.00	0.00	0.00	0.00	0
+HU0426	Formula Adapter Hub CL-32 Rear 32 hole Hub Black 6-bolt disc	Formula Hubs	0.00	0.00	0.00	0.00	0	45.50	45.50	33.50	21.00	32
+HU0428	Formula Adapter Hub CL-32 Rr 36 hole Hub Blk 6-bolt disc	Formula Hubs	0.00	0.00	0.00	0.00	0	45.50	45.50	33.50	21.00	36
+HU0430	Formula Adapter Hub XDH-51 Front 20mm thru-axle 32 hole Black	Formula Hubs	58.00	58.00	21.50	32.00	32	0.00	0.00	0.00	0.00	0
+HU0432	Formula Adapter Hub XDH-51 Front 20mm thru-axle 36 hole Black	Formula Hubs	58.00	58.00	21.50	32.00	36	0.00	0.00	0.00	0.00	0
+HU0436	Formula Adaptor Hub XDH-52 Rear 32 hole Black	Formula Hubs	0.00	0.00	0.00	0.00	0	58.00	58.00	34.00	20.00	32
+HU0438	Formula Adaptor Hub XDH-52 Rear 36 hole Black	Formula Hubs	0.00	0.00	0.00	0.00	0	58.00	58.00	34.00	20.00	36
+HU0440	Formula Adapter Hub XDH-53 Rear 150mm 12mm thru-axle 32 hole Black	Formula Hubs	0.00	0.00	0.00	0.00	0	58.00	58.00	32.50	27.50	32
+HU0442	Formula Adapter Hub XDH-53 Rr 150mm 12mm thru-axle 36 hole Black	Formula Hubs	0.00	0.00	0.00	0.00	0	58.00	58.00	32.50	27.50	36
+HU0502	Novatec Front Disc Hub 32h Black with QR	Novatec	58.00	58.00	21.00	37.00	32	0.00	0.00	0.00	0.00	0
+HU0506	Novatec Rear Single Speed Cassette Disc Hub 32h Black	Novatec	0.00	0.00	0.00	0.00	0	58.00	58.00	31.50	35.50	32
+HU0530	DT 440 FR 32h QR Front H ub 6-bolt Disc Black	DT Swiss	58.00	52.00	19.00	30.50	32	0.00	0.00	0.00	0.00	0
+HU0531	DT 440 FR 36h QR Front Hub 6-bolt Disc Black	DT Swiss	58.00	52.00	19.00	30.50	36	0.00	0.00	0.00	0.00	0
+HU0532	DT 440 FR 32h 20x110mm Front Hub 6-bolt Disc Bla	DT Swiss	58.00	52.00	23.00	32.00	32	0.00	0.00	0.00	0.00	0
+HU0533	DT 440 FR 36h 20x110mm Front Hub 6-bolt Disc Bla	DT Swiss	58.00	52.00	23.00	32.00	36	0.00	0.00	0.00	0.00	0
+HU0538	DT 440 FR 32h 135x10mm thru bolt with RWS	DT Swiss	0.00	0.00	0.00	0.00	0	58.00	52.00	32.00	20.00	32
+HU0540	DT 440 FR 32h 135mm QR Hub 6-bolt Disc Black	DT Swiss	0.00	0.00	0.00	0.00	0	58.00	52.00	33.75	19.50	32
+HU0541	DT 440 FR 36h 135mm QR Hub 6-bolt Disc Black	DT Swiss	0.00	0.00	0.00	0.00	0	58.00	52.00	33.50	19.50	36
+HU0542	DT 440 FR 32h 135 x 12mm 6-bolt Disc w/thru axle	DT Swiss	0.00	0.00	0.00	0.00	0	58.00	52.00	31.00	19.00	32
+HU0543	DT 440 FR 36h 135 x 12mm 6-bolt Disc w/thru axle	DT Swiss	0.00	0.00	0.00	0.00	0	58.00	52.00	31.00	19.00	36
+HU0544	DT 440 FR 32h 150 x 12mm 6-bolt Disc w/thru axle	DT Swiss	0.00	0.00	0.00	0.00	0	58.00	58.00	25.50	25.50	32
+HU0545	DT 440 FR 36h 150 x 12mm 6-bolt Disc w/thru axle	DT Swiss	57.50	57.50	25.50	25.50	36	0.00	0.00	0.00	0.00	0
+HU0550	DT 540 TD Front 36h Blk Tandem Front Hub	DT Swiss	60.00	60.00	35.00	35.00	36	0.00	0.00	0.00	0.00	0
+HU0551	DT 540 TD Front 40h Blk Tandem Front Hub	DT Swiss	60.00	60.00	35.00	35.00	40	0.00	0.00	0.00	0.00	0
+HU0552	DT 540 TD Front 48h Blk Tandem Front Hub	DT Swiss	60.00	60.00	35.00	35.00	48	0.00	0.00	0.00	0.00	0
+HU0555	DT 540 TD Front disc 36h Tandem Disc 6-bolt Black	DT Swiss	60.00	60.00	20.50	32.00	36	0.00	0.00	0.00	0.00	0
+HU0556	DT 540 TD Front disc 40h Tandem Disc 6-bolt Black	DT Swiss	60.00	60.00	20.50	32.00	40	0.00	0.00	0.00	0.00	0
+HU0557	DT 540 TD Front disc 48h Tandem Disc 6-bolt Black	DT Swiss	60.00	60.00	20.50	32.00	48	0.00	0.00	0.00	0.00	0
+HU0560	DT 540 TD 36h 135mm Disc Tandem Disc Hub Black	DT Swiss	0.00	0.00	0.00	0.00	0	60.00	60.00	34.00	19.00	36
+HU0561	DT 540 TD 40h 135mm Disc Tandem Disc Hub Black	DT Swiss	0.00	0.00	0.00	0.00	0	60.00	60.00	34.00	19.00	40
+HU0566	DT 540 TD 36h 145mm Disc Tandem Disc Hub Black	DT Swiss	0.00	0.00	0.00	0.00	0	60.00	60.00	23.50	21.50	36
+HU0567	DT 540 TD 40h 145mm Disc Tandem Disc Hub Black	DT Swiss	0.00	0.00	0.00	0.00	0	60.00	60.00	23.50	23.50	40
+HU0568	DT 540 TD 48h 145mm Disc Tandem Disc Hub Black	DT Swiss	0.00	0.00	0.00	0.00	0	60.00	60.00	23.50	21.50	48
+HU0570	DT Swiss 370 Front 28h Hub QR	DT Swiss	39.00	39.00	36.50	36.50	28	0.00	0.00	0.00	0.00	0
+HU0571	DT Swiss 370 Front 32h Hub QR	DT Swiss	39.00	39.00	36.50	36.50	32	0.00	0.00	0.00	0.00	0
+HU0573	DT Swiss 370 Rr 130mm 32h Shimano splined	DT Swiss	0.00	0.00	0.00	0.00	0	46.00	46.00	32.50	17.00	32
+HU0574	DT Swiss 370 Rr 135mm 32h QR	DT Swiss	0.00	0.00	0.00	0.00	0	46.00	46.00	30.00	20.00	32
+HU0575	DT Swiss 370 Front 32h 6-bolt Disc Hub QR	DT Swiss	58.00	52.00	22.00	35.00	32	0.00	0.00	0.00	0.00	0
+HU0576	DT Swiss 370 Rr 135mm 32h 6-bolt disc QR	DT Swiss	0.00	0.00	0.00	0.00	0	58.00	52.00	33.50	20.00	32
+HU0577	DT Swiss 370 Front 32h CL D isc Hub QR	DT Swiss	44.00	44.00	22.00	35.00	32	0.00	0.00	0.00	0.00	0
+HU0578	DT Swiss 370 Rr 135mm 32h CenterLock Disc QR	DT Swiss	0.00	0.00	0.00	0.00	0	46.00	46.00	32.50	20.00	32
+HU0579	DT Swiss 370 Front 32h 110x 20mm thru axle 6-bolt di	DT Swiss	58.00	58.00	23.00	32.00	32	0.00	0.00	0.00	0.00	0
+HU0600	DT Swiss Onyx  32h 135mm Center Lock	DT Swiss	0.00	0.00	0.00	0.00	0	46.00	46.00	34.00	18.00	32
+HU0604	DT Swiss Onyx Front 32h Center Lock	DT Swiss	44.00	44.00	23.00	34.00	32	0.00	0.00	0.00	0.00	0
+HU0604W	DT Onyx Fr 32h Centerloc k Black No packaging***	DT Swiss	44.00	44.00	23.00	34.00	32	0.00	0.00	0.00	0.00	0
+HU0612	DT Swiss Onyx 32h/135mm/ black	DT Swiss	0.00	0.00	0.00	0.00	0	45.00	45.00	35.50	19.50	32
+HU0613	DT Swiss Onyx 135mm 32h Disc 135mm Black	DT Swiss	0.00	0.00	0.00	0.00	0	58.00	48.00	33.50	19.50	32
+HU0615	DT Swiss Onyx 135mm 36h Disc 135mm Black 	DT Swiss	0.00	0.00	0.00	0.00	0	58.00	48.00	33.50	20.00	36
+HU0616	DT Swiss Onyx 36h/135mm/ black	DT Swiss	0.00	0.00	0.00	0.00	0	45.00	45.00	35.50	19.50	36
+HU0632	DT Swiss Onyx Front/32h/ black	DT Swiss	39.00	39.00	35.00	35.00	32	0.00	0.00	0.00	0.00	0
+HU0633	Onyx Front 32h Disc Black	DT Swiss	58.00	48.00	23.00	35.00	32	0.00	0.00	0.00	0.00	0
+HU0634	Onyx Front 32h Disc 20mm axle Black	DT Swiss	58.00	58.00	23.00	31.00	32	0.00	0.00	0.00	0.00	0
+HU0636	DT Swiss Onyx Front/36h/ black	DT Swiss	39.00	39.00	35.00	35.00	36	0.00	0.00	0.00	0.00	0
+HU0637	Onyx Front 36h Disc Black	DT Swiss	58.00	48.00	23.00	35.00	36	0.00	0.00	0.00	0.00	0
+HU0638	Onyx Front 36h Disc 20mm axle Black 	DT Swiss	58.00	58.00	23.00	31.00	36	0.00	0.00	0.00	0.00	0
+HU0723	Dura-Ace FH7700 24 hole rear hub, 8 or 9 speed compatible.	Shimano	0.00	0.00	0.00	0.00	0	44.00	45.00	34.00	18.00	24
+HU0724	Dura-Ace FH7700 28 hole rear hub, 8 or 9 speed compatible.	Shimano	0.00	0.00	0.00	0.00	0	44.00	45.00	34.00	18.00	28
+HU0725	Dura-Ace FH7700 32 hole rear hub, 8 or 9 speed compatible.	Shimano	0.00	0.00	0.00	0.00	0	44.00	45.00	34.00	18.00	32
+HU0750	XTR M978 32h Front Hub w/15mm Thru Axle	Shimano	44.00	44.00	22.00	33.00	32	0.00	0.00	0.00	0.00	0
+HU0761	XTR M970 32h Front hub 	Shimano	40.00	40.00	35.00	35.00	32	0.00	0.00	0.00	0.00	0
+HU0763	XTR M970 32h Rear Hub	Shimano	0.00	0.00	0.00	0.00	0	44.00	45.00	33.00	20.00	32
+HU0764	XTR M975 28h Centerlock Front disc hub	Shimano	44.00	40.00	23.00	34.00	28	0.00	0.00	0.00	0.00	0
+HU0765	XTR M975 32h Centerlock Front disc hub	Shimano	44.00	40.00	23.00	34.00	32	0.00	0.00	0.00	0.00	0
+HU0767	XTR M975 32h Centerlock Rear Disc Hub	Shimano	0.00	0.00	0.00	0.00	0	44.00	45.00	33.00	20.00	32
+HU0769	XTR M976 32h front hub w /20mm thru axle	Shimano	52.00	52.00	23.00	35.00	32	0.00	0.00	0.00	0.00	0
+HU0770	Dura-Ace 7850 10spd 28h Rear hub	Shimano	0.00	0.00	0.00	0.00	0	42.00	43.00	34.50	19.00	28
+HU0771	Dura-Ace 7850 10spd 32h Rear hub	Shimano	0.00	0.00	0.00	0.00	0	42.00	43.00	34.50	19.00	32
+HU0772	Dura-Ace 7850 10spd 36h Rear hub	Shimano	0.00	0.00	0.00	0.00	0	42.00	43.00	34.50	19.00	36
+HU0781	Dura-Ace HB7800 24 Hole Front Hub	Shimano	39.50	39.50	35.00	35.00	24	0.00	0.00	0.00	0.00	0
+HU0782	Dura-Ace HB7800 28 Hole Front Hub	Shimano	39.50	39.50	35.00	35.00	28	0.00	0.00	0.00	0.00	0
+HU0783	Dura-Ace HB7800 32 Hole Front Hub	Shimano	39.50	39.50	35.00	35.00	32	0.00	0.00	0.00	0.00	0
+HU0784	Dura-Ace HB7800 36 Hole Front Hub	Shimano	39.50	39.50	35.00	35.00	36	0.00	0.00	0.00	0.00	0
+HU0793	Dura-Ace FH7800 10-Speed 28 Hole Rear Hub	Shimano	0.00	0.00	0.00	0.00	0	44.00	45.00	34.00	18.00	28
+HU0794	Dura-Ace FH7800 10-Speed 32 Hole Rear Hub	Shimano	0.00	0.00	0.00	0.00	0	44.00	45.00	34.00	18.00	32
+HU0795	Dura-Ace FH7800 10-Speed 36 Hole Rear Hub	Shimano	0.00	0.00	0.00	0.00	0	44.00	45.00	34.00	18.00	36
+HU0801	D/Ace FH7801 28h rear cass hub 130mm	Shimano	0.00	0.00	0.00	0.00	0	44.00	45.00	34.00	18.00	28
+HU0802	Dura-Ace FH7801 32h rear cass hub 130mm	Shimano	0.00	0.00	0.00	0.00	0	44.00	45.00	34.00	18.00	32
+HU0803	D/Ace FH7801 36h rear cass hub 130mm	Shimano	0.00	0.00	0.00	0.00	0	44.00	45.00	34.00	18.00	36
+HU0901	Hugi Disc tandem Front 36h Black	DT Swiss	60.00	60.00	23.00	34.00	36	0.00	0.00	0.00	0.00	0
+HU0903	Hugi Disc tandem Front 40h Black	DT Swiss	60.00	60.00	23.00	34.50	40	0.00	0.00	0.00	0.00	0
+HU0905	Hugi Disc tandem Front 48h Black	DT Swiss	60.00	60.00	21.00	34.00	48	0.00	0.00	0.00	0.00	0
+HU0911	DT Swiss 36h/140mm/disc/tandem*black*	DT Swiss	0.00	0.00	0.00	0.00	0	60.00	60.00	31.50	21.50	36
+HU0913	DT Swiss 40h/140mm/disc/tandem *black*	DT Swiss	0.00	0.00	0.00	0.00	0	60.00	60.00	31.50	21.50	40
+HU0915	DT Swiss 48h/140mm/disc/tandem *black*	DT Swiss	0.00	0.00	0.00	0.00	0	60.00	60.00	31.20	21.50	48
+HU0917	DT Swiss 36h/145mm/disc/tandem *black*	DT Swiss	0.00	0.00	0.00	0.00	0	60.00	60.00	28.00	25.00	36
+HU0919	DT Swiss 40h/145mm/disc/tanden *black*	DT Swiss	0.00	0.00	0.00	0.00	0	60.00	60.00	29.00	24.00	40
+HU0921	DT Swiss 48h/145mm/disc/tandem *black*	DT Swiss	0.00	0.00	0.00	0.00	0	60.00	60.00	31.00	23.00	48
+HU0922	Hugi F.R.Front Disc hub  32h 20mm Black	DT Swiss	58.00	51.00	22.00	30.00	32	0.00	0.00	0.00	0.00	0
+HU0923	Hugi F.R.Front Disc hub 36h 20mm Black	DT Swiss	58.00	51.00	22.00	30.00	36	0.00	0.00	0.00	0.00	0
+HU0924	Hugi F.R.Front Disc hub 32h Black	DT Swiss	58.00	51.00	22.00	30.00	32	0.00	0.00	0.00	0.00	0
+HU0925	Hugi  F.R.Front Disc hub 36h Black	DT Swiss	58.00	51.00	22.00	30.00	36	0.00	0.00	0.00	0.00	0
+HU0927	DT Swiss F.R.Rear Disc hub 32h 135mm Black	DT Swiss	0.00	0.00	0.00	0.00	0	58.00	46.00	34.00	18.00	32
+HU0928	DT Swiss F.R. Rear Disc hub 36h 135mm Black	DT Swiss	0.00	0.00	0.00	0.00	0	58.00	46.00	34.00	18.00	36
+HU0930	Hugi  tandem front 36h hub Black	DT Swiss	60.00	60.00	35.00	35.00	36	0.00	0.00	0.00	0.00	0
+HU0932	Hugi  tandem front 40h hub Black	DT Swiss	60.00	60.00	34.50	34.50	40	0.00	0.00	0.00	0.00	0
+HU0934	Hugi  tandem front 48h hub Black	DT Swiss	60.00	60.00	35.00	35.00	48	0.00	0.00	0.00	0.00	0
+HU0937	DT 36H/135mm Disc Tandem Black QR	DT Swiss	0.00	0.00	0.00	0.00	0	60.00	60.00	34.50	19.50	36
+HU0942	DT 40h tandem rear hub /140mm /steel FH threaded for drum *black*	DT Swiss	0.00	0.00	0.00	0.00	0	60.00	60.00	31.00	21.00	40
+HU0944	DT Swiss 48h tandem rear hub /140mm /steel FH threaded for drum *black*	DT Swiss	0.00	0.00	0.00	0.00	0	60.00	60.00	31.00	21.00	48
+HU0945	DT Swiss 36h tandem rear hub /145mm /steel FH threaded for drum *black*	DT Swiss	60.00	60.00	31.00	23.00	36	0.00	0.00	0.00	0.00	0
+HU0947	DT Swiss 40h tandem rear hub /145mm /steel FH threaded for drum *black*	DT Swiss	0.00	0.00	0.00	0.00	0	60.00	60.00	29.00	24.00	40
+HU0949	DT Swiss 48h tandem rear hub /145mm /steel FH threaded for drum *black*	DT Swiss	0.00	0.00	0.00	0.00	0	60.00	60.00	29.00	24.00	48
+HU0961	XTR M960 Rear Hub 28h	Shimano	0.00	0.00	0.00	0.00	0	45.00	45.00	35.00	22.00	28
+HU0963	XTR M960 Rear Hub 32H	Shimano	0.00	0.00	0.00	0.00	0	45.00	45.00	32.00	19.00	32
+HU0965	XTR M960 Rear Hub 36H	Shimano	0.00	0.00	0.00	0.00	0	45.00	45.00	32.00	19.00	36
+HU0966	DT Swiss F.R.135mm 32h Disc Black 12mm thru axle	DT Swiss	0.00	0.00	0.00	0.00	0	58.00	46.00	34.00	18.00	32
+HU0968	DT Swiss F.R.135mm 36h Disc Black 12 mm thru axle	DT Swiss	0.00	0.00	0.00	0.00	0	58.00	46.00	34.00	18.00	36
+HU0970	DT Swiss F.R.150mm 32h Disc Black 12mm thru axle	DT Swiss	0.00	0.00	0.00	0.00	0	58.00	58.00	26.50	26.50	32
+HU0972	DT Swiss F.R.150mm 36h Disc Black 12mm thru axle axle	DT Swiss	0.00	0.00	0.00	0.00	0	58.00	58.00	26.50	26.50	36
+HU0974	DT Swiss F.R.165mm 32h Disc Black 12mm thru axle	DT Swiss	0.00	0.00	0.00	0.00	0	58.00	58.00	32.50	32.50	32
+HU0976	DT Swiss F.R.165mm 36h Disc Black 12mm thru axle 	DT Swiss	0.00	0.00	0.00	0.00	0	58.00	58.00	32.50	32.50	36
+HU0980	XTR M960 Front Hub 24h	Shimano	38.00	38.00	24.00	24.00	24	0.00	0.00	0.00	0.00	0
+HU0982	XTR M960 Front Hub 28H	Shimano	38.00	38.00	24.00	24.00	28	0.00	0.00	0.00	0.00	0
+HU0984	XTR M960 Front Hub 32H	Shimano	38.00	38.00	34.00	34.00	32	0.00	0.00	0.00	0.00	0
+HU0986	XTR M960 Front Hub 36H	Shimano	38.00	38.00	34.00	34.00	36	0.00	0.00	0.00	0.00	0
+HU0988	XTR M965 Rear Lockring Rotor Disc Hub 28H	Shimano	0.00	0.00	0.00	0.00	0	45.00	45.00	31.50	19.50	28
+HU0990	XTR M965 Rear Lockring Disc Hub 32H	Shimano	0.00	0.00	0.00	0.00	0	45.00	45.00	31.50	19.50	32
+HU0992	XTR M965 Rear Lockring Disc Hub 36h	Shimano	0.00	0.00	0.00	0.00	0	45.00	45.00	31.50	19.50	36
+HU0994	XTR M965 Front Lockring Rotor Disc Hub 24h	Shimano	44.00	38.00	22.00	32.00	24	0.00	0.00	0.00	0.00	0
+HU0996	XTR M965 Front Lockring Rotor Disc Hub 28h	Shimano	44.00	38.00	22.00	32.00	28	0.00	0.00	0.00	0.00	0
+HU0998	XTR M965 Front Lockring Rotor Disc Hub 32h	Shimano	44.00	38.00	22.00	32.00	32	0.00	0.00	0.00	0.00	0
+HU0999	XTR M965 Front Lockring Rotor Disc Hub 36h	Shimano	44.00	38.00	22.00	32.00	36	0.00	0.00	0.00	0.00	0
+HU1001	Dimension 20mm Thru-Axle Disc hub 	Dimension	58.00	58.00	22.00	31.00	36	0.00	0.00	0.00	0.00	0
+HU1003	Dimension 20mm Thru-Axle Disc Hub 	Dimension	58.00	58.00	22.00	31.00	32	0.00	0.00	0.00	0.00	0
+HU1004	Dimension Rear 12mm thru-axle disc hub  with adapter for standard 10mm QR	Dimension	0.00	0.00	0.00	0.00	0	58.00	58.00	34.50	19.00	36
+HU1006	Dimension Rear 12mm thru-axle disc hub  with adapter for standard 10mm QR	Dimension	0.00	0.00	0.00	0.00	0	58.00	58.00	34.50	19.00	32
+HU1008	Dimension DH 12mm Thru-axle rear 150mm Over Lock	Dimension	0.00	0.00	0.00	0.00	0	58.00	58.00	33.00	27.00	36
+HU1009	Dimension DH 12mm Thru-axle rear 150mmOver Lock 	Dimension	0.00	0.00	0.00	0.00	0	58.00	58.00	33.00	27.00	32
+HU1040	Dimension Track Hub Front 36H Black	Dimension	62.00	62.00	33.00	33.00	36	0.00	0.00	0.00	0.00	0
+HU1041	Dimension Track Hub Rear 36H Black	Dimension	0.00	0.00	0.00	0.00	0	62.00	62.00	28.00	28.00	36
+HU1042	Dimension Track Hub Front 36H Silver	Dimension	62.00	62.00	33.00	33.00	36	0.00	0.00	0.00	0.00	0
+HU1043	Dimension Track Hub Rear 36H Silver Fixed/Fixed	Dimension	0.00	0.00	0.00	0.00	0	62.00	62.00	28.00	28.00	36
+HU1044	Dimension Track Hub Rear 36h Black fixed/free	Dimension	0.00	0.00	0.00	0.00	0	62.00	62.00	28.00	28.00	36
+HU1045	Dimension Track Hub Rear 36h Silver Fixed/Free	Dimension	0.00	0.00	0.00	0.00	0	62.00	62.00	28.00	28.00	36
+HU1046	Dimension Track Hub Front 32h Black	Dimension	62.00	62.00	33.00	33.00	32	0.00	0.00	0.00	0.00	0
+HU1047	Dimension Track Hub Rear 32h Black Fixed/Free	Dimension	0.00	0.00	0.00	0.00	0	62.00	62.00	28.00	28.00	32
+HU1054	Dimension BMX Front Hub 36h Black 3/8" axle	Dimension	45.00	45.00	34.50	34.50	36	0.00	0.00	0.00	0.00	0
+HU1055	Dimension BMX Front Hub 36h Black 14mm x 170mm axle	Dimension	45.00	45.00	34.50	34.50	36	0.00	0.00	0.00	0.00	0
+HU1056	Dimension BMX Front Hub 48h Black 14mm x 170mm axle	Dimension	45.00	45.00	34.50	34.50	48	0.00	0.00	0.00	0.00	0
+HU1057	Dimension BMX Cassette Hub 36h 3/8" x 160 16t 3/32 cog	Dimension	0.00	0.00	0.00	0.00	0	49.00	49.00	26.50	26.50	36
+HU1058	Dimension BMX Cassette Hub 36h 14mmX180 12/16T 1/8 cog	Dimension	0.00	0.00	0.00	0.00	0	49.00	49.00	26.50	26.50	36
+HU1059	Dimension BMX Cassette hub 48h 14mmX180 12/16T 1/8 cog	Dimension	0.00	0.00	0.00	0.00	0	49.00	49.00	36.50	36.50	48
+HU1070	Dimension SingleSpeed Disc Hub 32h Black 135 OLD	Dimension	0.00	0.00	0.00	0.00	0	58.00	58.00	26.00	39.00	32
+HU1080	Dimension SS Freewheel Hub 32h Black Bolt-on	Dimension	0.00	0.00	0.00	0.00	0	58.50	58.50	35.50	39.50	32
+HU1101	Maverick 24mm front hub 32h black	Maverick	58.00	50.00	29.40	36.50	32	0.00	0.00	0.00	0.00	0
+HU1110	Dimension Track Hub Front 32h Red	Dimension	62.00	62.00	33.00	33.00	32	0.00	0.00	0.00	0.00	0
+HU1111	Dimension Track Hub Rear 32h Red Fixed/Free	Dimension	0.00	0.00	0.00	0.00	0	62.00	62.00	28.00	28.00	32
+HU1112	Dimension Track Hub Front 32h Gold	Dimension	62.00	62.00	33.00	33.00	32	0.00	0.00	0.00	0.00	0
+HU1113	Dimension Track Hub Rear 32h Gold Fixed/Free	Dimension	0.00	0.00	0.00	0.00	0	62.00	62.00	28.00	28.00	32
+HU1330	WTB LaserDisc Lite 32h front disc hub	WTB	56.00	56.00	22.00	34.00	32	0.00	0.00	0.00	0.00	0
+HU1335	WTB LaserDisc Lite Rear Hub Black 32 Hole	WTB	0.00	0.00	0.00	0.00	0	66.00	66.00	24.50	18.50	32
+HU1337	WTB LaserDisc Super Duty Front Hub 32h 20mm Black	WTB	58.00	58.00	23.00	35.00	32	0.00	0.00	0.00	0.00	0
+HU1338	WTB LaserDisc Super Duty Rear Hub 12mm x 150mm Black	WTB	0.00	0.00	0.00	0.00	0	66.00	66.00	36.00	27.00	32
+HU1339	WTB LaserDisc Super Duty 135mm Rear Hub 12mm thru-axle	WTB	0.00	0.00	0.00	0.00	0	66.50	66.50	28.50	20.00	32
+HU1340	WTB LaserDisc DH 32h Front Hub 	WTB	62.00	62.00	22.00	31.00	32	0.00	0.00	0.00	0.00	0
+HU1341	WTB LaserDisc Single Duty Rear Hub with 16t Cog QR	WTB	0.00	0.00	0.00	0.00	0	66.00	66.00	28.50	35.50	32
+HU1530	WTB LaserDisc Lite Front Hub Black 32 hole	WTB	56.00	56.00	22.00	34.00	32	0.00	0.00	0.00	0.00	0
+HU1532	WTB LaserDisc Lite Rear Hub Black 32 Hole	WTB	0.00	0.00	0.00	0.00	0	66.00	66.00	24.50	18.50	32
+HU1534	WTB LaserDisc Lite Front Hub Silver 32 hole	WTB	56.00	56.00	22.00	34.00	32	0.00	0.00	0.00	0.00	0
+HU1536	WTB LaserDisc Lite Rear Hub Silver 32 Hole	WTB	0.00	0.00	0.00	0.00	0	66.00	66.00	24.50	18.50	32
+HU1544	WTB LaserDisc Single Duty Rear Hub Black 32h	WTB	0.00	0.00	0.00	0.00	0	66.50	66.50	29.00	35.50	32
+HU1575	Alfine SGS500 32h Disc brake 8-spd Internal hub silver	Shimano	0.00	0.00	0.00	0.00	0	92.50	92.50	30.50	23.50	32
+HU1576	Alfine SGS500 32h Disc brake 8-spd Internal hub black OEM pack	Shimano	0.00	0.00	0.00	0.00	0	92.50	92.50	30.50	23.50	32
+HU1577	Alfine SGS500 36h Disc brake 8-spd Internal hub silver	Shimano	0.00	0.00	0.00	0.00	0	92.50	92.50	30.50	23.50	36
+HU1578	Alfine SGS500 36h Disc brake 8-spd Internal hub black	Shimano	0.00	0.00	0.00	0.00	0	92.50	92.50	30.50	23.50	36
+HU1621	Surly NEW Hub Rear 32H 135mm Jim Brown Ltd. Ed.	Surly	0.00	0.00	0.00	0.00	0	58.00	58.00	34.00	37.00	32
+HU1701	Deore M525 32 hole Front Disc Hub Black	Shimano	60.00	60.00	21.00	31.50	32	0.00	0.00	0.00	0.00	0
+HU1703	Deore M525 36 hole Front Disc Hub Black	Shimano	60.00	60.00	21.00	31.50	36	0.00	0.00	0.00	0.00	0
+HU1705	Deore M525 32 hole Rear Disc Hub, Black	Shimano	0.00	0.00	0.00	0.00	0	60.00	60.00	31.00	18.00	32
+HU1707	Deore M525 36 hole Rear Disc Hub, Black	Shimano	0.00	0.00	0.00	0.00	0	60.00	60.00	31.00	18.00	36
+HU1709	Deore M475 32 Hole Rear Disc Hub, black	Shimano	0.00	0.00	0.00	0.00	0	60.00	60.00	31.00	18.00	32
+HU1713	Deore M475 36 Hole Rear Disc Hub, Black	Shimano	0.00	0.00	0.00	0.00	0	61.00	61.00	34.00	19.00	36
+HU1716	Deore M475 36 Hole Front Disc Hub, Black	Shimano	60.00	60.00	21.00	31.50	36	0.00	0.00	0.00	0.00	0
+HU1718	Deore M475 32 Hole Front Disc Hub, Black	Shimano	60.00	60.00	21.00	31.50	32	0.00	0.00	0.00	0.00	0
+HU1763	Hope Pro 3 front 28 blac k hub, no QR	Hope	38.00	38.00	34.00	34.00	28	0.00	0.00	0.00	0.00	0
+HU1764	Hope Pro 3 32 front blac k hub, no QR	Hope	38.00	38.00	34.00	34.00	32	0.00	0.00	0.00	0.00	0
+HU1766	Hope Pro 3 rear 32 135mm Black hub, no QR	Hope	0.00	0.00	0.00	0.00	0	47.00	54.00	32.50	20.00	32
+HU1767	Hope Pro 3 Rear 32 130mm black hub, no QR	Hope	0.00	0.00	0.00	0.00	0	47.00	54.00	35.00	18.00	32
+HU1770	Hope Pro2 front hub 32 h Black QR	Hope	34.00	34.00	33.00	33.00	32	0.00	0.00	0.00	0.00	0
+HU1771	Hope Pro2 front hub 32 gray QR	Hope	34.00	34.00	33.00	33.00	32	0.00	0.00	0.00	0.00	0
+HU1773	Hope Pro2 front hub 36 h black QR	Hope	34.00	34.00	33.00	33.00	36	0.00	0.00	0.00	0.00	0
+HU1775	Hope Pro2  rear hub 32 h black QR 135mm	Hope	0.00	0.00	0.00	0.00	0	47.00	47.00	31.50	20.00	32
+HU1776	Hope Pro2  rear hub 32 h gray QR 135mm	Hope	0.00	0.00	0.00	0.00	0	47.00	47.00	31.50	20.00	32
+HU1778	Hope Pro2 rear hub 36 h black QR 135mm	Hope	0.00	0.00	0.00	0.00	0	47.00	47.00	31.50	20.00	36
+HU1780	Hope Pro 2 Front Disc Hub 32 hole Black	Hope	56.00	54.00	20.00	33.00	32	0.00	0.00	0.00	0.00	0
+HU1782	Hope Pro 2 Front Disc Hub 36 hole Black	Hope	56.00	54.00	20.00	33.00	36	0.00	0.00	0.00	0.00	0
+HU1783	Hope Pro 2 Front Disc Hub 32 hole Gunsmoke	Hope	56.00	54.00	20.00	33.00	32	0.00	0.00	0.00	0.00	0
+HU1784	Hope Pro2 Front Disc Hub 32 hole Red	Hope	56.00	54.00	20.00	33.00	32	0.00	0.00	0.00	0.00	0
+HU1785	Hope Pro 2  Rear Disc Hub 32 hole 135mm Black	Hope	0.00	0.00	0.00	0.00	0	55.50	54.00	30.50	19.50	32
+HU1786	Hope Pro 2  Rear Disc Hub 36 hole 135mm Black	Hope	0.00	0.00	0.00	0.00	0	55.50	54.00	30.50	19.50	36
+HU1787	Hope Pro 2  Rear Disc Hub 32 hole 135mm Gunsmoke	Hope	0.00	0.00	0.00	0.00	0	55.50	54.00	30.50	19.50	32
+HU1789	Hope Pro 2 Single Speed Rear Disc 32 hole  Black	Hope	0.00	0.00	0.00	0.00	0	56.00	54.00	32.00	32.00	32
+HU1790	Hope Pro2  Red Rear Disc Hub 32h 135mm	Hope	0.00	0.00	0.00	0.00	0	56.00	54.00	32.00	20.50	32
+HU1800	Miche Pista/Track hub front 28h 100mm spacing	Miche	60.00	60.00	33.00	33.00	28	0.00	0.00	0.00	0.00	0
+HU1801	Miche Pista/track hub front 32h 100mm spacing	Miche	60.00	60.00	33.00	33.00	32	0.00	0.00	0.00	0.00	0
+HU1802	Miche Pista/Track hub front 36h 100mm spacing	Miche	60.00	60.00	33.00	33.00	36	0.00	0.00	0.00	0.00	0
+HU1803	Miche Track hub rear 28h 120mm OLD single sided fixed	Miche	0.00	0.00	0.00	0.00	0	60.00	60.00	44.00	31.00	28
+HU1804	Miche Track hub rear 32h 120mm OLD single sided fixed	Miche	0.00	0.00	0.00	0.00	0	60.00	60.00	44.00	31.00	32
+HU1805	Miche Track hub rear 36h 120mm OLD single sided fixed	Miche	0.00	0.00	0.00	0.00	0	60.00	60.00	44.00	31.00	36
+HU1806	Miche Track hub rear 28h 120mm OLD fixed/fixed	Miche	0.00	0.00	0.00	0.00	0	60.00	60.00	32.00	32.00	28
+HU1807	Miche Track hub rear 32h 120mm OLD fixed/fixed	Miche	0.00	0.00	0.00	0.00	0	60.00	60.00	32.00	32.00	32
+HU1808	Miche Track hub rear 36h 120mm OLD fixed/fixed	Miche	0.00	0.00	0.00	0.00	0	60.00	60.00	32.00	32.00	36
+HU1809	Miche Track hub rear 32h 120mm OLD fixed/free	Miche	0.00	0.00	0.00	0.00	0	60.00	60.00	32.00	32.00	32
+HU1810	Miche Track hub rear 36h 120mm OLD fixed/free	Miche	0.00	0.00	0.00	0.00	0	60.00	60.00	32.00	32.00	36
+HU1814	Miche Racing Box 32h front hub w/QR	Miche	40.50	40.50	34.00	34.00	32	0.00	0.00	0.00	0.00	0
+HU1815	Miche Racing Box 32h Rear 10speed Campy hub w/QR	Miche	0.00	0.00	0.00	0.00	0	47.00	47.00	16.00	39.00	32
+HU1983	DT Swiss 190 Ceramic Front 16h	DT Swiss	39.00	39.00	37.00	37.00	16	0.00	0.00	0.00	0.00	0
+HU1991	DT Swiss 190 Ceramic Frt 20h	DT Swiss	39.00	39.00	37.00	37.00	20	0.00	0.00	0.00	0.00	0
+HU1992	DT Swiss 190 Ceramic Frt 24h	DT Swiss	39.00	39.00	37.00	37.00	24	0.00	0.00	0.00	0.00	0
+HU1993	DT Swiss 190 Ceramic Frt 28h	DT Swiss	39.00	39.00	37.00	37.00	28	0.00	0.00	0.00	0.00	0
+HU1994	DT Swiss 190 Ceramic Frt 32h	DT Swiss	39.00	39.00	37.00	37.00	32	0.00	0.00	0.00	0.00	0
+HU1996	DT Swiss 190 Ceramic 130mm 24h Shimano splined 10sp	DT Swiss	0.00	0.00	0.00	0.00	0	41.00	45.00	30.50	19.00	24
+HU1997	DT Swiss 190 Ceramic 130mm 28h Shimano splined 10sp	DT Swiss	0.00	0.00	0.00	0.00	0	41.00	45.00	30.50	19.00	28
+HU1998	DT Swiss 190 Ceramic 130mm 32h Shimano splined 10sp	DT Swiss	0.00	0.00	0.00	0.00	0	41.00	45.00	30.50	19.00	32
+HU2001	DT 190 Ceramic 130mm 24h Campagnolo Splined 9/10	DT Swiss	0.00	0.00	0.00	0.00	0	41.00	45.00	32.50	16.50	24
+HU2002	DT 190 Ceramic 130mm 28h Campagnolo Splined 9/10	DT Swiss	0.00	0.00	0.00	0.00	0	41.00	45.00	32.50	16.50	28
+HU2003	DT 190 Ceramic 130mm 32h Campagnolo Splined 9/10	DT Swiss	0.00	0.00	0.00	0.00	0	41.00	45.00	32.50	16.50	32
+HU2005	DT 190 Fr 28h CenterLock Disc w/6-bolt adaptor	DT Swiss	44.50	37.50	21.50	35.50	28	0.00	0.00	0.00	0.00	0
+HU2006	DT 190 Fr 32h CenterLock Disc w/6-bolt adaptor	DT Swiss	44.50	37.50	21.50	35.50	32	0.00	0.00	0.00	0.00	0
+HU2008	DT 190 135mm 28h Center- Lock w/6-bolt adaptor	DT Swiss	0.00	0.00	0.00	0.00	0	44.50	47.50	32.50	19.50	28
+HU2009	DT 190 135mm 32h Center- Lock w/6-bolt adaptor	DT Swiss	0.00	0.00	0.00	0.00	0	44.50	47.50	32.50	19.50	32
+HU2016	DT 240s 20H Radial or Cross Front Hub Black  	DT Swiss	39.00	39.00	37.50	37.50	20	0.00	0.00	0.00	0.00	0
+HU2017	DT 240s 24H Radial or Cross Front Hub Black  	DT Swiss	39.00	39.00	37.50	37.50	24	0.00	0.00	0.00	0.00	0
+HU2018	DT 240s 28H Radial or Cross Front Hub Black	DT Swiss	39.00	39.00	37.50	37.50	28	0.00	0.00	0.00	0.00	0
+HU2019	DT 240s 32H Radial or Cross Front Hub Black	DT Swiss	39.00	39.00	37.50	37.50	32	0.00	0.00	0.00	0.00	0
+HU2020W	DT Swiss 240s 18h Front Hub Radial or Cross	DT Swiss	39.00	39.00	37.50	37.50	18	0.00	0.00	0.00	0.00	0
+HU2021	DT Swiss 240S 28H Front Black	DT Swiss	36.00	36.00	35.00	35.00	28	0.00	0.00	0.00	0.00	0
+HU2023	DT Swiss 240S 32H Front Black	DT Swiss	36.00	36.00	35.00	35.00	32	0.00	0.00	0.00	0.00	0
+HU2025	DT Swiss 240S 130mm 24H 	DT Swiss	0.00	0.00	0.00	0.00	0	45.00	45.00	36.00	18.00	24
+HU2026	DT Swiss 240S 130mm 28H Black	DT Swiss	0.00	0.00	0.00	0.00	0	45.00	45.00	36.00	18.00	28
+HU2028	DT Swiss 240S 130mm 32H Black	DT Swiss	0.00	0.00	0.00	0.00	0	45.00	45.00	36.00	18.00	32
+HU2030	DT Swiss 240S Campy 24H Black 130mm	DT Swiss	0.00	0.00	0.00	0.00	0	46.00	46.00	37.50	16.50	24
+HU2031	DT Swiss 240S Campagnolo 28H Black 130mm	DT Swiss	0.00	0.00	0.00	0.00	0	46.00	46.00	37.50	16.50	28
+HU2033	DT Swiss 240S Campagnolo 32H Black 130mm	DT Swiss	0.00	0.00	0.00	0.00	0	46.00	46.00	37.50	16.50	32
+HU2036	DT Swiss 240S 135mm 28H Black	DT Swiss	0.00	0.00	0.00	0.00	0	45.00	45.00	36.00	18.00	28
+HU2038	DT Swiss 240S 135mm 32H Black	DT Swiss	0.00	0.00	0.00	0.00	0	45.00	45.00	34.00	19.00	32
+HU2040	DT 240s OneSpeed bolt-on 32h CenterLock Black	DT Swiss	0.00	0.00	0.00	0.00	0	45.00	45.00	32.50	34.30	32
+HU2042	DT 240s OneSpeed 32h QR CenterLock Black	DT Swiss	0.00	0.00	0.00	0.00	0	45.00	45.00	33.00	33.00	32
+HU2044	DT 240s 32h 20mm thru ax le front hub Black	DT Swiss	58.25	52.25	21.00	30.00	32	0.00	0.00	0.00	0.00	0
+HU2046	DT 240S 28H Front Disc Black	DT Swiss	57.50	42.00	21.00	35.00	28	0.00	0.00	0.00	0.00	0
+HU2048	DT 240S 28H Front Disc CenterLock Black	DT Swiss	44.00	42.00	21.00	36.00	28	0.00	0.00	0.00	0.00	0
+HU2050	DT 240S  32H Front Disc Black	DT Swiss	57.50	42.00	21.00	35.00	32	0.00	0.00	0.00	0.00	0
+HU2052	DT 240S 32H Front Disc Centerlock Black	DT Swiss	44.00	42.00	21.00	36.00	32	0.00	0.00	0.00	0.00	0
+HU2055	DT 240S 135mm Disc 28H Black 	DT Swiss	0.00	0.00	0.00	0.00	0	57.00	47.50	33.00	19.00	28
+HU2057	DT 240S 135mm 28h CenterLock Black  	DT Swiss	0.00	0.00	0.00	0.00	0	44.00	47.50	34.00	19.00	28
+HU2059	DT 240S 135mm Disc 32H Black  	DT Swiss	0.00	0.00	0.00	0.00	0	57.00	47.50	33.00	19.00	32
+HU2061	DT 240S 135mm 32h CenterLock Black  	DT Swiss	0.00	0.00	0.00	0.00	0	44.00	47.50	34.00	19.00	32
+HU2062	DT 240s 32H Front  Disc 9mm RWS 6-bolt	DT Swiss	58.00	42.00	22.00	35.50	32	0.00	0.00	0.00	0.00	0
+HU2063	DT 240s 135mm 32h thru bolt Black.  6-bolt disc compatible. (not a QR hub)	DT Swiss	0.00	0.00	0.00	0.00	0	57.00	47.50	33.00	19.00	32
+HU2067	DT 240S 32H Front Disc CenterLock White	DT Swiss	44.00	42.00	21.00	36.00	32	0.00	0.00	0.00	0.00	0
+HU2068	DT 240S 135mm 32h CenterLock Disc White	DT Swiss	0.00	0.00	0.00	0.00	0	44.00	47.50	33.00	19.00	32
+HU2077	DT Swiss 240s Front 32h 15x100mm CenterLock Disc	DT Swiss	44.00	42.00	22.00	35.50	32	0.00	0.00	0.00	0.00	0
+HU2079	DT Swiss 340 32h Front Hub Radial or Cross	DT Swiss	39.00	39.00	37.50	37.50	32	0.00	0.00	0.00	0.00	0
+HU2080	DT Swiss 340 32h Front Hub	DT Swiss	40.50	40.50	35.00	35.00	32	0.00	0.00	0.00	0.00	0
+HU2081	DT 340 Front Hub  32 hole 110mm 6 bolt disc 20mm thru-axle	DT Swiss	58.00	58.00	23.00	31.50	32	0.00	0.00	0.00	0.00	0
+HU2083	DT Swiss 340 32h 130mm Shimano Compatible	DT Swiss	0.00	0.00	0.00	0.00	0	45.00	45.00	33.00	16.00	32
+HU2085	DT Swiss 340 32h 130mm Campagnolo Compatible	DT Swiss	0.00	0.00	0.00	0.00	0	45.00	45.00	32.00	15.50	32
+HU2086	DT 340 Rear 32h 135mm 6 bolt disc 10mm thru bolt axle	DT Swiss	0.00	0.00	0.00	0.00	0	58.00	52.00	33.50	20.00	32
+HU2087	DT 340 Rr 32h 135mm 6 bolt disc 12mm thru-axle	DT Swiss	0.00	0.00	0.00	0.00	0	58.00	52.00	35.00	20.00	32
+HU2088	DT Swiss 340 32h 135mm	DT Swiss	0.00	0.00	0.00	0.00	0	45.00	45.00	37.50	20.50	32
+HU2090	DT Swiss 340 32h Front CenterLock Disc hub.	DT Swiss	44.00	44.00	21.50	32.00	32	0.00	0.00	0.00	0.00	0
+HU2092	DT Swiss 32h 135mm Disc *CenterLock*	DT Swiss	0.00	0.00	0.00	0.00	0	44.00	47.00	32.50	20.00	32
+HU2094	DT Swiss 340 Fr 32h 6-bolt Disc QR	DT Swiss	58.00	52.00	22.00	35.00	32	0.00	0.00	0.00	0.00	0
+HU2095	DT Swiss 340 Front 15mm CenterLock Disc 32h	DT Swiss	44.00	44.00	21.50	32.00	32	0.00	0.00	0.00	0.00	0
+HU2096	DT 340 135mm 6-bolt disc Black QR axle	DT Swiss	0.00	0.00	0.00	0.00	0	58.00	52.00	34.00	20.00	32
+HU2108	105 HB-5501 silver front hub 32H	Shimano	38.00	38.00	35.00	35.00	32	0.00	0.00	0.00	0.00	0
+HU2109	105 HB5501 silver front hub 36H	Shimano	38.00	38.00	35.00	35.00	36	0.00	0.00	0.00	0.00	0
+HU2110	105 HB5501 black front hub 32H	Shimano	38.00	38.00	35.00	35.00	32	0.00	0.00	0.00	0.00	0
+HU2111	105 HB-5501 black front hub 36H	Shimano	38.00	38.00	35.00	35.00	36	0.00	0.00	0.00	0.00	0
+HU2112	105 FH-5501 silver rear hub 32H	Shimano	0.00	0.00	0.00	0.00	0	45.00	45.00	35.00	18.00	32
+HU2113	105 FH-5501 silver rear hub 36H	Shimano	0.00	0.00	0.00	0.00	0	45.00	45.00	35.00	18.00	36
+HU2114	105 FH5501 black rear hub 32H	Shimano	0.00	0.00	0.00	0.00	0	45.00	45.00	35.00	18.00	32
+HU2115	105 FH5501 black rear hub 36H	Shimano	0.00	0.00	0.00	0.00	0	45.00	45.00	35.00	18.00	36
+HU2150W	Formula FM21-FQR 32h, Silver, Front	Formula Hubs	38.00	38.00	34.00	34.00	32	0.00	0.00	0.00	0.00	0
+HU2151W	Formula FM32-8QR 32h, Silver, Rear	Formula Hubs	0.00	0.00	0.00	0.00	0	45.00	45.00	33.00	19.00	32
+HU2153W	Formula FM31-RQR 135 MTN 32h, Silver, Rear, FW	Formula Hubs	0.00	0.00	0.00	0.00	0	45.00	45.00	33.00	19.00	32
+HU2155W	Formula RB-22, 32h Silver, Rear	Formula Hubs	0.00	0.00	0.00	0.00	0	45.00	45.00	35.00	17.00	32
+HU2159W	Formula RB-31-RQR130 32h, Silver, Rear, FW	Formula Hubs	0.00	0.00	0.00	0.00	0	45.00	45.00	35.00	17.00	32
+HU2200	Sturmey Archer Dynamo Drum brake Front hub 36h, Silver	Sturmey-Archer	89.50	89.50	21.00	22.00	36	0.00	0.00	0.00	0.00	0
+HU2202	Sturmey Archer X-FD Front Drum hub 36h, Silver	Sturmey-Archer	89.50	89.50	27.50	27.75	36	0.00	0.00	0.00	0.00	0
+HU2204	Sturmey Archer S80 8-Speed Hub 36h, Silver, without Brake	Sturmey-Archer	0.00	0.00	0.00	0.00	0	89.50	89.50	29.50	20.50	36
+HU2206	Sturmey Archer S80 8-Speed Hub 36h, Silver, with Disc Brake	Sturmey-Archer	0.00	0.00	0.00	0.00	0	89.50	89.50	30.50	19.50	36
+HU2208	Sturmey Archer S30 3Spd 36h, Silver w/o brake	Sturmey-Archer	0.00	0.00	0.00	0.00	0	67.00	67.00	26.50	28.00	36
+HU2209	Sturmey Archer S30 3spd Internal Hub No Brake	Sturmey-Archer	0.00	0.00	0.00	0.00	0	67.00	67.00	26.50	26.50	36
+HU2210	Sturmey Archer S30 3Spd 36h, Silver w/Coaster Brake	Sturmey-Archer	0.00	0.00	0.00	0.00	0	67.00	67.00	29.75	25.00	36
+HU2211	Sturmey Archer Single speed coaster hub 36h, Silver	Sturmey-Archer	0.00	0.00	0.00	0.00	0	48.50	48.50	24.50	24.50	36
+HU2400D	Shimano Alfine 8sp Hub Black Centerlock OE Pkg	Shimano	0.00	0.00	0.00	0.00	0	92.50	92.50	30.75	23.75	32
+HU2450	Tiagra FH4400 32 hole rear hub	Shimano	0.00	0.00	0.00	0.00	0	45.00	45.00	36.50	18.50	32
+HU2452	Tiagra FH4400 36 hole rear hub	Shimano	0.00	0.00	0.00	0.00	0	45.00	45.00	36.50	18.50	36
+HU2454	Tiagra HB4400 32 hole Front Hub	Shimano	38.00	38.00	34.00	34.00	32	0.00	0.00	0.00	0.00	0
+HU2456	Tiagra HB4400 36 hole Front Hub	Shimano	38.00	38.00	34.00	34.00	36	0.00	0.00	0.00	0.00	0
+HU2457	Tiagra HB4500 32h Front Hub	Shimano	38.00	38.00	34.00	34.00	32	0.00	0.00	0.00	0.00	0
+HU2458	Tiagra HB4500 36h Front Hub	Shimano	38.00	38.00	34.00	34.00	36	0.00	0.00	0.00	0.00	0
+HU2459	Tiagra FH4500 32h Rear Hub	Shimano	0.00	0.00	0.00	0.00	0	45.00	45.00	35.50	18.50	32
+HU2460	Tiagra FH4500 36h Rear Hub	Shimano	0.00	0.00	0.00	0.00	0	45.00	45.00	35.50	18.50	36
+HU2501	Spectro T3 3spd no brake, 19T cog, no shifter	SRAM	0.00	0.00	0.00	0.00	0	58.00	58.00	26.50	24.00	36
+HU2502	Spectro T3 3spd coaster brake hub, 19T cog, no shifter	SRAM	0.00	0.00	0.00	0.00	0	58.00	58.00	27.00	24.00	36
+HU2507	Spectro P5 5spd drum brake hub, 19t cog 36h	SRAM	0.00	0.00	0.00	0.00	0	88.75	88.75	30.75	28.75	36
+HU2508	Spectro P5 5spd hub without brake,19t cog 36h, 122mm OLN, no shifter	SRAM	0.00	0.00	0.00	0.00	0	75.00	75.00	29.00	29.00	36
+HU2509	Spectro P5 5spd hub with coaster brake, 19t cog 36h, 122mm OLN, no shifter	SRAM	0.00	0.00	0.00	0.00	0	75.00	75.00	29.00	29.00	36
+HU2510	SRAM i-Light Dynamo 730 Front QR 36H Hub 3.0W	SRAM	71.25	71.25	28.50	28.50	36	0.00	0.00	0.00	0.00	0
+HU2515	VT5000 front drum brake hub, 36H	SRAM	88.50	88.50	25.00	31.00	36	0.00	0.00	0.00	0.00	0
+HU2518	SRAM Torpedo Fix & Free Singlespeed hub 130mm OLN 17T	SRAM	0.00	0.00	0.00	0.00	0	67.00	67.00	30.00	30.00	32
+HU2520	SRAM i-Motion 9-Speed disc brake compatible 36H hub, 20T cog	SRAM	0.00	0.00	0.00	0.00	0	94.00	94.00	30.50	26.00	36
+HU2530	SRAM i-Motion 3 Speed Coaster Brake 36H Hub, 19T cog	SRAM	0.00	0.00	0.00	0.00	0	70.25	70.25	28.00	28.00	36
+HU2532	SRAM i-Motion 3 Speed Freewheel 36H Hub, 19T cog	SRAM	0.00	0.00	0.00	0.00	0	70.25	70.25	28.00	28.00	36
+HU2542	SRAM S7 7spd hub with drum brake, no shifter, 18T cog 36h	SRAM	0.00	0.00	0.00	0.00	0	88.00	88.00	35.00	35.00	36
+HU2543	SRAM S7 7spd hub with coaster brake, no shifter, 18T cog 36h	SRAM	0.00	0.00	0.00	0.00	0	76.00	76.00	35.00	35.00	36
+HU2549	SRAM S7 7spd hub without brake, no shifter, 18T cog 36h	SRAM	0.00	0.00	0.00	0.00	0	76.00	76.00	35.00	35.00	36
+HU2590	SRAM Dual Drive freehub 32H 135mm	SRAM	0.00	0.00	0.00	0.00	0	67.00	67.00	33.00	18.00	32
+HU2591	SRAM Dual Drive freehub 36h 135mm	SRAM	0.00	0.00	0.00	0.00	0	67.00	67.00	33.00	18.00	36
+HU2592	SRAM Dual Drive freehub for disc 32H 135mm	SRAM	0.00	0.00	0.00	0.00	0	67.00	67.00	33.00	18.00	32
+HU2593	SRAM Dual Drive freehub for disc 36H 135mm	SRAM	0.00	0.00	0.00	0.00	0	67.00	67.00	31.00	18.00	36
+HU2594	SRAM 06 Dual Drive hub 32H 135mm, no clickbox	SRAM	0.00	0.00	0.00	0.00	0	67.00	67.00	30.00	19.50	32
+HU2595	SRAM Dual Drive hub 36H 135mm, no clickbox	SRAM	0.00	0.00	0.00	0.00	0	67.00	67.00	30.00	19.50	36
+HU2597	SRAM DualDrive Disc brake hub 36H no clickbox	SRAM	0.00	0.00	0.00	0.00	0	67.00	67.00	30.00	19.50	36
+HU2600	S.Archer Front Hub Brake 36h alloy	Sturmey-Archer	90.00	90.00	27.00	27.00	36	0.00	0.00	0.00	0.00	0
+HU2800	Phil Wood Kiss-Off Front 32h QR Hub Chrome	Phil Wood	57.00	57.00	27.50	27.50	32	0.00	0.00	0.00	0.00	0
+HU2801	Phil Wood KISS-OFF Rear Bolt-on 32h Hub Chrome	Phil Wood	0.00	0.00	0.00	0.00	0	57.00	57.00	38.50	38.50	32
+HU2803	Phil Wood KISS-OFF Disc Front QR 32h hub Chrome	Phil Wood	66.00	66.00	20.00	35.00	32	0.00	0.00	0.00	0.00	0
+HU2804	Phil Wood KISS-OFF Disc Rear bolt-on 32h hub Chr	Phil Wood	0.00	0.00	0.00	0.00	0	66.00	66.00	35.00	35.00	32
+HU2806	Phil Wood High-Flange Track hub Front 32h Chro	Phil Wood	66.00	66.00	34.00	34.00	32	0.00	0.00	0.00	0.00	0
+HU2807	Phil Wood High-Flange Rear Track Hub 32h Chrome	Phil Wood	0.00	0.00	0.00	0.00	0	66.00	66.00	43.00	28.50	32
+HU2808	Phil Wood High-Flange Rear Track Hub 32h Fixed/free	Phil Wood	0.00	0.00	0.00	0.00	0	66.00	66.00	28.50	28.50	32
+HU2900	Atomlab Black Pimp 9mm 32h Front Hub	Atomlab	62.00	62.00	22.00	36.00	32	0.00	0.00	0.00	0.00	0
+HU2901	Atomlab Black Pimp 20mm 32h Front Hub	Atomlab	58.00	58.00	22.50	32.00	32	0.00	0.00	0.00	0.00	0
+HU2902	Atomlab Black Pimp 10mm 32h 9-Speed Cassette Hub	Atomlab	0.00	0.00	0.00	0.00	0	62.00	62.00	34.00	20.00	32
+HU2903	Atomlab Black Pimp 12x135mm 32h 9-Speed Cassette Hub	Atomlab	58.00	58.00	34.00	21.50	32	0.00	0.00	0.00	0.00	0
+HU2904	Atomlab Black Pimp 12x150mm 32h 9-Speed Cassette Hub	Atomlab	0.00	0.00	0.00	0.00	0	58.00	58.00	34.50	29.50	32
+HU2905	Atomlab Black Aircorp Single Speed Cassette Hub	Atomlab	0.00	0.00	0.00	0.00	0	59.00	59.00	34.00	39.00	32
+HU2999	American classic front disc hub 32h black	American Classic	56.00	56.00	22.00	35.00	32	0.00	0.00	0.00	0.00	0
+HU3000	American Classic front disc hub 36h black	American Classic	56.00	56.00	22.00	35.00	36	0.00	0.00	0.00	0.00	0
+HU3001	American classic rear disc hub 32h black	American Classic	0.00	0.00	0.00	0.00	0	66.00	66.00	25.00	17.50	32
+HU3049	Rohloff Disc Speedhub bolt-on 32h black	Rohloff	0.00	0.00	0.00	0.00	0	100.00	100.00	30.00	30.00	32
+HU3050	Rohloff Speedhub, 14 Speeds, 16t cog, Silver, QR	Rohloff	0.00	0.00	0.00	0.00	0	100.00	100.00	30.00	30.00	32
+HU3051	Rohloff Disk Speedhub QR 32h black	Rohloff	0.00	0.00	0.00	0.00	0	100.00	100.00	30.00	30.00	32
+HU3080	DMR Revolver 6-Pawl Single Speed 11t-driver Hub, Disc, 14mm Axle	DMR	0.00	0.00	0.00	0.00	0	58.00	58.00	25.50	37.50	36
+HU3082	DMR Revolver 6-Pawl Single Speed Cassette Hub, Disc, 10mm axle, includes 13t cog	DMR	0.00	0.00	0.00	0.00	0	58.00	58.00	26.00	37.50	36
+HU3090	DMR Revolver 14mm SS Rr Disc Hub 36h 135mm, Blk	DMR	0.00	0.00	0.00	0.00	0	58.00	58.00	39.00	39.00	36
+HU3091	DMR Revolver 14mm SS Rr Disc Hub 48h 135mm, Blk	DMR	0.00	0.00	0.00	0.00	0	58.00	58.00	39.00	39.00	48
+HU3092	DMR Revolver SS Rear Disc Hub 32h 135mm, Black	DMR	0.00	0.00	0.00	0.00	0	58.00	58.00	39.00	39.00	32
+HU3093	DMR Revolver SS Rear Disc Hub 36h 135mm, Black	DMR	0.00	0.00	0.00	0.00	0	58.00	58.00	39.00	39.00	36
+HU3094	DMR Revolover Rear Disc Hub 32h 8/9spd, Blk	DMR	0.00	0.00	0.00	0.00	0	57.00	45.00	33.50	20.50	32
+HU3095	DMR Revolver Rear Disc Hub 36h 8/9spd, Blk	DMR	0.00	0.00	0.00	0.00	0	57.00	45.00	33.50	20.50	36
+HU3096	DMR Revolver Front Disc Hub 32h QR axle, Blk	DMR	57.50	45.00	22.50	27.50	32	0.00	0.00	0.00	0.00	0
+HU3097	DMR Revolver Front Disc Hub 36h QR axle, Blk	DMR	57.50	45.00	22.50	27.50	36	0.00	0.00	0.00	0.00	0
+HU3098	DMR Revolver Front 20mm Disc Hub 32h, Blk	DMR	58.00	58.00	22.00	31.00	32	0.00	0.00	0.00	0.00	0
+HU3099	DMR Revolver Front 20mm Disc Hub 36h, Blk	DMR	58.00	58.00	22.00	31.00	36	0.00	0.00	0.00	0.00	0
+HU3360	Sora FH3300 32 hole rear hub	Shimano	0.00	0.00	0.00	0.00	0	45.00	45.00	36.00	19.00	32
+HU3362	Sora FH3300 36 hole rear hub	Shimano	0.00	0.00	0.00	0.00	0	45.00	45.00	36.00	19.00	36
+HU3364	Sora HB3300 32 hole Front Hub	Shimano	38.00	38.00	34.00	34.00	32	0.00	0.00	0.00	0.00	0
+HU3366	Sora HB3300 36 hole Front Hub	Shimano	38.00	38.00	34.00	34.00	36	0.00	0.00	0.00	0.00	0
+HU3730	DiaTech Swinger 36h front hub.  Fits 20mm and standard QR forks	DiaTech	62.00	62.00	21.00	30.00	36	0.00	0.00	0.00	0.00	0
+HU4004	Solid axle rear tandem hub, 48h 145mm loose ball	Suzue	0.00	0.00	0.00	0.00	0	62.00	62.00	32.00	22.00	48
+HU4014	Suzue Unicycle Hub 48 hole sealed. Cotterless.Silver	Suzue	64.00	64.00	31.00	31.00	48	0.00	0.00	0.00	0.00	0
+HU4015	Suzue UniCycle Hub 36 Hole sealed. Cotterless. Silver	Suzue	64.00	64.00	31.00	31.00	36	0.00	0.00	0.00	0.00	0
+HU4018	36 hole front with 5/16 front axle and rear with 3/8" rear axle set	Suzue	62.00	62.00	31.00	31.00	36	62.00	62.00	25.50	26.50	36
+HU4019	36 hole rear with 3/8" x 26tpi axle and axle nuts. Threaded both sides: one for track cog and track lockring, the other side for freewheel.Does not come with locking	Suzue	0.00	0.00	0.00	0.00	0	62.00	62.00	26.50	26.50	36
+HU4034	Joy Tech front 36H blacksealed bearing front hub	Joytech	41.00	41.00	34.00	34.00	36	0.00	0.00	0.00	0.00	0
+HU4035	Joy Tech rear sealed bearing 36h black BMX hub.	Joytech	0.00	0.00	0.00	0.00	0	59.00	59.00	27.50	27.50	36
+HU4100	Flybikes Front 36h Flat Black Hub	Flybikes	35.00	35.00	38.00	38.00	36	0.00	0.00	0.00	0.00	0
+HU4101	Flybikes Front 36h Coffee Hub	Flybikes	35.00	35.00	38.00	38.00	36	0.00	0.00	0.00	0.00	0
+HU4102	Flybikes Front 36h Gray Hub	Flybikes	35.00	35.00	38.00	38.00	36	0.00	0.00	0.00	0.00	0
+HU4103	Flybikes Front 36h White Hub	Flybikes	35.00	35.00	38.00	38.00	36	0.00	0.00	0.00	0.00	0
+HU4104	Flybikes Front 36h Dark Red Hub	Flybikes	35.00	35.00	38.00	38.00	36	0.00	0.00	0.00	0.00	0
+HU4302	Hadley Disc Hub 20mm/32h110mm Black	Hadley	59.00	59.00	22.50	31.00	32	0.00	0.00	0.00	0.00	0
+HU4303	Hadley Disc Hub 20mm/36h110mm Black	Hadley	59.00	59.00	22.20	31.00	36	0.00	0.00	0.00	0.00	0
+HU4306	Hadley Disc Hub DH Rear 36h/135mm/QR '02	Hadley	0.00	0.00	0.00	0.00	0	60.00	60.00	31.50	19.50	36
+HU4307	Hadley Disc Hub DH  Black 32 degree 135mm/QR '02	Hadley	0.00	0.00	0.00	0.00	0	60.00	60.00	31.50	18.00	32
+HU4600	Powertap  SL Hub *24hole Shimano with software No skewer	PowerTap	0.00	0.00	0.00	0.00	0	70.00	70.00	32.00	18.00	24
+HU4601	Powertap SL Hub 24hole Campagnolo with software No Skewer	PowerTap	0.00	0.00	0.00	0.00	0	70.00	70.00	33.00	17.00	24
+HU4602	PowerTap SL2.4 Wireless 24-hole Shimano no skewer	PowerTap	0.00	0.00	0.00	0.00	0	70.00	70.00	32.00	18.00	24
+HU4603	PowerTap SL2.4 Wireless 24-hole Campy no skewer	PowerTap	0.00	0.00	0.00	0.00	0	70.00	70.00	33.00	17.00	24
+HU4604	Powertap SL Hub 28 hole Shimano with  software no Skewer	PowerTap	0.00	0.00	0.00	0.00	0	70.00	70.00	32.00	18.00	28
+HU4605	Powertap SL Hub 28hole Campagnolo with software no skewer	PowerTap	0.00	0.00	0.00	0.00	0	70.00	70.00	33.00	17.00	28
+HU4606	PowerTap SL2.4 Wireless 28-hole Shimano no skewer	PowerTap	0.00	0.00	0.00	0.00	0	70.00	70.00	32.00	18.00	28
+HU4607	PowerTap SL2.4 Wireless 28-hole Campy no skewer	PowerTap	0.00	0.00	0.00	0.00	0	70.00	70.00	33.00	17.00	28
+HU4608	Powertap SL Hub 32 hole Shimano  with software no skewer	PowerTap	0.00	0.00	0.00	0.00	0	70.00	70.00	32.00	18.00	32
+HU4609	Powertap SL Hub 32hole Campagnolo with software no skewer	PowerTap	0.00	0.00	0.00	0.00	0	70.00	70.00	33.00	17.00	32
+HU4610	PowerTap SL2.4 Wireless 32-hole Shimano no skewer	PowerTap	0.00	0.00	0.00	0.00	0	70.00	70.00	32.00	18.00	32
+HU4611	PowerTap SL2.4 Wireless 32-hole Campy no skewer	PowerTap	0.00	0.00	0.00	0.00	0	70.00	70.00	33.00	17.00	32
+HU4615	PowerTap Pro 32h Shimano W/ PowerLink Lite Softwa	PowerTap	0.00	0.00	0.00	0.00	0	78.00	66.00	32.00	16.00	32
+HU4616	PowerTap Pro Shimano, 32hole  w/software No skewer	PowerTap	0.00	0.00	0.00	0.00	0	70.00	70.00	32.00	18.00	32
+HU4617	PowerTap MTB Pro 32h W/ PowerLink Lite Softwa	PowerTap	0.00	0.00	0.00	0.00	0	78.00	66.00	35.00	18.00	32
+HU4618	PowerTap Pro hub 32 hole 135mm Shimano Freehub No skewer	PowerTap	0.00	0.00	0.00	0.00	0	70.00	70.00	28.50	19.00	32
+HU4620	PowerTap Pro SL 2.4, 24 hole Black for Shimano no skewer	Shimano	0.00	0.00	0.00	0.00	0	70.00	70.00	33.00	18.00	24
+HU4622	PowerTap Pro SL 2.4, 24 hole Black for Campy no skewer	PowerTap	0.00	0.00	0.00	0.00	0	70.00	70.00	33.00	17.00	24
+HU4623	PowerTap 32h Shimano W/ PowerLink Lite Softwa	PowerTap	0.00	0.00	0.00	0.00	0	78.00	66.00	32.00	16.00	32
+HU4624	PowerTap Pro SL 2.4 Mtn Disc Hub 32 hole Shimano type no skewer	PowerTap	0.00	0.00	0.00	0.00	0	74.00	70.00	30.00	20.00	32
+HU4626	PowerTap Carbon Front Hub, 20-Hole	PowerTap	38.00	38.00	34.00	34.00	20	0.00	0.00	0.00	0.00	0
+HU4627	PowerTap Carbon Front Hub, 24-Hole	PowerTap	38.00	38.00	34.00	34.00	24	0.00	0.00	0.00	0.00	0
+HU4628	PowerTap Carbon Front Hub, 32-Hole	PowerTap	38.00	38.00	34.00	34.00	32	0.00	0.00	0.00	0.00	0
+HU4629	PowerTap Carbon Front Hub, 28-Hole	PowerTap	38.00	38.00	34.00	34.00	28	0.00	0.00	0.00	0.00	0
+HU4638	PowerTap SLC+ Ceramic 20-Hole Rear Hub Shimano	PowerTap	0.00	0.00	0.00	0.00	0	70.00	70.00	32.00	18.00	20
+HU4639	PowerTap SLC+ Ceramic 20-Hole Silver Campy Hub	PowerTap	0.00	0.00	0.00	0.00	0	70.00	70.00	33.00	17.00	20
+HU4640	PowerTap SLC+ Ceramic 24-Hole Silver Shimano Hub	PowerTap	0.00	0.00	0.00	0.00	0	70.00	70.00	32.00	18.00	24
+HU4641	PowerTap SLC+ Ceramic 24-Hole Black Campy Hub	PowerTap	0.00	0.00	0.00	0.00	0	70.00	70.00	33.00	17.00	24
+HU4642	PowerTap SLC+ Ceramic 28-Hole Silver Shimano Hub	PowerTap	0.00	0.00	0.00	0.00	0	70.00	70.00	32.00	18.00	28
+HU4643	PowerTap SLC+ Ceramic 28-Hole Silver Campy Hub	PowerTap	0.00	0.00	0.00	0.00	0	70.00	70.00	33.00	17.00	28
+HU4646	PowerTap SLC+ Ceramic 32-Hole Silver Shimano Hub	PowerTap	0.00	0.00	0.00	0.00	0	70.00	70.00	32.00	18.00	32
+HU4647	PowerTap SLC+ Ceramic 32-Hole Silver Campy Hub	PowerTap	0.00	0.00	0.00	0.00	0	70.00	70.00	33.00	17.00	32
+HU4648	PowerTap SL+ Wireless 28H Silver Shimano Hub	PowerTap	0.00	0.00	0.00	0.00	0	70.00	70.00	32.00	18.00	28
+HU4649	PowerTap SL+ Wireless 28H Silver Campy Hub	PowerTap	0.00	0.00	0.00	0.00	0	70.00	70.00	33.00	17.00	28
+HU4652	PowerTap SL+ Wireless 32H Silver Shimano Hub	PowerTap	0.00	0.00	0.00	0.00	0	70.00	70.00	32.00	18.00	32
+HU4653	PowerTap SL+ Wireless 32H Silver Campy Hub	PowerTap	0.00	0.00	0.00	0.00	0	70.00	70.00	33.00	17.00	32
+HU4654	PowerTap PRO+ Wireless 28H Silver Shimano Hub	PowerTap	0.00	0.00	0.00	0.00	0	70.00	70.00	32.00	18.00	28
+HU4655	PowerTap PRO+ Wireless 28H Silver Campy Hub	PowerTap	0.00	0.00	0.00	0.00	0	70.00	70.00	33.00	17.00	28
+HU4656	PowerTap PRO+ Wireless 32H Silver Shimano Hub	PowerTap	0.00	0.00	0.00	0.00	0	70.00	70.00	32.00	18.00	32
+HU4657	PowerTap PRO+ Wireless 32H Silver Campy Hub	PowerTap	0.00	0.00	0.00	0.00	0	70.00	70.00	33.00	17.00	32
+HU4659	PowerTap ELITE+ Wireless 28H Silver Shimano Hub	PowerTap	0.00	0.00	0.00	0.00	0	70.00	70.00	32.00	18.00	28
+HU4660	PowerTap ELITE+ Wireless 28H Silver Campy Hub	PowerTap	0.00	0.00	0.00	0.00	0	70.00	70.00	32.00	18.00	28
+HU4661	PowerTap ELITE+ Wireless 32H Silver Shimano Hub	PowerTap	0.00	0.00	0.00	0.00	0	70.00	70.00	32.00	18.00	32
+HU4662	PowerTap ELITE+ Wireless 32H Silver Campy Hub	PowerTap	0.00	0.00	0.00	0.00	0	70.00	70.00	33.00	17.00	32
+HU4666	PowerTap Comp Wired 32H Shimano Silver Hub	PowerTap	0.00	0.00	0.00	0.00	0	70.00	70.00	32.00	18.00	32
+HU4667	PowerTap Comp Wired 32H Campy Silver Hub	PowerTap	0.00	0.00	0.00	0.00	0	70.00	70.00	33.00	17.00	32
+HU4670	PowerTap SL+ Wireless 20H Silver Shimano	PowerTap	0.00	0.00	0.00	0.00	0	70.00	70.00	32.00	18.00	20
+HU4671	PowerTap SL+ Wireless 20H Campy Silver	PowerTap	0.00	0.00	0.00	0.00	0	70.00	70.00	33.00	17.00	20
+HU4672	PowerTap SL+ Wireless 24H Silver Shimano	PowerTap	0.00	0.00	0.00	0.00	0	70.00	70.00	32.00	18.00	24
+HU4673	PowerTap SL+ Wireless 24H Black Campy	PowerTap	0.00	0.00	0.00	0.00	0	70.00	70.00	33.00	17.00	24
+HU4674	PowerTap PRO+ Wireless 20H Silver Shimano	PowerTap	0.00	0.00	0.00	0.00	0	70.00	70.00	32.00	18.00	20
+HU4675	PowerTap PRO+ Wireless 20H Silver Campy	PowerTap	0.00	0.00	0.00	0.00	0	70.00	70.00	33.00	17.00	20
+HU4676	PowerTap PRO+ Wireless 24H Silver Shimano	PowerTap	0.00	0.00	0.00	0.00	0	70.00	70.00	32.00	18.00	24
+HU4677	PowerTap PRO+ Wireless 24H Silver Campy	PowerTap	0.00	0.00	0.00	0.00	0	70.00	70.00	33.00	17.00	24
+HU4680	PowerTap ELITE+ Wireless 24hole Silver Shimano	PowerTap	0.00	0.00	0.00	0.00	0	70.00	70.00	32.00	18.00	24
+HU4700	All-City Front Track Hub 32h Black	All-City	62.00	62.00	33.00	33.00	32	0.00	0.00	0.00	0.00	0
+HU4701	All-City Front Track Hub 32h Red	All-City	62.00	62.00	33.00	33.00	32	0.00	0.00	0.00	0.00	0
+HU4702	All-City Front Track Hub 32h Gold	All-City	62.00	62.00	33.00	33.00	32	0.00	0.00	0.00	0.00	0
+HU4703	All-City 32h White Front Track Hub	All-City	62.00	62.00	33.00	33.00	32	0.00	0.00	0.00	0.00	0
+HU4704	All-City Front Track Hub 32h Pewter	All-City	62.00	62.00	33.00	33.00	32	0.00	0.00	0.00	0.00	0
+HU4710	All-City 32h Fixed/Free Track Hub Black	All-City	0.00	0.00	0.00	0.00	0	62.00	62.00	28.00	28.00	32
+HU4711	All-City 32h Fixed/Free Track Hub Red	All-City	0.00	0.00	0.00	0.00	0	62.00	62.00	28.00	28.00	32
+HU4712	All-City 32h Fixed/Free Track Hub Gold	All-City	0.00	0.00	0.00	0.00	0	62.00	62.00	28.00	28.00	32
+HU4713	All-City 32h Fixed/Free Rear Track Hub White	All-City	0.00	0.00	0.00	0.00	0	62.00	62.00	28.00	28.00	32
+HU4714	All-City Rear Track Hub Fixed/Free 32h Pewter	All-City	0.00	0.00	0.00	0.00	0	62.00	62.00	28.00	28.00	32
+HU4720	All-City 32h Fixed/Fixed Rear Track Hub Black	All-City	0.00	0.00	0.00	0.00	0	62.00	62.00	28.00	28.00	32
+HU4721	All-City 32h Fixed/Fixed Rear Track Hub Red	All-City	0.00	0.00	0.00	0.00	0	62.00	62.00	28.00	28.00	32
+HU4722	All-City 32h Fixed/Fixed Rear Track Hub Gold	All-City	0.00	0.00	0.00	0.00	0	62.00	62.00	28.00	28.00	32
+HU4723	All-City 32h Fixed/Fixed Rear Track Hub White	All-City	0.00	0.00	0.00	0.00	0	62.00	62.00	28.00	28.00	32
+HU4730	All-City Front Track Hub 36h Silver	All-City	62.00	62.00	33.00	33.00	36	0.00	0.00	0.00	0.00	0
+HU4731	All-City Rear Track Hubs Fixed/Fixed 36h Silver	All-City	0.00	0.00	0.00	0.00	0	62.00	62.00	28.00	28.00	36
+HU4740	All-City 130 Rear Track hub Fix/Free 32h Black	All-City	0.00	0.00	0.00	0.00	0	62.00	62.00	30.00	30.00	32
+HU4741	All-City 130 Rear Track Hub Fix/Free 32h Pewter	All-City	0.00	0.00	0.00	0.00	0	62.00	62.00	30.00	30.00	32
+HU4750	All-City Pink Track Hub Set 32h Fr and Fix/Free	All-City	62.00	62.00	33.00	33.00	32	62.00	62.00	30.00	30.00	32
+HU4807	Nanakai Freecoaster 48H 3/8 x 26 tpi chrome 14&16t cogs	Nankai	0.00	0.00	0.00	0.00	0	50.00	50.00	27.00	27.00	48
+HU4901	Ritchey Front 20mm Disc Hub 32h Black	Ritchey	58.00	58.00	25.00	31.00	32	0.00	0.00	0.00	0.00	0
+HU5000	Sun Ringle SunLight Mirc ro 36 hole front hub blk	Sun Ringle	45.50	45.50	31.00	31.00	36	0.00	0.00	0.00	0.00	0
+HU5002	Sun Ringle 4-Stroke 36 h Rear Cassette Black Hub	Sun Ringle	0.00	0.00	0.00	0.00	0	52.00	52.00	39.00	28.00	36
+HU5051	AC Airstream hubset Silver front/rear set	ACS	58.00	58.00	22.50	31.50	36	58.00	58.00	34.00	19.00	36
+HU5300	Deore M535 Centerlock Front Hub 32h black	Shimano	0.00	0.00	0.00	0.00	0	44.00	44.00	23.00	33.00	32
+HU5301	Deore M535 Centerlock Frt Hub 36h blk	Shimano	0.00	0.00	0.00	0.00	0	44.00	44.00	23.00	33.00	36
+HU5302	Deore M535 Centerlock Rear Hub 32h blk	Shimano	0.00	0.00	0.00	0.00	0	45.50	45.50	33.50	20.00	32
+HU5303	Deore M535 Centerlock Rear Hub 36h blk	Shimano	0.00	0.00	0.00	0.00	0	45.50	45.50	33.50	20.00	36
+HU5304	Deore M530 Front Hub 32h blk	Shimano	38.00	38.00	33.00	33.00	32	0.00	0.00	0.00	0.00	0
+HU5305	Deore M530 front hub 36h Black	Shimano	38.00	38.00	33.00	33.00	36	0.00	0.00	0.00	0.00	0
+HU5306	Deore M530 Rear 32h Hub Black	Shimano	0.00	0.00	0.00	0.00	0	45.00	45.00	34.50	18.00	32
+HU5307	Deore M530 Rear 36h hub Black	Shimano	0.00	0.00	0.00	0.00	0	45.00	45.00	34.50	18.00	36
+HU5310	Deore M535 Centerlock Rear Hub 32h sil	Shimano	0.00	0.00	0.00	0.00	0	45.50	45.50	33.50	20.00	32
+HU5552	Eastern Pro CassetteW/11 tooth driver	Eastern	0.00	0.00	0.00	0.00	0	45.50	58.00	32.00	27.50	48
+HU5553	Eastern Pro front 36h3/8 Black	Eastern	38.50	38.50	31.00	31.00	36	0.00	0.00	0.00	0.00	0
+HU5554	Eastern Pro Front 48h14mm black	Eastern	45.00	45.00	31.50	31.50	48	0.00	0.00	0.00	0.00	0
+HU5555	Eastern Pro Cassette14mm W/9 tooth driver	Eastern	0.00	0.00	0.00	0.00	0	45.00	58.00	33.00	27.00	48
+HU5602	Deore LX M570 32 Hole Front Hub, Silver/Black	Shimano	38.00	38.00	34.00	34.00	32	0.00	0.00	0.00	0.00	0
+HU5604	Deore LX M570 36 Hole Front Hub, Silver/Black	Shimano	38.00	38.00	34.00	34.00	36	0.00	0.00	0.00	0.00	0
+HU5606	Deore LX M570 32 Hole Rear Hub, Silver/Black	Shimano	0.00	0.00	0.00	0.00	0	45.00	45.00	36.00	19.00	32
+HU5608	Deore LX M570 36 Hole Rear Hub, Silver/Black	Shimano	0.00	0.00	0.00	0.00	0	45.00	45.00	36.00	19.50	36
+HU5660	Shimano 105 HB5600 32h Front hub	Shimano	38.00	38.00	35.00	35.00	32	0.00	0.00	0.00	0.00	0
+HU5661	Shimano 105 HB5600 36h Front hub	Shimano	38.00	38.00	35.00	35.00	36	0.00	0.00	0.00	0.00	0
+HU5662	Shimano 105 FH5600 32h Rear Cassette Hub (10-Speed)	Shimano	0.00	0.00	0.00	0.00	0	45.00	45.00	37.00	18.00	32
+HU5663	Shimano 105 FH5600 36h Rear Cassette Hub (10-Speed)	Shimano	0.00	0.00	0.00	0.00	0	45.00	45.00	37.00	18.00	36
+HU5665	Shimano 105 32h Front Hub, Black	Shimano	38.00	38.00	35.00	35.00	32	0.00	0.00	0.00	0.00	0
+HU5666	Shimano 105 36h Front Hub, Black	Shimano	38.00	38.00	35.00	35.00	36	0.00	0.00	0.00	0.00	0
+HU5667	Shimano 105 32h Rear Hub, 10-Speed, Black	Shimano	0.00	0.00	0.00	0.00	0	45.00	45.00	37.00	18.00	32
+HU5668	Shimano 105 36h Rear Hub, 10-Speed, Black	Shimano	0.00	0.00	0.00	0.00	0	45.00	45.00	37.00	18.00	36
+HU5800	Deore LX M585 Centerlock 32h Front Hub	Shimano	44.00	44.00	23.00	33.00	32	0.00	0.00	0.00	0.00	0
+HU5801	Deore LX M585 Centerlock 36h Front Hub	Shimano	44.00	44.00	23.00	33.00	36	0.00	0.00	0.00	0.00	0
+HU5802	LX M585 32h Rear Centerlock Hub	Shimano	0.00	0.00	0.00	0.00	0	45.00	45.00	31.00	17.50	32
+HU5803	LX M585 36h Rear Centerlock Hub	Shimano	0.00	0.00	0.00	0.00	0	45.00	45.00	31.00	17.50	36
+HU5804	Deore LX M580 32h Front Hub	Shimano	38.00	38.00	34.50	34.50	32	0.00	0.00	0.00	0.00	0
+HU5805	Deore LX M580 36h Front Hub	Shimano	38.00	38.00	34.50	34.50	36	0.00	0.00	0.00	0.00	0
+HU5806	LX M580 32h Rear Hub	Shimano	0.00	0.00	0.00	0.00	0	45.00	45.00	34.00	17.50	32
+HU5807	LX M580 36h Rear Hub	Shimano	0.00	0.00	0.00	0.00	0	45.00	45.00	34.00	17.50	36
+HU6000	Kris Holm/Onza unicycle hub, 36 holes, black	Kris Holm	0.00	0.00	0.00	0.00	0	56.00	56.00	33.50	33.50	36
+HU6001	Kris Holm Moment unicycle hub 36h, blue	Kris Holm	0.00	0.00	0.00	0.00	0	56.00	56.00	37.25	37.25	36
+HU6107	Hone M600 Rear 32h Centerlock Hub	Shimano	0.00	0.00	0.00	0.00	0	45.00	45.00	33.50	20.50	32
+HU6108	Hone M600 Rear 36h Centerlock Hub	Shimano	0.00	0.00	0.00	0.00	0	45.00	45.00	33.50	20.50	36
+HU6109	Hone M600 32h Centerlock Front Hub	Shimano	44.00	44.00	23.00	34.00	32	0.00	0.00	0.00	0.00	0
+HU6110	Hone M600 36h Centerlock Front Hub	Shimano	44.00	44.00	23.00	34.00	36	0.00	0.00	0.00	0.00	0
+HU6160	SLX M665 32h Front Center-Lock Hub	Shimano	44.25	44.25	22.50	33.00	32	0.00	0.00	0.00	0.00	0
+HU6162	SLX M667 32h 20mm Axle Centerlock Front Hub	Shimano	52.00	52.00	23.00	35.00	32	0.00	0.00	0.00	0.00	0
+HU6163	SLX M667 36h 20mm Axle Centerlock Front Hub	Shimano	52.00	52.00	23.00	35.00	36	0.00	0.00	0.00	0.00	0
+HU6164	SLX M665 32h 9spd Rear Center Lock Hub	Shimano	0.00	0.00	0.00	0.00	0	44.50	45.50	33.50	20.50	32
+HU6165	SLX M665 36h 9spd Rear Center Lock Hub	Shimano	0.00	0.00	0.00	0.00	0	44.50	45.50	33.50	20.50	36
+HU6203	SunRace BMX Low Flange Rear 48H Silver	SunRace	0.00	0.00	0.00	0.00	0	45.00	45.00	27.00	27.00	48
+HU6209	Juju Front 	SunRace	58.00	58.00	19.00	35.00	32	0.00	0.00	0.00	0.00	0
+HU6210	Juju Front  	SunRace	58.00	58.00	22.00	37.00	32	0.00	0.00	0.00	0.00	0
+HU6211	Juju Rear  	SunRace	0.00	0.00	0.00	0.00	0	58.00	58.00	33.00	21.00	32
+HU6213	SunRace Juju MZ FrontDisc 32h Grey Anodized	SunRace	58.00	58.00	23.00	33.00	32	0.00	0.00	0.00	0.00	0
+HU6214	Sunrace Juju MZ RearDisc 32h Grey Anodized	SunRace	0.00	0.00	0.00	0.00	0	58.00	58.00	33.50	15.50	32
+HU6500	Ultegra HB6500 28 hole front hub	Shimano	38.00	38.00	35.50	35.50	28	0.00	0.00	0.00	0.00	0
+HU6502	Ultegra FH6500 28 hole rear hub	Shimano	0.00	0.00	0.00	0.00	0	45.00	45.00	35.00	18.50	28
+HU6504	Ultegra HB6500 32 hole front hub	Shimano	38.00	38.00	35.50	35.50	32	0.00	0.00	0.00	0.00	0
+HU6506	Ultegra FH6500 32 hole rear hub	Shimano	0.00	0.00	0.00	0.00	0	45.00	45.00	35.00	18.50	32
+HU6508	Ultegra HB6500 36 hole front hub	Shimano	38.00	38.00	35.50	35.50	36	0.00	0.00	0.00	0.00	0
+HU6510	Ultegra FH6500 36 hole rear hub	Shimano	0.00	0.00	0.00	0.00	0	45.00	45.00	35.00	18.50	36
+HU6557	Shimano MX70 36h Front BMX hub	Shimano	40.00	40.00	35.00	35.00	36	0.00	0.00	0.00	0.00	0
+HU6559	Shimano MX70 36h Rear BMX hub	Shimano	0.00	0.00	0.00	0.00	0	45.00	45.00	26.50	26.50	36
+HU6600	Ultegra HB-6600 28h Front Hub	Shimano	38.00	38.00	34.00	34.00	28	0.00	0.00	0.00	0.00	0
+HU6601	Ultegra HB-6600 32h Front Hub	Shimano	38.00	38.00	34.00	34.00	32	0.00	0.00	0.00	0.00	0
+HU6602	Ultegra HB-6600 36h Front Hub	Shimano	38.00	38.00	34.00	34.00	36	0.00	0.00	0.00	0.00	0
+HU6603	Ultegra FH6600 10-Speed 28h Rear Hub	Shimano	0.00	0.00	0.00	0.00	0	45.00	45.00	36.50	19.00	28
+HU6604	Ultegra FH6600 10-Speed 32h Rear Hub	Shimano	0.00	0.00	0.00	0.00	0	45.00	45.00	36.50	19.00	32
+HU6605	Ultegra FH6600 10-Speed 36h Rear Hub	Shimano	0.00	0.00	0.00	0.00	0	45.00	45.00	36.50	19.00	36
+HU6619W	Shimano Deore LX T660 32h, Silver, rear	Shimano	0.00	0.00	0.00	0.00	0	45.00	45.00	35.50	19.50	32
+HU6621W	Shimano Deore LX T660 36h, Silver, rear	Shimano	0.00	0.00	0.00	0.00	0	45.00	45.00	35.50	19.50	36
+HU7425	Dura-Ace 28 hole front track hub	Shimano	38.00	38.00	35.50	35.50	28	0.00	0.00	0.00	0.00	0
+HU7426	Dura-Ace 28 hole rear track hub, flip-flop.Includes lockring	Shimano	0.00	0.00	0.00	0.00	0	44.00	44.00	31.50	31.50	28
+HU7427	Dura-Ace 32 hole front track hub	Shimano	38.00	38.00	35.50	35.50	32	0.00	0.00	0.00	0.00	0
+HU7428	Dura-Ace 32 hole rear track hub, flip-flop.Includes lockring	Shimano	0.00	0.00	0.00	0.00	0	44.00	44.00	31.50	31.50	32
+HU7429	Dura-Ace 36 hole front track hub	Shimano	38.00	38.00	35.50	35.50	36	0.00	0.00	0.00	0.00	0
+HU7430	Dura-Ace 36 hole rear track hub, flip-flop	Shimano	0.00	0.00	0.00	0.00	0	44.00	44.00	31.50	31.50	36
+HU7540	Deore 32 hole rear hub, silver	Shimano	0.00	0.00	0.00	0.00	0	45.00	45.00	35.50	19.50	32
+HU7542	Deore 32 hole rear hub, black	Shimano	0.00	0.00	0.00	0.00	0	45.00	45.00	35.50	19.50	32
+HU7544	Deore 36 hole rear hub, silver	Shimano	0.00	0.00	0.00	0.00	0	45.00	45.00	35.50	19.50	36
+HU7546	Deore 36 hole rear hub, black	Shimano	0.00	0.00	0.00	0.00	0	45.00	45.00	35.50	19.50	36
+HU7548	Deore 32 hole front hub, silver	Shimano	42.00	42.00	34.00	34.00	32	0.00	0.00	0.00	0.00	0
+HU7550	Deore 32 hole front hub, black	Shimano	42.00	42.00	34.00	34.00	32	0.00	0.00	0.00	0.00	0
+HU7552	Deore 36 hole front hub, silver	Shimano	42.00	42.00	34.00	34.00	36	0.00	0.00	0.00	0.00	0
+HU7554	Deore 36 hole front hub, black	Shimano	42.00	42.00	34.00	34.00	36	0.00	0.00	0.00	0.00	0
+HU7700	King 32H Front Hub Silver	Chris King	40.00	40.00	37.50	37.50	32	0.00	0.00	0.00	0.00	0
+HU7701	King 32H Front Hub Black 	Chris King	40.00	40.00	37.50	37.50	32	0.00	0.00	0.00	0.00	0
+HU7704	King 32H Front Hub Red 	Chris King	40.00	40.00	37.50	37.50	32	0.00	0.00	0.00	0.00	0
+HU7706	King 28H Front Hub Black 	Chris King	40.00	40.00	37.50	37.50	28	0.00	0.00	0.00	0.00	0
+HU7707	King 32H 135mm Silver	Chris King	0.00	0.00	0.00	0.00	0	44.00	53.00	39.50	21.00	32
+HU7708	King 32H 135mm Black 	Chris King	0.00	0.00	0.00	0.00	0	44.00	53.00	39.50	21.00	32
+HU7711	King 32H 135mm Red 	Chris King	0.00	0.00	0.00	0.00	0	44.00	53.00	39.50	21.00	32
+HU7712	King 28H Front Hub Silve 	Chris King	40.00	40.00	37.50	37.50	28	0.00	0.00	0.00	0.00	0
+HU7713	King 28H Rear Hub Silver 135mm	Chris King	0.00	0.00	0.00	0.00	0	44.00	53.00	39.50	21.00	28
+HU7714	King 28H Rear Hub Black 135mm	Chris King	0.00	0.00	0.00	0.00	0	44.00	53.00	39.50	21.00	28
+HU7720	King BMX Front 36H Silver	Chris King	40.00	40.00	34.00	34.00	36	0.00	0.00	0.00	0.00	0
+HU7721	King BMX Front 36H Black	Chris King	40.00	40.00	34.00	34.00	36	0.00	0.00	0.00	0.00	0
+HU7727	King BMX Rear Cassette 36H Silver w/16T Cog	Chris King	0.00	0.00	0.00	0.00	0	44.00	53.00	29.50	27.50	36
+HU7728	King BMX Rear Cassette 36H Black w/16T Cog	Chris King	0.00	0.00	0.00	0.00	0	44.00	53.00	29.50	27.50	36
+HU7735	King SingleSpeed Front Hub Black 32 degree	Chris King	53.00	53.00	33.70	33.70	32	0.00	0.00	0.00	0.00	0
+HU7741	King 28H Front Road Hub Silver	Chris King	40.00	40.00	37.50	37.50	28	0.00	0.00	0.00	0.00	0
+HU7745	King SingleSpeed Rear Hub Black 32 degree	Chris King	0.00	0.00	0.00	0.00	0	53.00	53.00	33.70	33.70	32
+HU7750	King 32H HG8/130mm/Road/ Silver	Chris King	0.00	0.00	0.00	0.00	0	44.00	53.00	39.00	18.00	32
+HU7751	King 28H Rear Road Hub Silver 130mm	Chris King	0.00	0.00	0.00	0.00	0	44.00	53.00	39.00	18.00	28
+HU7752	King 32H Rear Road BLK 	Chris King	0.00	0.00	0.00	0.00	0	44.00	53.00	39.00	18.00	32
+HU7755	King DisGoTech Universal 32h Front QRHub Black	Chris King	51.00	51.00	23.50	31.50	32	0.00	0.00	0.00	0.00	0
+HU7758	King DiscGoTech Universal 32h RrHub Black	Chris King	0.00	0.00	0.00	0.00	0	53.00	53.00	33.50	21.00	32
+HU7770	King ISO Front Disc Hub32h Black	Chris King	57.50	57.50	22.50	30.50	32	0.00	0.00	0.00	0.00	0
+HU7771	King ISO 20mm Front Disc Hub 32h Black	Chris King	57.50	57.50	23.00	31.00	32	0.00	0.00	0.00	0.00	0
+HU7772	King ISO Rear Disc Hub 32h Black	Chris King	0.00	0.00	0.00	0.00	0	57.50	57.50	34.00	20.00	32
+HU7773	King ISO Front Disc Hub 32 h Silver	Chris King	57.50	57.50	22.50	30.50	32	0.00	0.00	0.00	0.00	0
+HU7774	King ISO 20mm Front Disc Hub 32h Silver	Chris King	57.50	57.50	23.00	31.00	32	0.00	0.00	0.00	0.00	0
+HU7775	Chris King ISO 32h Rear Disc Hub, Silver	Chris King	0.00	0.00	0.00	0.00	0	57.50	57.50	34.00	20.00	32
+HU7780	King ISO Rear Disc Hub Black 32hole	Chris King	0.00	0.00	0.00	0.00	0	57.50	57.50	34.00	20.00	32
+HU7781	King ISO Rear Disc Hub Silver 32 hole	Chris King	0.00	0.00	0.00	0.00	0	57.50	57.50	34.00	20.00	32
+HU7860	Nexus Inter-8 Premium Hub SG-8R25 36h - Roller Brake Compatible	Shimano	0.00	0.00	0.00	0.00	0	93.00	93.00	26.50	20.50	36
+HU7862	Nexus Inter-8 Hub SG-8R20 36h -Roller Brake Compatible	Shimano	0.00	0.00	0.00	0.00	0	92.75	92.75	30.50	24.50	36
+HU7864	Nexus Inter-8 Coaster-Brake Hub SG-8C20 36h	Shimano	0.00	0.00	0.00	0.00	0	93.00	93.00	30.50	25.50	36
+HU7866	Nexus Inter-7 Hub SG-7R46 36h	Shimano	0.00	0.00	0.00	0.00	0	87.00	87.00	29.50	22.00	36
+HU7868	Nexus Inter-7 Coaster Brake Hub SG-7C16 36h	Shimano	0.00	0.00	0.00	0.00	0	83.00	84.50	33.00	18.00	36
+HU7870	Nexus Inter-3 Coaster Brake Hub (NO SHIFTER) SG-3C41 36h	Shimano	0.00	0.00	0.00	0.00	0	59.00	59.00	28.00	26.00	36
+HU7872	Shimano Sport Dynamo DH-3D71 Front 32h Centerlock Hub	Shimano	73.50	73.50	20.00	28.50	32	0.00	0.00	0.00	0.00	0
+HU7875	Alfine DHS500 32h Dynamo Centerlock Front hub	Shimano	73.50	73.50	20.00	28.50	32	0.00	0.00	0.00	0.00	0
+HU7881	Nexus Inter-3 SG-3D55 push rod for 192mm axle	Shimano	0.00	0.00	0.00	0.00	0	84.00	84.00	29.75	19.75	36
+HU7883	Shimano Inter-7 36h hub with coaster brake 127mm OLD	Shimano	0.00	0.00	0.00	0.00	0	87.00	87.00	28.00	22.00	36
+HU7887	Alfine SGS501 32h Disc brake 8-spd Internal hub Black	Shimano	0.00	0.00	0.00	0.00	0	92.75	92.75	31.50	24.50	32
+HU7888	Alfine SGS500 36h Disc brake 8-spd Internal hub	Shimano	0.00	0.00	0.00	0.00	0	92.75	92.75	31.50	24.50	36
+HU7900	Dura-Ace HB-7900 24h Front Hub, Silver	Shimano	38.00	38.00	35.50	35.50	24	0.00	0.00	0.00	0.00	0
+HU7901	Dura-Ace HB-7900 28h Front Hub, Silver	Shimano	38.00	38.00	35.50	35.50	28	0.00	0.00	0.00	0.00	0
+HU7902	Dura-Ace HB-7900 32h Front Hub, Silver	Shimano	38.00	38.00	35.50	35.50	32	0.00	0.00	0.00	0.00	0
+HU7903	Dura-Ace HB-7900 36h Front Hub, Silver	Shimano	38.00	38.00	35.50	35.50	36	0.00	0.00	0.00	0.00	0
+HU7905	Dura-Ace FH-7900 28h 10-Speed Rear Hub, Silver	Shimano	0.00	0.00	0.00	0.00	0	44.00	45.00	34.50	18.50	28
+HU7906	Dura-Ace FH-7900 32h 10-Speed Rear Hub, Silver	Shimano	0.00	0.00	0.00	0.00	0	44.00	45.00	34.50	18.50	32
+HU7907	Dura-Ace FH-7900 36h 10-Speed Rear Hub, Silver	Shimano	0.00	0.00	0.00	0.00	0	44.00	45.00	34.50	18.50	36
+HU8070	Saint M800 32h Front Hub w/large Centerlock	Shimano	57.00	57.00	23.00	34.00	32	0.00	0.00	0.00	0.00	0
+HU8071	Saint M800 36h Front Hub w/large Centerlock	Shimano	57.00	57.00	23.00	34.00	36	0.00	0.00	0.00	0.00	0
+HU8075	Saint M800 32h Rear Hub w/large Centerlock	Shimano	0.00	0.00	0.00	0.00	0	60.00	60.00	32.00	19.50	32
+HU8076	Saint M800 36h Rear Hub w/large Centerlock	Shimano	0.00	0.00	0.00	0.00	0	60.00	60.00	32.00	19.50	36
+HU8093	Saint M801 32h 135mm OLD Centerlock Rear Hub	Shimano	0.00	0.00	0.00	0.00	0	61.00	61.00	33.50	20.50	32
+HU8096	Saint M806 36h 150mm OLD Centerlock Rear Hub	Shimano	0.00	0.00	0.00	0.00	0	61.00	61.00	41.00	28.00	36
+HU8102	Shimano HF08 40 Hole Rear Tandem Hub, 145mm Spacing	Shimano	0.00	0.00	0.00	0.00	0	62.50	62.50	28.00	22.00	40
+HU8103	Shimano HF08 48 Hole Rear Tandem Hub, 145mm Spacing	Shimano	0.00	0.00	0.00	0.00	0	62.50	62.50	28.00	22.00	48
+HU8104	Shimano HF08 40 hole front tandem hub	Shimano	62.00	62.00	34.00	34.00	40	0.00	0.00	0.00	0.00	0
+HU8105	Shimano HF08 48 hole front tandem hub	Shimano	62.00	62.00	34.00	34.00	48	0.00	0.00	0.00	0.00	0
+HU8119	Shimano HB-RM60 ft hub 32 hole silver	Shimano	38.00	38.00	33.00	33.00	32	0.00	0.00	0.00	0.00	0
+HU8120	Shimano FH-RM60 Rear 32h Cassette Hub, Silver	Shimano	0.00	0.00	0.00	0.00	0	45.50	45.50	36.00	19.50	32
+HU8122	Shimano HB-M495-S Centerlock Front Hub	Shimano	45.00	44.00	24.00	34.00	32	0.00	0.00	0.00	0.00	0
+HU8123	Shimano HB-M495-L Centerlock Front Hub	Shimano	45.00	44.00	24.00	34.00	32	0.00	0.00	0.00	0.00	0
+HU8124	Shimano FHM-495S Rear REAR Centerlock Hub, Silver	Shimano	0.00	0.00	0.00	0.00	0	45.00	44.00	31.00	17.50	32
+HU8125	Shimano FHM-495L Rear Centerlock Hub, Black	Shimano	0.00	0.00	0.00	0.00	0	45.00	45.00	31.00	17.50	32
+HU8130	Saint M810 36h 20mm Std Centerlock 110mm Front Hub	Shimano	52.25	52.25	23.50	35.00	36	0.00	0.00	0.00	0.00	0
+HU8132	Shimano Saint M810 36h Rear Hub Std Centerlock 135mm X 12mm	Shimano	0.00	0.00	0.00	0.00	0	44.00	45.00	33.50	20.50	36
+HU8133	Shimano Saint M810 32h Rear Hub Std Centerlock 135mm X 12mm	Shimano	0.00	0.00	0.00	0.00	0	44.00	45.00	33.50	20.50	32
+HU8300	Shimano Auto-D kit /coaster brake hub	Shimano	0.00	0.00	0.00	0.00	0	84.00	84.00	33.00	25.00	36
+HU8310	Shimano Auto-D kit /roller brake hub	Shimano	0.00	0.00	0.00	0.00	0	84.00	84.00	27.00	26.00	36
+HU8400	XT M756 32 hole front disc hub, silver	Shimano	60.00	60.00	21.00	31.50	32	0.00	0.00	0.00	0.00	0
+HU8402	XT M756 32 hole front disc hub, black	Shimano	60.00	60.00	21.00	31.50	32	0.00	0.00	0.00	0.00	0
+HU8404	XT M756 36 hole front disc hub, silver	Shimano	60.00	60.00	21.00	31.50	36	0.00	0.00	0.00	0.00	0
+HU8406	XT M756 36 hole front disc hub, black	Shimano	60.00	60.00	21.00	31.50	36	0.00	0.00	0.00	0.00	0
+HU8408	XT M756 32 Hole Rear Disc Hub Silver	Shimano	0.00	0.00	0.00	0.00	0	60.00	60.00	31.00	18.00	32
+HU8410	XT M756 32 Hole Rear Disc Hub Black	Shimano	0.00	0.00	0.00	0.00	0	60.00	60.00	31.00	18.00	32
+HU8412	XT M756 36 Hole Rear Disc hub Silver	Shimano	0.00	0.00	0.00	0.00	0	60.00	60.00	31.00	18.00	36
+HU8414	XT M756 36 Hole Rear Disc Hub Black	Shimano	0.00	0.00	0.00	0.00	0	60.00	60.00	31.00	18.00	36
+HU8434	Deore XT M760 32h Front Hub Black	Shimano	38.00	38.00	34.00	34.00	32	0.00	0.00	0.00	0.00	0
+HU8435	Deore XT M760 32h Front Hub Silver	Shimano	38.00	38.00	34.00	34.00	32	0.00	0.00	0.00	0.00	0
+HU8436	Deore XT M760 36h Fron Hub Black	Shimano	38.00	38.00	34.00	34.00	36	0.00	0.00	0.00	0.00	0
+HU8437	Deore XT M760 36h Front Hub Silver	Shimano	38.00	38.00	34.00	34.00	36	0.00	0.00	0.00	0.00	0
+HU8438	Deore XT M760 32h Rear Hub Black	Shimano	45.00	45.00	35.00	19.00	32	0.00	0.00	0.00	0.00	0
+HU8439	Deore XT M760 32h Rear Hub Silver	Shimano	0.00	0.00	0.00	0.00	0	45.00	45.00	35.00	19.00	32
+HU8440	Deore XT M760 36h Rear Hub Black	Shimano	0.00	0.00	0.00	0.00	0	45.00	45.00	35.00	19.00	36
+HU8441	Deore XT M760 36h Rear Hub Silver	Shimano	0.00	0.00	0.00	0.00	0	45.00	45.00	35.00	19.50	36
+HU8442	Deore XT M765 32h Front Disc Hub, Black	Shimano	44.00	38.00	23.00	34.00	32	0.00	0.00	0.00	0.00	0
+HU8443	Deore XT M765 32h Front Disc Hub, Silver	Shimano	44.00	38.00	23.00	34.00	32	0.00	0.00	0.00	0.00	0
+HU8444	Deore XT M765 36h Front Disc Hub, Black	Shimano	44.00	41.00	23.00	34.00	36	0.00	0.00	0.00	0.00	0
+HU8445	Deore XT M765 36h Front Disc Hub, Silver	Shimano	44.00	41.00	23.00	34.00	36	0.00	0.00	0.00	0.00	0
+HU8446	Deore XT M765 32h Rear Disc Hub, Black	Shimano	0.00	0.00	0.00	0.00	0	45.00	45.00	34.00	21.00	32
+HU8447	Deore XT M765 32h Rear Disc Hub, Silver	Shimano	0.00	0.00	0.00	0.00	0	45.00	45.00	34.00	21.00	32
+HU8448	Deore XT M765 36h Rear Disc Hub, Black	Shimano	0.00	0.00	0.00	0.00	0	45.00	45.00	34.00	21.00	36
+HU8449	Deore XT M765 36h Rear Disc Hub, Silver	Shimano	0.00	0.00	0.00	0.00	0	45.00	45.00	34.00	21.00	36
+HU8476	XT M778 32h Center Lock Disc Front Hub w/15mm thru axle	Shimano	44.00	44.00	23.00	34.00	32	0.00	0.00	0.00	0.00	0
+HU8477	XT M778 36h Center Lock Disc Front Hub w/15mm thru axle	Shimano	44.00	44.00	23.00	34.00	36	0.00	0.00	0.00	0.00	0
+HU8500	XT M776 36h 20mm Center lock Front hub Black	Shimano	52.25	52.25	23.50	35.00	36	0.00	0.00	0.00	0.00	0
+HU8501	XT M776 32h 20mm Center lock Front hub Black	Shimano	52.25	52.25	23.50	35.00	32	0.00	0.00	0.00	0.00	0
+HU8502	XT M775 36h Centerlock Front hub Black	Shimano	44.00	41.00	22.00	33.00	36	0.00	0.00	0.00	0.00	0
+HU8503	XT M775 32h Centerlock Front hub Black	Shimano	44.00	41.00	22.00	33.00	32	0.00	0.00	0.00	0.00	0
+HU8504	XT M775 36h Centerlock Rear Hub Black	Shimano	0.00	0.00	0.00	0.00	0	44.00	45.00	33.00	20.00	36
+HU8505	XT M775 32h Centerlock Rear Hub Black	Shimano	0.00	0.00	0.00	0.00	0	44.00	45.00	33.00	20.00	32
+HU8506	XT M770 36h Front hub Black	Shimano	40.00	40.00	33.50	33.50	36	0.00	0.00	0.00	0.00	0
+HU8507	XT M770 32h Front hub Black	Shimano	40.00	40.00	33.50	33.50	32	0.00	0.00	0.00	0.00	0
+HU8508	XT M770 36h Rear hub Black	Shimano	0.00	0.00	0.00	0.00	0	44.00	45.00	34.00	20.00	36
+HU8509	XT M770 32h Rear hub Black	Shimano	0.00	0.00	0.00	0.00	0	44.00	45.00	34.00	20.00	32
+HU8513	XT M775 32h Centerlock Front hub Silver	Shimano	44.00	41.00	22.00	33.00	32	0.00	0.00	0.00	0.00	0
+HU8515	XT M775 32h Centerlock Rear Hub Silver	Shimano	0.00	0.00	0.00	0.00	0	44.00	45.00	33.00	20.00	32
+HU8516	XT M770 36h Front hub Silver	Shimano	40.00	40.00	33.50	33.50	36	0.00	0.00	0.00	0.00	0
+HU8517	XT M770 32h Front hub Silver	Shimano	40.00	40.00	33.50	33.50	32	0.00	0.00	0.00	0.00	0
+HU8518	XT M770 36h Rear Hub Silver	Shimano	0.00	0.00	0.00	0.00	0	44.00	45.00	34.00	20.00	36
+HU8519	XT M770 32h Rear Hub Silver	Shimano	0.00	0.00	0.00	0.00	0	44.00	45.00	34.00	20.00	32
+HU8810	Paul High Flange 32hFront hub Black	Paul Components	65.00	65.00	33.00	33.00	32	0.00	0.00	0.00	0.00	0
+HU8811	Paul High Flange Rear 120mm 32h Black	Paul Components	0.00	0.00	0.00	0.00	0	64.50	64.50	34.00	34.00	32
+HU8812	Paul High Flange Rear 130mm 32h Black	Paul Components	0.00	0.00	0.00	0.00	0	65.00	65.00	33.00	33.00	32
+HU8825	Front hub 32 hole Silver QR	Paul Components	43.00	43.00	36.50	36.50	32	0.00	0.00	0.00	0.00	0
+HU8826	Front hub 32 hole Black QR	Paul Components	43.00	43.00	36.50	36.50	32	0.00	0.00	0.00	0.00	0
+HU8830	WORD Single Speed hub 32h Silver	Paul Components	0.00	0.00	0.00	0.00	0	44.00	44.00	39.25	39.25	32
+HU8831	WORD Single Speed hub 32 hole Black	Paul Components	0.00	0.00	0.00	0.00	0	44.00	44.00	39.25	39.25	32
+HU8850	Disc Front Hub Black 32 hole	Paul Components	56.00	56.00	23.00	32.00	32	0.00	0.00	0.00	0.00	0
+HU8852	Word Disc Hub Black 32 hole	Paul Components	0.00	0.00	0.00	0.00	0	56.00	56.00	33.00	33.00	32
+HU8860	Saint FH-M805 32h Rear Centerlock OS Hub	Shimano	0.00	0.00	0.00	0.00	0	61.00	61.00	40.50	27.50	32
+HU8861	Saint FH-M805 36h Rear Centerlock OS Hub	Shimano	0.00	0.00	0.00	0.00	0	61.00	61.00	40.50	27.50	36
+HU8901	Profile Mini SS Cassette Hub Purple w/CrMo 9t 36h	Profile Racing	0.00	0.00	0.00	0.00	0	43.50	54.50	32.50	30.00	36
+HU8902	Profile Racing Mini front hub 36h Green	Profile Racing	43.50	43.50	32.00	32.00	36	0.00	0.00	0.00	0.00	0
+HU8903	Profile Mini SS Cassette Hub Green w/CrMo 9t 36h	Profile Racing	0.00	0.00	0.00	0.00	0	43.50	54.50	32.50	30.00	36
+HU9001	Profile BMX Front 36 hole Silver  	Profile Racing	52.00	52.00	33.00	33.00	36	0.00	0.00	0.00	0.00	0
+HU9002	Profile BMX Rear Cassette 36 hole Silver w/16T Cog 	Profile Racing	0.00	0.00	0.00	0.00	0	52.00	52.00	30.50	30.50	36
+HU9003	Profile Mini front hub 36h Brown	Profile Racing	43.50	43.50	32.00	32.00	36	0.00	0.00	0.00	0.00	0
+HU9004	Profile Mini front hub 36h Red	Profile Racing	43.50	43.50	32.00	32.00	36	0.00	0.00	0.00	0.00	0
+HU9005	Profile BMX Mini front hub 36 hole black  	Profile Racing	43.50	43.50	32.00	32.00	36	0.00	0.00	0.00	0.00	0
+HU9006	Profile BMX Mini Cassette Hub w/Ti Driver 36H black	Profile Racing	0.00	0.00	0.00	0.00	0	44.00	54.00	32.00	28.00	36
+HU9015	Profile SS front hub 48 hole  	Profile Racing	54.00	54.00	32.00	32.00	48	0.00	0.00	0.00	0.00	0
+HU9016	Profile SS rear cassette hub 48 hole w/16t   	Profile Racing	0.00	0.00	0.00	0.00	0	52.00	52.00	30.00	30.00	48
+HU9017	Profile Mini SS rear hub with 9T Ti driver and Ti axle 36 hole Silver	Profile Racing	0.00	0.00	0.00	0.00	0	43.00	54.00	33.00	28.00	36
+HU9018	Profile Mini SS Cassette Hub with 9T Ti driver and Ti axle 36 hole Black	Profile Racing	0.00	0.00	0.00	0.00	0	43.00	54.00	31.00	28.50	36
+HU9034	Profile Mini SS Cassette Hub White w/CrMo 9t	Profile Racing	0.00	0.00	0.00	0.00	0	43.50	54.50	32.50	30.00	36
+HU9035	Profile Racing Front Track Hub White 32h	Profile Racing	58.50	58.50	32.00	32.00	32	0.00	0.00	0.00	0.00	0
+HU9036	Profile Racing Rear Track Hub White 32h	Profile Racing	0.00	0.00	0.00	0.00	0	58.50	58.50	31.00	33.00	32
+HU9038	KHE Astral 36h Front Hub with 3/8" & 14mm studs	KHE	40.00	40.00	30.50	30.50	36	0.00	0.00	0.00	0.00	0
+HU9041	KHE Geisha Light 36h Sil Freecoaster Hub w/9t	KHE	0.00	0.00	0.00	0.00	0	45.00	58.25	27.50	27.50	36
+HU9042	KHE Geisha Light 48h Sil Freecoaster Hub w/9t	KHE	0.00	0.00	0.00	0.00	0	45.00	58.25	27.50	27.50	48
+HU9044	Profile BMX Mini Cassette w/Chromo Driver 36h Black	Profile Racing	0.00	0.00	0.00	0.00	0	43.50	54.50	33.50	28.50	36
+HU9045	Profile Mini SS Cassette Hub Black w/CrMo 9t	Profile Racing	0.00	0.00	0.00	0.00	0	43.50	54.50	32.50	30.00	36
+HU9046	Profile Mini SS Cassette Hub Brown w/CrMo 9t	Profile Racing	0.00	0.00	0.00	0.00	0	43.50	54.50	32.50	30.00	36
+HU9047	Profile Mini SS Cassette Hub Red w/CrMo 9t	Profile Racing	0.00	0.00	0.00	0.00	0	43.50	54.50	32.50	30.00	36
+HU9048	KHE Limited Edition Purple Geisha Light 36h Freecoaster	KHE	0.00	0.00	0.00	0.00	0	45.00	58.25	27.50	27.50	36
+HU9049	Profile Poznanter unicycle hub, black	Profile Racing	0.00	0.00	0.00	0.00	0	54.50	54.50	33.75	33.75	36
+HU9050	Profile Poznanter unicycle hub, silver	Profile Racing	0.00	0.00	0.00	0.00	0	54.50	54.50	33.50	33.50	36
+HU9052	KHE 36h White 07 Reverse RHD Hub w/9t driver	KHE	0.00	0.00	0.00	0.00	0	58.00	58.00	25.50	26.50	36
+HU9053	KHE 36h Black 07 Reverse RHD Hub w/9t driver	KHE	0.00	0.00	0.00	0.00	0	58.00	58.00	25.50	26.50	36
+HU9054	KHE 48h White 07 Reverse RHD Hub w/9t driver	KHE	0.00	0.00	0.00	0.00	0	58.00	58.00	25.50	26.50	48
+HU9055	KHE 48h Black 07 Reverse RHD Hub w/9t driver	KHE	0.00	0.00	0.00	0.00	0	58.00	58.00	25.50	26.50	48
+HU9056	KHE 36h White 07 Reverse LHD Hub w/9t driver	KHE	0.00	0.00	0.00	0.00	0	58.00	58.00	25.50	26.50	36
+HU9057	KHE 36h Black 07 Reverse LHD Hub w/9t driver	KHE	0.00	0.00	0.00	0.00	0	58.00	58.00	25.50	26.50	36
+HU9058	KHE 48h White 07 Reverse LHD Hub w/9t driver	KHE	0.00	0.00	0.00	0.00	0	58.00	58.00	25.50	26.50	48
+HU9059	KHE 48h Black 07 Reverse LHD Hub w/9t driver	KHE	0.00	0.00	0.00	0.00	0	58.00	58.00	25.50	26.50	48
+HU9074	Profile Racing Front Track Hub Silver 32 hole	Profile Racing	58.50	58.50	32.00	32.00	32	0.00	0.00	0.00	0.00	0
+HU9075	Profile Racing Front Track Hub Purple 32h	Profile Racing	58.50	58.50	32.00	32.00	32	0.00	0.00	0.00	0.00	0
+HU9076	Profile Racing Rear Track Hub Silver 32 hole	Profile Racing	0.00	0.00	0.00	0.00	0	58.50	58.50	31.00	33.00	32
+HU9077	Profile Racing Rear Track Hub Purple 32 hole	Profile Racing	0.00	0.00	0.00	0.00	0	58.50	58.50	31.00	33.00	32
+HU9110	FMF HUB SET FLIP/FLOP ALLOY SEALED	FMF	38.00	38.00	26.50	26.50	28	45.50	45.50	30.50	30.50	28
+HU9111	FMF HUB SET FLIP/FLOP ALLOY SEALED	FMF	38.00	38.00	26.50	26.50	28	45.50	45.50	30.50	30.50	28
+HU9112	FMF HUB SET FLIP/FLOP ALLOY SEALED	FMF	38.50	38.50	27.50	27.50	36	45.50	45.50	31.50	30.50	36
+HU9113	FMF HUB SET FLIP/FLOP ALLOY SEALED	FMF	38.50	38.50	27.00	27.00	36	46.00	46.00	31.00	31.00	36
+HU9114	FMF Powermoto 28h Rear Cassette Hub, Black - Compatible with FMF Cassettes (Comes with cogs sizes 9,11,13,15,16,17, and 18)	FMF	38.00	38.00	25.50	25.50	28	45.50	45.50	31.00	21.50	28
+HU9115	FMF Powermoto 36h Rear Cassette Hub, Black - Compatible with FMF Cassettes (Comes with cogs sizes 9,11,13,15,16,17, and 18)	FMF	38.00	38.00	25.50	25.50	36	45.50	45.50	31.00	21.50	36
+HU9116	KHE Lolita Cass. Hub 36h Black w/9t and 14mm axle	KHE	0.00	0.00	0.00	0.00	0	58.00	58.00	26.50	26.50	36
+HU9117	KHE Lolita Cass. Hub 48h Black w/9t and 14mm axle	KHE	0.00	0.00	0.00	0.00	0	58.00	58.00	26.50	26.50	48
+HU9120	KHE Front Hub 10mm Axle 36h Sealed Blk	KHE	38.00	38.00	27.00	27.00	36	0.00	0.00	0.00	0.00	0
+HU9125	KHE Hure Front Hub 3/8" or 14mm Sealed 36h Brown	KHE	45.00	45.00	34.50	34.50	36	0.00	0.00	0.00	0.00	0
+HU9126	KHE Hure Cass Hub 3/8" or 14mm Sealed 36h Brown	KHE	0.00	0.00	0.00	0.00	0	45.00	58.00	28.00	26.00	36
+HU9127	KHE Hure Cass Hub 3/8" or 14mm Sealed 48h Brown	KHE	0.00	0.00	0.00	0.00	0	45.00	58.00	28.00	26.00	48
+HU9134	KHE Geisha Front 3/8" Hub Sealed 36h Gold	KHE	44.50	44.50	26.00	26.00	36	0.00	0.00	0.00	0.00	0
+HU9135	KHE Geisha Freecoaster 3/8" Hub w/11t 36h Gold	KHE	0.00	0.00	0.00	0.00	0	67.00	67.00	24.50	26.00	36
+HU9138	KHE Geisha Street Free coast 14mm 36h Brn w/9t	KHE	0.00	0.00	0.00	0.00	0	60.00	60.00	30.00	30.00	36
+HU9139	KHE Geisha Street Free coast 14mm 48h Brn w/9t	KHE	0.00	0.00	0.00	0.00	0	60.00	60.00	30.00	30.00	48
+HU9163	Odyssey Hazard BMX Front 48H Hub Black 14mm Axle	Odyssey	45.00	45.00	28.00	28.00	48	0.00	0.00	0.00	0.00	0
+HU9164	KHE Geisha Front 3/8" Hub Sealed 36h Silver	KHE	45.00	45.00	27.50	27.50	36	0.00	0.00	0.00	0.00	0
+HU9165	Odyssey Hazard BMX Rear Flip-Flop 48H Hub Black 14mm Axle	Odyssey	0.00	0.00	0.00	0.00	0	45.00	45.00	28.00	28.00	48
+HU9166	Odyssey Hazard BMX Rear LHD/RHD 48H Hub Black 14mm Axle	Odyssey	0.00	0.00	0.00	0.00	0	45.00	45.00	28.50	28.50	48
+HU9167	Odyssey Hazard BMX Rear Cassette 48H Hub Black 14mm Axle	Odyssey	0.00	0.00	0.00	0.00	0	49.00	49.00	27.50	27.50	48
+HU9172	Odyssey Vandero 36h Front Hub	Odyssey	38.00	38.00	30.00	30.00	36	0.00	0.00	0.00	0.00	0
+HU9173	Odyssey Hazard Front 36h Blkhub	Odyssey	45.00	45.00	28.00	28.00	36	0.00	0.00	0.00	0.00	0
+HU9176	Odys Hazard Rear 36h 14mmCass hub Black	Odyssey	0.00	0.00	0.00	0.00	0	49.00	49.00	27.50	27.50	36
+HU9177	Odyssey Hazard Rear Cassette Left hand drive Hub 48H 14mm Black	Odyssey	0.00	0.00	0.00	0.00	0	49.00	49.00	26.00	27.00	48
+HU9178	Odys Hazard Rear Cassette Left hand drive Hub 36H 14mm Black	Odyssey	0.00	0.00	0.00	0.00	0	49.00	49.00	26.00	27.00	36
+HU9179	Odyssey Race Cassette Hub 36H 3/8" Black includes 14,15,16 tooth cogs	Odyssey	0.00	0.00	0.00	0.00	0	49.00	49.00	26.50	26.50	36
+HU9180	Odyssey Reloader Freecoaster Hub 36H 14mm includes 10t driver	Odyssey	0.00	0.00	0.00	0.00	0	58.00	58.00	27.00	27.00	36
+HU9181	Odyssey Reloader Freecoaster Hub 48H 14mm includes 10t driver	Odyssey	0.00	0.00	0.00	0.00	0	58.00	58.00	28.00	28.00	48
+HU9186	Odyssey Junior Race Vandero 28h Front Hub	Odyssey	38.00	38.00	31.50	31.50	28	0.00	0.00	0.00	0.00	0
+HU9187	Odyssey Junior Race Vandero 36h Front Hub	Odyssey	38.00	38.00	31.50	31.50	36	0.00	0.00	0.00	0.00	0
+HU9188	Odyssey Race Vandero Front Hub	Odyssey	41.00	41.00	31.00	31.00	36	0.00	0.00	0.00	0.00	0
+HU9189	Ody Jr Cassette Hub 3/8" 28H w/Aluminum Axle	Odyssey	0.00	0.00	0.00	0.00	0	49.00	49.00	26.00	26.00	28
+HU9190	Ody Jr Cassette Hub 3/8" 36H w/Aluminum Axle	Odyssey	0.00	0.00	0.00	0.00	0	49.00	49.00	26.00	26.00	36
+HU9191	Ody Haz Rr 36h 14mm Blk Cass hub w/10t driver	Odyssey	0.00	0.00	0.00	0.00	0	49.00	49.00	27.50	27.50	36
+HU9192	Ody Haz Rr 48h 14mm Blk Cass hub w/10t driver	Odyssey	0.00	0.00	0.00	0.00	0	49.00	49.00	27.50	27.50	48
+HU9193	Odyssey Vandero 2 Front Hub 36h Black	Odyssey	43.00	43.00	33.00	33.00	36	0.00	0.00	0.00	0.00	0
+HU9195	Odyssey Vandero 2 Front Hub 36h White	Odyssey	43.00	43.00	33.50	33.50	36	0.00	0.00	0.00	0.00	0
+HU9196	KHE Geisha MTB 32h/11t Freecoaster Disc Hub Gold	KHE	0.00	0.00	0.00	0.00	0	58.00	58.00	34.00	32.00	32
+HU9197	KHE Geisha MTB 36h/11t Freecoaster Disc Hub Gold	KHE	0.00	0.00	0.00	0.00	0	58.00	58.00	34.00	32.00	36
+HU9198	KHE Geisha Freecoaster 3/8" Hub w/11t 36h Gold	KHE	0.00	0.00	0.00	0.00	0	60.00	60.00	30.00	30.00	36
+HU9199	KHE Geisha Freecoaster 3/8" Hub w/9t 36h Gold	KHE	0.00	0.00	0.00	0.00	0	60.00	60.00	30.00	30.00	36
+HU9200	G Sport Marmoset Gold front hub 36h 3/8"	G Sport	45.00	45.00	33.00	33.00	36	0.00	0.00	0.00	0.00	0
+HU9201	G Sport Marmoset Polished front hub 36h 3/8"	G Sport	45.00	45.00	33.00	33.00	36	0.00	0.00	0.00	0.00	0
+HU9204	G Sport Marmoset White front hub 36h 3/8"	G Sport	45.00	45.00	33.00	33.00	36	0.00	0.00	0.00	0.00	0
+HU9205	Campagnolo Chorus Front 32-Hole Silver hub	Campagnolo	38.00	38.00	34.00	34.00	32	0.00	0.00	0.00	0.00	0
+HU9206	Campagnolo Chorus Front 36-Hole Silver hub	Campagnolo	38.00	38.00	34.00	34.00	36	0.00	0.00	0.00	0.00	0
+HU9207	Campagnolo Chorus Rear 32-Hole Silver hub	Campagnolo	0.00	0.00	0.00	0.00	0	44.00	46.00	36.00	17.00	32
+HU9208	Campagnolo Chorus Rear 36-Hole Silver hub	Campagnolo	0.00	0.00	0.00	0.00	0	44.00	46.00	36.00	17.00	36
+HU9211	Stolen Roulette Cassette Hub 36h Black w/9t	Stolen	0.00	0.00	0.00	0.00	0	49.00	49.00	27.50	26.50	36
+HU9212	Stolen Roulette Cassette Hub 36h White w/9t	Stolen	0.00	0.00	0.00	0.00	0	49.00	49.00	27.50	26.50	36
+HU9213	Stolen Roulette Cassette Hub 36h Gang Green w/9t	Stolen	0.00	0.00	0.00	0.00	0	49.00	49.00	27.50	26.50	36
+HU9214	Campagnolo Record Low Flange Track Hub Front 32-hole	Campagnolo	38.50	38.50	34.50	34.50	32	0.00	0.00	0.00	0.00	0
+HU9215	Campagnolo Record Low Flange Track Hub Front 36-hole	Campagnolo	38.00	38.00	34.50	34.50	36	0.00	0.00	0.00	0.00	0
+HU9216	Campagnolo Record Low Flange Track Hub Rear 32-hole with Lockring	Campagnolo	0.00	0.00	0.00	0.00	0	44.50	44.50	37.00	31.00	32
+HU9217	Campagnolo Record Low Flange Track Hub Rear 36-hole with Lockring	Campagnolo	0.00	0.00	0.00	0.00	0	44.50	44.50	37.00	31.00	36
+HU9220	G Sport Ratchet Cassette Black 36h 14mm	G Sport	0.00	0.00	0.00	0.00	0	53.50	57.50	31.00	31.00	36
+HU9221	G Sport Ratchet Cassette Gold 36h 14mm rear hub	G Sport	0.00	0.00	0.00	0.00	0	53.50	57.50	31.00	31.00	36
+HU9222	G Sport Ratchet Cassette Polished 36h 14mm rear	G Sport	0.00	0.00	0.00	0.00	0	53.50	57.50	31.00	31.00	36
+HU9224	G Sport Ratchet Cassette White 36h 14mm rear hub	G Sport	0.00	0.00	0.00	0.00	0	53.50	57.50	31.00	31.00	36
+HU9225	Campagnolo Centaur Front 32-Hole Silver hub	Campagnolo	38.00	38.00	34.00	34.00	32	0.00	0.00	0.00	0.00	0
+HU9226	Campagnolo Centaur Front 36-Hole Silver hub	Campagnolo	38.00	38.00	34.00	34.00	36	0.00	0.00	0.00	0.00	0
+HU9227	Campagnolo Centaur Rear 32-Hole Silver hub	Campagnolo	0.00	0.00	0.00	0.00	0	44.00	46.00	36.00	17.00	32
+HU9228	Campagnolo Centaur Rear 36-Hole Silver hub	Campagnolo	0.00	0.00	0.00	0.00	0	44.00	46.00	36.00	16.00	36
+HU9230	Stolen Roulette Front 3/8" Hub 36h Black	Stolen	38.00	38.00	32.00	32.00	36	0.00	0.00	0.00	0.00	0
+HU9231	Stolen Roulette Front 3/8" Hub 36h White	Stolen	38.00	38.00	32.00	32.00	36	0.00	0.00	0.00	0.00	0
+HU9232	Stolen Roulette Front 3/8" Hub 36h Gang Green	Stolen	38.00	38.00	32.00	32.00	36	0.00	0.00	0.00	0.00	0
+HU9234	Campagnolo Record Front 28-Hole Silver hub	Campagnolo	38.00	38.00	34.00	34.00	28	0.00	0.00	0.00	0.00	0
+HU9235	Campagnolo Record Front 32-Hole Silver hub	Campagnolo	38.00	38.00	34.00	34.00	32	0.00	0.00	0.00	0.00	0
+HU9236	Campagnolo Record Front 36-Hole Silver hub	Campagnolo	38.00	38.00	34.00	34.00	36	0.00	0.00	0.00	0.00	0
+HU9237	Campagnolo Record Ti Rear 28-Hole Silver hub	Campagnolo	0.00	0.00	0.00	0.00	0	44.00	46.00	36.00	17.00	28
+HU9238	Campagnolo Record Ti Rear 32-Hole Silver hub	Campagnolo	0.00	0.00	0.00	0.00	0	44.00	46.00	36.00	17.00	32
+HU9239	Campagnolo Record Ti Rear 36-Hole Silver hub	Campagnolo	0.00	0.00	0.00	0.00	0	44.00	46.00	36.00	17.00	36
+HU9245	Crupi BMX Hi-Flange Hubset 36H Black- Sealed Bearing Flip Flop	Crupi	66.50	66.50	28.00	28.00	36	66.50	66.50	28.00	28.00	36
+HU9248	Crupi BMX Lo-Flange Hubset 36H Silver - Sealed Bearing Flip Flop	Crupi	38.00	38.00	29.50	29.50	36	44.00	44.00	28.00	28.00	36
+HU9249	Crupi BMX Lo-Flange Hubset 36H Black - Sealed Bearing Flip Flop	Crupi	38.00	38.00	29.50	29.50	36	44.00	44.00	28.00	28.00	36
+HU9253	Crupi BMX Lo-Flange Hubset 28H Black - Sealed Bearing Flip Flop	Crupi	38.00	38.00	29.50	29.50	28	44.00	44.00	28.00	28.00	28
+HU9278	Campagnolo Veloce Rear 32-Hole Silver hub	Campagnolo	0.00	0.00	0.00	0.00	0	44.00	44.00	36.00	17.00	32
+HU9279	Campagnolo Veloce Rear 36-Hole Silver hub	Campagnolo	0.00	0.00	0.00	0.00	0	45.00	45.00	36.00	15.00	36
+HU9280	ACS Claws Sealed Hub-Frt 28h Black	ACS	45.00	45.00	27.00	27.00	28	45.00	45.00	27.50	27.50	28
+HU9281	ACS Claws Sealed Hub-Rr F/F 28h Black	ACS	45.00	45.00	27.00	27.00	28	45.00	45.00	27.50	27.50	28
+HU9282	ACS Claws Sealed Hub-Frt 36h Silver	ACS	45.00	45.00	27.00	27.00	36	45.00	45.00	27.50	27.50	36
+HU9283	ACS Claws Sealed Hub-Rr F/F 36h Sil	ACS	45.00	45.00	27.00	27.00	36	45.00	45.00	27.50	27.50	36
+HU9284	ACS Claws Sealed Hub-Frt 28h Silver	ACS	45.00	45.00	27.00	27.00	28	45.00	45.00	27.50	27.50	28
+HU9285	ACS Claws Sealed Hub-Rr F/F 28h Sil	ACS	45.00	45.00	27.00	27.00	28	45.00	45.00	27.50	27.50	28
+HU9286	ACS Claws Sealed Hub-Fr 36h Black	ACS	45.00	45.00	27.00	27.00	36	45.00	45.00	27.50	27.50	36
+HU9287	ACS Claws Sealed Hub-Rr 36h Black	ACS	45.00	45.00	27.00	27.00	36	45.00	45.00	27.50	27.50	36
+HU9290	FUNN Bullet Single Speed Cassette Hub W/16t Driver 36hole Black	FUNN	0.00	0.00	0.00	0.00	0	58.00	58.00	33.50	41.00	36
+HU9291	FUNN Bullet 32h Rear Hub 8/9spd 135mm	FUNN	0.00	0.00	0.00	0.00	0	62.00	56.00	33.50	18.50	32
+HU9292	FUNN Bullet 36h Rear Hub 8/9spd 135mm	FUNN	0.00	0.00	0.00	0.00	0	62.00	62.00	33.50	18.50	36
+HU9295	FUNN Bullet 32h Frnt Hub 20mm/Std Axle Convertble	FUNN	62.00	56.00	22.00	36.00	32	0.00	0.00	0.00	0.00	0
+HU9296	FUNN Bullet 36h Frnt Hub 20mm/Std Axle Convertble	FUNN	62.00	56.00	22.00	36.00	36	0.00	0.00	0.00	0.00	0
+HU9308	Primo Stock hub front 36H black 14mm	Primo	60.00	60.00	29.00	29.00	36	0.00	0.00	0.00	0.00	0
+HU9309	Primo Stock hub rear 36Hblack 14mm	Primo	0.00	0.00	0.00	0.00	0	61.00	61.00	29.00	29.00	36
+HU9310	Primo Stock hub front 48H black 14mm	Primo	60.00	60.00	29.00	29.00	48	0.00	0.00	0.00	0.00	0
+HU9311	Primo Stock hub rear 48Hblack 14mm	Primo	0.00	0.00	0.00	0.00	0	62.00	62.00	29.00	29.00	48
+HU9318	Primo Stock 36h Flip/Flop Rear Hub, 14mm, Black	Primo	0.00	0.00	0.00	0.00	0	60.00	60.00	29.00	29.00	36
+HU9319	Primo Stock 48h Flip/Flop Rear Hub, 14mm, Black	Primo	0.00	0.00	0.00	0.00	0	61.00	61.00	29.00	29.00	48
+HU9323	G Sport Marmoset Front Hub Black	G Sport	45.00	45.00	33.00	33.00	36	0.00	0.00	0.00	0.00	0
+HU9324	G Sport Monkey Front Hub 48H with 3/8" Alum Axle	G Sport	54.00	54.00	33.00	33.00	48	0.00	0.00	0.00	0.00	0
+HU9325	G Sport Monkey Rear Hub 48H with 3/8" Alum Axle	G Sport	0.00	0.00	0.00	0.00	0	54.00	54.00	27.00	27.00	48
+HU9326	G Sport Homer Front Hub 48H w/ 9/16" Steel Axle	G Sport	54.00	54.00	33.00	33.00	48	0.00	0.00	0.00	0.00	0
+HU9327	G Sport Homer Rear Hub 48H w/ 9/16" Steel Axle	G Sport	0.00	0.00	0.00	0.00	0	54.00	54.00	27.00	27.00	48
+HU9328	Primo Pro Small Flange Front Hub 36h Black 3/8"	Primopro	40.00	40.00	30.00	30.00	36	0.00	0.00	0.00	0.00	0
+HU9329	Primo Pro Small Flange Rear Hub 36h Black 3/8"	Primopro	0.00	0.00	0.00	0.00	0	40.00	40.00	29.32	29.32	36
+HU9337	Primo Pro N4 Front Hub 36h 3/8"	Primopro	40.00	40.00	30.00	30.00	36	0.00	0.00	0.00	0.00	0
+HU9339	G Sport Homer LHD Rr Hub 48H w/ 9/16" Steel Axle	G Sport	0.00	0.00	0.00	0.00	0	54.00	54.00	28.00	28.00	48
+HU9343	G Sport Marmoset Front Hub Gray	G Sport	45.00	45.00	33.00	33.00	36	0.00	0.00	0.00	0.00	0
+HU9344	G Sport Marmoset  Front Hub Red	G Sport	45.00	45.00	33.00	33.00	36	0.00	0.00	0.00	0.00	0
+HU9346	Supercross Front Hub Black 36h	Supercross	45.00	45.00	31.00	31.00	36	0.00	0.00	0.00	0.00	0
+HU9352	Supercross Mini Pro Cassette Hub Black 36h	Supercross	0.00	0.00	0.00	0.00	0	45.00	54.00	27.00	27.00	36
+HU9357	Primo Pro N4 White Front Hub 36h 3/8"	Primopro	40.00	40.00	30.00	30.00	36	0.00	0.00	0.00	0.00	0
+HU9360	Primo Mix Cass Hub 36h w/8t Driver	Primopro	0.00	0.00	0.00	0.00	0	56.50	56.50	29.00	29.00	36
+HU9361	Primo Mix Cass Hub 36h w/9,10,11t cogs	Primopro	0.00	0.00	0.00	0.00	0	56.50	56.50	29.00	29.00	36
+HU9362	Primo Mix Cass LHD Hub 36h w/8t driver	Primopro	0.00	0.00	0.00	0.00	0	56.50	56.50	29.00	29.00	36
+HU9363	Primo Mix Cass LHD Hub 36h w/9,10,11t cogs	Primopro	0.00	0.00	0.00	0.00	0	56.50	56.50	29.00	29.00	36
+HU9366	Supercross Mini Pro Cassette Hub White 36h	Supercross	0.00	0.00	0.00	0.00	0	45.00	54.00	27.00	27.00	36
+HU9375	KHE 36h RHD Brown Astern Hub w/9t driver	KHE	0.00	0.00	0.00	0.00	0	58.00	58.00	27.00	27.00	36
+HU9376	KHE 48h RHD Brown Astern Hub w/9t driver	KHE	0.00	0.00	0.00	0.00	0	58.00	58.00	27.00	27.00	48
+HU9377	KHE 36h LHD Brown Astern Hub w/9t driver	KHE	0.00	0.00	0.00	0.00	0	58.00	58.00	27.00	27.00	36
+HU9378	KHE 48h LHD Brown Astern Hub w/9t driver	KHE	0.00	0.00	0.00	0.00	0	58.00	58.00	27.00	27.00	48
+HU9382	KHE 36h White Reverse ACB RHD Hub w/9t driver	KHE	0.00	0.00	0.00	0.00	0	58.00	58.00	25.50	26.50	36
+HU9383	KHE 36h Black Reverse ACB RHD Hub w/9t driver	KHE	0.00	0.00	0.00	0.00	0	58.00	58.00	25.50	26.50	36
+HU9384	KHE 48h White Reverse ACB RHD Hub w/9t driver	KHE	0.00	0.00	0.00	0.00	0	58.00	58.00	25.50	26.50	48
+HU9385	KHE 48h Black Reverse ACB RHD Hub w/9t driver	KHE	0.00	0.00	0.00	0.00	0	58.00	58.00	25.50	26.50	48
+HU9386	KHE 36h White Reverse ACB LHD Hub w/9t driver	KHE	0.00	0.00	0.00	0.00	0	58.00	58.00	25.50	26.50	36
+HU9387	KHE 36h Black Reverse ACB LHD Hub w/9t driver	KHE	0.00	0.00	0.00	0.00	0	58.00	58.00	25.50	26.50	36
+HU9388	KHE 48h White Reverse ACB LHD Hub w/9t driver	KHE	0.00	0.00	0.00	0.00	0	58.00	58.00	25.50	26.50	48
+HU9389	KHE 48h Black Reverse ACB LHD Hub w/9t driver	KHE	0.00	0.00	0.00	0.00	0	58.00	58.00	25.50	26.50	48
+HU9404	Demolition Ashley 36h Black Cassette Hub	Demolition	0.00	0.00	0.00	0.00	0	49.00	49.00	28.50	27.50	36
+HU9405	Demolition Ashley 36h White Cassette Hub	Demolition	0.00	0.00	0.00	0.00	0	49.00	49.00	28.50	27.50	36
+HU9406	Demolition Ashley 36h Purple Cassette Hub	Demolition	0.00	0.00	0.00	0.00	0	49.00	49.00	28.50	27.50	36
+HU9407	Demolition Ashley LHD 36h Black Cassette Hub	Demolition	0.00	0.00	0.00	0.00	0	49.00	49.00	28.50	27.50	36
+HU9408	Demolition Ashley LHD 36h White Cassette Hub	Demolition	0.00	0.00	0.00	0.00	0	49.00	49.00	28.50	27.50	36
+HU9409	Demolition Ashley LHD 36h Purple Cassette Hub	Demolition	0.00	0.00	0.00	0.00	0	49.00	49.00	28.50	27.50	36
+HU9422	Demolition Black Mary Kate 36h Front Hub w/Guard	Demolition	38.50	38.50	34.50	34.50	36	0.00	0.00	0.00	0.00	0
+HU9423	Demolition White Mary Kate 36h Front Hub w/Guard	Demolition	38.50	38.50	34.50	34.50	36	0.00	0.00	0.00	0.00	0
+HU9424	Demolition Purple Mary Kate 36h Front Hub w/Guard	Demolition	38.50	38.50	34.50	34.50	36	0.00	0.00	0.00	0.00	0
+HU9430	Campagnolo Centaur Front 32-Hole C-Grey hub	Campagnolo	38.50	38.50	34.00	34.00	32	0.00	0.00	0.00	0.00	0
+HU9431	Campagnolo Centaur Front 36-Hole C-Grey hub	Campagnolo	38.00	38.00	34.00	34.00	36	0.00	0.00	0.00	0.00	0
+HU9432	Campagnolo Centaur Rear 32-Hole C-Grey hub	Campagnolo	0.00	0.00	0.00	0.00	0	44.00	46.00	32.00	20.00	32
+HU9433	Campagnolo Centaur Rear 36-Hole C-Grey hub	Campagnolo	0.00	0.00	0.00	0.00	0	44.00	46.00	36.00	16.00	36
+HU9434	Campagnolo Veloce Front 32-Hole Silver hub	Campagnolo	40.00	40.00	34.00	34.00	32	0.00	0.00	0.00	0.00	0
+HU9435	Campagnolo Veloce Front 36-Hole Silver hub	Campagnolo	40.00	40.00	33.00	33.00	36	0.00	0.00	0.00	0.00	0
+HU9436	Campagnolo Mirage Front 32-Hole Black hub	Campagnolo	40.00	40.00	33.00	33.00	32	0.00	0.00	0.00	0.00	0
+HU9437	Campagnolo Mirage Front 36-Hole Black hub	Campagnolo	40.00	40.00	33.00	33.00	36	0.00	0.00	0.00	0.00	0
+HU9438	Campagnolo Mirage Rear 32-Hole Black hub	Campagnolo	0.00	0.00	0.00	0.00	0	45.00	45.00	31.00	21.00	32
+HU9439	Campagnolo Mirage Rear 36-Hole Black hub	Campagnolo	0.00	0.00	0.00	0.00	0	45.00	45.00	31.00	21.00	36
+HU9460	Azonic Recoil Hub 150mm12mm 36H Rear Black Disc	Azonic	58.00	58.00	43.00	28.00	36	0.00	0.00	0.00	0.00	0
+HU9470	Demolition Black 36h B Front Hub	Demolition	38.00	38.00	34.50	34.50	36	0.00	0.00	0.00	0.00	0
+HU9471	Demolition White 36h B Front Hub	Demolition	38.00	38.00	34.50	34.50	36	0.00	0.00	0.00	0.00	0
+HU9473	Demolition Purple 36h B Front Hub	Demolition	38.00	38.00	34.50	34.50	36	0.00	0.00	0.00	0.00	0
+HU9480	Demolition Black 36h A Cassette Hub	Demolition	0.00	0.00	0.00	0.00	0	49.00	49.00	29.00	28.00	36
+HU9481	Demolition White 36h A Cassette Hub	Demolition	0.00	0.00	0.00	0.00	0	49.00	49.00	29.00	28.00	36
+HU9483	Demolition Purple 36h A Cassette Hub	Demolition	0.00	0.00	0.00	0.00	0	49.00	49.00	29.00	28.00	36
+HU9485	Demolition LHD Black 36h A Cassette Hub	Demolition	0.00	0.00	0.00	0.00	0	49.00	49.00	29.00	28.00	36
+HU9486	Demolition LHD White 36h A Cassette Hub	Demolition	0.00	0.00	0.00	0.00	0	49.00	49.00	29.00	28.00	36
+HU9488	Demolition LHD Purple 36h A Cassette Hub	Demolition	0.00	0.00	0.00	0.00	0	49.00	49.00	29.00	28.00	36
+HU9550	Answer Ti Mini Cassette Hubs (include 16t cog)	Answer	38.00	38.00	35.00	35.00	28	45.00	45.00	26.00	26.00	28
+HU9552	Drive Pro Frt Hub 36h 3/8"-14mm Silver	Drive	38.00	38.00	34.50	34.50	36	0.00	0.00	0.00	0.00	0
+HU9557	Drive Pro Rear Hub 36h Silver 14mm Hollow w/9t Driver	Drive	0.00	0.00	0.00	0.00	0	44.50	44.50	23.50	23.50	36
+HU9558	Drive Pro Rear Hub 36h Sil 3/8" & 14mm w/9t Drvr	Drive	0.00	0.00	0.00	0.00	0	44.50	44.50	23.50	23.50	36
+HU9570	Odyssey Cassette V3 Black 36H 10t RHD Cassette Hub	Odyssey	0.00	0.00	0.00	0.00	0	48.00	48.00	30.00	26.50	36
+HU9571	Odyssey Cassette V3 Black 36H RHD Cass. Hub w/12,13,14,16t cogs	Odyssey	0.00	0.00	0.00	0.00	0	48.00	48.00	30.00	26.50	36
+HU9572	Odyssey Cassette V3 Black 36H LHD Cass. Hub w/12,13,14,16t cogs	Odyssey	0.00	0.00	0.00	0.00	0	48.00	48.00	30.00	26.50	36
+HU9573	Odyssey Cassette V3 Black 48H 10t RHD Cassette Hub	Odyssey	0.00	0.00	0.00	0.00	0	48.00	48.00	30.00	26.50	48
+HU9574	Odyssey Cassette V3 Black 48H RHD Cass. Hub w/12,13,14,16t cogs	Odyssey	0.00	0.00	0.00	0.00	0	48.00	48.00	30.00	26.50	48
+HU9575	Odyssey Cassette V3 Black 48H LHD Cass. Hub w/12,13,14,16t cogs	Odyssey	0.00	0.00	0.00	0.00	0	48.00	48.00	30.00	26.50	48
+HU9576	Odyssey Limited Edition Cassette V3 White 36H RHD Hub w/10t Driver	Odyssey	0.00	0.00	0.00	0.00	0	48.00	48.00	30.00	26.50	36
+HU9587	Odyssey Cassette Driver V3 Black 36H 9t RHD Hub	Odyssey	0.00	0.00	0.00	0.00	0	48.00	48.00	30.00	26.50	36
+HU9588	Odyssey Cassette Driver V3 White 36h 9t RHD Hub	Odyssey	0.00	0.00	0.00	0.00	0	48.00	48.00	30.00	26.50	36
+HU9610	Stolen Easy Street Free Coaster Hub 36h Nutted 10t Black	Stolen	0.00	0.00	0.00	0.00	0	45.00	58.00	29.50	29.50	36
+HU9611	Stolen Easy Street Free Coaster Hub 36h Nutted 10t White	Stolen	0.00	0.00	0.00	0.00	0	45.00	58.00	29.50	29.50	36
+HU9612	Stolen Easy Street Free Coaster Hub 36h Nutted 10t Green	Stolen	0.00	0.00	0.00	0.00	0	45.00	58.00	29.50	29.50	36
+HU9613	Stolen Easy Street Free Coaster Hub 36h Nutted 10t Orange	Stolen	0.00	0.00	0.00	0.00	0	45.00	58.00	29.50	29.50	36
+HU9650	Marzocchi QR20 Hub. 32H Black. Axle not included	Marzocchi	58.00	58.00	21.00	31.00	32	0.00	0.00	0.00	0.00	0
+HU9651	Marzocchi QR20 Hub 32H Silver, axle not included	Marzocchi	58.00	58.00	21.00	31.00	32	0.00	0.00	0.00	0.00	0
+HU9700	Campagnolo Record Front 32h Black	Campagnolo	39.00	39.00	35.00	35.00	32	0.00	0.00	0.00	0.00	0
+HU9701	Campagnolo Record Front 36h Black	Campagnolo	39.00	39.00	35.00	35.00	36	0.00	0.00	0.00	0.00	0
+HU9702	Campagnolo Record Rear 32h 9/10, Black	Campagnolo	0.00	0.00	0.00	0.00	0	44.00	46.00	36.00	16.50	32
+HU9703	Campagnolo Record Rear 36h 9/10, Black	Campagnolo	0.00	0.00	0.00	0.00	0	44.00	46.00	36.00	16.50	36
+HU9704	Centaur 32h frt hub	Campagnolo	40.00	40.00	35.00	35.00	32	0.00	0.00	0.00	0.00	0
+HU9705	Centaur 36h frt hub 	Campagnolo	40.00	40.00	35.00	35.00	36	0.00	0.00	0.00	0.00	0
+HU9706	Centaur 32h rear 9/10 	Campagnolo	0.00	0.00	0.00	0.00	0	44.00	47.00	36.00	16.00	32
+HU9707	Centaur 36h rear 9/10 	Campagnolo	0.00	0.00	0.00	0.00	0	44.00	47.00	36.00	16.00	36
+HU9708	Campagnolo Veloce 32h Front Hub Silver	Campagnolo	40.00	40.00	35.00	35.00	32	0.00	0.00	0.00	0.00	0
+HU9709	Campagnolo Veloce 36h Front Hub Silver	Campagnolo	40.00	40.00	35.00	35.00	36	0.00	0.00	0.00	0.00	0
+HU9710	Veloce 32h rear hub silv er	Campagnolo	0.00	0.00	0.00	0.00	0	44.00	47.00	36.00	16.50	32
+HU9711	Veloce 36h rear hub silv er	Campagnolo	0.00	0.00	0.00	0.00	0	44.00	47.00	36.00	16.50	36
+HU9840	Campagnolo Centaur Front Hub 32h	Campagnolo	40.00	40.00	34.50	34.50	32	0.00	0.00	0.00	0.00	0
+HU9841	Campagnolo Centaur Front Hub 36h	Campagnolo	40.00	40.00	34.50	34.50	36	0.00	0.00	0.00	0.00	0
+HU9842	Campagnolo Centaur Rear Hub 32h 9/10s	Campagnolo	0.00	0.00	0.00	0.00	0	44.00	47.00	36.50	16.50	32
+HU9843	Campagnolo Centaur Rear Hub 36h 9/10s	Campagnolo	0.00	0.00	0.00	0.00	0	44.00	47.00	36.50	16.50	36
+HU9844	Campagnolo Mirage Front Hub 32h	Campagnolo	40.00	40.00	34.50	34.50	32	0.00	0.00	0.00	0.00	0
+HU9845	Campagnolo Mirage Front Hub 36h	Campagnolo	40.00	40.00	34.50	34.50	36	0.00	0.00	0.00	0.00	0
+HU9846	Campagnolo Mirage Rear Hub 32 h	Campagnolo	0.00	0.00	0.00	0.00	0	44.00	47.00	36.00	16.00	32
+HU9847	Campagnolo Mirage Rear Hub 36 h	Campagnolo	0.00	0.00	0.00	0.00	0	44.00	47.00	36.00	16.00	36
+HU9959	ZIPP 108 front hub, 20-h 	Zipp Speed Weaponry	47.00	47.00	33.75	33.75	20	0.00	0.00	0.00	0.00	0
+HU9960	Zipp 108 Front Hub 28 Hole No QR Included	Zipp Speed Weaponry	47.00	47.00	33.75	33.75	28	0.00	0.00	0.00	0.00	0
+HU9961	Zipp 108 Front Hub 32 Hole No QR Included	Zipp Speed Weaponry	47.00	47.00	33.75	33.75	32	0.00	0.00	0.00	0.00	0
+HU9962	Zipp 202 Rear Hub 28 Hole Shimano No QR	Zipp Speed Weaponry	0.00	0.00	0.00	0.00	0	47.00	58.50	36.50	17.50	28
+HU9963	Zipp 202 Rear Hub 32 Hole Shimano No QR	Zipp Speed Weaponry	0.00	0.00	0.00	0.00	0	47.00	58.50	36.50	17.50	32
+HU9964	Zipp 202 Rear Hub 28 Hole Campagnolo No QR	Zipp Speed Weaponry	0.00	0.00	0.00	0.00	0	47.00	58.50	36.50	17.50	28
+HU9965	Zipp 202 Rear Hub 32 Hole Campagnolo No QR	Zipp Speed Weaponry	0.00	0.00	0.00	0.00	0	47.00	58.50	36.50	17.50	32
+HU9966	ZIPP 208 rear hub, 24-h Shimano	Zipp Speed Weaponry	0.00	0.00	0.00	0.00	0	47.00	58.50	36.50	17.50	24
+HU9967	ZIPP 208 rear hub, 24-h Campagnolo	Zipp Speed Weaponry	0.00	0.00	0.00	0.00	0	47.00	58.50	36.50	17.50	24

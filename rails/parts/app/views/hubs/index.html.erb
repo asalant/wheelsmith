@@ -1,0 +1,34 @@
+<h1>Listing hubs</h1>
+
+<table>
+  <tr>
+    <th>Brand</th>
+    <th>Description</th>
+    <th>Rear</th>
+    <th>Right flange diameter</th>
+    <th>Right flange to center</th>
+    <th>Left flange diameter</th>
+    <th>Left flange to center</th>
+    <th>Hole count</th>
+  </tr>
+
+<% for hub in @hubs %>
+  <tr>
+    <td><%=h hub.brand %></td>
+    <td><%=h hub.description %></td>
+    <td><%=h hub.rear %></td>
+    <td><%=h hub.right_flange_diameter %></td>
+    <td><%=h hub.right_flange_to_center %></td>
+    <td><%=h hub.left_flange_diameter %></td>
+    <td><%=h hub.left_flange_to_center %></td>
+    <td><%=h hub.hole_count %></td>
+    <td><%= link_to 'Show', hub %></td>
+    <td><%= link_to 'Edit', edit_hub_path(hub) %></td>
+    <td><%= link_to 'Destroy', hub, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New hub', new_hub_path %>

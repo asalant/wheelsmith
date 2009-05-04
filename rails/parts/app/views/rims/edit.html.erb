@@ -1,0 +1,36 @@
+<h1>Editing rim</h1>
+
+<% form_for(@rim) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :brand %><br />
+    <%= f.text_field :brand %>
+  </p>
+  <p>
+    <%= f.label :description %><br />
+    <%= f.text_field :description %>
+  </p>
+  <p>
+    <%= f.label :size %><br />
+    <%= f.text_field :size %>
+  </p>
+  <p>
+    <%= f.label :erd %><br />
+    <%= f.text_field :erd %>
+  </p>
+  <p>
+    <%= f.label :offset %><br />
+    <%= f.text_field :offset %>
+  </p>
+  <p>
+    <%= f.label :hole_count %><br />
+    <%= f.text_field :hole_count %>
+  </p>
+  <p>
+    <%= f.submit "Update" %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @rim %> |
+<%= link_to 'Back', rims_path %>

@@ -1,0 +1,11 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+campy_mavic:
+  hub: record_rear
+  rim: open_pro
+  spoke_pattern: 3
+
+king_velocity:
+  hub: record_front
+  rim: deep_v
+  spoke_pattern: 0

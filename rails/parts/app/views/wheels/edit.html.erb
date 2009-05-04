@@ -1,0 +1,24 @@
+<h1>Editing wheel</h1>
+
+<% form_for(@wheel) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :hub %><br />
+    <%= f.text_field :hub %>
+  </p>
+  <p>
+    <%= f.label :rim %><br />
+    <%= f.text_field :rim %>
+  </p>
+  <p>
+    <%= f.label :spoke_pattern %><br />
+    <%= f.text_field :spoke_pattern %>
+  </p>
+  <p>
+    <%= f.submit "Update" %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @wheel %> |
+<%= link_to 'Back', wheels_path %>

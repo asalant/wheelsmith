@@ -1,0 +1,18 @@
+<p>
+  <b>Hub:</b>
+  <%=h @wheel.hub %>
+</p>
+
+<p>
+  <b>Rim:</b>
+  <%=h @wheel.rim %>
+</p>
+
+<p>
+  <b>Spoke pattern:</b>
+  <%=h @wheel.spoke_pattern %>
+</p>
+
+
+<%= link_to 'Edit', edit_wheel_path(@wheel) %> |
+<%= link_to 'Back', wheels_path %>

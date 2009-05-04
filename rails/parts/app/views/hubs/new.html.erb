@@ -1,0 +1,43 @@
+<h1>New hub</h1>
+
+<% form_for(@hub) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :brand %><br />
+    <%= f.text_field :brand %>
+  </p>
+  <p>
+    <%= f.label :description %><br />
+    <%= f.text_field :description %>
+  </p>
+  <p>
+    <%= f.label :rear %><br />
+    <%= f.check_box :rear %>
+  </p>
+  <p>
+    <%= f.label :right_flange_diameter %><br />
+    <%= f.text_field :right_flange_diameter %>
+  </p>
+  <p>
+    <%= f.label :right_flange_to_center %><br />
+    <%= f.text_field :right_flange_to_center %>
+  </p>
+  <p>
+    <%= f.label :left_flange_diameter %><br />
+    <%= f.text_field :left_flange_diameter %>
+  </p>
+  <p>
+    <%= f.label :left_flange_to_center %><br />
+    <%= f.text_field :left_flange_to_center %>
+  </p>
+  <p>
+    <%= f.label :hole_count %><br />
+    <%= f.text_field :hole_count %>
+  </p>
+  <p>
+    <%= f.submit "Create" %>
+  </p>
+<% end %>
+
+<%= link_to 'Back', hubs_path %>

@@ -1,0 +1,17 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+open_pro:
+  brand: Mavic
+  description: Mavic Open Pro 32h black
+  size: 622
+  erd: 602.0
+  offset: 0.0
+  hole_count: 32
+
+deep_v:
+  brand: Velocity
+  description: Velocity Deep V 700c 32h Black w/MSW
+  size: 622
+  erd: 582.0
+  offset: 0.0
+  hole_count: 32
