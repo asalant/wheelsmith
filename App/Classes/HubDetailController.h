@@ -23,4 +23,6 @@
 @property(nonatomic, retain) UILabel *rightFlangeDiameter;
 @property(nonatomic, retain) UILabel *rightFlangeToCenter;
 
+-(IBAction) chooseHub;
+
 @end
