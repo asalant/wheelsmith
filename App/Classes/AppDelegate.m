@@ -1,4 +1,4 @@
-#import "SpokeCalculatorAppDelegate.h"
+#import "AppDelegate.h"
 #import "RootMenuController.h"
 #import "RimBrandListController.h"
 #import "RimListController.h"
@@ -9,14 +9,14 @@
 #import "Hub.h"
 #import "Wheel.h"
 
-@implementation SpokeCalculatorAppDelegate
+@implementation AppDelegate
 
 @synthesize window;
 @synthesize navigationController;
 
 
 - (void)applicationDidFinishLaunching:(UIApplication *)application {
-	[DomainObject setDbName:@"development"];
+	[DomainObject setDbName:@"parts"];
     
     // Create and set dependencies
     RimDetailController *rimDetailController = [[[RimDetailController alloc] initWithNibName:@"RimDetailView" bundle:nil] autorelease];

@@ -1,0 +1,842 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */; };
+		DF4665170FAEB2C100172895 /* parts.sqlite3 in Resources */ = {isa = PBXBuildFile; fileRef = DF7B120F0FAEA9A3007FF0CA /* parts.sqlite3 */; };
+		DF7B11CE0FAEA94D007FF0CA /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DF7B11CD0FAEA94D007FF0CA /* libsqlite3.dylib */; };
+		DF7B11CF0FAEA94D007FF0CA /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DF7B11CD0FAEA94D007FF0CA /* libsqlite3.dylib */; };
+		DF7B12130FAEA9A3007FF0CA /* BrandListController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B11D30FAEA9A3007FF0CA /* BrandListController.m */; };
+		DF7B12140FAEA9A3007FF0CA /* Database.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B11D50FAEA9A3007FF0CA /* Database.m */; };
+		DF7B12150FAEA9A3007FF0CA /* DatabaseResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B11D70FAEA9A3007FF0CA /* DatabaseResultSet.m */; };
+		DF7B12160FAEA9A3007FF0CA /* DomainObject+Persistent.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B11D90FAEA9A3007FF0CA /* DomainObject+Persistent.m */; };
+		DF7B12170FAEA9A3007FF0CA /* DomainObject.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B11DB0FAEA9A3007FF0CA /* DomainObject.m */; };
+		DF7B12180FAEA9A3007FF0CA /* Hub.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B11DD0FAEA9A3007FF0CA /* Hub.m */; };
+		DF7B12190FAEA9A3007FF0CA /* HubBrandListController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B11DF0FAEA9A3007FF0CA /* HubBrandListController.m */; };
+		DF7B121A0FAEA9A3007FF0CA /* HubCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B11E10FAEA9A3007FF0CA /* HubCell.m */; };
+		DF7B121B0FAEA9A3007FF0CA /* HubDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B11E30FAEA9A3007FF0CA /* HubDetailController.m */; };
+		DF7B121C0FAEA9A3007FF0CA /* HubListController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B11E50FAEA9A3007FF0CA /* HubListController.m */; };
+		DF7B121D0FAEA9A3007FF0CA /* LabeledValueCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B11E70FAEA9A3007FF0CA /* LabeledValueCell.m */; };
+		DF7B121E0FAEA9A3007FF0CA /* MyWheelsController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B11E90FAEA9A3007FF0CA /* MyWheelsController.m */; };
+		DF7B121F0FAEA9A3007FF0CA /* PickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B11EB0FAEA9A3007FF0CA /* PickerController.m */; };
+		DF7B12200FAEA9A3007FF0CA /* Rim.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B11ED0FAEA9A3007FF0CA /* Rim.m */; };
+		DF7B12210FAEA9A3007FF0CA /* RimBrandListController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B11EF0FAEA9A3007FF0CA /* RimBrandListController.m */; };
+		DF7B12220FAEA9A3007FF0CA /* RimCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B11F10FAEA9A3007FF0CA /* RimCell.m */; };
+		DF7B12230FAEA9A3007FF0CA /* RimDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B11F30FAEA9A3007FF0CA /* RimDetailController.m */; };
+		DF7B12240FAEA9A3007FF0CA /* RimListController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B11F50FAEA9A3007FF0CA /* RimListController.m */; };
+		DF7B12250FAEA9A3007FF0CA /* RootMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B11F70FAEA9A3007FF0CA /* RootMenuController.m */; };
+		DF7B12260FAEA9A3007FF0CA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B11F90FAEA9A3007FF0CA /* AppDelegate.m */; };
+		DF7B12270FAEA9A3007FF0CA /* StringUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B11FB0FAEA9A3007FF0CA /* StringUtil.m */; };
+		DF7B12280FAEA9A3007FF0CA /* TableCellFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B11FD0FAEA9A3007FF0CA /* TableCellFactory.m */; };
+		DF7B12290FAEA9A3007FF0CA /* Wheel.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B11FF0FAEA9A3007FF0CA /* Wheel.m */; };
+		DF7B122A0FAEA9A3007FF0CA /* WheelDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */; };
+		DF7B122B0FAEA9A3007FF0CA /* HubCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF7B12040FAEA9A3007FF0CA /* HubCell.xib */; };
+		DF7B122C0FAEA9A3007FF0CA /* HubDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF7B12050FAEA9A3007FF0CA /* HubDetailView.xib */; };
+		DF7B12330FAEA9A3007FF0CA /* LabeledValueCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF7B120D0FAEA9A3007FF0CA /* LabeledValueCell.xib */; };
+		DF7B12340FAEA9A3007FF0CA /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF7B120E0FAEA9A3007FF0CA /* MainWindow.xib */; };
+		DF7B12360FAEA9A3007FF0CA /* PickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF7B12100FAEA9A3007FF0CA /* PickerView.xib */; };
+		DF7B12370FAEA9A3007FF0CA /* RimCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF7B12110FAEA9A3007FF0CA /* RimCell.xib */; };
+		DF7B12380FAEA9A3007FF0CA /* RimDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF7B12120FAEA9A3007FF0CA /* RimDetailView.xib */; };
+		DF7B12390FAEA9A3007FF0CA /* BrandListController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B11D30FAEA9A3007FF0CA /* BrandListController.m */; };
+		DF7B123A0FAEA9A3007FF0CA /* Database.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B11D50FAEA9A3007FF0CA /* Database.m */; };
+		DF7B123B0FAEA9A3007FF0CA /* DatabaseResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B11D70FAEA9A3007FF0CA /* DatabaseResultSet.m */; };
+		DF7B123C0FAEA9A3007FF0CA /* DomainObject+Persistent.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B11D90FAEA9A3007FF0CA /* DomainObject+Persistent.m */; };
+		DF7B123D0FAEA9A3007FF0CA /* DomainObject.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B11DB0FAEA9A3007FF0CA /* DomainObject.m */; };
+		DF7B123E0FAEA9A3007FF0CA /* Hub.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B11DD0FAEA9A3007FF0CA /* Hub.m */; };
+		DF7B123F0FAEA9A3007FF0CA /* HubBrandListController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B11DF0FAEA9A3007FF0CA /* HubBrandListController.m */; };
+		DF7B12400FAEA9A3007FF0CA /* HubCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B11E10FAEA9A3007FF0CA /* HubCell.m */; };
+		DF7B12410FAEA9A3007FF0CA /* HubDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B11E30FAEA9A3007FF0CA /* HubDetailController.m */; };
+		DF7B12420FAEA9A3007FF0CA /* HubListController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B11E50FAEA9A3007FF0CA /* HubListController.m */; };
+		DF7B12430FAEA9A3007FF0CA /* LabeledValueCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B11E70FAEA9A3007FF0CA /* LabeledValueCell.m */; };
+		DF7B12440FAEA9A3007FF0CA /* MyWheelsController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B11E90FAEA9A3007FF0CA /* MyWheelsController.m */; };
+		DF7B12450FAEA9A3007FF0CA /* PickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B11EB0FAEA9A3007FF0CA /* PickerController.m */; };
+		DF7B12460FAEA9A3007FF0CA /* Rim.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B11ED0FAEA9A3007FF0CA /* Rim.m */; };
+		DF7B12470FAEA9A3007FF0CA /* RimBrandListController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B11EF0FAEA9A3007FF0CA /* RimBrandListController.m */; };
+		DF7B12480FAEA9A3007FF0CA /* RimCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B11F10FAEA9A3007FF0CA /* RimCell.m */; };
+		DF7B12490FAEA9A3007FF0CA /* RimDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B11F30FAEA9A3007FF0CA /* RimDetailController.m */; };
+		DF7B124A0FAEA9A3007FF0CA /* RimListController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B11F50FAEA9A3007FF0CA /* RimListController.m */; };
+		DF7B124B0FAEA9A3007FF0CA /* RootMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B11F70FAEA9A3007FF0CA /* RootMenuController.m */; };
+		DF7B124C0FAEA9A3007FF0CA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B11F90FAEA9A3007FF0CA /* AppDelegate.m */; };
+		DF7B124D0FAEA9A3007FF0CA /* StringUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B11FB0FAEA9A3007FF0CA /* StringUtil.m */; };
+		DF7B124E0FAEA9A3007FF0CA /* TableCellFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B11FD0FAEA9A3007FF0CA /* TableCellFactory.m */; };
+		DF7B124F0FAEA9A3007FF0CA /* Wheel.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B11FF0FAEA9A3007FF0CA /* Wheel.m */; };
+		DF7B12500FAEA9A3007FF0CA /* WheelDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */; };
+		DF7B12510FAEA9A3007FF0CA /* HubCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF7B12040FAEA9A3007FF0CA /* HubCell.xib */; };
+		DF7B12520FAEA9A3007FF0CA /* HubDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF7B12050FAEA9A3007FF0CA /* HubDetailView.xib */; };
+		DF7B12530FAEA9A3007FF0CA /* hub1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF7B12070FAEA9A3007FF0CA /* hub1.jpg */; };
+		DF7B12540FAEA9A3007FF0CA /* hub2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF7B12080FAEA9A3007FF0CA /* hub2.jpg */; };
+		DF7B12550FAEA9A3007FF0CA /* hub3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF7B12090FAEA9A3007FF0CA /* hub3.jpg */; };
+		DF7B12560FAEA9A3007FF0CA /* hub3_cropped.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF7B120A0FAEA9A3007FF0CA /* hub3_cropped.jpg */; };
+		DF7B12570FAEA9A3007FF0CA /* iPhone_GUI_1_3.psd in Resources */ = {isa = PBXBuildFile; fileRef = DF7B120B0FAEA9A3007FF0CA /* iPhone_GUI_1_3.psd */; };
+		DF7B12580FAEA9A3007FF0CA /* logo1.png in Resources */ = {isa = PBXBuildFile; fileRef = DF7B120C0FAEA9A3007FF0CA /* logo1.png */; };
+		DF7B12590FAEA9A3007FF0CA /* LabeledValueCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF7B120D0FAEA9A3007FF0CA /* LabeledValueCell.xib */; };
+		DF7B125A0FAEA9A3007FF0CA /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF7B120E0FAEA9A3007FF0CA /* MainWindow.xib */; };
+		DF7B125B0FAEA9A3007FF0CA /* parts.sqlite3 in Resources */ = {isa = PBXBuildFile; fileRef = DF7B120F0FAEA9A3007FF0CA /* parts.sqlite3 */; };
+		DF7B125C0FAEA9A3007FF0CA /* PickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF7B12100FAEA9A3007FF0CA /* PickerView.xib */; };
+		DF7B125D0FAEA9A3007FF0CA /* RimCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF7B12110FAEA9A3007FF0CA /* RimCell.xib */; };
+		DF7B125E0FAEA9A3007FF0CA /* RimDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF7B12120FAEA9A3007FF0CA /* RimDetailView.xib */; };
+		DF7B128F0FAEA9B5007FF0CA /* GTMIPhoneUnitTestDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B12740FAEA9B5007FF0CA /* GTMIPhoneUnitTestDelegate.m */; };
+		DF7B12900FAEA9B5007FF0CA /* GTMIPhoneUnitTestMain.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B12750FAEA9B5007FF0CA /* GTMIPhoneUnitTestMain.m */; };
+		DF7B12910FAEA9B5007FF0CA /* GTMSenTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B12770FAEA9B5007FF0CA /* GTMSenTestCase.m */; };
+		DF7B129A0FAEA9B5007FF0CA /* test.sqlite3 in Resources */ = {isa = PBXBuildFile; fileRef = DF7B12830FAEA9B5007FF0CA /* test.sqlite3 */; };
+		DF7B13030FAEAB11007FF0CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		DF7B13040FAEAB11007FF0CA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		DF7B13050FAEAB11007FF0CA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */; };
+		DF7B13080FAEAC4B007FF0CA /* hamcrest.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = DF7B12790FAEA9B5007FF0CA /* hamcrest.framework */; };
+		DF7B13090FAEAC55007FF0CA /* OCMock.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = DF7B127A0FAEA9B5007FF0CA /* OCMock.framework */; };
+		DF7B132B0FAEADC0007FF0CA /* hamcrest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF7B12790FAEA9B5007FF0CA /* hamcrest.framework */; };
+		DF7B132C0FAEADC0007FF0CA /* OCMock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF7B127A0FAEA9B5007FF0CA /* OCMock.framework */; };
+		DFD4DA050FAEB47E00BC2BC2 /* WheelTest.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B126E0FAEA9B5007FF0CA /* WheelTest.m */; };
+		DFD4DA060FAEB47F00BC2BC2 /* UIViewController+Testable.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B126C0FAEA9B5007FF0CA /* UIViewController+Testable.m */; };
+		DFD4DA070FAEB48200BC2BC2 /* RimTest.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B12660FAEA9B5007FF0CA /* RimTest.m */; };
+		DFD4DA080FAEB48300BC2BC2 /* TableCellFactoryTest.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B126D0FAEA9B5007FF0CA /* TableCellFactoryTest.m */; };
+		DFD4DA090FAEB48500BC2BC2 /* RimDetailControllerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B12650FAEA9B5007FF0CA /* RimDetailControllerTest.m */; };
+		DFD4DA0A0FAEB48600BC2BC2 /* PickerControllerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B12640FAEA9B5007FF0CA /* PickerControllerTest.m */; };
+		DFD4DA0B0FAEB48700BC2BC2 /* OCMockConstraintExtensionsTest.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B126A0FAEA9B5007FF0CA /* OCMockConstraintExtensionsTest.m */; };
+		DFD4DA0C0FAEB48800BC2BC2 /* OCMockConstraint+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B12690FAEA9B5007FF0CA /* OCMockConstraint+Extensions.m */; };
+		DFD4DA0D0FAEB48B00BC2BC2 /* HubDetailControllerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B12620FAEA9B5007FF0CA /* HubDetailControllerTest.m */; };
+		DFD4DA0E0FAEB48D00BC2BC2 /* DatabaseSelectTest.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B12610FAEA9B5007FF0CA /* DatabaseSelectTest.m */; };
+		DFD4DA0F0FAEB48F00BC2BC2 /* HubTest.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B12630FAEA9B5007FF0CA /* HubTest.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DF7B11C60FAEA8F3007FF0CA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				DF7B13080FAEAC4B007FF0CA /* hamcrest.framework in CopyFiles */,
+				DF7B13090FAEAC55007FF0CA /* OCMock.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D6058910D05DD3D006BFB54 /* wheelsmith.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wheelsmith.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28A0AAE50D9B0CCF005BE974 /* wheelsmith_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wheelsmith_Prefix.pch; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DF4665120FAEB1A200172895 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF7B11470FAEA80F007FF0CA /* Unit Tests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Unit Tests.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF7B11CD0FAEA94D007FF0CA /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		DF7B11D20FAEA9A3007FF0CA /* BrandListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrandListController.h; sourceTree = "<group>"; };
+		DF7B11D30FAEA9A3007FF0CA /* BrandListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrandListController.m; sourceTree = "<group>"; };
+		DF7B11D40FAEA9A3007FF0CA /* Database.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Database.h; sourceTree = "<group>"; };
+		DF7B11D50FAEA9A3007FF0CA /* Database.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Database.m; sourceTree = "<group>"; };
+		DF7B11D60FAEA9A3007FF0CA /* DatabaseResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatabaseResultSet.h; sourceTree = "<group>"; };
+		DF7B11D70FAEA9A3007FF0CA /* DatabaseResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatabaseResultSet.m; sourceTree = "<group>"; };
+		DF7B11D80FAEA9A3007FF0CA /* DomainObject+Persistent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DomainObject+Persistent.h"; sourceTree = "<group>"; };
+		DF7B11D90FAEA9A3007FF0CA /* DomainObject+Persistent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DomainObject+Persistent.m"; sourceTree = "<group>"; };
+		DF7B11DA0FAEA9A3007FF0CA /* DomainObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DomainObject.h; sourceTree = "<group>"; };
+		DF7B11DB0FAEA9A3007FF0CA /* DomainObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DomainObject.m; sourceTree = "<group>"; };
+		DF7B11DC0FAEA9A3007FF0CA /* Hub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hub.h; sourceTree = "<group>"; };
+		DF7B11DD0FAEA9A3007FF0CA /* Hub.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hub.m; sourceTree = "<group>"; };
+		DF7B11DE0FAEA9A3007FF0CA /* HubBrandListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HubBrandListController.h; sourceTree = "<group>"; };
+		DF7B11DF0FAEA9A3007FF0CA /* HubBrandListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HubBrandListController.m; sourceTree = "<group>"; };
+		DF7B11E00FAEA9A3007FF0CA /* HubCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HubCell.h; sourceTree = "<group>"; };
+		DF7B11E10FAEA9A3007FF0CA /* HubCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HubCell.m; sourceTree = "<group>"; };
+		DF7B11E20FAEA9A3007FF0CA /* HubDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HubDetailController.h; sourceTree = "<group>"; };
+		DF7B11E30FAEA9A3007FF0CA /* HubDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HubDetailController.m; sourceTree = "<group>"; };
+		DF7B11E40FAEA9A3007FF0CA /* HubListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HubListController.h; sourceTree = "<group>"; };
+		DF7B11E50FAEA9A3007FF0CA /* HubListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HubListController.m; sourceTree = "<group>"; };
+		DF7B11E60FAEA9A3007FF0CA /* LabeledValueCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabeledValueCell.h; sourceTree = "<group>"; };
+		DF7B11E70FAEA9A3007FF0CA /* LabeledValueCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabeledValueCell.m; sourceTree = "<group>"; };
+		DF7B11E80FAEA9A3007FF0CA /* MyWheelsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyWheelsController.h; sourceTree = "<group>"; };
+		DF7B11E90FAEA9A3007FF0CA /* MyWheelsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyWheelsController.m; sourceTree = "<group>"; };
+		DF7B11EA0FAEA9A3007FF0CA /* PickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickerController.h; sourceTree = "<group>"; };
+		DF7B11EB0FAEA9A3007FF0CA /* PickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickerController.m; sourceTree = "<group>"; };
+		DF7B11EC0FAEA9A3007FF0CA /* Rim.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rim.h; sourceTree = "<group>"; };
+		DF7B11ED0FAEA9A3007FF0CA /* Rim.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Rim.m; sourceTree = "<group>"; };
+		DF7B11EE0FAEA9A3007FF0CA /* RimBrandListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RimBrandListController.h; sourceTree = "<group>"; };
+		DF7B11EF0FAEA9A3007FF0CA /* RimBrandListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RimBrandListController.m; sourceTree = "<group>"; };
+		DF7B11F00FAEA9A3007FF0CA /* RimCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RimCell.h; sourceTree = "<group>"; };
+		DF7B11F10FAEA9A3007FF0CA /* RimCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RimCell.m; sourceTree = "<group>"; };
+		DF7B11F20FAEA9A3007FF0CA /* RimDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RimDetailController.h; sourceTree = "<group>"; };
+		DF7B11F30FAEA9A3007FF0CA /* RimDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RimDetailController.m; sourceTree = "<group>"; };
+		DF7B11F40FAEA9A3007FF0CA /* RimListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RimListController.h; sourceTree = "<group>"; };
+		DF7B11F50FAEA9A3007FF0CA /* RimListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RimListController.m; sourceTree = "<group>"; };
+		DF7B11F60FAEA9A3007FF0CA /* RootMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootMenuController.h; sourceTree = "<group>"; };
+		DF7B11F70FAEA9A3007FF0CA /* RootMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootMenuController.m; sourceTree = "<group>"; };
+		DF7B11F80FAEA9A3007FF0CA /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DF7B11F90FAEA9A3007FF0CA /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DF7B11FA0FAEA9A3007FF0CA /* StringUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringUtil.h; sourceTree = "<group>"; };
+		DF7B11FB0FAEA9A3007FF0CA /* StringUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringUtil.m; sourceTree = "<group>"; };
+		DF7B11FC0FAEA9A3007FF0CA /* TableCellFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableCellFactory.h; sourceTree = "<group>"; };
+		DF7B11FD0FAEA9A3007FF0CA /* TableCellFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableCellFactory.m; sourceTree = "<group>"; };
+		DF7B11FE0FAEA9A3007FF0CA /* Wheel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Wheel.h; sourceTree = "<group>"; };
+		DF7B11FF0FAEA9A3007FF0CA /* Wheel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Wheel.m; sourceTree = "<group>"; };
+		DF7B12000FAEA9A3007FF0CA /* WheelDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WheelDetailController.h; sourceTree = "<group>"; };
+		DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WheelDetailController.m; sourceTree = "<group>"; };
+		DF7B12040FAEA9A3007FF0CA /* HubCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HubCell.xib; sourceTree = "<group>"; };
+		DF7B12050FAEA9A3007FF0CA /* HubDetailView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HubDetailView.xib; sourceTree = "<group>"; };
+		DF7B12070FAEA9A3007FF0CA /* hub1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hub1.jpg; sourceTree = "<group>"; };
+		DF7B12080FAEA9A3007FF0CA /* hub2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hub2.jpg; sourceTree = "<group>"; };
+		DF7B12090FAEA9A3007FF0CA /* hub3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hub3.jpg; sourceTree = "<group>"; };
+		DF7B120A0FAEA9A3007FF0CA /* hub3_cropped.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hub3_cropped.jpg; sourceTree = "<group>"; };
+		DF7B120B0FAEA9A3007FF0CA /* iPhone_GUI_1_3.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = iPhone_GUI_1_3.psd; sourceTree = "<group>"; };
+		DF7B120C0FAEA9A3007FF0CA /* logo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo1.png; sourceTree = "<group>"; };
+		DF7B120D0FAEA9A3007FF0CA /* LabeledValueCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LabeledValueCell.xib; sourceTree = "<group>"; };
+		DF7B120E0FAEA9A3007FF0CA /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		DF7B120F0FAEA9A3007FF0CA /* parts.sqlite3 */ = {isa = PBXFileReference; lastKnownFileType = file; path = parts.sqlite3; sourceTree = "<group>"; };
+		DF7B12100FAEA9A3007FF0CA /* PickerView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PickerView.xib; sourceTree = "<group>"; };
+		DF7B12110FAEA9A3007FF0CA /* RimCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RimCell.xib; sourceTree = "<group>"; };
+		DF7B12120FAEA9A3007FF0CA /* RimDetailView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RimDetailView.xib; sourceTree = "<group>"; };
+		DF7B12610FAEA9B5007FF0CA /* DatabaseSelectTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatabaseSelectTest.m; sourceTree = "<group>"; };
+		DF7B12620FAEA9B5007FF0CA /* HubDetailControllerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HubDetailControllerTest.m; sourceTree = "<group>"; };
+		DF7B12630FAEA9B5007FF0CA /* HubTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HubTest.m; sourceTree = "<group>"; };
+		DF7B12640FAEA9B5007FF0CA /* PickerControllerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickerControllerTest.m; sourceTree = "<group>"; };
+		DF7B12650FAEA9B5007FF0CA /* RimDetailControllerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RimDetailControllerTest.m; sourceTree = "<group>"; };
+		DF7B12660FAEA9B5007FF0CA /* RimTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RimTest.m; sourceTree = "<group>"; };
+		DF7B12680FAEA9B5007FF0CA /* OCMockConstraint+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OCMockConstraint+Extensions.h"; sourceTree = "<group>"; };
+		DF7B12690FAEA9B5007FF0CA /* OCMockConstraint+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OCMockConstraint+Extensions.m"; sourceTree = "<group>"; };
+		DF7B126A0FAEA9B5007FF0CA /* OCMockConstraintExtensionsTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCMockConstraintExtensionsTest.m; sourceTree = "<group>"; };
+		DF7B126B0FAEA9B5007FF0CA /* UIViewController+Testable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Testable.h"; sourceTree = "<group>"; };
+		DF7B126C0FAEA9B5007FF0CA /* UIViewController+Testable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Testable.m"; sourceTree = "<group>"; };
+		DF7B126D0FAEA9B5007FF0CA /* TableCellFactoryTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableCellFactoryTest.m; sourceTree = "<group>"; };
+		DF7B126E0FAEA9B5007FF0CA /* WheelTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WheelTest.m; sourceTree = "<group>"; };
+		DF7B12710FAEA9B5007FF0CA /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		DF7B12730FAEA9B5007FF0CA /* GTMIPhoneUnitTestDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMIPhoneUnitTestDelegate.h; sourceTree = "<group>"; };
+		DF7B12740FAEA9B5007FF0CA /* GTMIPhoneUnitTestDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMIPhoneUnitTestDelegate.m; sourceTree = "<group>"; };
+		DF7B12750FAEA9B5007FF0CA /* GTMIPhoneUnitTestMain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMIPhoneUnitTestMain.m; sourceTree = "<group>"; };
+		DF7B12760FAEA9B5007FF0CA /* GTMSenTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMSenTestCase.h; sourceTree = "<group>"; };
+		DF7B12770FAEA9B5007FF0CA /* GTMSenTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMSenTestCase.m; sourceTree = "<group>"; };
+		DF7B12780FAEA9B5007FF0CA /* RunIPhoneUnitTest.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = RunIPhoneUnitTest.sh; sourceTree = "<group>"; };
+		DF7B12790FAEA9B5007FF0CA /* hamcrest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = hamcrest.framework; sourceTree = "<group>"; };
+		DF7B127A0FAEA9B5007FF0CA /* OCMock.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OCMock.framework; sourceTree = "<group>"; };
+		DF7B127D0FAEA9B5007FF0CA /* file4 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = file4; sourceTree = "<group>"; };
+		DF7B127E0FAEA9B5007FF0CA /* file5 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = file5; sourceTree = "<group>"; };
+		DF7B12800FAEA9B5007FF0CA /* file1 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = file1; sourceTree = "<group>"; };
+		DF7B12810FAEA9B5007FF0CA /* file2 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = file2; sourceTree = "<group>"; };
+		DF7B12820FAEA9B5007FF0CA /* file3 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = file3; sourceTree = "<group>"; };
+		DF7B12830FAEA9B5007FF0CA /* test.sqlite3 */ = {isa = PBXFileReference; lastKnownFileType = file; path = test.sqlite3; sourceTree = "<group>"; };
+		DF7B130F0FAEACA8007FF0CA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */,
+				DF7B11CF0FAEA94D007FF0CA /* libsqlite3.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF7B11450FAEA80F007FF0CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF7B132B0FAEADC0007FF0CA /* hamcrest.framework in Frameworks */,
+				DF7B132C0FAEADC0007FF0CA /* OCMock.framework in Frameworks */,
+				DF7B11CE0FAEA94D007FF0CA /* libsqlite3.dylib in Frameworks */,
+				DF7B13030FAEAB11007FF0CA /* Foundation.framework in Frameworks */,
+				DF7B13040FAEAB11007FF0CA /* UIKit.framework in Frameworks */,
+				DF7B13050FAEAB11007FF0CA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* wheelsmith.app */,
+				DF7B11470FAEA80F007FF0CA /* Unit Tests.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				DF7B11D00FAEA9A3007FF0CA /* App */,
+				DF7B125F0FAEA9B5007FF0CA /* Test */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				28A0AAE50D9B0CCF005BE974 /* wheelsmith_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DF7B11CD0FAEA94D007FF0CA /* libsqlite3.dylib */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF7B11D00FAEA9A3007FF0CA /* App */ = {
+			isa = PBXGroup;
+			children = (
+				DF7B11D10FAEA9A3007FF0CA /* Classes */,
+				DF7B12020FAEA9A3007FF0CA /* Library */,
+				DF7B12030FAEA9A3007FF0CA /* Resources */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		DF7B11D10FAEA9A3007FF0CA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				DF7B11D20FAEA9A3007FF0CA /* BrandListController.h */,
+				DF7B11D30FAEA9A3007FF0CA /* BrandListController.m */,
+				DF7B11D40FAEA9A3007FF0CA /* Database.h */,
+				DF7B11D50FAEA9A3007FF0CA /* Database.m */,
+				DF7B11D60FAEA9A3007FF0CA /* DatabaseResultSet.h */,
+				DF7B11D70FAEA9A3007FF0CA /* DatabaseResultSet.m */,
+				DF7B11D80FAEA9A3007FF0CA /* DomainObject+Persistent.h */,
+				DF7B11D90FAEA9A3007FF0CA /* DomainObject+Persistent.m */,
+				DF7B11DA0FAEA9A3007FF0CA /* DomainObject.h */,
+				DF7B11DB0FAEA9A3007FF0CA /* DomainObject.m */,
+				DF7B11DC0FAEA9A3007FF0CA /* Hub.h */,
+				DF7B11DD0FAEA9A3007FF0CA /* Hub.m */,
+				DF7B11DE0FAEA9A3007FF0CA /* HubBrandListController.h */,
+				DF7B11DF0FAEA9A3007FF0CA /* HubBrandListController.m */,
+				DF7B11E00FAEA9A3007FF0CA /* HubCell.h */,
+				DF7B11E10FAEA9A3007FF0CA /* HubCell.m */,
+				DF7B11E20FAEA9A3007FF0CA /* HubDetailController.h */,
+				DF7B11E30FAEA9A3007FF0CA /* HubDetailController.m */,
+				DF7B11E40FAEA9A3007FF0CA /* HubListController.h */,
+				DF7B11E50FAEA9A3007FF0CA /* HubListController.m */,
+				DF7B11E60FAEA9A3007FF0CA /* LabeledValueCell.h */,
+				DF7B11E70FAEA9A3007FF0CA /* LabeledValueCell.m */,
+				DF7B11E80FAEA9A3007FF0CA /* MyWheelsController.h */,
+				DF7B11E90FAEA9A3007FF0CA /* MyWheelsController.m */,
+				DF7B11EA0FAEA9A3007FF0CA /* PickerController.h */,
+				DF7B11EB0FAEA9A3007FF0CA /* PickerController.m */,
+				DF7B11EC0FAEA9A3007FF0CA /* Rim.h */,
+				DF7B11ED0FAEA9A3007FF0CA /* Rim.m */,
+				DF7B11EE0FAEA9A3007FF0CA /* RimBrandListController.h */,
+				DF7B11EF0FAEA9A3007FF0CA /* RimBrandListController.m */,
+				DF7B11F00FAEA9A3007FF0CA /* RimCell.h */,
+				DF7B11F10FAEA9A3007FF0CA /* RimCell.m */,
+				DF7B11F20FAEA9A3007FF0CA /* RimDetailController.h */,
+				DF7B11F30FAEA9A3007FF0CA /* RimDetailController.m */,
+				DF7B11F40FAEA9A3007FF0CA /* RimListController.h */,
+				DF7B11F50FAEA9A3007FF0CA /* RimListController.m */,
+				DF7B11F60FAEA9A3007FF0CA /* RootMenuController.h */,
+				DF7B11F70FAEA9A3007FF0CA /* RootMenuController.m */,
+				DF7B11F80FAEA9A3007FF0CA /* AppDelegate.h */,
+				DF7B11F90FAEA9A3007FF0CA /* AppDelegate.m */,
+				DF7B11FA0FAEA9A3007FF0CA /* StringUtil.h */,
+				DF7B11FB0FAEA9A3007FF0CA /* StringUtil.m */,
+				DF7B11FC0FAEA9A3007FF0CA /* TableCellFactory.h */,
+				DF7B11FD0FAEA9A3007FF0CA /* TableCellFactory.m */,
+				DF7B11FE0FAEA9A3007FF0CA /* Wheel.h */,
+				DF7B11FF0FAEA9A3007FF0CA /* Wheel.m */,
+				DF7B12000FAEA9A3007FF0CA /* WheelDetailController.h */,
+				DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		DF7B12020FAEA9A3007FF0CA /* Library */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		DF7B12030FAEA9A3007FF0CA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DF7B130F0FAEACA8007FF0CA /* Info.plist */,
+				DF7B12040FAEA9A3007FF0CA /* HubCell.xib */,
+				DF7B12050FAEA9A3007FF0CA /* HubDetailView.xib */,
+				DF7B12060FAEA9A3007FF0CA /* Images */,
+				DF7B120D0FAEA9A3007FF0CA /* LabeledValueCell.xib */,
+				DF7B120E0FAEA9A3007FF0CA /* MainWindow.xib */,
+				DF7B120F0FAEA9A3007FF0CA /* parts.sqlite3 */,
+				DF7B12100FAEA9A3007FF0CA /* PickerView.xib */,
+				DF7B12110FAEA9A3007FF0CA /* RimCell.xib */,
+				DF7B12120FAEA9A3007FF0CA /* RimDetailView.xib */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DF7B12060FAEA9A3007FF0CA /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				DF7B12070FAEA9A3007FF0CA /* hub1.jpg */,
+				DF7B12080FAEA9A3007FF0CA /* hub2.jpg */,
+				DF7B12090FAEA9A3007FF0CA /* hub3.jpg */,
+				DF7B120A0FAEA9A3007FF0CA /* hub3_cropped.jpg */,
+				DF7B120B0FAEA9A3007FF0CA /* iPhone_GUI_1_3.psd */,
+				DF7B120C0FAEA9A3007FF0CA /* logo1.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		DF7B125F0FAEA9B5007FF0CA /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				DF7B12600FAEA9B5007FF0CA /* Classes */,
+				DF7B126F0FAEA9B5007FF0CA /* Library */,
+				DF7B127B0FAEA9B5007FF0CA /* Resources */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
+		DF7B12600FAEA9B5007FF0CA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				DF7B12610FAEA9B5007FF0CA /* DatabaseSelectTest.m */,
+				DF7B12620FAEA9B5007FF0CA /* HubDetailControllerTest.m */,
+				DF7B12630FAEA9B5007FF0CA /* HubTest.m */,
+				DF7B12640FAEA9B5007FF0CA /* PickerControllerTest.m */,
+				DF7B12650FAEA9B5007FF0CA /* RimDetailControllerTest.m */,
+				DF7B12660FAEA9B5007FF0CA /* RimTest.m */,
+				DF7B12670FAEA9B5007FF0CA /* Support */,
+				DF7B126D0FAEA9B5007FF0CA /* TableCellFactoryTest.m */,
+				DF7B126E0FAEA9B5007FF0CA /* WheelTest.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		DF7B12670FAEA9B5007FF0CA /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				DF7B12680FAEA9B5007FF0CA /* OCMockConstraint+Extensions.h */,
+				DF7B12690FAEA9B5007FF0CA /* OCMockConstraint+Extensions.m */,
+				DF7B126A0FAEA9B5007FF0CA /* OCMockConstraintExtensionsTest.m */,
+				DF7B126B0FAEA9B5007FF0CA /* UIViewController+Testable.h */,
+				DF7B126C0FAEA9B5007FF0CA /* UIViewController+Testable.m */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		DF7B126F0FAEA9B5007FF0CA /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				DF7B12700FAEA9B5007FF0CA /* GTM */,
+				DF7B12790FAEA9B5007FF0CA /* hamcrest.framework */,
+				DF7B127A0FAEA9B5007FF0CA /* OCMock.framework */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		DF7B12700FAEA9B5007FF0CA /* GTM */ = {
+			isa = PBXGroup;
+			children = (
+				DF7B12710FAEA9B5007FF0CA /* GTMDefines.h */,
+				DF7B12720FAEA9B5007FF0CA /* UnitTesting */,
+			);
+			path = GTM;
+			sourceTree = "<group>";
+		};
+		DF7B12720FAEA9B5007FF0CA /* UnitTesting */ = {
+			isa = PBXGroup;
+			children = (
+				DF7B12730FAEA9B5007FF0CA /* GTMIPhoneUnitTestDelegate.h */,
+				DF7B12740FAEA9B5007FF0CA /* GTMIPhoneUnitTestDelegate.m */,
+				DF7B12750FAEA9B5007FF0CA /* GTMIPhoneUnitTestMain.m */,
+				DF7B12760FAEA9B5007FF0CA /* GTMSenTestCase.h */,
+				DF7B12770FAEA9B5007FF0CA /* GTMSenTestCase.m */,
+				DF7B12780FAEA9B5007FF0CA /* RunIPhoneUnitTest.sh */,
+			);
+			path = UnitTesting;
+			sourceTree = "<group>";
+		};
+		DF7B127B0FAEA9B5007FF0CA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DF4665120FAEB1A200172895 /* Info.plist */,
+				DF7B127C0FAEA9B5007FF0CA /* dir1 */,
+				DF7B127F0FAEA9B5007FF0CA /* dir2 */,
+				DF7B12800FAEA9B5007FF0CA /* file1 */,
+				DF7B12810FAEA9B5007FF0CA /* file2 */,
+				DF7B12820FAEA9B5007FF0CA /* file3 */,
+				DF7B12830FAEA9B5007FF0CA /* test.sqlite3 */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DF7B127C0FAEA9B5007FF0CA /* dir1 */ = {
+			isa = PBXGroup;
+			children = (
+				DF7B127D0FAEA9B5007FF0CA /* file4 */,
+				DF7B127E0FAEA9B5007FF0CA /* file5 */,
+			);
+			path = dir1;
+			sourceTree = "<group>";
+		};
+		DF7B127F0FAEA9B5007FF0CA /* dir2 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = dir2;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* wheelsmith */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "wheelsmith" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = wheelsmith;
+			productName = wheelsmith;
+			productReference = 1D6058910D05DD3D006BFB54 /* wheelsmith.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DF7B11460FAEA80F007FF0CA /* Unit Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF7B114C0FAEA810007FF0CA /* Build configuration list for PBXNativeTarget "Unit Tests" */;
+			buildPhases = (
+				DF7B11430FAEA80F007FF0CA /* Resources */,
+				DF7B11440FAEA80F007FF0CA /* Sources */,
+				DF7B11C60FAEA8F3007FF0CA /* CopyFiles */,
+				DF7B11450FAEA80F007FF0CA /* Frameworks */,
+				DF7B11900FAEA88D007FF0CA /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Unit Tests";
+			productName = Test;
+			productReference = DF7B11470FAEA80F007FF0CA /* Unit Tests.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "wheelsmith" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* wheelsmith */,
+				DF7B11460FAEA80F007FF0CA /* Unit Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF7B12510FAEA9A3007FF0CA /* HubCell.xib in Resources */,
+				DF7B12520FAEA9A3007FF0CA /* HubDetailView.xib in Resources */,
+				DF7B12530FAEA9A3007FF0CA /* hub1.jpg in Resources */,
+				DF7B12540FAEA9A3007FF0CA /* hub2.jpg in Resources */,
+				DF7B12550FAEA9A3007FF0CA /* hub3.jpg in Resources */,
+				DF7B12560FAEA9A3007FF0CA /* hub3_cropped.jpg in Resources */,
+				DF7B12570FAEA9A3007FF0CA /* iPhone_GUI_1_3.psd in Resources */,
+				DF7B12580FAEA9A3007FF0CA /* logo1.png in Resources */,
+				DF7B12590FAEA9A3007FF0CA /* LabeledValueCell.xib in Resources */,
+				DF7B125A0FAEA9A3007FF0CA /* MainWindow.xib in Resources */,
+				DF7B125B0FAEA9A3007FF0CA /* parts.sqlite3 in Resources */,
+				DF7B125C0FAEA9A3007FF0CA /* PickerView.xib in Resources */,
+				DF7B125D0FAEA9A3007FF0CA /* RimCell.xib in Resources */,
+				DF7B125E0FAEA9A3007FF0CA /* RimDetailView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF7B11430FAEA80F007FF0CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF7B122B0FAEA9A3007FF0CA /* HubCell.xib in Resources */,
+				DF7B122C0FAEA9A3007FF0CA /* HubDetailView.xib in Resources */,
+				DF7B12330FAEA9A3007FF0CA /* LabeledValueCell.xib in Resources */,
+				DF7B12340FAEA9A3007FF0CA /* MainWindow.xib in Resources */,
+				DF7B12360FAEA9A3007FF0CA /* PickerView.xib in Resources */,
+				DF7B12370FAEA9A3007FF0CA /* RimCell.xib in Resources */,
+				DF7B12380FAEA9A3007FF0CA /* RimDetailView.xib in Resources */,
+				DF7B129A0FAEA9B5007FF0CA /* test.sqlite3 in Resources */,
+				DF4665170FAEB2C100172895 /* parts.sqlite3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DF7B11900FAEA88D007FF0CA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = ./Test/Library/GTM/UnitTesting/RunIPhoneUnitTest.sh;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				DF7B12390FAEA9A3007FF0CA /* BrandListController.m in Sources */,
+				DF7B123A0FAEA9A3007FF0CA /* Database.m in Sources */,
+				DF7B123B0FAEA9A3007FF0CA /* DatabaseResultSet.m in Sources */,
+				DF7B123C0FAEA9A3007FF0CA /* DomainObject+Persistent.m in Sources */,
+				DF7B123D0FAEA9A3007FF0CA /* DomainObject.m in Sources */,
+				DF7B123E0FAEA9A3007FF0CA /* Hub.m in Sources */,
+				DF7B123F0FAEA9A3007FF0CA /* HubBrandListController.m in Sources */,
+				DF7B12400FAEA9A3007FF0CA /* HubCell.m in Sources */,
+				DF7B12410FAEA9A3007FF0CA /* HubDetailController.m in Sources */,
+				DF7B12420FAEA9A3007FF0CA /* HubListController.m in Sources */,
+				DF7B12430FAEA9A3007FF0CA /* LabeledValueCell.m in Sources */,
+				DF7B12440FAEA9A3007FF0CA /* MyWheelsController.m in Sources */,
+				DF7B12450FAEA9A3007FF0CA /* PickerController.m in Sources */,
+				DF7B12460FAEA9A3007FF0CA /* Rim.m in Sources */,
+				DF7B12470FAEA9A3007FF0CA /* RimBrandListController.m in Sources */,
+				DF7B12480FAEA9A3007FF0CA /* RimCell.m in Sources */,
+				DF7B12490FAEA9A3007FF0CA /* RimDetailController.m in Sources */,
+				DF7B124A0FAEA9A3007FF0CA /* RimListController.m in Sources */,
+				DF7B124B0FAEA9A3007FF0CA /* RootMenuController.m in Sources */,
+				DF7B124C0FAEA9A3007FF0CA /* AppDelegate.m in Sources */,
+				DF7B124D0FAEA9A3007FF0CA /* StringUtil.m in Sources */,
+				DF7B124E0FAEA9A3007FF0CA /* TableCellFactory.m in Sources */,
+				DF7B124F0FAEA9A3007FF0CA /* Wheel.m in Sources */,
+				DF7B12500FAEA9A3007FF0CA /* WheelDetailController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF7B11440FAEA80F007FF0CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF7B12130FAEA9A3007FF0CA /* BrandListController.m in Sources */,
+				DF7B12140FAEA9A3007FF0CA /* Database.m in Sources */,
+				DF7B12150FAEA9A3007FF0CA /* DatabaseResultSet.m in Sources */,
+				DF7B12160FAEA9A3007FF0CA /* DomainObject+Persistent.m in Sources */,
+				DF7B12170FAEA9A3007FF0CA /* DomainObject.m in Sources */,
+				DF7B12180FAEA9A3007FF0CA /* Hub.m in Sources */,
+				DF7B12190FAEA9A3007FF0CA /* HubBrandListController.m in Sources */,
+				DF7B121A0FAEA9A3007FF0CA /* HubCell.m in Sources */,
+				DF7B121B0FAEA9A3007FF0CA /* HubDetailController.m in Sources */,
+				DF7B121C0FAEA9A3007FF0CA /* HubListController.m in Sources */,
+				DF7B121D0FAEA9A3007FF0CA /* LabeledValueCell.m in Sources */,
+				DF7B121E0FAEA9A3007FF0CA /* MyWheelsController.m in Sources */,
+				DF7B121F0FAEA9A3007FF0CA /* PickerController.m in Sources */,
+				DF7B12200FAEA9A3007FF0CA /* Rim.m in Sources */,
+				DF7B12210FAEA9A3007FF0CA /* RimBrandListController.m in Sources */,
+				DF7B12220FAEA9A3007FF0CA /* RimCell.m in Sources */,
+				DF7B12230FAEA9A3007FF0CA /* RimDetailController.m in Sources */,
+				DF7B12240FAEA9A3007FF0CA /* RimListController.m in Sources */,
+				DF7B12250FAEA9A3007FF0CA /* RootMenuController.m in Sources */,
+				DF7B12260FAEA9A3007FF0CA /* AppDelegate.m in Sources */,
+				DF7B12270FAEA9A3007FF0CA /* StringUtil.m in Sources */,
+				DF7B12280FAEA9A3007FF0CA /* TableCellFactory.m in Sources */,
+				DF7B12290FAEA9A3007FF0CA /* Wheel.m in Sources */,
+				DF7B122A0FAEA9A3007FF0CA /* WheelDetailController.m in Sources */,
+				DF7B128F0FAEA9B5007FF0CA /* GTMIPhoneUnitTestDelegate.m in Sources */,
+				DF7B12900FAEA9B5007FF0CA /* GTMIPhoneUnitTestMain.m in Sources */,
+				DF7B12910FAEA9B5007FF0CA /* GTMSenTestCase.m in Sources */,
+				DFD4DA050FAEB47E00BC2BC2 /* WheelTest.m in Sources */,
+				DFD4DA060FAEB47F00BC2BC2 /* UIViewController+Testable.m in Sources */,
+				DFD4DA070FAEB48200BC2BC2 /* RimTest.m in Sources */,
+				DFD4DA080FAEB48300BC2BC2 /* TableCellFactoryTest.m in Sources */,
+				DFD4DA090FAEB48500BC2BC2 /* RimDetailControllerTest.m in Sources */,
+				DFD4DA0A0FAEB48600BC2BC2 /* PickerControllerTest.m in Sources */,
+				DFD4DA0B0FAEB48700BC2BC2 /* OCMockConstraintExtensionsTest.m in Sources */,
+				DFD4DA0C0FAEB48800BC2BC2 /* OCMockConstraint+Extensions.m in Sources */,
+				DFD4DA0D0FAEB48B00BC2BC2 /* HubDetailControllerTest.m in Sources */,
+				DFD4DA0E0FAEB48D00BC2BC2 /* DatabaseSelectTest.m in Sources */,
+				DFD4DA0F0FAEB48F00BC2BC2 /* HubTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = wheelsmith_Prefix.pch;
+				INFOPLIST_FILE = App/Resources/Info.plist;
+				PRODUCT_NAME = wheelsmith;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = wheelsmith_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				PRODUCT_NAME = wheelsmith;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos2.2.1;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos2.2.1;
+			};
+			name = Release;
+		};
+		DF7B114A0FAEA810007FF0CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Test/Library\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/UIKit.framework/Headers/UIKit.h";
+				INFOPLIST_FILE = Test/Resources/Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					UIKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = "Unit Tests";
+				SDKROOT = iphoneos2.2.1;
+			};
+			name = Debug;
+		};
+		DF7B114B0FAEA810007FF0CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Test/Library\"",
+				);
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/UIKit.framework/Headers/UIKit.h";
+				INFOPLIST_FILE = "Test-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					UIKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = Test;
+				SDKROOT = iphoneos2.2.1;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "wheelsmith" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "wheelsmith" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF7B114C0FAEA810007FF0CA /* Build configuration list for PBXNativeTarget "Unit Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF7B114A0FAEA810007FF0CA /* Debug */,
+				DF7B114B0FAEA810007FF0CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

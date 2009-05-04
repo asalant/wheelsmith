@@ -1,6 +1,6 @@
 #import <UIKit/UIKit.h>
 
-@interface SpokeCalculatorAppDelegate : NSObject <UIApplicationDelegate> {
+@interface AppDelegate : NSObject <UIApplicationDelegate> {
     
     UIWindow *window;
     UINavigationController *navigationController;
