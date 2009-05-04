@@ -48,11 +48,35 @@
 }
 
 -(void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    if (!wheel.pk) {
+        self.navigationItem.leftBarButtonItem = [[[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemCancel
+                                                                                               target:self 
+                                                                                               action:@selector(dismissModal)] autorelease];
+        self.navigationItem.rightBarButtonItem = [[[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemSave
+                                                                                                target:self 
+                                                                                                action:@selector(saveWheel)] autorelease];
+    }
+    
     [rimCell setValue:wheel.rim ? wheel.rim.description : @"Choose Rim"];
     [hubCell setValue:wheel.hub ? wheel.hub.description : @"Choose Hub"];
     [spokePatternCell setValue:wheel.spokePattern ? wheel.spokePatternDescription : @"Choose Pattern"];
     
     [self recalculate];
+    [self.tableView reloadData];
+}
+
+#pragma mark New Wheel controls
+
+- (void) dismissModal {
+    self.navigationItem.leftBarButtonItem = nil;
+    self.navigationItem.rightBarButtonItem = nil;
+    [self dismissModalViewControllerAnimated:YES];
+}
+
+
+- (void) saveWheel {
+    [self dismissModal];
 }
 
 #pragma mark Handlers for editing views
@@ -71,7 +95,7 @@
 #pragma mark Table view methods
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-    if (!wheel.hub || !wheel.rim || !wheel.spokePattern) {
+    if (!wheel.isValid) {
         return sections.count - 1;
     }
     return sections.count;

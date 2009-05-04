@@ -41,7 +41,15 @@
     wheelDetailController.rimBrandsController = rimBrandsController;
     wheelDetailController.hubBrandsController = hubBrandsController;
     
-    UINavigationController *newWheelController = [[[UINavigationController alloc] initWithRootViewController:wheelDetailController] autorelease];
+    
+    // Would like to use the same instance as above but there are nav bar rendering issues when switching between existing and new wheels
+    WheelDetailController *newWheelDetailController = [[[WheelDetailController alloc] initWithStyle:UITableViewStyleGrouped] autorelease];
+    newWheelDetailController.rimDetailController = rimDetailController;
+    newWheelDetailController.hubDetailController = hubDetailController;
+    newWheelDetailController.rimBrandsController = rimBrandsController;
+    newWheelDetailController.hubBrandsController = hubBrandsController;
+    
+    UINavigationController *newWheelController = [[[UINavigationController alloc] initWithRootViewController:newWheelDetailController] autorelease];
     
     MyWheelsController *myWheelsController = [[[MyWheelsController alloc] initWithStyle:UITableViewStyleGrouped] autorelease];
     myWheelsController.wheels = [Wheel findAll];

@@ -8,10 +8,16 @@
 @synthesize pk, spokePattern, hub, rim;
 
 - (NSString *) spokePatternDescription {
-    if ([spokePattern intValue] == 0)
+    if (!spokePattern)
+        return nil;
+    else if ([spokePattern intValue] == 0)
         return @"radial";
     else
         return [NSString stringWithFormat:@"%@ across", spokePattern];
+}
+
+- (BOOL) isValid {
+    return self.hub && self.rim && self.spokePattern;
 }
 
 - (NSNumber *) leftSpokeLength {

@@ -71,7 +71,18 @@
     wheel.spokePattern = [NSNumber numberWithInt:3];
     
     assertThat(wheel.spokePatternDescription, equalTo(@"3 across"));
-    
+}
+
+-(void) testEmptyWheelIsInvalid {
+    Wheel *wheel = [[[Wheel alloc] init] autorelease];
+    assertThat([NSNumber numberWithBool:wheel.isValid], 
+               is([NSNumber numberWithBool:NO]));
+}
+
+-(void) testCompleteWheelIsValid {
+    Wheel *wheel = [[Wheel findAll] objectAtIndex:0];
+    assertThat([NSNumber numberWithBool:wheel.isValid], 
+               is([NSNumber numberWithBool:YES]));
 }
 
 

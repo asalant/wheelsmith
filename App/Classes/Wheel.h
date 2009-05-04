@@ -14,6 +14,7 @@
 @property(nonatomic, retain) Hub *hub;
 @property(nonatomic, retain) Rim *rim;
 @property(readonly) NSString *spokePatternDescription;
+@property(readonly) BOOL isValid;
 
 - (NSNumber *) spokeLengthWithFlangeDiameter:(NSNumber *)diameter flangeWidth:(NSNumber *)width;
 - (NSNumber *) leftSpokeLength;

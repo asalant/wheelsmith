@@ -20,7 +20,6 @@
     [super viewDidLoad];
 
     self.title = @"My Wheels";
-    //self.navigationItem.rightBarButtonItem = self.editButtonItem;
     self.navigationItem.rightBarButtonItem = [[[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd 
                                                                                            target:self 
                                                                                            action:@selector(addButtonWasPressed)] autorelease];
