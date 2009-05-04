@@ -5,8 +5,7 @@
 
 @synthesize hub;
 @synthesize brandLabel, descriptionLabel;
-@synthesize rearLabel, holeCountLabel, spokeHoleDiameterLabel, leftFlangeDiameter, leftFlangeToCenter, rightFlangeDiameter, rightFlangeToCenter;
-@synthesize notesTextView, verifiedLabel;
+@synthesize rearLabel, holeCountLabel, leftFlangeDiameter, leftFlangeToCenter, rightFlangeDiameter, rightFlangeToCenter;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -14,7 +13,7 @@
     brandLabel.text = hub.brand;
     descriptionLabel.text = hub.description;
     rearLabel.text = hub.rear ? @"Rear" : @"Front";
-    holeCountLabel.text = [StringUtil formatFloat:hub.holeCount];
+    holeCountLabel.text = [NSString stringWithFormat:@"%d holes", [hub.holeCount intValue]];
     leftFlangeDiameter.text = [StringUtil formatFloat:hub.leftFlangeDiameter];
     leftFlangeToCenter.text = [StringUtil formatFloat:hub.leftFlangeToCenter];
     rightFlangeDiameter.text = [StringUtil formatFloat:hub.rightFlangeDiameter];

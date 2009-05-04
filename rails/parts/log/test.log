@@ -493,3 +493,337 @@ Processing WheelsController#update (for 0.0.0.0 at 2009-05-01 23:18:00) [PUT]
   [4;36;1mWheel Load (0.3ms)[0m   [0;1mSELECT * FROM "wheels" WHERE ("wheels"."id" = 682576799) [0m
 Redirected to #<Wheel:0x23f4cf4>
 Completed in 2ms (DB: 1) | 302 Found [http://test.host/wheels/682576799?]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT count(*) AS count_all FROM "hubs" [0m
+  [4;35;1mHub Load (0.4ms)[0m   [0mSELECT * FROM "hubs" WHERE ("hubs"."id" = 316632762) [0m
+
+
+Processing HubsController#destroy (for 0.0.0.0 at 2009-05-03 23:47:13) [DELETE]
+  Parameters: {"id"=>"316632762"}
+  [4;36;1mHub Load (0.4ms)[0m   [0;1mSELECT * FROM "hubs" WHERE ("hubs"."id" = 316632762) [0m
+  [4;35;1mHub Destroy (0.3ms)[0m   [0mDELETE FROM "hubs" WHERE "id" = 316632762[0m
+Redirected to http://test.host/hubs
+Completed in 4ms (DB: 3) | 302 Found [http://test.host/hubs/316632762]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "hubs" [0m
+  [4;35;1mHub Load (0.4ms)[0m   [0mSELECT * FROM "hubs" WHERE ("hubs"."id" = 316632762) [0m
+
+
+Processing HubsController#edit (for 0.0.0.0 at 2009-05-03 23:47:13) [GET]
+  Parameters: {"id"=>"316632762"}
+  [4;36;1mHub Load (0.3ms)[0m   [0;1mSELECT * FROM "hubs" WHERE ("hubs"."id" = 316632762) [0m
+Rendering template within layouts/application
+Rendering hubs/edit
+Completed in 9ms (View: 8, DB: 1) | 200 OK [http://test.host/hubs/316632762/edit]
+
+
+Processing HubsController#index (for 0.0.0.0 at 2009-05-03 23:47:13) [GET]
+  [4;35;1mHub Load (0.6ms)[0m   [0mSELECT * FROM "hubs" [0m
+Rendering template within layouts/application
+Rendering hubs/index
+Completed in 4ms (View: 2, DB: 1) | 200 OK [http://test.host/hubs]
+
+
+Processing HubsController#new (for 0.0.0.0 at 2009-05-03 23:47:13) [GET]
+Rendering template within layouts/application
+Rendering hubs/new
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://test.host/hubs/new]
+  [4;36;1mHub Load (0.4ms)[0m   [0;1mSELECT * FROM "hubs" WHERE ("hubs"."id" = 316632762) [0m
+
+
+Processing HubsController#show (for 0.0.0.0 at 2009-05-03 23:47:13) [GET]
+  Parameters: {"id"=>"316632762"}
+  [4;35;1mHub Load (0.4ms)[0m   [0mSELECT * FROM "hubs" WHERE ("hubs"."id" = 316632762) [0m
+Rendering template within layouts/application
+Rendering hubs/show
+Completed in 2ms (View: 1, DB: 1) | 200 OK [http://test.host/hubs/316632762]
+  [4;36;1mHub Load (0.5ms)[0m   [0;1mSELECT * FROM "hubs" WHERE ("hubs"."id" = 316632762) [0m
+
+
+Processing HubsController#update (for 0.0.0.0 at 2009-05-03 23:47:13) [PUT]
+  Parameters: {"id"=>"316632762", "hub"=>{}}
+  [4;35;1mHub Load (0.4ms)[0m   [0mSELECT * FROM "hubs" WHERE ("hubs"."id" = 316632762) [0m
+Redirected to #<Hub:0x20a5bd4>
+Completed in 3ms (DB: 1) | 302 Found [http://test.host/hubs/316632762?]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT count(*) AS count_all FROM "rims" [0m
+  [4;35;1mRim Load (0.3ms)[0m   [0mSELECT * FROM "rims" WHERE ("rims"."id" = 793168374) [0m
+
+
+Processing RimsController#destroy (for 0.0.0.0 at 2009-05-03 23:47:13) [DELETE]
+  Parameters: {"id"=>"793168374"}
+  [4;36;1mRim Load (0.4ms)[0m   [0;1mSELECT * FROM "rims" WHERE ("rims"."id" = 793168374) [0m
+  [4;35;1mRim Destroy (0.3ms)[0m   [0mDELETE FROM "rims" WHERE "id" = 793168374[0m
+Redirected to http://test.host/rims
+Completed in 4ms (DB: 1) | 302 Found [http://test.host/rims/793168374]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "rims" [0m
+  [4;35;1mRim Load (0.5ms)[0m   [0mSELECT * FROM "rims" WHERE ("rims"."id" = 793168374) [0m
+
+
+Processing RimsController#edit (for 0.0.0.0 at 2009-05-03 23:47:13) [GET]
+  Parameters: {"id"=>"793168374"}
+  [4;36;1mRim Load (0.3ms)[0m   [0;1mSELECT * FROM "rims" WHERE ("rims"."id" = 793168374) [0m
+Rendering template within layouts/application
+Rendering rims/edit
+Completed in 6ms (View: 5, DB: 1) | 200 OK [http://test.host/rims/793168374/edit]
+
+
+Processing RimsController#index (for 0.0.0.0 at 2009-05-03 23:47:13) [GET]
+  [4;35;1mRim Load (0.5ms)[0m   [0mSELECT * FROM "rims" [0m
+Rendering template within layouts/application
+Rendering rims/index
+Completed in 4ms (View: 2, DB: 1) | 200 OK [http://test.host/rims]
+
+
+Processing RimsController#new (for 0.0.0.0 at 2009-05-03 23:47:13) [GET]
+Rendering template within layouts/application
+Rendering rims/new
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://test.host/rims/new]
+  [4;36;1mRim Load (0.5ms)[0m   [0;1mSELECT * FROM "rims" WHERE ("rims"."id" = 793168374) [0m
+
+
+Processing RimsController#show (for 0.0.0.0 at 2009-05-03 23:47:13) [GET]
+  Parameters: {"id"=>"793168374"}
+  [4;35;1mRim Load (0.4ms)[0m   [0mSELECT * FROM "rims" WHERE ("rims"."id" = 793168374) [0m
+Rendering template within layouts/application
+Rendering rims/show
+Completed in 2ms (View: 1, DB: 1) | 200 OK [http://test.host/rims/793168374]
+  [4;36;1mRim Load (0.3ms)[0m   [0;1mSELECT * FROM "rims" WHERE ("rims"."id" = 793168374) [0m
+
+
+Processing RimsController#update (for 0.0.0.0 at 2009-05-03 23:47:13) [PUT]
+  Parameters: {"rim"=>{}, "id"=>"793168374"}
+  [4;35;1mRim Load (0.3ms)[0m   [0mSELECT * FROM "rims" WHERE ("rims"."id" = 793168374) [0m
+Redirected to #<Rim:0x1fcbce0>
+Completed in 2ms (DB: 1) | 302 Found [http://test.host/rims/793168374?]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "wheels" [0m
+
+
+Processing WheelsController#create (for 0.0.0.0 at 2009-05-03 23:47:13) [POST]
+  Parameters: {"wheel"=>{}}
+  [4;35;1mWheel Create (0.4ms)[0m   [0mINSERT INTO "wheels" ("updated_at", "hub_id", "spoke_pattern", "rim_id", "created_at") VALUES('2009-05-04 06:47:13', NULL, NULL, NULL, '2009-05-04 06:47:13')[0m
+Redirected to #<Wheel:0x1fa89d4>
+Completed in 5ms (DB: 1) | 302 Found [http://test.host/wheels?]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "wheels" [0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT count(*) AS count_all FROM "wheels" [0m
+  [4;36;1mWheel Load (0.3ms)[0m   [0;1mSELECT * FROM "wheels" WHERE ("wheels"."id" = 682576799) [0m
+
+
+Processing WheelsController#destroy (for 0.0.0.0 at 2009-05-03 23:47:13) [DELETE]
+  Parameters: {"id"=>"682576799"}
+  [4;35;1mWheel Load (0.3ms)[0m   [0mSELECT * FROM "wheels" WHERE ("wheels"."id" = 682576799) [0m
+  [4;36;1mWheel Destroy (0.3ms)[0m   [0;1mDELETE FROM "wheels" WHERE "id" = 682576799[0m
+Redirected to http://test.host/wheels
+Completed in 2ms (DB: 1) | 302 Found [http://test.host/wheels/682576799]
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "wheels" [0m
+  [4;36;1mWheel Load (0.4ms)[0m   [0;1mSELECT * FROM "wheels" WHERE ("wheels"."id" = 682576799) [0m
+
+
+Processing WheelsController#edit (for 0.0.0.0 at 2009-05-03 23:47:13) [GET]
+  Parameters: {"id"=>"682576799"}
+  [4;35;1mWheel Load (0.3ms)[0m   [0mSELECT * FROM "wheels" WHERE ("wheels"."id" = 682576799) [0m
+Rendering template within layouts/application
+Rendering wheels/edit
+  [4;36;1mHub Load (0.4ms)[0m   [0;1mSELECT * FROM "hubs" WHERE ("hubs"."id" = 661263291) [0m
+  [4;35;1mRim Load (0.3ms)[0m   [0mSELECT * FROM "rims" WHERE ("rims"."id" = 793168374) [0m
+Completed in 5ms (View: 4, DB: 1) | 200 OK [http://test.host/wheels/682576799/edit]
+
+
+Processing WheelsController#index (for 0.0.0.0 at 2009-05-03 23:47:13) [GET]
+  [4;36;1mWheel Load (0.5ms)[0m   [0;1mSELECT * FROM "wheels" [0m
+Rendering template within layouts/application
+Rendering wheels/index
+  [4;35;1mHub Load (0.4ms)[0m   [0mSELECT * FROM "hubs" WHERE ("hubs"."id" = 661263291) [0m
+  [4;36;1mRim Load (0.4ms)[0m   [0;1mSELECT * FROM "rims" WHERE ("rims"."id" = 793168374) [0m
+  [4;35;1mHub Load (0.5ms)[0m   [0mSELECT * FROM "hubs" WHERE ("hubs"."id" = 316632762) [0m
+  [4;36;1mRim Load (0.4ms)[0m   [0;1mSELECT * FROM "rims" WHERE ("rims"."id" = 143663424) [0m
+Completed in 82ms (View: 79, DB: 2) | 200 OK [http://test.host/wheels]
+
+
+Processing WheelsController#new (for 0.0.0.0 at 2009-05-03 23:47:13) [GET]
+Rendering template within layouts/application
+Rendering wheels/new
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://test.host/wheels/new]
+  [4;35;1mWheel Load (0.3ms)[0m   [0mSELECT * FROM "wheels" WHERE ("wheels"."id" = 682576799) [0m
+
+
+Processing WheelsController#show (for 0.0.0.0 at 2009-05-03 23:47:13) [GET]
+  Parameters: {"id"=>"682576799"}
+  [4;36;1mWheel Load (0.2ms)[0m   [0;1mSELECT * FROM "wheels" WHERE ("wheels"."id" = 682576799) [0m
+Rendering template within layouts/application
+Rendering wheels/show
+  [4;35;1mHub Load (0.3ms)[0m   [0mSELECT * FROM "hubs" WHERE ("hubs"."id" = 661263291) [0m
+  [4;36;1mRim Load (0.2ms)[0m   [0;1mSELECT * FROM "rims" WHERE ("rims"."id" = 793168374) [0m
+Completed in 3ms (View: 2, DB: 1) | 200 OK [http://test.host/wheels/682576799]
+  [4;35;1mWheel Load (0.3ms)[0m   [0mSELECT * FROM "wheels" WHERE ("wheels"."id" = 682576799) [0m
+
+
+Processing WheelsController#update (for 0.0.0.0 at 2009-05-03 23:47:13) [PUT]
+  Parameters: {"id"=>"682576799", "wheel"=>{}}
+  [4;36;1mWheel Load (0.3ms)[0m   [0;1mSELECT * FROM "wheels" WHERE ("wheels"."id" = 682576799) [0m
+Redirected to #<Wheel:0x23f9524>
+Completed in 3ms (DB: 1) | 302 Found [http://test.host/wheels/682576799?]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT count(*) AS count_all FROM "hubs" [0m
+  [4;35;1mHub Load (0.4ms)[0m   [0mSELECT * FROM "hubs" WHERE ("hubs"."id" = 316632762) [0m
+
+
+Processing HubsController#destroy (for 0.0.0.0 at 2009-05-03 23:48:52) [DELETE]
+  Parameters: {"id"=>"316632762"}
+  [4;36;1mHub Load (0.5ms)[0m   [0;1mSELECT * FROM "hubs" WHERE ("hubs"."id" = 316632762) [0m
+  [4;35;1mHub Destroy (0.3ms)[0m   [0mDELETE FROM "hubs" WHERE "id" = 316632762[0m
+Redirected to http://test.host/hubs
+Completed in 4ms (DB: 3) | 302 Found [http://test.host/hubs/316632762]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "hubs" [0m
+  [4;35;1mHub Load (0.5ms)[0m   [0mSELECT * FROM "hubs" WHERE ("hubs"."id" = 316632762) [0m
+
+
+Processing HubsController#edit (for 0.0.0.0 at 2009-05-03 23:48:52) [GET]
+  Parameters: {"id"=>"316632762"}
+  [4;36;1mHub Load (0.4ms)[0m   [0;1mSELECT * FROM "hubs" WHERE ("hubs"."id" = 316632762) [0m
+Rendering template within layouts/application
+Rendering hubs/edit
+Completed in 8ms (View: 8, DB: 1) | 200 OK [http://test.host/hubs/316632762/edit]
+
+
+Processing HubsController#index (for 0.0.0.0 at 2009-05-03 23:48:52) [GET]
+  [4;35;1mHub Load (0.7ms)[0m   [0mSELECT * FROM "hubs" [0m
+Rendering template within layouts/application
+Rendering hubs/index
+Completed in 4ms (View: 2, DB: 1) | 200 OK [http://test.host/hubs]
+
+
+Processing HubsController#new (for 0.0.0.0 at 2009-05-03 23:48:52) [GET]
+Rendering template within layouts/application
+Rendering hubs/new
+Completed in 3ms (View: 3, DB: 0) | 200 OK [http://test.host/hubs/new]
+  [4;36;1mHub Load (0.4ms)[0m   [0;1mSELECT * FROM "hubs" WHERE ("hubs"."id" = 316632762) [0m
+
+
+Processing HubsController#show (for 0.0.0.0 at 2009-05-03 23:48:52) [GET]
+  Parameters: {"id"=>"316632762"}
+  [4;35;1mHub Load (0.5ms)[0m   [0mSELECT * FROM "hubs" WHERE ("hubs"."id" = 316632762) [0m
+Rendering template within layouts/application
+Rendering hubs/show
+Completed in 3ms (View: 2, DB: 1) | 200 OK [http://test.host/hubs/316632762]
+  [4;36;1mHub Load (0.5ms)[0m   [0;1mSELECT * FROM "hubs" WHERE ("hubs"."id" = 316632762) [0m
+
+
+Processing HubsController#update (for 0.0.0.0 at 2009-05-03 23:48:52) [PUT]
+  Parameters: {"id"=>"316632762", "hub"=>{}}
+  [4;35;1mHub Load (0.4ms)[0m   [0mSELECT * FROM "hubs" WHERE ("hubs"."id" = 316632762) [0m
+Redirected to #<Hub:0x209da9c>
+Completed in 2ms (DB: 1) | 302 Found [http://test.host/hubs/316632762?]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "rims" [0m
+  [4;35;1mRim Load (0.3ms)[0m   [0mSELECT * FROM "rims" WHERE ("rims"."id" = 793168374) [0m
+
+
+Processing RimsController#destroy (for 0.0.0.0 at 2009-05-03 23:48:52) [DELETE]
+  Parameters: {"id"=>"793168374"}
+  [4;36;1mRim Load (0.3ms)[0m   [0;1mSELECT * FROM "rims" WHERE ("rims"."id" = 793168374) [0m
+  [4;35;1mRim Destroy (0.3ms)[0m   [0mDELETE FROM "rims" WHERE "id" = 793168374[0m
+Redirected to http://test.host/rims
+Completed in 3ms (DB: 1) | 302 Found [http://test.host/rims/793168374]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "rims" [0m
+  [4;35;1mRim Load (0.5ms)[0m   [0mSELECT * FROM "rims" WHERE ("rims"."id" = 793168374) [0m
+
+
+Processing RimsController#edit (for 0.0.0.0 at 2009-05-03 23:48:52) [GET]
+  Parameters: {"id"=>"793168374"}
+  [4;36;1mRim Load (0.4ms)[0m   [0;1mSELECT * FROM "rims" WHERE ("rims"."id" = 793168374) [0m
+Rendering template within layouts/application
+Rendering rims/edit
+Completed in 5ms (View: 5, DB: 1) | 200 OK [http://test.host/rims/793168374/edit]
+
+
+Processing RimsController#index (for 0.0.0.0 at 2009-05-03 23:48:52) [GET]
+  [4;35;1mRim Load (0.6ms)[0m   [0mSELECT * FROM "rims" [0m
+Rendering template within layouts/application
+Rendering rims/index
+Completed in 4ms (View: 3, DB: 1) | 200 OK [http://test.host/rims]
+
+
+Processing RimsController#new (for 0.0.0.0 at 2009-05-03 23:48:52) [GET]
+Rendering template within layouts/application
+Rendering rims/new
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://test.host/rims/new]
+  [4;36;1mRim Load (0.4ms)[0m   [0;1mSELECT * FROM "rims" WHERE ("rims"."id" = 793168374) [0m
+
+
+Processing RimsController#show (for 0.0.0.0 at 2009-05-03 23:48:52) [GET]
+  Parameters: {"id"=>"793168374"}
+  [4;35;1mRim Load (0.4ms)[0m   [0mSELECT * FROM "rims" WHERE ("rims"."id" = 793168374) [0m
+Rendering template within layouts/application
+Rendering rims/show
+Completed in 2ms (View: 1, DB: 1) | 200 OK [http://test.host/rims/793168374]
+  [4;36;1mRim Load (0.4ms)[0m   [0;1mSELECT * FROM "rims" WHERE ("rims"."id" = 793168374) [0m
+
+
+Processing RimsController#update (for 0.0.0.0 at 2009-05-03 23:48:52) [PUT]
+  Parameters: {"rim"=>{}, "id"=>"793168374"}
+  [4;35;1mRim Load (0.3ms)[0m   [0mSELECT * FROM "rims" WHERE ("rims"."id" = 793168374) [0m
+Redirected to #<Rim:0x1fc15d8>
+Completed in 2ms (DB: 1) | 302 Found [http://test.host/rims/793168374?]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "wheels" [0m
+
+
+Processing WheelsController#create (for 0.0.0.0 at 2009-05-03 23:48:52) [POST]
+  Parameters: {"wheel"=>{}}
+  [4;35;1mWheel Create (0.4ms)[0m   [0mINSERT INTO "wheels" ("updated_at", "hub_id", "spoke_pattern", "note", "rim_id", "created_at") VALUES('2009-05-04 06:48:52', NULL, NULL, NULL, NULL, '2009-05-04 06:48:52')[0m
+Redirected to #<Wheel:0x1f9e218>
+Completed in 6ms (DB: 1) | 302 Found [http://test.host/wheels?]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "wheels" [0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT count(*) AS count_all FROM "wheels" [0m
+  [4;36;1mWheel Load (0.3ms)[0m   [0;1mSELECT * FROM "wheels" WHERE ("wheels"."id" = 682576799) [0m
+
+
+Processing WheelsController#destroy (for 0.0.0.0 at 2009-05-03 23:48:52) [DELETE]
+  Parameters: {"id"=>"682576799"}
+  [4;35;1mWheel Load (0.3ms)[0m   [0mSELECT * FROM "wheels" WHERE ("wheels"."id" = 682576799) [0m
+  [4;36;1mWheel Destroy (0.3ms)[0m   [0;1mDELETE FROM "wheels" WHERE "id" = 682576799[0m
+Redirected to http://test.host/wheels
+Completed in 2ms (DB: 1) | 302 Found [http://test.host/wheels/682576799]
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT count(*) AS count_all FROM "wheels" [0m
+  [4;36;1mWheel Load (0.3ms)[0m   [0;1mSELECT * FROM "wheels" WHERE ("wheels"."id" = 682576799) [0m
+
+
+Processing WheelsController#edit (for 0.0.0.0 at 2009-05-03 23:48:52) [GET]
+  Parameters: {"id"=>"682576799"}
+  [4;35;1mWheel Load (0.3ms)[0m   [0mSELECT * FROM "wheels" WHERE ("wheels"."id" = 682576799) [0m
+Rendering template within layouts/application
+Rendering wheels/edit
+  [4;36;1mHub Load (0.4ms)[0m   [0;1mSELECT * FROM "hubs" WHERE ("hubs"."id" = 661263291) [0m
+  [4;35;1mRim Load (0.3ms)[0m   [0mSELECT * FROM "rims" WHERE ("rims"."id" = 793168374) [0m
+Completed in 5ms (View: 4, DB: 1) | 200 OK [http://test.host/wheels/682576799/edit]
+
+
+Processing WheelsController#index (for 0.0.0.0 at 2009-05-03 23:48:52) [GET]
+  [4;36;1mWheel Load (0.9ms)[0m   [0;1mSELECT * FROM "wheels" [0m
+Rendering template within layouts/application
+Rendering wheels/index
+  [4;35;1mHub Load (0.5ms)[0m   [0mSELECT * FROM "hubs" WHERE ("hubs"."id" = 661263291) [0m
+  [4;36;1mRim Load (0.3ms)[0m   [0;1mSELECT * FROM "rims" WHERE ("rims"."id" = 793168374) [0m
+  [4;35;1mHub Load (0.5ms)[0m   [0mSELECT * FROM "hubs" WHERE ("hubs"."id" = 316632762) [0m
+  [4;36;1mRim Load (0.4ms)[0m   [0;1mSELECT * FROM "rims" WHERE ("rims"."id" = 143663424) [0m
+Completed in 83ms (View: 80, DB: 3) | 200 OK [http://test.host/wheels]
+
+
+Processing WheelsController#new (for 0.0.0.0 at 2009-05-03 23:48:52) [GET]
+Rendering template within layouts/application
+Rendering wheels/new
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://test.host/wheels/new]
+  [4;35;1mWheel Load (0.4ms)[0m   [0mSELECT * FROM "wheels" WHERE ("wheels"."id" = 682576799) [0m
+
+
+Processing WheelsController#show (for 0.0.0.0 at 2009-05-03 23:48:52) [GET]
+  Parameters: {"id"=>"682576799"}
+  [4;36;1mWheel Load (0.3ms)[0m   [0;1mSELECT * FROM "wheels" WHERE ("wheels"."id" = 682576799) [0m
+Rendering template within layouts/application
+Rendering wheels/show
+  [4;35;1mHub Load (0.3ms)[0m   [0mSELECT * FROM "hubs" WHERE ("hubs"."id" = 661263291) [0m
+  [4;36;1mRim Load (0.3ms)[0m   [0;1mSELECT * FROM "rims" WHERE ("rims"."id" = 793168374) [0m
+Completed in 4ms (View: 2, DB: 1) | 200 OK [http://test.host/wheels/682576799]
+  [4;35;1mWheel Load (0.3ms)[0m   [0mSELECT * FROM "wheels" WHERE ("wheels"."id" = 682576799) [0m
+
+
+Processing WheelsController#update (for 0.0.0.0 at 2009-05-03 23:48:52) [PUT]
+  Parameters: {"id"=>"682576799", "wheel"=>{}}
+  [4;36;1mWheel Load (0.3ms)[0m   [0;1mSELECT * FROM "wheels" WHERE ("wheels"."id" = 682576799) [0m
+Redirected to #<Wheel:0x23e75e0>
+Completed in 2ms (DB: 1) | 302 Found [http://test.host/wheels/682576799?]

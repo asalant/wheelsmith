@@ -15,10 +15,16 @@
 @implementation HubDetailControllerTest
 
 -(void) setUp {
-    controller = [[HubDetailController alloc] initWithNibName:@"HubDetailView" bundle:nil];
-    controller.brandLabel = [[UILabel alloc] init];
-    controller.descriptionLabel  = [[UILabel alloc] init];    controller.verifiedLabel  = [[UILabel alloc] init];
-    controller.notesTextView = [[UITextView alloc] init];
+    Hub *hub = [[[Hub alloc] init] autorelease];
+    hub.holeCount = [NSNumber numberWithInt:32];
+    controller = [[[HubDetailController alloc] initWithNibName:@"HubDetailView" bundle:nil] autorelease];
+    controller.hub = hub;
+    [controller loadView];
+    [controller viewDidLoad];
+}
+
+-(void) testInitializesValues {
+    assertThat(controller.holeCountLabel.text, is(@"32 holes"));
 }
 
 @end

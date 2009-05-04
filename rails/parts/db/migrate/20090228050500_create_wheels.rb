@@ -4,6 +4,7 @@ class CreateWheels < ActiveRecord::Migration
       t.references :hub
       t.references :rim
       t.integer :spoke_pattern
+      t.text :note
 
       t.timestamps
     end

@@ -1,6 +1,7 @@
 class CreateHubs < ActiveRecord::Migration
   def self.up
     create_table :hubs do |t|
+      t.string :part_number
       t.string :brand
       t.string :description
       t.boolean :rear
@@ -12,6 +13,8 @@ class CreateHubs < ActiveRecord::Migration
 
       t.timestamps
     end
+    
+    add_index :hubs, :part_number
   end
 
   def self.down

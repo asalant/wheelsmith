@@ -12,6 +12,7 @@
 ActiveRecord::Schema.define(:version => 20090502045322) do
 
   create_table "hubs", :force => true do |t|
+    t.string   "part_number"
     t.string   "brand"
     t.string   "description"
     t.boolean  "rear"
@@ -24,7 +25,10 @@ ActiveRecord::Schema.define(:version => 20090502045322) do
     t.datetime "updated_at"
   end
 
+  add_index "hubs", ["part_number"], :name => "index_hubs_on_part_number"
+
   create_table "rims", :force => true do |t|
+    t.string   "part_number"
     t.string   "brand"
     t.string   "description"
     t.integer  "size"
@@ -35,10 +39,13 @@ ActiveRecord::Schema.define(:version => 20090502045322) do
     t.datetime "updated_at"
   end
 
+  add_index "rims", ["part_number"], :name => "index_rims_on_part_number"
+
   create_table "wheels", :force => true do |t|
     t.integer  "hub_id"
     t.integer  "rim_id"
     t.integer  "spoke_pattern"
+    t.text     "note"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

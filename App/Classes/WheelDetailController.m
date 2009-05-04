@@ -13,30 +13,16 @@
         self.title = @"Wheel Build";
         
         rimCell = [LabeledValueCell createCellWithLabel:@"Rim"  withValue:@""];
-        hubCell = [LabeledValueCell createCellWithLabel:@"Hub"  withValue:@""];    
-        spokeCountCell = [LabeledValueCell createCellWithLabel:@"Spoke Count"  withValue:@""];    
+        hubCell = [LabeledValueCell createCellWithLabel:@"Hub"  withValue:@""];       
         spokePatternCell = [LabeledValueCell createCellWithLabel:@"Spoke Pattern"  withValue:@""];
         leftLengthCell = [LabeledValueCell createCellWithLabel:@"Left Spoke Length" withValue:@""];
         rightLengthCell = [LabeledValueCell createCellWithLabel:@"Right Spoke Length" withValue:@""];
         
         sections = [[NSArray arrayWithObjects:
                      [NSArray arrayWithObjects:hubCell, rimCell, nil],
-                     [NSArray arrayWithObjects:spokeCountCell, spokePatternCell, nil],
+                     [NSArray arrayWithObjects:spokePatternCell, nil],
                      [NSArray arrayWithObjects:leftLengthCell, rightLengthCell, nil],
                      nil] retain];
-        
-        spokeCountPicker = [[[PickerController alloc] initWithNibName:@"PickerView" bundle:nil] retain];
-        spokeCountPicker.target = self;
-        spokeCountPicker.handler = @selector(spokeCountPicked:);
-        {
-            NSMutableArray *options = [NSMutableArray arrayWithCapacity:20];
-            int i;
-            for (i = 12; i <= 100; i += 4) {
-                [options addObject:[NSNumber numberWithInt:i]];
-            }
-            spokeCountPicker.options = options;
-            spokeCountPicker.selectedOption = [NSNumber numberWithInt:32];
-        }
         
         spokePatternPicker = [[[PickerController alloc] initWithNibName:@"PickerView" bundle:nil] retain];
         spokePatternPicker.target = self;
@@ -44,7 +30,7 @@
         {
             NSMutableArray *options = [NSMutableArray arrayWithCapacity:20];
             int i;
-            for (i = 0; i <= 6; i++) {
+            for (i = 0; i <= 4; i++) {
                 [options addObject:[NSNumber numberWithInt:i]];
             }
             spokePatternPicker.options = options;
@@ -57,8 +43,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    [rimCell setValue:[NSString stringWithFormat:@"%@ %@", wheel.rim.brand, wheel.rim.description]];
-    [hubCell setValue:[NSString stringWithFormat:@"%@ %@", wheel.hub.brand, wheel.hub.description]];
+    [rimCell setValue:wheel.rim.description];
+    [hubCell setValue:wheel.hub.description];
     [spokePatternCell setValue:wheel.spokePatternDescription];
     
     [self recalculate];
@@ -74,10 +60,6 @@
 
 #pragma mark Handlers for editing views
 
-- (void) spokeCountPicked:(NSNumber *)item {
-    [self recalculate];
-}
-
 - (void) spokePatternPicked:(NSNumber *)item {
     wheel.spokePattern = item;
     [spokePatternCell setValue:wheel.spokePatternDescription];
@@ -92,13 +74,13 @@
 #pragma mark Table view methods
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-    return 3;
+    return sections.count;
 }
 
 
 // Customize the number of rows in the table view.
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 2;
+    return [[sections objectAtIndex:section] count];
 }
 
 
