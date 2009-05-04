@@ -5,7 +5,7 @@
 
 @implementation MyWheelsController
 
-@synthesize wheels, wheelDetailController;
+@synthesize wheels, wheelDetailController, newWheelController;
 
 /*
 - (id)initWithStyle:(UITableViewStyle)style {
@@ -23,41 +23,14 @@
     //self.navigationItem.rightBarButtonItem = self.editButtonItem;
     self.navigationItem.rightBarButtonItem = [[[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd 
                                                                                            target:self 
-                                                                                           action:@selector(addButtonWasPressed:)] autorelease];
+                                                                                           action:@selector(addButtonWasPressed)] autorelease];
 }
 
-/*
-- (void)viewWillAppear:(BOOL)animated {
-    [super viewWillAppear:animated];
-}
-*/
-/*
-- (void)viewDidAppear:(BOOL)animated {
-    [super viewDidAppear:animated];
-}
-*/
-/*
-- (void)viewWillDisappear:(BOOL)animated {
-	[super viewWillDisappear:animated];
-}
-*/
-/*
-- (void)viewDidDisappear:(BOOL)animated {
-	[super viewDidDisappear:animated];
-}
-*/
+#pragma mark Add Wheel
 
-/*
-// Override to allow orientations other than the default portrait orientation.
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
-    // Return YES for supported orientations
-    return (interfaceOrientation == UIInterfaceOrientationPortrait);
-}
-*/
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning]; // Releases the view if it doesn't have a superview
-    // Release anything that's not essential, such as cached data
+-(void)addButtonWasPressed {
+    wheelDetailController.wheel = [[[Wheel alloc] init] autorelease];
+    [self presentModalViewController:newWheelController animated:YES];
 }
 
 #pragma mark Table view methods
@@ -96,7 +69,6 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     wheelDetailController.wheel = [wheels objectAtIndex:indexPath.row];
-    [wheelDetailController viewDidLoad];
 	[self.navigationController pushViewController:wheelDetailController animated:YES];
 }
 
@@ -121,22 +93,6 @@
     else if (editingStyle == UITableViewCellEditingStyleInsert) {
         // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
     }   
-}
-*/
-
-
-/*
-// Override to support rearranging the table view.
-- (void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)fromIndexPath toIndexPath:(NSIndexPath *)toIndexPath {
-}
-*/
-
-
-/*
-// Override to support conditional rearranging of the table view.
-- (BOOL)tableView:(UITableView *)tableView canMoveRowAtIndexPath:(NSIndexPath *)indexPath {
-    // Return NO if you do not want the item to be re-orderable.
-    return YES;
 }
 */
 

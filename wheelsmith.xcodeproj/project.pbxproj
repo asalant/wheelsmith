@@ -19,7 +19,7 @@
 		DF7B12160FAEA9A3007FF0CA /* DomainObject+Persistent.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B11D90FAEA9A3007FF0CA /* DomainObject+Persistent.m */; };
 		DF7B12170FAEA9A3007FF0CA /* DomainObject.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B11DB0FAEA9A3007FF0CA /* DomainObject.m */; };
 		DF7B12180FAEA9A3007FF0CA /* Hub.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B11DD0FAEA9A3007FF0CA /* Hub.m */; };
-		DF7B12190FAEA9A3007FF0CA /* HubBrandListController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B11DF0FAEA9A3007FF0CA /* HubBrandListController.m */; };
+		DF7B12190FAEA9A3007FF0CA /* HubBrandsController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B11DF0FAEA9A3007FF0CA /* HubBrandsController.m */; };
 		DF7B121A0FAEA9A3007FF0CA /* HubCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B11E10FAEA9A3007FF0CA /* HubCell.m */; };
 		DF7B121B0FAEA9A3007FF0CA /* HubDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B11E30FAEA9A3007FF0CA /* HubDetailController.m */; };
 		DF7B121C0FAEA9A3007FF0CA /* HubListController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B11E50FAEA9A3007FF0CA /* HubListController.m */; };
@@ -27,7 +27,7 @@
 		DF7B121E0FAEA9A3007FF0CA /* MyWheelsController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B11E90FAEA9A3007FF0CA /* MyWheelsController.m */; };
 		DF7B121F0FAEA9A3007FF0CA /* PickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B11EB0FAEA9A3007FF0CA /* PickerController.m */; };
 		DF7B12200FAEA9A3007FF0CA /* Rim.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B11ED0FAEA9A3007FF0CA /* Rim.m */; };
-		DF7B12210FAEA9A3007FF0CA /* RimBrandListController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B11EF0FAEA9A3007FF0CA /* RimBrandListController.m */; };
+		DF7B12210FAEA9A3007FF0CA /* RimBrandsController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B11EF0FAEA9A3007FF0CA /* RimBrandsController.m */; };
 		DF7B12220FAEA9A3007FF0CA /* RimCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B11F10FAEA9A3007FF0CA /* RimCell.m */; };
 		DF7B12230FAEA9A3007FF0CA /* RimDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B11F30FAEA9A3007FF0CA /* RimDetailController.m */; };
 		DF7B12240FAEA9A3007FF0CA /* RimListController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B11F50FAEA9A3007FF0CA /* RimListController.m */; };
@@ -50,7 +50,7 @@
 		DF7B123C0FAEA9A3007FF0CA /* DomainObject+Persistent.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B11D90FAEA9A3007FF0CA /* DomainObject+Persistent.m */; };
 		DF7B123D0FAEA9A3007FF0CA /* DomainObject.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B11DB0FAEA9A3007FF0CA /* DomainObject.m */; };
 		DF7B123E0FAEA9A3007FF0CA /* Hub.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B11DD0FAEA9A3007FF0CA /* Hub.m */; };
-		DF7B123F0FAEA9A3007FF0CA /* HubBrandListController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B11DF0FAEA9A3007FF0CA /* HubBrandListController.m */; };
+		DF7B123F0FAEA9A3007FF0CA /* HubBrandsController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B11DF0FAEA9A3007FF0CA /* HubBrandsController.m */; };
 		DF7B12400FAEA9A3007FF0CA /* HubCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B11E10FAEA9A3007FF0CA /* HubCell.m */; };
 		DF7B12410FAEA9A3007FF0CA /* HubDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B11E30FAEA9A3007FF0CA /* HubDetailController.m */; };
 		DF7B12420FAEA9A3007FF0CA /* HubListController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B11E50FAEA9A3007FF0CA /* HubListController.m */; };
@@ -58,7 +58,7 @@
 		DF7B12440FAEA9A3007FF0CA /* MyWheelsController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B11E90FAEA9A3007FF0CA /* MyWheelsController.m */; };
 		DF7B12450FAEA9A3007FF0CA /* PickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B11EB0FAEA9A3007FF0CA /* PickerController.m */; };
 		DF7B12460FAEA9A3007FF0CA /* Rim.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B11ED0FAEA9A3007FF0CA /* Rim.m */; };
-		DF7B12470FAEA9A3007FF0CA /* RimBrandListController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B11EF0FAEA9A3007FF0CA /* RimBrandListController.m */; };
+		DF7B12470FAEA9A3007FF0CA /* RimBrandsController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B11EF0FAEA9A3007FF0CA /* RimBrandsController.m */; };
 		DF7B12480FAEA9A3007FF0CA /* RimCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B11F10FAEA9A3007FF0CA /* RimCell.m */; };
 		DF7B12490FAEA9A3007FF0CA /* RimDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B11F30FAEA9A3007FF0CA /* RimDetailController.m */; };
 		DF7B124A0FAEA9A3007FF0CA /* RimListController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B11F50FAEA9A3007FF0CA /* RimListController.m */; };
@@ -93,6 +93,7 @@
 		DF7B132B0FAEADC0007FF0CA /* hamcrest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF7B12790FAEA9B5007FF0CA /* hamcrest.framework */; };
 		DF7B132C0FAEADC0007FF0CA /* OCMock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF7B127A0FAEA9B5007FF0CA /* OCMock.framework */; };
 		DFAAA3EC0FAECE7200699647 /* MyWheelsControllerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = DFAAA3EB0FAECE7200699647 /* MyWheelsControllerTest.m */; };
+		DFAAA4330FAF1B0B00699647 /* WheelDetailControllerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = DFAAA4320FAF1B0B00699647 /* WheelDetailControllerTest.m */; };
 		DFD4DA050FAEB47E00BC2BC2 /* WheelTest.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B126E0FAEA9B5007FF0CA /* WheelTest.m */; };
 		DFD4DA060FAEB47F00BC2BC2 /* UIViewController+Testable.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B126C0FAEA9B5007FF0CA /* UIViewController+Testable.m */; };
 		DFD4DA070FAEB48200BC2BC2 /* RimTest.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B12660FAEA9B5007FF0CA /* RimTest.m */; };
@@ -142,8 +143,8 @@
 		DF7B11DB0FAEA9A3007FF0CA /* DomainObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DomainObject.m; sourceTree = "<group>"; };
 		DF7B11DC0FAEA9A3007FF0CA /* Hub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hub.h; sourceTree = "<group>"; };
 		DF7B11DD0FAEA9A3007FF0CA /* Hub.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hub.m; sourceTree = "<group>"; };
-		DF7B11DE0FAEA9A3007FF0CA /* HubBrandListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HubBrandListController.h; sourceTree = "<group>"; };
-		DF7B11DF0FAEA9A3007FF0CA /* HubBrandListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HubBrandListController.m; sourceTree = "<group>"; };
+		DF7B11DE0FAEA9A3007FF0CA /* HubBrandsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HubBrandsController.h; sourceTree = "<group>"; };
+		DF7B11DF0FAEA9A3007FF0CA /* HubBrandsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HubBrandsController.m; sourceTree = "<group>"; };
 		DF7B11E00FAEA9A3007FF0CA /* HubCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HubCell.h; sourceTree = "<group>"; };
 		DF7B11E10FAEA9A3007FF0CA /* HubCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HubCell.m; sourceTree = "<group>"; };
 		DF7B11E20FAEA9A3007FF0CA /* HubDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HubDetailController.h; sourceTree = "<group>"; };
@@ -158,8 +159,8 @@
 		DF7B11EB0FAEA9A3007FF0CA /* PickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickerController.m; sourceTree = "<group>"; };
 		DF7B11EC0FAEA9A3007FF0CA /* Rim.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rim.h; sourceTree = "<group>"; };
 		DF7B11ED0FAEA9A3007FF0CA /* Rim.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Rim.m; sourceTree = "<group>"; };
-		DF7B11EE0FAEA9A3007FF0CA /* RimBrandListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RimBrandListController.h; sourceTree = "<group>"; };
-		DF7B11EF0FAEA9A3007FF0CA /* RimBrandListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RimBrandListController.m; sourceTree = "<group>"; };
+		DF7B11EE0FAEA9A3007FF0CA /* RimBrandsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RimBrandsController.h; sourceTree = "<group>"; };
+		DF7B11EF0FAEA9A3007FF0CA /* RimBrandsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RimBrandsController.m; sourceTree = "<group>"; };
 		DF7B11F00FAEA9A3007FF0CA /* RimCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RimCell.h; sourceTree = "<group>"; };
 		DF7B11F10FAEA9A3007FF0CA /* RimCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RimCell.m; sourceTree = "<group>"; };
 		DF7B11F20FAEA9A3007FF0CA /* RimDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RimDetailController.h; sourceTree = "<group>"; };
@@ -221,6 +222,7 @@
 		DF7B12830FAEA9B5007FF0CA /* test.sqlite3 */ = {isa = PBXFileReference; lastKnownFileType = file; path = test.sqlite3; sourceTree = "<group>"; };
 		DF7B130F0FAEACA8007FF0CA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DFAAA3EB0FAECE7200699647 /* MyWheelsControllerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyWheelsControllerTest.m; sourceTree = "<group>"; };
+		DFAAA4320FAF1B0B00699647 /* WheelDetailControllerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WheelDetailControllerTest.m; sourceTree = "<group>"; };
 		DFD4DA2F0FAEB5DD00BC2BC2 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DFD4DA300FAEB5DD00BC2BC2 /* wheelsmith_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wheelsmith_Prefix.pch; sourceTree = "<group>"; };
 		DFD4DA3F0FAEB98400BC2BC2 /* app_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app_icon.png; sourceTree = "<group>"; };
@@ -319,8 +321,8 @@
 				DF7B11DB0FAEA9A3007FF0CA /* DomainObject.m */,
 				DF7B11DC0FAEA9A3007FF0CA /* Hub.h */,
 				DF7B11DD0FAEA9A3007FF0CA /* Hub.m */,
-				DF7B11DE0FAEA9A3007FF0CA /* HubBrandListController.h */,
-				DF7B11DF0FAEA9A3007FF0CA /* HubBrandListController.m */,
+				DF7B11DE0FAEA9A3007FF0CA /* HubBrandsController.h */,
+				DF7B11DF0FAEA9A3007FF0CA /* HubBrandsController.m */,
 				DF7B11E00FAEA9A3007FF0CA /* HubCell.h */,
 				DF7B11E10FAEA9A3007FF0CA /* HubCell.m */,
 				DF7B11E20FAEA9A3007FF0CA /* HubDetailController.h */,
@@ -335,8 +337,8 @@
 				DF7B11EB0FAEA9A3007FF0CA /* PickerController.m */,
 				DF7B11EC0FAEA9A3007FF0CA /* Rim.h */,
 				DF7B11ED0FAEA9A3007FF0CA /* Rim.m */,
-				DF7B11EE0FAEA9A3007FF0CA /* RimBrandListController.h */,
-				DF7B11EF0FAEA9A3007FF0CA /* RimBrandListController.m */,
+				DF7B11EE0FAEA9A3007FF0CA /* RimBrandsController.h */,
+				DF7B11EF0FAEA9A3007FF0CA /* RimBrandsController.m */,
 				DF7B11F00FAEA9A3007FF0CA /* RimCell.h */,
 				DF7B11F10FAEA9A3007FF0CA /* RimCell.m */,
 				DF7B11F20FAEA9A3007FF0CA /* RimDetailController.h */,
@@ -409,6 +411,7 @@
 		DF7B12600FAEA9B5007FF0CA /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				DFAAA4320FAF1B0B00699647 /* WheelDetailControllerTest.m */,
 				DFAAA3EB0FAECE7200699647 /* MyWheelsControllerTest.m */,
 				DF7B12610FAEA9B5007FF0CA /* DatabaseSelectTest.m */,
 				DF7B12620FAEA9B5007FF0CA /* HubDetailControllerTest.m */,
@@ -637,7 +640,7 @@
 				DF7B123C0FAEA9A3007FF0CA /* DomainObject+Persistent.m in Sources */,
 				DF7B123D0FAEA9A3007FF0CA /* DomainObject.m in Sources */,
 				DF7B123E0FAEA9A3007FF0CA /* Hub.m in Sources */,
-				DF7B123F0FAEA9A3007FF0CA /* HubBrandListController.m in Sources */,
+				DF7B123F0FAEA9A3007FF0CA /* HubBrandsController.m in Sources */,
 				DF7B12400FAEA9A3007FF0CA /* HubCell.m in Sources */,
 				DF7B12410FAEA9A3007FF0CA /* HubDetailController.m in Sources */,
 				DF7B12420FAEA9A3007FF0CA /* HubListController.m in Sources */,
@@ -645,7 +648,7 @@
 				DF7B12440FAEA9A3007FF0CA /* MyWheelsController.m in Sources */,
 				DF7B12450FAEA9A3007FF0CA /* PickerController.m in Sources */,
 				DF7B12460FAEA9A3007FF0CA /* Rim.m in Sources */,
-				DF7B12470FAEA9A3007FF0CA /* RimBrandListController.m in Sources */,
+				DF7B12470FAEA9A3007FF0CA /* RimBrandsController.m in Sources */,
 				DF7B12480FAEA9A3007FF0CA /* RimCell.m in Sources */,
 				DF7B12490FAEA9A3007FF0CA /* RimDetailController.m in Sources */,
 				DF7B124A0FAEA9A3007FF0CA /* RimListController.m in Sources */,
@@ -669,7 +672,7 @@
 				DF7B12160FAEA9A3007FF0CA /* DomainObject+Persistent.m in Sources */,
 				DF7B12170FAEA9A3007FF0CA /* DomainObject.m in Sources */,
 				DF7B12180FAEA9A3007FF0CA /* Hub.m in Sources */,
-				DF7B12190FAEA9A3007FF0CA /* HubBrandListController.m in Sources */,
+				DF7B12190FAEA9A3007FF0CA /* HubBrandsController.m in Sources */,
 				DF7B121A0FAEA9A3007FF0CA /* HubCell.m in Sources */,
 				DF7B121B0FAEA9A3007FF0CA /* HubDetailController.m in Sources */,
 				DF7B121C0FAEA9A3007FF0CA /* HubListController.m in Sources */,
@@ -677,7 +680,7 @@
 				DF7B121E0FAEA9A3007FF0CA /* MyWheelsController.m in Sources */,
 				DF7B121F0FAEA9A3007FF0CA /* PickerController.m in Sources */,
 				DF7B12200FAEA9A3007FF0CA /* Rim.m in Sources */,
-				DF7B12210FAEA9A3007FF0CA /* RimBrandListController.m in Sources */,
+				DF7B12210FAEA9A3007FF0CA /* RimBrandsController.m in Sources */,
 				DF7B12220FAEA9A3007FF0CA /* RimCell.m in Sources */,
 				DF7B12230FAEA9A3007FF0CA /* RimDetailController.m in Sources */,
 				DF7B12240FAEA9A3007FF0CA /* RimListController.m in Sources */,
@@ -702,6 +705,7 @@
 				DFD4DA0E0FAEB48D00BC2BC2 /* DatabaseSelectTest.m in Sources */,
 				DFD4DA0F0FAEB48F00BC2BC2 /* HubTest.m in Sources */,
 				DFAAA3EC0FAECE7200699647 /* MyWheelsControllerTest.m in Sources */,
+				DFAAA4330FAF1B0B00699647 /* WheelDetailControllerTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

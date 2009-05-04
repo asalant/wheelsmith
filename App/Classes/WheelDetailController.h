@@ -2,6 +2,8 @@
 #import "Wheel.h"
 #import "HubDetailController.h"
 #import "RimDetailController.h"
+#import "HubBrandsController.h"
+#import "RimBrandsController.h"
 #import "LabeledValueCell.h"
 #import "PickerController.h"
 
@@ -15,7 +17,8 @@
     LabeledValueCell *rightLengthCell;
     HubDetailController *hubDetailController;
     RimDetailController *rimDetailController;
-    PickerController *spokeCountPicker;
+    HubBrandsController *hubBrandsController;
+    RimBrandsController *rimBrandsController;
     PickerController *spokePatternPicker;
     NSArray *sections;
 
@@ -24,6 +27,8 @@
 @property(nonatomic, retain) Wheel *wheel;
 @property(nonatomic, retain) HubDetailController *hubDetailController;
 @property(nonatomic, retain) RimDetailController *rimDetailController;
+@property(nonatomic, retain) HubBrandsController *hubBrandsController;
+@property(nonatomic, retain) RimBrandsController *rimBrandsController;
 
 - (void) recalculate;
 

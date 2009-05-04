@@ -6,7 +6,7 @@
 @implementation WheelDetailController
 
 @synthesize wheel;
-@synthesize rimDetailController, hubDetailController;
+@synthesize rimDetailController, hubDetailController, rimBrandsController, hubBrandsController;
 
 - (id)initWithStyle:(UITableViewStyle)style {
     if (self = [super initWithStyle:style]) {
@@ -43,19 +43,16 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    [rimCell setValue:wheel.rim.description];
-    [hubCell setValue:wheel.hub.description];
-    [spokePatternCell setValue:wheel.spokePatternDescription];
-    
-    [self recalculate];
-    
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning]; // Releases the view if it doesn't have a superview
-    // Release anything that's not essential, such as cached data
+-(void)viewWillAppear:(BOOL)animated {
+    [rimCell setValue:wheel.rim ? wheel.rim.description : @"Choose Rim"];
+    [hubCell setValue:wheel.hub ? wheel.hub.description : @"Choose Hub"];
+    [spokePatternCell setValue:wheel.spokePattern ? wheel.spokePatternDescription : @"Choose Pattern"];
+    
+    [self recalculate];
 }
 
 #pragma mark Handlers for editing views
@@ -74,6 +71,9 @@
 #pragma mark Table view methods
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
+    if (!wheel.hub || !wheel.rim || !wheel.spokePattern) {
+        return sections.count - 1;
+    }
     return sections.count;
 }
 
@@ -97,17 +97,23 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     UITableViewCell *cell = [[sections objectAtIndex:indexPath.section] objectAtIndex:indexPath.row];
     if (cell == hubCell) {
-        hubDetailController.hub = wheel.hub;
-        [hubDetailController viewDidLoad];
-        [self.navigationController pushViewController:hubDetailController animated:YES];
+        if (wheel.hub) {
+            hubDetailController.hub = wheel.hub;
+            [self.navigationController pushViewController:hubDetailController animated:YES];
+        }
+        else {
+            [self.navigationController pushViewController:hubBrandsController animated:YES];
+        }
     }
     else if (cell == rimCell) {
-        rimDetailController.rim = wheel.rim;
-        [rimDetailController viewDidLoad];
-        [self.navigationController pushViewController:rimDetailController animated:YES];
-    }
-    else if (cell == spokeCountCell) {
-        [self presentModalViewController:spokeCountPicker animated:YES];
+        if (wheel.rim) {
+            rimDetailController.rim = wheel.rim;
+            [self.navigationController pushViewController:rimDetailController animated:YES];
+        }
+        else
+        {
+            [self.navigationController pushViewController:rimBrandsController animated:YES];
+        }
     }
     else if (cell == spokePatternCell) {
         [self presentModalViewController:spokePatternPicker animated:YES];
@@ -120,7 +126,8 @@
     [sections release];
     [hubDetailController release];
     [rimDetailController release];
-    [spokeCountPicker release];
+    [rimBrandsController release];
+    [hubBrandsController release];
     [super dealloc];
 }
 

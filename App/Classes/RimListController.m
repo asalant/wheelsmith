@@ -6,7 +6,7 @@
 
 @implementation RimListController
 
-@synthesize rims, rimDetailController;
+@synthesize rims, wheel, rimDetailController;
 
 /*
  - (void)viewDidLoad {
@@ -59,6 +59,7 @@
 
 - (void)dealloc {
     [rims release];
+    [wheel release];
     [rimDetailController release];
     [super dealloc];
 }

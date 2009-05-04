@@ -65,11 +65,11 @@
         [self.navigationController pushViewController:myWheelsController animated:YES];
     }
     else if (cell == rimsCell) {
-        rimBrandListController.companies = [Rim selectBrandNames];
+        rimBrandListController.brands = [Rim selectBrandNames];
         [self.navigationController pushViewController:rimBrandListController animated:YES];
     }
     else if (cell == hubsCell) {
-        hubBrandListController.companies = [Hub selectBrandNames];
+        hubBrandListController.brands = [Hub selectBrandNames];
         [self.navigationController pushViewController:hubBrandListController animated:YES];
     }
 }

@@ -5,7 +5,7 @@
 
 @implementation HubListController
 
-@synthesize hubs, hubDetailController;
+@synthesize hubs, wheel, hubDetailController;
 
 /*
  - (void)viewDidLoad {
@@ -50,7 +50,6 @@
     Hub *hub = [hubs objectAtIndex:indexPath.row];
     hubDetailController.title = hub.description;
     hubDetailController.hub = hub;
-    [hubDetailController viewDidLoad];
     
     [self.navigationController pushViewController:hubDetailController animated:YES];
 }
@@ -58,6 +57,7 @@
 
 - (void)dealloc {
     [hubs release];
+    [wheel release];
     [hubDetailController release];
     [super dealloc];
 }

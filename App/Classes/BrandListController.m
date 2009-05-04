@@ -2,11 +2,11 @@
 
 @implementation BrandListController
 
-@synthesize companies;
+@synthesize brands;
 
  - (void)viewDidLoad {
      [super viewDidLoad];
-     self.title = @"Manufacturers";
+     self.title = @"Brands";
  
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
@@ -26,7 +26,7 @@
 
 // Customize the number of rows in the table view.
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return companies.count;
+    return brands.count;
 }
 
 
@@ -40,14 +40,14 @@
         cell = [[[UITableViewCell alloc] initWithFrame:CGRectZero reuseIdentifier:CellIdentifier] autorelease];
     }
     
-    cell.text = [companies objectAtIndex:indexPath.row];
+    cell.text = [brands objectAtIndex:indexPath.row];
     cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     
     return cell;
 }
 
 - (void)dealloc {
-    [companies release];
+    [brands release];
     [super dealloc];
 }
 

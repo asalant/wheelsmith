@@ -1,9 +1,9 @@
 #import "AppDelegate.h"
 #import "RootMenuController.h"
-#import "RimBrandListController.h"
+#import "RimBrandsController.h"
 #import "RimListController.h"
 #import "RimDetailController.h"
-#import "HubBrandListController.h"
+#import "HubBrandsController.h"
 #import "HubListController.h"
 #import "Rim.h"
 #import "Hub.h"
@@ -23,29 +23,36 @@
     RimListController *rimListController = [[[RimListController alloc] initWithStyle:UITableViewStylePlain] autorelease];
     rimListController.rimDetailController = rimDetailController;
     
-    RimBrandListController *rimBrandListController = [[[RimBrandListController alloc] initWithStyle:UITableViewStylePlain] autorelease];
-    rimBrandListController.rimListController = rimListController;
+    RimBrandsController *rimBrandsController = [[[RimBrandsController alloc] initWithStyle:UITableViewStylePlain] autorelease];
+    rimBrandsController.brands = [Rim selectBrandNames];
+    rimBrandsController.rimsController = rimListController;
     
     HubDetailController *hubDetailController = [[[HubDetailController alloc] initWithNibName:@"HubDetailView" bundle:nil] autorelease];
     HubListController *hubListController =  [[[HubListController alloc] initWithStyle:UITableViewStylePlain] autorelease];
     hubListController.hubDetailController = hubDetailController;
     
-    HubBrandListController *hubBrandListController = [[[HubBrandListController alloc] initWithStyle:UITableViewStylePlain] autorelease];
-    hubBrandListController.hubListController = hubListController;
+    HubBrandsController *hubBrandsController = [[[HubBrandsController alloc] initWithStyle:UITableViewStylePlain] autorelease];
+    hubBrandsController.brands = [Hub selectBrandNames];
+    hubBrandsController.hubsController = hubListController;
     
     WheelDetailController *wheelDetailController = [[[WheelDetailController alloc] initWithStyle:UITableViewStyleGrouped] autorelease];
     wheelDetailController.rimDetailController = rimDetailController;
     wheelDetailController.hubDetailController = hubDetailController;
+    wheelDetailController.rimBrandsController = rimBrandsController;
+    wheelDetailController.hubBrandsController = hubBrandsController;
     
-    MyWheelsController *myWheelsController = [[[MyWheelsController alloc] initWithStyle:UITableViewStylePlain] autorelease];
+    UINavigationController *newWheelController = [[[UINavigationController alloc] initWithRootViewController:wheelDetailController] autorelease];
+    
+    MyWheelsController *myWheelsController = [[[MyWheelsController alloc] initWithStyle:UITableViewStyleGrouped] autorelease];
     myWheelsController.wheels = [Wheel findAll];
     myWheelsController.wheelDetailController = wheelDetailController;
+    myWheelsController.newWheelController = newWheelController;
     
     RootMenuController *menuController = [[[RootMenuController alloc] initWithStyle:UITableViewStyleGrouped] autorelease];
     menuController.title = @"Spoke Length Calculator";
     menuController.myWheelsController = myWheelsController;
-    menuController.rimBrandListController = rimBrandListController;
-    menuController.hubBrandListController = hubBrandListController;
+    menuController.rimBrandListController = rimBrandsController;
+    menuController.hubBrandListController = hubBrandsController;
     
     
     [self.navigationController pushViewController:myWheelsController animated:NO];

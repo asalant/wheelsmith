@@ -3,9 +3,9 @@
 
 @interface BrandListController : UITableViewController {
     
-    NSArray *companies;
+    NSArray *brands;
 }
 
-@property(nonatomic, retain) NSArray *companies;
+@property(nonatomic, retain) NSArray *brands;
 
 @end
