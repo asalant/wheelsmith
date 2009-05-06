@@ -10,7 +10,18 @@
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */; };
+		DF0CE7D70FB1E7D300701164 /* NSString+InflectionSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0CE7CD0FB1E7D300701164 /* NSString+InflectionSupport.m */; };
+		DF0CE7D80FB1E7D300701164 /* NSData+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0CE7CF0FB1E7D300701164 /* NSData+Additions.m */; };
+		DF0CE7D90FB1E7D300701164 /* NSObject+PropertySupport.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0CE7D10FB1E7D300701164 /* NSObject+PropertySupport.m */; };
+		DF0CE7DA0FB1E7D300701164 /* NSString+GSub.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0CE7D30FB1E7D300701164 /* NSString+GSub.m */; };
+		DF0CE7DB0FB1E7D300701164 /* ObjectiveResourceDateFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0CE7D50FB1E7D300701164 /* ObjectiveResourceDateFormatter.m */; };
+		DF0CE7DC0FB1E7D300701164 /* NSString+InflectionSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0CE7CD0FB1E7D300701164 /* NSString+InflectionSupport.m */; };
+		DF0CE7DD0FB1E7D300701164 /* NSData+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0CE7CF0FB1E7D300701164 /* NSData+Additions.m */; };
+		DF0CE7DE0FB1E7D300701164 /* NSObject+PropertySupport.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0CE7D10FB1E7D300701164 /* NSObject+PropertySupport.m */; };
+		DF0CE7DF0FB1E7D300701164 /* NSString+GSub.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0CE7D30FB1E7D300701164 /* NSString+GSub.m */; };
+		DF0CE7E00FB1E7D300701164 /* ObjectiveResourceDateFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0CE7D50FB1E7D300701164 /* ObjectiveResourceDateFormatter.m */; };
 		DF4665170FAEB2C100172895 /* parts.sqlite3 in Resources */ = {isa = PBXBuildFile; fileRef = DF7B120F0FAEA9A3007FF0CA /* parts.sqlite3 */; };
+		DF58D9220FAF693900C2F546 /* app_icon2.png in Resources */ = {isa = PBXBuildFile; fileRef = DF58D9210FAF693900C2F546 /* app_icon2.png */; };
 		DF7B11CE0FAEA94D007FF0CA /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DF7B11CD0FAEA94D007FF0CA /* libsqlite3.dylib */; };
 		DF7B11CF0FAEA94D007FF0CA /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DF7B11CD0FAEA94D007FF0CA /* libsqlite3.dylib */; };
 		DF7B12130FAEA9A3007FF0CA /* BrandListController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B11D30FAEA9A3007FF0CA /* BrandListController.m */; };
@@ -94,6 +105,7 @@
 		DF7B132C0FAEADC0007FF0CA /* OCMock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF7B127A0FAEA9B5007FF0CA /* OCMock.framework */; };
 		DFAAA3EC0FAECE7200699647 /* MyWheelsControllerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = DFAAA3EB0FAECE7200699647 /* MyWheelsControllerTest.m */; };
 		DFAAA4330FAF1B0B00699647 /* WheelDetailControllerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = DFAAA4320FAF1B0B00699647 /* WheelDetailControllerTest.m */; };
+		DFC8226C0FB007B00032468F /* DomainObjectTest.m in Sources */ = {isa = PBXBuildFile; fileRef = DFC8226B0FB007B00032468F /* DomainObjectTest.m */; };
 		DFD4DA050FAEB47E00BC2BC2 /* WheelTest.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B126E0FAEA9B5007FF0CA /* WheelTest.m */; };
 		DFD4DA060FAEB47F00BC2BC2 /* UIViewController+Testable.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B126C0FAEA9B5007FF0CA /* UIViewController+Testable.m */; };
 		DFD4DA070FAEB48200BC2BC2 /* RimTest.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B12660FAEA9B5007FF0CA /* RimTest.m */; };
@@ -128,7 +140,20 @@
 		1D6058910D05DD3D006BFB54 /* wheelsmith.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wheelsmith.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DF0CE7CA0FB1E7D300701164 /* CoreSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreSupport.h; sourceTree = "<group>"; };
+		DF0CE7CC0FB1E7D300701164 /* NSString+InflectionSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+InflectionSupport.h"; sourceTree = "<group>"; };
+		DF0CE7CD0FB1E7D300701164 /* NSString+InflectionSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+InflectionSupport.m"; sourceTree = "<group>"; };
+		DF0CE7CE0FB1E7D300701164 /* NSData+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Additions.h"; sourceTree = "<group>"; };
+		DF0CE7CF0FB1E7D300701164 /* NSData+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Additions.m"; sourceTree = "<group>"; };
+		DF0CE7D00FB1E7D300701164 /* NSObject+PropertySupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+PropertySupport.h"; sourceTree = "<group>"; };
+		DF0CE7D10FB1E7D300701164 /* NSObject+PropertySupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+PropertySupport.m"; sourceTree = "<group>"; };
+		DF0CE7D20FB1E7D300701164 /* NSString+GSub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+GSub.h"; sourceTree = "<group>"; };
+		DF0CE7D30FB1E7D300701164 /* NSString+GSub.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+GSub.m"; sourceTree = "<group>"; };
+		DF0CE7D40FB1E7D300701164 /* ObjectiveResourceDateFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectiveResourceDateFormatter.h; sourceTree = "<group>"; };
+		DF0CE7D50FB1E7D300701164 /* ObjectiveResourceDateFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectiveResourceDateFormatter.m; sourceTree = "<group>"; };
+		DF0CE7D60FB1E7D300701164 /* ObjectiveSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectiveSupport.h; sourceTree = "<group>"; };
 		DF4665120FAEB1A200172895 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF58D9210FAF693900C2F546 /* app_icon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app_icon2.png; sourceTree = "<group>"; };
 		DF7B11470FAEA80F007FF0CA /* Unit Tests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Unit Tests.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF7B11CD0FAEA94D007FF0CA /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		DF7B11D20FAEA9A3007FF0CA /* BrandListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrandListController.h; sourceTree = "<group>"; };
@@ -224,6 +249,7 @@
 		DFAAA3EB0FAECE7200699647 /* MyWheelsControllerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyWheelsControllerTest.m; sourceTree = "<group>"; };
 		DFAAA4320FAF1B0B00699647 /* WheelDetailControllerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WheelDetailControllerTest.m; sourceTree = "<group>"; };
 		DFAAA5A40FAF57F400699647 /* EditWheelDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditWheelDelegate.h; sourceTree = "<group>"; };
+		DFC8226B0FB007B00032468F /* DomainObjectTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DomainObjectTest.m; sourceTree = "<group>"; };
 		DFD4DA2F0FAEB5DD00BC2BC2 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DFD4DA300FAEB5DD00BC2BC2 /* wheelsmith_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wheelsmith_Prefix.pch; sourceTree = "<group>"; };
 		DFD4DA3F0FAEB98400BC2BC2 /* app_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app_icon.png; sourceTree = "<group>"; };
@@ -296,6 +322,41 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		DF0CE7C80FB1E7D300701164 /* ObjectiveSupport */ = {
+			isa = PBXGroup;
+			children = (
+				DF0CE7C90FB1E7D300701164 /* Core */,
+			);
+			path = ObjectiveSupport;
+			sourceTree = "<group>";
+		};
+		DF0CE7C90FB1E7D300701164 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				DF0CE7CA0FB1E7D300701164 /* CoreSupport.h */,
+				DF0CE7CB0FB1E7D300701164 /* Inflections */,
+				DF0CE7CE0FB1E7D300701164 /* NSData+Additions.h */,
+				DF0CE7CF0FB1E7D300701164 /* NSData+Additions.m */,
+				DF0CE7D00FB1E7D300701164 /* NSObject+PropertySupport.h */,
+				DF0CE7D10FB1E7D300701164 /* NSObject+PropertySupport.m */,
+				DF0CE7D20FB1E7D300701164 /* NSString+GSub.h */,
+				DF0CE7D30FB1E7D300701164 /* NSString+GSub.m */,
+				DF0CE7D40FB1E7D300701164 /* ObjectiveResourceDateFormatter.h */,
+				DF0CE7D50FB1E7D300701164 /* ObjectiveResourceDateFormatter.m */,
+				DF0CE7D60FB1E7D300701164 /* ObjectiveSupport.h */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		DF0CE7CB0FB1E7D300701164 /* Inflections */ = {
+			isa = PBXGroup;
+			children = (
+				DF0CE7CC0FB1E7D300701164 /* NSString+InflectionSupport.h */,
+				DF0CE7CD0FB1E7D300701164 /* NSString+InflectionSupport.m */,
+			);
+			path = Inflections;
+			sourceTree = "<group>";
+		};
 		DF7B11D00FAEA9A3007FF0CA /* App */ = {
 			isa = PBXGroup;
 			children = (
@@ -366,6 +427,7 @@
 		DF7B12020FAEA9A3007FF0CA /* Library */ = {
 			isa = PBXGroup;
 			children = (
+				DF0CE7C80FB1E7D300701164 /* ObjectiveSupport */,
 			);
 			path = Library;
 			sourceTree = "<group>";
@@ -390,6 +452,7 @@
 		DF7B12060FAEA9A3007FF0CA /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				DF58D9210FAF693900C2F546 /* app_icon2.png */,
 				DFD4DA3F0FAEB98400BC2BC2 /* app_icon.png */,
 				DF7B12070FAEA9A3007FF0CA /* hub1.jpg */,
 				DF7B12080FAEA9A3007FF0CA /* hub2.jpg */,
@@ -413,6 +476,7 @@
 		DF7B12600FAEA9B5007FF0CA /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				DFC8226B0FB007B00032468F /* DomainObjectTest.m */,
 				DFAAA4320FAF1B0B00699647 /* WheelDetailControllerTest.m */,
 				DFAAA3EB0FAECE7200699647 /* MyWheelsControllerTest.m */,
 				DF7B12610FAEA9B5007FF0CA /* DatabaseSelectTest.m */,
@@ -594,6 +658,7 @@
 				DF7B125D0FAEA9A3007FF0CA /* RimCell.xib in Resources */,
 				DF7B125E0FAEA9A3007FF0CA /* RimDetailView.xib in Resources */,
 				DFD4DA400FAEB98400BC2BC2 /* app_icon.png in Resources */,
+				DF58D9220FAF693900C2F546 /* app_icon2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -661,6 +726,11 @@
 				DF7B124F0FAEA9A3007FF0CA /* Wheel.m in Sources */,
 				DF7B12500FAEA9A3007FF0CA /* WheelDetailController.m in Sources */,
 				DFD4DA310FAEB5DD00BC2BC2 /* main.m in Sources */,
+				DF0CE7DC0FB1E7D300701164 /* NSString+InflectionSupport.m in Sources */,
+				DF0CE7DD0FB1E7D300701164 /* NSData+Additions.m in Sources */,
+				DF0CE7DE0FB1E7D300701164 /* NSObject+PropertySupport.m in Sources */,
+				DF0CE7DF0FB1E7D300701164 /* NSString+GSub.m in Sources */,
+				DF0CE7E00FB1E7D300701164 /* ObjectiveResourceDateFormatter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -708,6 +778,12 @@
 				DFD4DA0F0FAEB48F00BC2BC2 /* HubTest.m in Sources */,
 				DFAAA3EC0FAECE7200699647 /* MyWheelsControllerTest.m in Sources */,
 				DFAAA4330FAF1B0B00699647 /* WheelDetailControllerTest.m in Sources */,
+				DFC8226C0FB007B00032468F /* DomainObjectTest.m in Sources */,
+				DF0CE7D70FB1E7D300701164 /* NSString+InflectionSupport.m in Sources */,
+				DF0CE7D80FB1E7D300701164 /* NSData+Additions.m in Sources */,
+				DF0CE7D90FB1E7D300701164 /* NSObject+PropertySupport.m in Sources */,
+				DF0CE7DA0FB1E7D300701164 /* NSString+GSub.m in Sources */,
+				DF0CE7DB0FB1E7D300701164 /* ObjectiveResourceDateFormatter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -718,6 +794,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Alon Salant";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -725,6 +802,7 @@
 				GCC_PREFIX_HEADER = App/Source/wheelsmith_Prefix.pch;
 				INFOPLIST_FILE = App/Resources/Info.plist;
 				PRODUCT_NAME = wheelsmith;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "F9AA39CC-8ED0-4390-9421-7BF89485EA3C";
 			};
 			name = Debug;
 		};

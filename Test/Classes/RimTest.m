@@ -26,12 +26,12 @@
 }
 
 - (void) testFindsAllRims {
-    NSArray *rims = [Rim findAll];
+    NSArray *rims = [Rim findAllOrderBy:@"description"];
     assertThat([NSNumber numberWithInt:[rims count]], equalTo([NSNumber numberWithInt:2]));
 }
 
 - (void) testHydratesRim {
-    Rim *rim = [[Rim findAll] objectAtIndex:0];
+    Rim *rim = [[Rim findAllOrderBy:@"brand"] objectAtIndex:0];
     assertThat(rim.brand, equalTo(@"Mavic"));
     assertThat(rim.erd, equalTo([NSNumber numberWithDouble:602]));
     
@@ -40,10 +40,6 @@
 - (void) testSelectsBrandNames {
     NSArray *companies = [Rim selectBrandNames];
     assertThat([NSNumber numberWithInt:[companies count]], equalTo([NSNumber numberWithInt:2]));
-}
-
-- (void) tearDown {
-    
 }
 
 @end

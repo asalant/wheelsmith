@@ -6,6 +6,6 @@
 }
 
 - (id) initWithName:(NSString *)name;
-- (NSArray *) select:(NSString *)query delegate:(id)delegate rowHandler:(SEL)selector;
+- (NSArray *) execute:(NSString *)query delegate:(id)delegate rowHandler:(SEL)selector;
 
 @end

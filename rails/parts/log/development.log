@@ -3546,3 +3546,42 @@ Delete this example if you like.', 258, '2009-05-04 07:01:54')[0m
   [4;36;1mWheel Create (0.3ms)[0m   [0;1mINSERT INTO "wheels" ("updated_at", "hub_id", "spoke_pattern", "note", "rim_id", "created_at") VALUES('2009-05-04 07:01:54', 586, 0, 'Sample front wheel
 Delete this example if you like.', 173, '2009-05-04 07:01:54')[0m
   [4;35;1mSQL (0.7ms)[0m   [0mSELECT count(*) AS count_all FROM "wheels" [0m
+  [4;36;1mSQL (1.3ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (2.5ms)[0m   [0;1mCREATE TABLE "hubs" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "part_number" varchar(255), "brand" varchar(255), "description" varchar(255), "rear" boolean, "right_flange_diameter" float, "right_flange_to_center" float, "left_flange_diameter" float, "left_flange_to_center" float, "hole_count" integer, "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.9ms)[0m   [0mCREATE INDEX "index_hubs_on_part_number" ON "hubs" ("part_number")[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (1.6ms)[0m   [0mCREATE TABLE "rims" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "part_number" varchar(255), "brand" varchar(255), "description" varchar(255), "size" integer, "erd" float, "offset" float, "hole_count" integer, "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.9ms)[0m   [0;1mCREATE INDEX "index_rims_on_part_number" ON "rims" ("part_number")[0m
+  [4;35;1mSQL (0.3ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mCREATE TABLE "wheels" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "hub_id" integer, "rim_id" integer, "spoke_pattern" integer, "note" text, "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.9ms)[0m   [0mCREATE INDEX "index_wheels_on_hub_id" ON "wheels" ("hub_id")[0m
+  [4;36;1mSQL (0.9ms)[0m   [0;1mCREATE INDEX "index_wheels_on_rim_id" ON "wheels" ("rim_id")[0m
+  [4;35;1mSQL (0.3ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.8ms)[0m   [0;1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;35;1mSQL (0.7ms)[0m   [0mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM "schema_migrations"[0m
+  [4;36;1mSQL (0.9ms)[0m   [0;1mINSERT INTO "schema_migrations" (version) VALUES ('20090502045322')[0m
+  [4;35;1mSQL (0.8ms)[0m   [0mINSERT INTO "schema_migrations" (version) VALUES ('20090228050500')[0m
+  [4;36;1mSQL (0.9ms)[0m   [0;1mINSERT INTO "schema_migrations" (version) VALUES ('20090502043833')[0m

@@ -2,26 +2,10 @@
 
 @implementation Rim
 
-@synthesize pk, brand, description, size, erd, offset, hole_count;
+@synthesize brand, description, size, erd, offset, hole_count;
 
 + (NSString *)defaultOrderBy {
     return @"brand, description";
-}
-
-+ (NSString *)selectStatement {
-    return @"select id, brand, description, size, erd, offset, hole_count from rims";
-}
-
-+ (id) readFromRow:(DatabaseResultSet *)result {
-    Rim *rim = [[[Rim alloc] init] autorelease];
-    rim.pk = [result integerAt:0];
-    rim.brand = [result stringAt:1];
-    rim.description = [result stringAt:2];
-    rim.size = [result integerAt:3];
-    rim.erd = [result doubleAt:4];
-    rim.offset = [result doubleAt:5];
-    rim.hole_count = [result integerAt:6];   
-    return rim;
 }
 
 + (NSArray *) selectBrandNames {

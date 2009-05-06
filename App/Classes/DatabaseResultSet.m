@@ -18,14 +18,14 @@
     if (sqlite3_column_text(dbps, column) == nil)
         return nil;
     
-    return [[[NSNumber alloc] initWithInt: sqlite3_column_int(dbps, column)] autorelease];
+    return [NSNumber numberWithInt: sqlite3_column_int(dbps, column)];
 }
 
 - (NSNumber *) doubleAt:(int) column {
     if (sqlite3_column_text(dbps, column) == nil)
         return nil;
     
-    return [[[NSNumber alloc] initWithDouble: sqlite3_column_double(dbps, column)] autorelease];
+    return [NSNumber numberWithDouble: sqlite3_column_double(dbps, column)];
 }
 
 - (NSString *) stringAt:(int) column {
@@ -40,6 +40,14 @@
         return NO;
     
     return (sqlite3_column_text(dbps, column)[0] == 't');
+}
+
+
+- (NSDate *) dateAt:(int) column {
+    if (sqlite3_column_text(dbps, column) == nil)
+        return nil;
+    
+    return [NSDate dateWithTimeIntervalSince1970:sqlite3_column_int(dbps, column)];
 }
 
 - (void) dealloc {

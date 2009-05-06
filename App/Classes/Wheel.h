@@ -3,14 +3,16 @@
 #import "Rim.h"
 
 @interface Wheel : DomainObject {
-    NSNumber *pk;
     NSNumber *spokePattern;
+    NSNumber *hubId;
+    NSNumber *rimId;
     Hub *hub;
     Rim *rim;
 }
 
-@property(nonatomic, retain) NSNumber *pk;
 @property(nonatomic, retain) NSNumber *spokePattern;
+@property(nonatomic, retain) NSNumber *hubId;
+@property(nonatomic, retain) NSNumber *rimId;
 @property(nonatomic, retain) Hub *hub;
 @property(nonatomic, retain) Rim *rim;
 @property(readonly) NSString *spokePatternDescription;

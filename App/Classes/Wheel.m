@@ -5,7 +5,25 @@
 
 @implementation Wheel
 
-@synthesize pk, spokePattern, hub, rim;
+@synthesize spokePattern, hubId, rimId, hub, rim;
+
++ (NSDictionary *) dataMap {
+    return [NSDictionary dictionaryWithObjectsAndKeys:
+            @"pk", @"id",
+            @"createdAt", @"created_at",
+            @"updatedAt", @"updated_at",
+            @"spokePattern", @"spoke_pattern",
+            @"hubId", @"hub_id",
+            @"rimId", @"rim_id", 
+            nil];
+}
+
++ (id) readFromRow:(DatabaseResultSet *)result {
+    Wheel *wheel = (Wheel *) [super readFromRow:result];
+    wheel.hub = [Hub find:wheel.hubId];
+    wheel.rim = [Rim find:wheel.rimId];
+    return wheel;
+}
 
 - (NSString *) spokePatternDescription {
     if (!spokePattern)
@@ -41,23 +59,6 @@
                       pow([width doubleValue] - [rim.offset doubleValue],2))
                  - 2.5/2)
             ]; 
-}
-
-+ (NSString *)defaultOrderBy {
-    return @"created_at";
-}
-
-+ (NSString *)selectStatement {
-    return @"select id, hub_id, rim_id, spoke_pattern, created_at from wheels";
-}
-
-+ (id) readFromRow:(DatabaseResultSet *)result {
-    Wheel *wheel = [[[Wheel alloc] init] autorelease];
-    wheel.pk = [result integerAt:0];
-    wheel.hub = [Hub findFirstByCriteria:[NSString stringWithFormat:@"id = %@", [result integerAt:1]] orderBy:@"id"];
-    wheel.rim = [Rim findFirstByCriteria:[NSString stringWithFormat:@"id = %@", [result integerAt:2]] orderBy:@"id"];
-    wheel.spokePattern = [result integerAt:3];
-    return wheel;
 }
 
 - (void) dealloc {

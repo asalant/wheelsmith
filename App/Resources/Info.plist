@@ -9,7 +9,9 @@
 	<key>CFBundleExecutable</key>
 	<string>${EXECUTABLE_NAME}</string>
 	<key>CFBundleIconFile</key>
-	<string>app_icon.png</string>
+	<string>app_icon2.png</string>
+	<key>UIPrerenderedIcon</key>
+	<true/>
 	<key>CFBundleIdentifier</key>
 	<string>AS97D7CQUC.*</string>
 	<key>CFBundleInfoDictionaryVersion</key>

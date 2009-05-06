@@ -18,13 +18,14 @@
 }
 
 - (void) testFindsAllHubs {
-    NSArray *hubs = [Hub findAll];
+    NSArray *hubs = [Hub findAllOrderBy:nil];
     assertThat([NSNumber numberWithInt:hubs.count], equalTo([NSNumber numberWithInt:2]));
 }
 
 - (void) testHydratesHub {
-    Hub *hub = [[Hub findAll] objectAtIndex:0];
+    Hub *hub = [[Hub findAllOrderBy:@"brand"] objectAtIndex:1];
     assertThat(hub.brand, equalTo(@"Campagnolo"));
+    assertThat([NSNumber numberWithBool:hub.rear], is([NSNumber numberWithBool:NO]));
 }
 
 - (void) testSelectsBrandNames {

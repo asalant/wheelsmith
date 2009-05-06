@@ -12,5 +12,6 @@
 - (NSNumber *) doubleAt:(int) column;
 - (NSString *) stringAt:(int) column;
 - (BOOL) booleanAt:(int) column;
+- (NSDate *) dateAt:(int) column;
 
 @end

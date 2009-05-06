@@ -43,7 +43,7 @@
     return self;
 }
 
-- (NSArray *) select:(NSString *)query delegate:(id)delegate rowHandler:(SEL)selector {
+- (NSArray *) execute:(NSString *)query delegate:(id)delegate rowHandler:(SEL)selector {
     sqlite3 *db;
     int dbrc; // database return code
     dbrc = sqlite3_open ([dbFilePath UTF8String], &db);

@@ -19,20 +19,38 @@
 }
 
 - (void) testFindsAllWheels {
-    NSArray *wheels = [Wheel findAll];
+    NSArray *wheels = [Wheel findAllOrderBy:nil];
     assertThat([NSNumber numberWithInt:wheels.count], equalTo([NSNumber numberWithInt:2]));
 }
 
 
 - (void) testHydratesWheel {
-    Wheel *wheel = [[Wheel findAll] objectAtIndex:0];
+    Wheel *wheel = [[Wheel findAllOrderBy:nil] objectAtIndex:0];
     assertThat(wheel.hub, notNilValue());
     assertThat(wheel.rim, notNilValue());
     assertThat(wheel.spokePattern, equalTo([NSNumber numberWithInt:3]));
 }
 
+- (void) testAddsEmptyWheel {
+    Wheel *wheel = [[[Wheel alloc] init] autorelease];
+    [wheel save];
+    assertThat(wheel.pk, notNilValue());
+    assertThat(wheel.updatedAt, notNilValue());
+}
+
 - (void) testAddsWheel {
+    Wheel *wheel = [[[Wheel alloc] init] autorelease];
+    wheel.rim = [Rim find:[NSNumber numberWithInt:1]];
+    wheel.hub = [Hub find:[NSNumber numberWithInt:1]];
+    wheel.spokePattern = [NSNumber numberWithInt:3];
+    [wheel save];
+    assertThat(wheel.pk, notNilValue());
     
+    Wheel *saved = [Wheel find:wheel.pk];
+    assertThat(saved, notNilValue());
+    assertThat(saved.rim, notNilValue());
+    assertThat(saved.hub, notNilValue());
+    assertThat(saved.spokePattern, notNilValue());
 }
 
 - (void) testCalculatesSpokeLength {
@@ -84,7 +102,7 @@
 }
 
 -(void) testCompleteWheelIsValid {
-    Wheel *wheel = [[Wheel findAll] objectAtIndex:0];
+    Wheel *wheel = [[Wheel findAllOrderBy:nil] objectAtIndex:0];
     assertThat([NSNumber numberWithBool:wheel.isValid], 
                is([NSNumber numberWithBool:YES]));
 }

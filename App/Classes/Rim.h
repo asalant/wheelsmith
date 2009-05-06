@@ -2,7 +2,6 @@
 #import "DomainObject+Persistent.h"
 
 @interface Rim : DomainObject {
-    NSNumber *pk;
     NSString *brand;
     NSString *description;
     NSNumber *size;
@@ -10,7 +9,7 @@
     NSNumber *offset;
     NSNumber *hole_count;
 }
-@property (nonatomic,retain) NSNumber *pk;
+
 @property (nonatomic,retain) NSString *brand;
 @property (nonatomic,retain) NSString *description;
 @property (nonatomic,retain) NSNumber *size;

@@ -18,7 +18,7 @@
 -(void) setUp {
     [DomainObject setDbName:@"test"];
     controller = [[[MyWheelsController alloc] initWithStyle:UITableViewStyleGrouped] autorelease];
-    controller.wheels = [Wheel findAll];
+    controller.wheels = [Wheel findAllOrderBy:nil];
     [controller loadView];
 }
 

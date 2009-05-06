@@ -28,7 +28,7 @@
 }
 
 - (void) testSelectCallsSelector {
-    NSArray *companies = [db select:@"select distinct rims.brand from rims order by brand" delegate:self rowHandler:@selector(handleBrandRow:)];
+    NSArray *companies = [db execute:@"select distinct rims.brand from rims order by brand" delegate:self rowHandler:@selector(handleBrandRow:)];
     assertThat([NSNumber numberWithInt:[companies count]], equalTo([NSNumber numberWithInt:2]));
     assertThat([companies objectAtIndex:0], equalTo(@"Mavic"));
 }

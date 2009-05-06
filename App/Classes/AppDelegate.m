@@ -52,7 +52,7 @@
     UINavigationController *newWheelController = [[[UINavigationController alloc] initWithRootViewController:newWheelDetailController] autorelease];
     
     MyWheelsController *myWheelsController = [[[MyWheelsController alloc] initWithStyle:UITableViewStyleGrouped] autorelease];
-    myWheelsController.wheels = [Wheel findAll];
+    myWheelsController.wheels = [Wheel findAllOrderBy:@"created_at desc"];
     myWheelsController.wheelDetailController = wheelDetailController;
     myWheelsController.newWheelController = newWheelController;
     

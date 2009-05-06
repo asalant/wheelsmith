@@ -2,7 +2,6 @@
 #import "DomainObject+Persistent.h"
 
 @interface Hub : DomainObject {
-    NSNumber *pk;
     NSString *brand;
     NSString *description;
     NSNumber *leftFlangeDiameter;
@@ -12,7 +11,7 @@
     BOOL rear;
     NSNumber *holeCount;
 }
-@property (nonatomic,retain) NSNumber *pk;
+
 @property (nonatomic,retain) NSString *brand;
 @property (nonatomic,retain) NSString *description;
 @property (nonatomic,retain) NSNumber *leftFlangeDiameter;

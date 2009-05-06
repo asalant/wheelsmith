@@ -39,7 +39,7 @@
 }
 
 -(void) testRendersForExistingWheel {
-    controller.wheel = [[Wheel findAll] objectAtIndex:0];
+    controller.wheel = [[Wheel findAllOrderBy:@"created_at desc"] objectAtIndex:0];
     [controller viewWillAppear:NO];
     
     assertThat([((LabeledValueCell *)[controller tableView:nil cellForRowAtIndexPath:[NSIndexPath indexPathForRow:0 inSection:0]]).valueLabel text],
