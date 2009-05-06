@@ -1,6 +1,7 @@
 #import "DomainObject+Persistent.h"
 #import "Database.h"
 #import "DatabaseResultSet.h"
+#import "Hub.h"
 
 static Database *database;
 
@@ -11,12 +12,15 @@ static Database *database;
 }
 
 + (NSDictionary *) dataMap {
+    NSDictionary *namesToType = [self propertyNamesAndTypes];
     NSMutableDictionary *dataMap = [NSMutableDictionary dictionary];
-    for (id name in [self propertyNames]) {
+    for (id name in [namesToType allKeys]) {
         if ([name isEqual:@"pk"])
-            [dataMap setValue:@"pk" forKey:@"id"];
+            [dataMap setValue:[NSArray arrayWithObjects:@"pk", @"NSNumber", nil] 
+                       forKey:@"id"];
         else
-            [dataMap setValue:name forKey:[name underscore]];
+            [dataMap setValue:[NSArray arrayWithObjects:name, [namesToType valueForKey:name], nil] 
+                       forKey:[name underscore]];
     }
     return dataMap;
 }
@@ -60,12 +64,13 @@ static Database *database;
 
 + (id) readFromRow:(DatabaseResultSet *)result {
     NSDictionary *dataMap = [self dataMap];
-    NSDictionary *properties = [self propertyNamesAndTypes];
     NSArray *columnNames = [dataMap allKeys];
     id instance = [[[self alloc] init] autorelease];
     for (int i = 0; i < columnNames.count; i++) {
-        NSString *property = [dataMap valueForKey:[columnNames objectAtIndex:i]];
-        NSString *type = [properties valueForKey:property];
+        NSString *columnName = [columnNames objectAtIndex:i];
+        NSString *property = [[dataMap valueForKey:columnName] objectAtIndex:0];
+        NSString *type = [[dataMap valueForKey:columnName] objectAtIndex:1];
+        //NSString *type = [properties valueForKey:property];
         if ([type isEqual:[NSString className]]) {
             [instance setValue:[result stringAt:i] forKey:property];
         }
@@ -74,6 +79,9 @@ static Database *database;
         }
         else if ([type isEqual:[NSDate className]]) {
             [instance setValue:[result dateAt:i] forKey:property];
+        }
+        else if ([type isEqual:@"BOOL"]) {
+            [instance setValue:[NSNumber numberWithBool:[result booleanAt:i]] forKey:property];
         }
     }
     return instance;

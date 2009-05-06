@@ -9,12 +9,12 @@
 
 + (NSDictionary *) dataMap {
     return [NSDictionary dictionaryWithObjectsAndKeys:
-            @"pk", @"id",
-            @"createdAt", @"created_at",
-            @"updatedAt", @"updated_at",
-            @"spokePattern", @"spoke_pattern",
-            @"hubId", @"hub_id",
-            @"rimId", @"rim_id", 
+            [NSArray arrayWithObjects:@"pk", @"NSNumber", nil], @"id",
+            [NSArray arrayWithObjects:@"createdAt", @"NSDate", nil], @"created_at",
+            [NSArray arrayWithObjects:@"updatedAt", @"NSDate", nil], @"updated_at",
+            [NSArray arrayWithObjects:@"spokePattern", @"NSNumber", nil], @"spoke_pattern",
+            [NSArray arrayWithObjects:@"hubId", @"NSNumber", nil], @"hub_id",
+            [NSArray arrayWithObjects:@"rimId", @"NSNumber", nil], @"rim_id", 
             nil];
 }
 

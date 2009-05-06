@@ -13,7 +13,7 @@
     
     brandLabel.text = hub.brand;
     descriptionLabel.text = hub.description;
-    rearLabel.text = hub.rear ? @"Rear" : @"Front";
+    rearLabel.text = [hub.rear boolValue] ? @"Rear" : @"Front";
     holeCountLabel.text = [NSString stringWithFormat:@"%d holes", [hub.holeCount intValue]];
     leftFlangeDiameter.text = [StringUtil formatFloat:hub.leftFlangeDiameter];
     leftFlangeToCenter.text = [StringUtil formatFloat:hub.leftFlangeToCenter];

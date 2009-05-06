@@ -23,7 +23,7 @@
 }
 
 -(void) testFormatsWheelCell {
-    LabeledValueCell *cell = (LabeledValueCell *)[controller tableView:0 cellForRowAtIndexPath:[NSIndexPath indexPathForRow:1 inSection:0]];
+    LabeledValueCell *cell = (LabeledValueCell *)[controller tableView:0 cellForRowAtIndexPath:[NSIndexPath indexPathForRow:0 inSection:0]];
     assertThat(cell, notNilValue());
     assertThat(cell.valueLabel.text, is(@"radial"));
 }

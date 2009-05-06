@@ -8,7 +8,7 @@
     NSNumber *leftFlangeToCenter;
     NSNumber *rightFlangeDiameter;
     NSNumber *rightFlangeToCenter;
-    BOOL rear;
+    NSNumber *rear;
     NSNumber *holeCount;
 }
 
@@ -18,7 +18,7 @@
 @property (nonatomic,retain) NSNumber *leftFlangeToCenter;
 @property (nonatomic,retain) NSNumber *rightFlangeDiameter;
 @property (nonatomic,retain) NSNumber *rightFlangeToCenter;
-@property BOOL rear;
+@property (nonatomic,retain) NSNumber *rear;
 @property (nonatomic,retain) NSNumber *holeCount;
 
 + (NSArray *) selectBrandNames;

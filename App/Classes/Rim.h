@@ -7,7 +7,7 @@
     NSNumber *size;
     NSNumber *erd;
     NSNumber *offset;
-    NSNumber *hole_count;
+    NSNumber *holeCount;
 }
 
 @property (nonatomic,retain) NSString *brand;
@@ -15,7 +15,7 @@
 @property (nonatomic,retain) NSNumber *size;
 @property (nonatomic,retain) NSNumber *erd;
 @property (nonatomic,retain) NSNumber *offset;
-@property (nonatomic,retain) NSNumber *hole_count;
+@property (nonatomic,retain) NSNumber *holeCount;
 
 + (NSArray *) selectBrandNames;
 

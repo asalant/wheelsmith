@@ -26,9 +26,9 @@
 
 - (void) testHydratesWheel {
     Wheel *wheel = [[Wheel findAllOrderBy:nil] objectAtIndex:0];
+    assertThat(wheel.spokePattern, equalTo([NSNumber numberWithInt:0]));
     assertThat(wheel.hub, notNilValue());
     assertThat(wheel.rim, notNilValue());
-    assertThat(wheel.spokePattern, equalTo([NSNumber numberWithInt:3]));
 }
 
 - (void) testAddsEmptyWheel {

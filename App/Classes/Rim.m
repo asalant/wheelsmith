@@ -2,10 +2,21 @@
 
 @implementation Rim
 
-@synthesize brand, description, size, erd, offset, hole_count;
+@synthesize brand, description, size, erd, offset, holeCount;
 
-+ (NSString *)defaultOrderBy {
-    return @"brand, description";
+
++ (NSDictionary *) dataMap {
+    return [NSDictionary dictionaryWithObjectsAndKeys:
+            [NSArray arrayWithObjects:@"pk", @"NSNumber", nil], @"id",
+            [NSArray arrayWithObjects:@"createdAt", @"NSDate", nil], @"created_at",
+            [NSArray arrayWithObjects:@"updatedAt", @"NSDate", nil], @"updated_at",
+            [NSArray arrayWithObjects:@"brand", @"NSString", nil], @"brand",
+            [NSArray arrayWithObjects:@"description", @"NSString", nil], @"description",
+            [NSArray arrayWithObjects:@"size", @"NSNumber", nil], @"size",
+            [NSArray arrayWithObjects:@"erd", @"NSNumber", nil], @"erd", 
+            [NSArray arrayWithObjects:@"offset", @"NSNumber", nil], @"offset", 
+            [NSArray arrayWithObjects:@"holeCount", @"NSNumber", nil], @"hole_count", 
+            nil];
 }
 
 + (NSArray *) selectBrandNames {
@@ -22,7 +33,7 @@
     [size release];
     [erd release];
     [offset release];
-    [hole_count release];
+    [holeCount release];
     [super dealloc];
 }
 @end

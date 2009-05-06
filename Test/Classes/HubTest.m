@@ -24,17 +24,13 @@
 
 - (void) testHydratesHub {
     Hub *hub = [[Hub findAllOrderBy:@"brand"] objectAtIndex:1];
-    assertThat(hub.brand, equalTo(@"Campagnolo"));
-    assertThat([NSNumber numberWithBool:hub.rear], is([NSNumber numberWithBool:NO]));
+    assertThat(hub.brand, equalTo(@"Chris King"));
+    assertThat(hub.rear, is([NSNumber numberWithBool:YES]));
 }
 
 - (void) testSelectsBrandNames {
     NSArray *companies = [Hub selectBrandNames];
-    assertThat([NSNumber numberWithInt:[companies count]], equalTo([NSNumber numberWithInt:1]));
-}
-
-- (void) tearDown {
-    
+    assertThat([NSNumber numberWithInt:[companies count]], equalTo([NSNumber numberWithInt:2]));
 }
 
 @end
