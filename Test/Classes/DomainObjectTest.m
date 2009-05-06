@@ -31,12 +31,5 @@
     assertThat([namesToType objectForKey:@"createdAt"], is([NSDate className]));
 }
 
--(void)testCreatesDataMap {
-    NSDictionary *dataMap = [DomainObject dataMap];
-    assertThat([[dataMap valueForKey:@"id"] objectAtIndex:0], is(@"pk"));
-    assertThat([[dataMap valueForKey:@"id"] objectAtIndex:1], is([NSNumber className]));
-    assertThat([[dataMap valueForKey:@"created_at"] objectAtIndex:0], is(@"createdAt"));
-}
-
 
 @end

@@ -8,17 +8,17 @@
 
 + (NSDictionary *) dataMap {
     return [NSDictionary dictionaryWithObjectsAndKeys:
-            [NSArray arrayWithObjects:@"pk", @"NSNumber", nil], @"id",
-            [NSArray arrayWithObjects:@"createdAt", @"NSDate", nil], @"created_at",
-            [NSArray arrayWithObjects:@"updatedAt", @"NSDate", nil], @"updated_at",
-            [NSArray arrayWithObjects:@"brand", @"NSString", nil], @"brand",
-            [NSArray arrayWithObjects:@"description", @"NSString", nil], @"description",
-            [NSArray arrayWithObjects:@"leftFlangeDiameter", @"NSNumber", nil], @"left_flange_diameter",
-            [NSArray arrayWithObjects:@"leftFlangeToCenter", @"NSNumber", nil], @"left_flange_to_center",
-            [NSArray arrayWithObjects:@"rightFlangeDiameter", @"NSNumber", nil], @"right_flange_diameter",
-            [NSArray arrayWithObjects:@"rightFlangeToCenter", @"NSNumber", nil], @"right_flange_to_center", 
-            [NSArray arrayWithObjects:@"rear", @"BOOL", nil], @"rear", 
-            [NSArray arrayWithObjects:@"holeCount", @"NSNumber", nil], @"hole_count", 
+            [NSArray arrayWithObjects:@"pk", @"integer", nil], @"id",
+            [NSArray arrayWithObjects:@"createdAt", @"datetime", nil], @"created_at",
+            [NSArray arrayWithObjects:@"updatedAt", @"datetime", nil], @"updated_at",
+            [NSArray arrayWithObjects:@"brand", @"string", nil], @"brand",
+            [NSArray arrayWithObjects:@"description", @"string", nil], @"description",
+            [NSArray arrayWithObjects:@"leftFlangeDiameter", @"float", nil], @"left_flange_diameter",
+            [NSArray arrayWithObjects:@"leftFlangeToCenter", @"float", nil], @"left_flange_to_center",
+            [NSArray arrayWithObjects:@"rightFlangeDiameter", @"float", nil], @"right_flange_diameter",
+            [NSArray arrayWithObjects:@"rightFlangeToCenter", @"float", nil], @"right_flange_to_center", 
+            [NSArray arrayWithObjects:@"rear", @"boolean", nil], @"rear", 
+            [NSArray arrayWithObjects:@"holeCount", @"integer", nil], @"hole_count", 
             nil];
 }
 

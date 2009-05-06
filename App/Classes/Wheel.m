@@ -9,12 +9,12 @@
 
 + (NSDictionary *) dataMap {
     return [NSDictionary dictionaryWithObjectsAndKeys:
-            [NSArray arrayWithObjects:@"pk", @"NSNumber", nil], @"id",
-            [NSArray arrayWithObjects:@"createdAt", @"NSDate", nil], @"created_at",
-            [NSArray arrayWithObjects:@"updatedAt", @"NSDate", nil], @"updated_at",
-            [NSArray arrayWithObjects:@"spokePattern", @"NSNumber", nil], @"spoke_pattern",
-            [NSArray arrayWithObjects:@"hubId", @"NSNumber", nil], @"hub_id",
-            [NSArray arrayWithObjects:@"rimId", @"NSNumber", nil], @"rim_id", 
+            [NSArray arrayWithObjects:@"pk", @"integer", nil], @"id",
+            [NSArray arrayWithObjects:@"createdAt", @"datetime", nil], @"created_at",
+            [NSArray arrayWithObjects:@"updatedAt", @"datetime", nil], @"updated_at",
+            [NSArray arrayWithObjects:@"spokePattern", @"integer", nil], @"spoke_pattern",
+            [NSArray arrayWithObjects:@"hubId", @"integer", nil], @"hub_id",
+            [NSArray arrayWithObjects:@"rimId", @"integer", nil], @"rim_id", 
             nil];
 }
 
@@ -23,6 +23,20 @@
     wheel.hub = [Hub find:wheel.hubId];
     wheel.rim = [Rim find:wheel.rimId];
     return wheel;
+}
+
+-(void)setRim:(Rim *)theRim {
+    [rim release];
+    rim = theRim;
+    [rim retain];
+    self.rimId = rim.pk;
+}
+
+-(void)setHub:(Hub *)theHub {
+    [hub release];
+    hub = theHub;
+    [hub retain];
+    self.hubId = hub.pk;
 }
 
 - (NSString *) spokePatternDescription {

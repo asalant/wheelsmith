@@ -28,29 +28,31 @@
     Wheel *wheel = [[Wheel findAllOrderBy:nil] objectAtIndex:0];
     assertThat(wheel.spokePattern, equalTo([NSNumber numberWithInt:0]));
     assertThat(wheel.hub, notNilValue());
+    assertThat(wheel.hubId, is(wheel.hub.pk));
     assertThat(wheel.rim, notNilValue());
+    assertThat(wheel.hubId, is(wheel.hub.pk));
 }
 
 - (void) testAddsEmptyWheel {
     Wheel *wheel = [[[Wheel alloc] init] autorelease];
-    [wheel save];
+    [wheel create];
     assertThat(wheel.pk, notNilValue());
     assertThat(wheel.updatedAt, notNilValue());
 }
 
 - (void) testAddsWheel {
     Wheel *wheel = [[[Wheel alloc] init] autorelease];
-    wheel.rim = [Rim find:[NSNumber numberWithInt:1]];
-    wheel.hub = [Hub find:[NSNumber numberWithInt:1]];
+    wheel.rim = [[Rim findAllOrderBy:nil] objectAtIndex:0];
+    wheel.hub = [[Hub findAllOrderBy:nil] objectAtIndex:0];
     wheel.spokePattern = [NSNumber numberWithInt:3];
-    [wheel save];
+    [wheel create];
     assertThat(wheel.pk, notNilValue());
     
     Wheel *saved = [Wheel find:wheel.pk];
     assertThat(saved, notNilValue());
+    assertThat(saved.spokePattern, is([NSNumber numberWithInt:3]));
     assertThat(saved.rim, notNilValue());
     assertThat(saved.hub, notNilValue());
-    assertThat(saved.spokePattern, notNilValue());
 }
 
 - (void) testCalculatesSpokeLength {

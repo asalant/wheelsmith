@@ -12,17 +12,10 @@ static Database *database;
 }
 
 + (NSDictionary *) dataMap {
-    NSDictionary *namesToType = [self propertyNamesAndTypes];
-    NSMutableDictionary *dataMap = [NSMutableDictionary dictionary];
-    for (id name in [namesToType allKeys]) {
-        if ([name isEqual:@"pk"])
-            [dataMap setValue:[NSArray arrayWithObjects:@"pk", @"NSNumber", nil] 
-                       forKey:@"id"];
-        else
-            [dataMap setValue:[NSArray arrayWithObjects:name, [namesToType valueForKey:name], nil] 
-                       forKey:[name underscore]];
-    }
-    return dataMap;
+    @throw [NSException exceptionWithName:@"PersistenceException"
+                                   reason:[NSString stringWithFormat:@"Implement +dataMap in %@ to define OR mapping.", [self class]]
+                                 userInfo:nil];
+                                                        
 }
 
 + (NSString *) tableName {
@@ -70,25 +63,61 @@ static Database *database;
         NSString *columnName = [columnNames objectAtIndex:i];
         NSString *property = [[dataMap valueForKey:columnName] objectAtIndex:0];
         NSString *type = [[dataMap valueForKey:columnName] objectAtIndex:1];
-        //NSString *type = [properties valueForKey:property];
-        if ([type isEqual:[NSString className]]) {
+        if ([type isEqual:@"string"]) {
             [instance setValue:[result stringAt:i] forKey:property];
         }
-        else if ([type isEqual:[NSNumber className]]) {
+        else if ([type isEqual:@"integer"]) {
+            [instance setValue:[result integerAt:i] forKey:property];
+        }
+        else if ([type isEqual:@"float"]) {
             [instance setValue:[result doubleAt:i] forKey:property];
         }
-        else if ([type isEqual:[NSDate className]]) {
+        else if ([type isEqual:@"datetime"]) {
             [instance setValue:[result dateAt:i] forKey:property];
         }
-        else if ([type isEqual:@"BOOL"]) {
+        else if ([type isEqual:@"boolean"]) {
             [instance setValue:[NSNumber numberWithBool:[result booleanAt:i]] forKey:property];
         }
     }
     return instance;
 }
 
--(void)save {
+-(void)create {
+    self.createdAt = [NSDate date];
+    self.updatedAt = self.createdAt;
+    NSDictionary *dataMap = [[self class] dataMap];
+    NSMutableArray *values = [NSMutableArray array];
+    for (id columnName in dataMap) {
+        id value = [self valueForKey:[[dataMap valueForKey:columnName] objectAtIndex:0]];
+        NSString *type = [[dataMap valueForKey:columnName] objectAtIndex:1];
+        if (!value) {
+            [values addObject:@"NULL"];
+        }
+        else if ([type isEqual:@"string"]) {
+
+        }
+        else if ([type isEqual:@"integer"]) {
+            [values addObject:[NSString stringWithFormat:@"%d", [value intValue]]];
+        }
+        else if ([type isEqual:@"float"]) {
+            [values addObject:[NSString stringWithFormat:@"%f", [value doubleValue]]];
+        }
+        else if ([type isEqual:@"datetime"]) {
+            [values addObject:[NSString stringWithFormat:@"'%@'", value]];
+        }
+        else if ([type isEqual:@"boolean"]) {
+            [values addObject:[NSString stringWithFormat:@"%@", [value boolValue]]];
+        }
+    }
+    NSString *insert = [NSString stringWithFormat:@"INSERT INTO %@ (%@) VALUES (%@)",
+                        [[self class] tableName],
+                        [[dataMap allKeys] componentsJoinedByString:@", "],
+                        [values componentsJoinedByString:@", "]];
+    [database execute:insert delegate:nil rowHandler:nil];
     
+    id created = [[self class] findFirstByCriteria:[NSString stringWithFormat:@"created_at = '%@'", self.createdAt]
+                                           orderBy:nil];
+    self.pk = [created valueForKey:@"pk"];
 }
 
 

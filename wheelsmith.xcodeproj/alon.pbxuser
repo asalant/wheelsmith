@@ -617,35 +617,35 @@
 	};
 	DF7B11D60FAEA9A3007FF0CA /* DatabaseResultSet.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {831, 511}}";
+			sepNavIntBoundsRect = "{{0, 0}, {831, 590}}";
 			sepNavSelRange = "{413, 0}";
 			sepNavVisRange = "{0, 420}";
 		};
 	};
 	DF7B11D70FAEA9A3007FF0CA /* DatabaseResultSet.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {831, 928}}";
-			sepNavSelRange = "{51, 34}";
-			sepNavVisRange = "{0, 758}";
+			sepNavIntBoundsRect = "{{0, 0}, {831, 896}}";
+			sepNavSelRange = "{475, 39}";
+			sepNavVisRange = "{50, 708}";
 		};
 	};
 	DF7B11D80FAEA9A3007FF0CA /* DomainObject+Persistent.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {831, 420}}";
+			sepNavIntBoundsRect = "{{0, 0}, {831, 456}}";
 			sepNavSelRange = "{508, 0}";
-			sepNavVisRange = "{0, 576}";
+			sepNavVisRange = "{0, 578}";
 		};
 	};
 	DF7B11D90FAEA9A3007FF0CA /* DomainObject+Persistent.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {831, 1440}}";
-			sepNavSelRange = "{2693, 0}";
-			sepNavVisRange = "{2349, 408}";
+			sepNavIntBoundsRect = "{{0, 0}, {943, 1904}}";
+			sepNavSelRange = "{4384, 0}";
+			sepNavVisRange = "{2163, 792}";
 		};
 	};
 	DF7B11DA0FAEA9A3007FF0CA /* DomainObject.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {831, 453}}";
+			sepNavIntBoundsRect = "{{0, 0}, {831, 590}}";
 			sepNavSelRange = "{301, 0}";
 			sepNavVisRange = "{0, 310}";
 		};
@@ -659,16 +659,16 @@
 	};
 	DF7B11DC0FAEA9A3007FF0CA /* Hub.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {831, 416}}";
+			sepNavIntBoundsRect = "{{0, 0}, {831, 456}}";
 			sepNavSelRange = "{712, 0}";
-			sepNavVisRange = "{0, 673}";
+			sepNavVisRange = "{0, 806}";
 		};
 	};
 	DF7B11DD0FAEA9A3007FF0CA /* Hub.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {831, 368}}";
-			sepNavSelRange = "{532, 0}";
-			sepNavVisRange = "{47, 485}";
+			sepNavIntBoundsRect = "{{0, 0}, {831, 576}}";
+			sepNavSelRange = "{1175, 0}";
+			sepNavVisRange = "{0, 1511}";
 		};
 	};
 	DF7B11DE0FAEA9A3007FF0CA /* HubBrandsController.h */ = {
@@ -687,16 +687,16 @@
 	};
 	DF7B11E00FAEA9A3007FF0CA /* HubCell.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {831, 238}}";
+			sepNavIntBoundsRect = "{{0, 0}, {831, 590}}";
 			sepNavSelRange = "{137, 4}";
 			sepNavVisRange = "{0, 304}";
 		};
 	};
 	DF7B11E10FAEA9A3007FF0CA /* HubCell.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {831, 384}}";
+			sepNavIntBoundsRect = "{{0, 0}, {831, 590}}";
 			sepNavSelRange = "{238, 0}";
-			sepNavVisRange = "{120, 243}";
+			sepNavVisRange = "{0, 363}";
 			sepNavWindowFrame = "{{1240, 55}, {1277, 723}}";
 		};
 	};
@@ -709,9 +709,9 @@
 	};
 	DF7B11E30FAEA9A3007FF0CA /* HubDetailController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {852, 560}}";
+			sepNavIntBoundsRect = "{{0, 0}, {852, 590}}";
 			sepNavSelRange = "{507, 0}";
-			sepNavVisRange = "{345, 728}";
+			sepNavVisRange = "{0, 1081}";
 		};
 	};
 	DF7B11E40FAEA9A3007FF0CA /* HubListController.h */ = {
@@ -758,16 +758,16 @@
 	};
 	DF7B11EC0FAEA9A3007FF0CA /* Rim.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {831, 453}}";
-			sepNavSelRange = "{240, 0}";
-			sepNavVisRange = "{0, 564}";
+			sepNavIntBoundsRect = "{{0, 0}, {831, 456}}";
+			sepNavSelRange = "{562, 0}";
+			sepNavVisRange = "{0, 562}";
 		};
 	};
 	DF7B11ED0FAEA9A3007FF0CA /* Rim.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {831, 480}}";
-			sepNavSelRange = "{168, 0}";
-			sepNavVisRange = "{16, 582}";
+			sepNavIntBoundsRect = "{{0, 0}, {831, 656}}";
+			sepNavSelRange = "{494, 0}";
+			sepNavVisRange = "{0, 735}";
 		};
 	};
 	DF7B11EE0FAEA9A3007FF0CA /* RimBrandsController.h */ = {
@@ -842,9 +842,9 @@
 	};
 	DF7B11FF0FAEA9A3007FF0CA /* Wheel.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {831, 1248}}";
-			sepNavSelRange = "{185, 0}";
-			sepNavVisRange = "{0, 676}";
+			sepNavIntBoundsRect = "{{0, 0}, {831, 1184}}";
+			sepNavSelRange = "{693, 0}";
+			sepNavVisRange = "{35, 1034}";
 		};
 	};
 	DF7B12000FAEA9A3007FF0CA /* WheelDetailController.h */ = {
@@ -870,9 +870,9 @@
 	};
 	DF7B12630FAEA9B5007FF0CA /* HubTest.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {831, 604}}";
+			sepNavIntBoundsRect = "{{0, 0}, {831, 576}}";
 			sepNavSelRange = "{574, 61}";
-			sepNavVisRange = "{293, 524}";
+			sepNavVisRange = "{105, 715}";
 		};
 	};
 	DF7B12650FAEA9B5007FF0CA /* RimDetailControllerTest.m */ = {
@@ -884,9 +884,9 @@
 	};
 	DF7B12660FAEA9B5007FF0CA /* RimTest.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {831, 720}}";
-			sepNavSelRange = "{707, 0}";
-			sepNavVisRange = "{337, 593}";
+			sepNavIntBoundsRect = "{{0, 0}, {831, 732}}";
+			sepNavSelRange = "{727, 46}";
+			sepNavVisRange = "{453, 371}";
 		};
 	};
 	DF7B12680FAEA9B5007FF0CA /* OCMockConstraint+Extensions.h */ = {
@@ -898,9 +898,9 @@
 	};
 	DF7B126E0FAEA9B5007FF0CA /* WheelTest.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {831, 1964}}";
-			sepNavSelRange = "{684, 0}";
-			sepNavVisRange = "{204, 763}";
+			sepNavIntBoundsRect = "{{0, 0}, {831, 1976}}";
+			sepNavSelRange = "{795, 41}";
+			sepNavVisRange = "{342, 932}";
 		};
 	};
 	DF7B12780FAEA9B5007FF0CA /* RunIPhoneUnitTest.sh */ = {
@@ -937,9 +937,9 @@
 	};
 	DFAAA3EB0FAECE7200699647 /* MyWheelsControllerTest.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {992, 512}}";
-			sepNavSelRange = "{782, 0}";
-			sepNavVisRange = "{144, 752}";
+			sepNavIntBoundsRect = "{{0, 0}, {992, 540}}";
+			sepNavSelRange = "{835, 53}";
+			sepNavVisRange = "{391, 505}";
 			sepNavWindowFrame = "{{1240, 55}, {1277, 723}}";
 		};
 	};
@@ -977,7 +977,7 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1048, 828}}";
 			sepNavSelRange = "{1768, 58}";
-			sepNavVisRange = "{652, 1182}";
+			sepNavVisRange = "{1260, 569}";
 			sepNavWindowFrame = "{{287, 55}, {1277, 723}}";
 		};
 	};
@@ -1349,7 +1349,7 @@
 		fRef = DF7B11FF0FAEA9A3007FF0CA /* Wheel.m */;
 		name = "Wheel.m: 72";
 		rLen = 5;
-		rLoc = 2222;
+		rLoc = 2488;
 		rType = 0;
 		vrLen = 726;
 		vrLoc = 0;
@@ -1379,7 +1379,7 @@
 		fRef = DF7B11EC0FAEA9A3007FF0CA /* Rim.h */;
 		name = "Rim.h: 12";
 		rLen = 0;
-		rLoc = 240;
+		rLoc = 230;
 		rType = 0;
 		vrLen = 564;
 		vrLoc = 0;
@@ -1389,7 +1389,7 @@
 		fRef = DF7B11DD0FAEA9A3007FF0CA /* Hub.m */;
 		name = "Hub.m: 46";
 		rLen = 0;
-		rLoc = 532;
+		rLoc = 1617;
 		rType = 0;
 		vrLen = 1001;
 		vrLoc = 313;
@@ -1409,7 +1409,7 @@
 		comments = "warning: property 'brand' requires method '-brand' to be defined - use @synthesize, @dynamic or provide a method implementation";
 		fRef = DF7B11ED0FAEA9A3007FF0CA /* Rim.m */;
 		rLen = 1;
-		rLoc = 27;
+		rLoc = 38;
 		rType = 1;
 	};
 	DFC821D10FB0012A0032468F /* PlistBookmark */ = {
@@ -1439,7 +1439,7 @@
 		fRef = DF7B11FF0FAEA9A3007FF0CA /* Wheel.m */;
 		name = "Wheel.m: 54";
 		rLen = 0;
-		rLoc = 2111;
+		rLoc = 2377;
 		rType = 0;
 		vrLen = 1257;
 		vrLoc = 1019;
@@ -1469,7 +1469,7 @@
 		fRef = DF7B11FF0FAEA9A3007FF0CA /* Wheel.m */;
 		name = "Wheel.m: 72";
 		rLen = 5;
-		rLoc = 2222;
+		rLoc = 2488;
 		rType = 0;
 		vrLen = 726;
 		vrLoc = 0;
@@ -1499,7 +1499,7 @@
 		fRef = DF7B11EC0FAEA9A3007FF0CA /* Rim.h */;
 		name = "Rim.h: 12";
 		rLen = 0;
-		rLoc = 240;
+		rLoc = 230;
 		rType = 0;
 		vrLen = 564;
 		vrLoc = 0;
@@ -1509,7 +1509,7 @@
 		fRef = DF7B11ED0FAEA9A3007FF0CA /* Rim.m */;
 		name = "Rim.m: 46";
 		rLen = 0;
-		rLoc = 598;
+		rLoc = 1346;
 		rType = 0;
 		vrLen = 929;
 		vrLoc = 171;
@@ -1519,7 +1519,7 @@
 		fRef = DF7B11DD0FAEA9A3007FF0CA /* Hub.m */;
 		name = "Hub.m: 46";
 		rLen = 0;
-		rLoc = 532;
+		rLoc = 1617;
 		rType = 0;
 		vrLen = 1001;
 		vrLoc = 313;
@@ -1569,7 +1569,7 @@
 		fRef = DF7B11D90FAEA9A3007FF0CA /* DomainObject+Persistent.m */;
 		name = "DomainObject+Persistent.m: 57";
 		rLen = 0;
-		rLoc = 2744;
+		rLoc = 4416;
 		rType = 0;
 		vrLen = 936;
 		vrLoc = 1153;
@@ -1579,7 +1579,7 @@
 		fRef = DF7B11D80FAEA9A3007FF0CA /* DomainObject+Persistent.h */;
 		name = "DomainObject+Persistent.h: 20";
 		rLen = 0;
-		rLoc = 570;
+		rLoc = 572;
 		rType = 0;
 		vrLen = 563;
 		vrLoc = 0;
@@ -1589,7 +1589,7 @@
 		fRef = DF7B11FF0FAEA9A3007FF0CA /* Wheel.m */;
 		name = "Wheel.m: 63";
 		rLen = 0;
-		rLoc = 2111;
+		rLoc = 2377;
 		rType = 0;
 		vrLen = 440;
 		vrLoc = 0;
@@ -1639,7 +1639,7 @@
 		fRef = DF7B11D90FAEA9A3007FF0CA /* DomainObject+Persistent.m */;
 		name = "DomainObject+Persistent.m: 57";
 		rLen = 0;
-		rLoc = 2744;
+		rLoc = 4416;
 		rType = 0;
 		vrLen = 936;
 		vrLoc = 1153;
@@ -1649,7 +1649,7 @@
 		fRef = DF7B11D80FAEA9A3007FF0CA /* DomainObject+Persistent.h */;
 		name = "DomainObject+Persistent.h: 20";
 		rLen = 0;
-		rLoc = 570;
+		rLoc = 572;
 		rType = 0;
 		vrLen = 563;
 		vrLoc = 0;
@@ -1659,7 +1659,7 @@
 		fRef = DF7B11FF0FAEA9A3007FF0CA /* Wheel.m */;
 		name = "Wheel.m: 63";
 		rLen = 0;
-		rLoc = 2111;
+		rLoc = 2377;
 		rType = 0;
 		vrLen = 440;
 		vrLoc = 0;
@@ -1749,7 +1749,7 @@
 		fRef = DF7B11D90FAEA9A3007FF0CA /* DomainObject+Persistent.m */;
 		name = "DomainObject+Persistent.m: 61";
 		rLen = 5;
-		rLoc = 2747;
+		rLoc = 4419;
 		rType = 0;
 		vrLen = 1141;
 		vrLoc = 955;
@@ -1799,7 +1799,7 @@
 		fRef = DF7B11D90FAEA9A3007FF0CA /* DomainObject+Persistent.m */;
 		name = "DomainObject+Persistent.m: 61";
 		rLen = 5;
-		rLoc = 2747;
+		rLoc = 4419;
 		rType = 0;
 		vrLen = 1141;
 		vrLoc = 955;
@@ -1826,9 +1826,9 @@
 	};
 	DFC8226B0FB007B00032468F /* DomainObjectTest.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {831, 672}}";
-			sepNavSelRange = "{138, 0}";
-			sepNavVisRange = "{227, 1018}";
+			sepNavIntBoundsRect = "{{0, 0}, {831, 688}}";
+			sepNavSelRange = "{1340, 0}";
+			sepNavVisRange = "{799, 571}";
 		};
 	};
 	DFD4DA130FAEB49500BC2BC2 /* PlistBookmark */ = {

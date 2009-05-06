@@ -16,6 +16,6 @@
 +(NSString *) tableName;
 + (id) readFromRow:(DatabaseResultSet *)result;
 
--(void)save;
+-(void)create;
 
 @end
