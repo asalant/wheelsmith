@@ -71,6 +71,7 @@
 
 
 - (void) saveWheel {
+    [self.wheel create];
     [self dismissModal];
 }
 

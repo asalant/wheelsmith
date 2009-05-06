@@ -25,6 +25,13 @@
                                                                                            action:@selector(addWheel)] autorelease];
 }
 
+//TODO: this is very inefficient. Only reload when changes happen.
+-(void)viewWillAppear:(BOOL) animated {
+    [super viewWillAppear:animated];
+    self.wheels = [Wheel findAllOrderBy:@"created_at DESC"];
+    [self.tableView reloadData];
+}
+
 #pragma mark Add Wheel
 
 -(void)addWheel {

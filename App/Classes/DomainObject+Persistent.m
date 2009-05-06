@@ -85,7 +85,8 @@ static Database *database;
 -(void)create {
     self.createdAt = [NSDate date];
     self.updatedAt = self.createdAt;
-    NSDictionary *dataMap = [[self class] dataMap];
+    NSMutableDictionary *dataMap = [NSMutableDictionary dictionaryWithDictionary:[[self class] dataMap]];
+    [dataMap removeObjectForKey:@"id"];
     NSMutableArray *values = [NSMutableArray array];
     for (id columnName in dataMap) {
         id value = [self valueForKey:[[dataMap valueForKey:columnName] objectAtIndex:0]];
