@@ -75,6 +75,12 @@
     assertThat(updated.spokePattern, is(wheel.spokePattern));
 }
 
+-(void)testDeletesWheel {
+    Wheel *wheel = [Wheel findFirstByCriteria:@"spoke_pattern = 0" orderBy:nil];
+    [wheel delete];
+    assertThat([Wheel find:wheel.pk], nilValue());
+}
+
 - (void) testCalculatesSpokeLength {
  
     Wheel *wheel = [[Wheel alloc] init];

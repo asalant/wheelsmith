@@ -87,7 +87,7 @@ static Database *database;
     self.updatedAt = self.createdAt;
     NSMutableDictionary *dataMap = [NSMutableDictionary dictionaryWithDictionary:[[self class] dataMap]];
     [dataMap removeObjectForKey:@"id"];
-    NSArray *values = [self valuesForColumns:[dataMap allKeys]];
+    NSArray *values = [self propertyValuesForColumns:[dataMap allKeys]];
     NSString *insert = [NSString stringWithFormat:@"INSERT INTO %@ (%@) VALUES (%@)",
                         [[self class] tableName],
                         [[dataMap allKeys] componentsJoinedByString:@", "],
@@ -98,8 +98,31 @@ static Database *database;
                                            orderBy:nil];
     self.pk = [created valueForKey:@"pk"];
 }
+-(void) update {
+    self.updatedAt = [NSDate date];
+    NSMutableDictionary *dataMap = [NSMutableDictionary dictionaryWithDictionary:[[self class] dataMap]];
+    [dataMap removeObjectForKey:@"id"];
+    NSArray *columnNames = [dataMap allKeys];
+    NSArray *values = [self propertyValuesForColumns:columnNames];
+    NSMutableArray *updates = [NSMutableArray array];
+    for (int i = 0; i < columnNames.count; i++) {
+        [updates addObject:[NSString stringWithFormat:@"%@=%@", [columnNames objectAtIndex:i], [values objectAtIndex:i]]];
+    }
+    NSString *update = [NSString stringWithFormat:@"UPDATE %@ SET %@ WHERE id = %d",
+                        [[self class] tableName],
+                        [updates componentsJoinedByString:@", "],
+                        [self.pk intValue]];
+    [database execute:update delegate:nil rowHandler:nil];
+}
 
--(NSArray *)valuesForColumns:(NSArray *)columnNames {
+-(void)delete {
+    NSString *delete = [NSString stringWithFormat:@"DELETE FROM %@ WHERE id = %d",
+                        [[self class] tableName],
+                        [self.pk intValue]];
+    [database execute:delete delegate:nil rowHandler:nil];
+}
+
+-(NSArray *)propertyValuesForColumns:(NSArray *)columnNames {
     
     NSMutableArray *values = [NSMutableArray array];
     NSDictionary *dataMap = [[self class] dataMap];
@@ -126,23 +149,6 @@ static Database *database;
         }
     }
     return values;
-}
-
--(void) update {
-    self.updatedAt = [NSDate date];
-    NSMutableDictionary *dataMap = [NSMutableDictionary dictionaryWithDictionary:[[self class] dataMap]];
-    [dataMap removeObjectForKey:@"id"];
-    NSArray *columnNames = [dataMap allKeys];
-    NSArray *values = [self valuesForColumns:columnNames];
-    NSMutableArray *updates = [NSMutableArray array];
-    for (int i = 0; i < columnNames.count; i++) {
-        [updates addObject:[NSString stringWithFormat:@"%@=%@", [columnNames objectAtIndex:i], [values objectAtIndex:i]]];
-    }
-    NSString *update = [NSString stringWithFormat:@"UPDATE %@ SET %@ WHERE id = %d",
-                        [[self class] tableName],
-                        [updates componentsJoinedByString:@", "],
-                        [self.pk intValue]];
-    [database execute:update delegate:nil rowHandler:nil];
 }
 
 -(void)dealloc {

@@ -25,7 +25,8 @@
 
 -(void)create;
 -(void)update;
--(NSArray *)valuesForColumns:(NSArray *)columnNames;
+-(void)delete;
+-(NSArray *)propertyValuesForColumns:(NSArray *)columnNames;
 
 @end
 
