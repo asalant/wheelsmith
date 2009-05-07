@@ -1,7 +1,8 @@
 #import <UIKit/UIKit.h>
 #import "WheelDetailController.h"
+#import "WheelDetailDelegate.h"
 
-@interface MyWheelsController : UITableViewController {
+@interface MyWheelsController : UITableViewController <WheelDetailDelegate> {
     NSArray *wheels;
     WheelDetailController *wheelDetailController;
     UINavigationController *newWheelController;

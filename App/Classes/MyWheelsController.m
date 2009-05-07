@@ -7,14 +7,6 @@
 
 @synthesize wheels, wheelDetailController, newWheelController;
 
-/*
-- (id)initWithStyle:(UITableViewStyle)style {
-    // Override initWithStyle: if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
-    if (self = [super initWithStyle:style]) {
-    }
-    return self;
-}
-*/
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -25,11 +17,17 @@
                                                                                            action:@selector(addWheel)] autorelease];
 }
 
-//TODO: this is very inefficient. Only reload when changes happen.
--(void)viewWillAppear:(BOOL) animated {
-    [super viewWillAppear:animated];
-    self.wheels = [Wheel findAllOrderBy:@"created_at DESC"];
+#pragma mark WheelDetailDelegate methods
+
+-(void) afterAddWheel:(Wheel *)theWheel {
+    NSMutableArray *updated = [NSMutableArray arrayWithArray:self.wheels];
+    [updated insertObject:theWheel atIndex:0];
+    self.wheels = updated;
     [self.tableView reloadData];
+}
+
+-(void) afterEditWheel:(Wheel *)theWheel {
+    
 }
 
 #pragma mark Add Wheel

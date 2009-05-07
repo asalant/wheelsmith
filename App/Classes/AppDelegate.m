@@ -41,7 +41,6 @@
     wheelDetailController.rimBrandsController = rimBrandsController;
     wheelDetailController.hubBrandsController = hubBrandsController;
     
-    
     // Would like to use the same instance as above but there are nav bar rendering issues when switching between existing and new wheels
     WheelDetailController *newWheelDetailController = [[[WheelDetailController alloc] initWithStyle:UITableViewStyleGrouped] autorelease];
     newWheelDetailController.rimDetailController = rimDetailController;
@@ -55,6 +54,8 @@
     myWheelsController.wheels = [Wheel findAllOrderBy:@"created_at desc"];
     myWheelsController.wheelDetailController = wheelDetailController;
     myWheelsController.newWheelController = newWheelController;
+    newWheelDetailController.delegate = myWheelsController;
+    wheelDetailController.delegate = myWheelsController;
     
     RootMenuController *menuController = [[[RootMenuController alloc] initWithStyle:UITableViewStyleGrouped] autorelease];
     menuController.title = @"Spoke Length Calculator";

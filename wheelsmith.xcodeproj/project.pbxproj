@@ -152,6 +152,7 @@
 		DF0CE7D40FB1E7D300701164 /* ObjectiveResourceDateFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectiveResourceDateFormatter.h; sourceTree = "<group>"; };
 		DF0CE7D50FB1E7D300701164 /* ObjectiveResourceDateFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectiveResourceDateFormatter.m; sourceTree = "<group>"; };
 		DF0CE7D60FB1E7D300701164 /* ObjectiveSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectiveSupport.h; sourceTree = "<group>"; };
+		DF0CE8D30FB2FF8F00701164 /* WheelDetailDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WheelDetailDelegate.h; sourceTree = "<group>"; };
 		DF4665120FAEB1A200172895 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DF58D9210FAF693900C2F546 /* app_icon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app_icon2.png; sourceTree = "<group>"; };
 		DF7B11470FAEA80F007FF0CA /* Unit Tests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Unit Tests.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -419,6 +420,7 @@
 				DF7B11FF0FAEA9A3007FF0CA /* Wheel.m */,
 				DF7B12000FAEA9A3007FF0CA /* WheelDetailController.h */,
 				DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */,
+				DF0CE8D30FB2FF8F00701164 /* WheelDetailDelegate.h */,
 				DFAAA5A40FAF57F400699647 /* EditWheelDelegate.h */,
 			);
 			path = Classes;

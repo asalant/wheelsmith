@@ -6,7 +6,7 @@
 @implementation WheelDetailController
 
 @synthesize wheel;
-@synthesize rimDetailController, hubDetailController, rimBrandsController, hubBrandsController;
+@synthesize rimDetailController, hubDetailController, rimBrandsController, hubBrandsController, delegate;
 
 - (id)initWithStyle:(UITableViewStyle)style {
     if (self = [super initWithStyle:style]) {
@@ -73,6 +73,7 @@
 - (void) saveWheel {
     [self.wheel create];
     [self dismissModal];
+    [delegate afterAddWheel:self.wheel];
 }
 
 #pragma mark EditWheelDelegate methods
