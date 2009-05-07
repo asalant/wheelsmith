@@ -3,7 +3,18 @@
 #import "Database.h"
 #import "DatabaseResultSet.h"
 
+static NSDateFormatter *dateFormatter;
+
 @implementation Database
+
++(NSString *)sqlDate:(NSDate *)date {
+    if (!dateFormatter) {
+        dateFormatter = [[NSDateFormatter alloc] init];
+        [dateFormatter setFormatterBehavior:NSDateFormatterBehavior10_4];
+        [dateFormatter setDateFormat:@"yyyy-MM-dd HH:mm:ss"];
+    }
+    return [dateFormatter stringFromDate:date];
+}
 
 - (id) initWithName:(NSString *)name {
     BOOL overwrite = YES; // Always start with clean DB in Documents for now

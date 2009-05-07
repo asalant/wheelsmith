@@ -1,8 +1,149 @@
 #import "DomainObject.h"
+#import "Database.h"
+
+static Database *database;
 
 @implementation DomainObject
 
 @synthesize pk, createdAt, updatedAt;
+
++ (void) setDbName:(NSString *)name {
+    database = [[Database alloc] initWithName:name];
+}
+
++ (NSDictionary *) dataMap {
+    @throw [NSException exceptionWithName:@"PersistenceException"
+                                   reason:[NSString stringWithFormat:@"Implement +dataMap in %@ to define OR mapping.", [self class]]
+                                 userInfo:nil];
+    
+}
+
++ (NSString *) tableName {
+    return [[[self className] lowercaseString] pluralize];
+}
+
++ (NSArray *) findAllOrderBy:(NSString *)order {
+    return [self findByCriteria:nil orderBy:order];
+}
+
++ (id) find:(NSNumber *)pk {
+    return [self findFirstByCriteria:[NSString stringWithFormat:@"id = %@", pk] orderBy:nil];
+}
+
++ (NSArray *)findByCriteria:(NSString *)criteria orderBy:(NSString *)order {
+    NSString *query = [NSString stringWithFormat:@"SELECT %@ FROM %@",
+                       [[[self dataMap] allKeys] componentsJoinedByString:@", "], 
+                       [self tableName]];
+    if (criteria) {
+        query = [NSString stringWithFormat:@"%@ WHERE %@", query, criteria];
+    }
+    if (order) {
+        query = [NSString stringWithFormat:@"%@ ORDER BY %@", query, order];
+    }
+    return [self select:query rowHandler:@selector(readFromRow:)];
+}
+
++ (id)findFirstByCriteria:(NSString *)criteria orderBy:(NSString *)order {
+    NSArray *results =  [self findByCriteria:criteria orderBy:order];
+    if (results.count == 0) 
+        return nil;
+    else
+        return [results objectAtIndex:0];
+}
+
++ (NSArray *) select:(NSString *)query rowHandler:(SEL)selector {
+    return [database execute:query delegate:self rowHandler:selector];
+}
+
++ (id) readFromRow:(DatabaseResultSet *)result {
+    NSDictionary *dataMap = [self dataMap];
+    NSArray *columnNames = [dataMap allKeys];
+    id instance = [[[self alloc] init] autorelease];
+    for (int i = 0; i < columnNames.count; i++) {
+        NSString *columnName = [columnNames objectAtIndex:i];
+        NSString *property = [[dataMap valueForKey:columnName] objectAtIndex:0];
+        NSString *type = [[dataMap valueForKey:columnName] objectAtIndex:1];
+        if ([type isEqual:@"string"]) {
+            [instance setValue:[result stringAt:i] forKey:property];
+        }
+        else if ([type isEqual:@"integer"]) {
+            [instance setValue:[result integerAt:i] forKey:property];
+        }
+        else if ([type isEqual:@"float"]) {
+            [instance setValue:[result doubleAt:i] forKey:property];
+        }
+        else if ([type isEqual:@"datetime"]) {
+            [instance setValue:[result dateAt:i] forKey:property];
+        }
+        else if ([type isEqual:@"boolean"]) {
+            [instance setValue:[NSNumber numberWithBool:[result booleanAt:i]] forKey:property];
+        }
+    }
+    return instance;
+}
+
+-(void)create {
+    self.createdAt = [NSDate date];
+    self.updatedAt = self.createdAt;
+    NSMutableDictionary *dataMap = [NSMutableDictionary dictionaryWithDictionary:[[self class] dataMap]];
+    [dataMap removeObjectForKey:@"id"];
+    NSArray *values = [self valuesForColumns:[dataMap allKeys]];
+    NSString *insert = [NSString stringWithFormat:@"INSERT INTO %@ (%@) VALUES (%@)",
+                        [[self class] tableName],
+                        [[dataMap allKeys] componentsJoinedByString:@", "],
+                        [values componentsJoinedByString:@", "]];
+    [database execute:insert delegate:nil rowHandler:nil];
+    
+    id created = [[self class] findFirstByCriteria:[NSString stringWithFormat:@"created_at = %.6f", [self.createdAt timeIntervalSince1970]]
+                                           orderBy:nil];
+    self.pk = [created valueForKey:@"pk"];
+}
+
+-(NSArray *)valuesForColumns:(NSArray *)columnNames {
+    
+    NSMutableArray *values = [NSMutableArray array];
+    NSDictionary *dataMap = [[self class] dataMap];
+    for (id columnName in columnNames) {
+        id value = [self valueForKey:[[dataMap valueForKey:columnName] objectAtIndex:0]];
+        NSString *type = [[dataMap valueForKey:columnName] objectAtIndex:1];
+        if (!value) {
+            [values addObject:@"NULL"];
+        }
+        else if ([type isEqual:@"string"]) {
+            
+        }
+        else if ([type isEqual:@"integer"]) {
+            [values addObject:[NSString stringWithFormat:@"%d", [value intValue]]];
+        }
+        else if ([type isEqual:@"float"]) {
+            [values addObject:[NSString stringWithFormat:@"%f", [value doubleValue]]];
+        }
+        else if ([type isEqual:@"datetime"]) {
+            [values addObject:[NSString stringWithFormat:@"%.6f", [value timeIntervalSince1970]]];
+        }
+        else if ([type isEqual:@"boolean"]) {
+            [values addObject:[NSString stringWithFormat:@"%@", [value boolValue]]];
+        }
+    }
+    return values;
+}
+
+-(void) update {
+    self.updatedAt = [NSDate date];
+    NSMutableDictionary *dataMap = [NSMutableDictionary dictionaryWithDictionary:[[self class] dataMap]];
+    [dataMap removeObjectForKey:@"id"];
+    NSArray *columnNames = [dataMap allKeys];
+    NSArray *values = [self valuesForColumns:columnNames];
+    NSMutableArray *updates = [NSMutableArray array];
+    for (int i = 0; i < columnNames.count; i++) {
+        [updates addObject:[NSString stringWithFormat:@"%@=%@", [columnNames objectAtIndex:i], [values objectAtIndex:i]]];
+    }
+    NSString *update = [NSString stringWithFormat:@"UPDATE %@ SET %@ WHERE id = %d",
+                        [[self class] tableName],
+                        [updates componentsJoinedByString:@", "],
+                        [self.pk intValue]];
+    [database execute:update delegate:nil rowHandler:nil];
+}
 
 -(void)dealloc {
     [pk release];

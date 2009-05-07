@@ -3,7 +3,6 @@
 #import <hamcrest/hamcrest.h>
 
 #import "DomainObject.h"
-#import "DomainObject+Persistent.h"
 
 
 @interface DomainObjectTest : SenTestCase {}

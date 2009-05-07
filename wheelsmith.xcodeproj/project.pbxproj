@@ -27,7 +27,6 @@
 		DF7B12130FAEA9A3007FF0CA /* BrandListController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B11D30FAEA9A3007FF0CA /* BrandListController.m */; };
 		DF7B12140FAEA9A3007FF0CA /* Database.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B11D50FAEA9A3007FF0CA /* Database.m */; };
 		DF7B12150FAEA9A3007FF0CA /* DatabaseResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B11D70FAEA9A3007FF0CA /* DatabaseResultSet.m */; };
-		DF7B12160FAEA9A3007FF0CA /* DomainObject+Persistent.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B11D90FAEA9A3007FF0CA /* DomainObject+Persistent.m */; };
 		DF7B12170FAEA9A3007FF0CA /* DomainObject.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B11DB0FAEA9A3007FF0CA /* DomainObject.m */; };
 		DF7B12180FAEA9A3007FF0CA /* Hub.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B11DD0FAEA9A3007FF0CA /* Hub.m */; };
 		DF7B12190FAEA9A3007FF0CA /* HubBrandsController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B11DF0FAEA9A3007FF0CA /* HubBrandsController.m */; };
@@ -58,7 +57,6 @@
 		DF7B12390FAEA9A3007FF0CA /* BrandListController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B11D30FAEA9A3007FF0CA /* BrandListController.m */; };
 		DF7B123A0FAEA9A3007FF0CA /* Database.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B11D50FAEA9A3007FF0CA /* Database.m */; };
 		DF7B123B0FAEA9A3007FF0CA /* DatabaseResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B11D70FAEA9A3007FF0CA /* DatabaseResultSet.m */; };
-		DF7B123C0FAEA9A3007FF0CA /* DomainObject+Persistent.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B11D90FAEA9A3007FF0CA /* DomainObject+Persistent.m */; };
 		DF7B123D0FAEA9A3007FF0CA /* DomainObject.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B11DB0FAEA9A3007FF0CA /* DomainObject.m */; };
 		DF7B123E0FAEA9A3007FF0CA /* Hub.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B11DD0FAEA9A3007FF0CA /* Hub.m */; };
 		DF7B123F0FAEA9A3007FF0CA /* HubBrandsController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B11DF0FAEA9A3007FF0CA /* HubBrandsController.m */; };
@@ -163,8 +161,6 @@
 		DF7B11D50FAEA9A3007FF0CA /* Database.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Database.m; sourceTree = "<group>"; };
 		DF7B11D60FAEA9A3007FF0CA /* DatabaseResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatabaseResultSet.h; sourceTree = "<group>"; };
 		DF7B11D70FAEA9A3007FF0CA /* DatabaseResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatabaseResultSet.m; sourceTree = "<group>"; };
-		DF7B11D80FAEA9A3007FF0CA /* DomainObject+Persistent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DomainObject+Persistent.h"; sourceTree = "<group>"; };
-		DF7B11D90FAEA9A3007FF0CA /* DomainObject+Persistent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DomainObject+Persistent.m"; sourceTree = "<group>"; };
 		DF7B11DA0FAEA9A3007FF0CA /* DomainObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DomainObject.h; sourceTree = "<group>"; };
 		DF7B11DB0FAEA9A3007FF0CA /* DomainObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DomainObject.m; sourceTree = "<group>"; };
 		DF7B11DC0FAEA9A3007FF0CA /* Hub.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hub.h; sourceTree = "<group>"; };
@@ -378,8 +374,6 @@
 				DF7B11D50FAEA9A3007FF0CA /* Database.m */,
 				DF7B11D60FAEA9A3007FF0CA /* DatabaseResultSet.h */,
 				DF7B11D70FAEA9A3007FF0CA /* DatabaseResultSet.m */,
-				DF7B11D80FAEA9A3007FF0CA /* DomainObject+Persistent.h */,
-				DF7B11D90FAEA9A3007FF0CA /* DomainObject+Persistent.m */,
 				DF7B11DA0FAEA9A3007FF0CA /* DomainObject.h */,
 				DF7B11DB0FAEA9A3007FF0CA /* DomainObject.m */,
 				DF7B11DC0FAEA9A3007FF0CA /* Hub.h */,
@@ -706,7 +700,6 @@
 				DF7B12390FAEA9A3007FF0CA /* BrandListController.m in Sources */,
 				DF7B123A0FAEA9A3007FF0CA /* Database.m in Sources */,
 				DF7B123B0FAEA9A3007FF0CA /* DatabaseResultSet.m in Sources */,
-				DF7B123C0FAEA9A3007FF0CA /* DomainObject+Persistent.m in Sources */,
 				DF7B123D0FAEA9A3007FF0CA /* DomainObject.m in Sources */,
 				DF7B123E0FAEA9A3007FF0CA /* Hub.m in Sources */,
 				DF7B123F0FAEA9A3007FF0CA /* HubBrandsController.m in Sources */,
@@ -743,7 +736,6 @@
 				DF7B12130FAEA9A3007FF0CA /* BrandListController.m in Sources */,
 				DF7B12140FAEA9A3007FF0CA /* Database.m in Sources */,
 				DF7B12150FAEA9A3007FF0CA /* DatabaseResultSet.m in Sources */,
-				DF7B12160FAEA9A3007FF0CA /* DomainObject+Persistent.m in Sources */,
 				DF7B12170FAEA9A3007FF0CA /* DomainObject.m in Sources */,
 				DF7B12180FAEA9A3007FF0CA /* Hub.m in Sources */,
 				DF7B12190FAEA9A3007FF0CA /* HubBrandsController.m in Sources */,

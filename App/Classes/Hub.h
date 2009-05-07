@@ -1,5 +1,5 @@
 #import <Foundation/Foundation.h>
-#import "DomainObject+Persistent.h"
+#import "DomainObject.h"
 
 @interface Hub : DomainObject {
     NSString *brand;

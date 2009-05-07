@@ -47,7 +47,7 @@
     if (sqlite3_column_text(dbps, column) == nil)
         return nil;
     
-    return [NSDate dateWithTimeIntervalSince1970:sqlite3_column_int(dbps, column)];
+    return [NSDate dateWithTimeIntervalSince1970:sqlite3_column_double(dbps, column)];
 }
 
 - (void) dealloc {

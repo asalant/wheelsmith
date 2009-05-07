@@ -1,6 +1,7 @@
 #import <Foundation/Foundation.h>
 #import "Hub.h"
 #import "Rim.h"
+#import "DomainObject.h"
 
 @interface Wheel : DomainObject {
     NSNumber *spokePattern;

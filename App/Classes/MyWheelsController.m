@@ -23,7 +23,8 @@
     NSMutableArray *updated = [NSMutableArray arrayWithArray:self.wheels];
     [updated insertObject:theWheel atIndex:0];
     self.wheels = updated;
-    [self.tableView reloadData];
+    [self.tableView insertRowsAtIndexPaths:[NSArray arrayWithObject:[NSIndexPath indexPathForRow:0 inSection:0]]
+                          withRowAnimation:UITableViewRowAnimationFade];
 }
 
 -(void) afterEditWheel:(Wheel *)theWheel {

@@ -25,7 +25,7 @@
 
 
 - (void) testHydratesWheel {
-    Wheel *wheel = [[Wheel findAllOrderBy:nil] objectAtIndex:0];
+    Wheel *wheel = [Wheel findFirstByCriteria:@"spoke_pattern = 0" orderBy:nil];
     assertThat(wheel.spokePattern, equalTo([NSNumber numberWithInt:0]));
     assertThat(wheel.hub, notNilValue());
     assertThat(wheel.hubId, is(wheel.hub.pk));
@@ -45,14 +45,35 @@
     wheel.rim = [[Rim findAllOrderBy:nil] objectAtIndex:0];
     wheel.hub = [[Hub findAllOrderBy:nil] objectAtIndex:0];
     wheel.spokePattern = [NSNumber numberWithInt:3];
+    NSDate *before = [NSDate date];
     [wheel create];
     assertThat(wheel.pk, notNilValue());
+    assertThat([NSNumber numberWithBool:[wheel.createdAt isGreaterThan:before]],
+               is([NSNumber numberWithBool:YES]));
     
     Wheel *saved = [Wheel find:wheel.pk];
     assertThat(saved, notNilValue());
     assertThat(saved.spokePattern, is([NSNumber numberWithInt:3]));
+    assertThat([saved.updatedAt description], is([wheel.updatedAt description]));
+    assertThat([saved.createdAt description], is([wheel.createdAt description]));
     assertThat(saved.rim, notNilValue());
     assertThat(saved.hub, notNilValue());
+}
+
+-(void)testUpdatesWheel {
+    Wheel *wheel = [Wheel findFirstByCriteria:@"spoke_pattern = 0" orderBy:nil];
+    NSDate *lastCreatedAt = wheel.createdAt;
+    NSDate *lastUpdatedAt = wheel.updatedAt;
+    wheel.spokePattern = [NSNumber numberWithInt:3];
+    [wheel update];
+    assertThat(wheel.createdAt, is(lastCreatedAt));
+    assertThat([NSNumber numberWithBool:[wheel.updatedAt isGreaterThan:lastUpdatedAt]], 
+               is([NSNumber numberWithBool:YES]));
+    
+    Wheel *updated = [Wheel find:wheel.pk];
+    assertThat([updated.updatedAt description], is([wheel.updatedAt description]));
+    assertThat(updated.spokePattern, is(wheel.spokePattern));
+    
 }
 
 - (void) testCalculatesSpokeLength {
