@@ -8,9 +8,9 @@
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
 		activeBuildConfigurationName = Debug;
-		activeExecutable = DF7B11480FAEA80F007FF0CA /* Unit Tests */;
+		activeExecutable = DF7B10A80FAEA69B007FF0CA /* Wheelsmith */;
 		activeSDKPreference = iphonesimulator2.2.1;
-		activeTarget = DF7B11460FAEA80F007FF0CA /* Unit Tests */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* Wheelsmith */;
 		addToTargets = (
 			DF7B11460FAEA80F007FF0CA /* Unit Tests */,
 			1D6058900D05DD3D006BFB54 /* Wheelsmith */,
@@ -334,6 +334,44 @@
 			DF29BAD40FB37FAA000EB5B8 /* PBXTextBookmark */ = DF29BAD40FB37FAA000EB5B8 /* PBXTextBookmark */;
 			DF29BAD50FB37FAA000EB5B8 /* PBXTextBookmark */ = DF29BAD50FB37FAA000EB5B8 /* PBXTextBookmark */;
 			DF29BAD60FB37FAA000EB5B8 /* PBXTextBookmark */ = DF29BAD60FB37FAA000EB5B8 /* PBXTextBookmark */;
+			DF29BADA0FB381EF000EB5B8 /* PBXTextBookmark */ = DF29BADA0FB381EF000EB5B8 /* PBXTextBookmark */;
+			DF29BADB0FB381EF000EB5B8 /* PBXTextBookmark */ = DF29BADB0FB381EF000EB5B8 /* PBXTextBookmark */;
+			DF29BADC0FB381EF000EB5B8 /* PBXTextBookmark */ = DF29BADC0FB381EF000EB5B8 /* PBXTextBookmark */;
+			DF29BADD0FB381EF000EB5B8 /* PBXTextBookmark */ = DF29BADD0FB381EF000EB5B8 /* PBXTextBookmark */;
+			DF29BADE0FB381EF000EB5B8 /* PBXTextBookmark */ = DF29BADE0FB381EF000EB5B8 /* PBXTextBookmark */;
+			DF29BADF0FB381EF000EB5B8 /* PBXTextBookmark */ = DF29BADF0FB381EF000EB5B8 /* PBXTextBookmark */;
+			DF29BAE00FB381EF000EB5B8 /* PBXTextBookmark */ = DF29BAE00FB381EF000EB5B8 /* PBXTextBookmark */;
+			DF29BAE10FB381EF000EB5B8 /* PBXTextBookmark */ = DF29BAE10FB381EF000EB5B8 /* PBXTextBookmark */;
+			DF29BAE20FB381EF000EB5B8 /* PBXTextBookmark */ = DF29BAE20FB381EF000EB5B8 /* PBXTextBookmark */;
+			DF29BAE30FB381F0000EB5B8 /* PBXTextBookmark */ = DF29BAE30FB381F0000EB5B8 /* PBXTextBookmark */;
+			DF29BAE40FB3820E000EB5B8 /* PBXTextBookmark */ = DF29BAE40FB3820E000EB5B8 /* PBXTextBookmark */;
+			DF29BAE50FB3820E000EB5B8 /* PBXTextBookmark */ = DF29BAE50FB3820E000EB5B8 /* PBXTextBookmark */;
+			DF29BAE60FB3820E000EB5B8 /* PBXTextBookmark */ = DF29BAE60FB3820E000EB5B8 /* PBXTextBookmark */;
+			DF29BAE70FB3820E000EB5B8 /* PBXTextBookmark */ = DF29BAE70FB3820E000EB5B8 /* PBXTextBookmark */;
+			DF29BAE90FB3822B000EB5B8 /* PBXTextBookmark */ = DF29BAE90FB3822B000EB5B8 /* PBXTextBookmark */;
+			DF29BAEA0FB3822B000EB5B8 /* PBXTextBookmark */ = DF29BAEA0FB3822B000EB5B8 /* PBXTextBookmark */;
+			DF29BAEB0FB3822B000EB5B8 /* PBXTextBookmark */ = DF29BAEB0FB3822B000EB5B8 /* PBXTextBookmark */;
+			DF29BAEC0FB3822B000EB5B8 /* PBXTextBookmark */ = DF29BAEC0FB3822B000EB5B8 /* PBXTextBookmark */;
+			DF29BAED0FB3822B000EB5B8 /* PBXTextBookmark */ = DF29BAED0FB3822B000EB5B8 /* PBXTextBookmark */;
+			DF29BAEE0FB3822B000EB5B8 /* PBXTextBookmark */ = DF29BAEE0FB3822B000EB5B8 /* PBXTextBookmark */;
+			DF29BAEF0FB38266000EB5B8 /* PBXTextBookmark */ = DF29BAEF0FB38266000EB5B8 /* PBXTextBookmark */;
+			DF29BAF00FB38266000EB5B8 /* PBXTextBookmark */ = DF29BAF00FB38266000EB5B8 /* PBXTextBookmark */;
+			DF29BAF20FB382AC000EB5B8 /* PBXTextBookmark */ = DF29BAF20FB382AC000EB5B8 /* PBXTextBookmark */;
+			DF29BAF30FB382AC000EB5B8 /* PBXTextBookmark */ = DF29BAF30FB382AC000EB5B8 /* PBXTextBookmark */;
+			DF29BAF40FB382AC000EB5B8 /* PBXTextBookmark */ = DF29BAF40FB382AC000EB5B8 /* PBXTextBookmark */;
+			DF29BAF50FB382AC000EB5B8 /* PBXTextBookmark */ = DF29BAF50FB382AC000EB5B8 /* PBXTextBookmark */;
+			DF29BAF60FB382AC000EB5B8 /* PBXTextBookmark */ = DF29BAF60FB382AC000EB5B8 /* PBXTextBookmark */;
+			DF29BAF70FB382AD000EB5B8 /* PBXTextBookmark */ = DF29BAF70FB382AD000EB5B8 /* PBXTextBookmark */;
+			DF29BAF80FB382D6000EB5B8 /* PBXTextBookmark */ = DF29BAF80FB382D6000EB5B8 /* PBXTextBookmark */;
+			DF29BAF90FB3830D000EB5B8 /* PBXTextBookmark */ = DF29BAF90FB3830D000EB5B8 /* PBXTextBookmark */;
+			DF29BAFA0FB3830D000EB5B8 /* PBXTextBookmark */ = DF29BAFA0FB3830D000EB5B8 /* PBXTextBookmark */;
+			DF29BAFC0FB38358000EB5B8 /* PBXTextBookmark */ = DF29BAFC0FB38358000EB5B8 /* PBXTextBookmark */;
+			DF29BAFD0FB38358000EB5B8 /* PBXTextBookmark */ = DF29BAFD0FB38358000EB5B8 /* PBXTextBookmark */;
+			DF29BAFE0FB38358000EB5B8 /* PBXTextBookmark */ = DF29BAFE0FB38358000EB5B8 /* PBXTextBookmark */;
+			DF29BAFF0FB38358000EB5B8 /* PBXTextBookmark */ = DF29BAFF0FB38358000EB5B8 /* PBXTextBookmark */;
+			DF29BB000FB38358000EB5B8 /* PBXTextBookmark */ = DF29BB000FB38358000EB5B8 /* PBXTextBookmark */;
+			DF29BB010FB38358000EB5B8 /* PBXTextBookmark */ = DF29BB010FB38358000EB5B8 /* PBXTextBookmark */;
+			DF29BB020FB38358000EB5B8 /* PBXTextBookmark */ = DF29BB020FB38358000EB5B8 /* PBXTextBookmark */;
 			DF4664E20FAEB02400172895 = DF4664E20FAEB02400172895 /* PBXBookmark */;
 			DF4664E40FAEB02400172895 = DF4664E40FAEB02400172895 /* PBXTextBookmark */;
 			DF4664E50FAEB02400172895 = DF4664E50FAEB02400172895 /* PBXBookmark */;
@@ -551,9 +589,9 @@
 	};
 	DF0CE7D10FB1E7D300701164 /* NSObject+PropertySupport.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1219, 1376}}";
+			sepNavIntBoundsRect = "{{0, 0}, {938, 1280}}";
 			sepNavSelRange = "{1269, 0}";
-			sepNavVisRange = "{1025, 376}";
+			sepNavVisRange = "{290, 1111}";
 		};
 	};
 	DF0CE86D0FB23D0600701164 /* PBXTextBookmark */ = {
@@ -1481,9 +1519,9 @@
 	};
 	DF0CE8D30FB2FF8F00701164 /* WheelDetailDelegate.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {831, 590}}";
-			sepNavSelRange = "{109, 0}";
-			sepNavVisRange = "{0, 116}";
+			sepNavIntBoundsRect = "{{0, 0}, {938, 319}}";
+			sepNavSelRange = "{53, 0}";
+			sepNavVisRange = "{0, 121}";
 		};
 	};
 	DF29B99B0FB30DCE000EB5B8 /* PBXTextBookmark */ = {
@@ -1491,7 +1529,7 @@
 		fRef = DF0CE8D30FB2FF8F00701164 /* WheelDetailDelegate.h */;
 		name = "WheelDetailDelegate.h: 3";
 		rLen = 0;
-		rLoc = 109;
+		rLoc = 114;
 		rType = 0;
 		vrLen = 116;
 		vrLoc = 0;
@@ -1511,7 +1549,7 @@
 		fRef = DF7B11E90FAEA9A3007FF0CA /* MyWheelsController.m */;
 		name = "MyWheelsController.m: 36";
 		rLen = 0;
-		rLoc = 1279;
+		rLoc = 1312;
 		rType = 0;
 		vrLen = 919;
 		vrLoc = 0;
@@ -1541,7 +1579,7 @@
 		comments = "warning: '-release' not found in protocol(s)";
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		rLen = 0;
-		rLoc = 167;
+		rLoc = 179;
 		rType = 1;
 	};
 	DF29B9A10FB30DCE000EB5B8 /* PBXTextBookmark */ = {
@@ -1559,7 +1597,7 @@
 		fRef = DF0CE8D30FB2FF8F00701164 /* WheelDetailDelegate.h */;
 		name = "WheelDetailDelegate.h: 3";
 		rLen = 0;
-		rLoc = 109;
+		rLoc = 114;
 		rType = 0;
 		vrLen = 116;
 		vrLoc = 0;
@@ -1579,7 +1617,7 @@
 		fRef = DF7B11E90FAEA9A3007FF0CA /* MyWheelsController.m */;
 		name = "MyWheelsController.m: 36";
 		rLen = 0;
-		rLoc = 1279;
+		rLoc = 1312;
 		rType = 0;
 		vrLen = 919;
 		vrLoc = 0;
@@ -1619,7 +1657,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 168";
 		rLen = 0;
-		rLoc = 6297;
+		rLoc = 6639;
 		rType = 0;
 		vrLen = 663;
 		vrLoc = 5660;
@@ -1629,7 +1667,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 168";
 		rLen = 0;
-		rLoc = 6297;
+		rLoc = 6639;
 		rType = 0;
 		vrLen = 502;
 		vrLoc = 5827;
@@ -1639,7 +1677,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 168";
 		rLen = 0;
-		rLoc = 6297;
+		rLoc = 6639;
 		rType = 0;
 		vrLen = 231;
 		vrLoc = 6091;
@@ -1649,7 +1687,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 168";
 		rLen = 0;
-		rLoc = 6297;
+		rLoc = 6639;
 		rType = 0;
 		vrLen = 938;
 		vrLoc = 3227;
@@ -1659,7 +1697,7 @@
 		fRef = DF7B11E90FAEA9A3007FF0CA /* MyWheelsController.m */;
 		name = "MyWheelsController.m: 36";
 		rLen = 0;
-		rLoc = 1279;
+		rLoc = 1312;
 		rType = 0;
 		vrLen = 919;
 		vrLoc = 0;
@@ -1669,7 +1707,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 168";
 		rLen = 0;
-		rLoc = 6297;
+		rLoc = 6639;
 		rType = 0;
 		vrLen = 938;
 		vrLoc = 3227;
@@ -1679,7 +1717,7 @@
 		fRef = DF7B11E90FAEA9A3007FF0CA /* MyWheelsController.m */;
 		name = "MyWheelsController.m: 27";
 		rLen = 0;
-		rLoc = 1071;
+		rLoc = 1074;
 		rType = 0;
 		vrLen = 929;
 		vrLoc = 517;
@@ -1689,7 +1727,7 @@
 		fRef = DF7B11E90FAEA9A3007FF0CA /* MyWheelsController.m */;
 		name = "MyWheelsController.m: 27";
 		rLen = 0;
-		rLoc = 1071;
+		rLoc = 1074;
 		rType = 0;
 		vrLen = 1085;
 		vrLoc = 257;
@@ -1699,7 +1737,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 168";
 		rLen = 0;
-		rLoc = 6297;
+		rLoc = 6639;
 		rType = 0;
 		vrLen = 234;
 		vrLoc = 6095;
@@ -1709,7 +1747,7 @@
 		fRef = DF7B11E90FAEA9A3007FF0CA /* MyWheelsController.m */;
 		name = "MyWheelsController.m: 27";
 		rLen = 0;
-		rLoc = 1071;
+		rLoc = 1074;
 		rType = 0;
 		vrLen = 404;
 		vrLoc = 737;
@@ -1719,7 +1757,7 @@
 		fRef = DF7B11E90FAEA9A3007FF0CA /* MyWheelsController.m */;
 		name = "MyWheelsController.m: 27";
 		rLen = 0;
-		rLoc = 1071;
+		rLoc = 1074;
 		rType = 0;
 		vrLen = 446;
 		vrLoc = 695;
@@ -1729,7 +1767,7 @@
 		fRef = DF7B11E90FAEA9A3007FF0CA /* MyWheelsController.m */;
 		name = "MyWheelsController.m: 26";
 		rLen = 0;
-		rLoc = 1071;
+		rLoc = 1074;
 		rType = 0;
 		vrLen = 1097;
 		vrLoc = 257;
@@ -1739,7 +1777,7 @@
 		fRef = DF7B11E90FAEA9A3007FF0CA /* MyWheelsController.m */;
 		name = "MyWheelsController.m: 26";
 		rLen = 0;
-		rLoc = 1071;
+		rLoc = 1074;
 		rType = 0;
 		vrLen = 1024;
 		vrLoc = 256;
@@ -1749,7 +1787,7 @@
 		fRef = DF7B11E90FAEA9A3007FF0CA /* MyWheelsController.m */;
 		name = "MyWheelsController.m: 26";
 		rLen = 0;
-		rLoc = 1071;
+		rLoc = 1074;
 		rType = 0;
 		vrLen = 1023;
 		vrLoc = 256;
@@ -1759,7 +1797,7 @@
 		fRef = DF7B11E90FAEA9A3007FF0CA /* MyWheelsController.m */;
 		name = "MyWheelsController.m: 27";
 		rLen = 0;
-		rLoc = 1071;
+		rLoc = 1074;
 		rType = 0;
 		vrLen = 431;
 		vrLoc = 694;
@@ -1769,7 +1807,7 @@
 		fRef = DF7B11E90FAEA9A3007FF0CA /* MyWheelsController.m */;
 		name = "MyWheelsController.m: 31";
 		rLen = 0;
-		rLoc = 1073;
+		rLoc = 1076;
 		rType = 0;
 		vrLen = 1036;
 		vrLoc = 209;
@@ -1779,7 +1817,7 @@
 		fRef = DF7B11E90FAEA9A3007FF0CA /* MyWheelsController.m */;
 		name = "MyWheelsController.m: 31";
 		rLen = 0;
-		rLoc = 1073;
+		rLoc = 1076;
 		rType = 0;
 		vrLen = 783;
 		vrLoc = 650;
@@ -1789,7 +1827,7 @@
 		fRef = DF7B11E90FAEA9A3007FF0CA /* MyWheelsController.m */;
 		name = "MyWheelsController.m: 32";
 		rLen = 0;
-		rLoc = 1073;
+		rLoc = 1076;
 		rType = 0;
 		vrLen = 779;
 		vrLoc = 650;
@@ -1799,7 +1837,7 @@
 		fRef = DF7B11E90FAEA9A3007FF0CA /* MyWheelsController.m */;
 		name = "MyWheelsController.m: 31";
 		rLen = 0;
-		rLoc = 1073;
+		rLoc = 1076;
 		rType = 0;
 		vrLen = 658;
 		vrLoc = 650;
@@ -1809,7 +1847,7 @@
 		fRef = DF7B11E90FAEA9A3007FF0CA /* MyWheelsController.m */;
 		name = "MyWheelsController.m: 28";
 		rLen = 0;
-		rLoc = 1073;
+		rLoc = 1076;
 		rType = 0;
 		vrLen = 737;
 		vrLoc = 650;
@@ -1819,7 +1857,7 @@
 		fRef = DF7B11E90FAEA9A3007FF0CA /* MyWheelsController.m */;
 		name = "MyWheelsController.m: 28";
 		rLen = 0;
-		rLoc = 1073;
+		rLoc = 1076;
 		rType = 0;
 		vrLen = 473;
 		vrLoc = 653;
@@ -1829,7 +1867,7 @@
 		fRef = DF7B11E90FAEA9A3007FF0CA /* MyWheelsController.m */;
 		name = "MyWheelsController.m: 28";
 		rLen = 0;
-		rLoc = 1073;
+		rLoc = 1076;
 		rType = 0;
 		vrLen = 1264;
 		vrLoc = 208;
@@ -1839,7 +1877,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 83";
 		rLen = 0;
-		rLoc = 3434;
+		rLoc = 3550;
 		rType = 0;
 		vrLen = 1152;
 		vrLoc = 3051;
@@ -1939,7 +1977,7 @@
 		fRef = DF7B11E90FAEA9A3007FF0CA /* MyWheelsController.m */;
 		name = "MyWheelsController.m: 28";
 		rLen = 0;
-		rLoc = 1073;
+		rLoc = 1076;
 		rType = 0;
 		vrLen = 1264;
 		vrLoc = 208;
@@ -1949,7 +1987,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 83";
 		rLen = 0;
-		rLoc = 3434;
+		rLoc = 3550;
 		rType = 0;
 		vrLen = 1152;
 		vrLoc = 3051;
@@ -2149,7 +2187,7 @@
 		fRef = DF7B11E90FAEA9A3007FF0CA /* MyWheelsController.m */;
 		name = "MyWheelsController.m: 28";
 		rLen = 0;
-		rLoc = 1073;
+		rLoc = 1076;
 		rType = 0;
 		vrLen = 454;
 		vrLoc = 695;
@@ -2995,6 +3033,386 @@
 		vrLen = 1103;
 		vrLoc = 1486;
 	};
+	DF29BADA0FB381EF000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B126E0FAEA9B5007FF0CA /* WheelTest.m */;
+		name = "WheelTest.m: 75";
+		rLen = 0;
+		rLoc = 2541;
+		rType = 0;
+		vrLen = 946;
+		vrLoc = 2889;
+	};
+	DF29BADB0FB381EF000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DFAAA5A40FAF57F400699647 /* EditWheelDelegate.h */;
+		name = "EditWheelDelegate.h: 2";
+		rLen = 0;
+		rLoc = 31;
+		rType = 0;
+		vrLen = 160;
+		vrLoc = 0;
+	};
+	DF29BADC0FB381EF000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF0CE8D30FB2FF8F00701164 /* WheelDetailDelegate.h */;
+		name = "WheelDetailDelegate.h: 2";
+		rLen = 0;
+		rLoc = 53;
+		rType = 0;
+		vrLen = 121;
+		vrLoc = 0;
+	};
+	DF29BADD0FB381EF000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
+		name = "WheelDetailController.m: 86";
+		rLen = 0;
+		rLoc = 3550;
+		rType = 0;
+		vrLen = 567;
+		vrLoc = 3341;
+	};
+	DF29BADE0FB381EF000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B11E90FAEA9A3007FF0CA /* MyWheelsController.m */;
+		name = "MyWheelsController.m: 33";
+		rLen = 0;
+		rLoc = 1155;
+		rType = 0;
+		vrLen = 853;
+		vrLoc = 694;
+	};
+	DF29BADF0FB381EF000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B126E0FAEA9B5007FF0CA /* WheelTest.m */;
+		name = "WheelTest.m: 75";
+		rLen = 0;
+		rLoc = 2541;
+		rType = 0;
+		vrLen = 946;
+		vrLoc = 2889;
+	};
+	DF29BAE00FB381EF000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DFAAA5A40FAF57F400699647 /* EditWheelDelegate.h */;
+		name = "EditWheelDelegate.h: 2";
+		rLen = 0;
+		rLoc = 31;
+		rType = 0;
+		vrLen = 160;
+		vrLoc = 0;
+	};
+	DF29BAE10FB381EF000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
+		name = "WheelDetailController.m: 86";
+		rLen = 0;
+		rLoc = 3550;
+		rType = 0;
+		vrLen = 567;
+		vrLoc = 3341;
+	};
+	DF29BAE20FB381EF000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B11E90FAEA9A3007FF0CA /* MyWheelsController.m */;
+		name = "MyWheelsController.m: 33";
+		rLen = 0;
+		rLoc = 1155;
+		rType = 0;
+		vrLen = 852;
+		vrLoc = 695;
+	};
+	DF29BAE30FB381F0000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B11E90FAEA9A3007FF0CA /* MyWheelsController.m */;
+		name = "MyWheelsController.m: 33";
+		rLen = 0;
+		rLoc = 1155;
+		rType = 0;
+		vrLen = 808;
+		vrLoc = 740;
+	};
+	DF29BAE40FB3820E000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B126E0FAEA9B5007FF0CA /* WheelTest.m */;
+		name = "WheelTest.m: 49";
+		rLen = 0;
+		rLoc = 1288;
+		rType = 0;
+		vrLen = 567;
+		vrLoc = 999;
+	};
+	DF29BAE50FB3820E000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B11E90FAEA9A3007FF0CA /* MyWheelsController.m */;
+		name = "MyWheelsController.m: 33";
+		rLen = 0;
+		rLoc = 1155;
+		rType = 0;
+		vrLen = 580;
+		vrLoc = 740;
+	};
+	DF29BAE60FB3820E000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B11E90FAEA9A3007FF0CA /* MyWheelsController.m */;
+		name = "MyWheelsController.m: 33";
+		rLen = 0;
+		rLoc = 1155;
+		rType = 0;
+		vrLen = 580;
+		vrLoc = 740;
+	};
+	DF29BAE70FB3820E000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF0CE7D10FB1E7D300701164 /* NSObject+PropertySupport.m */;
+		name = "NSObject+PropertySupport.m: 48";
+		rLen = 0;
+		rLoc = 1269;
+		rType = 0;
+		vrLen = 376;
+		vrLoc = 1025;
+	};
+	DF29BAE90FB3822B000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B11E90FAEA9A3007FF0CA /* MyWheelsController.m */;
+		name = "MyWheelsController.m: 33";
+		rLen = 0;
+		rLoc = 1155;
+		rType = 0;
+		vrLen = 1430;
+		vrLoc = 288;
+	};
+	DF29BAEA0FB3822B000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF0CE7D10FB1E7D300701164 /* NSObject+PropertySupport.m */;
+		name = "NSObject+PropertySupport.m: 48";
+		rLen = 0;
+		rLoc = 1269;
+		rType = 0;
+		vrLen = 1111;
+		vrLoc = 290;
+	};
+	DF29BAEB0FB3822B000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B11E90FAEA9A3007FF0CA /* MyWheelsController.m */;
+		name = "MyWheelsController.m: 33";
+		rLen = 0;
+		rLoc = 1155;
+		rType = 0;
+		vrLen = 1430;
+		vrLoc = 288;
+	};
+	DF29BAEC0FB3822B000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF0CE7D10FB1E7D300701164 /* NSObject+PropertySupport.m */;
+		name = "NSObject+PropertySupport.m: 48";
+		rLen = 0;
+		rLoc = 1269;
+		rType = 0;
+		vrLen = 1111;
+		vrLoc = 290;
+	};
+	DF29BAED0FB3822B000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
+		name = "WheelDetailController.m: 97";
+		rLen = 0;
+		rLoc = 4034;
+		rType = 0;
+		vrLen = 1177;
+		vrLoc = 3177;
+	};
+	DF29BAEE0FB3822B000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
+		name = "WheelDetailController.m: 97";
+		rLen = 0;
+		rLoc = 4034;
+		rType = 0;
+		vrLen = 1175;
+		vrLoc = 3274;
+	};
+	DF29BAEF0FB38266000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF0CE7D10FB1E7D300701164 /* NSObject+PropertySupport.m */;
+		name = "NSObject+PropertySupport.m: 48";
+		rLen = 0;
+		rLoc = 1269;
+		rType = 0;
+		vrLen = 279;
+		vrLoc = 1123;
+	};
+	DF29BAF00FB38266000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
+		name = "WheelDetailController.m: 97";
+		rLen = 0;
+		rLoc = 4034;
+		rType = 0;
+		vrLen = 518;
+		vrLoc = 3568;
+	};
+	DF29BAF20FB382AC000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
+		name = "WheelDetailController.m: 97";
+		rLen = 0;
+		rLoc = 4034;
+		rType = 0;
+		vrLen = 1210;
+		vrLoc = 3274;
+	};
+	DF29BAF30FB382AC000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF0CE7D10FB1E7D300701164 /* NSObject+PropertySupport.m */;
+		name = "NSObject+PropertySupport.m: 48";
+		rLen = 0;
+		rLoc = 1269;
+		rType = 0;
+		vrLen = 1111;
+		vrLoc = 290;
+	};
+	DF29BAF40FB382AC000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
+		name = "WheelDetailController.m: 97";
+		rLen = 0;
+		rLoc = 4034;
+		rType = 0;
+		vrLen = 1210;
+		vrLoc = 3274;
+	};
+	DF29BAF50FB382AC000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF0CE7D10FB1E7D300701164 /* NSObject+PropertySupport.m */;
+		name = "NSObject+PropertySupport.m: 48";
+		rLen = 0;
+		rLoc = 1269;
+		rType = 0;
+		vrLen = 1111;
+		vrLoc = 290;
+	};
+	DF29BAF60FB382AC000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B11E90FAEA9A3007FF0CA /* MyWheelsController.m */;
+		name = "MyWheelsController.m: 33";
+		rLen = 0;
+		rLoc = 1155;
+		rType = 0;
+		vrLen = 1549;
+		vrLoc = 288;
+	};
+	DF29BAF70FB382AD000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B11E90FAEA9A3007FF0CA /* MyWheelsController.m */;
+		name = "MyWheelsController.m: 33";
+		rLen = 0;
+		rLoc = 1155;
+		rType = 0;
+		vrLen = 1458;
+		vrLoc = 288;
+	};
+	DF29BAF80FB382D6000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B11E90FAEA9A3007FF0CA /* MyWheelsController.m */;
+		name = "MyWheelsController.m: 31";
+		rLen = 0;
+		rLoc = 1155;
+		rType = 0;
+		vrLen = 1360;
+		vrLoc = 288;
+	};
+	DF29BAF90FB3830D000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
+		name = "WheelDetailController.m: 97";
+		rLen = 0;
+		rLoc = 4034;
+		rType = 0;
+		vrLen = 518;
+		vrLoc = 3568;
+	};
+	DF29BAFA0FB3830D000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B11E90FAEA9A3007FF0CA /* MyWheelsController.m */;
+		name = "MyWheelsController.m: 30";
+		rLen = 0;
+		rLoc = 1122;
+		rType = 0;
+		vrLen = 384;
+		vrLoc = 1002;
+	};
+	DF29BAFC0FB38358000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF0CE7D10FB1E7D300701164 /* NSObject+PropertySupport.m */;
+		name = "NSObject+PropertySupport.m: 48";
+		rLen = 0;
+		rLoc = 1269;
+		rType = 0;
+		vrLen = 1111;
+		vrLoc = 290;
+	};
+	DF29BAFD0FB38358000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B11E90FAEA9A3007FF0CA /* MyWheelsController.m */;
+		name = "MyWheelsController.m: 30";
+		rLen = 0;
+		rLoc = 1122;
+		rType = 0;
+		vrLen = 1301;
+		vrLoc = 256;
+	};
+	DF29BAFE0FB38358000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B11E90FAEA9A3007FF0CA /* MyWheelsController.m */;
+		name = "MyWheelsController.m: 31";
+		rLen = 0;
+		rLoc = 1155;
+		rType = 0;
+		vrLen = 1301;
+		vrLoc = 256;
+	};
+	DF29BAFF0FB38358000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF0CE7D10FB1E7D300701164 /* NSObject+PropertySupport.m */;
+		name = "NSObject+PropertySupport.m: 48";
+		rLen = 0;
+		rLoc = 1269;
+		rType = 0;
+		vrLen = 1111;
+		vrLoc = 290;
+	};
+	DF29BB000FB38358000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B11E90FAEA9A3007FF0CA /* MyWheelsController.m */;
+		name = "MyWheelsController.m: 30";
+		rLen = 0;
+		rLoc = 1122;
+		rType = 0;
+		vrLen = 1301;
+		vrLoc = 256;
+	};
+	DF29BB010FB38358000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
+		name = "WheelDetailController.m: 87";
+		rLen = 0;
+		rLoc = 3550;
+		rType = 0;
+		vrLen = 1135;
+		vrLoc = 3177;
+	};
+	DF29BB020FB38358000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
+		name = "WheelDetailController.m: 87";
+		rLen = 0;
+		rLoc = 3550;
+		rType = 0;
+		vrLen = 928;
+		vrLoc = 3101;
+	};
 	DF4664E20FAEB02400172895 /* PBXBookmark */ = {
 		isa = PBXBookmark;
 		fRef = DF7B12070FAEA9A3007FF0CA /* hub1.jpg */;
@@ -3079,7 +3497,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 92";
 		rLen = 10;
-		rLoc = 3705;
+		rLoc = 4047;
 		rType = 0;
 		vrLen = 979;
 		vrLoc = 3237;
@@ -3189,7 +3607,7 @@
 		fRef = DF7B11E90FAEA9A3007FF0CA /* MyWheelsController.m */;
 		name = "MyWheelsController.m: 30";
 		rLen = 0;
-		rLoc = 1165;
+		rLoc = 1198;
 		rType = 0;
 		vrLen = 1236;
 		vrLoc = 1665;
@@ -3209,7 +3627,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 94";
 		rLen = 0;
-		rLoc = 3717;
+		rLoc = 4059;
 		rType = 0;
 		vrLen = 1027;
 		vrLoc = 4089;
@@ -3455,9 +3873,9 @@
 	};
 	DF7B11E90FAEA9A3007FF0CA /* MyWheelsController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1219, 1856}}";
-			sepNavSelRange = "{1073, 0}";
-			sepNavVisRange = "{695, 454}";
+			sepNavIntBoundsRect = "{{0, 0}, {1219, 1824}}";
+			sepNavSelRange = "{1122, 0}";
+			sepNavVisRange = "{815, 386}";
 		};
 	};
 	DF7B11EB0FAEA9A3007FF0CA /* PickerController.m */ = {
@@ -3567,9 +3985,10 @@
 	};
 	DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {992, 2800}}";
-			sepNavSelRange = "{3434, 0}";
-			sepNavVisRange = "{3051, 1152}";
+			sepNavIntBoundsRect = "{{0, 0}, {992, 2896}}";
+			sepNavSelRange = "{3550, 0}";
+			sepNavVisRange = "{3101, 928}";
+			sepNavWindowFrame = "{{1240, 55}, {1277, 723}}";
 		};
 	};
 	DF7B12620FAEA9B5007FF0CA /* HubDetailControllerTest.m */ = {
@@ -3609,9 +4028,9 @@
 	};
 	DF7B126E0FAEA9B5007FF0CA /* WheelTest.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {938, 2176}}";
-			sepNavSelRange = "{2479, 0}";
-			sepNavVisRange = "{1486, 1103}";
+			sepNavIntBoundsRect = "{{0, 0}, {1219, 2288}}";
+			sepNavSelRange = "{1288, 0}";
+			sepNavVisRange = "{999, 567}";
 		};
 	};
 	DF7B12780FAEA9B5007FF0CA /* RunIPhoneUnitTest.sh */ = {
@@ -3847,7 +4266,7 @@
 		fRef = DF7B11E90FAEA9A3007FF0CA /* MyWheelsController.m */;
 		name = "MyWheelsController.m: 63";
 		rLen = 0;
-		rLoc = 2499;
+		rLoc = 2532;
 		rType = 0;
 		vrLen = 1109;
 		vrLoc = 2152;
@@ -3971,7 +4390,7 @@
 	};
 	DFAAA5A40FAF57F400699647 /* EditWheelDelegate.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {831, 590}}";
+			sepNavIntBoundsRect = "{{0, 0}, {938, 406}}";
 			sepNavSelRange = "{31, 0}";
 			sepNavVisRange = "{0, 160}";
 		};

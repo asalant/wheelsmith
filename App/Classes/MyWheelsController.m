@@ -19,7 +19,7 @@
 
 #pragma mark WheelDetailDelegate methods
 
--(void) afterAddWheel:(Wheel *)theWheel {
+-(void) afterCreateWheel:(Wheel *)theWheel {
     NSMutableArray *updated = [NSMutableArray arrayWithArray:self.wheels];
     [updated insertObject:theWheel atIndex:0];
     self.wheels = updated;
@@ -27,8 +27,8 @@
                           withRowAnimation:UITableViewRowAnimationFade];
 }
 
--(void) afterEditWheel:(Wheel *)theWheel {
-    
+-(void) afterUpdateWheel:(Wheel *)theWheel {
+    [self.tableView reloadData];
 }
 
 #pragma mark Add Wheel

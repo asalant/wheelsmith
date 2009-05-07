@@ -1,4 +1,4 @@
 @protocol WheelDetailDelegate
--(void)afterAddWheel:(Wheel *)theWheel;
--(void)afterEditWheel:(Wheel *)theWheel;
+-(void)afterCreateWheel:(Wheel *)theWheel;
+-(void)afterUpdateWheel:(Wheel *)theWheel;
 @end

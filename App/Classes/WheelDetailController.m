@@ -73,7 +73,7 @@
 - (void) saveWheel {
     [self.wheel create];
     [self dismissModal];
-    [delegate afterAddWheel:self.wheel];
+    [delegate afterCreateWheel:self.wheel];
 }
 
 #pragma mark EditWheelDelegate methods
@@ -81,16 +81,28 @@
 -(void)setHub:(Hub *)hub {
     self.wheel.hub = hub;
     [self.navigationController popToViewController:self animated:YES];
+    if (self.wheel.pk) {
+        [self.wheel update];
+        [self.delegate afterUpdateWheel:self.wheel];
+    }
 }
 
 -(void)setRim:(Rim *)rim {
     self.wheel.rim = rim;
     [self.navigationController popToViewController:self animated:YES];
+    if (self.wheel.pk) {
+        [self.wheel update];
+        [self.delegate afterUpdateWheel:self.wheel];
+    }
 }
 
 -(void)setSpokePattern:(NSNumber *)across {
     wheel.spokePattern = across;
     [self dismissModalViewControllerAnimated:YES];
+    if (self.wheel.pk) {
+        [self.wheel update];
+        [self.delegate afterUpdateWheel:self.wheel];
+    }
 }
 
 - (void) updateView {

@@ -73,7 +73,6 @@
     Wheel *updated = [Wheel find:wheel.pk];
     assertThat([updated.updatedAt description], is([wheel.updatedAt description]));
     assertThat(updated.spokePattern, is(wheel.spokePattern));
-    
 }
 
 - (void) testCalculatesSpokeLength {
