@@ -81,28 +81,27 @@
 -(void)setHub:(Hub *)hub {
     self.wheel.hub = hub;
     [self.navigationController popToViewController:self animated:YES];
-    if (self.wheel.pk) {
-        [self.wheel update];
-        [self.delegate afterUpdateWheel:self.wheel];
-    }
+    [self afterEditWheel:self.wheel];
 }
 
 -(void)setRim:(Rim *)rim {
     self.wheel.rim = rim;
     [self.navigationController popToViewController:self animated:YES];
-    if (self.wheel.pk) {
-        [self.wheel update];
-        [self.delegate afterUpdateWheel:self.wheel];
-    }
+    [self afterEditWheel:self.wheel];
 }
 
 -(void)setSpokePattern:(NSNumber *)across {
     wheel.spokePattern = across;
     [self dismissModalViewControllerAnimated:YES];
-    if (self.wheel.pk) {
-        [self.wheel update];
-        [self.delegate afterUpdateWheel:self.wheel];
+    [self afterEditWheel:self.wheel];
+}
+
+-(void)afterEditWheel:(Wheel *)theWheel {
+    if (theWheel.pk) {
+        [theWheel update];
+        [self.delegate afterUpdateWheel:theWheel];
     }
+    
 }
 
 - (void) updateView {
