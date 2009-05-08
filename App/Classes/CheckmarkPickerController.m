@@ -18,6 +18,16 @@
     return [options objectAtIndex:[selectedIndex intValue]];
 }
 
+-(void)setSelectedOption:(id)option {
+    int index = [options indexOfObject:option];
+    if (index == NSNotFound) {
+        self.selectedIndex = nil;
+    }
+    else {
+        self.selectedIndex = [NSNumber numberWithInt:index];
+    }
+}
+
 -(void)commitSelection {
     [self dismissModalViewControllerAnimated:YES];
     [delegate optionSelected:[self selectedOption]];

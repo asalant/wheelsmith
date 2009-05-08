@@ -609,6 +609,29 @@
 			DF29BC530FB484D5000EB5B8 /* PBXTextBookmark */ = DF29BC530FB484D5000EB5B8 /* PBXTextBookmark */;
 			DF29BC540FB484D5000EB5B8 /* PBXTextBookmark */ = DF29BC540FB484D5000EB5B8 /* PBXTextBookmark */;
 			DF29BC550FB484D5000EB5B8 /* PBXTextBookmark */ = DF29BC550FB484D5000EB5B8 /* PBXTextBookmark */;
+			DF29BC780FB4E16B000EB5B8 /* PBXTextBookmark */ = DF29BC780FB4E16B000EB5B8 /* PBXTextBookmark */;
+			DF29BC7A0FB4E16B000EB5B8 /* PBXTextBookmark */ = DF29BC7A0FB4E16B000EB5B8 /* PBXTextBookmark */;
+			DF29BC7B0FB4E16B000EB5B8 /* PBXTextBookmark */ = DF29BC7B0FB4E16B000EB5B8 /* PBXTextBookmark */;
+			DF29BC7C0FB4E16B000EB5B8 /* PBXTextBookmark */ = DF29BC7C0FB4E16B000EB5B8 /* PBXTextBookmark */;
+			DF29BC7D0FB4E16B000EB5B8 /* PBXTextBookmark */ = DF29BC7D0FB4E16B000EB5B8 /* PBXTextBookmark */;
+			DF29BC7E0FB4E16B000EB5B8 /* PBXTextBookmark */ = DF29BC7E0FB4E16B000EB5B8 /* PBXTextBookmark */;
+			DF29BC7F0FB4E16B000EB5B8 /* PBXTextBookmark */ = DF29BC7F0FB4E16B000EB5B8 /* PBXTextBookmark */;
+			DF29BC810FB4E16B000EB5B8 /* PBXTextBookmark */ = DF29BC810FB4E16B000EB5B8 /* PBXTextBookmark */;
+			DF29BC820FB4E16B000EB5B8 /* PBXTextBookmark */ = DF29BC820FB4E16B000EB5B8 /* PBXTextBookmark */;
+			DF29BC830FB4E16B000EB5B8 /* PBXTextBookmark */ = DF29BC830FB4E16B000EB5B8 /* PBXTextBookmark */;
+			DF29BC850FB4E16B000EB5B8 /* PBXTextBookmark */ = DF29BC850FB4E16B000EB5B8 /* PBXTextBookmark */;
+			DF29BC860FB4E16B000EB5B8 /* PBXTextBookmark */ = DF29BC860FB4E16B000EB5B8 /* PBXTextBookmark */;
+			DF29BC870FB4E16B000EB5B8 /* PBXTextBookmark */ = DF29BC870FB4E16B000EB5B8 /* PBXTextBookmark */;
+			DF29BC880FB4E16B000EB5B8 /* PBXTextBookmark */ = DF29BC880FB4E16B000EB5B8 /* PBXTextBookmark */;
+			DF29BC890FB4E16B000EB5B8 /* PBXTextBookmark */ = DF29BC890FB4E16B000EB5B8 /* PBXTextBookmark */;
+			DF29BC8A0FB4E16B000EB5B8 /* PBXTextBookmark */ = DF29BC8A0FB4E16B000EB5B8 /* PBXTextBookmark */;
+			DF29BC8B0FB4E16B000EB5B8 /* PBXTextBookmark */ = DF29BC8B0FB4E16B000EB5B8 /* PBXTextBookmark */;
+			DF29BC8C0FB4E16B000EB5B8 /* PBXTextBookmark */ = DF29BC8C0FB4E16B000EB5B8 /* PBXTextBookmark */;
+			DF29BC8D0FB4E16B000EB5B8 /* PBXTextBookmark */ = DF29BC8D0FB4E16B000EB5B8 /* PBXTextBookmark */;
+			DF29BC8E0FB4E16B000EB5B8 /* PBXTextBookmark */ = DF29BC8E0FB4E16B000EB5B8 /* PBXTextBookmark */;
+			DF29BC8F0FB4E16B000EB5B8 /* PBXTextBookmark */ = DF29BC8F0FB4E16B000EB5B8 /* PBXTextBookmark */;
+			DF29BC900FB4E16B000EB5B8 /* PBXTextBookmark */ = DF29BC900FB4E16B000EB5B8 /* PBXTextBookmark */;
+			DF29BC910FB4E16B000EB5B8 /* PBXTextBookmark */ = DF29BC910FB4E16B000EB5B8 /* PBXTextBookmark */;
 			DF4664E20FAEB02400172895 = DF4664E20FAEB02400172895 /* PBXBookmark */;
 			DF4664E40FAEB02400172895 = DF4664E40FAEB02400172895 /* PBXTextBookmark */;
 			DF4664E50FAEB02400172895 = DF4664E50FAEB02400172895 /* PBXBookmark */;
@@ -5117,9 +5140,9 @@
 	};
 	DF29BBE20FB47960000EB5B8 /* Part.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {938, 567}}";
+			sepNavIntBoundsRect = "{{0, 0}, {938, 560}}";
 			sepNavSelRange = "{693, 0}";
-			sepNavVisRange = "{0, 977}";
+			sepNavVisRange = "{0, 784}";
 		};
 	};
 	DF29BBED0FB47B40000EB5B8 /* PBXTextBookmark */ = {
@@ -5704,9 +5727,9 @@
 	};
 	DF29BC370FB481EF000EB5B8 /* CheckmarkPickerControllerTest.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {938, 1008}}";
-			sepNavSelRange = "{2064, 0}";
-			sepNavVisRange = "{1390, 683}";
+			sepNavIntBoundsRect = "{{0, 0}, {938, 1148}}";
+			sepNavSelRange = "{1230, 0}";
+			sepNavVisRange = "{764, 856}";
 		};
 	};
 	DF29BC390FB482CC000EB5B8 /* CheckmarkPickerController.h */ = {
@@ -5932,15 +5955,15 @@
 	DF29BC610FB488EB000EB5B8 /* CheckmarkPickerController.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {938, 347}}";
-			sepNavSelRange = "{398, 0}";
-			sepNavVisRange = "{0, 444}";
+			sepNavSelRange = "{348, 0}";
+			sepNavVisRange = "{0, 442}";
 		};
 	};
 	DF29BC620FB488EB000EB5B8 /* CheckmarkPickerController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {992, 1168}}";
-			sepNavSelRange = "{39, 42}";
-			sepNavVisRange = "{0, 714}";
+			sepNavIntBoundsRect = "{{0, 0}, {992, 1296}}";
+			sepNavSelRange = "{834, 0}";
+			sepNavVisRange = "{175, 747}";
 		};
 	};
 	DF29BC630FB488EB000EB5B8 /* CheckmarkPickerDelegate.h */ = {
@@ -5949,6 +5972,254 @@
 			sepNavSelRange = "{107, 0}";
 			sepNavVisRange = "{0, 113}";
 		};
+	};
+	DF29BC780FB4E16B000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF29BC790FB4E16B000EB5B8 /* UITableViewCell.h */;
+		name = "UITableViewCell.h: 37";
+		rLen = 80;
+		rLoc = 1039;
+		rType = 0;
+		vrLen = 3517;
+		vrLoc = 4178;
+	};
+	DF29BC790FB4E16B000EB5B8 /* UITableViewCell.h */ = {
+		isa = PBXFileReference;
+		name = UITableViewCell.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewCell.h;
+		sourceTree = "<absolute>";
+	};
+	DF29BC7A0FB4E16B000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF29BB6A0FB38BCC000EB5B8 /* TODO.txt */;
+		name = "TODO.txt: 3";
+		rLen = 0;
+		rLoc = 143;
+		rType = 0;
+		vrLen = 177;
+		vrLoc = 0;
+	};
+	DF29BC7B0FB4E16B000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B11E90FAEA9A3007FF0CA /* MyWheelsController.m */;
+		name = "MyWheelsController.m: 15";
+		rLen = 362;
+		rLoc = 353;
+		rType = 0;
+		vrLen = 1281;
+		vrLoc = 0;
+	};
+	DF29BC7C0FB4E16B000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DFAAA3EB0FAECE7200699647 /* MyWheelsControllerTest.m */;
+		name = "MyWheelsControllerTest.m: 21";
+		rLen = 0;
+		rLoc = 657;
+		rType = 0;
+		vrLen = 959;
+		vrLoc = 0;
+	};
+	DF29BC7D0FB4E16B000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B12640FAEA9B5007FF0CA /* PickerControllerTest.m */;
+		name = "PickerControllerTest.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 920;
+		vrLoc = 350;
+	};
+	DF29BC7E0FB4E16B000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF0CE8D30FB2FF8F00701164 /* WheelDetailDelegate.h */;
+		name = "WheelDetailDelegate.h: 2";
+		rLen = 0;
+		rLoc = 53;
+		rType = 0;
+		vrLen = 121;
+		vrLoc = 0;
+	};
+	DF29BC7F0FB4E16B000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF29BC800FB4E16B000EB5B8 /* UITableViewController.h */;
+		name = "UITableViewController.h: 17";
+		rLen = 118;
+		rLoc = 617;
+		rType = 0;
+		vrLen = 832;
+		vrLoc = 98;
+	};
+	DF29BC800FB4E16B000EB5B8 /* UITableViewController.h */ = {
+		isa = PBXFileReference;
+		name = UITableViewController.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITableViewController.h;
+		sourceTree = "<absolute>";
+	};
+	DF29BC810FB4E16B000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
+		name = "WheelDetailController.m: 94";
+		rLen = 51;
+		rLoc = 3720;
+		rType = 0;
+		vrLen = 592;
+		vrLoc = 3313;
+	};
+	DF29BC820FB4E16B000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B11EB0FAEA9A3007FF0CA /* PickerController.m */;
+		name = "PickerController.m: 26";
+		rLen = 0;
+		rLoc = 773;
+		rType = 0;
+		vrLen = 641;
+		vrLoc = 0;
+	};
+	DF29BC830FB4E16B000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF29BC840FB4E16B000EB5B8 /* NSArray.h */;
+		name = "NSArray.h: 32";
+		rLen = 42;
+		rLoc = 978;
+		rType = 0;
+		vrLen = 1260;
+		vrLoc = 0;
+	};
+	DF29BC840FB4E16B000EB5B8 /* NSArray.h */ = {
+		isa = PBXFileReference;
+		name = NSArray.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator2.2.1.sdk/System/Library/Frameworks/Foundation.framework/Versions/C/Headers/NSArray.h;
+		sourceTree = "<absolute>";
+	};
+	DF29BC850FB4E16B000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF29BBE20FB47960000EB5B8 /* Part.m */;
+		name = "Part.m: 20";
+		rLen = 0;
+		rLoc = 693;
+		rType = 0;
+		vrLen = 784;
+		vrLoc = 0;
+	};
+	DF29BC860FB4E16B000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF29BC630FB488EB000EB5B8 /* CheckmarkPickerDelegate.h */;
+		name = "CheckmarkPickerDelegate.h: 3";
+		rLen = 0;
+		rLoc = 107;
+		rType = 0;
+		vrLen = 113;
+		vrLoc = 0;
+	};
+	DF29BC870FB4E16B000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF29BC370FB481EF000EB5B8 /* CheckmarkPickerControllerTest.m */;
+		name = "CheckmarkPickerControllerTest.m: 39";
+		rLen = 0;
+		rLoc = 1230;
+		rType = 0;
+		vrLen = 673;
+		vrLoc = 764;
+	};
+	DF29BC880FB4E16B000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF29BC610FB488EB000EB5B8 /* CheckmarkPickerController.h */;
+		name = "CheckmarkPickerController.h: 12";
+		rLen = 0;
+		rLoc = 348;
+		rType = 0;
+		vrLen = 442;
+		vrLoc = 0;
+	};
+	DF29BC890FB4E16B000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF29BC620FB488EB000EB5B8 /* CheckmarkPickerController.m */;
+		name = "CheckmarkPickerController.m: 26";
+		rLen = 0;
+		rLoc = 912;
+		rType = 0;
+		vrLen = 763;
+		vrLoc = 150;
+	};
+	DF29BC8A0FB4E16B000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF29BB6A0FB38BCC000EB5B8 /* TODO.txt */;
+		name = "TODO.txt: 3";
+		rLen = 0;
+		rLoc = 143;
+		rType = 0;
+		vrLen = 177;
+		vrLoc = 0;
+	};
+	DF29BC8B0FB4E16B000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B12640FAEA9B5007FF0CA /* PickerControllerTest.m */;
+		name = "PickerControllerTest.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 920;
+		vrLoc = 350;
+	};
+	DF29BC8C0FB4E16B000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF0CE8D30FB2FF8F00701164 /* WheelDetailDelegate.h */;
+		name = "WheelDetailDelegate.h: 2";
+		rLen = 0;
+		rLoc = 53;
+		rType = 0;
+		vrLen = 121;
+		vrLoc = 0;
+	};
+	DF29BC8D0FB4E16B000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF29BBE20FB47960000EB5B8 /* Part.m */;
+		name = "Part.m: 20";
+		rLen = 0;
+		rLoc = 693;
+		rType = 0;
+		vrLen = 784;
+		vrLoc = 0;
+	};
+	DF29BC8E0FB4E16B000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF29BC630FB488EB000EB5B8 /* CheckmarkPickerDelegate.h */;
+		name = "CheckmarkPickerDelegate.h: 3";
+		rLen = 0;
+		rLoc = 107;
+		rType = 0;
+		vrLen = 113;
+		vrLoc = 0;
+	};
+	DF29BC8F0FB4E16B000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF29BC370FB481EF000EB5B8 /* CheckmarkPickerControllerTest.m */;
+		name = "CheckmarkPickerControllerTest.m: 39";
+		rLen = 0;
+		rLoc = 1230;
+		rType = 0;
+		vrLen = 673;
+		vrLoc = 764;
+	};
+	DF29BC900FB4E16B000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF29BC610FB488EB000EB5B8 /* CheckmarkPickerController.h */;
+		name = "CheckmarkPickerController.h: 12";
+		rLen = 0;
+		rLoc = 348;
+		rType = 0;
+		vrLen = 442;
+		vrLoc = 0;
+	};
+	DF29BC910FB4E16B000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF29BC620FB488EB000EB5B8 /* CheckmarkPickerController.m */;
+		name = "CheckmarkPickerController.m: 24";
+		rLen = 0;
+		rLoc = 834;
+		rType = 0;
+		vrLen = 747;
+		vrLoc = 175;
 	};
 	DF4664E20FAEB02400172895 /* PBXBookmark */ = {
 		isa = PBXBookmark;
@@ -6424,9 +6695,9 @@
 	};
 	DF7B11EB0FAEA9A3007FF0CA /* PickerController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1214, 720}}";
+			sepNavIntBoundsRect = "{{0, 0}, {938, 784}}";
 			sepNavSelRange = "{773, 0}";
-			sepNavVisRange = "{64, 1068}";
+			sepNavVisRange = "{0, 641}";
 		};
 	};
 	DF7B11EC0FAEA9A3007FF0CA /* Rim.h */ = {
@@ -6529,7 +6800,7 @@
 	};
 	DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1219, 3024}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1219, 3056}}";
 			sepNavSelRange = "{6497, 0}";
 			sepNavVisRange = "{5547, 633}";
 			sepNavWindowFrame = "{{1240, 55}, {1277, 723}}";

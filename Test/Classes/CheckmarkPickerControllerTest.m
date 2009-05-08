@@ -30,6 +30,17 @@
     assertThat(controller.selectedOption, is(@"radial"));
 }
 
+-(void) testSelectsOption {
+    controller.selectedOption = @"3 across";
+    assertThat(controller.selectedIndex, is([NSNumber numberWithInt:1]));
+}
+
+-(void) testNoSelectionForNonexistentOption {
+    controller.selectedIndex = [NSNumber numberWithInt:1];
+    controller.selectedOption = @"foo";
+    assertThat(controller.selectedIndex, nilValue());
+}
+
 -(void)testShowsNoCheckmarkForNotSelectedIndex {
     controller.selectedIndex = [NSNumber numberWithInt:0];
     UITableViewCell *cell = [controller tableView:nil cellForRowAtIndexPath:[NSIndexPath indexPathForRow:1 inSection:0]];

@@ -9,7 +9,7 @@
 
 @property(nonatomic, retain) NSNumber *selectedIndex;
 @property(nonatomic, retain) NSArray *options;
-@property(nonatomic, readonly) id selectedOption;
+@property(nonatomic, retain) id selectedOption;
 @property(nonatomic, retain) id<CheckmarkPickerDelegate> delegate;
 
 @end
