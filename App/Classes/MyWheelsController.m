@@ -12,6 +12,7 @@
     [super viewDidLoad];
 
     self.title = @"My Wheels";
+    self.navigationItem.leftBarButtonItem = self.editButtonItem; 
     self.navigationItem.rightBarButtonItem = [[[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd 
                                                                                            target:self 
                                                                                            action:@selector(addWheel)] autorelease];
@@ -20,9 +21,7 @@
 #pragma mark WheelDetailDelegate methods
 
 -(void) afterCreateWheel:(Wheel *)theWheel {
-    NSMutableArray *updated = [NSMutableArray arrayWithArray:self.wheels];
-    [updated insertObject:theWheel atIndex:0];
-    self.wheels = updated;
+    [self.wheels insertObject:theWheel atIndex:0];
     [self.tableView insertRowsAtIndexPaths:[NSArray arrayWithObject:[NSIndexPath indexPathForRow:0 inSection:0]]
                           withRowAnimation:UITableViewRowAnimationFade];
 }
@@ -87,19 +86,20 @@
 */
 
 
-/*
 // Override to support editing the table view.
 - (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath {
     
     if (editingStyle == UITableViewCellEditingStyleDelete) {
-        // Delete the row from the data source
+        Wheel *wheel = [self.wheels objectAtIndex:indexPath.row];
+        [wheel delete];
+        [self.wheels removeObject:wheel];
+        
         [tableView deleteRowsAtIndexPaths:[NSArray arrayWithObject:indexPath] withRowAnimation:YES];
     }   
     else if (editingStyle == UITableViewCellEditingStyleInsert) {
         // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
     }   
 }
-*/
 
 
 - (void)dealloc {

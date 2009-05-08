@@ -3,52 +3,55 @@
 #import "Database.h"
 #import "DatabaseResultSet.h"
 
-static NSDateFormatter *dateFormatter;
-
 @implementation Database
 
-+(NSString *)sqlDate:(NSDate *)date {
-    if (!dateFormatter) {
-        dateFormatter = [[NSDateFormatter alloc] init];
-        [dateFormatter setFormatterBehavior:NSDateFormatterBehavior10_4];
-        [dateFormatter setDateFormat:@"yyyy-MM-dd HH:mm:ss"];
-    }
-    return [dateFormatter stringFromDate:date];
-}
-
-- (id) initWithName:(NSString *)name {
-    BOOL overwrite = YES; // Always start with clean DB in Documents for now
++(Database *)create:(NSString *)name overwrite:(BOOL)overwrite {
+    NSString *documentFilePath = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) objectAtIndex:0];
+    NSString *dbFilePath = [documentFilePath stringByAppendingPathComponent: [NSString stringWithFormat:@"%@.sqlite3", name]];
+    [dbFilePath retain];  
     
-    if (self = [super init]) {
-        NSString *documentFholeCounterPath = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) objectAtIndex:0];
-        dbFilePath = [documentFholeCounterPath stringByAppendingPathComponent: [NSString stringWithFormat:@"%@.sqlite3", name]];
-        [dbFilePath retain];  
-        
-        // Remove existing database in Documents if it exists and we are overwriting
-        if (overwrite && [[NSFileManager defaultManager] fileExistsAtPath: dbFilePath]) {
+    // Remove existing database in Documents if it exists and we are overwriting
+    if ([[NSFileManager defaultManager] fileExistsAtPath: dbFilePath]) {
+        if (overwrite) {
             NSError *error = [NSError errorWithDomain:@"" code:0 userInfo:nil];
             if (! [[NSFileManager defaultManager] removeItemAtPath:dbFilePath error:&error]) { 
                 @throw [NSException exceptionWithName:@"PersistenceException"
                                                reason:[NSString stringWithFormat:@"Failed to remove database %@: %@", dbFilePath, error]
                                              userInfo:nil];
             }
+            NSLog(@"%@: Overwriting existing database at %@", [self class], dbFilePath);
         }
-        
-        // Copy source database if there is not one in Documents
-        if (![[NSFileManager defaultManager] fileExistsAtPath: dbFilePath]) {
-            NSString *sourceDbFilePath = [[NSBundle mainBundle] pathForResource:name ofType:@"sqlite3"];
-            if (sourceDbFilePath == NULL) {
-                @throw [NSException exceptionWithName:@"PersistenceException"
-                                               reason:[NSString stringWithFormat:@"Source database %@ does not exist", name]
-                                             userInfo:nil];
-            }
-            NSError *error = [NSError errorWithDomain:@"" code:0 userInfo:nil];
-            if (! [[NSFileManager defaultManager] copyItemAtPath:sourceDbFilePath toPath:dbFilePath error:&error]) { 
-                @throw [NSException exceptionWithName:@"PersistenceException"
-                                               reason:[NSString stringWithFormat:@"Failed to copy database %@ to %@: %@", sourceDbFilePath, dbFilePath, error]
-                                             userInfo:nil];
-            }
+        else {
+            NSLog(@"%@: Using existing database at %@", [self class], dbFilePath);
         }
+    }
+    else {
+        NSLog(@"%@: Creating new database at %@", [self class], dbFilePath);
+    }
+    
+    // Copy source database if there is not one in Documents
+    if (![[NSFileManager defaultManager] fileExistsAtPath: dbFilePath]) {
+        NSString *sourceDbFilePath = [[NSBundle mainBundle] pathForResource:name ofType:@"sqlite3"];
+        if (sourceDbFilePath == NULL) {
+            @throw [NSException exceptionWithName:@"PersistenceException"
+                                           reason:[NSString stringWithFormat:@"Source database %@ does not exist", name]
+                                         userInfo:nil];
+        }
+        NSError *error = [NSError errorWithDomain:@"" code:0 userInfo:nil];
+        if (! [[NSFileManager defaultManager] copyItemAtPath:sourceDbFilePath toPath:dbFilePath error:&error]) { 
+            @throw [NSException exceptionWithName:@"PersistenceException"
+                                           reason:[NSString stringWithFormat:@"Failed to copy database %@ to %@: %@", sourceDbFilePath, dbFilePath, error]
+                                         userInfo:nil];
+        }
+    }
+    return [[[Database alloc] initWithName:dbFilePath] autorelease];
+}
+
+- (id) initWithName:(NSString *)filePath {
+    
+    if (self = [super init]) {
+        dbFilePath = filePath;
+        [dbFilePath retain];  
         NSLog(@"%@: initialized for database at %@", [self class], dbFilePath); 
     }
     return self;

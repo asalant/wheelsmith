@@ -7,8 +7,8 @@ static Database *database;
 
 @synthesize pk, createdAt, updatedAt;
 
-+ (void) setDbName:(NSString *)name {
-    database = [[Database alloc] initWithName:name];
++ (void) setDatabase:(Database *)theDatabase {
+    database = [theDatabase retain];
 }
 
 + (NSDictionary *) dataMap {

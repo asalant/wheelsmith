@@ -16,7 +16,7 @@
 @implementation WheelDetailControllerTest
 
 -(void) setUp {
-    [DomainObject setDbName:@"test"];
+	[DomainObject setDatabase:[Database create:@"test" overwrite:YES]];
     controller = [[[WheelDetailController alloc] initWithStyle:UITableViewStyleGrouped] autorelease];
     [controller loadView];
     [controller viewDidLoad];

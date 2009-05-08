@@ -151,6 +151,7 @@
 		DF0CE7D50FB1E7D300701164 /* ObjectiveResourceDateFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectiveResourceDateFormatter.m; sourceTree = "<group>"; };
 		DF0CE7D60FB1E7D300701164 /* ObjectiveSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectiveSupport.h; sourceTree = "<group>"; };
 		DF0CE8D30FB2FF8F00701164 /* WheelDetailDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WheelDetailDelegate.h; sourceTree = "<group>"; };
+		DF29BB6A0FB38BCC000EB5B8 /* TODO.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TODO.txt; sourceTree = "<group>"; };
 		DF4665120FAEB1A200172895 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DF58D9210FAF693900C2F546 /* app_icon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app_icon2.png; sourceTree = "<group>"; };
 		DF7B11470FAEA80F007FF0CA /* Unit Tests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Unit Tests.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -297,6 +298,7 @@
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
+				DF29BB6A0FB38BCC000EB5B8 /* TODO.txt */,
 			);
 			name = CustomTemplate;
 			sourceTree = "<group>";
@@ -368,6 +370,8 @@
 		DF7B11D10FAEA9A3007FF0CA /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				DF7B11F80FAEA9A3007FF0CA /* AppDelegate.h */,
+				DF7B11F90FAEA9A3007FF0CA /* AppDelegate.m */,
 				DF7B11D20FAEA9A3007FF0CA /* BrandListController.h */,
 				DF7B11D30FAEA9A3007FF0CA /* BrandListController.m */,
 				DF7B11D40FAEA9A3007FF0CA /* Database.h */,
@@ -404,8 +408,6 @@
 				DF7B11F50FAEA9A3007FF0CA /* RimListController.m */,
 				DF7B11F60FAEA9A3007FF0CA /* RootMenuController.h */,
 				DF7B11F70FAEA9A3007FF0CA /* RootMenuController.m */,
-				DF7B11F80FAEA9A3007FF0CA /* AppDelegate.h */,
-				DF7B11F90FAEA9A3007FF0CA /* AppDelegate.m */,
 				DF7B11FA0FAEA9A3007FF0CA /* StringUtil.h */,
 				DF7B11FB0FAEA9A3007FF0CA /* StringUtil.m */,
 				DF7B11FC0FAEA9A3007FF0CA /* TableCellFactory.h */,

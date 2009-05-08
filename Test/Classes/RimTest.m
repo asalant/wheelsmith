@@ -13,12 +13,12 @@
 @implementation RimTest
 
 - (void) setUp {
-    [DomainObject setDbName:@"test"];
+	[DomainObject setDatabase:[Database create:@"test" overwrite:YES]];
 }
 
 - (void) testFailsIfDatabaseNotFound {
     @try {
-        [Rim setDbName:@"foo"];
+        [DomainObject setDatabase:[Database create:@"foo" overwrite:YES]];
     }
     @catch (NSException *exception) {
         assertThat([exception name], equalTo(@"PersistenceException"));

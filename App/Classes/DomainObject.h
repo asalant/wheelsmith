@@ -1,6 +1,7 @@
 #import <Foundation/Foundation.h>
 #import "CoreSupport.h"
 #import "DatabaseResultSet.h"
+#import "Database.h"
 
 @interface DomainObject : NSObject {
     NSNumber *pk;
@@ -12,7 +13,7 @@
 @property(nonatomic, retain) NSDate *updatedAt;
 @property(nonatomic, retain) NSDate *createdAt;
 
-+ (void) setDbName:(NSString *)name;
++ (void) setDatabase:(Database *)theDatabase;
 + (id)find:(NSNumber *)pk;
 + (NSArray *) findAllOrderBy:(NSString *)order;
 + (id)findFirstByCriteria:(NSString *)criteria orderBy:(NSString *)order;

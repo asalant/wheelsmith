@@ -16,7 +16,7 @@
 
 
 - (void)applicationDidFinishLaunching:(UIApplication *)application {
-	[DomainObject setDbName:@"parts"];
+	[DomainObject setDatabase:[Database create:@"parts" overwrite:NO]];
     
     // Create and set dependencies
     RimDetailController *rimDetailController = [[[RimDetailController alloc] initWithNibName:@"RimDetailView" bundle:nil] autorelease];
@@ -50,8 +50,8 @@
     
     UINavigationController *newWheelController = [[[UINavigationController alloc] initWithRootViewController:newWheelDetailController] autorelease];
     
-    MyWheelsController *myWheelsController = [[[MyWheelsController alloc] initWithStyle:UITableViewStyleGrouped] autorelease];
-    myWheelsController.wheels = [Wheel findAllOrderBy:@"created_at desc"];
+    MyWheelsController *myWheelsController = [[[MyWheelsController alloc] initWithStyle:UITableViewStylePlain] autorelease];
+    myWheelsController.wheels = [NSMutableArray arrayWithArray:[Wheel findAllOrderBy:@"created_at desc"]];
     myWheelsController.wheelDetailController = wheelDetailController;
     myWheelsController.newWheelController = newWheelController;
     newWheelDetailController.delegate = myWheelsController;

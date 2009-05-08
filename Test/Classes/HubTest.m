@@ -14,7 +14,7 @@
 @implementation HubTest
 
 - (void) setUp {
-    [DomainObject setDbName:@"test"];
+	[DomainObject setDatabase:[Database create:@"test" overwrite:YES]];
 }
 
 - (void) testFindsAllHubs {

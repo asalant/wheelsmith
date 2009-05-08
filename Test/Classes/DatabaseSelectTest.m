@@ -14,12 +14,12 @@
 @implementation DatabaseSelectTest
 
 - (void) setUp {
-    db = [[Database alloc] initWithName:@"test"];
+    db = [Database create:@"test" overwrite:YES];
 }
 
 - (void) testFailsIfDatabaseNotFound {
     @try {
-        [[Database alloc] initWithName:@"foo"];
+        [Database create:@"foo" overwrite:YES];;
         STFail(@"Should have thrown PersistenceException");
     }
     @catch (NSException *exception) {

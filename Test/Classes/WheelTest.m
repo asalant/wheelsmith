@@ -5,7 +5,8 @@
 #import "Hub.h"
 #import "Rim.h"
 #import "Wheel.h"
-
+#import "DomainObject.h"
+#import "Database.h"
 
 @interface WheelTest : SenTestCase {}
 
@@ -15,7 +16,7 @@
 
 
 - (void) setUp {
-    [DomainObject setDbName:@"test"];
+	[DomainObject setDatabase:[Database create:@"test" overwrite:YES]];
 }
 
 - (void) testFindsAllWheels {

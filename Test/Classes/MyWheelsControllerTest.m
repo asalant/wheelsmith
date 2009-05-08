@@ -16,9 +16,9 @@
 @implementation MyWheelsControllerTest
 
 -(void) setUp {
-    [DomainObject setDbName:@"test"];
+	[DomainObject setDatabase:[Database create:@"test" overwrite:YES]];
     controller = [[[MyWheelsController alloc] initWithStyle:UITableViewStyleGrouped] autorelease];
-    controller.wheels = [Wheel findAllOrderBy:nil];
+    controller.wheels = [NSMutableArray arrayWithArray:[Wheel findAllOrderBy:nil]];
     [controller loadView];
 }
 
