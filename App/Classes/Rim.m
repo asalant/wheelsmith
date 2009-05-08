@@ -2,7 +2,7 @@
 
 @implementation Rim
 
-@synthesize brand, description, size, erd, offset, holeCount;
+@synthesize size, erd, offset, holeCount;
 
 
 + (NSDictionary *) dataMap {
@@ -19,17 +19,7 @@
             nil];
 }
 
-+ (NSArray *) selectBrandNames {
-    return [self select:@"select distinct brand from rims order by brand" rowHandler:@selector(handleBrandRow:)];
-}
-
-+ (NSString *) handleBrandRow:(DatabaseResultSet *)result {
-    return [result stringAt:0];
-}
-
 - (void) dealloc {
-    [brand release];
-    [description release];
     [size release];
     [erd release];
     [offset release];

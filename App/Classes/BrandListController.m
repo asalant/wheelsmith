@@ -2,7 +2,7 @@
 
 @implementation BrandListController
 
-@synthesize brands;
+@synthesize brands, holeCount;
 
  - (void)viewDidLoad {
      [super viewDidLoad];
@@ -47,6 +47,7 @@
 }
 
 - (void)dealloc {
+    [holeCount release];
     [brands release];
     [super dealloc];
 }

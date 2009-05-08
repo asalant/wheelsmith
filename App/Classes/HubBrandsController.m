@@ -9,7 +9,14 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     NSString *brand = [brands objectAtIndex:indexPath.row];
     hubsController.title = brand;
-    hubsController.hubs = [Hub findByCriteria:[NSString stringWithFormat:@"brand = '%@'", brand]  orderBy:@"description"];
+    if (holeCount) {
+        hubsController.hubs = [Hub findByCriteria:[NSString stringWithFormat:@"brand = '%@' AND hole_count = %@", brand, holeCount] 
+                                          orderBy:@"description"];
+    }
+    else {
+        hubsController.hubs = [Hub findByCriteria:[NSString stringWithFormat:@"brand = '%@'", brand]  
+                                          orderBy:@"description"];
+    }
     [hubsController.tableView reloadData];
     
     [self.navigationController pushViewController:hubsController animated:YES];

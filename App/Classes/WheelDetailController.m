@@ -150,6 +150,8 @@
             [self.navigationController pushViewController:hubDetailController animated:YES];
         }
         else {
+            hubBrandsController.holeCount = wheel.rim.holeCount;
+            hubBrandsController.brands = [Hub selectBrandNamesForHoleCount:wheel.rim.holeCount];
             [self.navigationController pushViewController:hubBrandsController animated:YES];
         }
     }
@@ -161,6 +163,8 @@
         }
         else
         {
+            rimBrandsController.holeCount = wheel.hub.holeCount;
+            rimBrandsController.brands = [Rim selectBrandNamesForHoleCount:wheel.hub.holeCount];
             [self.navigationController pushViewController:rimBrandsController animated:YES];
         }
     }

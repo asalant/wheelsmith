@@ -31,6 +31,19 @@
 - (void) testSelectsBrandNames {
     NSArray *companies = [Hub selectBrandNames];
     assertThat([NSNumber numberWithInt:[companies count]], equalTo([NSNumber numberWithInt:2]));
+    assertThat([companies objectAtIndex:0], is(@"Campagnolo"));
+    assertThat([companies objectAtIndex:1], is(@"Chris King")); 
+}
+
+- (void) testSelectsBrandNamesForHoleCount {
+    NSArray *companies = [Hub selectBrandNamesForHoleCount:[NSNumber numberWithInt:28]];
+    assertThat([NSNumber numberWithInt:[companies count]], equalTo([NSNumber numberWithInt:1]));
+    assertThat([companies objectAtIndex:0], is(@"Chris King")); 
+}
+
+- (void) testSelectsBrandNamesForNilHoleCount {
+    NSArray *companies = [Hub selectBrandNamesForHoleCount:nil];
+    assertThat([NSNumber numberWithInt:[companies count]], equalTo([NSNumber numberWithInt:2]));
 }
 
 @end

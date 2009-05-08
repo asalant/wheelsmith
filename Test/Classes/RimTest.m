@@ -40,6 +40,8 @@
 - (void) testSelectsBrandNames {
     NSArray *companies = [Rim selectBrandNames];
     assertThat([NSNumber numberWithInt:[companies count]], equalTo([NSNumber numberWithInt:2]));
+    assertThat([companies objectAtIndex:0], is(@"Mavic"));
+    assertThat([companies objectAtIndex:1], is(@"Velocity")); 
 }
 
 @end

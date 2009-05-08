@@ -2,8 +2,9 @@
 <project relativePaths="false" version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/test.sqlite3" afterPath="$PROJECT_DIR$/db/test.sqlite3" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/fixtures/rims.yml" afterPath="$PROJECT_DIR$/test/fixtures/rims.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/fixtures/hubs.yml" afterPath="$PROJECT_DIR$/test/fixtures/hubs.yml" />
     </list>
     <ignored path="parts.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -21,15 +22,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="hubs.txt" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/hubs.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="586" column="8" selection-start="62256" selection-end="62286" vertical-scroll-proportion="-4.730769">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="parts.rake" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/tasks/parts.rake">
           <provider selected="true" editor-type-id="text-editor">
@@ -39,10 +31,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="wheels.yml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="wheels.yml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/fixtures/wheels.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="16" selection-start="174" selection-end="174" vertical-scroll-proportion="0.0">
+            <state line="8" column="16" selection-start="174" selection-end="174" vertical-scroll-proportion="0.26086956">
               <folding />
             </state>
           </provider>
@@ -51,7 +43,16 @@
       <file leaf-file-name="hubs.yml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/fixtures/hubs.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="45" selection-start="385" selection-end="385" vertical-scroll-proportion="0.0">
+            <state line="20" column="16" selection-start="535" selection-end="535" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rims.yml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/fixtures/rims.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="38" selection-start="260" selection-end="260" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -60,16 +61,16 @@
       <file leaf-file-name="rims.txt" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/db/rims.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="172" column="7" selection-start="12847" selection-end="12854" vertical-scroll-proportion="-6.576923">
+            <state line="172" column="7" selection-start="12847" selection-end="12854" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="20090502043833_create_rims.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="20090502043833_create_rims.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/db/migrate/20090502043833_create_rims.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="7" selection-start="283" selection-end="283" vertical-scroll-proportion="0.39130434">
+            <state line="12" column="7" selection-start="283" selection-end="283" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -472,11 +473,11 @@
       </method>
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Rails.Production: parts" />
-      <item index="1" class="java.lang.String" itemvalue="Rails.Development: parts" />
-      <item index="2" class="java.lang.String" itemvalue="Rake.test" />
-      <item index="3" class="java.lang.String" itemvalue="Rake.spec" />
-      <item index="4" class="java.lang.String" itemvalue="Ruby.rim_test" />
+      <item index="0" class="java.lang.String" itemvalue="Ruby.rim_test" />
+      <item index="1" class="java.lang.String" itemvalue="Rails.Production: parts" />
+      <item index="2" class="java.lang.String" itemvalue="Rails.Development: parts" />
+      <item index="3" class="java.lang.String" itemvalue="Rake.test" />
+      <item index="4" class="java.lang.String" itemvalue="Rake.spec" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -541,13 +542,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/wheels/edit.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="6" selection-start="224" selection-end="224" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/wheels/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="30" selection-start="230" selection-end="230" vertical-scroll-proportion="0.0">
@@ -583,37 +577,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/unit/hub_test.rb">
+    <entry file="file://$PROJECT_DIR$/db/hubs.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="6" selection-start="29" selection-end="29" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/hub.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="18" selection-start="339" selection-end="381" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/unit/rim_test.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="6" selection-start="29" selection-end="29" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/rim.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="18" selection-start="198" selection-end="198" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/rims.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="172" column="7" selection-start="12847" selection-end="12854" vertical-scroll-proportion="-6.576923">
+        <state line="586" column="8" selection-start="62256" selection-end="62286" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -625,30 +591,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/hubs.txt">
+    <entry file="file://$PROJECT_DIR$/db/rims.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="586" column="8" selection-start="62256" selection-end="62286" vertical-scroll-proportion="-4.730769">
+        <state line="172" column="7" selection-start="12847" selection-end="12854" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/fixtures/wheels.yml">
+    <entry file="file://$PROJECT_DIR$/app/models/hub.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="16" selection-start="174" selection-end="174" vertical-scroll-proportion="0.0">
+        <state line="8" column="18" selection-start="339" selection-end="381" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/fixtures/hubs.yml">
+    <entry file="file://$PROJECT_DIR$/app/models/rim.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="45" selection-start="385" selection-end="385" vertical-scroll-proportion="0.0">
+        <state line="6" column="18" selection-start="198" selection-end="198" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/unit/hub_test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="6" selection-start="29" selection-end="29" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/unit/rim_test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="6" selection-start="29" selection-end="29" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20090502043833_create_rims.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="7" selection-start="283" selection-end="283" vertical-scroll-proportion="0.39130434">
+        <state line="12" column="7" selection-start="283" selection-end="283" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/fixtures/rims.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="38" selection-start="260" selection-end="260" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/fixtures/hubs.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="16" selection-start="535" selection-end="535" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/fixtures/wheels.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="16" selection-start="174" selection-end="174" vertical-scroll-proportion="0.26086956">
           <folding />
         </state>
       </provider>

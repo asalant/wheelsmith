@@ -20,6 +20,8 @@
 		DF0CE7DE0FB1E7D300701164 /* NSObject+PropertySupport.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0CE7D10FB1E7D300701164 /* NSObject+PropertySupport.m */; };
 		DF0CE7DF0FB1E7D300701164 /* NSString+GSub.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0CE7D30FB1E7D300701164 /* NSString+GSub.m */; };
 		DF0CE7E00FB1E7D300701164 /* ObjectiveResourceDateFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0CE7D50FB1E7D300701164 /* ObjectiveResourceDateFormatter.m */; };
+		DF29BBE30FB47960000EB5B8 /* Part.m in Sources */ = {isa = PBXBuildFile; fileRef = DF29BBE20FB47960000EB5B8 /* Part.m */; };
+		DF29BBE40FB47960000EB5B8 /* Part.m in Sources */ = {isa = PBXBuildFile; fileRef = DF29BBE20FB47960000EB5B8 /* Part.m */; };
 		DF4665170FAEB2C100172895 /* parts.sqlite3 in Resources */ = {isa = PBXBuildFile; fileRef = DF7B120F0FAEA9A3007FF0CA /* parts.sqlite3 */; };
 		DF58D9220FAF693900C2F546 /* app_icon2.png in Resources */ = {isa = PBXBuildFile; fileRef = DF58D9210FAF693900C2F546 /* app_icon2.png */; };
 		DF7B11CE0FAEA94D007FF0CA /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DF7B11CD0FAEA94D007FF0CA /* libsqlite3.dylib */; };
@@ -152,6 +154,8 @@
 		DF0CE7D60FB1E7D300701164 /* ObjectiveSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectiveSupport.h; sourceTree = "<group>"; };
 		DF0CE8D30FB2FF8F00701164 /* WheelDetailDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WheelDetailDelegate.h; sourceTree = "<group>"; };
 		DF29BB6A0FB38BCC000EB5B8 /* TODO.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TODO.txt; sourceTree = "<group>"; };
+		DF29BBE10FB47960000EB5B8 /* Part.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Part.h; sourceTree = "<group>"; };
+		DF29BBE20FB47960000EB5B8 /* Part.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Part.m; sourceTree = "<group>"; };
 		DF4665120FAEB1A200172895 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DF58D9210FAF693900C2F546 /* app_icon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app_icon2.png; sourceTree = "<group>"; };
 		DF7B11470FAEA80F007FF0CA /* Unit Tests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Unit Tests.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -418,6 +422,8 @@
 				DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */,
 				DF0CE8D30FB2FF8F00701164 /* WheelDetailDelegate.h */,
 				DFAAA5A40FAF57F400699647 /* EditWheelDelegate.h */,
+				DF29BBE10FB47960000EB5B8 /* Part.h */,
+				DF29BBE20FB47960000EB5B8 /* Part.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -728,6 +734,7 @@
 				DF0CE7DE0FB1E7D300701164 /* NSObject+PropertySupport.m in Sources */,
 				DF0CE7DF0FB1E7D300701164 /* NSString+GSub.m in Sources */,
 				DF0CE7E00FB1E7D300701164 /* ObjectiveResourceDateFormatter.m in Sources */,
+				DF29BBE30FB47960000EB5B8 /* Part.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -780,6 +787,7 @@
 				DF0CE7D90FB1E7D300701164 /* NSObject+PropertySupport.m in Sources */,
 				DF0CE7DA0FB1E7D300701164 /* NSString+GSub.m in Sources */,
 				DF0CE7DB0FB1E7D300701164 /* ObjectiveResourceDateFormatter.m in Sources */,
+				DF29BBE40FB47960000EB5B8 /* Part.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
