@@ -8,12 +8,12 @@
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
 		activeBuildConfigurationName = Debug;
-		activeExecutable = DF7B10A80FAEA69B007FF0CA /* Wheelsmith */;
+		activeExecutable = DF7B11480FAEA80F007FF0CA /* Unit Tests */;
 		activeSDKPreference = iphonesimulator2.2.1;
-		activeTarget = 1D6058900D05DD3D006BFB54 /* Wheelsmith */;
+		activeTarget = DF7B11460FAEA80F007FF0CA /* Unit Tests */;
 		addToTargets = (
-			1D6058900D05DD3D006BFB54 /* Wheelsmith */,
 			DF7B11460FAEA80F007FF0CA /* Unit Tests */,
+			1D6058900D05DD3D006BFB54 /* Wheelsmith */,
 		);
 		breakpoints = (
 		);
@@ -588,6 +588,27 @@
 			DF29BC320FB480B1000EB5B8 /* PBXTextBookmark */ = DF29BC320FB480B1000EB5B8 /* PBXTextBookmark */;
 			DF29BC340FB480D5000EB5B8 /* PBXTextBookmark */ = DF29BC340FB480D5000EB5B8 /* PBXTextBookmark */;
 			DF29BC350FB480D6000EB5B8 /* PBXTextBookmark */ = DF29BC350FB480D6000EB5B8 /* PBXTextBookmark */;
+			DF29BC360FB48151000EB5B8 /* PBXTextBookmark */ = DF29BC360FB48151000EB5B8 /* PBXTextBookmark */;
+			DF29BC3E0FB4837C000EB5B8 /* PBXTextBookmark */ = DF29BC3E0FB4837C000EB5B8 /* PBXTextBookmark */;
+			DF29BC3F0FB4837C000EB5B8 /* PBXTextBookmark */ = DF29BC3F0FB4837C000EB5B8 /* PBXTextBookmark */;
+			DF29BC400FB4837C000EB5B8 /* PBXTextBookmark */ = DF29BC400FB4837C000EB5B8 /* PBXTextBookmark */;
+			DF29BC410FB4837C000EB5B8 /* PBXTextBookmark */ = DF29BC410FB4837C000EB5B8 /* PBXTextBookmark */;
+			DF29BC420FB4837C000EB5B8 /* PBXTextBookmark */ = DF29BC420FB4837C000EB5B8 /* PBXTextBookmark */;
+			DF29BC430FB4837C000EB5B8 /* PBXTextBookmark */ = DF29BC430FB4837C000EB5B8 /* PBXTextBookmark */;
+			DF29BC440FB4837C000EB5B8 /* PBXTextBookmark */ = DF29BC440FB4837C000EB5B8 /* PBXTextBookmark */;
+			DF29BC450FB4837C000EB5B8 /* PBXTextBookmark */ = DF29BC450FB4837C000EB5B8 /* PBXTextBookmark */;
+			DF29BC460FB4837C000EB5B8 /* PBXTextBookmark */ = DF29BC460FB4837C000EB5B8 /* PBXTextBookmark */;
+			DF29BC470FB4837C000EB5B8 /* PBXTextBookmark */ = DF29BC470FB4837C000EB5B8 /* PBXTextBookmark */;
+			DF29BC480FB4837C000EB5B8 /* PBXTextBookmark */ = DF29BC480FB4837C000EB5B8 /* PBXTextBookmark */;
+			DF29BC4A0FB483C7000EB5B8 /* PBXTextBookmark */ = DF29BC4A0FB483C7000EB5B8 /* PBXTextBookmark */;
+			DF29BC4B0FB483C7000EB5B8 /* PBXTextBookmark */ = DF29BC4B0FB483C7000EB5B8 /* PBXTextBookmark */;
+			DF29BC4C0FB483C7000EB5B8 /* PBXTextBookmark */ = DF29BC4C0FB483C7000EB5B8 /* PBXTextBookmark */;
+			DF29BC4D0FB483C7000EB5B8 /* PBXTextBookmark */ = DF29BC4D0FB483C7000EB5B8 /* PBXTextBookmark */;
+			DF29BC510FB484D5000EB5B8 /* PBXTextBookmark */ = DF29BC510FB484D5000EB5B8 /* PBXTextBookmark */;
+			DF29BC520FB484D5000EB5B8 /* PBXTextBookmark */ = DF29BC520FB484D5000EB5B8 /* PBXTextBookmark */;
+			DF29BC530FB484D5000EB5B8 /* PBXTextBookmark */ = DF29BC530FB484D5000EB5B8 /* PBXTextBookmark */;
+			DF29BC540FB484D5000EB5B8 /* PBXTextBookmark */ = DF29BC540FB484D5000EB5B8 /* PBXTextBookmark */;
+			DF29BC550FB484D5000EB5B8 /* PBXTextBookmark */ = DF29BC550FB484D5000EB5B8 /* PBXTextBookmark */;
 			DF4664E20FAEB02400172895 = DF4664E20FAEB02400172895 /* PBXBookmark */;
 			DF4664E40FAEB02400172895 = DF4664E40FAEB02400172895 /* PBXTextBookmark */;
 			DF4664E50FAEB02400172895 = DF4664E50FAEB02400172895 /* PBXBookmark */;
@@ -1735,7 +1756,7 @@
 	};
 	DF0CE8D30FB2FF8F00701164 /* WheelDetailDelegate.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {938, 319}}";
+			sepNavIntBoundsRect = "{{0, 0}, {938, 567}}";
 			sepNavSelRange = "{53, 0}";
 			sepNavVisRange = "{0, 121}";
 		};
@@ -4197,9 +4218,9 @@
 	};
 	DF29BB6A0FB38BCC000EB5B8 /* TODO.txt */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {938, 370}}";
-			sepNavSelRange = "{174, 0}";
-			sepNavVisRange = "{0, 174}";
+			sepNavIntBoundsRect = "{{0, 0}, {938, 567}}";
+			sepNavSelRange = "{143, 0}";
+			sepNavVisRange = "{0, 177}";
 		};
 	};
 	DF29BB6C0FB38D90000EB5B8 /* PBXTextBookmark */ = {
@@ -4217,7 +4238,7 @@
 		fRef = DF29BB6A0FB38BCC000EB5B8 /* TODO.txt */;
 		name = "TODO.txt: 1";
 		rLen = 0;
-		rLoc = 174;
+		rLoc = 177;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 0;
@@ -4237,7 +4258,7 @@
 		fRef = DF29BB6A0FB38BCC000EB5B8 /* TODO.txt */;
 		name = "TODO.txt: 3";
 		rLen = 0;
-		rLoc = 142;
+		rLoc = 143;
 		rType = 0;
 		vrLen = 158;
 		vrLoc = 0;
@@ -4257,7 +4278,7 @@
 		fRef = DF29BB6A0FB38BCC000EB5B8 /* TODO.txt */;
 		name = "TODO.txt: 3";
 		rLen = 0;
-		rLoc = 142;
+		rLoc = 143;
 		rType = 0;
 		vrLen = 158;
 		vrLoc = 0;
@@ -4267,7 +4288,7 @@
 		fRef = DF29BB6A0FB38BCC000EB5B8 /* TODO.txt */;
 		name = "TODO.txt: 3";
 		rLen = 0;
-		rLoc = 142;
+		rLoc = 143;
 		rType = 0;
 		vrLen = 158;
 		vrLoc = 0;
@@ -4277,7 +4298,7 @@
 		fRef = DF29BB6A0FB38BCC000EB5B8 /* TODO.txt */;
 		name = "TODO.txt: 3";
 		rLen = 0;
-		rLoc = 142;
+		rLoc = 143;
 		rType = 0;
 		vrLen = 158;
 		vrLoc = 0;
@@ -4395,7 +4416,7 @@
 		fRef = DF29BB6A0FB38BCC000EB5B8 /* TODO.txt */;
 		name = "TODO.txt: 3";
 		rLen = 0;
-		rLoc = 142;
+		rLoc = 143;
 		rType = 0;
 		vrLen = 158;
 		vrLoc = 0;
@@ -4795,7 +4816,7 @@
 		fRef = DF29BB6A0FB38BCC000EB5B8 /* TODO.txt */;
 		name = "TODO.txt: 3";
 		rLen = 0;
-		rLoc = 142;
+		rLoc = 143;
 		rType = 0;
 		vrLen = 158;
 		vrLoc = 0;
@@ -4885,7 +4906,7 @@
 		fRef = DF29BB6A0FB38BCC000EB5B8 /* TODO.txt */;
 		name = "TODO.txt: 3";
 		rLen = 0;
-		rLoc = 142;
+		rLoc = 143;
 		rType = 0;
 		vrLen = 158;
 		vrLoc = 0;
@@ -4975,7 +4996,7 @@
 		fRef = DF29BB6A0FB38BCC000EB5B8 /* TODO.txt */;
 		name = "TODO.txt: 3";
 		rLen = 0;
-		rLoc = 142;
+		rLoc = 143;
 		rType = 0;
 		vrLen = 158;
 		vrLoc = 0;
@@ -5096,9 +5117,9 @@
 	};
 	DF29BBE20FB47960000EB5B8 /* Part.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1219, 528}}";
+			sepNavIntBoundsRect = "{{0, 0}, {938, 567}}";
 			sepNavSelRange = "{693, 0}";
-			sepNavVisRange = "{366, 513}";
+			sepNavVisRange = "{0, 977}";
 		};
 	};
 	DF29BBED0FB47B40000EB5B8 /* PBXTextBookmark */ = {
@@ -5576,7 +5597,7 @@
 		fRef = DF29BB6A0FB38BCC000EB5B8 /* TODO.txt */;
 		name = "TODO.txt: 6";
 		rLen = 0;
-		rLoc = 174;
+		rLoc = 177;
 		rType = 0;
 		vrLen = 174;
 		vrLoc = 0;
@@ -5606,7 +5627,7 @@
 		fRef = DF29BB6A0FB38BCC000EB5B8 /* TODO.txt */;
 		name = "TODO.txt: 6";
 		rLen = 0;
-		rLoc = 174;
+		rLoc = 177;
 		rType = 0;
 		vrLen = 174;
 		vrLoc = 0;
@@ -5670,6 +5691,264 @@
 		rType = 0;
 		vrLen = 1493;
 		vrLoc = 5493;
+	};
+	DF29BC360FB48151000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
+		name = "WheelDetailController.m: 165";
+		rLen = 0;
+		rLoc = 6497;
+		rType = 0;
+		vrLen = 633;
+		vrLoc = 5547;
+	};
+	DF29BC370FB481EF000EB5B8 /* CheckmarkPickerControllerTest.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {938, 1008}}";
+			sepNavSelRange = "{2064, 0}";
+			sepNavVisRange = "{1390, 683}";
+		};
+	};
+	DF29BC390FB482CC000EB5B8 /* CheckmarkPickerController.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = CheckmarkPickerController.h;
+		path = /Users/alon/Projects/wheelsmith/Test/Classes/CheckmarkPickerController.h;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {938, 567}}";
+			sepNavSelRange = "{242, 0}";
+			sepNavVisRange = "{0, 300}";
+		};
+	};
+	DF29BC3A0FB482CC000EB5B8 /* CheckmarkPickerController.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = CheckmarkPickerController.m;
+		path = /Users/alon/Projects/wheelsmith/Test/Classes/CheckmarkPickerController.m;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {992, 1184}}";
+			sepNavSelRange = "{705, 0}";
+			sepNavVisRange = "{38, 960}";
+		};
+	};
+	DF29BC3E0FB4837C000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
+		name = "WheelDetailController.m: 165";
+		rLen = 0;
+		rLoc = 6497;
+		rType = 0;
+		vrLen = 1528;
+		vrLoc = 5493;
+	};
+	DF29BC3F0FB4837C000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF29BB6A0FB38BCC000EB5B8 /* TODO.txt */;
+		name = "TODO.txt: 3";
+		rLen = 0;
+		rLoc = 143;
+		rType = 0;
+		vrLen = 177;
+		vrLoc = 0;
+	};
+	DF29BC400FB4837C000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF29BC390FB482CC000EB5B8 /* CheckmarkPickerController.h */;
+		name = "CheckmarkPickerController.h: 10";
+		rLen = 0;
+		rLoc = 242;
+		rType = 0;
+		vrLen = 300;
+		vrLoc = 0;
+	};
+	DF29BC410FB4837C000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF29BC3A0FB482CC000EB5B8 /* CheckmarkPickerController.m */;
+		name = "CheckmarkPickerController.m: 19";
+		rLen = 0;
+		rLoc = 706;
+		rType = 0;
+		vrLen = 696;
+		vrLoc = 189;
+	};
+	DF29BC420FB4837C000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF29BC370FB481EF000EB5B8 /* CheckmarkPickerControllerTest.m */;
+		name = "CheckmarkPickerControllerTest.m: 26";
+		rLen = 10;
+		rLoc = 806;
+		rType = 0;
+		vrLen = 807;
+		vrLoc = 0;
+	};
+	DF29BC430FB4837C000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
+		name = "WheelDetailController.m: 165";
+		rLen = 0;
+		rLoc = 6497;
+		rType = 0;
+		vrLen = 1528;
+		vrLoc = 5493;
+	};
+	DF29BC440FB4837C000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF29BB6A0FB38BCC000EB5B8 /* TODO.txt */;
+		name = "TODO.txt: 3";
+		rLen = 0;
+		rLoc = 143;
+		rType = 0;
+		vrLen = 177;
+		vrLoc = 0;
+	};
+	DF29BC450FB4837C000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF29BC3A0FB482CC000EB5B8 /* CheckmarkPickerController.m */;
+		name = "CheckmarkPickerController.m: 18";
+		rLen = 0;
+		rLoc = 705;
+		rType = 0;
+		vrLen = 696;
+		vrLoc = 189;
+	};
+	DF29BC460FB4837C000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF29BC390FB482CC000EB5B8 /* CheckmarkPickerController.h */;
+		name = "CheckmarkPickerController.h: 10";
+		rLen = 0;
+		rLoc = 242;
+		rType = 0;
+		vrLen = 300;
+		vrLoc = 0;
+	};
+	DF29BC470FB4837C000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF29BC3A0FB482CC000EB5B8 /* CheckmarkPickerController.m */;
+		name = "CheckmarkPickerController.m: 19";
+		rLen = 0;
+		rLoc = 706;
+		rType = 0;
+		vrLen = 696;
+		vrLoc = 189;
+	};
+	DF29BC480FB4837C000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF29BC370FB481EF000EB5B8 /* CheckmarkPickerControllerTest.m */;
+		name = "CheckmarkPickerControllerTest.m: 26";
+		rLen = 10;
+		rLoc = 806;
+		rType = 0;
+		vrLen = 807;
+		vrLoc = 0;
+	};
+	DF29BC4A0FB483C7000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF29BC370FB481EF000EB5B8 /* CheckmarkPickerControllerTest.m */;
+		name = "CheckmarkPickerControllerTest.m: 17";
+		rLen = 25;
+		rLoc = 438;
+		rType = 0;
+		vrLen = 660;
+		vrLoc = 104;
+	};
+	DF29BC4B0FB483C7000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF29BC3A0FB482CC000EB5B8 /* CheckmarkPickerController.m */;
+		rLen = 1;
+		rLoc = 2;
+		rType = 1;
+	};
+	DF29BC4C0FB483C7000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF29BC370FB481EF000EB5B8 /* CheckmarkPickerControllerTest.m */;
+		name = "CheckmarkPickerControllerTest.m: 17";
+		rLen = 25;
+		rLoc = 438;
+		rType = 0;
+		vrLen = 660;
+		vrLoc = 104;
+	};
+	DF29BC4D0FB483C7000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF29BC3A0FB482CC000EB5B8 /* CheckmarkPickerController.m */;
+		name = "CheckmarkPickerController.m: 134";
+		rLen = 0;
+		rLoc = 1953;
+		rType = 0;
+		vrLen = 488;
+		vrLoc = 3345;
+	};
+	DF29BC510FB484D5000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B11EA0FAEA9A3007FF0CA /* PickerController.h */;
+		name = "PickerController.h: 7";
+		rLen = 23;
+		rLoc = 187;
+		rType = 0;
+		vrLen = 476;
+		vrLoc = 0;
+	};
+	DF29BC520FB484D5000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF29BC370FB481EF000EB5B8 /* CheckmarkPickerControllerTest.m */;
+		name = "CheckmarkPickerControllerTest.m: 29";
+		rLen = 14;
+		rLoc = 942;
+		rType = 0;
+		vrLen = 694;
+		vrLoc = 222;
+	};
+	DF29BC530FB484D5000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF29BC3A0FB482CC000EB5B8 /* CheckmarkPickerController.m */;
+		rLen = 0;
+		rLoc = 4;
+		rType = 1;
+	};
+	DF29BC540FB484D5000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF29BC370FB481EF000EB5B8 /* CheckmarkPickerControllerTest.m */;
+		name = "CheckmarkPickerControllerTest.m: 29";
+		rLen = 14;
+		rLoc = 942;
+		rType = 0;
+		vrLen = 694;
+		vrLoc = 222;
+	};
+	DF29BC550FB484D5000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF29BC3A0FB482CC000EB5B8 /* CheckmarkPickerController.m */;
+		name = "CheckmarkPickerController.m: 39";
+		rLen = 0;
+		rLoc = 1672;
+		rType = 0;
+		vrLen = 662;
+		vrLoc = 510;
+	};
+	DF29BC610FB488EB000EB5B8 /* CheckmarkPickerController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {938, 347}}";
+			sepNavSelRange = "{398, 0}";
+			sepNavVisRange = "{0, 444}";
+		};
+	};
+	DF29BC620FB488EB000EB5B8 /* CheckmarkPickerController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {992, 1168}}";
+			sepNavSelRange = "{39, 42}";
+			sepNavVisRange = "{0, 714}";
+		};
+	};
+	DF29BC630FB488EB000EB5B8 /* CheckmarkPickerDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {938, 347}}";
+			sepNavSelRange = "{107, 0}";
+			sepNavVisRange = "{0, 113}";
+		};
 	};
 	DF4664E20FAEB02400172895 /* PBXBookmark */ = {
 		isa = PBXBookmark;
@@ -6131,9 +6410,16 @@
 	};
 	DF7B11E90FAEA9A3007FF0CA /* MyWheelsController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1219, 1920}}";
-			sepNavSelRange = "{3361, 0}";
-			sepNavVisRange = "{3095, 518}";
+			sepNavIntBoundsRect = "{{0, 0}, {1048, 1824}}";
+			sepNavSelRange = "{353, 362}";
+			sepNavVisRange = "{0, 1281}";
+		};
+	};
+	DF7B11EA0FAEA9A3007FF0CA /* PickerController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {938, 347}}";
+			sepNavSelRange = "{187, 23}";
+			sepNavVisRange = "{0, 476}";
 		};
 	};
 	DF7B11EB0FAEA9A3007FF0CA /* PickerController.m */ = {
@@ -6243,9 +6529,9 @@
 	};
 	DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {938, 3152}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1219, 3024}}";
 			sepNavSelRange = "{6497, 0}";
-			sepNavVisRange = "{5493, 1493}";
+			sepNavVisRange = "{5547, 633}";
 			sepNavWindowFrame = "{{1240, 55}, {1277, 723}}";
 		};
 	};
@@ -6268,6 +6554,13 @@
 			sepNavIntBoundsRect = "{{0, 0}, {938, 784}}";
 			sepNavSelRange = "{1252, 0}";
 			sepNavVisRange = "{460, 1029}";
+		};
+	};
+	DF7B12640FAEA9B5007FF0CA /* PickerControllerTest.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {938, 848}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{350, 920}";
 		};
 	};
 	DF7B12650FAEA9B5007FF0CA /* RimDetailControllerTest.m */ = {
@@ -6332,9 +6625,9 @@
 	};
 	DFAAA3EB0FAECE7200699647 /* MyWheelsControllerTest.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {992, 512}}";
+			sepNavIntBoundsRect = "{{0, 0}, {992, 567}}";
 			sepNavSelRange = "{657, 0}";
-			sepNavVisRange = "{183, 776}";
+			sepNavVisRange = "{0, 959}";
 			sepNavWindowFrame = "{{1240, 55}, {1277, 723}}";
 		};
 	};
