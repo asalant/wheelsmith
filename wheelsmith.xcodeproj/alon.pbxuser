@@ -8,9 +8,9 @@
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
 		activeBuildConfigurationName = Debug;
-		activeExecutable = DF7B10A80FAEA69B007FF0CA /* Wheelsmith */;
+		activeExecutable = DF7B11480FAEA80F007FF0CA /* Unit Tests */;
 		activeSDKPreference = iphonesimulator2.2.1;
-		activeTarget = 1D6058900D05DD3D006BFB54 /* Wheelsmith */;
+		activeTarget = DF7B11460FAEA80F007FF0CA /* Unit Tests */;
 		addToTargets = (
 			DF7B11460FAEA80F007FF0CA /* Unit Tests */,
 			1D6058900D05DD3D006BFB54 /* Wheelsmith */,
@@ -800,6 +800,13 @@
 			DF29BD890FB4F50F000EB5B8 /* PBXTextBookmark */ = DF29BD890FB4F50F000EB5B8 /* PBXTextBookmark */;
 			DF29BD8A0FB4F50F000EB5B8 /* PBXTextBookmark */ = DF29BD8A0FB4F50F000EB5B8 /* PBXTextBookmark */;
 			DF29BD8B0FB4F50F000EB5B8 /* PBXTextBookmark */ = DF29BD8B0FB4F50F000EB5B8 /* PBXTextBookmark */;
+			DF29BD8C0FB4F562000EB5B8 /* PBXTextBookmark */ = DF29BD8C0FB4F562000EB5B8 /* PBXTextBookmark */;
+			DF29BD8D0FB4F562000EB5B8 /* PBXTextBookmark */ = DF29BD8D0FB4F562000EB5B8 /* PBXTextBookmark */;
+			DF29BD920FB4F5AE000EB5B8 /* PBXTextBookmark */ = DF29BD920FB4F5AE000EB5B8 /* PBXTextBookmark */;
+			DF29BD930FB4F5AE000EB5B8 /* PBXTextBookmark */ = DF29BD930FB4F5AE000EB5B8 /* PBXTextBookmark */;
+			DF29BD940FB4F5AE000EB5B8 /* PBXTextBookmark */ = DF29BD940FB4F5AE000EB5B8 /* PBXTextBookmark */;
+			DF29BD950FB4F5AE000EB5B8 /* PBXTextBookmark */ = DF29BD950FB4F5AE000EB5B8 /* PBXTextBookmark */;
+			DF29BD960FB4F5AE000EB5B8 /* PBXTextBookmark */ = DF29BD960FB4F5AE000EB5B8 /* PBXTextBookmark */;
 			DF4664E20FAEB02400172895 = DF4664E20FAEB02400172895 /* PBXBookmark */;
 			DF4664E40FAEB02400172895 = DF4664E40FAEB02400172895 /* PBXTextBookmark */;
 			DF4664E50FAEB02400172895 = DF4664E50FAEB02400172895 /* PBXBookmark */;
@@ -1478,7 +1485,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 74";
 		rLen = 0;
-		rLoc = 3406;
+		rLoc = 3377;
 		rType = 0;
 		vrLen = 487;
 		vrLoc = 2927;
@@ -1488,7 +1495,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 74";
 		rLen = 0;
-		rLoc = 3406;
+		rLoc = 3377;
 		rType = 0;
 		vrLen = 482;
 		vrLoc = 2932;
@@ -1510,7 +1517,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 74";
 		rLen = 0;
-		rLoc = 3406;
+		rLoc = 3377;
 		rType = 0;
 		vrLen = 246;
 		vrLoc = 3041;
@@ -1520,7 +1527,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 74";
 		rLen = 0;
-		rLoc = 3406;
+		rLoc = 3377;
 		rType = 0;
 		vrLen = 836;
 		vrLoc = 5247;
@@ -1610,7 +1617,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 74";
 		rLen = 0;
-		rLoc = 3406;
+		rLoc = 3377;
 		rType = 0;
 		vrLen = 836;
 		vrLoc = 5247;
@@ -1740,7 +1747,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 74";
 		rLen = 0;
-		rLoc = 3406;
+		rLoc = 3377;
 		rType = 0;
 		vrLen = 246;
 		vrLoc = 3041;
@@ -1910,7 +1917,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 66";
 		rLen = 21;
-		rLoc = 3183;
+		rLoc = 3154;
 		rType = 0;
 		vrLen = 1211;
 		vrLoc = 2380;
@@ -1920,7 +1927,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 66";
 		rLen = 21;
-		rLoc = 3183;
+		rLoc = 3154;
 		rType = 0;
 		vrLen = 1178;
 		vrLoc = 2380;
@@ -1940,7 +1947,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 66";
 		rLen = 21;
-		rLoc = 3183;
+		rLoc = 3154;
 		rType = 0;
 		vrLen = 661;
 		vrLoc = 2380;
@@ -2007,7 +2014,7 @@
 		comments = "warning: '-release' not found in protocol(s)";
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		rLen = 0;
-		rLoc = 191;
+		rLoc = 190;
 		rType = 1;
 	};
 	DF29B9A10FB30DCE000EB5B8 /* PBXTextBookmark */ = {
@@ -2015,7 +2022,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 66";
 		rLen = 21;
-		rLoc = 3183;
+		rLoc = 3154;
 		rType = 0;
 		vrLen = 1286;
 		vrLoc = 2293;
@@ -2035,7 +2042,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 62";
 		rLen = 0;
-		rLoc = 3148;
+		rLoc = 3119;
 		rType = 0;
 		vrLen = 1450;
 		vrLoc = 1831;
@@ -2065,7 +2072,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 9";
 		rLen = 0;
-		rLoc = 277;
+		rLoc = 248;
 		rType = 0;
 		vrLen = 1221;
 		vrLoc = 0;
@@ -2085,7 +2092,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 168";
 		rLen = 0;
-		rLoc = 7509;
+		rLoc = 7480;
 		rType = 0;
 		vrLen = 663;
 		vrLoc = 5660;
@@ -2095,7 +2102,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 168";
 		rLen = 0;
-		rLoc = 7509;
+		rLoc = 7480;
 		rType = 0;
 		vrLen = 502;
 		vrLoc = 5827;
@@ -2105,7 +2112,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 168";
 		rLen = 0;
-		rLoc = 7509;
+		rLoc = 7480;
 		rType = 0;
 		vrLen = 231;
 		vrLoc = 6091;
@@ -2115,7 +2122,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 168";
 		rLen = 0;
-		rLoc = 7509;
+		rLoc = 7480;
 		rType = 0;
 		vrLen = 938;
 		vrLoc = 3227;
@@ -2135,7 +2142,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 168";
 		rLen = 0;
-		rLoc = 7509;
+		rLoc = 7480;
 		rType = 0;
 		vrLen = 938;
 		vrLoc = 3227;
@@ -2165,7 +2172,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 168";
 		rLen = 0;
-		rLoc = 7509;
+		rLoc = 7480;
 		rType = 0;
 		vrLen = 234;
 		vrLoc = 6095;
@@ -2305,7 +2312,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 83";
 		rLen = 0;
-		rLoc = 3680;
+		rLoc = 3651;
 		rType = 0;
 		vrLen = 1152;
 		vrLoc = 3051;
@@ -2415,7 +2422,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 83";
 		rLen = 0;
-		rLoc = 3680;
+		rLoc = 3651;
 		rType = 0;
 		vrLen = 1152;
 		vrLoc = 3051;
@@ -3496,7 +3503,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 86";
 		rLen = 0;
-		rLoc = 3680;
+		rLoc = 3651;
 		rType = 0;
 		vrLen = 567;
 		vrLoc = 3341;
@@ -3536,7 +3543,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 86";
 		rLen = 0;
-		rLoc = 3680;
+		rLoc = 3651;
 		rType = 0;
 		vrLen = 567;
 		vrLoc = 3341;
@@ -3646,7 +3653,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 97";
 		rLen = 0;
-		rLoc = 3966;
+		rLoc = 3937;
 		rType = 0;
 		vrLen = 1177;
 		vrLoc = 3177;
@@ -3656,7 +3663,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 97";
 		rLen = 0;
-		rLoc = 3966;
+		rLoc = 3937;
 		rType = 0;
 		vrLen = 1175;
 		vrLoc = 3274;
@@ -3676,7 +3683,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 97";
 		rLen = 0;
-		rLoc = 3966;
+		rLoc = 3937;
 		rType = 0;
 		vrLen = 518;
 		vrLoc = 3568;
@@ -3686,7 +3693,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 97";
 		rLen = 0;
-		rLoc = 3966;
+		rLoc = 3937;
 		rType = 0;
 		vrLen = 1210;
 		vrLoc = 3274;
@@ -3706,7 +3713,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 97";
 		rLen = 0;
-		rLoc = 3966;
+		rLoc = 3937;
 		rType = 0;
 		vrLen = 1210;
 		vrLoc = 3274;
@@ -3756,7 +3763,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 97";
 		rLen = 0;
-		rLoc = 3966;
+		rLoc = 3937;
 		rType = 0;
 		vrLen = 518;
 		vrLoc = 3568;
@@ -3826,7 +3833,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 87";
 		rLen = 0;
-		rLoc = 3680;
+		rLoc = 3651;
 		rType = 0;
 		vrLen = 1135;
 		vrLoc = 3177;
@@ -3836,7 +3843,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 87";
 		rLen = 0;
-		rLoc = 3680;
+		rLoc = 3651;
 		rType = 0;
 		vrLen = 928;
 		vrLoc = 3101;
@@ -3856,7 +3863,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 87";
 		rLen = 0;
-		rLoc = 3680;
+		rLoc = 3651;
 		rType = 0;
 		vrLen = 391;
 		vrLoc = 3341;
@@ -3866,7 +3873,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 96";
 		rLen = 0;
-		rLoc = 3966;
+		rLoc = 3937;
 		rType = 0;
 		vrLen = 494;
 		vrLoc = 3227;
@@ -3884,7 +3891,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 96";
 		rLen = 0;
-		rLoc = 3966;
+		rLoc = 3937;
 		rType = 0;
 		vrLen = 494;
 		vrLoc = 3227;
@@ -3914,7 +3921,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 84";
 		rLen = 0;
-		rLoc = 3680;
+		rLoc = 3651;
 		rType = 0;
 		vrLen = 374;
 		vrLoc = 3314;
@@ -5147,7 +5154,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 153";
 		rLen = 0;
-		rLoc = 6449;
+		rLoc = 6420;
 		rType = 0;
 		vrLen = 1016;
 		vrLoc = 5270;
@@ -5197,7 +5204,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 155";
 		rLen = 0;
-		rLoc = 6449;
+		rLoc = 6420;
 		rType = 0;
 		vrLen = 1027;
 		vrLoc = 5249;
@@ -5398,7 +5405,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 153";
 		rLen = 0;
-		rLoc = 6449;
+		rLoc = 6420;
 		rType = 0;
 		vrLen = 1027;
 		vrLoc = 5269;
@@ -5488,7 +5495,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 167";
 		rLen = 0;
-		rLoc = 7082;
+		rLoc = 7053;
 		rType = 0;
 		vrLen = 762;
 		vrLoc = 5994;
@@ -5498,7 +5505,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 167";
 		rLen = 0;
-		rLoc = 7082;
+		rLoc = 7053;
 		rType = 0;
 		vrLen = 810;
 		vrLoc = 5901;
@@ -5518,7 +5525,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 167";
 		rLen = 0;
-		rLoc = 7082;
+		rLoc = 7053;
 		rType = 0;
 		vrLen = 568;
 		vrLoc = 6121;
@@ -5528,7 +5535,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 167";
 		rLen = 0;
-		rLoc = 7082;
+		rLoc = 7053;
 		rType = 0;
 		vrLen = 968;
 		vrLoc = 5724;
@@ -5668,7 +5675,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 167";
 		rLen = 0;
-		rLoc = 7082;
+		rLoc = 7053;
 		rType = 0;
 		vrLen = 568;
 		vrLoc = 6121;
@@ -5798,7 +5805,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 167";
 		rLen = 0;
-		rLoc = 7082;
+		rLoc = 7053;
 		rType = 0;
 		vrLen = 977;
 		vrLoc = 5714;
@@ -5828,7 +5835,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 147";
 		rLen = 0;
-		rLoc = 5918;
+		rLoc = 5889;
 		rType = 0;
 		vrLen = 1235;
 		vrLoc = 5269;
@@ -5838,7 +5845,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 147";
 		rLen = 0;
-		rLoc = 5918;
+		rLoc = 5889;
 		rType = 0;
 		vrLen = 1071;
 		vrLoc = 4927;
@@ -5858,7 +5865,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 154";
 		rLen = 0;
-		rLoc = 6341;
+		rLoc = 6312;
 		rType = 0;
 		vrLen = 722;
 		vrLoc = 5270;
@@ -5868,7 +5875,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 165";
 		rLen = 0;
-		rLoc = 6869;
+		rLoc = 6840;
 		rType = 0;
 		vrLen = 1811;
 		vrLoc = 5032;
@@ -5878,7 +5885,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 165";
 		rLen = 0;
-		rLoc = 6869;
+		rLoc = 6840;
 		rType = 0;
 		vrLen = 1493;
 		vrLoc = 5493;
@@ -5888,7 +5895,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 165";
 		rLen = 0;
-		rLoc = 6869;
+		rLoc = 6840;
 		rType = 0;
 		vrLen = 633;
 		vrLoc = 5547;
@@ -5931,7 +5938,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 165";
 		rLen = 0;
-		rLoc = 6869;
+		rLoc = 6840;
 		rType = 0;
 		vrLen = 1528;
 		vrLoc = 5493;
@@ -5981,7 +5988,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 165";
 		rLen = 0;
-		rLoc = 6869;
+		rLoc = 6840;
 		rType = 0;
 		vrLen = 1528;
 		vrLoc = 5493;
@@ -6129,9 +6136,9 @@
 	};
 	DF29BC620FB488EB000EB5B8 /* CheckmarkPickerController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {992, 1408}}";
+			sepNavIntBoundsRect = "{{0, 0}, {992, 1424}}";
 			sepNavSelRange = "{664, 0}";
-			sepNavVisRange = "{150, 703}";
+			sepNavVisRange = "{0, 688}";
 		};
 	};
 	DF29BC630FB488EB000EB5B8 /* CheckmarkPickerDelegate.h */ = {
@@ -6228,7 +6235,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 94";
 		rLen = 0;
-		rLoc = 3966;
+		rLoc = 3937;
 		rType = 0;
 		vrLen = 592;
 		vrLoc = 3313;
@@ -6468,7 +6475,7 @@
 		comments = "warning: incomplete implementation of class 'WheelDetailController'";
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		rLen = 1;
-		rLoc = 197;
+		rLoc = 196;
 		rType = 1;
 	};
 	DF29BCAC0FB4E755000EB5B8 /* PBXTextBookmark */ = {
@@ -6556,7 +6563,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 110";
 		rLen = 0;
-		rLoc = 4850;
+		rLoc = 4821;
 		rType = 0;
 		vrLen = 1080;
 		vrLoc = 3382;
@@ -6576,7 +6583,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 183";
 		rLen = 5;
-		rLoc = 7571;
+		rLoc = 7542;
 		rType = 0;
 		vrLen = 606;
 		vrLoc = 3384;
@@ -6596,7 +6603,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 109";
 		rLen = 14;
-		rLoc = 4786;
+		rLoc = 4757;
 		rType = 0;
 		vrLen = 504;
 		vrLoc = 4049;
@@ -6616,7 +6623,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 115";
 		rLen = 0;
-		rLoc = 4707;
+		rLoc = 4678;
 		rType = 0;
 		vrLen = 580;
 		vrLoc = 4287;
@@ -6626,7 +6633,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 115";
 		rLen = 0;
-		rLoc = 4707;
+		rLoc = 4678;
 		rType = 0;
 		vrLen = 663;
 		vrLoc = 4109;
@@ -6636,7 +6643,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 170";
 		rLen = 0;
-		rLoc = 6869;
+		rLoc = 6840;
 		rType = 0;
 		vrLen = 1185;
 		vrLoc = 4568;
@@ -6646,7 +6653,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 122";
 		rLen = 0;
-		rLoc = 4851;
+		rLoc = 4822;
 		rType = 0;
 		vrLen = 344;
 		vrLoc = 4523;
@@ -6656,7 +6663,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 177";
 		rLen = 0;
-		rLoc = 7208;
+		rLoc = 7179;
 		rType = 0;
 		vrLen = 749;
 		vrLoc = 6440;
@@ -6676,7 +6683,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 177";
 		rLen = 0;
-		rLoc = 7208;
+		rLoc = 7179;
 		rType = 0;
 		vrLen = 749;
 		vrLoc = 6440;
@@ -6706,7 +6713,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 170";
 		rLen = 0;
-		rLoc = 6869;
+		rLoc = 6840;
 		rType = 0;
 		vrLen = 1185;
 		vrLoc = 4568;
@@ -6716,7 +6723,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 122";
 		rLen = 0;
-		rLoc = 4851;
+		rLoc = 4822;
 		rType = 0;
 		vrLen = 299;
 		vrLoc = 4609;
@@ -6786,7 +6793,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 32";
 		rLen = 0;
-		rLoc = 1784;
+		rLoc = 1755;
 		rType = 0;
 		vrLen = 1913;
 		vrLoc = 0;
@@ -6796,7 +6803,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 32";
 		rLen = 0;
-		rLoc = 1784;
+		rLoc = 1755;
 		rType = 0;
 		vrLen = 1900;
 		vrLoc = 416;
@@ -6806,7 +6813,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 170";
 		rLen = 0;
-		rLoc = 6869;
+		rLoc = 6840;
 		rType = 0;
 		vrLen = 1185;
 		vrLoc = 4568;
@@ -6826,7 +6833,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 32";
 		rLen = 0;
-		rLoc = 1784;
+		rLoc = 1755;
 		rType = 0;
 		vrLen = 736;
 		vrLoc = 1177;
@@ -6836,7 +6843,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 32";
 		rLen = 0;
-		rLoc = 1784;
+		rLoc = 1755;
 		rType = 0;
 		vrLen = 1841;
 		vrLoc = 5187;
@@ -6856,7 +6863,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 32";
 		rLen = 0;
-		rLoc = 1784;
+		rLoc = 1755;
 		rType = 0;
 		vrLen = 1841;
 		vrLoc = 5187;
@@ -6886,7 +6893,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 170";
 		rLen = 0;
-		rLoc = 6869;
+		rLoc = 6840;
 		rType = 0;
 		vrLen = 1185;
 		vrLoc = 4568;
@@ -6896,7 +6903,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 32";
 		rLen = 0;
-		rLoc = 1784;
+		rLoc = 1755;
 		rType = 0;
 		vrLen = 702;
 		vrLoc = 1212;
@@ -6936,7 +6943,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 170";
 		rLen = 0;
-		rLoc = 6869;
+		rLoc = 6840;
 		rType = 0;
 		vrLen = 1185;
 		vrLoc = 4568;
@@ -6976,7 +6983,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 32";
 		rLen = 0;
-		rLoc = 1784;
+		rLoc = 1755;
 		rType = 0;
 		vrLen = 2018;
 		vrLoc = 180;
@@ -6996,7 +7003,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 32";
 		rLen = 0;
-		rLoc = 1784;
+		rLoc = 1755;
 		rType = 0;
 		vrLen = 2018;
 		vrLoc = 180;
@@ -7016,7 +7023,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 122";
 		rLen = 0;
-		rLoc = 4840;
+		rLoc = 4811;
 		rType = 0;
 		vrLen = 1279;
 		vrLoc = 4076;
@@ -7026,7 +7033,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 122";
 		rLen = 0;
-		rLoc = 4840;
+		rLoc = 4811;
 		rType = 0;
 		vrLen = 1125;
 		vrLoc = 4075;
@@ -7036,7 +7043,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 172";
 		rLen = 0;
-		rLoc = 6869;
+		rLoc = 6840;
 		rType = 0;
 		vrLen = 1369;
 		vrLoc = 4729;
@@ -7056,7 +7063,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 122";
 		rLen = 0;
-		rLoc = 4840;
+		rLoc = 4811;
 		rType = 0;
 		vrLen = 353;
 		vrLoc = 4449;
@@ -7066,7 +7073,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 180";
 		rLen = 0;
-		rLoc = 7140;
+		rLoc = 7111;
 		rType = 0;
 		vrLen = 1505;
 		vrLoc = 5931;
@@ -7076,7 +7083,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 172";
 		rLen = 0;
-		rLoc = 6869;
+		rLoc = 6840;
 		rType = 0;
 		vrLen = 1369;
 		vrLoc = 4729;
@@ -7086,7 +7093,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 180";
 		rLen = 0;
-		rLoc = 7140;
+		rLoc = 7111;
 		rType = 0;
 		vrLen = 1505;
 		vrLoc = 5931;
@@ -7096,7 +7103,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 118";
 		rLen = 0;
-		rLoc = 4774;
+		rLoc = 4745;
 		rType = 0;
 		vrLen = 1355;
 		vrLoc = 4174;
@@ -7106,7 +7113,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 118";
 		rLen = 0;
-		rLoc = 4774;
+		rLoc = 4745;
 		rType = 0;
 		vrLen = 1077;
 		vrLoc = 4013;
@@ -7116,7 +7123,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 172";
 		rLen = 0;
-		rLoc = 6869;
+		rLoc = 6840;
 		rType = 0;
 		vrLen = 1233;
 		vrLoc = 4674;
@@ -7126,7 +7133,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 118";
 		rLen = 0;
-		rLoc = 4774;
+		rLoc = 4745;
 		rType = 0;
 		vrLen = 379;
 		vrLoc = 4588;
@@ -7136,7 +7143,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 35";
 		rLen = 0;
-		rLoc = 1784;
+		rLoc = 1755;
 		rType = 0;
 		vrLen = 2031;
 		vrLoc = 333;
@@ -7146,7 +7153,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 35";
 		rLen = 0;
-		rLoc = 1784;
+		rLoc = 1755;
 		rType = 0;
 		vrLen = 1868;
 		vrLoc = 592;
@@ -7156,7 +7163,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 173";
 		rLen = 0;
-		rLoc = 6869;
+		rLoc = 6840;
 		rType = 0;
 		vrLen = 1238;
 		vrLoc = 4700;
@@ -7166,7 +7173,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 35";
 		rLen = 0;
-		rLoc = 1784;
+		rLoc = 1755;
 		rType = 0;
 		vrLen = 370;
 		vrLoc = 1994;
@@ -7176,7 +7183,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 36";
 		rLen = 0;
-		rLoc = 1784;
+		rLoc = 1755;
 		rType = 0;
 		vrLen = 2211;
 		vrLoc = 592;
@@ -7186,7 +7193,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 36";
 		rLen = 0;
-		rLoc = 1784;
+		rLoc = 1755;
 		rType = 0;
 		vrLen = 1971;
 		vrLoc = 691;
@@ -7196,7 +7203,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 173";
 		rLen = 0;
-		rLoc = 6869;
+		rLoc = 6840;
 		rType = 0;
 		vrLen = 1238;
 		vrLoc = 4702;
@@ -7206,7 +7213,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 36";
 		rLen = 0;
-		rLoc = 1784;
+		rLoc = 1755;
 		rType = 0;
 		vrLen = 439;
 		vrLoc = 1888;
@@ -7228,7 +7235,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 36";
 		rLen = 0;
-		rLoc = 1784;
+		rLoc = 1755;
 		rType = 0;
 		vrLen = 439;
 		vrLoc = 1888;
@@ -7253,7 +7260,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 35";
 		rLen = 0;
-		rLoc = 1784;
+		rLoc = 1755;
 		rType = 0;
 		vrLen = 2198;
 		vrLoc = 691;
@@ -7263,7 +7270,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 35";
 		rLen = 0;
-		rLoc = 1784;
+		rLoc = 1755;
 		rType = 0;
 		vrLen = 1919;
 		vrLoc = 592;
@@ -7273,7 +7280,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 173";
 		rLen = 0;
-		rLoc = 6869;
+		rLoc = 6840;
 		rType = 0;
 		vrLen = 1240;
 		vrLoc = 4799;
@@ -7283,7 +7290,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 35";
 		rLen = 0;
-		rLoc = 1784;
+		rLoc = 1755;
 		rType = 0;
 		vrLen = 536;
 		vrLoc = 1566;
@@ -7305,7 +7312,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 35";
 		rLen = 0;
-		rLoc = 1784;
+		rLoc = 1755;
 		rType = 0;
 		vrLen = 536;
 		vrLoc = 1566;
@@ -7340,7 +7347,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 35";
 		rLen = 0;
-		rLoc = 1784;
+		rLoc = 1755;
 		rType = 0;
 		vrLen = 2027;
 		vrLoc = 592;
@@ -7360,7 +7367,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 36";
 		rLen = 0;
-		rLoc = 1920;
+		rLoc = 1891;
 		rType = 0;
 		vrLen = 2074;
 		vrLoc = 592;
@@ -7370,7 +7377,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 36";
 		rLen = 0;
-		rLoc = 1920;
+		rLoc = 1891;
 		rType = 0;
 		vrLen = 1975;
 		vrLoc = 691;
@@ -7380,7 +7387,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 173";
 		rLen = 0;
-		rLoc = 6869;
+		rLoc = 6840;
 		rType = 0;
 		vrLen = 1220;
 		vrLoc = 4751;
@@ -7390,7 +7397,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 36";
 		rLen = 0;
-		rLoc = 1920;
+		rLoc = 1891;
 		rType = 0;
 		vrLen = 583;
 		vrLoc = 1566;
@@ -7400,7 +7407,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 36";
 		rLen = 0;
-		rLoc = 1920;
+		rLoc = 1891;
 		rType = 0;
 		vrLen = 583;
 		vrLoc = 1566;
@@ -7410,7 +7417,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 181";
 		rLen = 0;
-		rLoc = 7148;
+		rLoc = 7119;
 		rType = 0;
 		vrLen = 1129;
 		vrLoc = 6556;
@@ -7420,7 +7427,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 181";
 		rLen = 0;
-		rLoc = 7148;
+		rLoc = 7119;
 		rType = 0;
 		vrLen = 1231;
 		vrLoc = 6448;
@@ -7430,7 +7437,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 173";
 		rLen = 0;
-		rLoc = 6869;
+		rLoc = 6840;
 		rType = 0;
 		vrLen = 1220;
 		vrLoc = 4751;
@@ -7440,7 +7447,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 181";
 		rLen = 0;
-		rLoc = 7148;
+		rLoc = 7119;
 		rType = 0;
 		vrLen = 633;
 		vrLoc = 6556;
@@ -7450,7 +7457,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 181";
 		rLen = 0;
-		rLoc = 7148;
+		rLoc = 7119;
 		rType = 0;
 		vrLen = 633;
 		vrLoc = 6556;
@@ -7460,7 +7467,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 181";
 		rLen = 0;
-		rLoc = 7148;
+		rLoc = 7119;
 		rType = 0;
 		vrLen = 1988;
 		vrLoc = 161;
@@ -7480,7 +7487,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 181";
 		rLen = 0;
-		rLoc = 7148;
+		rLoc = 7119;
 		rType = 0;
 		vrLen = 1988;
 		vrLoc = 161;
@@ -7510,7 +7517,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 173";
 		rLen = 0;
-		rLoc = 6869;
+		rLoc = 6840;
 		rType = 0;
 		vrLen = 1220;
 		vrLoc = 4751;
@@ -7520,7 +7527,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 181";
 		rLen = 0;
-		rLoc = 7148;
+		rLoc = 7119;
 		rType = 0;
 		vrLen = 633;
 		vrLoc = 6556;
@@ -7627,7 +7634,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 36";
 		rLen = 0;
-		rLoc = 1784;
+		rLoc = 1755;
 		rType = 0;
 		vrLen = 1990;
 		vrLoc = 161;
@@ -7637,7 +7644,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 36";
 		rLen = 0;
-		rLoc = 1784;
+		rLoc = 1755;
 		rType = 0;
 		vrLen = 1905;
 		vrLoc = 691;
@@ -7647,7 +7654,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 173";
 		rLen = 0;
-		rLoc = 6869;
+		rLoc = 6840;
 		rType = 0;
 		vrLen = 1220;
 		vrLoc = 4753;
@@ -7657,7 +7664,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 36";
 		rLen = 0;
-		rLoc = 1784;
+		rLoc = 1755;
 		rType = 0;
 		vrLen = 585;
 		vrLoc = 1566;
@@ -7667,7 +7674,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 36";
 		rLen = 0;
-		rLoc = 1784;
+		rLoc = 1755;
 		rType = 0;
 		vrLen = 2118;
 		vrLoc = 691;
@@ -7694,7 +7701,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 36";
 		rLen = 0;
-		rLoc = 1784;
+		rLoc = 1755;
 		rType = 0;
 		vrLen = 2118;
 		vrLoc = 691;
@@ -7734,7 +7741,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 173";
 		rLen = 0;
-		rLoc = 6869;
+		rLoc = 6840;
 		rType = 0;
 		vrLen = 1220;
 		vrLoc = 4753;
@@ -7764,7 +7771,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 36";
 		rLen = 0;
-		rLoc = 1784;
+		rLoc = 1755;
 		rType = 0;
 		vrLen = 962;
 		vrLoc = 1847;
@@ -7784,7 +7791,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 119";
 		rLen = 0;
-		rLoc = 4774;
+		rLoc = 4745;
 		rType = 0;
 		vrLen = 733;
 		vrLoc = 4368;
@@ -7794,7 +7801,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 119";
 		rLen = 0;
-		rLoc = 4774;
+		rLoc = 4745;
 		rType = 0;
 		vrLen = 639;
 		vrLoc = 4368;
@@ -7804,7 +7811,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 173";
 		rLen = 0;
-		rLoc = 6869;
+		rLoc = 6840;
 		rType = 0;
 		vrLen = 1234;
 		vrLoc = 4753;
@@ -7814,7 +7821,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 119";
 		rLen = 0;
-		rLoc = 4774;
+		rLoc = 4745;
 		rType = 0;
 		vrLen = 639;
 		vrLoc = 4368;
@@ -7824,7 +7831,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 173";
 		rLen = 0;
-		rLoc = 6869;
+		rLoc = 6840;
 		rType = 0;
 		vrLen = 1234;
 		vrLoc = 4753;
@@ -7834,7 +7841,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 119";
 		rLen = 0;
-		rLoc = 4774;
+		rLoc = 4745;
 		rType = 0;
 		vrLen = 497;
 		vrLoc = 4368;
@@ -7844,7 +7851,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 35";
 		rLen = 0;
-		rLoc = 1784;
+		rLoc = 1755;
 		rType = 0;
 		vrLen = 2098;
 		vrLoc = 161;
@@ -7854,7 +7861,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 35";
 		rLen = 0;
-		rLoc = 1784;
+		rLoc = 1755;
 		rType = 0;
 		vrLen = 1966;
 		vrLoc = 592;
@@ -7864,7 +7871,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 173";
 		rLen = 0;
-		rLoc = 6869;
+		rLoc = 6840;
 		rType = 0;
 		vrLen = 1234;
 		vrLoc = 4751;
@@ -7874,7 +7881,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 35";
 		rLen = 0;
-		rLoc = 1784;
+		rLoc = 1755;
 		rType = 0;
 		vrLen = 580;
 		vrLoc = 1679;
@@ -7884,7 +7891,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 35";
 		rLen = 0;
-		rLoc = 1784;
+		rLoc = 1755;
 		rType = 0;
 		vrLen = 580;
 		vrLoc = 1679;
@@ -7894,7 +7901,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 120";
 		rLen = 0;
-		rLoc = 4721;
+		rLoc = 4692;
 		rType = 0;
 		vrLen = 1213;
 		vrLoc = 4188;
@@ -7904,7 +7911,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 120";
 		rLen = 0;
-		rLoc = 4721;
+		rLoc = 4692;
 		rType = 0;
 		vrLen = 1075;
 		vrLoc = 4182;
@@ -7914,7 +7921,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 174";
 		rLen = 0;
-		rLoc = 6869;
+		rLoc = 6840;
 		rType = 0;
 		vrLen = 1242;
 		vrLoc = 4751;
@@ -7924,7 +7931,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 120";
 		rLen = 0;
-		rLoc = 4721;
+		rLoc = 4692;
 		rType = 0;
 		vrLen = 517;
 		vrLoc = 4188;
@@ -7954,7 +7961,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 27";
 		rLen = 303;
-		rLoc = 1253;
+		rLoc = 1224;
 		rType = 0;
 		vrLen = 1232;
 		vrLoc = 791;
@@ -7984,7 +7991,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 118";
 		rLen = 0;
-		rLoc = 4760;
+		rLoc = 4731;
 		rType = 0;
 		vrLen = 851;
 		vrLoc = 5615;
@@ -7994,7 +8001,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 118";
 		rLen = 0;
-		rLoc = 4760;
+		rLoc = 4731;
 		rType = 0;
 		vrLen = 845;
 		vrLoc = 5615;
@@ -8004,7 +8011,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 172";
 		rLen = 0;
-		rLoc = 6869;
+		rLoc = 6840;
 		rType = 0;
 		vrLen = 1198;
 		vrLoc = 4721;
@@ -8014,7 +8021,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 200";
 		rLen = 0;
-		rLoc = 7577;
+		rLoc = 7548;
 		rType = 0;
 		vrLen = 360;
 		vrLoc = 6965;
@@ -8024,7 +8031,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 200";
 		rLen = 0;
-		rLoc = 7577;
+		rLoc = 7548;
 		rType = 0;
 		vrLen = 660;
 		vrLoc = 6780;
@@ -8044,7 +8051,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 200";
 		rLen = 0;
-		rLoc = 7577;
+		rLoc = 7548;
 		rType = 0;
 		vrLen = 660;
 		vrLoc = 6780;
@@ -8074,10 +8081,77 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 172";
 		rLen = 0;
-		rLoc = 6869;
+		rLoc = 6840;
 		rType = 0;
 		vrLen = 1198;
 		vrLoc = 4721;
+	};
+	DF29BD8C0FB4F562000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
+		name = "WheelDetailController.m: 200";
+		rLen = 0;
+		rLoc = 7548;
+		rType = 0;
+		vrLen = 360;
+		vrLoc = 6965;
+	};
+	DF29BD8D0FB4F562000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF29BC620FB488EB000EB5B8 /* CheckmarkPickerController.m */;
+		name = "CheckmarkPickerController.m: 18";
+		rLen = 0;
+		rLoc = 664;
+		rType = 0;
+		vrLen = 552;
+		vrLoc = 180;
+	};
+	DF29BD920FB4F5AE000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF29BC620FB488EB000EB5B8 /* CheckmarkPickerController.m */;
+		name = "CheckmarkPickerController.m: 18";
+		rLen = 0;
+		rLoc = 664;
+		rType = 0;
+		vrLen = 688;
+		vrLoc = 0;
+	};
+	DF29BD930FB4F5AE000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
+		rLen = 0;
+		rLoc = 91;
+		rType = 0;
+	};
+	DF29BD940FB4F5AE000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF29BC620FB488EB000EB5B8 /* CheckmarkPickerController.m */;
+		name = "CheckmarkPickerController.m: 18";
+		rLen = 0;
+		rLoc = 664;
+		rType = 0;
+		vrLen = 688;
+		vrLoc = 0;
+	};
+	DF29BD950FB4F5AE000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
+		name = "WheelDetailController.m: 3";
+		rLen = 0;
+		rLoc = 91;
+		rType = 0;
+		vrLen = 920;
+		vrLoc = 0;
+	};
+	DF29BD960FB4F5AE000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
+		name = "WheelDetailController.m: 171";
+		rLen = 0;
+		rLoc = 6840;
+		rType = 0;
+		vrLen = 1406;
+		vrLoc = 4903;
 	};
 	DF4664E20FAEB02400172895 /* PBXBookmark */ = {
 		isa = PBXBookmark;
@@ -8163,7 +8237,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 92";
 		rLen = 10;
-		rLoc = 4134;
+		rLoc = 4105;
 		rType = 0;
 		vrLen = 979;
 		vrLoc = 3237;
@@ -8293,7 +8367,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 94";
 		rLen = 0;
-		rLoc = 4146;
+		rLoc = 4117;
 		rType = 0;
 		vrLen = 1027;
 		vrLoc = 4089;
@@ -8545,13 +8619,25 @@
 		};
 	};
 	DF7B11EA0FAEA9A3007FF0CA /* PickerController.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = PickerController.h;
+		path = /Users/alon/Projects/wheelsmith/App/Classes/PickerController.h;
+		sourceTree = "<absolute>";
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {938, 347}}";
+			sepNavIntBoundsRect = "{{0, 0}, {938, 320}}";
 			sepNavSelRange = "{187, 23}";
 			sepNavVisRange = "{0, 476}";
 		};
 	};
 	DF7B11EB0FAEA9A3007FF0CA /* PickerController.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = PickerController.m;
+		path = /Users/alon/Projects/wheelsmith/App/Classes/PickerController.m;
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {938, 784}}";
 			sepNavSelRange = "{773, 0}";
@@ -8658,9 +8744,9 @@
 	};
 	DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1218, 3456}}";
-			sepNavSelRange = "{6869, 0}";
-			sepNavVisRange = "{4721, 1198}";
+			sepNavIntBoundsRect = "{{0, 0}, {1218, 3440}}";
+			sepNavSelRange = "{6840, 0}";
+			sepNavVisRange = "{4903, 1406}";
 			sepNavWindowFrame = "{{1240, 55}, {1277, 723}}";
 		};
 	};
@@ -8686,10 +8772,16 @@
 		};
 	};
 	DF7B12640FAEA9B5007FF0CA /* PickerControllerTest.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = PickerControllerTest.m;
+		path = /Users/alon/Projects/wheelsmith/Test/Classes/PickerControllerTest.m;
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {938, 848}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{350, 920}";
+			sepNavSelRange = "{192, 16}";
+			sepNavVisRange = "{0, 490}";
 		};
 	};
 	DF7B12650FAEA9B5007FF0CA /* RimDetailControllerTest.m */ = {

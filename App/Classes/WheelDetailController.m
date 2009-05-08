@@ -1,7 +1,6 @@
 #import "WheelDetailController.h"
 #import "TableCellFactory.h"
 #import "LabeledValueCell.h"
-#import "PickerController.h"
 
 @implementation WheelDetailController
 
