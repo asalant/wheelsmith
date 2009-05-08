@@ -1,5 +1,6 @@
 Checkbox picker for spoke pattern
-Limit wheel and hub selection to hole count of the other
+x Limit wheel and hub selection to hole count of the other
 Remove "Use this wheel" when not creating a wheel
 Add hub
 Add wheel
+Edit a wheel?

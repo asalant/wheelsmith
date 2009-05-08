@@ -145,26 +145,27 @@
     UITableViewCell *cell = [[sections objectAtIndex:indexPath.section] objectAtIndex:indexPath.row];
     if (cell == hubCell) {
         hubDetailController.editWheelDelegate = self;
+        hubBrandsController.holeCount = wheel.rim.holeCount;
+        hubBrandsController.brands = [Hub selectBrandNamesForHoleCount:wheel.rim.holeCount];
         if (wheel.hub) {
             hubDetailController.hub = wheel.hub;
+            [self.navigationController pushViewController:hubBrandsController animated:NO];
             [self.navigationController pushViewController:hubDetailController animated:YES];
         }
         else {
-            hubBrandsController.holeCount = wheel.rim.holeCount;
-            hubBrandsController.brands = [Hub selectBrandNamesForHoleCount:wheel.rim.holeCount];
             [self.navigationController pushViewController:hubBrandsController animated:YES];
         }
     }
     else if (cell == rimCell) {
         rimDetailController.editWheelDelegate = self;
+        rimBrandsController.holeCount = wheel.hub.holeCount;
+        rimBrandsController.brands = [Rim selectBrandNamesForHoleCount:wheel.hub.holeCount];
         if (wheel.rim) {
             rimDetailController.rim = wheel.rim;
+            [self.navigationController pushViewController:rimBrandsController animated:NO];
             [self.navigationController pushViewController:rimDetailController animated:YES];
         }
-        else
-        {
-            rimBrandsController.holeCount = wheel.hub.holeCount;
-            rimBrandsController.brands = [Rim selectBrandNamesForHoleCount:wheel.hub.holeCount];
+        else {
             [self.navigationController pushViewController:rimBrandsController animated:YES];
         }
     }
