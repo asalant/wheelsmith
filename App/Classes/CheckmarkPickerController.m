@@ -12,6 +12,11 @@
                                                                                             action:@selector(commitSelection)] autorelease];
 }
 
+-(void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    [self.tableView reloadData];
+}
+
 -(id)selectedOption {
     if (!selectedIndex)
         return nil;
@@ -29,8 +34,8 @@
 }
 
 -(void)commitSelection {
-    [self dismissModalViewControllerAnimated:YES];
-    [delegate optionSelected:[self selectedOption]];
+    [delegate optionSelected:self.selectedOption];
+    [self.navigationController popViewControllerAnimated:YES];
 }
 
 #pragma mark Table view methods
@@ -49,7 +54,7 @@
 // Customize the appearance of table view cells.
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     
-    static NSString *CellIdentifier = @"OptionsCell";
+    static NSString *CellIdentifier = @"OptionCell";
     
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     if (cell == nil) {
@@ -58,15 +63,19 @@
     
     // Set up the cell...
     cell.text = [delegate labelForOption:[options objectAtIndex:indexPath.row]];
+    cell.selectionStyle = UITableViewCellSelectionStyleNone;
     if (selectedIndex && indexPath.row == [selectedIndex intValue]) {
         cell.accessoryType = UITableViewCellAccessoryCheckmark;
+    }
+    else {
+        cell.accessoryType = UITableViewCellAccessoryNone;
     }
 
     return cell;
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    selectedIndex = [NSNumber numberWithInt:indexPath.row];
+    self.selectedIndex = [NSNumber numberWithInt:indexPath.row];
     [self.tableView reloadData];
 }
 

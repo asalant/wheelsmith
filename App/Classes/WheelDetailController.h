@@ -5,11 +5,12 @@
 #import "HubBrandsController.h"
 #import "RimBrandsController.h"
 #import "LabeledValueCell.h"
-#import "PickerController.h"
+#import "CheckmarkPickerController.h"
 #import "EditWheelDelegate.h"
 #import "WheelDetailDelegate.h"
+#import "CheckmarkPickerDelegate.h"
 
-@interface WheelDetailController : UITableViewController <EditWheelDelegate> {
+@interface WheelDetailController : UITableViewController <EditWheelDelegate, CheckmarkPickerDelegate> {
     Wheel *wheel;
     LabeledValueCell *rimCell;
     LabeledValueCell *hubCell;
@@ -21,9 +22,10 @@
     RimDetailController *rimDetailController;
     HubBrandsController *hubBrandsController;
     RimBrandsController *rimBrandsController;
-    PickerController *spokePatternPicker;
+    CheckmarkPickerController *spokePatternPicker;
     id<WheelDetailDelegate> delegate;
     NSArray *sections;
+    NSDictionary *patternPickerOptions;
 
 }
 

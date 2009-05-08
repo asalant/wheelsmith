@@ -24,18 +24,16 @@
                      [NSArray arrayWithObjects:leftLengthCell, rightLengthCell, nil],
                      nil] retain];
         
-        spokePatternPicker = [[[PickerController alloc] initWithNibName:@"PickerView" bundle:nil] retain];
-        spokePatternPicker.target = self;
-        spokePatternPicker.handler = @selector(setSpokePattern:);
-        {
-            NSMutableArray *options = [NSMutableArray arrayWithCapacity:20];
-            int i;
-            for (i = 0; i <= 4; i++) {
-                [options addObject:[NSNumber numberWithInt:i]];
-            }
-            spokePatternPicker.options = options;
-            spokePatternPicker.selectedOption = [NSNumber numberWithInt:3];
-        }
+        patternPickerOptions = [[NSDictionary dictionaryWithObjectsAndKeys:
+                                @"radial", [NSNumber numberWithInt:0], 
+                                 @"3 across", [NSNumber numberWithInt:3], 
+                                 @"4 across", [NSNumber numberWithInt:4], 
+                                 nil] retain];
+        spokePatternPicker = [[[CheckmarkPickerController alloc] initWithStyle:UITableViewStyleGrouped] retain];
+        spokePatternPicker.title = @"Spoke Pattern";
+        spokePatternPicker.delegate = self;
+        spokePatternPicker.options = [NSArray arrayWithObjects:[NSNumber numberWithInt:0], [NSNumber numberWithInt:3], [NSNumber numberWithInt:4], nil];
+        spokePatternPicker.selectedIndex = [NSNumber numberWithInt:1];
     }
     return self;
 }
@@ -92,9 +90,9 @@
 
 -(void)setSpokePattern:(NSNumber *)across {
     wheel.spokePattern = across;
-    [self dismissModalViewControllerAnimated:YES];
     [self afterEditWheel:self.wheel];
 }
+
 
 -(void)afterEditWheel:(Wheel *)theWheel {
     if (theWheel.pk) {
@@ -113,6 +111,15 @@
     [rightLengthCell setValue:[NSString stringWithFormat:@"%@mm  ", [wheel rightSpokeLength]]];
     
     [self.tableView reloadData];
+}
+
+#pragma mark CheckmarkPickerDelegate methods
+-(NSString *)labelForOption:(id)option {
+    return [patternPickerOptions objectForKey:option];
+}
+
+-(void)optionSelected:(id)option {
+    [self setSpokePattern:option];
 }
 
 #pragma mark Table view methods
@@ -170,7 +177,8 @@
         }
     }
     else if (cell == spokePatternCell) {
-        [self presentModalViewController:spokePatternPicker animated:YES];
+        spokePatternPicker.selectedOption = self.wheel.spokePattern;
+        [self.navigationController pushViewController:spokePatternPicker animated:YES];
     }
 }
 
@@ -182,6 +190,7 @@
     [rimDetailController release];
     [rimBrandsController release];
     [hubBrandsController release];
+    [patternPickerOptions release];
     [super dealloc];
 }
 
