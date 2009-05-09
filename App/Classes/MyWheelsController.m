@@ -63,7 +63,7 @@
     }
     
     Wheel *wheel = [wheels objectAtIndex:indexPath.row];
-    [cell setLabel:[NSString stringWithFormat:@"%@ / %@", wheel.hub.brand, wheel.rim.brand]
+    [cell setLabel:[NSString stringWithFormat:@"%@ / %@", wheel.hub ? wheel.hub.brand : @"?", wheel.rim ? wheel.rim.brand : @"?"]
          withValue:wheel.spokePatternDescription];
     cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
 
@@ -100,7 +100,6 @@
         // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
     }   
 }
-
 
 - (void)dealloc {
     [wheels release];

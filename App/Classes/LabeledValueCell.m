@@ -26,20 +26,15 @@
     valueLabel.text = value;
 }
 
-- (id)initWithFrame:(CGRect)frame reuseIdentifier:(NSString *)reuseIdentifier {
-    if (self = [super initWithFrame:frame reuseIdentifier:reuseIdentifier]) {
-        // Initialization code
+- (void)setEditing:(BOOL)editing animated:(BOOL)animated {
+    if (editing) {
+        valueLabel.hidden = YES;
     }
-    return self;
+    else {
+        valueLabel.hidden = NO;
+    }
+    [super setEditing:editing animated:animated];
 }
-
-- (void)setSelected:(BOOL)selected animated:(BOOL)animated {
-    
-    [super setSelected:selected animated:animated];
-    
-    // Configure the view for the selected state
-}
-
 
 - (void)dealloc {
 	[labelLabel release];

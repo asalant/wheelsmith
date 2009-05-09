@@ -482,6 +482,7 @@
 		DF7B12600FAEA9B5007FF0CA /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				DF7B12670FAEA9B5007FF0CA /* Support */,
 				DF29BC370FB481EF000EB5B8 /* CheckmarkPickerControllerTest.m */,
 				DFC8226B0FB007B00032468F /* DomainObjectTest.m */,
 				DFAAA4320FAF1B0B00699647 /* WheelDetailControllerTest.m */,
@@ -491,7 +492,6 @@
 				DF7B12630FAEA9B5007FF0CA /* HubTest.m */,
 				DF7B12650FAEA9B5007FF0CA /* RimDetailControllerTest.m */,
 				DF7B12660FAEA9B5007FF0CA /* RimTest.m */,
-				DF7B12670FAEA9B5007FF0CA /* Support */,
 				DF7B126D0FAEA9B5007FF0CA /* TableCellFactoryTest.m */,
 				DF7B126E0FAEA9B5007FF0CA /* WheelTest.m */,
 			);

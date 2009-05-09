@@ -102,8 +102,8 @@
 }
 
 - (void) updateView {
-    [rimCell setValue:wheel.rim ? wheel.rim.description : @"Choose Rim"];
-    [hubCell setValue:wheel.hub ? wheel.hub.description : @"Choose Hub"];
+    [rimCell setValue:wheel.rim ? [NSString stringWithFormat:@"%@ %@",wheel.rim.brand, wheel.rim.description] : @"Choose Rim"];
+    [hubCell setValue:wheel.hub ? [NSString stringWithFormat:@"%@ %@",wheel.hub.brand, wheel.hub.description] : @"Choose Hub"];
     [spokePatternCell setValue:wheel.spokePattern ? wheel.spokePatternDescription : @"Choose Pattern"];
     
     [leftLengthCell setValue:[NSString stringWithFormat:@"%@mm  ", [wheel leftSpokeLength]]];
