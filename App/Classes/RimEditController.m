@@ -1,26 +1,32 @@
-#import "RimDetailController.h"
+#import "RimEditController.h"
 #import "StringUtil.h"
 
-@implementation RimDetailController
+@implementation RimEditController
 
 @synthesize rim;
-@synthesize brandLabel, descriptionLabel, erdLabel, offsetLabel, sizeLabel, holeCountLabel;
-@synthesize editWheelDelegate;
+@synthesize brandTextField, descriptionTextField, erdTextField, offsetTextField, sizeTextField, holeCountTextField;
 
+-(void)viewDidLoad {
+    [super viewDidLoad];
+    
+    self.navigationItem.rightBarButtonItem = [[[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemSave
+                                                                                            target:self 
+                                                                                            action:@selector(saveRim)] autorelease];
+}
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
     
-    brandLabel.text = rim.brand;
-    descriptionLabel.text = rim.description;
-    erdLabel.text = [StringUtil formatFloat:rim.erd];
-    offsetLabel.text = [StringUtil formatFloat:rim.offset];
-    sizeLabel.text = [rim.size description];
-    holeCountLabel.text = [NSString stringWithFormat:@"%d holes", [rim.holeCount intValue]];
+    brandTextField.text = rim.brand;
+    descriptionTextField.text = rim.description;
+    erdTextField.text = [StringUtil formatFloat:rim.erd];
+    offsetTextField.text = [StringUtil formatFloat:rim.offset];
+    sizeTextField.text = [rim.size description];
+    holeCountTextField.text = [rim.holeCount description];
 }
 
--(IBAction)chooseRim {
-    [self.editWheelDelegate setRim:rim];
+-(IBAction)saveRim {
+    [self.navigationController popViewControllerAnimated:YES];
 }
 
 - (void)dealloc {

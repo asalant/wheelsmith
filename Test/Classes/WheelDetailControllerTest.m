@@ -43,7 +43,7 @@
     [controller viewWillAppear:NO];
     
     assertThat([((LabeledValueCell *)[controller tableView:nil cellForRowAtIndexPath:[NSIndexPath indexPathForRow:0 inSection:0]]).valueLabel text],
-               is(@"Campagnolo Record Front 32h Black"));
+               is(@"Campagnolo Campagnolo Record Front 32h Black"));
 }
 
 @end

@@ -3,6 +3,7 @@
 #import "RimBrandsController.h"
 #import "RimListController.h"
 #import "RimDetailController.h"
+#import "RimEditController.h"
 #import "HubBrandsController.h"
 #import "HubListController.h"
 #import "Rim.h"
@@ -19,8 +20,14 @@
 	[DomainObject setDatabase:[Database create:@"parts" overwrite:NO]];
     
     // Create and set dependencies
+    
+    RimEditController *rimEditController = [[[RimEditController alloc] initWithNibName:@"RimEditView" bundle:nil] autorelease];
+    rimEditController.title = @"Edit Rim";
+    
     RimDetailController *rimDetailController = [[[RimDetailController alloc] initWithNibName:@"RimDetailView" bundle:nil] autorelease];
     rimDetailController.title = @"Rim Detail";
+    rimDetailController.editController = rimEditController;
+    
     RimListController *rimListController = [[[RimListController alloc] initWithStyle:UITableViewStylePlain] autorelease];
     rimListController.rimDetailController = rimDetailController;
     

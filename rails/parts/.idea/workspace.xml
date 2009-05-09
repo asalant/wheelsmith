@@ -5,6 +5,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/fixtures/rims.yml" afterPath="$PROJECT_DIR$/test/fixtures/rims.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/fixtures/hubs.yml" afterPath="$PROJECT_DIR$/test/fixtures/hubs.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20090502045322_create_hubs.rb" afterPath="$PROJECT_DIR$/db/migrate/20090502045322_create_hubs.rb" />
     </list>
     <ignored path="parts.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -22,19 +23,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="parts.rake" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/tasks/parts.rake">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="6" selection-start="1575" selection-end="1575" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="wheels.yml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="wheels.yml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/fixtures/wheels.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="16" selection-start="174" selection-end="174" vertical-scroll-proportion="0.26086956">
+            <state line="8" column="16" selection-start="174" selection-end="174" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -71,6 +63,15 @@
         <entry file="file://$PROJECT_DIR$/db/migrate/20090502043833_create_rims.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="12" column="7" selection-start="283" selection-end="283" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="20090502045322_create_hubs.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/db/migrate/20090502045322_create_hubs.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="27" selection-start="362" selection-end="362" vertical-scroll-proportion="0.35869566">
               <folding />
             </state>
           </provider>
@@ -570,13 +571,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20090502045322_create_hubs.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="27" selection-start="423" selection-end="423" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/hubs.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state line="586" column="8" selection-start="62256" selection-end="62286" vertical-scroll-proportion="0.0">
@@ -626,13 +620,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20090502043833_create_rims.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="7" selection-start="283" selection-end="283" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/fixtures/rims.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="38" selection-start="260" selection-end="260" vertical-scroll-proportion="0.0">
@@ -649,7 +636,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/fixtures/wheels.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="16" selection-start="174" selection-end="174" vertical-scroll-proportion="0.26086956">
+        <state line="8" column="16" selection-start="174" selection-end="174" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20090502043833_create_rims.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="7" selection-start="283" selection-end="283" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20090502045322_create_hubs.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="27" selection-start="362" selection-end="362" vertical-scroll-proportion="0.35869566">
           <folding />
         </state>
       </provider>

@@ -1,27 +1,24 @@
 #import <UIKit/UIKit.h>
 #import "Rim.h"
-#import "EditWheelDelegate.h"
 
-@interface RimDetailController : UIViewController {
+@interface RimEditController : UIViewController {
     Rim *rim;
-    IBOutlet UILabel *brandLabel;
-    IBOutlet UILabel *descriptionLabel;
-    IBOutlet UILabel *erdLabel;
-    IBOutlet UILabel *offsetLabel;
-    IBOutlet UILabel *sizeLabel;
-    IBOutlet UILabel *holeCountLabel;
-    id<EditWheelDelegate> editWheelDelegate;
+    IBOutlet UITextField *brandTextField;
+    IBOutlet UITextField *descriptionTextField;
+    IBOutlet UITextField *erdTextField;
+    IBOutlet UITextField *offsetTextField;
+    IBOutlet UITextField *sizeTextField;
+    IBOutlet UITextField *holeCountTextField;
 }
 
 @property(nonatomic, retain) Rim *rim;
-@property(nonatomic, retain) UILabel *brandLabel;
-@property(nonatomic, retain) UILabel *descriptionLabel;
-@property(nonatomic, retain) UILabel *erdLabel;
-@property(nonatomic, retain) UILabel *offsetLabel;
-@property(nonatomic, retain) UILabel *sizeLabel;
-@property(nonatomic, retain) IBOutlet UILabel *holeCountLabel;
-@property(nonatomic, retain) id<EditWheelDelegate> editWheelDelegate;
+@property(nonatomic, retain) UITextField *brandTextField;
+@property(nonatomic, retain) UITextField *descriptionTextField;
+@property(nonatomic, retain) UITextField *erdTextField;
+@property(nonatomic, retain) UITextField *offsetTextField;
+@property(nonatomic, retain) UITextField *sizeTextField;
+@property(nonatomic, retain) UITextField *holeCountTextField;
 
--(IBAction)chooseRim;
+-(IBAction)saveRim;
 
 @end

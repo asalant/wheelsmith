@@ -5,8 +5,15 @@
 
 @synthesize rim;
 @synthesize brandLabel, descriptionLabel, erdLabel, offsetLabel, sizeLabel, holeCountLabel;
-@synthesize editWheelDelegate;
+@synthesize editWheelDelegate, editController;
 
+-(void)viewDidLoad {
+    [super viewDidLoad];
+    self.navigationItem.rightBarButtonItem = [[[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemEdit
+                                                                                            target:self 
+                                                                                            action:@selector(editRim)] autorelease];
+    
+}
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
@@ -23,8 +30,14 @@
     [self.editWheelDelegate setRim:rim];
 }
 
+-(void)editRim {
+    editController.rim = rim;
+    [self.navigationController pushViewController:editController animated:YES];
+}
+
 - (void)dealloc {
     [rim release];
+    [editController release];
     [super dealloc];
 }
 
