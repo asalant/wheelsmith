@@ -112,7 +112,7 @@
 					<object class="IBUILabel" id="324209080">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{133, 136}, {54, 21}}</string>
+						<string key="NSFrame">{{90, 136}, {54, 21}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIClipsSubviews">YES</bool>
@@ -144,7 +144,7 @@
 					<object class="IBUILabel" id="690024092">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{133, 165}, {54, 21}}</string>
+						<string key="NSFrame">{{90, 166}, {54, 21}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIClipsSubviews">YES</bool>
@@ -162,7 +162,7 @@
 					<object class="IBUIButton" id="515605085">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">264</int>
-						<string key="NSFrame">{{100, 200}, {120, 50}}</string>
+						<string key="NSFrame">{{100, 360}, {120, 60}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIClearsContextBeforeDrawing">NO</bool>
@@ -187,10 +187,10 @@
 							<bytes key="NSRGB">MC4xOTYwNzg0MyAwLjMwOTgwMzkzIDAuNTIxNTY4NjYAA</bytes>
 						</object>
 					</object>
-					<object class="IBUILabel" id="986518248">
+					<object class="IBUILabel" id="212462584">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{140, 78}, {167, 21}}</string>
+						<string key="NSFrame">{{133, 78}, {167, 21}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIClipsSubviews">YES</bool>
@@ -204,6 +204,40 @@
 						<int key="IBUIBaselineAdjustment">1</int>
 						<float key="IBUIMinimumFontSize">1.000000e+01</float>
 						<int key="IBUITextAlignment">2</int>
+					</object>
+					<object class="IBUILabel" id="780216998">
+						<reference key="NSNextResponder" ref="191373211"/>
+						<int key="NSvFlags">292</int>
+						<string key="NSFrame">{{146, 137}, {27, 21}}</string>
+						<reference key="NSSuperview" ref="191373211"/>
+						<bool key="IBUIOpaque">NO</bool>
+						<bool key="IBUIClipsSubviews">YES</bool>
+						<bool key="IBUIUserInteractionEnabled">NO</bool>
+						<string key="IBUIText">mm</string>
+						<object class="NSFont" key="IBUIFont" id="794285946">
+							<string key="NSName">Helvetica</string>
+							<double key="NSSize">1.300000e+01</double>
+							<int key="NSfFlags">16</int>
+						</object>
+						<reference key="IBUITextColor" ref="517598033"/>
+						<nil key="IBUIHighlightedColor"/>
+						<int key="IBUIBaselineAdjustment">1</int>
+						<float key="IBUIMinimumFontSize">1.000000e+01</float>
+					</object>
+					<object class="IBUILabel" id="716589871">
+						<reference key="NSNextResponder" ref="191373211"/>
+						<int key="NSvFlags">292</int>
+						<string key="NSFrame">{{146, 167}, {27, 21}}</string>
+						<reference key="NSSuperview" ref="191373211"/>
+						<bool key="IBUIOpaque">NO</bool>
+						<bool key="IBUIClipsSubviews">YES</bool>
+						<bool key="IBUIUserInteractionEnabled">NO</bool>
+						<string key="IBUIText">mm</string>
+						<reference key="IBUIFont" ref="794285946"/>
+						<reference key="IBUITextColor" ref="517598033"/>
+						<nil key="IBUIHighlightedColor"/>
+						<int key="IBUIBaselineAdjustment">1</int>
+						<float key="IBUIMinimumFontSize">1.000000e+01</float>
 					</object>
 				</object>
 				<string key="NSFrameSize">{320, 480}</string>
@@ -281,7 +315,7 @@
 					<object class="IBCocoaTouchOutletConnection" key="connection">
 						<string key="label">holeCountLabel</string>
 						<reference key="source" ref="372490531"/>
-						<reference key="destination" ref="986518248"/>
+						<reference key="destination" ref="212462584"/>
 					</object>
 					<int key="connectionID">40</int>
 				</object>
@@ -304,13 +338,15 @@
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<reference ref="829674192"/>
 							<reference ref="778686196"/>
-							<reference ref="986518248"/>
-							<reference ref="706459374"/>
 							<reference ref="45463228"/>
-							<reference ref="324209080"/>
 							<reference ref="612082287"/>
-							<reference ref="690024092"/>
 							<reference ref="515605085"/>
+							<reference ref="324209080"/>
+							<reference ref="780216998"/>
+							<reference ref="690024092"/>
+							<reference ref="716589871"/>
+							<reference ref="212462584"/>
+							<reference ref="706459374"/>
 						</object>
 						<reference key="parent" ref="360949347"/>
 					</object>
@@ -367,7 +403,17 @@
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">38</int>
-						<reference key="object" ref="986518248"/>
+						<reference key="object" ref="212462584"/>
+						<reference key="parent" ref="191373211"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">41</int>
+						<reference key="object" ref="780216998"/>
+						<reference key="parent" ref="191373211"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">42</int>
+						<reference key="object" ref="716589871"/>
 						<reference key="parent" ref="191373211"/>
 					</object>
 				</object>
@@ -380,11 +426,14 @@
 					<string>-2.CustomClassName</string>
 					<string>1.IBEditorWindowLastContentRect</string>
 					<string>1.IBPluginDependency</string>
+					<string>1.IBViewEditorWindowController.showingLayoutRectangles</string>
 					<string>15.IBPluginDependency</string>
 					<string>16.IBPluginDependency</string>
 					<string>18.IBPluginDependency</string>
 					<string>33.IBPluginDependency</string>
 					<string>38.IBPluginDependency</string>
+					<string>41.IBPluginDependency</string>
+					<string>42.IBPluginDependency</string>
 					<string>5.IBPluginDependency</string>
 					<string>6.IBPluginDependency</string>
 					<string>7.IBPluginDependency</string>
@@ -394,7 +443,10 @@
 					<bool key="EncodedWithXMLCoder">YES</bool>
 					<string>RimDetailController</string>
 					<string>UIResponder</string>
-					<string>{{901, 167}, {320, 480}}</string>
+					<string>{{913, 250}, {320, 480}}</string>
+					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
+					<boolean value="NO"/>
+					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
@@ -427,7 +479,7 @@
 				</object>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">40</int>
+			<int key="maxID">42</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
