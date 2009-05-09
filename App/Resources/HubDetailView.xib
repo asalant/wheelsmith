@@ -78,7 +78,7 @@
 					<object class="IBUIButton" id="270100747">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">264</int>
-						<string key="NSFrame">{{100, 360}, {120, 60}}</string>
+						<string key="NSFrame">{{98, 400}, {120, 60}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIClearsContextBeforeDrawing">NO</bool>
@@ -293,7 +293,7 @@
 						<int key="IBUIBaselineAdjustment">1</int>
 						<float key="IBUIMinimumFontSize">1.000000e+01</float>
 					</object>
-					<object class="IBUILabel" id="1066083114">
+					<object class="IBUILabel" id="125139422">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">292</int>
 						<string key="NSFrame">{{146, 137}, {25, 21}}</string>
@@ -302,7 +302,7 @@
 						<bool key="IBUIClipsSubviews">YES</bool>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="IBUIText">mm</string>
-						<object class="NSFont" key="IBUIFont" id="447596483">
+						<object class="NSFont" key="IBUIFont" id="197183402">
 							<string key="NSName">Helvetica</string>
 							<double key="NSSize">1.300000e+01</double>
 							<int key="NSfFlags">16</int>
@@ -312,7 +312,7 @@
 						<int key="IBUIBaselineAdjustment">1</int>
 						<float key="IBUIMinimumFontSize">1.000000e+01</float>
 					</object>
-					<object class="IBUILabel" id="809339680">
+					<object class="IBUILabel" id="335814627">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">292</int>
 						<string key="NSFrame">{{146, 166}, {25, 21}}</string>
@@ -321,13 +321,13 @@
 						<bool key="IBUIClipsSubviews">YES</bool>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="IBUIText">mm</string>
-						<reference key="IBUIFont" ref="447596483"/>
+						<reference key="IBUIFont" ref="197183402"/>
 						<reference key="IBUITextColor" ref="517598033"/>
 						<nil key="IBUIHighlightedColor"/>
 						<int key="IBUIBaselineAdjustment">1</int>
 						<float key="IBUIMinimumFontSize">1.000000e+01</float>
 					</object>
-					<object class="IBUILabel" id="723640168">
+					<object class="IBUILabel" id="760249359">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">292</int>
 						<string key="NSFrame">{{146, 225}, {25, 21}}</string>
@@ -336,13 +336,13 @@
 						<bool key="IBUIClipsSubviews">YES</bool>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="IBUIText">mm</string>
-						<reference key="IBUIFont" ref="447596483"/>
+						<reference key="IBUIFont" ref="197183402"/>
 						<reference key="IBUITextColor" ref="517598033"/>
 						<nil key="IBUIHighlightedColor"/>
 						<int key="IBUIBaselineAdjustment">1</int>
 						<float key="IBUIMinimumFontSize">1.000000e+01</float>
 					</object>
-					<object class="IBUILabel" id="840308825">
+					<object class="IBUILabel" id="496833518">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">292</int>
 						<string key="NSFrame">{{146, 255}, {25, 21}}</string>
@@ -351,7 +351,7 @@
 						<bool key="IBUIClipsSubviews">YES</bool>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="IBUIText">mm</string>
-						<reference key="IBUIFont" ref="447596483"/>
+						<reference key="IBUIFont" ref="197183402"/>
 						<reference key="IBUITextColor" ref="517598033"/>
 						<nil key="IBUIHighlightedColor"/>
 						<int key="IBUIBaselineAdjustment">1</int>
@@ -480,13 +480,13 @@
 							<reference ref="608139880"/>
 							<reference ref="855373728"/>
 							<reference ref="818393070"/>
-							<reference ref="1066083114"/>
-							<reference ref="809339680"/>
+							<reference ref="125139422"/>
+							<reference ref="335814627"/>
 							<reference ref="837042335"/>
 							<reference ref="955812824"/>
-							<reference ref="723640168"/>
+							<reference ref="760249359"/>
 							<reference ref="459981599"/>
-							<reference ref="840308825"/>
+							<reference ref="496833518"/>
 							<reference ref="714749940"/>
 							<reference ref="270100747"/>
 						</object>
@@ -580,22 +580,22 @@
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">66</int>
-						<reference key="object" ref="1066083114"/>
+						<reference key="object" ref="125139422"/>
 						<reference key="parent" ref="191373211"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">67</int>
-						<reference key="object" ref="809339680"/>
+						<reference key="object" ref="335814627"/>
 						<reference key="parent" ref="191373211"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">68</int>
-						<reference key="object" ref="723640168"/>
+						<reference key="object" ref="760249359"/>
 						<reference key="parent" ref="191373211"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">69</int>
-						<reference key="object" ref="840308825"/>
+						<reference key="object" ref="496833518"/>
 						<reference key="parent" ref="191373211"/>
 					</object>
 				</object>
