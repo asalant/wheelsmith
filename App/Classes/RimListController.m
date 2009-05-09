@@ -6,7 +6,7 @@
 
 @implementation RimListController
 
-@synthesize rims, wheel, rimDetailController;
+@synthesize rims, rimDetailController;
 
 /*
  - (void)viewDidLoad {
@@ -49,17 +49,12 @@
 
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    Rim *rim = [rims objectAtIndex:indexPath.row];
-    rimDetailController.title = rim.description;
-    rimDetailController.rim = rim;
-    [rimDetailController viewDidLoad];
-    
+    rimDetailController.rim = [rims objectAtIndex:indexPath.row];
     [self.navigationController pushViewController:rimDetailController animated:YES];
 }
 
 - (void)dealloc {
     [rims release];
-    [wheel release];
     [rimDetailController release];
     [super dealloc];
 }

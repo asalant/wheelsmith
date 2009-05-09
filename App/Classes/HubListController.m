@@ -5,7 +5,7 @@
 
 @implementation HubListController
 
-@synthesize hubs, wheel, hubDetailController;
+@synthesize hubs, hubDetailController;
 
 /*
  - (void)viewDidLoad {
@@ -47,17 +47,13 @@
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    Hub *hub = [hubs objectAtIndex:indexPath.row];
-    hubDetailController.title = hub.description;
-    hubDetailController.hub = hub;
-    
+    hubDetailController.hub = [hubs objectAtIndex:indexPath.row];
     [self.navigationController pushViewController:hubDetailController animated:YES];
 }
 
 
 - (void)dealloc {
     [hubs release];
-    [wheel release];
     [hubDetailController release];
     [super dealloc];
 }

@@ -20,6 +20,7 @@
     
     // Create and set dependencies
     RimDetailController *rimDetailController = [[[RimDetailController alloc] initWithNibName:@"RimDetailView" bundle:nil] autorelease];
+    rimDetailController.title = @"Rim Detail";
     RimListController *rimListController = [[[RimListController alloc] initWithStyle:UITableViewStylePlain] autorelease];
     rimListController.rimDetailController = rimDetailController;
     
@@ -29,6 +30,7 @@
     rimBrandsController.rimsController = rimListController;
     
     HubDetailController *hubDetailController = [[[HubDetailController alloc] initWithNibName:@"HubDetailView" bundle:nil] autorelease];
+    hubDetailController.title = @"Hub Detail";
     HubListController *hubListController =  [[[HubListController alloc] initWithStyle:UITableViewStylePlain] autorelease];
     hubListController.hubDetailController = hubDetailController;
     
