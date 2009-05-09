@@ -24,6 +24,7 @@
     rimListController.rimDetailController = rimDetailController;
     
     RimBrandsController *rimBrandsController = [[[RimBrandsController alloc] initWithStyle:UITableViewStylePlain] autorelease];
+    rimBrandsController.title = @"Rim Brands";
     rimBrandsController.brands = [Rim selectBrandNames];
     rimBrandsController.rimsController = rimListController;
     
@@ -32,6 +33,7 @@
     hubListController.hubDetailController = hubDetailController;
     
     HubBrandsController *hubBrandsController = [[[HubBrandsController alloc] initWithStyle:UITableViewStylePlain] autorelease];
+    hubBrandsController.title = @"Hub Brands";
     hubBrandsController.brands = [Hub selectBrandNames];
     hubBrandsController.hubsController = hubListController;
     

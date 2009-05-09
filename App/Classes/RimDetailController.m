@@ -4,7 +4,7 @@
 @implementation RimDetailController
 
 @synthesize rim;
-@synthesize brandLabel, descriptionLabel, erdLabel, offsetLabel, isoLabel, sizeLabel, notesTextView, verifiedLabel;
+@synthesize brandLabel, descriptionLabel, erdLabel, offsetLabel, sizeLabel, holeCountLabel;
 @synthesize editWheelDelegate;
 
 
@@ -16,6 +16,7 @@
     erdLabel.text = [StringUtil formatFloat:rim.erd];
     offsetLabel.text = [StringUtil formatFloat:rim.offset];
     sizeLabel.text = [rim.size description];
+    holeCountLabel.text = [NSString stringWithFormat:@"%d holes", [rim.holeCount intValue]];
 }
 
 -(IBAction)chooseRim {

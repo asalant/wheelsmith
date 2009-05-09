@@ -25,6 +25,7 @@
 		DF29BC380FB481EF000EB5B8 /* CheckmarkPickerControllerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = DF29BC370FB481EF000EB5B8 /* CheckmarkPickerControllerTest.m */; };
 		DF29BC640FB488EB000EB5B8 /* CheckmarkPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF29BC620FB488EB000EB5B8 /* CheckmarkPickerController.m */; };
 		DF29BC650FB488EB000EB5B8 /* CheckmarkPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF29BC620FB488EB000EB5B8 /* CheckmarkPickerController.m */; };
+		DF29BEA60FB606EA000EB5B8 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = DF29BEA50FB606EA000EB5B8 /* Default.png */; };
 		DF4665170FAEB2C100172895 /* parts.sqlite3 in Resources */ = {isa = PBXBuildFile; fileRef = DF7B120F0FAEA9A3007FF0CA /* parts.sqlite3 */; };
 		DF58D9220FAF693900C2F546 /* app_icon2.png in Resources */ = {isa = PBXBuildFile; fileRef = DF58D9210FAF693900C2F546 /* app_icon2.png */; };
 		DF7B11CE0FAEA94D007FF0CA /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DF7B11CD0FAEA94D007FF0CA /* libsqlite3.dylib */; };
@@ -86,7 +87,6 @@
 		DF7B12540FAEA9A3007FF0CA /* hub2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF7B12080FAEA9A3007FF0CA /* hub2.jpg */; };
 		DF7B12550FAEA9A3007FF0CA /* hub3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF7B12090FAEA9A3007FF0CA /* hub3.jpg */; };
 		DF7B12560FAEA9A3007FF0CA /* hub3_cropped.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF7B120A0FAEA9A3007FF0CA /* hub3_cropped.jpg */; };
-		DF7B12570FAEA9A3007FF0CA /* iPhone_GUI_1_3.psd in Resources */ = {isa = PBXBuildFile; fileRef = DF7B120B0FAEA9A3007FF0CA /* iPhone_GUI_1_3.psd */; };
 		DF7B12590FAEA9A3007FF0CA /* LabeledValueCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF7B120D0FAEA9A3007FF0CA /* LabeledValueCell.xib */; };
 		DF7B125A0FAEA9A3007FF0CA /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF7B120E0FAEA9A3007FF0CA /* MainWindow.xib */; };
 		DF7B125B0FAEA9A3007FF0CA /* parts.sqlite3 in Resources */ = {isa = PBXBuildFile; fileRef = DF7B120F0FAEA9A3007FF0CA /* parts.sqlite3 */; };
@@ -160,6 +160,7 @@
 		DF29BC610FB488EB000EB5B8 /* CheckmarkPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckmarkPickerController.h; sourceTree = "<group>"; };
 		DF29BC620FB488EB000EB5B8 /* CheckmarkPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckmarkPickerController.m; sourceTree = "<group>"; };
 		DF29BC630FB488EB000EB5B8 /* CheckmarkPickerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckmarkPickerDelegate.h; sourceTree = "<group>"; };
+		DF29BEA50FB606EA000EB5B8 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		DF4665120FAEB1A200172895 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DF58D9210FAF693900C2F546 /* app_icon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app_icon2.png; sourceTree = "<group>"; };
 		DF7B11470FAEA80F007FF0CA /* Unit Tests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Unit Tests.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -214,7 +215,6 @@
 		DF7B12080FAEA9A3007FF0CA /* hub2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hub2.jpg; sourceTree = "<group>"; };
 		DF7B12090FAEA9A3007FF0CA /* hub3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hub3.jpg; sourceTree = "<group>"; };
 		DF7B120A0FAEA9A3007FF0CA /* hub3_cropped.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hub3_cropped.jpg; sourceTree = "<group>"; };
-		DF7B120B0FAEA9A3007FF0CA /* iPhone_GUI_1_3.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = iPhone_GUI_1_3.psd; sourceTree = "<group>"; };
 		DF7B120D0FAEA9A3007FF0CA /* LabeledValueCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LabeledValueCell.xib; sourceTree = "<group>"; };
 		DF7B120E0FAEA9A3007FF0CA /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
 		DF7B120F0FAEA9A3007FF0CA /* parts.sqlite3 */ = {isa = PBXFileReference; lastKnownFileType = file; path = parts.sqlite3; sourceTree = "<group>"; };
@@ -458,13 +458,13 @@
 		DF7B12060FAEA9A3007FF0CA /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				DF29BEA50FB606EA000EB5B8 /* Default.png */,
 				DF58D9210FAF693900C2F546 /* app_icon2.png */,
 				DFD4DA3F0FAEB98400BC2BC2 /* app_icon.png */,
 				DF7B12070FAEA9A3007FF0CA /* hub1.jpg */,
 				DF7B12080FAEA9A3007FF0CA /* hub2.jpg */,
 				DF7B12090FAEA9A3007FF0CA /* hub3.jpg */,
 				DF7B120A0FAEA9A3007FF0CA /* hub3_cropped.jpg */,
-				DF7B120B0FAEA9A3007FF0CA /* iPhone_GUI_1_3.psd */,
 			);
 			path = Images;
 			sourceTree = "<group>";
@@ -656,7 +656,6 @@
 				DF7B12540FAEA9A3007FF0CA /* hub2.jpg in Resources */,
 				DF7B12550FAEA9A3007FF0CA /* hub3.jpg in Resources */,
 				DF7B12560FAEA9A3007FF0CA /* hub3_cropped.jpg in Resources */,
-				DF7B12570FAEA9A3007FF0CA /* iPhone_GUI_1_3.psd in Resources */,
 				DF7B12590FAEA9A3007FF0CA /* LabeledValueCell.xib in Resources */,
 				DF7B125A0FAEA9A3007FF0CA /* MainWindow.xib in Resources */,
 				DF7B125B0FAEA9A3007FF0CA /* parts.sqlite3 in Resources */,
@@ -665,6 +664,7 @@
 				DF7B125E0FAEA9A3007FF0CA /* RimDetailView.xib in Resources */,
 				DFD4DA400FAEB98400BC2BC2 /* app_icon.png in Resources */,
 				DF58D9220FAF693900C2F546 /* app_icon2.png in Resources */,
+				DF29BEA60FB606EA000EB5B8 /* Default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

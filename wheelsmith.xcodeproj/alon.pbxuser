@@ -899,6 +899,114 @@
 			DF29BE2B0FB5874F000EB5B8 /* PlistBookmark */ = DF29BE2B0FB5874F000EB5B8 /* PlistBookmark */;
 			DF29BE2C0FB5874F000EB5B8 /* PBXTextBookmark */ = DF29BE2C0FB5874F000EB5B8 /* PBXTextBookmark */;
 			DF29BE2D0FB5874F000EB5B8 /* PBXTextBookmark */ = DF29BE2D0FB5874F000EB5B8 /* PBXTextBookmark */;
+			DF29BE2E0FB587E8000EB5B8 /* PlistBookmark */ = DF29BE2E0FB587E8000EB5B8 /* PlistBookmark */;
+			DF29BE2F0FB587E8000EB5B8 /* PBXTextBookmark */ = DF29BE2F0FB587E8000EB5B8 /* PBXTextBookmark */;
+			DF29BE300FB5884D000EB5B8 /* PBXTextBookmark */ = DF29BE300FB5884D000EB5B8 /* PBXTextBookmark */;
+			DF29BE310FB5884D000EB5B8 /* PBXTextBookmark */ = DF29BE310FB5884D000EB5B8 /* PBXTextBookmark */;
+			DF29BE320FB5884D000EB5B8 /* PBXTextBookmark */ = DF29BE320FB5884D000EB5B8 /* PBXTextBookmark */;
+			DF29BE330FB5884D000EB5B8 /* PBXTextBookmark */ = DF29BE330FB5884D000EB5B8 /* PBXTextBookmark */;
+			DF29BE340FB5884D000EB5B8 /* PBXTextBookmark */ = DF29BE340FB5884D000EB5B8 /* PBXTextBookmark */;
+			DF29BE350FB5884D000EB5B8 /* PBXTextBookmark */ = DF29BE350FB5884D000EB5B8 /* PBXTextBookmark */;
+			DF29BE360FB5884D000EB5B8 /* PBXTextBookmark */ = DF29BE360FB5884D000EB5B8 /* PBXTextBookmark */;
+			DF29BE390FB58950000EB5B8 /* PBXTextBookmark */ = DF29BE390FB58950000EB5B8 /* PBXTextBookmark */;
+			DF29BE3A0FB58951000EB5B8 /* PBXTextBookmark */ = DF29BE3A0FB58951000EB5B8 /* PBXTextBookmark */;
+			DF29BE3B0FB5895C000EB5B8 /* PBXTextBookmark */ = DF29BE3B0FB5895C000EB5B8 /* PBXTextBookmark */;
+			DF29BE3C0FB5895C000EB5B8 /* PBXTextBookmark */ = DF29BE3C0FB5895C000EB5B8 /* PBXTextBookmark */;
+			DF29BE3E0FB5897A000EB5B8 /* PBXTextBookmark */ = DF29BE3E0FB5897A000EB5B8 /* PBXTextBookmark */;
+			DF29BE3F0FB5897A000EB5B8 /* PBXTextBookmark */ = DF29BE3F0FB5897A000EB5B8 /* PBXTextBookmark */;
+			DF29BE400FB5897A000EB5B8 /* PBXTextBookmark */ = DF29BE400FB5897A000EB5B8 /* PBXTextBookmark */;
+			DF29BE410FB5897A000EB5B8 /* PBXTextBookmark */ = DF29BE410FB5897A000EB5B8 /* PBXTextBookmark */;
+			DF29BE420FB5897B000EB5B8 /* PBXTextBookmark */ = DF29BE420FB5897B000EB5B8 /* PBXTextBookmark */;
+			DF29BE430FB58995000EB5B8 /* PBXTextBookmark */ = DF29BE430FB58995000EB5B8 /* PBXTextBookmark */;
+			DF29BE440FB58995000EB5B8 /* PBXTextBookmark */ = DF29BE440FB58995000EB5B8 /* PBXTextBookmark */;
+			DF29BE460FB589A7000EB5B8 /* PBXTextBookmark */ = DF29BE460FB589A7000EB5B8 /* PBXTextBookmark */;
+			DF29BE470FB589A7000EB5B8 /* PBXTextBookmark */ = DF29BE470FB589A7000EB5B8 /* PBXTextBookmark */;
+			DF29BE480FB589A7000EB5B8 /* PBXTextBookmark */ = DF29BE480FB589A7000EB5B8 /* PBXTextBookmark */;
+			DF29BE490FB589A8000EB5B8 /* PBXTextBookmark */ = DF29BE490FB589A8000EB5B8 /* PBXTextBookmark */;
+			DF29BE4A0FB589B2000EB5B8 /* PBXTextBookmark */ = DF29BE4A0FB589B2000EB5B8 /* PBXTextBookmark */;
+			DF29BE4B0FB589B2000EB5B8 /* PBXTextBookmark */ = DF29BE4B0FB589B2000EB5B8 /* PBXTextBookmark */;
+			DF29BE4D0FB58A00000EB5B8 /* PBXTextBookmark */ = DF29BE4D0FB58A00000EB5B8 /* PBXTextBookmark */;
+			DF29BE4E0FB58A00000EB5B8 /* PBXTextBookmark */ = DF29BE4E0FB58A00000EB5B8 /* PBXTextBookmark */;
+			DF29BE4F0FB58A13000EB5B8 /* PBXTextBookmark */ = DF29BE4F0FB58A13000EB5B8 /* PBXTextBookmark */;
+			DF29BE510FB58A37000EB5B8 /* PBXTextBookmark */ = DF29BE510FB58A37000EB5B8 /* PBXTextBookmark */;
+			DF29BE520FB58A37000EB5B8 /* PBXTextBookmark */ = DF29BE520FB58A37000EB5B8 /* PBXTextBookmark */;
+			DF29BE550FB58B4A000EB5B8 /* PBXTextBookmark */ = DF29BE550FB58B4A000EB5B8 /* PBXTextBookmark */;
+			DF29BE570FB58B6B000EB5B8 /* PBXTextBookmark */ = DF29BE570FB58B6B000EB5B8 /* PBXTextBookmark */;
+			DF29BE580FB58B6B000EB5B8 /* PBXTextBookmark */ = DF29BE580FB58B6B000EB5B8 /* PBXTextBookmark */;
+			DF29BE5A0FB58B73000EB5B8 /* PBXTextBookmark */ = DF29BE5A0FB58B73000EB5B8 /* PBXTextBookmark */;
+			DF29BE5B0FB58B73000EB5B8 /* PBXTextBookmark */ = DF29BE5B0FB58B73000EB5B8 /* PBXTextBookmark */;
+			DF29BE5E0FB58BAC000EB5B8 /* PBXTextBookmark */ = DF29BE5E0FB58BAC000EB5B8 /* PBXTextBookmark */;
+			DF29BE600FB58BBC000EB5B8 /* PBXTextBookmark */ = DF29BE600FB58BBC000EB5B8 /* PBXTextBookmark */;
+			DF29BE620FB58BCD000EB5B8 /* PBXTextBookmark */ = DF29BE620FB58BCD000EB5B8 /* PBXTextBookmark */;
+			DF29BE640FB58C11000EB5B8 /* PBXTextBookmark */ = DF29BE640FB58C11000EB5B8 /* PBXTextBookmark */;
+			DF29BE660FB58C31000EB5B8 /* PBXTextBookmark */ = DF29BE660FB58C31000EB5B8 /* PBXTextBookmark */;
+			DF29BE670FB58C90000EB5B8 /* PBXTextBookmark */ = DF29BE670FB58C90000EB5B8 /* PBXTextBookmark */;
+			DF29BE6B0FB58D0E000EB5B8 /* PBXTextBookmark */ = DF29BE6B0FB58D0E000EB5B8 /* PBXTextBookmark */;
+			DF29BE6C0FB58D0E000EB5B8 /* PBXTextBookmark */ = DF29BE6C0FB58D0E000EB5B8 /* PBXTextBookmark */;
+			DF29BE6D0FB58E39000EB5B8 /* PBXTextBookmark */ = DF29BE6D0FB58E39000EB5B8 /* PBXTextBookmark */;
+			DF29BE6F0FB58E69000EB5B8 /* PBXTextBookmark */ = DF29BE6F0FB58E69000EB5B8 /* PBXTextBookmark */;
+			DF29BE700FB58E69000EB5B8 /* PBXTextBookmark */ = DF29BE700FB58E69000EB5B8 /* PBXTextBookmark */;
+			DF29BE720FB58EAF000EB5B8 /* PBXTextBookmark */ = DF29BE720FB58EAF000EB5B8 /* PBXTextBookmark */;
+			DF29BE740FB58EC5000EB5B8 /* PBXTextBookmark */ = DF29BE740FB58EC5000EB5B8 /* PBXTextBookmark */;
+			DF29BE750FB58EC5000EB5B8 /* PBXTextBookmark */ = DF29BE750FB58EC5000EB5B8 /* PBXTextBookmark */;
+			DF29BE770FB58EC5000EB5B8 /* PBXTextBookmark */ = DF29BE770FB58EC5000EB5B8 /* PBXTextBookmark */;
+			DF29BE780FB58EC5000EB5B8 /* PBXTextBookmark */ = DF29BE780FB58EC5000EB5B8 /* PBXTextBookmark */;
+			DF29BE7C0FB58ED2000EB5B8 /* PBXTextBookmark */ = DF29BE7C0FB58ED2000EB5B8 /* PBXTextBookmark */;
+			DF29BE800FB5F3D8000EB5B8 /* PBXTextBookmark */ = DF29BE800FB5F3D8000EB5B8 /* PBXTextBookmark */;
+			DF29BE810FB5F3D8000EB5B8 /* PBXTextBookmark */ = DF29BE810FB5F3D8000EB5B8 /* PBXTextBookmark */;
+			DF29BE830FB5F3FF000EB5B8 /* PBXTextBookmark */ = DF29BE830FB5F3FF000EB5B8 /* PBXTextBookmark */;
+			DF29BE850FB5F42C000EB5B8 /* PBXTextBookmark */ = DF29BE850FB5F42C000EB5B8 /* PBXTextBookmark */;
+			DF29BE860FB5F42D000EB5B8 /* PBXTextBookmark */ = DF29BE860FB5F42D000EB5B8 /* PBXTextBookmark */;
+			DF29BE880FB5F44F000EB5B8 /* PBXTextBookmark */ = DF29BE880FB5F44F000EB5B8 /* PBXTextBookmark */;
+			DF29BE8B0FB5F4BD000EB5B8 /* PBXTextBookmark */ = DF29BE8B0FB5F4BD000EB5B8 /* PBXTextBookmark */;
+			DF29BE8D0FB5F4F1000EB5B8 /* PBXTextBookmark */ = DF29BE8D0FB5F4F1000EB5B8 /* PBXTextBookmark */;
+			DF29BE8E0FB5F67D000EB5B8 /* PBXTextBookmark */ = DF29BE8E0FB5F67D000EB5B8 /* PBXTextBookmark */;
+			DF29BE900FB5F6E3000EB5B8 /* PBXTextBookmark */ = DF29BE900FB5F6E3000EB5B8 /* PBXTextBookmark */;
+			DF29BE910FB5F6E3000EB5B8 /* PBXTextBookmark */ = DF29BE910FB5F6E3000EB5B8 /* PBXTextBookmark */;
+			DF29BE920FB5F6FC000EB5B8 /* PBXTextBookmark */ = DF29BE920FB5F6FC000EB5B8 /* PBXTextBookmark */;
+			DF29BE990FB5F914000EB5B8 /* PBXTextBookmark */ = DF29BE990FB5F914000EB5B8 /* PBXTextBookmark */;
+			DF29BE9A0FB5F914000EB5B8 /* PBXTextBookmark */ = DF29BE9A0FB5F914000EB5B8 /* PBXTextBookmark */;
+			DF29BE9B0FB5F914000EB5B8 /* PBXTextBookmark */ = DF29BE9B0FB5F914000EB5B8 /* PBXTextBookmark */;
+			DF29BE9C0FB5F914000EB5B8 /* PBXTextBookmark */ = DF29BE9C0FB5F914000EB5B8 /* PBXTextBookmark */;
+			DF29BE9D0FB5F914000EB5B8 /* PBXTextBookmark */ = DF29BE9D0FB5F914000EB5B8 /* PBXTextBookmark */;
+			DF29BE9E0FB5F914000EB5B8 /* PBXTextBookmark */ = DF29BE9E0FB5F914000EB5B8 /* PBXTextBookmark */;
+			DF29BE9F0FB5F914000EB5B8 /* PBXTextBookmark */ = DF29BE9F0FB5F914000EB5B8 /* PBXTextBookmark */;
+			DF29BEA00FB5F915000EB5B8 /* PBXTextBookmark */ = DF29BEA00FB5F915000EB5B8 /* PBXTextBookmark */;
+			DF29BEA20FB606BC000EB5B8 /* PBXTextBookmark */ = DF29BEA20FB606BC000EB5B8 /* PBXTextBookmark */;
+			DF29BEA30FB606BC000EB5B8 /* PBXTextBookmark */ = DF29BEA30FB606BC000EB5B8 /* PBXTextBookmark */;
+			DF29BEA40FB606CD000EB5B8 /* PBXTextBookmark */ = DF29BEA40FB606CD000EB5B8 /* PBXTextBookmark */;
+			DF29BEA80FB60702000EB5B8 /* PBXTextBookmark */ = DF29BEA80FB60702000EB5B8 /* PBXTextBookmark */;
+			DF29BEA90FB60702000EB5B8 /* PBXBookmark */ = DF29BEA90FB60702000EB5B8 /* PBXBookmark */;
+			DF29BEAA0FB60702000EB5B8 /* PBXBookmark */ = DF29BEAA0FB60702000EB5B8 /* PBXBookmark */;
+			DF29BEAB0FB60702000EB5B8 /* PBXTextBookmark */ = DF29BEAB0FB60702000EB5B8 /* PBXTextBookmark */;
+			DF29BEAC0FB60702000EB5B8 /* PBXBookmark */ = DF29BEAC0FB60702000EB5B8 /* PBXBookmark */;
+			DF29BEAD0FB60702000EB5B8 /* PBXBookmark */ = DF29BEAD0FB60702000EB5B8 /* PBXBookmark */;
+			DF29BEAE0FB60702000EB5B8 /* PBXBookmark */ = DF29BEAE0FB60702000EB5B8 /* PBXBookmark */;
+			DF29BEAF0FB60702000EB5B8 /* PBXBookmark */ = DF29BEAF0FB60702000EB5B8 /* PBXBookmark */;
+			DF29BEB20FB609A7000EB5B8 /* PBXTextBookmark */ = DF29BEB20FB609A7000EB5B8 /* PBXTextBookmark */;
+			DF29BEB30FB609A7000EB5B8 /* PBXBookmark */ = DF29BEB30FB609A7000EB5B8 /* PBXBookmark */;
+			DF29BEB40FB609A7000EB5B8 /* PBXBookmark */ = DF29BEB40FB609A7000EB5B8 /* PBXBookmark */;
+			DF29BEB60FB60A30000EB5B8 /* PBXBookmark */ = DF29BEB60FB60A30000EB5B8 /* PBXBookmark */;
+			DF29BEB70FB60A30000EB5B8 /* PBXBookmark */ = DF29BEB70FB60A30000EB5B8 /* PBXBookmark */;
+			DF29BEB80FB60A30000EB5B8 /* PBXBookmark */ = DF29BEB80FB60A30000EB5B8 /* PBXBookmark */;
+			DF29BEB90FB60A30000EB5B8 /* PBXBookmark */ = DF29BEB90FB60A30000EB5B8 /* PBXBookmark */;
+			DF29BEBB0FB60A42000EB5B8 /* PBXBookmark */ = DF29BEBB0FB60A42000EB5B8 /* PBXBookmark */;
+			DF29BEBD0FB60AAB000EB5B8 /* PBXBookmark */ = DF29BEBD0FB60AAB000EB5B8 /* PBXBookmark */;
+			DF29BEBE0FB60AAB000EB5B8 /* PBXBookmark */ = DF29BEBE0FB60AAB000EB5B8 /* PBXBookmark */;
+			DF29BEC30FB60F0B000EB5B8 /* PBXBookmark */ = DF29BEC30FB60F0B000EB5B8 /* PBXBookmark */;
+			DF29BEC40FB60F0B000EB5B8 /* PBXTextBookmark */ = DF29BEC40FB60F0B000EB5B8 /* PBXTextBookmark */;
+			DF29BEC50FB60F0B000EB5B8 /* PBXTextBookmark */ = DF29BEC50FB60F0B000EB5B8 /* PBXTextBookmark */;
+			DF29BEC60FB60F0B000EB5B8 /* PBXTextBookmark */ = DF29BEC60FB60F0B000EB5B8 /* PBXTextBookmark */;
+			DF29BEC70FB60F0B000EB5B8 /* PBXTextBookmark */ = DF29BEC70FB60F0B000EB5B8 /* PBXTextBookmark */;
+			DF29BEC80FB60F0B000EB5B8 /* PBXTextBookmark */ = DF29BEC80FB60F0B000EB5B8 /* PBXTextBookmark */;
+			DF29BEC90FB60F0B000EB5B8 /* PBXTextBookmark */ = DF29BEC90FB60F0B000EB5B8 /* PBXTextBookmark */;
+			DF29BECA0FB60F0B000EB5B8 /* PBXBookmark */ = DF29BECA0FB60F0B000EB5B8 /* PBXBookmark */;
+			DF29BECB0FB60F0B000EB5B8 /* PBXTextBookmark */ = DF29BECB0FB60F0B000EB5B8 /* PBXTextBookmark */;
+			DF29BECC0FB60F0B000EB5B8 /* PBXTextBookmark */ = DF29BECC0FB60F0B000EB5B8 /* PBXTextBookmark */;
+			DF29BECD0FB60F0B000EB5B8 /* PBXTextBookmark */ = DF29BECD0FB60F0B000EB5B8 /* PBXTextBookmark */;
+			DF29BECE0FB60F0B000EB5B8 /* PBXTextBookmark */ = DF29BECE0FB60F0B000EB5B8 /* PBXTextBookmark */;
+			DF29BECF0FB60F0B000EB5B8 /* PBXTextBookmark */ = DF29BECF0FB60F0B000EB5B8 /* PBXTextBookmark */;
+			DF29BED00FB60F0B000EB5B8 /* PBXTextBookmark */ = DF29BED00FB60F0B000EB5B8 /* PBXTextBookmark */;
 			DF4664E20FAEB02400172895 = DF4664E20FAEB02400172895 /* PBXBookmark */;
 			DF4664E40FAEB02400172895 = DF4664E40FAEB02400172895 /* PBXTextBookmark */;
 			DF4664E50FAEB02400172895 = DF4664E50FAEB02400172895 /* PBXBookmark */;
@@ -1176,7 +1284,7 @@
 		fRef = DF7B11F90FAEA9A3007FF0CA /* AppDelegate.m */;
 		name = "AppDelegate.m: 55";
 		rLen = 7;
-		rLoc = 3018;
+		rLoc = 3112;
 		rType = 0;
 		vrLen = 1300;
 		vrLoc = 2209;
@@ -1577,7 +1685,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 74";
 		rLen = 0;
-		rLoc = 3377;
+		rLoc = 3143;
 		rType = 0;
 		vrLen = 487;
 		vrLoc = 2927;
@@ -1587,7 +1695,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 74";
 		rLen = 0;
-		rLoc = 3377;
+		rLoc = 3143;
 		rType = 0;
 		vrLen = 482;
 		vrLoc = 2932;
@@ -1609,7 +1717,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 74";
 		rLen = 0;
-		rLoc = 3377;
+		rLoc = 3143;
 		rType = 0;
 		vrLen = 246;
 		vrLoc = 3041;
@@ -1619,7 +1727,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 74";
 		rLen = 0;
-		rLoc = 3377;
+		rLoc = 3143;
 		rType = 0;
 		vrLen = 836;
 		vrLoc = 5247;
@@ -1709,7 +1817,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 74";
 		rLen = 0;
-		rLoc = 3377;
+		rLoc = 3143;
 		rType = 0;
 		vrLen = 836;
 		vrLoc = 5247;
@@ -1839,7 +1947,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 74";
 		rLen = 0;
-		rLoc = 3377;
+		rLoc = 3143;
 		rType = 0;
 		vrLen = 246;
 		vrLoc = 3041;
@@ -2009,7 +2117,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 66";
 		rLen = 21;
-		rLoc = 3154;
+		rLoc = 2920;
 		rType = 0;
 		vrLen = 1211;
 		vrLoc = 2380;
@@ -2019,7 +2127,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 66";
 		rLen = 21;
-		rLoc = 3154;
+		rLoc = 2920;
 		rType = 0;
 		vrLen = 1178;
 		vrLoc = 2380;
@@ -2039,14 +2147,14 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 66";
 		rLen = 21;
-		rLoc = 3154;
+		rLoc = 2920;
 		rType = 0;
 		vrLen = 661;
 		vrLoc = 2380;
 	};
 	DF0CE8D30FB2FF8F00701164 /* WheelDetailDelegate.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {938, 567}}";
+			sepNavIntBoundsRect = "{{0, 0}, {938, 388}}";
 			sepNavSelRange = "{53, 0}";
 			sepNavVisRange = "{0, 121}";
 		};
@@ -2086,7 +2194,7 @@
 		fRef = DF7B11F90FAEA9A3007FF0CA /* AppDelegate.m */;
 		name = "AppDelegate.m: 38";
 		rLen = 21;
-		rLoc = 1736;
+		rLoc = 1830;
 		rType = 0;
 		vrLen = 1920;
 		vrLoc = 1206;
@@ -2106,7 +2214,7 @@
 		comments = "warning: '-release' not found in protocol(s)";
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		rLen = 0;
-		rLoc = 190;
+		rLoc = 183;
 		rType = 1;
 	};
 	DF29B9A10FB30DCE000EB5B8 /* PBXTextBookmark */ = {
@@ -2114,7 +2222,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 66";
 		rLen = 21;
-		rLoc = 3154;
+		rLoc = 2920;
 		rType = 0;
 		vrLen = 1286;
 		vrLoc = 2293;
@@ -2134,7 +2242,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 62";
 		rLen = 0;
-		rLoc = 3119;
+		rLoc = 2885;
 		rType = 0;
 		vrLen = 1450;
 		vrLoc = 1831;
@@ -2154,7 +2262,7 @@
 		fRef = DF7B11F90FAEA9A3007FF0CA /* AppDelegate.m */;
 		name = "AppDelegate.m: 38";
 		rLen = 21;
-		rLoc = 1736;
+		rLoc = 1830;
 		rType = 0;
 		vrLen = 1920;
 		vrLoc = 1206;
@@ -2184,7 +2292,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 168";
 		rLen = 0;
-		rLoc = 7588;
+		rLoc = 7354;
 		rType = 0;
 		vrLen = 663;
 		vrLoc = 5660;
@@ -2194,7 +2302,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 168";
 		rLen = 0;
-		rLoc = 7588;
+		rLoc = 7354;
 		rType = 0;
 		vrLen = 502;
 		vrLoc = 5827;
@@ -2204,7 +2312,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 168";
 		rLen = 0;
-		rLoc = 7588;
+		rLoc = 7354;
 		rType = 0;
 		vrLen = 231;
 		vrLoc = 6091;
@@ -2214,7 +2322,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 168";
 		rLen = 0;
-		rLoc = 7588;
+		rLoc = 7354;
 		rType = 0;
 		vrLen = 938;
 		vrLoc = 3227;
@@ -2234,7 +2342,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 168";
 		rLen = 0;
-		rLoc = 7588;
+		rLoc = 7354;
 		rType = 0;
 		vrLen = 938;
 		vrLoc = 3227;
@@ -2264,7 +2372,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 168";
 		rLen = 0;
-		rLoc = 7588;
+		rLoc = 7354;
 		rType = 0;
 		vrLen = 234;
 		vrLoc = 6095;
@@ -2404,7 +2512,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 83";
 		rLen = 0;
-		rLoc = 3651;
+		rLoc = 3417;
 		rType = 0;
 		vrLen = 1152;
 		vrLoc = 3051;
@@ -2514,7 +2622,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 83";
 		rLen = 0;
-		rLoc = 3651;
+		rLoc = 3417;
 		rType = 0;
 		vrLen = 1152;
 		vrLoc = 3051;
@@ -3595,7 +3703,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 86";
 		rLen = 0;
-		rLoc = 3651;
+		rLoc = 3417;
 		rType = 0;
 		vrLen = 567;
 		vrLoc = 3341;
@@ -3635,7 +3743,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 86";
 		rLen = 0;
-		rLoc = 3651;
+		rLoc = 3417;
 		rType = 0;
 		vrLen = 567;
 		vrLoc = 3341;
@@ -3745,7 +3853,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 97";
 		rLen = 0;
-		rLoc = 3937;
+		rLoc = 3703;
 		rType = 0;
 		vrLen = 1177;
 		vrLoc = 3177;
@@ -3755,7 +3863,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 97";
 		rLen = 0;
-		rLoc = 3937;
+		rLoc = 3703;
 		rType = 0;
 		vrLen = 1175;
 		vrLoc = 3274;
@@ -3775,7 +3883,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 97";
 		rLen = 0;
-		rLoc = 3937;
+		rLoc = 3703;
 		rType = 0;
 		vrLen = 518;
 		vrLoc = 3568;
@@ -3785,7 +3893,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 97";
 		rLen = 0;
-		rLoc = 3937;
+		rLoc = 3703;
 		rType = 0;
 		vrLen = 1210;
 		vrLoc = 3274;
@@ -3805,7 +3913,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 97";
 		rLen = 0;
-		rLoc = 3937;
+		rLoc = 3703;
 		rType = 0;
 		vrLen = 1210;
 		vrLoc = 3274;
@@ -3855,7 +3963,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 97";
 		rLen = 0;
-		rLoc = 3937;
+		rLoc = 3703;
 		rType = 0;
 		vrLen = 518;
 		vrLoc = 3568;
@@ -3925,7 +4033,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 87";
 		rLen = 0;
-		rLoc = 3651;
+		rLoc = 3417;
 		rType = 0;
 		vrLen = 1135;
 		vrLoc = 3177;
@@ -3935,7 +4043,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 87";
 		rLen = 0;
-		rLoc = 3651;
+		rLoc = 3417;
 		rType = 0;
 		vrLen = 928;
 		vrLoc = 3101;
@@ -3955,7 +4063,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 87";
 		rLen = 0;
-		rLoc = 3651;
+		rLoc = 3417;
 		rType = 0;
 		vrLen = 391;
 		vrLoc = 3341;
@@ -3965,7 +4073,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 96";
 		rLen = 0;
-		rLoc = 3937;
+		rLoc = 3703;
 		rType = 0;
 		vrLen = 494;
 		vrLoc = 3227;
@@ -3983,7 +4091,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 96";
 		rLen = 0;
-		rLoc = 3937;
+		rLoc = 3703;
 		rType = 0;
 		vrLen = 494;
 		vrLoc = 3227;
@@ -4013,7 +4121,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 84";
 		rLen = 0;
-		rLoc = 3651;
+		rLoc = 3417;
 		rType = 0;
 		vrLen = 374;
 		vrLoc = 3314;
@@ -4301,7 +4409,7 @@
 		fRef = DF7B11F90FAEA9A3007FF0CA /* AppDelegate.m */;
 		name = "AppDelegate.m: 54";
 		rLen = 0;
-		rLoc = 3053;
+		rLoc = 3147;
 		rType = 0;
 		vrLen = 1735;
 		vrLoc = 1923;
@@ -4331,7 +4439,7 @@
 		fRef = DF7B11F90FAEA9A3007FF0CA /* AppDelegate.m */;
 		name = "AppDelegate.m: 54";
 		rLen = 0;
-		rLoc = 3053;
+		rLoc = 3147;
 		rType = 0;
 		vrLen = 1735;
 		vrLoc = 1923;
@@ -4351,7 +4459,7 @@
 		fRef = DF7B11F90FAEA9A3007FF0CA /* AppDelegate.m */;
 		name = "AppDelegate.m: 54";
 		rLen = 0;
-		rLoc = 3053;
+		rLoc = 3147;
 		rType = 0;
 		vrLen = 1735;
 		vrLoc = 1923;
@@ -4431,7 +4539,7 @@
 		fRef = DF7B11F90FAEA9A3007FF0CA /* AppDelegate.m */;
 		name = "AppDelegate.m: 54";
 		rLen = 0;
-		rLoc = 3053;
+		rLoc = 3147;
 		rType = 0;
 		vrLen = 1887;
 		vrLoc = 1854;
@@ -4471,7 +4579,7 @@
 		fRef = DF7B11F90FAEA9A3007FF0CA /* AppDelegate.m */;
 		name = "AppDelegate.m: 53";
 		rLen = 0;
-		rLoc = 2932;
+		rLoc = 3026;
 		rType = 0;
 		vrLen = 1885;
 		vrLoc = 1854;
@@ -4481,7 +4589,7 @@
 		fRef = DF7B11F90FAEA9A3007FF0CA /* AppDelegate.m */;
 		name = "AppDelegate.m: 53";
 		rLen = 0;
-		rLoc = 2932;
+		rLoc = 3026;
 		rType = 0;
 		vrLen = 1797;
 		vrLoc = 1854;
@@ -4501,7 +4609,7 @@
 		fRef = DF7B11F90FAEA9A3007FF0CA /* AppDelegate.m */;
 		name = "AppDelegate.m: 53";
 		rLen = 0;
-		rLoc = 2932;
+		rLoc = 3026;
 		rType = 0;
 		vrLen = 914;
 		vrLoc = 2487;
@@ -4518,7 +4626,7 @@
 		fRef = DF7B11F90FAEA9A3007FF0CA /* AppDelegate.m */;
 		name = "AppDelegate.m: 53";
 		rLen = 0;
-		rLoc = 2932;
+		rLoc = 3026;
 		rType = 0;
 		vrLen = 1802;
 		vrLoc = 1854;
@@ -4538,7 +4646,7 @@
 		fRef = DF7B11F90FAEA9A3007FF0CA /* AppDelegate.m */;
 		name = "AppDelegate.m: 53";
 		rLen = 0;
-		rLoc = 2932;
+		rLoc = 3026;
 		rType = 0;
 		vrLen = 1802;
 		vrLoc = 1854;
@@ -4558,7 +4666,7 @@
 		fRef = DF7B11F90FAEA9A3007FF0CA /* AppDelegate.m */;
 		name = "AppDelegate.m: 53";
 		rLen = 0;
-		rLoc = 2932;
+		rLoc = 3026;
 		rType = 0;
 		vrLen = 863;
 		vrLoc = 2415;
@@ -5246,7 +5354,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 153";
 		rLen = 0;
-		rLoc = 6528;
+		rLoc = 6294;
 		rType = 0;
 		vrLen = 1016;
 		vrLoc = 5270;
@@ -5296,7 +5404,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 155";
 		rLen = 0;
-		rLoc = 6528;
+		rLoc = 6294;
 		rType = 0;
 		vrLen = 1027;
 		vrLoc = 5249;
@@ -5497,7 +5605,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 153";
 		rLen = 0;
-		rLoc = 6528;
+		rLoc = 6294;
 		rType = 0;
 		vrLen = 1027;
 		vrLoc = 5269;
@@ -5587,7 +5695,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 167";
 		rLen = 0;
-		rLoc = 7161;
+		rLoc = 6927;
 		rType = 0;
 		vrLen = 762;
 		vrLoc = 5994;
@@ -5597,7 +5705,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 167";
 		rLen = 0;
-		rLoc = 7161;
+		rLoc = 6927;
 		rType = 0;
 		vrLen = 810;
 		vrLoc = 5901;
@@ -5617,7 +5725,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 167";
 		rLen = 0;
-		rLoc = 7161;
+		rLoc = 6927;
 		rType = 0;
 		vrLen = 568;
 		vrLoc = 6121;
@@ -5627,7 +5735,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 167";
 		rLen = 0;
-		rLoc = 7161;
+		rLoc = 6927;
 		rType = 0;
 		vrLen = 968;
 		vrLoc = 5724;
@@ -5767,7 +5875,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 167";
 		rLen = 0;
-		rLoc = 7161;
+		rLoc = 6927;
 		rType = 0;
 		vrLen = 568;
 		vrLoc = 6121;
@@ -5897,7 +6005,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 167";
 		rLen = 0;
-		rLoc = 7161;
+		rLoc = 6927;
 		rType = 0;
 		vrLen = 977;
 		vrLoc = 5714;
@@ -5927,7 +6035,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 147";
 		rLen = 0;
-		rLoc = 5997;
+		rLoc = 5763;
 		rType = 0;
 		vrLen = 1235;
 		vrLoc = 5269;
@@ -5937,7 +6045,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 147";
 		rLen = 0;
-		rLoc = 5997;
+		rLoc = 5763;
 		rType = 0;
 		vrLen = 1071;
 		vrLoc = 4927;
@@ -5957,7 +6065,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 154";
 		rLen = 0;
-		rLoc = 6420;
+		rLoc = 6186;
 		rType = 0;
 		vrLen = 722;
 		vrLoc = 5270;
@@ -5967,7 +6075,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 165";
 		rLen = 0;
-		rLoc = 6948;
+		rLoc = 6714;
 		rType = 0;
 		vrLen = 1811;
 		vrLoc = 5032;
@@ -5977,7 +6085,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 165";
 		rLen = 0;
-		rLoc = 6948;
+		rLoc = 6714;
 		rType = 0;
 		vrLen = 1493;
 		vrLoc = 5493;
@@ -5987,7 +6095,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 165";
 		rLen = 0;
-		rLoc = 6948;
+		rLoc = 6714;
 		rType = 0;
 		vrLen = 633;
 		vrLoc = 5547;
@@ -6030,7 +6138,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 165";
 		rLen = 0;
-		rLoc = 6948;
+		rLoc = 6714;
 		rType = 0;
 		vrLen = 1528;
 		vrLoc = 5493;
@@ -6080,7 +6188,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 165";
 		rLen = 0;
-		rLoc = 6948;
+		rLoc = 6714;
 		rType = 0;
 		vrLen = 1528;
 		vrLoc = 5493;
@@ -6327,7 +6435,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 94";
 		rLen = 0;
-		rLoc = 3937;
+		rLoc = 3703;
 		rType = 0;
 		vrLen = 592;
 		vrLoc = 3313;
@@ -6497,7 +6605,7 @@
 		fRef = DF7B11F90FAEA9A3007FF0CA /* AppDelegate.m */;
 		name = "AppDelegate.m: 58";
 		rLen = 373;
-		rLoc = 3305;
+		rLoc = 3399;
 		rType = 0;
 		vrLen = 1585;
 		vrLoc = 2099;
@@ -6567,7 +6675,7 @@
 		comments = "warning: incomplete implementation of class 'WheelDetailController'";
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		rLen = 1;
-		rLoc = 196;
+		rLoc = 189;
 		rType = 1;
 	};
 	DF29BCAC0FB4E755000EB5B8 /* PBXTextBookmark */ = {
@@ -6655,7 +6763,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 110";
 		rLen = 0;
-		rLoc = 4929;
+		rLoc = 4695;
 		rType = 0;
 		vrLen = 1080;
 		vrLoc = 3382;
@@ -6675,7 +6783,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 183";
 		rLen = 5;
-		rLoc = 7650;
+		rLoc = 7416;
 		rType = 0;
 		vrLen = 606;
 		vrLoc = 3384;
@@ -6695,7 +6803,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 109";
 		rLen = 14;
-		rLoc = 4865;
+		rLoc = 4631;
 		rType = 0;
 		vrLen = 504;
 		vrLoc = 4049;
@@ -6715,7 +6823,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 115";
 		rLen = 0;
-		rLoc = 4786;
+		rLoc = 4552;
 		rType = 0;
 		vrLen = 580;
 		vrLoc = 4287;
@@ -6725,7 +6833,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 115";
 		rLen = 0;
-		rLoc = 4786;
+		rLoc = 4552;
 		rType = 0;
 		vrLen = 663;
 		vrLoc = 4109;
@@ -6735,7 +6843,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 170";
 		rLen = 0;
-		rLoc = 6948;
+		rLoc = 6714;
 		rType = 0;
 		vrLen = 1185;
 		vrLoc = 4568;
@@ -6745,7 +6853,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 122";
 		rLen = 0;
-		rLoc = 4930;
+		rLoc = 4696;
 		rType = 0;
 		vrLen = 344;
 		vrLoc = 4523;
@@ -6755,7 +6863,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 177";
 		rLen = 0;
-		rLoc = 7287;
+		rLoc = 7053;
 		rType = 0;
 		vrLen = 749;
 		vrLoc = 6440;
@@ -6775,7 +6883,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 177";
 		rLen = 0;
-		rLoc = 7287;
+		rLoc = 7053;
 		rType = 0;
 		vrLen = 749;
 		vrLoc = 6440;
@@ -6805,7 +6913,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 170";
 		rLen = 0;
-		rLoc = 6948;
+		rLoc = 6714;
 		rType = 0;
 		vrLen = 1185;
 		vrLoc = 4568;
@@ -6815,7 +6923,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 122";
 		rLen = 0;
-		rLoc = 4930;
+		rLoc = 4696;
 		rType = 0;
 		vrLen = 299;
 		vrLoc = 4609;
@@ -6905,7 +7013,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 170";
 		rLen = 0;
-		rLoc = 6948;
+		rLoc = 6714;
 		rType = 0;
 		vrLen = 1185;
 		vrLoc = 4568;
@@ -6985,7 +7093,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 170";
 		rLen = 0;
-		rLoc = 6948;
+		rLoc = 6714;
 		rType = 0;
 		vrLen = 1185;
 		vrLoc = 4568;
@@ -7035,7 +7143,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 170";
 		rLen = 0;
-		rLoc = 6948;
+		rLoc = 6714;
 		rType = 0;
 		vrLen = 1185;
 		vrLoc = 4568;
@@ -7115,7 +7223,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 122";
 		rLen = 0;
-		rLoc = 4919;
+		rLoc = 4685;
 		rType = 0;
 		vrLen = 1279;
 		vrLoc = 4076;
@@ -7125,7 +7233,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 122";
 		rLen = 0;
-		rLoc = 4919;
+		rLoc = 4685;
 		rType = 0;
 		vrLen = 1125;
 		vrLoc = 4075;
@@ -7135,7 +7243,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 172";
 		rLen = 0;
-		rLoc = 6948;
+		rLoc = 6714;
 		rType = 0;
 		vrLen = 1369;
 		vrLoc = 4729;
@@ -7155,7 +7263,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 122";
 		rLen = 0;
-		rLoc = 4919;
+		rLoc = 4685;
 		rType = 0;
 		vrLen = 353;
 		vrLoc = 4449;
@@ -7165,7 +7273,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 180";
 		rLen = 0;
-		rLoc = 7219;
+		rLoc = 6985;
 		rType = 0;
 		vrLen = 1505;
 		vrLoc = 5931;
@@ -7175,7 +7283,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 172";
 		rLen = 0;
-		rLoc = 6948;
+		rLoc = 6714;
 		rType = 0;
 		vrLen = 1369;
 		vrLoc = 4729;
@@ -7185,7 +7293,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 180";
 		rLen = 0;
-		rLoc = 7219;
+		rLoc = 6985;
 		rType = 0;
 		vrLen = 1505;
 		vrLoc = 5931;
@@ -7195,7 +7303,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 118";
 		rLen = 0;
-		rLoc = 4853;
+		rLoc = 4619;
 		rType = 0;
 		vrLen = 1355;
 		vrLoc = 4174;
@@ -7205,7 +7313,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 118";
 		rLen = 0;
-		rLoc = 4853;
+		rLoc = 4619;
 		rType = 0;
 		vrLen = 1077;
 		vrLoc = 4013;
@@ -7215,7 +7323,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 172";
 		rLen = 0;
-		rLoc = 6948;
+		rLoc = 6714;
 		rType = 0;
 		vrLen = 1233;
 		vrLoc = 4674;
@@ -7225,7 +7333,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 118";
 		rLen = 0;
-		rLoc = 4853;
+		rLoc = 4619;
 		rType = 0;
 		vrLen = 379;
 		vrLoc = 4588;
@@ -7255,7 +7363,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 173";
 		rLen = 0;
-		rLoc = 6948;
+		rLoc = 6714;
 		rType = 0;
 		vrLen = 1238;
 		vrLoc = 4700;
@@ -7295,7 +7403,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 173";
 		rLen = 0;
-		rLoc = 6948;
+		rLoc = 6714;
 		rType = 0;
 		vrLen = 1238;
 		vrLoc = 4702;
@@ -7372,7 +7480,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 173";
 		rLen = 0;
-		rLoc = 6948;
+		rLoc = 6714;
 		rType = 0;
 		vrLen = 1240;
 		vrLoc = 4799;
@@ -7479,7 +7587,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 173";
 		rLen = 0;
-		rLoc = 6948;
+		rLoc = 6714;
 		rType = 0;
 		vrLen = 1220;
 		vrLoc = 4751;
@@ -7509,7 +7617,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 181";
 		rLen = 0;
-		rLoc = 7227;
+		rLoc = 6993;
 		rType = 0;
 		vrLen = 1129;
 		vrLoc = 6556;
@@ -7519,7 +7627,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 181";
 		rLen = 0;
-		rLoc = 7227;
+		rLoc = 6993;
 		rType = 0;
 		vrLen = 1231;
 		vrLoc = 6448;
@@ -7529,7 +7637,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 173";
 		rLen = 0;
-		rLoc = 6948;
+		rLoc = 6714;
 		rType = 0;
 		vrLen = 1220;
 		vrLoc = 4751;
@@ -7539,7 +7647,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 181";
 		rLen = 0;
-		rLoc = 7227;
+		rLoc = 6993;
 		rType = 0;
 		vrLen = 633;
 		vrLoc = 6556;
@@ -7549,7 +7657,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 181";
 		rLen = 0;
-		rLoc = 7227;
+		rLoc = 6993;
 		rType = 0;
 		vrLen = 633;
 		vrLoc = 6556;
@@ -7559,7 +7667,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 181";
 		rLen = 0;
-		rLoc = 7227;
+		rLoc = 6993;
 		rType = 0;
 		vrLen = 1988;
 		vrLoc = 161;
@@ -7579,7 +7687,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 181";
 		rLen = 0;
-		rLoc = 7227;
+		rLoc = 6993;
 		rType = 0;
 		vrLen = 1988;
 		vrLoc = 161;
@@ -7609,7 +7717,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 173";
 		rLen = 0;
-		rLoc = 6948;
+		rLoc = 6714;
 		rType = 0;
 		vrLen = 1220;
 		vrLoc = 4751;
@@ -7619,7 +7727,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 181";
 		rLen = 0;
-		rLoc = 7227;
+		rLoc = 6993;
 		rType = 0;
 		vrLen = 633;
 		vrLoc = 6556;
@@ -7746,7 +7854,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 173";
 		rLen = 0;
-		rLoc = 6948;
+		rLoc = 6714;
 		rType = 0;
 		vrLen = 1220;
 		vrLoc = 4753;
@@ -7833,7 +7941,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 173";
 		rLen = 0;
-		rLoc = 6948;
+		rLoc = 6714;
 		rType = 0;
 		vrLen = 1220;
 		vrLoc = 4753;
@@ -7883,7 +7991,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 119";
 		rLen = 0;
-		rLoc = 4853;
+		rLoc = 4619;
 		rType = 0;
 		vrLen = 733;
 		vrLoc = 4368;
@@ -7893,7 +8001,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 119";
 		rLen = 0;
-		rLoc = 4853;
+		rLoc = 4619;
 		rType = 0;
 		vrLen = 639;
 		vrLoc = 4368;
@@ -7903,7 +8011,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 173";
 		rLen = 0;
-		rLoc = 6948;
+		rLoc = 6714;
 		rType = 0;
 		vrLen = 1234;
 		vrLoc = 4753;
@@ -7913,7 +8021,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 119";
 		rLen = 0;
-		rLoc = 4853;
+		rLoc = 4619;
 		rType = 0;
 		vrLen = 639;
 		vrLoc = 4368;
@@ -7923,7 +8031,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 173";
 		rLen = 0;
-		rLoc = 6948;
+		rLoc = 6714;
 		rType = 0;
 		vrLen = 1234;
 		vrLoc = 4753;
@@ -7933,7 +8041,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 119";
 		rLen = 0;
-		rLoc = 4853;
+		rLoc = 4619;
 		rType = 0;
 		vrLen = 497;
 		vrLoc = 4368;
@@ -7963,7 +8071,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 173";
 		rLen = 0;
-		rLoc = 6948;
+		rLoc = 6714;
 		rType = 0;
 		vrLen = 1234;
 		vrLoc = 4751;
@@ -7993,7 +8101,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 120";
 		rLen = 0;
-		rLoc = 4800;
+		rLoc = 4566;
 		rType = 0;
 		vrLen = 1213;
 		vrLoc = 4188;
@@ -8003,7 +8111,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 120";
 		rLen = 0;
-		rLoc = 4800;
+		rLoc = 4566;
 		rType = 0;
 		vrLen = 1075;
 		vrLoc = 4182;
@@ -8013,7 +8121,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 174";
 		rLen = 0;
-		rLoc = 6948;
+		rLoc = 6714;
 		rType = 0;
 		vrLen = 1242;
 		vrLoc = 4751;
@@ -8023,7 +8131,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 120";
 		rLen = 0;
-		rLoc = 4800;
+		rLoc = 4566;
 		rType = 0;
 		vrLen = 517;
 		vrLoc = 4188;
@@ -8083,7 +8191,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 118";
 		rLen = 0;
-		rLoc = 4839;
+		rLoc = 4605;
 		rType = 0;
 		vrLen = 851;
 		vrLoc = 5615;
@@ -8093,7 +8201,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 118";
 		rLen = 0;
-		rLoc = 4839;
+		rLoc = 4605;
 		rType = 0;
 		vrLen = 845;
 		vrLoc = 5615;
@@ -8103,7 +8211,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 172";
 		rLen = 0;
-		rLoc = 6948;
+		rLoc = 6714;
 		rType = 0;
 		vrLen = 1198;
 		vrLoc = 4721;
@@ -8113,7 +8221,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 200";
 		rLen = 0;
-		rLoc = 7656;
+		rLoc = 7422;
 		rType = 0;
 		vrLen = 360;
 		vrLoc = 6965;
@@ -8123,7 +8231,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 200";
 		rLen = 0;
-		rLoc = 7656;
+		rLoc = 7422;
 		rType = 0;
 		vrLen = 660;
 		vrLoc = 6780;
@@ -8143,7 +8251,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 200";
 		rLen = 0;
-		rLoc = 7656;
+		rLoc = 7422;
 		rType = 0;
 		vrLen = 660;
 		vrLoc = 6780;
@@ -8173,7 +8281,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 172";
 		rLen = 0;
-		rLoc = 6948;
+		rLoc = 6714;
 		rType = 0;
 		vrLen = 1198;
 		vrLoc = 4721;
@@ -8183,7 +8291,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 200";
 		rLen = 0;
-		rLoc = 7656;
+		rLoc = 7422;
 		rType = 0;
 		vrLen = 360;
 		vrLoc = 6965;
@@ -8240,7 +8348,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 171";
 		rLen = 0;
-		rLoc = 6948;
+		rLoc = 6714;
 		rType = 0;
 		vrLen = 1406;
 		vrLoc = 4903;
@@ -8260,7 +8368,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 171";
 		rLen = 0;
-		rLoc = 6948;
+		rLoc = 6714;
 		rType = 0;
 		vrLen = 1406;
 		vrLoc = 4903;
@@ -8290,7 +8398,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 171";
 		rLen = 0;
-		rLoc = 6948;
+		rLoc = 6714;
 		rType = 0;
 		vrLen = 1204;
 		vrLoc = 4747;
@@ -8310,7 +8418,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 171";
 		rLen = 0;
-		rLoc = 6948;
+		rLoc = 6714;
 		rType = 0;
 		vrLen = 1204;
 		vrLoc = 4747;
@@ -8350,7 +8458,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 171";
 		rLen = 0;
-		rLoc = 6948;
+		rLoc = 6714;
 		rType = 0;
 		vrLen = 1204;
 		vrLoc = 4747;
@@ -8380,7 +8488,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 171";
 		rLen = 0;
-		rLoc = 6948;
+		rLoc = 6714;
 		rType = 0;
 		vrLen = 1204;
 		vrLoc = 4747;
@@ -8390,7 +8498,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 126";
 		rLen = 27;
-		rLoc = 4977;
+		rLoc = 4743;
 		rType = 0;
 		vrLen = 274;
 		vrLoc = 3819;
@@ -8400,7 +8508,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 126";
 		rLen = 27;
-		rLoc = 4977;
+		rLoc = 4743;
 		rType = 0;
 		vrLen = 1116;
 		vrLoc = 3489;
@@ -8420,7 +8528,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 126";
 		rLen = 27;
-		rLoc = 4977;
+		rLoc = 4743;
 		rType = 0;
 		vrLen = 1116;
 		vrLoc = 3489;
@@ -8450,7 +8558,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 171";
 		rLen = 0;
-		rLoc = 6948;
+		rLoc = 6714;
 		rType = 0;
 		vrLen = 1204;
 		vrLoc = 4747;
@@ -8470,7 +8578,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 171";
 		rLen = 0;
-		rLoc = 6948;
+		rLoc = 6714;
 		rType = 0;
 		vrLen = 1204;
 		vrLoc = 4747;
@@ -8490,7 +8598,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 171";
 		rLen = 0;
-		rLoc = 6948;
+		rLoc = 6714;
 		rType = 0;
 		vrLen = 1204;
 		vrLoc = 4747;
@@ -8510,7 +8618,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 171";
 		rLen = 0;
-		rLoc = 6948;
+		rLoc = 6714;
 		rType = 0;
 		vrLen = 1204;
 		vrLoc = 4747;
@@ -8530,7 +8638,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 171";
 		rLen = 0;
-		rLoc = 6948;
+		rLoc = 6714;
 		rType = 0;
 		vrLen = 1204;
 		vrLoc = 4747;
@@ -8540,7 +8648,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 126";
 		rLen = 27;
-		rLoc = 4977;
+		rLoc = 4743;
 		rType = 0;
 		vrLen = 274;
 		vrLoc = 3819;
@@ -8637,7 +8745,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 171";
 		rLen = 0;
-		rLoc = 6948;
+		rLoc = 6714;
 		rType = 0;
 		vrLen = 1297;
 		vrLoc = 4747;
@@ -8667,7 +8775,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 171";
 		rLen = 0;
-		rLoc = 6948;
+		rLoc = 6714;
 		rType = 0;
 		vrLen = 1204;
 		vrLoc = 4747;
@@ -8707,7 +8815,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 171";
 		rLen = 0;
-		rLoc = 6948;
+		rLoc = 6714;
 		rType = 0;
 		vrLen = 1204;
 		vrLoc = 4747;
@@ -8747,7 +8855,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 171";
 		rLen = 0;
-		rLoc = 6948;
+		rLoc = 6714;
 		rType = 0;
 		vrLen = 1204;
 		vrLoc = 4747;
@@ -8767,7 +8875,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 171";
 		rLen = 0;
-		rLoc = 6948;
+		rLoc = 6714;
 		rType = 0;
 		vrLen = 1204;
 		vrLoc = 4747;
@@ -8807,7 +8915,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 171";
 		rLen = 0;
-		rLoc = 6948;
+		rLoc = 6714;
 		rType = 0;
 		vrLen = 1204;
 		vrLoc = 4747;
@@ -9167,7 +9275,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 126";
 		rLen = 27;
-		rLoc = 4977;
+		rLoc = 4743;
 		rType = 0;
 		vrLen = 1116;
 		vrLoc = 3489;
@@ -9189,7 +9297,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 106";
 		rLen = 0;
-		rLoc = 4342;
+		rLoc = 4108;
 		rType = 0;
 		vrLen = 1191;
 		vrLoc = 3937;
@@ -9199,10 +9307,995 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 106";
 		rLen = 0;
-		rLoc = 4342;
+		rLoc = 4108;
 		rType = 0;
 		vrLen = 1114;
 		vrLoc = 3817;
+	};
+	DF29BE2E0FB587E8000EB5B8 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = DF7B130F0FAEACA8007FF0CA /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			UIPrerenderedIcon,
+		);
+		name = /Users/alon/Projects/wheelsmith/App/Resources/Info.plist;
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	DF29BE2F0FB587E8000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
+		name = "WheelDetailController.m: 106";
+		rLen = 0;
+		rLoc = 4108;
+		rType = 0;
+		vrLen = 669;
+		vrLoc = 4004;
+	};
+	DF29BE300FB5884D000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
+		name = "WheelDetailController.m: 106";
+		rLen = 0;
+		rLoc = 4108;
+		rType = 0;
+		vrLen = 1146;
+		vrLoc = 3817;
+	};
+	DF29BE310FB5884D000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B11E60FAEA9A3007FF0CA /* LabeledValueCell.h */;
+		name = "LabeledValueCell.h: 14";
+		rLen = 0;
+		rLoc = 467;
+		rType = 0;
+		vrLen = 534;
+		vrLoc = 0;
+	};
+	DF29BE320FB5884D000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B11E70FAEA9A3007FF0CA /* LabeledValueCell.m */;
+		name = "LabeledValueCell.m: 36";
+		rLen = 0;
+		rLoc = 1060;
+		rType = 0;
+		vrLen = 1021;
+		vrLoc = 130;
+	};
+	DF29BE330FB5884D000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
+		name = "WheelDetailController.m: 106";
+		rLen = 0;
+		rLoc = 4108;
+		rType = 0;
+		vrLen = 1146;
+		vrLoc = 3817;
+	};
+	DF29BE340FB5884D000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B11E70FAEA9A3007FF0CA /* LabeledValueCell.m */;
+		name = "LabeledValueCell.m: 36";
+		rLen = 0;
+		rLoc = 1060;
+		rType = 0;
+		vrLen = 1021;
+		vrLoc = 130;
+	};
+	DF29BE350FB5884D000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B11E60FAEA9A3007FF0CA /* LabeledValueCell.h */;
+		name = "LabeledValueCell.h: 14";
+		rLen = 0;
+		rLoc = 467;
+		rType = 0;
+		vrLen = 534;
+		vrLoc = 0;
+	};
+	DF29BE360FB5884D000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B11E70FAEA9A3007FF0CA /* LabeledValueCell.m */;
+		name = "LabeledValueCell.m: 30";
+		rLen = 0;
+		rLoc = 843;
+		rType = 0;
+		vrLen = 443;
+		vrLoc = 628;
+	};
+	DF29BE390FB58950000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B11E70FAEA9A3007FF0CA /* LabeledValueCell.m */;
+		name = "LabeledValueCell.m: 41";
+		rLen = 0;
+		rLoc = 844;
+		rType = 0;
+		vrLen = 549;
+		vrLoc = 844;
+	};
+	DF29BE3A0FB58951000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B11E70FAEA9A3007FF0CA /* LabeledValueCell.m */;
+		name = "LabeledValueCell.m: 41";
+		rLen = 0;
+		rLoc = 844;
+		rType = 0;
+		vrLen = 462;
+		vrLoc = 983;
+	};
+	DF29BE3B0FB5895C000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
+		name = "WheelDetailController.m: 106";
+		rLen = 0;
+		rLoc = 4108;
+		rType = 0;
+		vrLen = 629;
+		vrLoc = 4082;
+	};
+	DF29BE3C0FB5895C000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B11E70FAEA9A3007FF0CA /* LabeledValueCell.m */;
+		name = "LabeledValueCell.m: 41";
+		rLen = 0;
+		rLoc = 844;
+		rType = 0;
+		vrLen = 352;
+		vrLoc = 1041;
+	};
+	DF29BE3E0FB5897A000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B11E70FAEA9A3007FF0CA /* LabeledValueCell.m */;
+		name = "LabeledValueCell.m: 41";
+		rLen = 0;
+		rLoc = 844;
+		rType = 0;
+		vrLen = 463;
+		vrLoc = 983;
+	};
+	DF29BE3F0FB5897A000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
+		name = "WheelDetailController.m: 106";
+		rLen = 0;
+		rLoc = 4108;
+		rType = 0;
+		vrLen = 917;
+		vrLoc = 3938;
+	};
+	DF29BE400FB5897A000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B11E70FAEA9A3007FF0CA /* LabeledValueCell.m */;
+		name = "LabeledValueCell.m: 41";
+		rLen = 0;
+		rLoc = 844;
+		rType = 0;
+		vrLen = 463;
+		vrLoc = 983;
+	};
+	DF29BE410FB5897A000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
+		name = "WheelDetailController.m: 110";
+		rLen = 0;
+		rLoc = 4436;
+		rType = 0;
+		vrLen = 943;
+		vrLoc = 3938;
+	};
+	DF29BE420FB5897B000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
+		name = "WheelDetailController.m: 110";
+		rLen = 0;
+		rLoc = 4436;
+		rType = 0;
+		vrLen = 888;
+		vrLoc = 4031;
+	};
+	DF29BE430FB58995000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B11E70FAEA9A3007FF0CA /* LabeledValueCell.m */;
+		name = "LabeledValueCell.m: 41";
+		rLen = 0;
+		rLoc = 844;
+		rType = 0;
+		vrLen = 336;
+		vrLoc = 1019;
+	};
+	DF29BE440FB58995000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
+		name = "WheelDetailController.m: 110";
+		rLen = 0;
+		rLoc = 4436;
+		rType = 0;
+		vrLen = 763;
+		vrLoc = 4118;
+	};
+	DF29BE460FB589A7000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
+		name = "WheelDetailController.m: 110";
+		rLen = 0;
+		rLoc = 4436;
+		rType = 0;
+		vrLen = 843;
+		vrLoc = 3897;
+	};
+	DF29BE470FB589A7000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
+		name = "WheelDetailController.m: 110";
+		rLen = 0;
+		rLoc = 4436;
+		rType = 0;
+		vrLen = 843;
+		vrLoc = 3897;
+	};
+	DF29BE480FB589A7000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B11E70FAEA9A3007FF0CA /* LabeledValueCell.m */;
+		name = "LabeledValueCell.m: 32";
+		rLen = 0;
+		rLoc = 843;
+		rType = 0;
+		vrLen = 565;
+		vrLoc = 775;
+	};
+	DF29BE490FB589A8000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B11E70FAEA9A3007FF0CA /* LabeledValueCell.m */;
+		name = "LabeledValueCell.m: 32";
+		rLen = 0;
+		rLoc = 843;
+		rType = 0;
+		vrLen = 506;
+		vrLoc = 714;
+	};
+	DF29BE4A0FB589B2000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
+		name = "WheelDetailController.m: 110";
+		rLen = 0;
+		rLoc = 4436;
+		rType = 0;
+		vrLen = 730;
+		vrLoc = 4096;
+	};
+	DF29BE4B0FB589B2000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B11E70FAEA9A3007FF0CA /* LabeledValueCell.m */;
+		name = "LabeledValueCell.m: 32";
+		rLen = 0;
+		rLoc = 843;
+		rType = 0;
+		vrLen = 378;
+		vrLoc = 842;
+	};
+	DF29BE4D0FB58A00000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B11E70FAEA9A3007FF0CA /* LabeledValueCell.m */;
+		name = "LabeledValueCell.m: 38";
+		rLen = 0;
+		rLoc = 844;
+		rType = 0;
+		vrLen = 594;
+		vrLoc = 714;
+	};
+	DF29BE4E0FB58A00000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B11E70FAEA9A3007FF0CA /* LabeledValueCell.m */;
+		name = "LabeledValueCell.m: 38";
+		rLen = 0;
+		rLoc = 844;
+		rType = 0;
+		vrLen = 548;
+		vrLoc = 842;
+	};
+	DF29BE4F0FB58A13000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B11E70FAEA9A3007FF0CA /* LabeledValueCell.m */;
+		name = "LabeledValueCell.m: 38";
+		rLen = 0;
+		rLoc = 844;
+		rType = 0;
+		vrLen = 228;
+		vrLoc = 813;
+	};
+	DF29BE510FB58A37000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B11E70FAEA9A3007FF0CA /* LabeledValueCell.m */;
+		name = "LabeledValueCell.m: 38";
+		rLen = 0;
+		rLoc = 844;
+		rType = 0;
+		vrLen = 486;
+		vrLoc = 743;
+	};
+	DF29BE520FB58A37000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B11E70FAEA9A3007FF0CA /* LabeledValueCell.m */;
+		name = "LabeledValueCell.m: 38";
+		rLen = 0;
+		rLoc = 844;
+		rType = 0;
+		vrLen = 483;
+		vrLoc = 906;
+	};
+	DF29BE550FB58B4A000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B11E70FAEA9A3007FF0CA /* LabeledValueCell.m */;
+		name = "LabeledValueCell.m: 40";
+		rLen = 0;
+		rLoc = 844;
+		rType = 0;
+		vrLen = 563;
+		vrLoc = 906;
+	};
+	DF29BE570FB58B6B000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B11E70FAEA9A3007FF0CA /* LabeledValueCell.m */;
+		name = "LabeledValueCell.m: 32";
+		rLen = 0;
+		rLoc = 843;
+		rType = 0;
+		vrLen = 300;
+		vrLoc = 842;
+	};
+	DF29BE580FB58B6B000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B11E70FAEA9A3007FF0CA /* LabeledValueCell.m */;
+		name = "LabeledValueCell.m: 32";
+		rLen = 0;
+		rLoc = 843;
+		rType = 0;
+		vrLen = 300;
+		vrLoc = 842;
+	};
+	DF29BE5A0FB58B73000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B11E70FAEA9A3007FF0CA /* LabeledValueCell.m */;
+		name = "LabeledValueCell.m: 34";
+		rLen = 0;
+		rLoc = 843;
+		rType = 0;
+		vrLen = 616;
+		vrLoc = 714;
+	};
+	DF29BE5B0FB58B73000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B11E70FAEA9A3007FF0CA /* LabeledValueCell.m */;
+		name = "LabeledValueCell.m: 34";
+		rLen = 0;
+		rLoc = 843;
+		rType = 0;
+		vrLen = 552;
+		vrLoc = 772;
+	};
+	DF29BE5E0FB58BAC000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B11E70FAEA9A3007FF0CA /* LabeledValueCell.m */;
+		name = "LabeledValueCell.m: 32";
+		rLen = 0;
+		rLoc = 843;
+		rType = 0;
+		vrLen = 533;
+		vrLoc = 772;
+	};
+	DF29BE600FB58BBC000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B11E70FAEA9A3007FF0CA /* LabeledValueCell.m */;
+		name = "LabeledValueCell.m: 32";
+		rLen = 0;
+		rLoc = 843;
+		rType = 0;
+		vrLen = 453;
+		vrLoc = 772;
+	};
+	DF29BE620FB58BCD000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B11E70FAEA9A3007FF0CA /* LabeledValueCell.m */;
+		name = "LabeledValueCell.m: 32";
+		rLen = 0;
+		rLoc = 843;
+		rType = 0;
+		vrLen = 455;
+		vrLoc = 772;
+	};
+	DF29BE640FB58C11000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B11E70FAEA9A3007FF0CA /* LabeledValueCell.m */;
+		name = "LabeledValueCell.m: 32";
+		rLen = 0;
+		rLoc = 843;
+		rType = 0;
+		vrLen = 475;
+		vrLoc = 772;
+	};
+	DF29BE660FB58C31000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B11E70FAEA9A3007FF0CA /* LabeledValueCell.m */;
+		name = "LabeledValueCell.m: 32";
+		rLen = 0;
+		rLoc = 843;
+		rType = 0;
+		vrLen = 477;
+		vrLoc = 772;
+	};
+	DF29BE670FB58C90000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B11E70FAEA9A3007FF0CA /* LabeledValueCell.m */;
+		name = "LabeledValueCell.m: 36";
+		rLen = 0;
+		rLoc = 844;
+		rType = 0;
+		vrLen = 367;
+		vrLoc = 1013;
+	};
+	DF29BE6B0FB58D0E000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B11E70FAEA9A3007FF0CA /* LabeledValueCell.m */;
+		name = "LabeledValueCell.m: 42";
+		rLen = 0;
+		rLoc = 844;
+		rType = 0;
+		vrLen = 498;
+		vrLoc = 774;
+	};
+	DF29BE6C0FB58D0E000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B11E70FAEA9A3007FF0CA /* LabeledValueCell.m */;
+		name = "LabeledValueCell.m: 42";
+		rLen = 0;
+		rLoc = 844;
+		rType = 0;
+		vrLen = 515;
+		vrLoc = 985;
+	};
+	DF29BE6D0FB58E39000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B11E70FAEA9A3007FF0CA /* LabeledValueCell.m */;
+		name = "LabeledValueCell.m: 42";
+		rLen = 0;
+		rLoc = 844;
+		rType = 0;
+		vrLen = 346;
+		vrLoc = 985;
+	};
+	DF29BE6F0FB58E69000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B11E70FAEA9A3007FF0CA /* LabeledValueCell.m */;
+		name = "LabeledValueCell.m: 38";
+		rLen = 0;
+		rLoc = 844;
+		rType = 0;
+		vrLen = 664;
+		vrLoc = 844;
+	};
+	DF29BE700FB58E69000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B11E70FAEA9A3007FF0CA /* LabeledValueCell.m */;
+		name = "LabeledValueCell.m: 38";
+		rLen = 0;
+		rLoc = 844;
+		rType = 0;
+		vrLen = 643;
+		vrLoc = 775;
+	};
+	DF29BE720FB58EAF000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B11E70FAEA9A3007FF0CA /* LabeledValueCell.m */;
+		name = "LabeledValueCell.m: 38";
+		rLen = 0;
+		rLoc = 844;
+		rType = 0;
+		vrLen = 652;
+		vrLoc = 775;
+	};
+	DF29BE740FB58EC5000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B11E70FAEA9A3007FF0CA /* LabeledValueCell.m */;
+		name = "LabeledValueCell.m: 32";
+		rLen = 0;
+		rLoc = 843;
+		rType = 0;
+		vrLen = 363;
+		vrLoc = 933;
+	};
+	DF29BE750FB58EC5000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF29BE760FB58EC5000EB5B8 /* asm ___TERMINATING_DUE_TO_UNCAUGHT_EXCEPTION___  0x96d57fb0 */;
+		rLen = 0;
+		rLoc = 2147483647;
+		rType = 0;
+	};
+	DF29BE760FB58EC5000EB5B8 /* asm ___TERMINATING_DUE_TO_UNCAUGHT_EXCEPTION___  0x96d57fb0 */ = {
+		isa = PBXFileReference;
+		path = "asm ___TERMINATING_DUE_TO_UNCAUGHT_EXCEPTION___  0x96d57fb0";
+		sourceTree = "<group>";
+	};
+	DF29BE770FB58EC5000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B11E70FAEA9A3007FF0CA /* LabeledValueCell.m */;
+		name = "LabeledValueCell.m: 32";
+		rLen = 0;
+		rLoc = 843;
+		rType = 0;
+		vrLen = 363;
+		vrLoc = 933;
+	};
+	DF29BE780FB58EC5000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF29BE790FB58EC5000EB5B8 /* asm ___TERMINATING_DUE_TO_UNCAUGHT_EXCEPTION___  0x96d57fb0 */;
+		name = "asm ___TERMINATING_DUE_TO_UNCAUGHT_EXCEPTION___  0x96d57fb0: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 206;
+		vrLoc = 0;
+	};
+	DF29BE790FB58EC5000EB5B8 /* asm ___TERMINATING_DUE_TO_UNCAUGHT_EXCEPTION___  0x96d57fb0 */ = {
+		isa = PBXFileReference;
+		path = "asm ___TERMINATING_DUE_TO_UNCAUGHT_EXCEPTION___  0x96d57fb0";
+		sourceTree = "<group>";
+	};
+	DF29BE7C0FB58ED2000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B11E70FAEA9A3007FF0CA /* LabeledValueCell.m */;
+		name = "LabeledValueCell.m: 32";
+		rLen = 0;
+		rLoc = 843;
+		rType = 0;
+		vrLen = 861;
+		vrLoc = 92;
+	};
+	DF29BE800FB5F3D8000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B11E70FAEA9A3007FF0CA /* LabeledValueCell.m */;
+		name = "LabeledValueCell.m: 32";
+		rLen = 0;
+		rLoc = 843;
+		rType = 0;
+		vrLen = 719;
+		vrLoc = 774;
+	};
+	DF29BE810FB5F3D8000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B11E70FAEA9A3007FF0CA /* LabeledValueCell.m */;
+		name = "LabeledValueCell.m: 32";
+		rLen = 0;
+		rLoc = 843;
+		rType = 0;
+		vrLen = 707;
+		vrLoc = 647;
+	};
+	DF29BE830FB5F3FF000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B11E70FAEA9A3007FF0CA /* LabeledValueCell.m */;
+		name = "LabeledValueCell.m: 32";
+		rLen = 0;
+		rLoc = 843;
+		rType = 0;
+		vrLen = 367;
+		vrLoc = 813;
+	};
+	DF29BE850FB5F42C000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B11E70FAEA9A3007FF0CA /* LabeledValueCell.m */;
+		name = "LabeledValueCell.m: 35";
+		rLen = 0;
+		rLoc = 843;
+		rType = 0;
+		vrLen = 847;
+		vrLoc = 648;
+	};
+	DF29BE860FB5F42D000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B11E70FAEA9A3007FF0CA /* LabeledValueCell.m */;
+		name = "LabeledValueCell.m: 35";
+		rLen = 0;
+		rLoc = 843;
+		rType = 0;
+		vrLen = 752;
+		vrLoc = 743;
+	};
+	DF29BE880FB5F44F000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B11E70FAEA9A3007FF0CA /* LabeledValueCell.m */;
+		name = "LabeledValueCell.m: 35";
+		rLen = 0;
+		rLoc = 843;
+		rType = 0;
+		vrLen = 740;
+		vrLoc = 743;
+	};
+	DF29BE8B0FB5F4BD000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B11E70FAEA9A3007FF0CA /* LabeledValueCell.m */;
+		name = "LabeledValueCell.m: 38";
+		rLen = 0;
+		rLoc = 843;
+		rType = 0;
+		vrLen = 757;
+		vrLoc = 743;
+	};
+	DF29BE8D0FB5F4F1000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B11E70FAEA9A3007FF0CA /* LabeledValueCell.m */;
+		name = "LabeledValueCell.m: 36";
+		rLen = 0;
+		rLoc = 843;
+		rType = 0;
+		vrLen = 721;
+		vrLoc = 743;
+	};
+	DF29BE8E0FB5F67D000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B11E70FAEA9A3007FF0CA /* LabeledValueCell.m */;
+		name = "LabeledValueCell.m: 31";
+		rLen = 0;
+		rLoc = 843;
+		rType = 0;
+		vrLen = 381;
+		vrLoc = 933;
+	};
+	DF29BE900FB5F6E3000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B11E70FAEA9A3007FF0CA /* LabeledValueCell.m */;
+		name = "LabeledValueCell.m: 47";
+		rLen = 0;
+		rLoc = 843;
+		rType = 0;
+		vrLen = 864;
+		vrLoc = 775;
+	};
+	DF29BE910FB5F6E3000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B11E70FAEA9A3007FF0CA /* LabeledValueCell.m */;
+		name = "LabeledValueCell.m: 47";
+		rLen = 0;
+		rLoc = 843;
+		rType = 0;
+		vrLen = 715;
+		vrLoc = 1081;
+	};
+	DF29BE920FB5F6FC000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B11E70FAEA9A3007FF0CA /* LabeledValueCell.m */;
+		name = "LabeledValueCell.m: 36";
+		rLen = 0;
+		rLoc = 843;
+		rType = 0;
+		vrLen = 367;
+		vrLoc = 906;
+	};
+	DF29BE990FB5F914000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF0CE8D30FB2FF8F00701164 /* WheelDetailDelegate.h */;
+		name = "WheelDetailDelegate.h: 2";
+		rLen = 0;
+		rLoc = 53;
+		rType = 0;
+		vrLen = 121;
+		vrLoc = 0;
+	};
+	DF29BE9A0FB5F914000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B11E70FAEA9A3007FF0CA /* LabeledValueCell.m */;
+		name = "LabeledValueCell.m: 46";
+		rLen = 0;
+		rLoc = 1157;
+		rType = 0;
+		vrLen = 95;
+		vrLoc = 1063;
+	};
+	DF29BE9B0FB5F914000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B11E60FAEA9A3007FF0CA /* LabeledValueCell.h */;
+		name = "LabeledValueCell.h: 14";
+		rLen = 0;
+		rLoc = 467;
+		rType = 0;
+		vrLen = 368;
+		vrLoc = 105;
+	};
+	DF29BE9C0FB5F914000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "warning: 'LabeledValueCell' may not respond to '-setValue:animated:'";
+		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
+		rLen = 1;
+		rLoc = 101;
+		rType = 1;
+	};
+	DF29BE9D0FB5F914000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B11E70FAEA9A3007FF0CA /* LabeledValueCell.m */;
+		name = "LabeledValueCell.m: 46";
+		rLen = 0;
+		rLoc = 1157;
+		rType = 0;
+		vrLen = 95;
+		vrLoc = 1063;
+	};
+	DF29BE9E0FB5F914000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B11E60FAEA9A3007FF0CA /* LabeledValueCell.h */;
+		name = "LabeledValueCell.h: 14";
+		rLen = 0;
+		rLoc = 467;
+		rType = 0;
+		vrLen = 368;
+		vrLoc = 105;
+	};
+	DF29BE9F0FB5F914000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
+		name = "WheelDetailController.m: 103";
+		rLen = 0;
+		rLoc = 4436;
+		rType = 0;
+		vrLen = 739;
+		vrLoc = 3884;
+	};
+	DF29BEA00FB5F915000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
+		name = "WheelDetailController.m: 103";
+		rLen = 0;
+		rLoc = 4436;
+		rType = 0;
+		vrLen = 664;
+		vrLoc = 3861;
+	};
+	DF29BEA20FB606BC000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B11E70FAEA9A3007FF0CA /* LabeledValueCell.m */;
+		name = "LabeledValueCell.m: 27";
+		rLen = 0;
+		rLoc = 843;
+		rType = 0;
+		vrLen = 245;
+		vrLoc = 904;
+	};
+	DF29BEA30FB606BC000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
+		name = "WheelDetailController.m: 103";
+		rLen = 0;
+		rLoc = 4436;
+		rType = 0;
+		vrLen = 611;
+		vrLoc = 4012;
+	};
+	DF29BEA40FB606CD000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
+		name = "WheelDetailController.m: 103";
+		rLen = 0;
+		rLoc = 4436;
+		rType = 0;
+		vrLen = 740;
+		vrLoc = 3884;
+	};
+	DF29BEA80FB60702000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
+		name = "WheelDetailController.m: 103";
+		rLen = 0;
+		rLoc = 4436;
+		rType = 0;
+		vrLen = 740;
+		vrLoc = 3884;
+	};
+	DF29BEA90FB60702000EB5B8 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = DF7B12090FAEA9A3007FF0CA /* hub3.jpg */;
+	};
+	DF29BEAA0FB60702000EB5B8 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = DF7B120A0FAEA9A3007FF0CA /* hub3_cropped.jpg */;
+	};
+	DF29BEAB0FB60702000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
+		name = "WheelDetailController.m: 103";
+		rLen = 0;
+		rLoc = 4436;
+		rType = 0;
+		vrLen = 740;
+		vrLoc = 3884;
+	};
+	DF29BEAC0FB60702000EB5B8 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = DF7B120A0FAEA9A3007FF0CA /* hub3_cropped.jpg */;
+	};
+	DF29BEAD0FB60702000EB5B8 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = DF7B12090FAEA9A3007FF0CA /* hub3.jpg */;
+	};
+	DF29BEAE0FB60702000EB5B8 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = DF7B120A0FAEA9A3007FF0CA /* hub3_cropped.jpg */;
+	};
+	DF29BEAF0FB60702000EB5B8 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = DF7B120A0FAEA9A3007FF0CA /* hub3_cropped.jpg */;
+	};
+	DF29BEB20FB609A7000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
+		name = "WheelDetailController.m: 103";
+		rLen = 0;
+		rLoc = 4436;
+		rType = 0;
+		vrLen = 704;
+		vrLoc = 3862;
+	};
+	DF29BEB30FB609A7000EB5B8 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = DF7B120A0FAEA9A3007FF0CA /* hub3_cropped.jpg */;
+	};
+	DF29BEB40FB609A7000EB5B8 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = DF7B120A0FAEA9A3007FF0CA /* hub3_cropped.jpg */;
+	};
+	DF29BEB60FB60A30000EB5B8 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = DF7B120A0FAEA9A3007FF0CA /* hub3_cropped.jpg */;
+	};
+	DF29BEB70FB60A30000EB5B8 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = DF29BEA50FB606EA000EB5B8 /* Default.png */;
+	};
+	DF29BEB80FB60A30000EB5B8 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = DF7B120A0FAEA9A3007FF0CA /* hub3_cropped.jpg */;
+	};
+	DF29BEB90FB60A30000EB5B8 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = DF29BEA50FB606EA000EB5B8 /* Default.png */;
+	};
+	DF29BEBB0FB60A42000EB5B8 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = DF29BEA50FB606EA000EB5B8 /* Default.png */;
+	};
+	DF29BEBD0FB60AAB000EB5B8 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = DF7B120A0FAEA9A3007FF0CA /* hub3_cropped.jpg */;
+	};
+	DF29BEBE0FB60AAB000EB5B8 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = DF29BEA50FB606EA000EB5B8 /* Default.png */;
+	};
+	DF29BEC30FB60F0B000EB5B8 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = DF29BEA50FB606EA000EB5B8 /* Default.png */;
+	};
+	DF29BEC40FB60F0B000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B11EF0FAEA9A3007FF0CA /* RimBrandsController.m */;
+		name = "RimBrandsController.m: 8";
+		rLen = 0;
+		rLoc = 151;
+		rType = 0;
+		vrLen = 986;
+		vrLoc = 0;
+	};
+	DF29BEC50FB60F0B000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B11F20FAEA9A3007FF0CA /* RimDetailController.h */;
+		name = "RimDetailController.h: 22";
+		rLen = 0;
+		rLoc = 752;
+		rType = 0;
+		vrLen = 852;
+		vrLoc = 0;
+	};
+	DF29BEC60FB60F0B000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B11F90FAEA9A3007FF0CA /* AppDelegate.m */;
+		name = "AppDelegate.m: 27";
+		rLen = 0;
+		rLoc = 1027;
+		rType = 0;
+		vrLen = 2557;
+		vrLoc = 485;
+	};
+	DF29BEC70FB60F0B000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B11E20FAEA9A3007FF0CA /* HubDetailController.h */;
+		name = "HubDetailController.h: 9";
+		rLen = 38;
+		rLoc = 243;
+		rType = 0;
+		vrLen = 1082;
+		vrLoc = 0;
+	};
+	DF29BEC80FB60F0B000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B11E30FAEA9A3007FF0CA /* HubDetailController.m */;
+		name = "HubDetailController.m: 16";
+		rLen = 93;
+		rLoc = 528;
+		rType = 0;
+		vrLen = 1081;
+		vrLoc = 0;
+	};
+	DF29BEC90FB60F0B000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B11F30FAEA9A3007FF0CA /* RimDetailController.m */;
+		name = "RimDetailController.m: 7";
+		rLen = 0;
+		rLoc = 175;
+		rType = 0;
+		vrLen = 692;
+		vrLoc = 0;
+	};
+	DF29BECA0FB60F0B000EB5B8 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = DF29BEA50FB606EA000EB5B8 /* Default.png */;
+	};
+	DF29BECB0FB60F0B000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B11EF0FAEA9A3007FF0CA /* RimBrandsController.m */;
+		name = "RimBrandsController.m: 8";
+		rLen = 0;
+		rLoc = 151;
+		rType = 0;
+		vrLen = 986;
+		vrLoc = 0;
+	};
+	DF29BECC0FB60F0B000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B11F90FAEA9A3007FF0CA /* AppDelegate.m */;
+		name = "AppDelegate.m: 27";
+		rLen = 0;
+		rLoc = 1027;
+		rType = 0;
+		vrLen = 2557;
+		vrLoc = 485;
+	};
+	DF29BECD0FB60F0B000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B11E20FAEA9A3007FF0CA /* HubDetailController.h */;
+		name = "HubDetailController.h: 9";
+		rLen = 38;
+		rLoc = 243;
+		rType = 0;
+		vrLen = 1082;
+		vrLoc = 0;
+	};
+	DF29BECE0FB60F0B000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B11E30FAEA9A3007FF0CA /* HubDetailController.m */;
+		name = "HubDetailController.m: 16";
+		rLen = 93;
+		rLoc = 528;
+		rType = 0;
+		vrLen = 1081;
+		vrLoc = 0;
+	};
+	DF29BECF0FB60F0B000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B11F30FAEA9A3007FF0CA /* RimDetailController.m */;
+		name = "RimDetailController.m: 19";
+		rLen = 0;
+		rLoc = 624;
+		rType = 0;
+		vrLen = 785;
+		vrLoc = 0;
+	};
+	DF29BED00FB60F0B000EB5B8 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B11F30FAEA9A3007FF0CA /* RimDetailController.m */;
+		name = "RimDetailController.m: 19";
+		rLen = 0;
+		rLoc = 624;
+		rType = 0;
+		vrLen = 785;
+		vrLoc = 0;
 	};
 	DF4664E20FAEB02400172895 /* PBXBookmark */ = {
 		isa = PBXBookmark;
@@ -9288,7 +10381,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 92";
 		rLen = 10;
-		rLoc = 4105;
+		rLoc = 3871;
 		rType = 0;
 		vrLen = 979;
 		vrLoc = 3237;
@@ -9358,7 +10451,7 @@
 		fRef = DF7B11F20FAEA9A3007FF0CA /* RimDetailController.h */;
 		name = "RimDetailController.h: 29";
 		rLen = 0;
-		rLoc = 999;
+		rLoc = 834;
 		rType = 0;
 		vrLen = 1017;
 		vrLoc = 0;
@@ -9378,7 +10471,7 @@
 		fRef = DF7B11F20FAEA9A3007FF0CA /* RimDetailController.h */;
 		name = "RimDetailController.h: 29";
 		rLen = 0;
-		rLoc = 999;
+		rLoc = 834;
 		rType = 0;
 		vrLen = 1017;
 		vrLoc = 0;
@@ -9388,7 +10481,7 @@
 		fRef = DF7B11F30FAEA9A3007FF0CA /* RimDetailController.m */;
 		name = "RimDetailController.m: 9";
 		rLen = 0;
-		rLoc = 257;
+		rLoc = 233;
 		rType = 0;
 		vrLen = 715;
 		vrLoc = 0;
@@ -9408,7 +10501,7 @@
 		fRef = DF7B11F30FAEA9A3007FF0CA /* RimDetailController.m */;
 		name = "RimDetailController.m: 9";
 		rLen = 0;
-		rLoc = 257;
+		rLoc = 233;
 		rType = 0;
 		vrLen = 715;
 		vrLoc = 0;
@@ -9418,7 +10511,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 94";
 		rLen = 0;
-		rLoc = 4117;
+		rLoc = 3883;
 		rType = 0;
 		vrLen = 1027;
 		vrLoc = 4089;
@@ -9622,15 +10715,15 @@
 	};
 	DF7B11E20FAEA9A3007FF0CA /* HubDetailController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1214, 512}}";
-			sepNavSelRange = "{981, 70}";
+			sepNavIntBoundsRect = "{{0, 0}, {938, 567}}";
+			sepNavSelRange = "{243, 38}";
 			sepNavVisRange = "{0, 1082}";
 		};
 	};
 	DF7B11E30FAEA9A3007FF0CA /* HubDetailController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {852, 590}}";
-			sepNavSelRange = "{507, 0}";
+			sepNavIntBoundsRect = "{{0, 0}, {938, 576}}";
+			sepNavSelRange = "{528, 93}";
 			sepNavVisRange = "{0, 1081}";
 		};
 	};
@@ -9648,11 +10741,18 @@
 			sepNavVisRange = "{856, 1006}";
 		};
 	};
+	DF7B11E60FAEA9A3007FF0CA /* LabeledValueCell.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {938, 256}}";
+			sepNavSelRange = "{467, 0}";
+			sepNavVisRange = "{105, 368}";
+		};
+	};
 	DF7B11E70FAEA9A3007FF0CA /* LabeledValueCell.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1219, 752}}";
-			sepNavSelRange = "{1063, 0}";
-			sepNavVisRange = "{923, 228}";
+			sepNavIntBoundsRect = "{{0, 0}, {1219, 736}}";
+			sepNavSelRange = "{843, 0}";
+			sepNavVisRange = "{904, 245}";
 		};
 	};
 	DF7B11E80FAEA9A3007FF0CA /* MyWheelsController.h */ = {
@@ -9718,23 +10818,23 @@
 	};
 	DF7B11EF0FAEA9A3007FF0CA /* RimBrandsController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {943, 464}}";
-			sepNavSelRange = "{339, 415}";
-			sepNavVisRange = "{32, 853}";
+			sepNavIntBoundsRect = "{{0, 0}, {943, 567}}";
+			sepNavSelRange = "{151, 0}";
+			sepNavVisRange = "{0, 986}";
 		};
 	};
 	DF7B11F20FAEA9A3007FF0CA /* RimDetailController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1219, 512}}";
-			sepNavSelRange = "{999, 0}";
-			sepNavVisRange = "{557, 460}";
+			sepNavIntBoundsRect = "{{0, 0}, {938, 567}}";
+			sepNavSelRange = "{752, 0}";
+			sepNavVisRange = "{0, 852}";
 		};
 	};
 	DF7B11F30FAEA9A3007FF0CA /* RimDetailController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1214, 528}}";
-			sepNavSelRange = "{257, 0}";
-			sepNavVisRange = "{0, 715}";
+			sepNavIntBoundsRect = "{{0, 0}, {938, 567}}";
+			sepNavSelRange = "{624, 0}";
+			sepNavVisRange = "{0, 785}";
 		};
 	};
 	DF7B11F40FAEA9A3007FF0CA /* RimListController.h */ = {
@@ -9767,9 +10867,9 @@
 	};
 	DF7B11F90FAEA9A3007FF0CA /* AppDelegate.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1048, 1392}}";
-			sepNavSelRange = "{3305, 373}";
-			sepNavVisRange = "{2099, 1585}";
+			sepNavIntBoundsRect = "{{0, 0}, {1048, 1264}}";
+			sepNavSelRange = "{1027, 0}";
+			sepNavVisRange = "{485, 2557}";
 		};
 	};
 	DF7B11FE0FAEA9A3007FF0CA /* Wheel.h */ = {
@@ -9795,9 +10895,9 @@
 	};
 	DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1076, 3200}}";
-			sepNavSelRange = "{4342, 0}";
-			sepNavVisRange = "{3817, 1114}";
+			sepNavIntBoundsRect = "{{0, 0}, {1219, 3184}}";
+			sepNavSelRange = "{4436, 0}";
+			sepNavVisRange = "{3862, 704}";
 			sepNavWindowFrame = "{{1240, 55}, {1277, 723}}";
 		};
 	};
@@ -10173,7 +11273,7 @@
 		fRef = DF7B11F90FAEA9A3007FF0CA /* AppDelegate.m */;
 		name = "AppDelegate.m: 45";
 		rLen = 0;
-		rLoc = 2173;
+		rLoc = 2267;
 		rType = 0;
 		vrLen = 1644;
 		vrLoc = 0;
