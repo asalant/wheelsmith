@@ -12,6 +12,9 @@
     self.navigationItem.rightBarButtonItem = [[[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemSave
                                                                                             target:self 
                                                                                             action:@selector(saveRim)] autorelease];
+    
+    textFields = [[NSArray arrayWithObjects:brandTextField, descriptionTextField, sizeTextField, holeCountTextField,
+              erdTextField, offsetTextField, nil] retain];
 }
 
 - (void)viewWillAppear:(BOOL)animated {
@@ -25,12 +28,29 @@
     holeCountTextField.text = [rim.holeCount description];
 }
 
+-(void)viewWillDisappear:(BOOL)animated {
+    [currentInput resignFirstResponder];
+}
+
+#pragma mark UITextFieldDelegate methods 
+
+- (BOOL)textFieldShouldReturn:(UITextField *)textField {
+    int index = [textFields indexOfObject:textField];
+    [[textFields objectAtIndex:(index + 1) % textFields.count] becomeFirstResponder];
+	return YES;
+}
+
+- (void)textFieldDidBeginEditing:(UITextField *)textField {
+    currentInput = textField;
+}
+
 -(IBAction)saveRim {
     [self.navigationController popViewControllerAnimated:YES];
 }
 
 - (void)dealloc {
     [rim release];
+    [textFields release];
     [super dealloc];
 }
 

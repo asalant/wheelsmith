@@ -134,7 +134,7 @@
 								<int key="NSID">2</int>
 							</object>
 						</object>
-						<object class="NSFont" key="IBUIFont" id="535775386">
+						<object class="NSFont" key="IBUIFont" id="546311866">
 							<string key="NSName">Helvetica</string>
 							<double key="NSSize">1.400000e+01</double>
 							<int key="NSfFlags">16</int>
@@ -144,6 +144,7 @@
 						<float key="IBUIMinimumFontSize">1.700000e+01</float>
 						<object class="IBUITextInputTraits" key="IBUITextInputTraits">
 							<int key="IBUIAutocapitalizationType">1</int>
+							<int key="IBUIReturnKeyType">4</int>
 						</object>
 					</object>
 					<object class="IBUITextField" id="701791543">
@@ -162,13 +163,14 @@
 							<bytes key="NSWhite">MAA</bytes>
 							<reference key="NSCustomColorSpace" ref="922660023"/>
 						</object>
-						<reference key="IBUIFont" ref="535775386"/>
+						<reference key="IBUIFont" ref="546311866"/>
 						<bool key="IBUIClearsOnBeginEditing">YES</bool>
 						<bool key="IBUIAdjustsFontSizeToFit">YES</bool>
 						<float key="IBUIMinimumFontSize">1.700000e+01</float>
 						<object class="IBUITextInputTraits" key="IBUITextInputTraits">
 							<int key="IBUIAutocapitalizationType">1</int>
 							<int key="IBUIAutocorrectionType">1</int>
+							<int key="IBUIReturnKeyType">4</int>
 						</object>
 					</object>
 					<object class="IBUITextField" id="178071419">
@@ -187,12 +189,13 @@
 							<bytes key="NSWhite">MAA</bytes>
 							<reference key="NSCustomColorSpace" ref="922660023"/>
 						</object>
-						<reference key="IBUIFont" ref="535775386"/>
+						<reference key="IBUIFont" ref="546311866"/>
 						<bool key="IBUIClearsOnBeginEditing">YES</bool>
 						<bool key="IBUIAdjustsFontSizeToFit">YES</bool>
 						<float key="IBUIMinimumFontSize">1.700000e+01</float>
 						<object class="IBUITextInputTraits" key="IBUITextInputTraits">
 							<int key="IBUIKeyboardType">2</int>
+							<int key="IBUIReturnKeyType">4</int>
 						</object>
 					</object>
 					<object class="IBUITextField" id="917531285">
@@ -211,13 +214,14 @@
 							<bytes key="NSWhite">MAA</bytes>
 							<reference key="NSCustomColorSpace" ref="922660023"/>
 						</object>
-						<reference key="IBUIFont" ref="535775386"/>
+						<reference key="IBUIFont" ref="546311866"/>
 						<int key="IBUITextAlignment">2</int>
 						<bool key="IBUIClearsOnBeginEditing">YES</bool>
 						<bool key="IBUIAdjustsFontSizeToFit">YES</bool>
 						<float key="IBUIMinimumFontSize">1.700000e+01</float>
 						<object class="IBUITextInputTraits" key="IBUITextInputTraits">
 							<int key="IBUIKeyboardType">2</int>
+							<int key="IBUIReturnKeyType">4</int>
 						</object>
 					</object>
 					<object class="IBUITextField" id="544959654">
@@ -236,13 +240,14 @@
 							<bytes key="NSWhite">MAA</bytes>
 							<reference key="NSCustomColorSpace" ref="922660023"/>
 						</object>
-						<reference key="IBUIFont" ref="535775386"/>
+						<reference key="IBUIFont" ref="546311866"/>
 						<int key="IBUITextAlignment">2</int>
 						<bool key="IBUIClearsOnBeginEditing">YES</bool>
 						<bool key="IBUIAdjustsFontSizeToFit">YES</bool>
 						<float key="IBUIMinimumFontSize">1.700000e+01</float>
 						<object class="IBUITextInputTraits" key="IBUITextInputTraits">
 							<int key="IBUIKeyboardType">2</int>
+							<int key="IBUIReturnKeyType">4</int>
 						</object>
 					</object>
 					<object class="IBUITextField" id="541891437">
@@ -261,12 +266,13 @@
 							<bytes key="NSWhite">MAA</bytes>
 							<reference key="NSCustomColorSpace" ref="922660023"/>
 						</object>
-						<reference key="IBUIFont" ref="535775386"/>
+						<reference key="IBUIFont" ref="546311866"/>
 						<bool key="IBUIClearsOnBeginEditing">YES</bool>
 						<bool key="IBUIAdjustsFontSizeToFit">YES</bool>
 						<float key="IBUIMinimumFontSize">1.700000e+01</float>
 						<object class="IBUITextInputTraits" key="IBUITextInputTraits">
 							<int key="IBUIKeyboardType">2</int>
+							<int key="IBUIReturnKeyType">4</int>
 						</object>
 					</object>
 				</object>
@@ -337,6 +343,54 @@
 						<reference key="destination" ref="544959654"/>
 					</object>
 					<int key="connectionID">55</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">delegate</string>
+						<reference key="source" ref="188674792"/>
+						<reference key="destination" ref="372490531"/>
+					</object>
+					<int key="connectionID">56</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">delegate</string>
+						<reference key="source" ref="701791543"/>
+						<reference key="destination" ref="372490531"/>
+					</object>
+					<int key="connectionID">57</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">delegate</string>
+						<reference key="source" ref="178071419"/>
+						<reference key="destination" ref="372490531"/>
+					</object>
+					<int key="connectionID">58</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">delegate</string>
+						<reference key="source" ref="541891437"/>
+						<reference key="destination" ref="372490531"/>
+					</object>
+					<int key="connectionID">59</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">delegate</string>
+						<reference key="source" ref="917531285"/>
+						<reference key="destination" ref="372490531"/>
+					</object>
+					<int key="connectionID">60</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">delegate</string>
+						<reference key="source" ref="544959654"/>
+						<reference key="destination" ref="372490531"/>
+					</object>
+					<int key="connectionID">61</int>
 				</object>
 			</object>
 			<object class="IBMutableOrderedSet" key="objectRecords">
@@ -498,7 +552,7 @@
 				</object>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">55</int>
+			<int key="maxID">61</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -522,6 +576,7 @@
 						<object class="NSMutableArray" key="dict.sortedKeys">
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<string>brandTextField</string>
+							<string>currentInput</string>
 							<string>descriptionTextField</string>
 							<string>erdTextField</string>
 							<string>holeCountTextField</string>
@@ -531,6 +586,7 @@
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<string>UITextField</string>
+							<string>id</string>
 							<string>UITextField</string>
 							<string>UITextField</string>
 							<string>UITextField</string>

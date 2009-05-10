@@ -9,6 +9,8 @@
     IBOutlet UITextField *offsetTextField;
     IBOutlet UITextField *sizeTextField;
     IBOutlet UITextField *holeCountTextField;
+    id currentInput;
+    NSArray *textFields;
 }
 
 @property(nonatomic, retain) Rim *rim;
