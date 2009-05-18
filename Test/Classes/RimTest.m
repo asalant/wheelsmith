@@ -44,4 +44,11 @@
     assertThat([companies objectAtIndex:1], is(@"Velocity")); 
 }
 
+-(void)testCreatesRim {
+    Rim *rim = [[[Rim alloc] init] autorelease];
+    rim.brand = @"Brand";
+    [rim create];
+    assertThat(rim.pk, notNilValue());
+}
+
 @end

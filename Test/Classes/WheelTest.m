@@ -76,6 +76,22 @@
     assertThat(updated.spokePattern, is(wheel.spokePattern));
 }
 
+-(void)testSavesExistingWheel {
+    Wheel *wheel = [Wheel findFirstByCriteria:@"spoke_pattern = 0" orderBy:nil];
+    wheel.spokePattern = [NSNumber numberWithInt:3];
+    [wheel save];
+    
+    Wheel *updated = [Wheel find:wheel.pk];
+    assertThat(updated.spokePattern, is(wheel.spokePattern));    
+}
+
+-(void)testSavesNewWheel {
+    Wheel *wheel = [[[Wheel alloc] init] autorelease];
+    [wheel save];
+    
+    assertThat(wheel.pk, notNilValue());    
+}
+
 -(void)testDeletesWheel {
     Wheel *wheel = [Wheel findFirstByCriteria:@"spoke_pattern = 0" orderBy:nil];
     [wheel delete];

@@ -4,7 +4,14 @@
 
 @implementation RimBrandsController
 
-@synthesize rimsController, wheel;
+@synthesize editController, rimsController, wheel;
+
+-(void)viewDidLoad {
+    [super viewDidLoad];
+    self.navigationItem.rightBarButtonItem = [[[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd
+                                                                                            target:self 
+                                                                                            action:@selector(addPart)] autorelease];
+}
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     NSString *brand = [brands objectAtIndex:indexPath.row];
@@ -22,7 +29,14 @@
     [self.navigationController pushViewController:rimsController animated:YES];
 }
 
+
+-(void)addPart {
+    editController.rim = [[[Rim alloc] init] autorelease];
+    [self.navigationController pushViewController:editController animated:YES];
+}
+
 - (void) dealloc {
+    [editController release];
     [rimsController release];
     [wheel release];
     [super dealloc];

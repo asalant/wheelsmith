@@ -1,5 +1,6 @@
 #import "RimEditController.h"
 #import "StringUtil.h"
+#import "NSString+Extensions.h"
 
 @implementation RimEditController
 
@@ -45,6 +46,13 @@
 }
 
 -(IBAction)saveRim {
+    rim.brand = brandTextField.text;
+    rim.description = descriptionTextField.text;
+    rim.size = [sizeTextField.text intValue] == 0 ? nil : [NSNumber numberWithInt:[sizeTextField.text intValue]];
+    rim.holeCount = [holeCountTextField.text intValue] == 0 ? nil : [NSNumber numberWithInt:[holeCountTextField.text intValue]];
+    rim.erd = [erdTextField.text doubleValue] == 0.0 ? nil : [NSNumber numberWithDouble:[erdTextField.text doubleValue]];
+    rim.offset = [NSNumber numberWithDouble:[offsetTextField.text doubleValue]];
+    [rim save];
     [self.navigationController popViewControllerAnimated:YES];
 }
 

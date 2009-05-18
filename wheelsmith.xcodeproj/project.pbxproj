@@ -43,7 +43,11 @@
 		DF29BF3A0FB6290C000EB5B8 /* TableCellFactoryTest.m in Sources */ = {isa = PBXBuildFile; fileRef = DF29BF2E0FB6290C000EB5B8 /* TableCellFactoryTest.m */; };
 		DF29BF3B0FB6290C000EB5B8 /* WheelDetailControllerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = DF29BF2F0FB6290C000EB5B8 /* WheelDetailControllerTest.m */; };
 		DF29BF3C0FB6290C000EB5B8 /* WheelTest.m in Sources */ = {isa = PBXBuildFile; fileRef = DF29BF300FB6290C000EB5B8 /* WheelTest.m */; };
+		DF29C0650FB76725000EB5B8 /* RimEditControllerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = DF29C0640FB76725000EB5B8 /* RimEditControllerTest.m */; };
 		DF4665170FAEB2C100172895 /* parts.sqlite3 in Resources */ = {isa = PBXBuildFile; fileRef = DF7B120F0FAEA9A3007FF0CA /* parts.sqlite3 */; };
+		DF53C7250FC1B652000E9814 /* NSString+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = DF53C7240FC1B652000E9814 /* NSString+Extensions.m */; };
+		DF53C7260FC1B652000E9814 /* NSString+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = DF53C7240FC1B652000E9814 /* NSString+Extensions.m */; };
+		DF53C7280FC1B661000E9814 /* NSStringExtensionsTest.m in Sources */ = {isa = PBXBuildFile; fileRef = DF53C7270FC1B661000E9814 /* NSStringExtensionsTest.m */; };
 		DF58D9220FAF693900C2F546 /* app_icon2.png in Resources */ = {isa = PBXBuildFile; fileRef = DF58D9210FAF693900C2F546 /* app_icon2.png */; };
 		DF7B11CE0FAEA94D007FF0CA /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DF7B11CD0FAEA94D007FF0CA /* libsqlite3.dylib */; };
 		DF7B11CF0FAEA94D007FF0CA /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DF7B11CD0FAEA94D007FF0CA /* libsqlite3.dylib */; };
@@ -183,7 +187,11 @@
 		DF29BF2E0FB6290C000EB5B8 /* TableCellFactoryTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableCellFactoryTest.m; sourceTree = "<group>"; };
 		DF29BF2F0FB6290C000EB5B8 /* WheelDetailControllerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WheelDetailControllerTest.m; sourceTree = "<group>"; };
 		DF29BF300FB6290C000EB5B8 /* WheelTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WheelTest.m; sourceTree = "<group>"; };
+		DF29C0640FB76725000EB5B8 /* RimEditControllerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RimEditControllerTest.m; sourceTree = "<group>"; };
 		DF4665120FAEB1A200172895 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF53C7230FC1B652000E9814 /* NSString+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extensions.h"; sourceTree = "<group>"; };
+		DF53C7240FC1B652000E9814 /* NSString+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extensions.m"; sourceTree = "<group>"; };
+		DF53C7270FC1B661000E9814 /* NSStringExtensionsTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSStringExtensionsTest.m; sourceTree = "<group>"; };
 		DF58D9210FAF693900C2F546 /* app_icon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app_icon2.png; sourceTree = "<group>"; };
 		DF7B11470FAEA80F007FF0CA /* Unit Tests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Unit Tests.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF7B11CD0FAEA94D007FF0CA /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
@@ -382,6 +390,8 @@
 		DF7B11D10FAEA9A3007FF0CA /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				DF53C7230FC1B652000E9814 /* NSString+Extensions.h */,
+				DF53C7240FC1B652000E9814 /* NSString+Extensions.m */,
 				DF7B11F80FAEA9A3007FF0CA /* AppDelegate.h */,
 				DF7B11F90FAEA9A3007FF0CA /* AppDelegate.m */,
 				DF7B11D20FAEA9A3007FF0CA /* BrandListController.h */,
@@ -499,7 +509,9 @@
 				DF29BF280FB6290C000EB5B8 /* HubDetailControllerTest.m */,
 				DF29BF290FB6290C000EB5B8 /* HubTest.m */,
 				DF29BF2A0FB6290C000EB5B8 /* MyWheelsControllerTest.m */,
+				DF53C7270FC1B661000E9814 /* NSStringExtensionsTest.m */,
 				DF29BF2B0FB6290C000EB5B8 /* RimDetailControllerTest.m */,
+				DF29C0640FB76725000EB5B8 /* RimEditControllerTest.m */,
 				DF29BF2D0FB6290C000EB5B8 /* RimTest.m */,
 				DF29BF2E0FB6290C000EB5B8 /* TableCellFactoryTest.m */,
 				DF29BF2F0FB6290C000EB5B8 /* WheelDetailControllerTest.m */,
@@ -750,6 +762,7 @@
 				DF29BBE30FB47960000EB5B8 /* Part.m in Sources */,
 				DF29BC650FB488EB000EB5B8 /* CheckmarkPickerController.m in Sources */,
 				DF29BEFC0FB6255A000EB5B8 /* RimEditController.m in Sources */,
+				DF53C7260FC1B652000E9814 /* NSString+Extensions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -804,6 +817,9 @@
 				DF29BF3A0FB6290C000EB5B8 /* TableCellFactoryTest.m in Sources */,
 				DF29BF3B0FB6290C000EB5B8 /* WheelDetailControllerTest.m in Sources */,
 				DF29BF3C0FB6290C000EB5B8 /* WheelTest.m in Sources */,
+				DF29C0650FB76725000EB5B8 /* RimEditControllerTest.m in Sources */,
+				DF53C7250FC1B652000E9814 /* NSString+Extensions.m in Sources */,
+				DF53C7280FC1B661000E9814 /* NSStringExtensionsTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

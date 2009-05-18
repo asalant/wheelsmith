@@ -3,3 +3,4 @@ x Limit wheel and hub selection to hole count of the other
 Add hub
 Add wheel
 x Edit a wheel?
+Change back button text for edit/add to Cancel

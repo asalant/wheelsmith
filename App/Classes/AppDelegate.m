@@ -28,13 +28,18 @@
     rimDetailController.title = @"Rim Detail";
     rimDetailController.editController = rimEditController;
     
+    RimEditController *rimAddController = [[[RimEditController alloc] initWithNibName:@"RimEditView" bundle:nil] autorelease];
+    rimAddController.title = @"Add Rim";
+    
     RimListController *rimListController = [[[RimListController alloc] initWithStyle:UITableViewStylePlain] autorelease];
     rimListController.rimDetailController = rimDetailController;
+    rimListController.editController = rimAddController;
     
     RimBrandsController *rimBrandsController = [[[RimBrandsController alloc] initWithStyle:UITableViewStylePlain] autorelease];
     rimBrandsController.title = @"Rim Brands";
     rimBrandsController.brands = [Rim selectBrandNames];
     rimBrandsController.rimsController = rimListController;
+    rimBrandsController.editController = rimAddController;
     
     HubDetailController *hubDetailController = [[[HubDetailController alloc] initWithNibName:@"HubDetailView" bundle:nil] autorelease];
     hubDetailController.title = @"Hub Detail";

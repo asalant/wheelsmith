@@ -6,9 +6,11 @@
 
     NSArray *rims;
     RimDetailController *rimDetailController;
+    RimEditController *editController;
 }
 
 @property(nonatomic, retain) NSArray *rims;
+@property(nonatomic, retain) RimEditController *editController;
 @property(nonatomic, retain) RimDetailController *rimDetailController;
 
 @end

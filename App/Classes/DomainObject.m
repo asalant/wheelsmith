@@ -115,6 +115,15 @@ static Database *database;
     [database execute:update delegate:nil rowHandler:nil];
 }
 
+-(void)save {
+    if (self.pk) {
+        [self update];
+    }
+    else {
+        [self create];
+    }
+}
+
 -(void)delete {
     NSString *delete = [NSString stringWithFormat:@"DELETE FROM %@ WHERE id = %d",
                         [[self class] tableName],
@@ -133,7 +142,7 @@ static Database *database;
             [values addObject:@"NULL"];
         }
         else if ([type isEqual:@"string"]) {
-            
+            [values addObject:[NSString stringWithFormat:@"'%@'", value]];
         }
         else if ([type isEqual:@"integer"]) {
             [values addObject:[NSString stringWithFormat:@"%d", [value intValue]]];
