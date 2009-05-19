@@ -154,7 +154,7 @@ static Database *database;
             [values addObject:[NSString stringWithFormat:@"%.6f", [value timeIntervalSince1970]]];
         }
         else if ([type isEqual:@"boolean"]) {
-            [values addObject:[NSString stringWithFormat:@"%@", [value boolValue]]];
+            [values addObject:[value boolValue] ? @"'t'" : @"'f'"];
         }
     }
     return values;

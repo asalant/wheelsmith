@@ -4,8 +4,9 @@
 
 @synthesize brands, holeCount;
 
- - (void)viewDidLoad {
-     [super viewDidLoad];
+- (void)viewWillAppear:(BOOL)animated {
+     [super viewWillAppear:animated];
+    [self.tableView reloadData];
 }
 
 #pragma mark Table view methods

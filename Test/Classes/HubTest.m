@@ -46,4 +46,15 @@
     assertThat([NSNumber numberWithInt:[companies count]], equalTo([NSNumber numberWithInt:2]));
 }
 
+-(void)testCreatesHub {
+    Hub *hub = [[[Hub alloc] init] autorelease];
+    hub.brand = @"Brand";
+    hub.rear = [NSNumber numberWithBool:YES];
+    [hub create];
+    assertThat(hub.pk, notNilValue());
+    
+    Hub *created = [Hub find:hub.pk];
+    assertThat(created.rear, is(hub.rear));
+}
+
 @end
