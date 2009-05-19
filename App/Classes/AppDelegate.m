@@ -36,7 +36,6 @@
     rimBrandsController.brands = [Rim selectBrandNames];
     rimBrandsController.rimsController = rimListController;
     rimBrandsController.editController = rimAddController;
-    rimAddController.delegate = rimBrandsController;
     
     HubDetailController *hubDetailController = [[[HubDetailController alloc] initWithNibName:@"HubDetailView" bundle:nil] autorelease];
     hubDetailController.title = @"Hub Detail";

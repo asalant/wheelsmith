@@ -16,13 +16,6 @@
     [self.tableView reloadData];
 }
 
-#pragma mark PartEditDelegate methods
-
--(void)partSaved:(Part *)part created:(BOOL)created {
-    self.brands = [[part class] selectBrandNamesForHoleCount:self.holeCount];
-    [self.tableView reloadData];
-}
-
 #pragma mark Table view methods
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {

@@ -232,6 +232,26 @@
 			DF2B2E1E0FC30D1E00ED6EC5 /* PBXTextBookmark */ = DF2B2E1E0FC30D1E00ED6EC5 /* PBXTextBookmark */;
 			DF2B2E1F0FC30D1E00ED6EC5 /* PBXTextBookmark */ = DF2B2E1F0FC30D1E00ED6EC5 /* PBXTextBookmark */;
 			DF2B2E200FC30D1E00ED6EC5 /* PBXTextBookmark */ = DF2B2E200FC30D1E00ED6EC5 /* PBXTextBookmark */;
+			DF2B2E250FC30DCD00ED6EC5 /* PBXTextBookmark */ = DF2B2E250FC30DCD00ED6EC5 /* PBXTextBookmark */;
+			DF2B2E260FC30DCD00ED6EC5 /* PBXTextBookmark */ = DF2B2E260FC30DCD00ED6EC5 /* PBXTextBookmark */;
+			DF2B2E270FC30DCD00ED6EC5 /* PBXTextBookmark */ = DF2B2E270FC30DCD00ED6EC5 /* PBXTextBookmark */;
+			DF2B2E280FC30DCD00ED6EC5 /* PBXTextBookmark */ = DF2B2E280FC30DCD00ED6EC5 /* PBXTextBookmark */;
+			DF2B2E290FC30DCD00ED6EC5 /* PBXTextBookmark */ = DF2B2E290FC30DCD00ED6EC5 /* PBXTextBookmark */;
+			DF2B2E2A0FC30DCD00ED6EC5 /* PBXTextBookmark */ = DF2B2E2A0FC30DCD00ED6EC5 /* PBXTextBookmark */;
+			DF2B2E2B0FC30DCD00ED6EC5 /* PBXTextBookmark */ = DF2B2E2B0FC30DCD00ED6EC5 /* PBXTextBookmark */;
+			DF2B2E2C0FC30DCD00ED6EC5 /* PBXTextBookmark */ = DF2B2E2C0FC30DCD00ED6EC5 /* PBXTextBookmark */;
+			DF2B2E2D0FC30DCD00ED6EC5 /* PBXTextBookmark */ = DF2B2E2D0FC30DCD00ED6EC5 /* PBXTextBookmark */;
+			DF2B2E2E0FC30DCD00ED6EC5 /* PBXTextBookmark */ = DF2B2E2E0FC30DCD00ED6EC5 /* PBXTextBookmark */;
+			DF2B2E2F0FC30DCD00ED6EC5 /* PBXTextBookmark */ = DF2B2E2F0FC30DCD00ED6EC5 /* PBXTextBookmark */;
+			DF2B2E300FC30DCD00ED6EC5 /* PBXTextBookmark */ = DF2B2E300FC30DCD00ED6EC5 /* PBXTextBookmark */;
+			DF2B2E310FC30DCD00ED6EC5 /* PBXTextBookmark */ = DF2B2E310FC30DCD00ED6EC5 /* PBXTextBookmark */;
+			DF2B2E320FC30DCD00ED6EC5 /* PBXTextBookmark */ = DF2B2E320FC30DCD00ED6EC5 /* PBXTextBookmark */;
+			DF2B2E330FC30DCD00ED6EC5 /* PBXTextBookmark */ = DF2B2E330FC30DCD00ED6EC5 /* PBXTextBookmark */;
+			DF2B2E340FC30DCD00ED6EC5 /* PBXTextBookmark */ = DF2B2E340FC30DCD00ED6EC5 /* PBXTextBookmark */;
+			DF2B2E350FC30DCD00ED6EC5 /* PBXTextBookmark */ = DF2B2E350FC30DCD00ED6EC5 /* PBXTextBookmark */;
+			DF2B2E360FC30DCD00ED6EC5 /* PBXTextBookmark */ = DF2B2E360FC30DCD00ED6EC5 /* PBXTextBookmark */;
+			DF2B2E370FC30DCD00ED6EC5 /* PBXTextBookmark */ = DF2B2E370FC30DCD00ED6EC5 /* PBXTextBookmark */;
+			DF2B2E380FC30DCD00ED6EC5 /* PBXTextBookmark */ = DF2B2E380FC30DCD00ED6EC5 /* PBXTextBookmark */;
 			DF4664E20FAEB02400172895 = DF4664E20FAEB02400172895 /* PBXBookmark */;
 			DF4664E50FAEB02400172895 = DF4664E50FAEB02400172895 /* PBXBookmark */;
 			DF46650C0FAEB0F500172895 = DF46650C0FAEB0F500172895 /* PBXTextBookmark */;
@@ -1512,17 +1532,17 @@
 	};
 	DF29BEFA0FB6255A000EB5B8 /* RimEditController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {927, 528}}";
-			sepNavSelRange = "{506, 43}";
-			sepNavVisRange = "{0, 1098}";
+			sepNavIntBoundsRect = "{{0, 0}, {927, 480}}";
+			sepNavSelRange = "{883, 0}";
+			sepNavVisRange = "{486, 493}";
 			sepNavWindowFrame = "{{1240, 55}, {1277, 723}}";
 		};
 	};
 	DF29BEFB0FB6255A000EB5B8 /* RimEditController.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1218, 1152}}";
-			sepNavSelRange = "{2484, 0}";
-			sepNavVisRange = "{1281, 1204}";
+			sepNavSelRange = "{2474, 0}";
+			sepNavVisRange = "{1210, 1214}";
 		};
 	};
 	DF29BF110FB627F7000EB5B8 /* PBXTextBookmark */ = {
@@ -1530,7 +1550,7 @@
 		fRef = DF29BEFA0FB6255A000EB5B8 /* RimEditController.h */;
 		name = "RimEditController.h: 2";
 		rLen = 0;
-		rLoc = 49;
+		rLoc = 39;
 		rType = 0;
 		vrLen = 764;
 		vrLoc = 0;
@@ -1696,7 +1716,7 @@
 		fRef = DF29BEFA0FB6255A000EB5B8 /* RimEditController.h */;
 		name = "RimEditController.h: 27";
 		rLen = 0;
-		rLoc = 1103;
+		rLoc = 979;
 		rType = 0;
 		vrLen = 836;
 		vrLoc = 0;
@@ -1776,7 +1796,7 @@
 		fRef = DF7B11D30FAEA9A3007FF0CA /* BrandListController.m */;
 		name = "BrandListController.m: 13";
 		rLen = 0;
-		rLoc = 830;
+		rLoc = 623;
 		rType = 0;
 		vrLen = 1141;
 		vrLoc = 0;
@@ -1816,7 +1836,7 @@
 		fRef = DF7B11EF0FAEA9A3007FF0CA /* RimBrandsController.m */;
 		name = "RimBrandsController.m: 32";
 		rLen = 0;
-		rLoc = 940;
+		rLoc = 904;
 		rType = 0;
 		vrLen = 960;
 		vrLoc = 62;
@@ -1943,7 +1963,7 @@
 		fRef = DF7B11D20FAEA9A3007FF0CA /* BrandListController.h */;
 		name = "BrandListController.h: 2";
 		rLen = 0;
-		rLoc = 52;
+		rLoc = 23;
 		rType = 0;
 		vrLen = 281;
 		vrLoc = 0;
@@ -1973,7 +1993,7 @@
 		fRef = DF29BEFA0FB6255A000EB5B8 /* RimEditController.h */;
 		name = "RimEditController.h: 16";
 		rLen = 43;
-		rLoc = 506;
+		rLoc = 442;
 		rType = 0;
 		vrLen = 1098;
 		vrLoc = 0;
@@ -1983,7 +2003,7 @@
 		fRef = DF29BEFB0FB6255A000EB5B8 /* RimEditController.m */;
 		name = "RimEditController.m: 7";
 		rLen = 16;
-		rLoc = 148;
+		rLoc = 138;
 		rType = 0;
 		vrLen = 1282;
 		vrLoc = 0;
@@ -1993,7 +2013,7 @@
 		fRef = DF7B11D20FAEA9A3007FF0CA /* BrandListController.h */;
 		name = "BrandListController.h: 2";
 		rLen = 0;
-		rLoc = 52;
+		rLoc = 23;
 		rType = 0;
 		vrLen = 281;
 		vrLoc = 0;
@@ -2003,7 +2023,7 @@
 		fRef = DF29BEFA0FB6255A000EB5B8 /* RimEditController.h */;
 		name = "RimEditController.h: 28";
 		rLen = 0;
-		rLoc = 1075;
+		rLoc = 951;
 		rType = 0;
 		vrLen = 1102;
 		vrLoc = 0;
@@ -2013,7 +2033,7 @@
 		fRef = DF29BEFB0FB6255A000EB5B8 /* RimEditController.m */;
 		name = "RimEditController.m: 7";
 		rLen = 16;
-		rLoc = 148;
+		rLoc = 138;
 		rType = 0;
 		vrLen = 1282;
 		vrLoc = 0;
@@ -2023,7 +2043,7 @@
 		fRef = DF29BEFA0FB6255A000EB5B8 /* RimEditController.h */;
 		name = "RimEditController.h: 16";
 		rLen = 43;
-		rLoc = 506;
+		rLoc = 442;
 		rType = 0;
 		vrLen = 1098;
 		vrLoc = 0;
@@ -2033,7 +2053,7 @@
 		fRef = DF29BEFB0FB6255A000EB5B8 /* RimEditController.m */;
 		name = "RimEditController.m: 56";
 		rLen = 0;
-		rLoc = 2309;
+		rLoc = 2299;
 		rType = 0;
 		vrLen = 843;
 		vrLoc = 1684;
@@ -2043,7 +2063,7 @@
 		fRef = DF29BEFB0FB6255A000EB5B8 /* RimEditController.m */;
 		name = "RimEditController.m: 56";
 		rLen = 0;
-		rLoc = 2309;
+		rLoc = 2299;
 		rType = 0;
 		vrLen = 911;
 		vrLoc = 1608;
@@ -2053,7 +2073,7 @@
 		fRef = DF29BEFB0FB6255A000EB5B8 /* RimEditController.m */;
 		name = "RimEditController.m: 67";
 		rLen = 0;
-		rLoc = 2484;
+		rLoc = 2474;
 		rType = 0;
 		vrLen = 1189;
 		vrLoc = 1281;
@@ -2063,7 +2083,7 @@
 		fRef = DF7B11EF0FAEA9A3007FF0CA /* RimBrandsController.m */;
 		name = "RimBrandsController.m: 35";
 		rLen = 5;
-		rLoc = 1016;
+		rLoc = 980;
 		rType = 0;
 		vrLen = 1022;
 		vrLoc = 0;
@@ -2073,7 +2093,7 @@
 		fRef = DF29BEFB0FB6255A000EB5B8 /* RimEditController.m */;
 		name = "RimEditController.m: 56";
 		rLen = 0;
-		rLoc = 2309;
+		rLoc = 2299;
 		rType = 0;
 		vrLen = 481;
 		vrLoc = 1938;
@@ -2095,7 +2115,7 @@
 		fRef = DF29BEFB0FB6255A000EB5B8 /* RimEditController.m */;
 		name = "RimEditController.m: 56";
 		rLen = 0;
-		rLoc = 2309;
+		rLoc = 2299;
 		rType = 0;
 		vrLen = 481;
 		vrLoc = 1938;
@@ -2130,7 +2150,7 @@
 		fRef = DF29BEFB0FB6255A000EB5B8 /* RimEditController.m */;
 		name = "RimEditController.m: 56";
 		rLen = 0;
-		rLoc = 2309;
+		rLoc = 2299;
 		rType = 0;
 		vrLen = 811;
 		vrLoc = 1716;
@@ -2150,7 +2170,7 @@
 		fRef = DF29BEFB0FB6255A000EB5B8 /* RimEditController.m */;
 		name = "RimEditController.m: 62";
 		rLen = 0;
-		rLoc = 2382;
+		rLoc = 2372;
 		rType = 0;
 		vrLen = 858;
 		vrLoc = 1684;
@@ -2160,7 +2180,7 @@
 		fRef = DF29BEFB0FB6255A000EB5B8 /* RimEditController.m */;
 		name = "RimEditController.m: 62";
 		rLen = 0;
-		rLoc = 2382;
+		rLoc = 2372;
 		rType = 0;
 		vrLen = 858;
 		vrLoc = 1684;
@@ -2170,7 +2190,7 @@
 		fRef = DF29BEFB0FB6255A000EB5B8 /* RimEditController.m */;
 		name = "RimEditController.m: 67";
 		rLen = 0;
-		rLoc = 2484;
+		rLoc = 2474;
 		rType = 0;
 		vrLen = 1204;
 		vrLoc = 1281;
@@ -2180,7 +2200,7 @@
 		fRef = DF7B11EF0FAEA9A3007FF0CA /* RimBrandsController.m */;
 		name = "RimBrandsController.m: 35";
 		rLen = 5;
-		rLoc = 1016;
+		rLoc = 980;
 		rType = 0;
 		vrLen = 1022;
 		vrLoc = 0;
@@ -2190,7 +2210,7 @@
 		fRef = DF29BEFB0FB6255A000EB5B8 /* RimEditController.m */;
 		name = "RimEditController.m: 62";
 		rLen = 0;
-		rLoc = 2382;
+		rLoc = 2372;
 		rType = 0;
 		vrLen = 164;
 		vrLoc = 2270;
@@ -2200,7 +2220,7 @@
 		fRef = DF29BEFB0FB6255A000EB5B8 /* RimEditController.m */;
 		name = "RimEditController.m: 62";
 		rLen = 0;
-		rLoc = 2382;
+		rLoc = 2372;
 		rType = 0;
 		vrLen = 828;
 		vrLoc = 1714;
@@ -2210,7 +2230,7 @@
 		fRef = DF29BEFB0FB6255A000EB5B8 /* RimEditController.m */;
 		name = "RimEditController.m: 67";
 		rLen = 0;
-		rLoc = 2484;
+		rLoc = 2474;
 		rType = 0;
 		vrLen = 1204;
 		vrLoc = 1281;
@@ -2220,9 +2240,207 @@
 		fRef = DF7B11EF0FAEA9A3007FF0CA /* RimBrandsController.m */;
 		name = "RimBrandsController.m: 35";
 		rLen = 5;
-		rLoc = 1016;
+		rLoc = 980;
 		rType = 0;
 		vrLen = 1022;
+		vrLoc = 0;
+	};
+	DF2B2E250FC30DCD00ED6EC5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B11D30FAEA9A3007FF0CA /* BrandListController.m */;
+		name = "BrandListController.m: 17";
+		rLen = 0;
+		rLoc = 623;
+		rType = 0;
+		vrLen = 374;
+		vrLoc = 512;
+	};
+	DF2B2E260FC30DCD00ED6EC5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B11D20FAEA9A3007FF0CA /* BrandListController.h */;
+		name = "BrandListController.h: 1";
+		rLen = 0;
+		rLoc = 23;
+		rType = 0;
+		vrLen = 233;
+		vrLoc = 0;
+	};
+	DF2B2E270FC30DCD00ED6EC5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF29BEFA0FB6255A000EB5B8 /* RimEditController.h */;
+		name = "RimEditController.h: 24";
+		rLen = 0;
+		rLoc = 883;
+		rType = 0;
+		vrLen = 493;
+		vrLoc = 486;
+	};
+	DF2B2E280FC30DCD00ED6EC5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF29BEFB0FB6255A000EB5B8 /* RimEditController.m */;
+		name = "RimEditController.m: 75";
+		rLen = 0;
+		rLoc = 2532;
+		rType = 0;
+		vrLen = 182;
+		vrLoc = 2350;
+	};
+	DF2B2E290FC30DCD00ED6EC5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B11EF0FAEA9A3007FF0CA /* RimBrandsController.m */;
+		name = "RimBrandsController.m: 10";
+		rLen = 0;
+		rLoc = 243;
+		rType = 0;
+		vrLen = 505;
+		vrLoc = 78;
+	};
+	DF2B2E2A0FC30DCD00ED6EC5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "error: request for member 'delegate' in something not a structure or union";
+		fRef = DF7B11F90FAEA9A3007FF0CA /* AppDelegate.m */;
+		rLen = 0;
+		rLoc = 37;
+		rType = 1;
+	};
+	DF2B2E2B0FC30DCD00ED6EC5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF29BEFB0FB6255A000EB5B8 /* RimEditController.m */;
+		name = "RimEditController.m: 62";
+		rLen = 0;
+		rLoc = 2372;
+		rType = 0;
+		vrLen = 1245;
+		vrLoc = 166;
+	};
+	DF2B2E2C0FC30DCD00ED6EC5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B11D30FAEA9A3007FF0CA /* BrandListController.m */;
+		name = "BrandListController.m: 21";
+		rLen = 0;
+		rLoc = 623;
+		rType = 0;
+		vrLen = 949;
+		vrLoc = 0;
+	};
+	DF2B2E2D0FC30DCD00ED6EC5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B11D20FAEA9A3007FF0CA /* BrandListController.h */;
+		name = "BrandListController.h: 4";
+		rLen = 0;
+		rLoc = 79;
+		rType = 0;
+		vrLen = 262;
+		vrLoc = 0;
+	};
+	DF2B2E2E0FC30DCD00ED6EC5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF29BEFA0FB6255A000EB5B8 /* RimEditController.h */;
+		name = "RimEditController.h: 15";
+		rLen = 0;
+		rLoc = 442;
+		rType = 0;
+		vrLen = 443;
+		vrLoc = 0;
+	};
+	DF2B2E2F0FC30DCD00ED6EC5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B11D30FAEA9A3007FF0CA /* BrandListController.m */;
+		name = "BrandListController.m: 17";
+		rLen = 0;
+		rLoc = 623;
+		rType = 0;
+		vrLen = 374;
+		vrLoc = 512;
+	};
+	DF2B2E300FC30DCD00ED6EC5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B11D20FAEA9A3007FF0CA /* BrandListController.h */;
+		name = "BrandListController.h: 1";
+		rLen = 0;
+		rLoc = 23;
+		rType = 0;
+		vrLen = 233;
+		vrLoc = 0;
+	};
+	DF2B2E310FC30DCD00ED6EC5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF29BEFA0FB6255A000EB5B8 /* RimEditController.h */;
+		name = "RimEditController.h: 24";
+		rLen = 0;
+		rLoc = 883;
+		rType = 0;
+		vrLen = 491;
+		vrLoc = 488;
+	};
+	DF2B2E320FC30DCD00ED6EC5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF29BEFB0FB6255A000EB5B8 /* RimEditController.m */;
+		name = "RimEditController.m: 7";
+		rLen = 0;
+		rLoc = 136;
+		rType = 0;
+		vrLen = 554;
+		vrLoc = 0;
+	};
+	DF2B2E330FC30DCD00ED6EC5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF29BEFA0FB6255A000EB5B8 /* RimEditController.h */;
+		name = "RimEditController.h: 24";
+		rLen = 0;
+		rLoc = 883;
+		rType = 0;
+		vrLen = 493;
+		vrLoc = 486;
+	};
+	DF2B2E340FC30DCD00ED6EC5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF29BEFB0FB6255A000EB5B8 /* RimEditController.m */;
+		name = "RimEditController.m: 75";
+		rLen = 0;
+		rLoc = 2532;
+		rType = 0;
+		vrLen = 182;
+		vrLoc = 2350;
+	};
+	DF2B2E350FC30DCD00ED6EC5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B11EF0FAEA9A3007FF0CA /* RimBrandsController.m */;
+		name = "RimBrandsController.m: 10";
+		rLen = 0;
+		rLoc = 243;
+		rType = 0;
+		vrLen = 505;
+		vrLoc = 78;
+	};
+	DF2B2E360FC30DCD00ED6EC5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B11F90FAEA9A3007FF0CA /* AppDelegate.m */;
+		name = "AppDelegate.m: 38";
+		rLen = 0;
+		rLoc = 1576;
+		rType = 0;
+		vrLen = 969;
+		vrLoc = 1164;
+	};
+	DF2B2E370FC30DCD00ED6EC5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF29BEFB0FB6255A000EB5B8 /* RimEditController.m */;
+		name = "RimEditController.m: 67";
+		rLen = 0;
+		rLoc = 2474;
+		rType = 0;
+		vrLen = 1214;
+		vrLoc = 1210;
+	};
+	DF2B2E380FC30DCD00ED6EC5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B11EF0FAEA9A3007FF0CA /* RimBrandsController.m */;
+		name = "RimBrandsController.m: 34";
+		rLen = 5;
+		rLoc = 980;
+		rType = 0;
+		vrLen = 986;
 		vrLoc = 0;
 	};
 	DF4664E20FAEB02400172895 /* PBXBookmark */ = {
@@ -2336,7 +2554,7 @@
 		fRef = DF29BEFB0FB6255A000EB5B8 /* RimEditController.m */;
 		name = "RimEditController.m: 54";
 		rLen = 0;
-		rLoc = 2206;
+		rLoc = 2196;
 		rType = 0;
 		vrLen = 867;
 		vrLoc = 1494;
@@ -2376,7 +2594,7 @@
 		fRef = DF29BEFB0FB6255A000EB5B8 /* RimEditController.m */;
 		name = "RimEditController.m: 50";
 		rLen = 1;
-		rLoc = 1839;
+		rLoc = 1829;
 		rType = 0;
 		vrLen = 870;
 		vrLoc = 1548;
@@ -2416,7 +2634,7 @@
 		fRef = DF29BEFB0FB6255A000EB5B8 /* RimEditController.m */;
 		name = "RimEditController.m: 54";
 		rLen = 0;
-		rLoc = 2206;
+		rLoc = 2196;
 		rType = 0;
 		vrLen = 867;
 		vrLoc = 1494;
@@ -2446,7 +2664,7 @@
 		fRef = DF7B11D30FAEA9A3007FF0CA /* BrandListController.m */;
 		name = "BrandListController.m: 9";
 		rLen = 0;
-		rLoc = 830;
+		rLoc = 623;
 		rType = 0;
 		vrLen = 502;
 		vrLoc = 0;
@@ -2456,7 +2674,7 @@
 		fRef = DF7B11D30FAEA9A3007FF0CA /* BrandListController.m */;
 		name = "BrandListController.m: 9";
 		rLen = 0;
-		rLoc = 830;
+		rLoc = 623;
 		rType = 0;
 		vrLen = 502;
 		vrLoc = 0;
@@ -2552,8 +2770,14 @@
 		vrLoc = 1114;
 	};
 	DF5DDC410FC22FBB00407EE0 /* PartEditDelegate.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = PartEditDelegate.h;
+		path = /Users/alon/Projects/wheelsmith/App/Classes/PartEditDelegate.h;
+		sourceTree = "<absolute>";
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {927, 347}}";
+			sepNavIntBoundsRect = "{{0, 0}, {927, 473}}";
 			sepNavSelRange = "{17, 0}";
 			sepNavVisRange = "{0, 103}";
 			sepNavWindowFrame = "{{1240, 55}, {1277, 723}}";
@@ -2634,7 +2858,7 @@
 		fRef = DF7B11F90FAEA9A3007FF0CA /* AppDelegate.m */;
 		name = "AppDelegate.m: 43";
 		rLen = 0;
-		rLoc = 1628;
+		rLoc = 1576;
 		rType = 0;
 		vrLen = 2316;
 		vrLoc = 446;
@@ -2644,7 +2868,7 @@
 		fRef = DF29BEFA0FB6255A000EB5B8 /* RimEditController.h */;
 		name = "RimEditController.h: 25";
 		rLen = 0;
-		rLoc = 1075;
+		rLoc = 951;
 		rType = 0;
 		vrLen = 957;
 		vrLoc = 0;
@@ -2664,7 +2888,7 @@
 		fRef = DF29BEFB0FB6255A000EB5B8 /* RimEditController.m */;
 		name = "RimEditController.m: 63";
 		rLen = 0;
-		rLoc = 2365;
+		rLoc = 2355;
 		rType = 0;
 		vrLen = 1291;
 		vrLoc = 1264;
@@ -2684,7 +2908,7 @@
 		fRef = DF7B11D30FAEA9A3007FF0CA /* BrandListController.m */;
 		name = "BrandListController.m: 5";
 		rLen = 0;
-		rLoc = 830;
+		rLoc = 623;
 		rType = 0;
 		vrLen = 1036;
 		vrLoc = 0;
@@ -2694,7 +2918,7 @@
 		fRef = DF7B11EF0FAEA9A3007FF0CA /* RimBrandsController.m */;
 		name = "RimBrandsController.m: 17";
 		rLen = 0;
-		rLoc = 419;
+		rLoc = 383;
 		rType = 0;
 		vrLen = 990;
 		vrLoc = 32;
@@ -2764,7 +2988,7 @@
 		fRef = DF29BEFA0FB6255A000EB5B8 /* RimEditController.h */;
 		name = "RimEditController.h: 25";
 		rLen = 0;
-		rLoc = 1075;
+		rLoc = 951;
 		rType = 0;
 		vrLen = 957;
 		vrLoc = 0;
@@ -2774,7 +2998,7 @@
 		fRef = DF29BEFB0FB6255A000EB5B8 /* RimEditController.m */;
 		name = "RimEditController.m: 63";
 		rLen = 0;
-		rLoc = 2365;
+		rLoc = 2355;
 		rType = 0;
 		vrLen = 1291;
 		vrLoc = 1264;
@@ -2784,7 +3008,7 @@
 		fRef = DF7B11D30FAEA9A3007FF0CA /* BrandListController.m */;
 		name = "BrandListController.m: 5";
 		rLen = 0;
-		rLoc = 830;
+		rLoc = 623;
 		rType = 0;
 		vrLen = 1036;
 		vrLoc = 0;
@@ -2794,7 +3018,7 @@
 		fRef = DF7B11EF0FAEA9A3007FF0CA /* RimBrandsController.m */;
 		name = "RimBrandsController.m: 21";
 		rLen = 0;
-		rLoc = 419;
+		rLoc = 383;
 		rType = 0;
 		vrLen = 990;
 		vrLoc = 32;
@@ -2804,7 +3028,7 @@
 		fRef = DF7B11EF0FAEA9A3007FF0CA /* RimBrandsController.m */;
 		name = "RimBrandsController.m: 21";
 		rLen = 0;
-		rLoc = 419;
+		rLoc = 383;
 		rType = 0;
 		vrLen = 990;
 		vrLoc = 32;
@@ -2814,7 +3038,7 @@
 		fRef = DF7B11EF0FAEA9A3007FF0CA /* RimBrandsController.m */;
 		name = "RimBrandsController.m: 21";
 		rLen = 0;
-		rLoc = 419;
+		rLoc = 383;
 		rType = 0;
 		vrLen = 336;
 		vrLoc = 576;
@@ -2844,7 +3068,7 @@
 		fRef = DF7B11EF0FAEA9A3007FF0CA /* RimBrandsController.m */;
 		name = "RimBrandsController.m: 29";
 		rLen = 0;
-		rLoc = 749;
+		rLoc = 713;
 		rType = 0;
 		vrLen = 446;
 		vrLoc = 576;
@@ -2874,7 +3098,7 @@
 		fRef = DF7B11EF0FAEA9A3007FF0CA /* RimBrandsController.m */;
 		name = "RimBrandsController.m: 29";
 		rLen = 0;
-		rLoc = 749;
+		rLoc = 713;
 		rType = 0;
 		vrLen = 446;
 		vrLoc = 576;
@@ -2894,7 +3118,7 @@
 		fRef = DF7B11EF0FAEA9A3007FF0CA /* RimBrandsController.m */;
 		name = "RimBrandsController.m: 29";
 		rLen = 0;
-		rLoc = 749;
+		rLoc = 713;
 		rType = 0;
 		vrLen = 446;
 		vrLoc = 576;
@@ -2934,7 +3158,7 @@
 		fRef = DF7B11EF0FAEA9A3007FF0CA /* RimBrandsController.m */;
 		name = "RimBrandsController.m: 21";
 		rLen = 0;
-		rLoc = 419;
+		rLoc = 383;
 		rType = 0;
 		vrLen = 394;
 		vrLoc = 578;
@@ -2954,7 +3178,7 @@
 		fRef = DF29BEFB0FB6255A000EB5B8 /* RimEditController.m */;
 		name = "RimEditController.m: 32";
 		rLen = 39;
-		rLoc = 1282;
+		rLoc = 1272;
 		rType = 0;
 		vrLen = 1392;
 		vrLoc = 0;
@@ -2991,7 +3215,7 @@
 		fRef = DF29BEFB0FB6255A000EB5B8 /* RimEditController.m */;
 		name = "RimEditController.m: 32";
 		rLen = 39;
-		rLoc = 1282;
+		rLoc = 1272;
 		rType = 0;
 		vrLen = 1392;
 		vrLoc = 0;
@@ -3098,7 +3322,7 @@
 		fRef = DF7B11EF0FAEA9A3007FF0CA /* RimBrandsController.m */;
 		name = "RimBrandsController.m: 29";
 		rLen = 0;
-		rLoc = 749;
+		rLoc = 713;
 		rType = 0;
 		vrLen = 446;
 		vrLoc = 576;
@@ -3118,7 +3342,7 @@
 		fRef = DF7B11EF0FAEA9A3007FF0CA /* RimBrandsController.m */;
 		name = "RimBrandsController.m: 47";
 		rLen = 0;
-		rLoc = 890;
+		rLoc = 854;
 		rType = 0;
 		vrLen = 249;
 		vrLoc = 773;
@@ -3128,7 +3352,7 @@
 		fRef = DF7B11EF0FAEA9A3007FF0CA /* RimBrandsController.m */;
 		name = "RimBrandsController.m: 47";
 		rLen = 0;
-		rLoc = 890;
+		rLoc = 854;
 		rType = 0;
 		vrLen = 249;
 		vrLoc = 773;
@@ -3138,7 +3362,7 @@
 		fRef = DF7B11EF0FAEA9A3007FF0CA /* RimBrandsController.m */;
 		name = "RimBrandsController.m: 47";
 		rLen = 0;
-		rLoc = 890;
+		rLoc = 854;
 		rType = 0;
 		vrLen = 249;
 		vrLoc = 773;
@@ -3172,7 +3396,7 @@
 		fRef = DF7B11EF0FAEA9A3007FF0CA /* RimBrandsController.m */;
 		name = "RimBrandsController.m: 47";
 		rLen = 0;
-		rLoc = 890;
+		rLoc = 854;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 1022;
@@ -3182,7 +3406,7 @@
 		fRef = DF7B11EF0FAEA9A3007FF0CA /* RimBrandsController.m */;
 		name = "RimBrandsController.m: 47";
 		rLen = 0;
-		rLoc = 890;
+		rLoc = 854;
 		rType = 0;
 		vrLen = 442;
 		vrLoc = 580;
@@ -3212,7 +3436,7 @@
 		fRef = DF7B11EF0FAEA9A3007FF0CA /* RimBrandsController.m */;
 		name = "RimBrandsController.m: 47";
 		rLen = 0;
-		rLoc = 890;
+		rLoc = 854;
 		rType = 0;
 		vrLen = 442;
 		vrLoc = 580;
@@ -3262,7 +3486,7 @@
 		fRef = DF7B11EF0FAEA9A3007FF0CA /* RimBrandsController.m */;
 		name = "RimBrandsController.m: 47";
 		rLen = 0;
-		rLoc = 890;
+		rLoc = 854;
 		rType = 0;
 		vrLen = 0;
 		vrLoc = 1022;
@@ -3782,7 +4006,7 @@
 		fRef = DF7B11F90FAEA9A3007FF0CA /* AppDelegate.m */;
 		name = "AppDelegate.m: 64";
 		rLen = 0;
-		rLoc = 3095;
+		rLoc = 3042;
 		rType = 0;
 		vrLen = 2411;
 		vrLoc = 2186;
@@ -3802,7 +4026,7 @@
 		fRef = DF7B11F90FAEA9A3007FF0CA /* AppDelegate.m */;
 		name = "AppDelegate.m: 64";
 		rLen = 0;
-		rLoc = 3095;
+		rLoc = 3042;
 		rType = 0;
 		vrLen = 2411;
 		vrLoc = 2186;
@@ -3832,7 +4056,7 @@
 		fRef = DF7B11F90FAEA9A3007FF0CA /* AppDelegate.m */;
 		name = "AppDelegate.m: 64";
 		rLen = 0;
-		rLoc = 3095;
+		rLoc = 3042;
 		rType = 0;
 		vrLen = 2411;
 		vrLoc = 2186;
@@ -3852,7 +4076,7 @@
 		fRef = DF7B11F90FAEA9A3007FF0CA /* AppDelegate.m */;
 		name = "AppDelegate.m: 64";
 		rLen = 0;
-		rLoc = 3095;
+		rLoc = 3042;
 		rType = 0;
 		vrLen = 2411;
 		vrLoc = 2186;
@@ -4300,7 +4524,7 @@
 		fRef = DF7B11F90FAEA9A3007FF0CA /* AppDelegate.m */;
 		name = "AppDelegate.m: 64";
 		rLen = 0;
-		rLoc = 3095;
+		rLoc = 3042;
 		rType = 0;
 		vrLen = 2481;
 		vrLoc = 2121;
@@ -4350,7 +4574,7 @@
 		fRef = DF29BEFB0FB6255A000EB5B8 /* RimEditController.m */;
 		name = "RimEditController.m: 32";
 		rLen = 39;
-		rLoc = 1282;
+		rLoc = 1272;
 		rType = 0;
 		vrLen = 1393;
 		vrLoc = 0;
@@ -4370,7 +4594,7 @@
 		fRef = DF7B11EF0FAEA9A3007FF0CA /* RimBrandsController.m */;
 		name = "RimBrandsController.m: 29";
 		rLen = 0;
-		rLoc = 749;
+		rLoc = 713;
 		rType = 0;
 		vrLen = 684;
 		vrLoc = 338;
@@ -4380,7 +4604,7 @@
 		fRef = DF7B11D30FAEA9A3007FF0CA /* BrandListController.m */;
 		name = "BrandListController.m: 5";
 		rLen = 0;
-		rLoc = 830;
+		rLoc = 623;
 		rType = 0;
 		vrLen = 1036;
 		vrLoc = 0;
@@ -4410,7 +4634,7 @@
 		fRef = DF7B11F90FAEA9A3007FF0CA /* AppDelegate.m */;
 		name = "AppDelegate.m: 64";
 		rLen = 0;
-		rLoc = 3095;
+		rLoc = 3042;
 		rType = 0;
 		vrLen = 2481;
 		vrLoc = 2121;
@@ -4460,7 +4684,7 @@
 		fRef = DF29BEFB0FB6255A000EB5B8 /* RimEditController.m */;
 		name = "RimEditController.m: 32";
 		rLen = 39;
-		rLoc = 1282;
+		rLoc = 1272;
 		rType = 0;
 		vrLen = 1393;
 		vrLoc = 0;
@@ -4480,7 +4704,7 @@
 		fRef = DF7B11EF0FAEA9A3007FF0CA /* RimBrandsController.m */;
 		name = "RimBrandsController.m: 29";
 		rLen = 0;
-		rLoc = 749;
+		rLoc = 713;
 		rType = 0;
 		vrLen = 684;
 		vrLoc = 338;
@@ -4490,7 +4714,7 @@
 		fRef = DF7B11D30FAEA9A3007FF0CA /* BrandListController.m */;
 		name = "BrandListController.m: 5";
 		rLen = 0;
-		rLoc = 830;
+		rLoc = 623;
 		rType = 0;
 		vrLen = 1036;
 		vrLoc = 0;
@@ -4904,7 +5128,7 @@
 		fRef = DF7B11F90FAEA9A3007FF0CA /* AppDelegate.m */;
 		name = "AppDelegate.m: 55";
 		rLen = 21;
-		rLoc = 2312;
+		rLoc = 2259;
 		rType = 0;
 		vrLen = 2357;
 		vrLoc = 736;
@@ -5432,7 +5656,7 @@
 		fRef = DF7B11F90FAEA9A3007FF0CA /* AppDelegate.m */;
 		name = "AppDelegate.m: 55";
 		rLen = 21;
-		rLoc = 2312;
+		rLoc = 2259;
 		rType = 0;
 		vrLen = 2501;
 		vrLoc = 731;
@@ -5522,7 +5746,7 @@
 		fRef = DF7B11EF0FAEA9A3007FF0CA /* RimBrandsController.m */;
 		name = "RimBrandsController.m: 29";
 		rLen = 0;
-		rLoc = 749;
+		rLoc = 713;
 		rType = 0;
 		vrLen = 404;
 		vrLoc = 618;
@@ -5542,7 +5766,7 @@
 		fRef = DF7B11EF0FAEA9A3007FF0CA /* RimBrandsController.m */;
 		name = "RimBrandsController.m: 29";
 		rLen = 0;
-		rLoc = 749;
+		rLoc = 713;
 		rType = 0;
 		vrLen = 404;
 		vrLoc = 618;
@@ -5712,7 +5936,7 @@
 		fRef = DF7B11EF0FAEA9A3007FF0CA /* RimBrandsController.m */;
 		name = "RimBrandsController.m: 29";
 		rLen = 0;
-		rLoc = 749;
+		rLoc = 713;
 		rType = 0;
 		vrLen = 944;
 		vrLoc = 78;
@@ -5722,7 +5946,7 @@
 		fRef = DF7B11D30FAEA9A3007FF0CA /* BrandListController.m */;
 		name = "BrandListController.m: 5";
 		rLen = 0;
-		rLoc = 830;
+		rLoc = 623;
 		rType = 0;
 		vrLen = 1011;
 		vrLoc = 0;
@@ -5752,7 +5976,7 @@
 		fRef = DF7B11D30FAEA9A3007FF0CA /* BrandListController.m */;
 		name = "BrandListController.m: 5";
 		rLen = 0;
-		rLoc = 830;
+		rLoc = 623;
 		rType = 0;
 		vrLen = 1011;
 		vrLoc = 0;
@@ -5762,7 +5986,7 @@
 		fRef = DF7B11EF0FAEA9A3007FF0CA /* RimBrandsController.m */;
 		name = "RimBrandsController.m: 29";
 		rLen = 0;
-		rLoc = 749;
+		rLoc = 713;
 		rType = 0;
 		vrLen = 944;
 		vrLoc = 78;
@@ -6002,7 +6226,7 @@
 		fRef = DF29BEFB0FB6255A000EB5B8 /* RimEditController.m */;
 		name = "RimEditController.m: 32";
 		rLen = 39;
-		rLoc = 1282;
+		rLoc = 1272;
 		rType = 0;
 		vrLen = 1106;
 		vrLoc = 286;
@@ -6012,7 +6236,7 @@
 		fRef = DF29BEFA0FB6255A000EB5B8 /* RimEditController.h */;
 		name = "RimEditController.h: 25";
 		rLen = 0;
-		rLoc = 996;
+		rLoc = 883;
 		rType = 0;
 		vrLen = 754;
 		vrLoc = 0;
@@ -6031,8 +6255,8 @@
 		isa = PBXTextBookmark;
 		fRef = DF7B11D30FAEA9A3007FF0CA /* BrandListController.m */;
 		name = "BrandListController.m: 21";
-		rLen = 54;
-		rLoc = 664;
+		rLen = 0;
+		rLoc = 623;
 		rType = 0;
 		vrLen = 718;
 		vrLoc = 0;
@@ -6042,7 +6266,7 @@
 		fRef = DF7B11D20FAEA9A3007FF0CA /* BrandListController.h */;
 		name = "BrandListController.h: 2";
 		rLen = 0;
-		rLoc = 52;
+		rLoc = 23;
 		rType = 0;
 		vrLen = 281;
 		vrLoc = 0;
@@ -6152,7 +6376,7 @@
 		fRef = DF29BEFB0FB6255A000EB5B8 /* RimEditController.m */;
 		name = "RimEditController.m: 32";
 		rLen = 39;
-		rLoc = 1282;
+		rLoc = 1272;
 		rType = 0;
 		vrLen = 1106;
 		vrLoc = 286;
@@ -6172,7 +6396,7 @@
 		fRef = DF29BEFA0FB6255A000EB5B8 /* RimEditController.h */;
 		name = "RimEditController.h: 25";
 		rLen = 0;
-		rLoc = 996;
+		rLoc = 883;
 		rType = 0;
 		vrLen = 754;
 		vrLoc = 0;
@@ -6211,8 +6435,8 @@
 		isa = PBXTextBookmark;
 		fRef = DF7B11D30FAEA9A3007FF0CA /* BrandListController.m */;
 		name = "BrandListController.m: 21";
-		rLen = 54;
-		rLoc = 664;
+		rLen = 0;
+		rLoc = 623;
 		rType = 0;
 		vrLen = 718;
 		vrLoc = 0;
@@ -6272,7 +6496,7 @@
 		fRef = DF7B11EF0FAEA9A3007FF0CA /* RimBrandsController.m */;
 		name = "RimBrandsController.m: 35";
 		rLen = 5;
-		rLoc = 1016;
+		rLoc = 980;
 		rType = 0;
 		vrLen = 1021;
 		vrLoc = 0;
@@ -6282,7 +6506,7 @@
 		fRef = DF7B11EF0FAEA9A3007FF0CA /* RimBrandsController.m */;
 		name = "RimBrandsController.m: 35";
 		rLen = 5;
-		rLoc = 1016;
+		rLoc = 980;
 		rType = 0;
 		vrLen = 1021;
 		vrLoc = 0;
@@ -6302,7 +6526,7 @@
 		fRef = DF7B11EF0FAEA9A3007FF0CA /* RimBrandsController.m */;
 		name = "RimBrandsController.m: 35";
 		rLen = 5;
-		rLoc = 1016;
+		rLoc = 980;
 		rType = 0;
 		vrLen = 1022;
 		vrLoc = 0;
@@ -6342,7 +6566,7 @@
 		fRef = DF29BEFB0FB6255A000EB5B8 /* RimEditController.m */;
 		name = "RimEditController.m: 32";
 		rLen = 39;
-		rLoc = 1282;
+		rLoc = 1272;
 		rType = 0;
 		vrLen = 940;
 		vrLoc = 0;
@@ -6352,7 +6576,7 @@
 		fRef = DF29BEFA0FB6255A000EB5B8 /* RimEditController.h */;
 		name = "RimEditController.h: 25";
 		rLen = 0;
-		rLoc = 996;
+		rLoc = 883;
 		rType = 0;
 		vrLen = 754;
 		vrLoc = 0;
@@ -6372,7 +6596,7 @@
 		fRef = DF29BEFB0FB6255A000EB5B8 /* RimEditController.m */;
 		name = "RimEditController.m: 32";
 		rLen = 39;
-		rLoc = 1282;
+		rLoc = 1272;
 		rType = 0;
 		vrLen = 940;
 		vrLoc = 0;
@@ -6382,7 +6606,7 @@
 		fRef = DF29BEFA0FB6255A000EB5B8 /* RimEditController.h */;
 		name = "RimEditController.h: 25";
 		rLen = 0;
-		rLoc = 996;
+		rLoc = 883;
 		rType = 0;
 		vrLen = 754;
 		vrLoc = 0;
@@ -6392,7 +6616,7 @@
 		fRef = DF29BEFA0FB6255A000EB5B8 /* RimEditController.h */;
 		name = "RimEditController.h: 25";
 		rLen = 0;
-		rLoc = 996;
+		rLoc = 883;
 		rType = 0;
 		vrLen = 695;
 		vrLoc = 0;
@@ -6402,7 +6626,7 @@
 		fRef = DF7B11EF0FAEA9A3007FF0CA /* RimBrandsController.m */;
 		name = "RimBrandsController.m: 35";
 		rLen = 5;
-		rLoc = 1016;
+		rLoc = 980;
 		rType = 0;
 		vrLen = 1022;
 		vrLoc = 0;
@@ -6422,7 +6646,7 @@
 		fRef = DF29BEFA0FB6255A000EB5B8 /* RimEditController.h */;
 		name = "RimEditController.h: 25";
 		rLen = 0;
-		rLoc = 996;
+		rLoc = 883;
 		rType = 0;
 		vrLen = 620;
 		vrLoc = 134;
@@ -6432,7 +6656,7 @@
 		fRef = DF29BEFA0FB6255A000EB5B8 /* RimEditController.h */;
 		name = "RimEditController.h: 25";
 		rLen = 0;
-		rLoc = 996;
+		rLoc = 883;
 		rType = 0;
 		vrLen = 864;
 		vrLoc = 69;
@@ -6442,7 +6666,7 @@
 		fRef = DF29BEFA0FB6255A000EB5B8 /* RimEditController.h */;
 		name = "RimEditController.h: 25";
 		rLen = 0;
-		rLoc = 996;
+		rLoc = 883;
 		rType = 0;
 		vrLen = 736;
 		vrLoc = 224;
@@ -6452,7 +6676,7 @@
 		fRef = DF7B11EF0FAEA9A3007FF0CA /* RimBrandsController.m */;
 		name = "RimBrandsController.m: 35";
 		rLen = 5;
-		rLoc = 1016;
+		rLoc = 980;
 		rType = 0;
 		vrLen = 1022;
 		vrLoc = 0;
@@ -6462,7 +6686,7 @@
 		fRef = DF29BEFA0FB6255A000EB5B8 /* RimEditController.h */;
 		name = "RimEditController.h: 25";
 		rLen = 0;
-		rLoc = 996;
+		rLoc = 883;
 		rType = 0;
 		vrLen = 620;
 		vrLoc = 134;
@@ -6505,7 +6729,7 @@
 		isa = PBXTextBookmark;
 		fRef = DF7B11EF0FAEA9A3007FF0CA /* RimBrandsController.m */;
 		name = "RimBrandsController.m: 10";
-		rLen = 59;
+		rLen = 58;
 		rLoc = 185;
 		rType = 0;
 		vrLen = 465;
@@ -6516,7 +6740,7 @@
 		fRef = DF7B11D20FAEA9A3007FF0CA /* BrandListController.h */;
 		name = "BrandListController.h: 2";
 		rLen = 0;
-		rLoc = 52;
+		rLoc = 23;
 		rType = 0;
 		vrLen = 281;
 		vrLoc = 0;
@@ -6525,8 +6749,8 @@
 		isa = PBXTextBookmark;
 		fRef = DF7B11D30FAEA9A3007FF0CA /* BrandListController.m */;
 		name = "BrandListController.m: 21";
-		rLen = 54;
-		rLoc = 664;
+		rLen = 0;
+		rLoc = 623;
 		rType = 0;
 		vrLen = 521;
 		vrLoc = 101;
@@ -6566,7 +6790,7 @@
 		fRef = DF29BEFA0FB6255A000EB5B8 /* RimEditController.h */;
 		name = "RimEditController.h: 4";
 		rLen = 19;
-		rLoc = 78;
+		rLoc = 49;
 		rType = 0;
 		vrLen = 1098;
 		vrLoc = 0;
@@ -6586,7 +6810,7 @@
 		fRef = DF29BEFB0FB6255A000EB5B8 /* RimEditController.m */;
 		name = "RimEditController.m: 68";
 		rLen = 0;
-		rLoc = 2365;
+		rLoc = 2355;
 		rType = 0;
 		vrLen = 1047;
 		vrLoc = 1714;
@@ -6596,7 +6820,7 @@
 		fRef = DF29BEFA0FB6255A000EB5B8 /* RimEditController.h */;
 		name = "RimEditController.h: 25";
 		rLen = 0;
-		rLoc = 996;
+		rLoc = 883;
 		rType = 0;
 		vrLen = 736;
 		vrLoc = 224;
@@ -6605,8 +6829,8 @@
 		isa = PBXTextBookmark;
 		fRef = DF7B11D30FAEA9A3007FF0CA /* BrandListController.m */;
 		name = "BrandListController.m: 21";
-		rLen = 54;
-		rLoc = 664;
+		rLen = 0;
+		rLoc = 623;
 		rType = 0;
 		vrLen = 1019;
 		vrLoc = 101;
@@ -6676,7 +6900,7 @@
 		fRef = DF29BEFA0FB6255A000EB5B8 /* RimEditController.h */;
 		name = "RimEditController.h: 28";
 		rLen = 0;
-		rLoc = 1037;
+		rLoc = 913;
 		rType = 0;
 		vrLen = 1097;
 		vrLoc = 0;
@@ -6686,7 +6910,7 @@
 		fRef = DF29BEFA0FB6255A000EB5B8 /* RimEditController.h */;
 		name = "RimEditController.h: 4";
 		rLen = 19;
-		rLoc = 78;
+		rLoc = 49;
 		rType = 0;
 		vrLen = 886;
 		vrLoc = 0;
@@ -6725,7 +6949,7 @@
 		isa = PBXTextBookmark;
 		fRef = DF7B11EF0FAEA9A3007FF0CA /* RimBrandsController.m */;
 		name = "RimBrandsController.m: 10";
-		rLen = 59;
+		rLen = 58;
 		rLoc = 185;
 		rType = 0;
 		vrLen = 465;
@@ -6736,7 +6960,7 @@
 		fRef = DF7B11D20FAEA9A3007FF0CA /* BrandListController.h */;
 		name = "BrandListController.h: 2";
 		rLen = 0;
-		rLoc = 52;
+		rLoc = 23;
 		rType = 0;
 		vrLen = 281;
 		vrLoc = 0;
@@ -6745,8 +6969,8 @@
 		isa = PBXTextBookmark;
 		fRef = DF7B11D30FAEA9A3007FF0CA /* BrandListController.m */;
 		name = "BrandListController.m: 21";
-		rLen = 54;
-		rLoc = 664;
+		rLen = 0;
+		rLoc = 623;
 		rType = 0;
 		vrLen = 521;
 		vrLoc = 101;
@@ -6786,7 +7010,7 @@
 		fRef = DF29BEFA0FB6255A000EB5B8 /* RimEditController.h */;
 		name = "RimEditController.h: 4";
 		rLen = 19;
-		rLoc = 78;
+		rLoc = 49;
 		rType = 0;
 		vrLen = 1098;
 		vrLoc = 0;
@@ -6796,7 +7020,7 @@
 		fRef = DF29BEFA0FB6255A000EB5B8 /* RimEditController.h */;
 		name = "RimEditController.h: 4";
 		rLen = 19;
-		rLoc = 78;
+		rLoc = 49;
 		rType = 0;
 		vrLen = 1098;
 		vrLoc = 0;
@@ -6816,7 +7040,7 @@
 		fRef = DF29BEFB0FB6255A000EB5B8 /* RimEditController.m */;
 		name = "RimEditController.m: 65";
 		rLen = 0;
-		rLoc = 2365;
+		rLoc = 2355;
 		rType = 0;
 		vrLen = 1035;
 		vrLoc = 1714;
@@ -6826,7 +7050,7 @@
 		fRef = DF29BEFB0FB6255A000EB5B8 /* RimEditController.m */;
 		name = "RimEditController.m: 65";
 		rLen = 0;
-		rLoc = 2365;
+		rLoc = 2355;
 		rType = 0;
 		vrLen = 1017;
 		vrLoc = 1738;
@@ -6836,7 +7060,7 @@
 		fRef = DF29BEFB0FB6255A000EB5B8 /* RimEditController.m */;
 		name = "RimEditController.m: 71";
 		rLen = 0;
-		rLoc = 2484;
+		rLoc = 2474;
 		rType = 0;
 		vrLen = 1280;
 		vrLoc = 1468;
@@ -6846,7 +7070,7 @@
 		fRef = DF7B11EF0FAEA9A3007FF0CA /* RimBrandsController.m */;
 		name = "RimBrandsController.m: 35";
 		rLen = 5;
-		rLoc = 1016;
+		rLoc = 980;
 		rType = 0;
 		vrLen = 1022;
 		vrLoc = 0;
@@ -6856,7 +7080,7 @@
 		fRef = DF29BEFB0FB6255A000EB5B8 /* RimEditController.m */;
 		name = "RimEditController.m: 65";
 		rLen = 0;
-		rLoc = 2365;
+		rLoc = 2355;
 		rType = 0;
 		vrLen = 1021;
 		vrLoc = 1738;
@@ -6866,7 +7090,7 @@
 		fRef = DF29BEFB0FB6255A000EB5B8 /* RimEditController.m */;
 		name = "RimEditController.m: 71";
 		rLen = 0;
-		rLoc = 2484;
+		rLoc = 2474;
 		rType = 0;
 		vrLen = 1284;
 		vrLoc = 1468;
@@ -6876,7 +7100,7 @@
 		fRef = DF7B11EF0FAEA9A3007FF0CA /* RimBrandsController.m */;
 		name = "RimBrandsController.m: 35";
 		rLen = 5;
-		rLoc = 1016;
+		rLoc = 980;
 		rType = 0;
 		vrLen = 1022;
 		vrLoc = 0;
@@ -6886,7 +7110,7 @@
 		fRef = DF29BEFB0FB6255A000EB5B8 /* RimEditController.m */;
 		name = "RimEditController.m: 65";
 		rLen = 0;
-		rLoc = 2365;
+		rLoc = 2355;
 		rType = 0;
 		vrLen = 1023;
 		vrLoc = 1738;
@@ -6896,7 +7120,7 @@
 		fRef = DF29BEFB0FB6255A000EB5B8 /* RimEditController.m */;
 		name = "RimEditController.m: 71";
 		rLen = 0;
-		rLoc = 2484;
+		rLoc = 2474;
 		rType = 0;
 		vrLen = 1286;
 		vrLoc = 1468;
@@ -6906,7 +7130,7 @@
 		fRef = DF7B11EF0FAEA9A3007FF0CA /* RimBrandsController.m */;
 		name = "RimBrandsController.m: 35";
 		rLen = 5;
-		rLoc = 1016;
+		rLoc = 980;
 		rType = 0;
 		vrLen = 1022;
 		vrLoc = 0;
@@ -6984,16 +7208,16 @@
 	};
 	DF7B11D20FAEA9A3007FF0CA /* BrandListController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {927, 496}}";
-			sepNavSelRange = "{52, 0}";
-			sepNavVisRange = "{0, 281}";
+			sepNavIntBoundsRect = "{{0, 0}, {927, 212}}";
+			sepNavSelRange = "{23, 0}";
+			sepNavVisRange = "{0, 233}";
 		};
 	};
 	DF7B11D30FAEA9A3007FF0CA /* BrandListController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {936, 992}}";
-			sepNavSelRange = "{664, 54}";
-			sepNavVisRange = "{101, 521}";
+			sepNavIntBoundsRect = "{{0, 0}, {936, 908}}";
+			sepNavSelRange = "{623, 0}";
+			sepNavVisRange = "{552, 361}";
 		};
 	};
 	DF7B11D40FAEA9A3007FF0CA /* Database.h */ = {
@@ -7161,9 +7385,9 @@
 	};
 	DF7B11EF0FAEA9A3007FF0CA /* RimBrandsController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1218, 592}}";
-			sepNavSelRange = "{1016, 5}";
-			sepNavVisRange = "{0, 1022}";
+			sepNavIntBoundsRect = "{{0, 0}, {1218, 576}}";
+			sepNavSelRange = "{980, 5}";
+			sepNavVisRange = "{0, 986}";
 		};
 	};
 	DF7B11F20FAEA9A3007FF0CA /* RimDetailController.h */ = {
@@ -7210,9 +7434,9 @@
 	};
 	DF7B11F90FAEA9A3007FF0CA /* AppDelegate.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1048, 1548}}";
-			sepNavSelRange = "{932, 39}";
-			sepNavVisRange = "{291, 1527}";
+			sepNavIntBoundsRect = "{{0, 0}, {957, 1648}}";
+			sepNavSelRange = "{1576, 0}";
+			sepNavVisRange = "{1164, 969}";
 		};
 	};
 	DF7B11FB0FAEA9A3007FF0CA /* StringUtil.m */ = {

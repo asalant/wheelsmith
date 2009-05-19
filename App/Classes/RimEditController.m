@@ -4,7 +4,7 @@
 
 @implementation RimEditController
 
-@synthesize rim, delegate, detailController;
+@synthesize rim, detailController;
 @synthesize brandTextField, descriptionTextField, erdTextField, offsetTextField, sizeTextField, holeCountTextField;
 
 -(void)viewDidLoad {
