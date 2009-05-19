@@ -4,14 +4,15 @@ x Add rim
 x Edit a wheel?
 x Consider wheel detail having edit button in nav bar that switches cells to allowing choosing rim, hub and pattern.
 x Refresh brand list after adding new part
-Delete unverified parts
+x Delete unverified rims
 x Hide add button when viewing part detail for wheel
 Add hub
+Delete unverified hub
 Change back button text for edit/add to Cancel
 Scroll brand list to added brand and animate addition
 Scroll part list to added part and animate addition
 When editing my wheels list, hide add button
 Figure out how to get values to lay our correctly when hiding the accessory view for LabeledValueCell in WheelDetail
 Create NSBoolean for persistent properties
-Refresh rim part list after adding new rim
+Refresh rim/hub part list after adding new rim/hub
 Consider creating UITableViewDatasources for brand and part lists - easier to refresh/reload

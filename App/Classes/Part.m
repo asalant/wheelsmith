@@ -5,6 +5,17 @@
 
 @synthesize brand, description, verified;
 
++ (NSArray *) findByBrand:(NSString *)brand andHoleCount:(NSNumber *)holeCount {
+    if (holeCount) {
+        return [self findByCriteria:[NSString stringWithFormat:@"brand = '%@' AND hole_count = %@", brand, holeCount]
+                            orderBy:@"description"];
+    }
+    else {
+        return [self findByCriteria:[NSString stringWithFormat:@"brand = '%@'", brand]
+                            orderBy:@"description"];
+    }
+
+}
 
 + (NSArray *) selectBrandNames {
     return [self select:[NSString stringWithFormat:@"select distinct brand from %@ order by brand", 

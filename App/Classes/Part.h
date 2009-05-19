@@ -10,6 +10,7 @@
 @property (nonatomic,retain) NSString *description;
 @property (nonatomic,retain) NSNumber *verified;
 
++ (NSArray *) findByBrand:(NSString *)brand andHoleCount:(NSNumber *)holeCount;
 + (NSArray *) selectBrandNames;
 + (NSArray *) selectBrandNamesForHoleCount:(NSNumber *)holeCount;
 

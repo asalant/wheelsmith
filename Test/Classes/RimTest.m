@@ -21,26 +21,40 @@
         [DomainObject setDatabase:[Database create:@"foo" overwrite:YES]];
     }
     @catch (NSException *exception) {
-        assertThat([exception name], equalTo(@"PersistenceException"));
+        assertThat([exception name], is(@"PersistenceException"));
     }
 }
 
 - (void) testFindsAllRims {
     NSArray *rims = [Rim findAllOrderBy:@"description"];
-    assertThat([NSNumber numberWithInt:[rims count]], equalTo([NSNumber numberWithInt:2]));
+    assertThat([NSNumber numberWithInt:[rims count]], is([NSNumber numberWithInt:2]));
+}
+
+-(void)testFindsByBrandAndHoleCount {
+    assertThat([NSNumber numberWithInt:[Rim findByBrand:@"Mavic" andHoleCount:[NSNumber numberWithInt:32]].count], 
+               is([NSNumber numberWithInt:1]));
+    assertThat([NSNumber numberWithInt:[Rim findByBrand:@"Mavic" andHoleCount:[NSNumber numberWithInt:36]].count], 
+               is([NSNumber numberWithInt:0]));
+    
+}
+
+-(void)testFindsByBrandAndNilHoleCount {
+    assertThat([NSNumber numberWithInt:[Rim findByBrand:@"Mavic" andHoleCount:nil].count], 
+               is([NSNumber numberWithInt:1]));
+    
 }
 
 - (void) testHydratesRim {
     Rim *rim = [[Rim findAllOrderBy:@"brand"] objectAtIndex:0];
-    assertThat(rim.brand, equalTo(@"Mavic"));
+    assertThat(rim.brand, is(@"Mavic"));
     assertThat(rim.verified, is([NSNumber numberWithBool:YES]));
-    assertThat(rim.erd, equalTo([NSNumber numberWithDouble:602]));
+    assertThat(rim.erd, is([NSNumber numberWithDouble:602]));
     
 }
 
 - (void) testSelectsBrandNames {
     NSArray *companies = [Rim selectBrandNames];
-    assertThat([NSNumber numberWithInt:[companies count]], equalTo([NSNumber numberWithInt:2]));
+    assertThat([NSNumber numberWithInt:[companies count]], is([NSNumber numberWithInt:2]));
     assertThat([companies objectAtIndex:0], is(@"Mavic"));
     assertThat([companies objectAtIndex:1], is(@"Velocity")); 
 }
