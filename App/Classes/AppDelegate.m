@@ -53,6 +53,7 @@
     hubBrandsController.hubsController = hubListController;
     
     WheelDetailController *wheelDetailController = [[[WheelDetailController alloc] initWithStyle:UITableViewStyleGrouped] autorelease];
+    wheelDetailController.title = @"Wheel Build";
     wheelDetailController.rimDetailController = rimDetailController;
     wheelDetailController.hubDetailController = hubDetailController;
     wheelDetailController.rimBrandsController = rimBrandsController;
@@ -60,6 +61,7 @@
     
     // Would like to use the same instance as above but there are nav bar rendering issues when switching between existing and new wheels
     WheelDetailController *newWheelDetailController = [[[WheelDetailController alloc] initWithStyle:UITableViewStyleGrouped] autorelease];
+    newWheelDetailController.title = @"New Wheel Build";
     newWheelDetailController.rimDetailController = rimDetailController;
     newWheelDetailController.hubDetailController = hubDetailController;
     newWheelDetailController.rimBrandsController = rimBrandsController;

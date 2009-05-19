@@ -26,6 +26,7 @@
     id<WheelDetailDelegate> delegate;
     NSArray *sections;
     NSDictionary *patternPickerOptions;
+    BOOL editing;
 
 }
 
@@ -35,7 +36,10 @@
 @property(nonatomic, retain) HubBrandsController *hubBrandsController;
 @property(nonatomic, retain) RimBrandsController *rimBrandsController;
 @property(nonatomic, retain) id<WheelDetailDelegate> delegate;
+@property(nonatomic, assign) BOOL editing;
 
 - (void) updateView;
+- (void) enableEdit;
+- (void) disableEdit;
 
 @end

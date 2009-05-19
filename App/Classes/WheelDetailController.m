@@ -4,12 +4,11 @@
 
 @implementation WheelDetailController
 
-@synthesize wheel;
+@synthesize wheel, editing;
 @synthesize rimDetailController, hubDetailController, rimBrandsController, hubBrandsController, delegate;
 
 - (id)initWithStyle:(UITableViewStyle)style {
     if (self = [super initWithStyle:style]) {
-        self.title = @"Wheel Build";
         
         rimCell = [LabeledValueCell createCellWithLabel:@"Rim"  withValue:@""];
         hubCell = [LabeledValueCell createCellWithLabel:@"Hub"  withValue:@""];       
@@ -39,31 +38,76 @@
 
 -(void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
-    if (!wheel.pk) {
-        self.navigationItem.leftBarButtonItem = [[[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemCancel
-                                                                                               target:self 
-                                                                                               action:@selector(dismissModal)] autorelease];
-        self.navigationItem.rightBarButtonItem = [[[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemSave
-                                                                                                target:self 
-                                                                                                action:@selector(saveWheel)] autorelease];
+    if (editing) {
+        [self enableEdit];
+    }
+    else {
+        [self disableEdit];
     }
     [self updateView];
     
 }
 
+-(void)viewWillDisappear:(BOOL)animated {
+    [super viewWillDisappear:animated];
+    //[self disableEdit];
+}
+
+- (void) enableEdit {
+    self.editing = YES;
+    self.navigationItem.leftBarButtonItem = [[[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemCancel
+                                                                                           target:self 
+                                                                                           action:@selector(cancelEdit)] autorelease];
+    self.navigationItem.rightBarButtonItem = [[[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemSave
+                                                                                            target:self 
+                                                                                            action:@selector(saveWheel)] autorelease];
+    hubCell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
+    rimCell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
+    spokePatternCell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
+    spokePatternCell.selectionStyle = UITableViewCellSelectionStyleBlue;
+    
+    [self.tableView reloadData];
+}
+
+- (void) disableEdit {
+    self.editing = false;
+    self.navigationItem.leftBarButtonItem = nil;
+    self.navigationItem.rightBarButtonItem = [[[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemEdit
+                                                                                            target:self 
+                                                                                            action:@selector(enableEdit)] autorelease];
+    hubCell.accessoryType = UITableViewCellAccessoryNone;
+    rimCell.accessoryType = UITableViewCellAccessoryNone;
+    spokePatternCell.accessoryType = UITableViewCellAccessoryNone;
+    spokePatternCell.selectionStyle = UITableViewCellSelectionStyleNone;
+    
+    [self.tableView reloadData];
+}
+
 #pragma mark New Wheel controls
 
-- (void) dismissModal {
-    self.navigationItem.leftBarButtonItem = nil;
-    self.navigationItem.rightBarButtonItem = nil;
-    [self dismissModalViewControllerAnimated:YES];
+- (void) cancelEdit {
+    if (!wheel.pk) {
+        [self disableEdit];
+        [wheel revert];
+        [self updateView];
+    }
+    else {
+        [self dismissModalViewControllerAnimated:YES];
+    }
 }
 
 
 - (void) saveWheel {
-    [self.wheel create];
-    [self dismissModal];
-    [delegate afterCreateWheel:self.wheel];
+    if (!wheel.pk) {
+        [self.wheel create];
+        [delegate afterCreateWheel:self.wheel];
+        [self dismissModalViewControllerAnimated:YES];
+    }
+    else {
+        [wheel update];
+        [delegate afterUpdateWheel:wheel];
+        [self disableEdit];
+    }
 }
 
 #pragma mark EditWheelDelegate methods
@@ -71,27 +115,15 @@
 -(void)setHub:(Hub *)hub {
     self.wheel.hub = hub;
     [self.navigationController popToViewController:self animated:YES];
-    [self afterEditWheel:self.wheel];
 }
 
 -(void)setRim:(Rim *)rim {
     self.wheel.rim = rim;
     [self.navigationController popToViewController:self animated:YES];
-    [self afterEditWheel:self.wheel];
 }
 
 -(void)setSpokePattern:(NSNumber *)across {
     wheel.spokePattern = across;
-    [self afterEditWheel:self.wheel];
-}
-
-
--(void)afterEditWheel:(Wheel *)theWheel {
-    if (theWheel.pk) {
-        [theWheel update];
-        [self.delegate afterUpdateWheel:theWheel];
-    }
-    
 }
 
 - (void) updateView {
@@ -99,8 +131,8 @@
     [hubCell setValue:wheel.hub ? [NSString stringWithFormat:@"%@ %@",wheel.hub.brand, wheel.hub.description] : @"Choose Hub"];
     [spokePatternCell setValue:wheel.spokePattern ? wheel.spokePatternDescription : @"Choose Pattern"];
     
-    [leftLengthCell setValue:[NSString stringWithFormat:@"%@mm  ", [wheel leftSpokeLength]]];
-    [rightLengthCell setValue:[NSString stringWithFormat:@"%@mm  ", [wheel rightSpokeLength]]];
+    [leftLengthCell setValue:[NSString stringWithFormat:@"%@mm", [wheel leftSpokeLength]]];
+    [rightLengthCell setValue:[NSString stringWithFormat:@"%@mm", [wheel rightSpokeLength]]];
     
     [self.tableView reloadData];
 }
@@ -117,7 +149,7 @@
 #pragma mark Table view methods
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-    if (!wheel.isValid) {
+    if (editing || !wheel.isValid) {
         return sections.count - 1;
     }
     return sections.count;
@@ -133,9 +165,10 @@
 // Customize the appearance of table view cells.
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     UITableViewCell *cell = [[sections objectAtIndex:indexPath.section] objectAtIndex:indexPath.row];
-    if (indexPath.section != 2 ) {
-        cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
-    }
+//    if (editing)
+//        cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
+//    else
+//        cell.accessoryType = UITableViewCellAccessoryNone;
     return cell;
 }
 
@@ -144,31 +177,29 @@
     UITableViewCell *cell = [[sections objectAtIndex:indexPath.section] objectAtIndex:indexPath.row];
     if (cell == hubCell) {
         hubDetailController.editWheelDelegate = self;
-        hubBrandsController.holeCount = wheel.rim.holeCount;
-        hubBrandsController.brands = [Hub selectBrandNamesForHoleCount:wheel.rim.holeCount];
-        if (wheel.hub) {
-            hubDetailController.hub = wheel.hub;
-            [self.navigationController pushViewController:hubBrandsController animated:NO];
-            [self.navigationController pushViewController:hubDetailController animated:YES];
-        }
-        else {
+        if (editing) {
+            hubBrandsController.holeCount = wheel.rim.holeCount;
+            hubBrandsController.brands = [Hub selectBrandNamesForHoleCount:wheel.rim.holeCount];
             [self.navigationController pushViewController:hubBrandsController animated:YES];
+        }
+        else if (wheel.hub) {
+            hubDetailController.hub = wheel.hub;
+            [self.navigationController pushViewController:hubDetailController animated:YES];
         }
     }
     else if (cell == rimCell) {
         rimDetailController.editWheelDelegate = self;
-        rimBrandsController.holeCount = wheel.hub.holeCount;
-        rimBrandsController.brands = [Rim selectBrandNamesForHoleCount:wheel.hub.holeCount];
-        if (wheel.rim) {
-            rimDetailController.rim = wheel.rim;
-            [self.navigationController pushViewController:rimBrandsController animated:NO];
-            [self.navigationController pushViewController:rimDetailController animated:YES];
-        }
-        else {
+        if (editing) {
+            rimBrandsController.holeCount = wheel.hub.holeCount;
+            rimBrandsController.brands = [Rim selectBrandNamesForHoleCount:wheel.hub.holeCount];
             [self.navigationController pushViewController:rimBrandsController animated:YES];
         }
+        else if (wheel.rim) {
+            rimDetailController.rim = wheel.rim;
+            [self.navigationController pushViewController:rimDetailController animated:YES];
+        }
     }
-    else if (cell == spokePatternCell) {
+    else if (cell == spokePatternCell && editing) {
         spokePatternPicker.selectedOption = self.wheel.spokePattern;
         [self.navigationController pushViewController:spokePatternPicker animated:YES];
     }

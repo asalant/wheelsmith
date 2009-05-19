@@ -98,6 +98,19 @@
     assertThat([Wheel find:wheel.pk], nilValue());
 }
 
+-(void)testRevertsWheel {
+    Wheel *wheel = [Wheel findFirstByCriteria:@"spoke_pattern = 0" orderBy:nil];
+    wheel.spokePattern = [NSNumber numberWithInt:3];
+    wheel.hub = nil;
+    wheel.rim = nil;
+    
+    [wheel revert];
+    assertThat(wheel.spokePattern, is([NSNumber numberWithInt:0]));
+    assertThat(wheel.hub, notNilValue());
+    assertThat(wheel.rim, notNilValue());
+    
+}
+
 - (void) testCalculatesSpokeLength {
  
     Wheel *wheel = [[Wheel alloc] init];

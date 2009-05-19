@@ -98,6 +98,7 @@ static Database *database;
                                            orderBy:nil];
     self.pk = [created valueForKey:@"pk"];
 }
+
 -(void) update {
     self.updatedAt = [NSDate date];
     NSMutableDictionary *dataMap = [NSMutableDictionary dictionaryWithDictionary:[[self class] dataMap]];
@@ -158,6 +159,18 @@ static Database *database;
         }
     }
     return values;
+}
+
+-(void)revert {
+    if (!self.pk)
+        return;
+ 
+    DomainObject *saved = [[self class] find:self.pk];
+    NSDictionary *dataMap = [[self class] dataMap];
+    for (id definition in [dataMap allValues]) {
+        NSString *propertyName = [definition objectAtIndex:0];
+        [self setValue:[saved valueForKey:propertyName] forKey:propertyName];
+    }
 }
 
 -(void)dealloc {

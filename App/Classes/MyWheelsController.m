@@ -34,6 +34,7 @@
 
 -(void)addWheel {
     ((WheelDetailController *)newWheelController.topViewController).wheel = [[[Wheel alloc] init] autorelease];
+    ((WheelDetailController *)newWheelController.topViewController).editing = YES;
     [self presentModalViewController:newWheelController animated:YES];
 }
 

@@ -6,5 +6,4 @@
 -(void)setHub:(Hub *)hub;
 -(void)setRim:(Rim *)rim;
 -(void)setSpokePattern:(NSNumber *)across;
--(void)afterEditWheel:(Wheel *)theWheel;
 @end

@@ -8,3 +8,5 @@ Consider wheel detail having edit button in nav bar that switches cells to allow
 Refresh brand list after adding new part
 Scroll brand list to added brand and animate addition
 Scroll part list to added part and animate addition
+When editing my wheels list, hide add button
+Figure out how to get values to lay our correctly when hinding the accessory view for LabeledValueCell in WheelDetail
