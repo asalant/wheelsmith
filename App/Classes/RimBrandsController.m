@@ -6,17 +6,16 @@
 
 @synthesize editController, rimsController, wheel;
 
--(void)viewDidLoad {
-    [super viewDidLoad];
-    self.navigationItem.rightBarButtonItem = [[[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd
-                                                                                            target:self 
-                                                                                            action:@selector(addPart)] autorelease];
+-(void)addPart {
+    editController.rim = [[[Rim alloc] init] autorelease];
+    editController.delegate = self;
+    [self.navigationController pushViewController:editController animated:YES];
+    [editController.brandTextField becomeFirstResponder];
 }
 
+#pragma mark PartEditDelegate methods
 
-#pragma mark RimEditDelegate methods
-
--(void)rimSaved:(Rim *)rim created:(BOOL)created {
+-(void)partSaved:(Rim *)rim created:(BOOL)created {
     self.brands = [Rim selectBrandNamesForHoleCount:self.holeCount];
     [self.tableView reloadData];
 }
@@ -27,25 +26,10 @@
     NSString *brand = [brands objectAtIndex:indexPath.row];
     rimsController.title = brand;
     rimsController.brand = brand;
-    if (holeCount) {
-        rimsController.rims = [Rim findByCriteria:[NSString stringWithFormat:@"brand = '%@' AND hole_count = %@", brand, holeCount]  
-                                          orderBy:@"description"];
-    }
-    else {
-        rimsController.rims = [Rim findByCriteria:[NSString stringWithFormat:@"brand = '%@'", brand]  
-                                          orderBy:@"description"];
-    }
+    rimsController.rims = [Rim findByBrand:brand andHoleCount:holeCount];
     [rimsController.tableView reloadData];
     
     [self.navigationController pushViewController:rimsController animated:YES];
-}
-
-
--(void)addPart {
-    editController.rim = [[[Rim alloc] init] autorelease];
-    editController.delegate = self;
-    [self.navigationController pushViewController:editController animated:YES];
-    [editController.brandTextField becomeFirstResponder];
 }
 
 - (void) dealloc {

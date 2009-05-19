@@ -54,11 +54,11 @@
     rim.offset = [NSNumber numberWithDouble:[offsetTextField.text doubleValue]];
     if (rim.pk) {
         [rim update];
-        [delegate rimSaved:rim created:NO];
+        [delegate partSaved:rim created:NO];
     }
     else {
         [rim create];
-        [delegate rimSaved:rim created:YES];
+        [delegate partSaved:rim created:YES];
     }
     [self.navigationController popViewControllerAnimated:YES];
 }

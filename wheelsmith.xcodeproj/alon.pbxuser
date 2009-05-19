@@ -954,16 +954,16 @@
 	};
 	DF29BBE10FB47960000EB5B8 /* Part.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {927, 393}}";
-			sepNavSelRange = "{312, 0}";
-			sepNavVisRange = "{0, 419}";
+			sepNavIntBoundsRect = "{{0, 0}, {927, 403}}";
+			sepNavSelRange = "{314, 80}";
+			sepNavVisRange = "{0, 499}";
 		};
 	};
 	DF29BBE20FB47960000EB5B8 /* Part.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {927, 640}}";
-			sepNavSelRange = "{979, 0}";
-			sepNavVisRange = "{248, 800}";
+			sepNavIntBoundsRect = "{{0, 0}, {927, 768}}";
+			sepNavSelRange = "{488, 0}";
+			sepNavVisRange = "{0, 883}";
 		};
 	};
 	DF29BBEE0FB47B40000EB5B8 /* PBXTextBookmark */ = {
@@ -1001,7 +1001,7 @@
 		fRef = DF29BBE10FB47960000EB5B8 /* Part.h */;
 		name = "Part.h: 13";
 		rLen = 0;
-		rLoc = 413;
+		rLoc = 493;
 		rType = 0;
 		vrLen = 346;
 		vrLoc = 0;
@@ -1021,7 +1021,7 @@
 		fRef = DF29BBE10FB47960000EB5B8 /* Part.h */;
 		name = "Part.h: 13";
 		rLen = 0;
-		rLoc = 413;
+		rLoc = 493;
 		rType = 0;
 		vrLen = 346;
 		vrLoc = 0;
@@ -1031,7 +1031,7 @@
 		fRef = DF7B11DF0FAEA9A3007FF0CA /* HubBrandsController.m */;
 		name = "HubBrandsController.m: 11";
 		rLen = 0;
-		rLoc = 339;
+		rLoc = 402;
 		rType = 0;
 		vrLen = 885;
 		vrLoc = 0;
@@ -1113,7 +1113,7 @@
 		fRef = DF29BBE20FB47960000EB5B8 /* Part.m */;
 		name = "Part.m: 20";
 		rLen = 0;
-		rLoc = 703;
+		rLoc = 1142;
 		rType = 0;
 		vrLen = 784;
 		vrLoc = 0;
@@ -1133,7 +1133,7 @@
 		fRef = DF29BBE20FB47960000EB5B8 /* Part.m */;
 		name = "Part.m: 20";
 		rLen = 0;
-		rLoc = 703;
+		rLoc = 1142;
 		rType = 0;
 		vrLen = 784;
 		vrLoc = 0;
@@ -1386,17 +1386,17 @@
 	};
 	DF29BEFA0FB6255A000EB5B8 /* RimEditController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {938, 590}}";
-			sepNavSelRange = "{929, 0}";
-			sepNavVisRange = "{0, 957}";
+			sepNavIntBoundsRect = "{{0, 0}, {927, 496}}";
+			sepNavSelRange = "{921, 0}";
+			sepNavVisRange = "{0, 754}";
 			sepNavWindowFrame = "{{1240, 55}, {1277, 723}}";
 		};
 	};
 	DF29BEFB0FB6255A000EB5B8 /* RimEditController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {936, 1152}}";
+			sepNavIntBoundsRect = "{{0, 0}, {936, 1184}}";
 			sepNavSelRange = "{1264, 39}";
-			sepNavVisRange = "{0, 1393}";
+			sepNavVisRange = "{286, 1106}";
 		};
 	};
 	DF29BF110FB627F7000EB5B8 /* PBXTextBookmark */ = {
@@ -1446,9 +1446,9 @@
 	};
 	DF29BF2D0FB6290C000EB5B8 /* RimTest.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {927, 1044}}";
-			sepNavSelRange = "{782, 34}";
-			sepNavVisRange = "{553, 798}";
+			sepNavIntBoundsRect = "{{0, 0}, {927, 1148}}";
+			sepNavSelRange = "{1196, 0}";
+			sepNavVisRange = "{524, 736}";
 		};
 	};
 	DF29BF2F0FB6290C000EB5B8 /* WheelDetailControllerTest.m */ = {
@@ -1610,7 +1610,7 @@
 		fRef = DF7B11EE0FAEA9A3007FF0CA /* RimBrandsController.h */;
 		name = "RimBrandsController.h: 11";
 		rLen = 64;
-		rLoc = 276;
+		rLoc = 277;
 		rType = 0;
 		vrLen = 436;
 		vrLoc = 0;
@@ -1650,7 +1650,7 @@
 		fRef = DF7B11D30FAEA9A3007FF0CA /* BrandListController.m */;
 		name = "BrandListController.m: 13";
 		rLen = 0;
-		rLoc = 212;
+		rLoc = 623;
 		rType = 0;
 		vrLen = 1141;
 		vrLoc = 0;
@@ -1690,7 +1690,7 @@
 		fRef = DF7B11EF0FAEA9A3007FF0CA /* RimBrandsController.m */;
 		name = "RimBrandsController.m: 32";
 		rLen = 0;
-		rLoc = 1888;
+		rLoc = 1135;
 		rType = 0;
 		vrLen = 1129;
 		vrLoc = 62;
@@ -1700,7 +1700,7 @@
 		fRef = DF7B11EE0FAEA9A3007FF0CA /* RimBrandsController.h */;
 		name = "RimBrandsController.h: 11";
 		rLen = 64;
-		rLoc = 276;
+		rLoc = 277;
 		rType = 0;
 		vrLen = 436;
 		vrLoc = 0;
@@ -1727,7 +1727,7 @@
 		fRef = DF7B11EF0FAEA9A3007FF0CA /* RimBrandsController.m */;
 		name = "RimBrandsController.m: 10";
 		rLen = 0;
-		rLoc = 213;
+		rLoc = 166;
 		rType = 0;
 		vrLen = 1430;
 		vrLoc = 62;
@@ -1853,7 +1853,7 @@
 		fRef = DF29BF2D0FB6290C000EB5B8 /* RimTest.m */;
 		name = "RimTest.m: 49";
 		rLen = 0;
-		rLoc = 1574;
+		rLoc = 1927;
 		rType = 0;
 		vrLen = 675;
 		vrLoc = 709;
@@ -1933,7 +1933,7 @@
 		fRef = DF29BF2D0FB6290C000EB5B8 /* RimTest.m */;
 		name = "RimTest.m: 50";
 		rLen = 0;
-		rLoc = 1695;
+		rLoc = 2048;
 		rType = 0;
 		vrLen = 651;
 		vrLoc = 707;
@@ -2023,7 +2023,7 @@
 		fRef = DF7B11D30FAEA9A3007FF0CA /* BrandListController.m */;
 		name = "BrandListController.m: 9";
 		rLen = 0;
-		rLoc = 212;
+		rLoc = 623;
 		rType = 0;
 		vrLen = 502;
 		vrLoc = 0;
@@ -2033,7 +2033,7 @@
 		fRef = DF7B11D30FAEA9A3007FF0CA /* BrandListController.m */;
 		name = "BrandListController.m: 9";
 		rLen = 0;
-		rLoc = 212;
+		rLoc = 623;
 		rType = 0;
 		vrLen = 502;
 		vrLoc = 0;
@@ -2128,11 +2128,12 @@
 		vrLen = 674;
 		vrLoc = 1114;
 	};
-	DF5DDC410FC22FBB00407EE0 /* RimEditDelegate.h */ = {
+	DF5DDC410FC22FBB00407EE0 /* PartEditDelegate.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {938, 590}}";
-			sepNavSelRange = "{33, 0}";
-			sepNavVisRange = "{0, 82}";
+			sepNavIntBoundsRect = "{{0, 0}, {927, 403}}";
+			sepNavSelRange = "{39, 0}";
+			sepNavVisRange = "{0, 84}";
+			sepNavWindowFrame = "{{1240, 55}, {1277, 723}}";
 		};
 	};
 	DF5DDC490FC2338700407EE0 /* PBXTextBookmark */ = {
@@ -2200,7 +2201,7 @@
 		fRef = DF7B11EE0FAEA9A3007FF0CA /* RimBrandsController.h */;
 		name = "RimBrandsController.h: 6";
 		rLen = 0;
-		rLoc = 175;
+		rLoc = 176;
 		rType = 0;
 		vrLen = 454;
 		vrLoc = 0;
@@ -2240,17 +2241,17 @@
 		fRef = DF29BEFB0FB6255A000EB5B8 /* RimEditController.m */;
 		name = "RimEditController.m: 63";
 		rLen = 0;
-		rLoc = 2430;
+		rLoc = 2432;
 		rType = 0;
 		vrLen = 1291;
 		vrLoc = 1264;
 	};
 	DF5DDC540FC2338700407EE0 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = DF5DDC410FC22FBB00407EE0 /* RimEditDelegate.h */;
+		fRef = DF5DDC410FC22FBB00407EE0 /* PartEditDelegate.h */;
 		name = "RimEditDelegate.h: 3";
 		rLen = 0;
-		rLoc = 33;
+		rLoc = 34;
 		rType = 0;
 		vrLen = 82;
 		vrLoc = 0;
@@ -2260,7 +2261,7 @@
 		fRef = DF7B11D30FAEA9A3007FF0CA /* BrandListController.m */;
 		name = "BrandListController.m: 5";
 		rLen = 0;
-		rLoc = 212;
+		rLoc = 623;
 		rType = 0;
 		vrLen = 1036;
 		vrLoc = 0;
@@ -2270,7 +2271,7 @@
 		fRef = DF7B11EF0FAEA9A3007FF0CA /* RimBrandsController.m */;
 		name = "RimBrandsController.m: 17";
 		rLen = 15;
-		rLoc = 593;
+		rLoc = 434;
 		rType = 0;
 		vrLen = 1484;
 		vrLoc = 32;
@@ -2350,7 +2351,7 @@
 		fRef = DF29BEFB0FB6255A000EB5B8 /* RimEditController.m */;
 		name = "RimEditController.m: 63";
 		rLen = 0;
-		rLoc = 2430;
+		rLoc = 2432;
 		rType = 0;
 		vrLen = 1291;
 		vrLoc = 1264;
@@ -2360,7 +2361,7 @@
 		fRef = DF7B11D30FAEA9A3007FF0CA /* BrandListController.m */;
 		name = "BrandListController.m: 5";
 		rLen = 0;
-		rLoc = 212;
+		rLoc = 623;
 		rType = 0;
 		vrLen = 1036;
 		vrLoc = 0;
@@ -2370,7 +2371,7 @@
 		fRef = DF7B11EF0FAEA9A3007FF0CA /* RimBrandsController.m */;
 		name = "RimBrandsController.m: 21";
 		rLen = 0;
-		rLoc = 770;
+		rLoc = 612;
 		rType = 0;
 		vrLen = 1437;
 		vrLoc = 32;
@@ -2380,7 +2381,7 @@
 		fRef = DF7B11EF0FAEA9A3007FF0CA /* RimBrandsController.m */;
 		name = "RimBrandsController.m: 21";
 		rLen = 0;
-		rLoc = 770;
+		rLoc = 612;
 		rType = 0;
 		vrLen = 1432;
 		vrLoc = 32;
@@ -2390,7 +2391,7 @@
 		fRef = DF7B11EF0FAEA9A3007FF0CA /* RimBrandsController.m */;
 		name = "RimBrandsController.m: 21";
 		rLen = 0;
-		rLoc = 770;
+		rLoc = 612;
 		rType = 0;
 		vrLen = 336;
 		vrLoc = 576;
@@ -2410,7 +2411,7 @@
 		fRef = DF7B11EE0FAEA9A3007FF0CA /* RimBrandsController.h */;
 		name = "RimBrandsController.h: 6";
 		rLen = 0;
-		rLoc = 175;
+		rLoc = 176;
 		rType = 0;
 		vrLen = 454;
 		vrLoc = 0;
@@ -2420,7 +2421,7 @@
 		fRef = DF7B11EF0FAEA9A3007FF0CA /* RimBrandsController.m */;
 		name = "RimBrandsController.m: 29";
 		rLen = 0;
-		rLoc = 1039;
+		rLoc = 944;
 		rType = 0;
 		vrLen = 1219;
 		vrLoc = 576;
@@ -2450,7 +2451,7 @@
 		fRef = DF7B11EF0FAEA9A3007FF0CA /* RimBrandsController.m */;
 		name = "RimBrandsController.m: 29";
 		rLen = 0;
-		rLoc = 1039;
+		rLoc = 944;
 		rType = 0;
 		vrLen = 1219;
 		vrLoc = 576;
@@ -2460,7 +2461,7 @@
 		fRef = DF7B11EE0FAEA9A3007FF0CA /* RimBrandsController.h */;
 		name = "RimBrandsController.h: 6";
 		rLen = 0;
-		rLoc = 175;
+		rLoc = 176;
 		rType = 0;
 		vrLen = 454;
 		vrLoc = 0;
@@ -2470,7 +2471,7 @@
 		fRef = DF7B11EF0FAEA9A3007FF0CA /* RimBrandsController.m */;
 		name = "RimBrandsController.m: 29";
 		rLen = 0;
-		rLoc = 1039;
+		rLoc = 944;
 		rType = 0;
 		vrLen = 1219;
 		vrLoc = 576;
@@ -2510,7 +2511,7 @@
 		fRef = DF7B11EF0FAEA9A3007FF0CA /* RimBrandsController.m */;
 		name = "RimBrandsController.m: 21";
 		rLen = 0;
-		rLoc = 770;
+		rLoc = 612;
 		rType = 0;
 		vrLen = 394;
 		vrLoc = 578;
@@ -2674,7 +2675,7 @@
 		fRef = DF7B11EF0FAEA9A3007FF0CA /* RimBrandsController.m */;
 		name = "RimBrandsController.m: 29";
 		rLen = 0;
-		rLoc = 1039;
+		rLoc = 944;
 		rType = 0;
 		vrLen = 1189;
 		vrLoc = 576;
@@ -2694,7 +2695,7 @@
 		fRef = DF7B11EF0FAEA9A3007FF0CA /* RimBrandsController.m */;
 		name = "RimBrandsController.m: 47";
 		rLen = 0;
-		rLoc = 1804;
+		rLoc = 1085;
 		rType = 0;
 		vrLen = 1161;
 		vrLoc = 773;
@@ -2704,7 +2705,7 @@
 		fRef = DF7B11EF0FAEA9A3007FF0CA /* RimBrandsController.m */;
 		name = "RimBrandsController.m: 47";
 		rLen = 0;
-		rLoc = 1804;
+		rLoc = 1085;
 		rType = 0;
 		vrLen = 1161;
 		vrLoc = 773;
@@ -2714,7 +2715,7 @@
 		fRef = DF7B11EF0FAEA9A3007FF0CA /* RimBrandsController.m */;
 		name = "RimBrandsController.m: 47";
 		rLen = 0;
-		rLoc = 1804;
+		rLoc = 1085;
 		rType = 0;
 		vrLen = 1161;
 		vrLoc = 773;
@@ -2748,7 +2749,7 @@
 		fRef = DF7B11EF0FAEA9A3007FF0CA /* RimBrandsController.m */;
 		name = "RimBrandsController.m: 47";
 		rLen = 0;
-		rLoc = 1804;
+		rLoc = 1085;
 		rType = 0;
 		vrLen = 380;
 		vrLoc = 1503;
@@ -2758,7 +2759,7 @@
 		fRef = DF7B11EF0FAEA9A3007FF0CA /* RimBrandsController.m */;
 		name = "RimBrandsController.m: 47";
 		rLen = 0;
-		rLoc = 1804;
+		rLoc = 1085;
 		rType = 0;
 		vrLen = 1345;
 		vrLoc = 580;
@@ -2788,7 +2789,7 @@
 		fRef = DF7B11EF0FAEA9A3007FF0CA /* RimBrandsController.m */;
 		name = "RimBrandsController.m: 47";
 		rLen = 0;
-		rLoc = 1804;
+		rLoc = 1085;
 		rType = 0;
 		vrLen = 1345;
 		vrLoc = 580;
@@ -2838,7 +2839,7 @@
 		fRef = DF7B11EF0FAEA9A3007FF0CA /* RimBrandsController.m */;
 		name = "RimBrandsController.m: 47";
 		rLen = 0;
-		rLoc = 1804;
+		rLoc = 1085;
 		rType = 0;
 		vrLen = 321;
 		vrLoc = 1583;
@@ -3936,7 +3937,7 @@
 		fRef = DF7B11EE0FAEA9A3007FF0CA /* RimBrandsController.h */;
 		name = "RimBrandsController.h: 6";
 		rLen = 0;
-		rLoc = 175;
+		rLoc = 176;
 		rType = 0;
 		vrLen = 454;
 		vrLoc = 0;
@@ -3946,7 +3947,7 @@
 		fRef = DF7B11EF0FAEA9A3007FF0CA /* RimBrandsController.m */;
 		name = "RimBrandsController.m: 29";
 		rLen = 0;
-		rLoc = 1039;
+		rLoc = 944;
 		rType = 0;
 		vrLen = 1466;
 		vrLoc = 338;
@@ -3956,7 +3957,7 @@
 		fRef = DF7B11D30FAEA9A3007FF0CA /* BrandListController.m */;
 		name = "BrandListController.m: 5";
 		rLen = 0;
-		rLoc = 212;
+		rLoc = 623;
 		rType = 0;
 		vrLen = 1036;
 		vrLoc = 0;
@@ -4046,7 +4047,7 @@
 		fRef = DF7B11EE0FAEA9A3007FF0CA /* RimBrandsController.h */;
 		name = "RimBrandsController.h: 6";
 		rLen = 0;
-		rLoc = 175;
+		rLoc = 176;
 		rType = 0;
 		vrLen = 454;
 		vrLoc = 0;
@@ -4056,7 +4057,7 @@
 		fRef = DF7B11EF0FAEA9A3007FF0CA /* RimBrandsController.m */;
 		name = "RimBrandsController.m: 29";
 		rLen = 0;
-		rLoc = 1039;
+		rLoc = 944;
 		rType = 0;
 		vrLen = 1466;
 		vrLoc = 338;
@@ -4066,7 +4067,7 @@
 		fRef = DF7B11D30FAEA9A3007FF0CA /* BrandListController.m */;
 		name = "BrandListController.m: 5";
 		rLen = 0;
-		rLoc = 212;
+		rLoc = 623;
 		rType = 0;
 		vrLen = 1036;
 		vrLoc = 0;
@@ -4798,7 +4799,7 @@
 		fRef = DF29BF2D0FB6290C000EB5B8 /* RimTest.m */;
 		name = "RimTest.m: 51";
 		rLen = 0;
-		rLoc = 1592;
+		rLoc = 1945;
 		rType = 0;
 		vrLen = 1188;
 		vrLoc = 330;
@@ -4818,7 +4819,7 @@
 		fRef = DF29BBE20FB47960000EB5B8 /* Part.m */;
 		name = "Part.m: 32";
 		rLen = 0;
-		rLoc = 979;
+		rLoc = 1418;
 		rType = 0;
 		vrLen = 1069;
 		vrLoc = 0;
@@ -4908,7 +4909,7 @@
 		fRef = DF29BF2D0FB6290C000EB5B8 /* RimTest.m */;
 		name = "RimTest.m: 51";
 		rLen = 0;
-		rLoc = 1592;
+		rLoc = 1945;
 		rType = 0;
 		vrLen = 1188;
 		vrLoc = 330;
@@ -4928,7 +4929,7 @@
 		fRef = DF29BBE20FB47960000EB5B8 /* Part.m */;
 		name = "Part.m: 32";
 		rLen = 0;
-		rLoc = 979;
+		rLoc = 1418;
 		rType = 0;
 		vrLen = 1069;
 		vrLoc = 0;
@@ -5098,7 +5099,7 @@
 		fRef = DF7B11EF0FAEA9A3007FF0CA /* RimBrandsController.m */;
 		name = "RimBrandsController.m: 29";
 		rLen = 0;
-		rLoc = 1039;
+		rLoc = 944;
 		rType = 0;
 		vrLen = 1309;
 		vrLoc = 618;
@@ -5118,7 +5119,7 @@
 		fRef = DF7B11EF0FAEA9A3007FF0CA /* RimBrandsController.m */;
 		name = "RimBrandsController.m: 29";
 		rLen = 0;
-		rLoc = 1039;
+		rLoc = 944;
 		rType = 0;
 		vrLen = 1309;
 		vrLoc = 618;
@@ -5288,7 +5289,7 @@
 		fRef = DF7B11EF0FAEA9A3007FF0CA /* RimBrandsController.m */;
 		name = "RimBrandsController.m: 29";
 		rLen = 0;
-		rLoc = 1039;
+		rLoc = 944;
 		rType = 0;
 		vrLen = 1425;
 		vrLoc = 78;
@@ -5298,7 +5299,7 @@
 		fRef = DF7B11D30FAEA9A3007FF0CA /* BrandListController.m */;
 		name = "BrandListController.m: 5";
 		rLen = 0;
-		rLoc = 212;
+		rLoc = 623;
 		rType = 0;
 		vrLen = 1011;
 		vrLoc = 0;
@@ -5328,7 +5329,7 @@
 		fRef = DF7B11D30FAEA9A3007FF0CA /* BrandListController.m */;
 		name = "BrandListController.m: 5";
 		rLen = 0;
-		rLoc = 212;
+		rLoc = 623;
 		rType = 0;
 		vrLen = 1011;
 		vrLoc = 0;
@@ -5338,7 +5339,7 @@
 		fRef = DF7B11EF0FAEA9A3007FF0CA /* RimBrandsController.m */;
 		name = "RimBrandsController.m: 29";
 		rLen = 0;
-		rLoc = 1039;
+		rLoc = 944;
 		rType = 0;
 		vrLen = 1425;
 		vrLoc = 78;
@@ -5348,7 +5349,7 @@
 		fRef = DF7B11D30FAEA9A3007FF0CA /* BrandListController.m */;
 		name = "BrandListController.m: 8";
 		rLen = 0;
-		rLoc = 177;
+		rLoc = 588;
 		rType = 0;
 		vrLen = 1085;
 		vrLoc = 0;
@@ -5358,7 +5359,7 @@
 		fRef = DF7B11D30FAEA9A3007FF0CA /* BrandListController.m */;
 		name = "BrandListController.m: 8";
 		rLen = 0;
-		rLoc = 177;
+		rLoc = 588;
 		rType = 0;
 		vrLen = 1080;
 		vrLoc = 0;
@@ -5378,7 +5379,7 @@
 		fRef = DF7B11D30FAEA9A3007FF0CA /* BrandListController.m */;
 		name = "BrandListController.m: 8";
 		rLen = 0;
-		rLoc = 177;
+		rLoc = 588;
 		rType = 0;
 		vrLen = 247;
 		vrLoc = 0;
@@ -5388,7 +5389,7 @@
 		fRef = DF7B11D30FAEA9A3007FF0CA /* BrandListController.m */;
 		name = "BrandListController.m: 8";
 		rLen = 0;
-		rLoc = 177;
+		rLoc = 588;
 		rType = 0;
 		vrLen = 1085;
 		vrLoc = 0;
@@ -5408,7 +5409,7 @@
 		fRef = DF7B11D30FAEA9A3007FF0CA /* BrandListController.m */;
 		name = "BrandListController.m: 8";
 		rLen = 0;
-		rLoc = 177;
+		rLoc = 588;
 		rType = 0;
 		vrLen = 1085;
 		vrLoc = 0;
@@ -5438,7 +5439,7 @@
 		fRef = DF7B11D30FAEA9A3007FF0CA /* BrandListController.m */;
 		name = "BrandListController.m: 8";
 		rLen = 0;
-		rLoc = 177;
+		rLoc = 588;
 		rType = 0;
 		vrLen = 283;
 		vrLoc = 32;
@@ -5603,9 +5604,9 @@
 	};
 	DF7B11D30FAEA9A3007FF0CA /* BrandListController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {927, 800}}";
-			sepNavSelRange = "{177, 0}";
-			sepNavVisRange = "{247, 857}";
+			sepNavIntBoundsRect = "{{0, 0}, {936, 912}}";
+			sepNavSelRange = "{511, 0}";
+			sepNavVisRange = "{0, 795}";
 		};
 	};
 	DF7B11D40FAEA9A3007FF0CA /* Database.h */ = {
@@ -5674,9 +5675,9 @@
 	};
 	DF7B11DF0FAEA9A3007FF0CA /* HubBrandsController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1219, 432}}";
-			sepNavSelRange = "{339, 0}";
-			sepNavVisRange = "{79, 602}";
+			sepNavIntBoundsRect = "{{0, 0}, {927, 416}}";
+			sepNavSelRange = "{413, 0}";
+			sepNavVisRange = "{0, 645}";
 		};
 	};
 	DF7B11E00FAEA9A3007FF0CA /* HubCell.h */ = {
@@ -5773,9 +5774,9 @@
 	};
 	DF7B11EF0FAEA9A3007FF0CA /* RimBrandsController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {943, 960}}";
-			sepNavSelRange = "{466, 0}";
-			sepNavVisRange = "{1040, 923}";
+			sepNavIntBoundsRect = "{{0, 0}, {927, 608}}";
+			sepNavSelRange = "{1217, 0}";
+			sepNavVisRange = "{79, 920}";
 		};
 	};
 	DF7B11F20FAEA9A3007FF0CA /* RimDetailController.h */ = {

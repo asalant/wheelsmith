@@ -3,7 +3,7 @@
 #import "RimListController.h"
 #import "Wheel.h"
 
-@interface RimBrandsController : BrandListController <RimEditDelegate> {
+@interface RimBrandsController : BrandListController <PartEditDelegate> {
     RimEditController *editController;
     RimListController *rimsController;
     Wheel *wheel;
