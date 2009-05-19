@@ -197,48 +197,7 @@
 	<key>Notifications</key>
 	<array/>
 	<key>OpenEditors</key>
-	<array>
-		<dict>
-			<key>Content</key>
-			<dict>
-				<key>PBXProjectModuleGUID</key>
-				<string>DF5DDC8F0FC237D000407EE0</string>
-				<key>PBXProjectModuleLabel</key>
-				<string>TODO.txt</string>
-				<key>PBXSplitModuleInNavigatorKey</key>
-				<dict>
-					<key>Split0</key>
-					<dict>
-						<key>PBXProjectModuleGUID</key>
-						<string>DF5DDC900FC237D000407EE0</string>
-						<key>PBXProjectModuleLabel</key>
-						<string>TODO.txt</string>
-						<key>_historyCapacity</key>
-						<integer>0</integer>
-						<key>bookmark</key>
-						<string>DF5DDC920FC237D000407EE0</string>
-						<key>history</key>
-						<array>
-							<string>DF5DDC910FC237D000407EE0</string>
-						</array>
-					</dict>
-					<key>SplitCount</key>
-					<string>1</string>
-				</dict>
-				<key>StatusBarVisibility</key>
-				<true/>
-			</dict>
-			<key>Geometry</key>
-			<dict>
-				<key>Frame</key>
-				<string>{{0, 20}, {1277, 626}}</string>
-				<key>PBXModuleWindowStatusBarHidden2</key>
-				<false/>
-				<key>RubberWindowFrame</key>
-				<string>422 54 1277 667 0 0 1280 778 </string>
-			</dict>
-		</dict>
-	</array>
+	<array/>
 	<key>PerspectiveWidths</key>
 	<array>
 		<integer>1280</integer>
@@ -320,14 +279,14 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>33</integer>
+									<integer>37</integer>
 									<integer>3</integer>
 									<integer>1</integer>
 									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 298}, {259, 609}}</string>
+							<string>{{0, 364}, {259, 609}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -358,7 +317,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>DF7B10B20FAEA6A8007FF0CA</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>RimBrandsController.m</string>
+								<string>RimDetailController.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -366,11 +325,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>DF7B10B30FAEA6A8007FF0CA</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>RimBrandsController.m</string>
+										<string>RimDetailController.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>DF5DDC8E0FC237CF00407EE0</string>
+										<string>DF5DDC9D0FC238C700407EE0</string>
 										<key>history</key>
 										<array>
 											<string>DF4664E20FAEB02400172895</string>
@@ -426,8 +385,6 @@
 											<string>DF29BF710FB62D22000EB5B8</string>
 											<string>DF29BFBB0FB75877000EB5B8</string>
 											<string>DF29C0420FB764A9000EB5B8</string>
-											<string>DF29C0430FB764A9000EB5B8</string>
-											<string>DF29C0440FB764A9000EB5B8</string>
 											<string>DF29C0700FB8B974000EB5B8</string>
 											<string>DF29C0740FB8B974000EB5B8</string>
 											<string>DF53C72D0FC1B79B000E9814</string>
@@ -453,7 +410,9 @@
 											<string>DF5DDC780FC2363A00407EE0</string>
 											<string>DF5DDC790FC2363A00407EE0</string>
 											<string>DF5DDC890FC2373100407EE0</string>
-											<string>DF5DDC8A0FC2373100407EE0</string>
+											<string>DF5DDC960FC238C600407EE0</string>
+											<string>DF5DDC970FC238C600407EE0</string>
+											<string>DF5DDC980FC238C600407EE0</string>
 										</array>
 										<key>prevStack</key>
 										<array>
@@ -528,6 +487,9 @@
 											<string>DF5DDC6D0FC2353900407EE0</string>
 											<string>DF29BEEA0FB61617000EB5B8</string>
 											<string>DF5DDC8B0FC2373100407EE0</string>
+											<string>DF5DDC990FC238C600407EE0</string>
+											<string>DF5DDC9A0FC238C600407EE0</string>
+											<string>DF5DDC9B0FC238C600407EE0</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -844,7 +806,6 @@
 	<key>WindowOrderList</key>
 	<array>
 		<string>/Users/alon/Projects/wheelsmith/wheelsmith.xcodeproj</string>
-		<string>DF5DDC8F0FC237D000407EE0</string>
 	</array>
 	<key>WindowString</key>
 	<string>1 110 1280 668 0 0 1280 778 </string>

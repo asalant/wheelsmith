@@ -295,6 +295,16 @@
 			DF5DDC8E0FC237CF00407EE0 /* PBXTextBookmark */ = DF5DDC8E0FC237CF00407EE0 /* PBXTextBookmark */;
 			DF5DDC910FC237D000407EE0 /* PBXBookmark */ = DF5DDC910FC237D000407EE0 /* PBXBookmark */;
 			DF5DDC920FC237D000407EE0 /* PBXTextBookmark */ = DF5DDC920FC237D000407EE0 /* PBXTextBookmark */;
+			DF5DDC930FC2381F00407EE0 /* PBXTextBookmark */ = DF5DDC930FC2381F00407EE0 /* PBXTextBookmark */;
+			DF5DDC940FC2381F00407EE0 /* PBXTextBookmark */ = DF5DDC940FC2381F00407EE0 /* PBXTextBookmark */;
+			DF5DDC960FC238C600407EE0 /* PBXTextBookmark */ = DF5DDC960FC238C600407EE0 /* PBXTextBookmark */;
+			DF5DDC970FC238C600407EE0 /* PBXTextBookmark */ = DF5DDC970FC238C600407EE0 /* PBXTextBookmark */;
+			DF5DDC980FC238C600407EE0 /* PBXTextBookmark */ = DF5DDC980FC238C600407EE0 /* PBXTextBookmark */;
+			DF5DDC990FC238C600407EE0 /* PBXTextBookmark */ = DF5DDC990FC238C600407EE0 /* PBXTextBookmark */;
+			DF5DDC9A0FC238C600407EE0 /* PBXTextBookmark */ = DF5DDC9A0FC238C600407EE0 /* PBXTextBookmark */;
+			DF5DDC9B0FC238C600407EE0 /* PBXTextBookmark */ = DF5DDC9B0FC238C600407EE0 /* PBXTextBookmark */;
+			DF5DDC9C0FC238C600407EE0 /* PBXTextBookmark */ = DF5DDC9C0FC238C600407EE0 /* PBXTextBookmark */;
+			DF5DDC9D0FC238C700407EE0 /* PBXTextBookmark */ = DF5DDC9D0FC238C700407EE0 /* PBXTextBookmark */;
 			DF7B13350FAEADF1007FF0CA = DF7B13350FAEADF1007FF0CA /* PBXTextBookmark */;
 			DFAAA3FB0FAED17700699647 = DFAAA3FB0FAED17700699647 /* PBXTextBookmark */;
 			DFAAA44E0FAF1EE800699647 = DFAAA44E0FAF1EE800699647 /* PBXTextBookmark */;
@@ -646,9 +656,10 @@
 	};
 	DF29BB6A0FB38BCC000EB5B8 /* TODO.txt */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1218, 572}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1218, 595}}";
 			sepNavSelRange = "{435, 0}";
 			sepNavVisRange = "{0, 435}";
+			sepNavWindowFrame = "{{422, -2}, {1277, 723}}";
 		};
 	};
 	DF29BB880FB472E9000EB5B8 /* PBXTextBookmark */ = {
@@ -1309,7 +1320,7 @@
 		fRef = DF7B11F30FAEA9A3007FF0CA /* RimDetailController.m */;
 		name = "RimDetailController.m: 32";
 		rLen = 129;
-		rLoc = 1154;
+		rLoc = 1149;
 		rType = 0;
 		vrLen = 1284;
 		vrLoc = 0;
@@ -1389,7 +1400,7 @@
 		fRef = DF7B11F30FAEA9A3007FF0CA /* RimDetailController.m */;
 		name = "RimDetailController.m: 32";
 		rLen = 129;
-		rLoc = 1154;
+		rLoc = 1149;
 		rType = 0;
 		vrLen = 1284;
 		vrLoc = 0;
@@ -2450,6 +2461,106 @@
 		vrLen = 435;
 		vrLoc = 0;
 	};
+	DF5DDC930FC2381F00407EE0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B11F50FAEA9A3007FF0CA /* RimListController.m */;
+		name = "RimListController.m: 22";
+		rLen = 0;
+		rLoc = 894;
+		rType = 0;
+		vrLen = 396;
+		vrLoc = 0;
+	};
+	DF5DDC940FC2381F00407EE0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B11EF0FAEA9A3007FF0CA /* RimBrandsController.m */;
+		name = "RimBrandsController.m: 47";
+		rLen = 0;
+		rLoc = 1768;
+		rType = 0;
+		vrLen = 380;
+		vrLoc = 1503;
+	};
+	DF5DDC960FC238C600407EE0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B11EF0FAEA9A3007FF0CA /* RimBrandsController.m */;
+		name = "RimBrandsController.m: 47";
+		rLen = 0;
+		rLoc = 1768;
+		rType = 0;
+		vrLen = 1345;
+		vrLoc = 580;
+	};
+	DF5DDC970FC238C600407EE0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B11F20FAEA9A3007FF0CA /* RimDetailController.h */;
+		name = "RimDetailController.h: 25";
+		rLen = 64;
+		rLoc = 882;
+		rType = 0;
+		vrLen = 976;
+		vrLoc = 0;
+	};
+	DF5DDC980FC238C600407EE0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B11F30FAEA9A3007FF0CA /* RimDetailController.m */;
+		name = "RimDetailController.m: 32";
+		rLen = 129;
+		rLoc = 1149;
+		rType = 0;
+		vrLen = 1303;
+		vrLoc = 0;
+	};
+	DF5DDC990FC238C600407EE0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B11EF0FAEA9A3007FF0CA /* RimBrandsController.m */;
+		name = "RimBrandsController.m: 47";
+		rLen = 0;
+		rLoc = 1768;
+		rType = 0;
+		vrLen = 1345;
+		vrLoc = 580;
+	};
+	DF5DDC9A0FC238C600407EE0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B11F30FAEA9A3007FF0CA /* RimDetailController.m */;
+		name = "RimDetailController.m: 32";
+		rLen = 129;
+		rLoc = 1149;
+		rType = 0;
+		vrLen = 1303;
+		vrLoc = 0;
+	};
+	DF5DDC9B0FC238C600407EE0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B11F20FAEA9A3007FF0CA /* RimDetailController.h */;
+		name = "RimDetailController.h: 25";
+		rLen = 64;
+		rLoc = 882;
+		rType = 0;
+		vrLen = 976;
+		vrLoc = 0;
+	};
+	DF5DDC9C0FC238C600407EE0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B11F30FAEA9A3007FF0CA /* RimDetailController.m */;
+		name = "RimDetailController.m: 14";
+		rLen = 0;
+		rLoc = 643;
+		rType = 0;
+		vrLen = 1298;
+		vrLoc = 0;
+	};
+	DF5DDC9D0FC238C700407EE0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B11F30FAEA9A3007FF0CA /* RimDetailController.m */;
+		name = "RimDetailController.m: 14";
+		rLen = 0;
+		rLoc = 643;
+		rType = 0;
+		vrLen = 1279;
+		vrLoc = 0;
+	};
 	DF7B10A80FAEA69B007FF0CA /* Wheelsmith */ = {
 		isa = PBXExecutable;
 		activeArgIndices = (
@@ -2700,14 +2811,14 @@
 	};
 	DF7B11EF0FAEA9A3007FF0CA /* RimBrandsController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {943, 944}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1219, 912}}";
 			sepNavSelRange = "{1768, 0}";
-			sepNavVisRange = "{773, 1161}";
+			sepNavVisRange = "{1583, 321}";
 		};
 	};
 	DF7B11F20FAEA9A3007FF0CA /* RimDetailController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {938, 567}}";
+			sepNavIntBoundsRect = "{{0, 0}, {938, 590}}";
 			sepNavSelRange = "{882, 64}";
 			sepNavVisRange = "{0, 976}";
 		};
@@ -2715,8 +2826,8 @@
 	DF7B11F30FAEA9A3007FF0CA /* RimDetailController.m */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {950, 688}}";
-			sepNavSelRange = "{1154, 129}";
-			sepNavVisRange = "{0, 1284}";
+			sepNavSelRange = "{643, 0}";
+			sepNavVisRange = "{0, 1279}";
 		};
 	};
 	DF7B11F40FAEA9A3007FF0CA /* RimListController.h */ = {

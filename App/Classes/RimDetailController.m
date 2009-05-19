@@ -9,9 +9,9 @@
 
 -(void)viewDidLoad {
     [super viewDidLoad];
-//    self.navigationItem.rightBarButtonItem = [[[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemEdit
-//                                                                                            target:self 
-//                                                                                            action:@selector(editRim)] autorelease];
+    self.navigationItem.rightBarButtonItem = [[[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd
+                                                                                            target:self 
+                                                                                            action:@selector(chooseRim)] autorelease];
     
 }
 
