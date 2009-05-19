@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project relativePaths="false" version="4">
   <component name="ChangeListManager">
-    <list default="true" readonly="true" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/test.sqlite3" afterPath="$PROJECT_DIR$/db/test.sqlite3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/hub.rb" afterPath="$PROJECT_DIR$/app/models/hub.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/unit/rim_test.rb" afterPath="$PROJECT_DIR$/test/unit/rim_test.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/development.sqlite3" afterPath="$PROJECT_DIR$/db/development.sqlite3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/development.log" afterPath="$PROJECT_DIR$/log/development.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/fixtures/rims.yml" afterPath="$PROJECT_DIR$/test/fixtures/rims.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/fixtures/hubs.yml" afterPath="$PROJECT_DIR$/test/fixtures/hubs.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/rim.rb" afterPath="$PROJECT_DIR$/app/models/rim.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/test.log" afterPath="$PROJECT_DIR$/log/test.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20090502045322_create_hubs.rb" afterPath="$PROJECT_DIR$/db/migrate/20090502045322_create_hubs.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20090502043833_create_rims.rb" afterPath="$PROJECT_DIR$/db/migrate/20090502043833_create_rims.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/unit/hub_test.rb" afterPath="$PROJECT_DIR$/test/unit/hub_test.rb" />
-    </list>
+    <list default="true" readonly="true" name="Default" comment="" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="parts.iws" />
   </component>
@@ -90,7 +75,7 @@
       <file leaf-file-name="parts.rake" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/tasks/parts.rake">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="6" selection-start="1575" selection-end="1575" vertical-scroll-proportion="0.6413044">
+            <state line="55" column="47" selection-start="1616" selection-end="1616" vertical-scroll-proportion="0.7124183">
               <folding />
             </state>
           </provider>
@@ -507,14 +492,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="22" width="1260" height="723" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Web Preview" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3290938" sideWeight="0.5" order="7" side_tool="false" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1844197" sideWeight="0.5" order="7" side_tool="false" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290938" sideWeight="0.5" order="2" side_tool="false" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30825242" sideWeight="0.6597774" order="0" side_tool="false" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30825242" sideWeight="0.8044515" order="0" side_tool="false" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21443442" sideWeight="0.5" order="1" side_tool="false" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290938" sideWeight="0.5" order="7" side_tool="false" />
@@ -660,7 +645,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/tasks/parts.rake">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="6" selection-start="1575" selection-end="1575" vertical-scroll-proportion="0.6413044">
+        <state line="55" column="47" selection-start="1616" selection-end="1616" vertical-scroll-proportion="0.7124183">
           <folding />
         </state>
       </provider>

@@ -190,12 +190,14 @@
     else if (cell == rimCell) {
         rimDetailController.editWheelDelegate = self;
         if (editing) {
+            rimDetailController.canChoosePart = YES;
             rimBrandsController.holeCount = wheel.hub.holeCount;
             rimBrandsController.brands = [Rim selectBrandNamesForHoleCount:wheel.hub.holeCount];
             [self.navigationController pushViewController:rimBrandsController animated:YES];
         }
         else if (wheel.rim) {
             rimDetailController.rim = wheel.rim;
+            rimDetailController.canChoosePart = NO;
             [self.navigationController pushViewController:rimDetailController animated:YES];
         }
     }

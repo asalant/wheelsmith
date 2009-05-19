@@ -4,7 +4,8 @@ x Add rim
 x Edit a wheel?
 x Consider wheel detail having edit button in nav bar that switches cells to allowing choosing rim, hub and pattern.
 x Refresh brand list after adding new part
-Hide add button when viewing part detail
+Delete unverified parts
+Hide add button when viewing part detail for wheel
 Add hub
 Change back button text for edit/add to Cancel
 Scroll brand list to added brand and animate addition

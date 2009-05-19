@@ -13,6 +13,7 @@
     IBOutlet UILabel *holeCountLabel;
     id<EditWheelDelegate> editWheelDelegate;
     RimEditController *editController;
+    BOOL canChoosePart;
 }
 
 @property(nonatomic, retain) Rim *rim;
@@ -24,6 +25,7 @@
 @property(nonatomic, retain) UILabel *holeCountLabel;
 @property(nonatomic, retain) id<EditWheelDelegate> editWheelDelegate;
 @property(nonatomic, retain) RimEditController *editController;
+@property(nonatomic, assign) BOOL canChoosePart;
 
 -(IBAction)chooseRim;
 

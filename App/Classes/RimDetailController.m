@@ -5,18 +5,20 @@
 
 @synthesize rim;
 @synthesize brandLabel, descriptionLabel, erdLabel, offsetLabel, sizeLabel, holeCountLabel;
-@synthesize editWheelDelegate, editController;
-
--(void)viewDidLoad {
-    [super viewDidLoad];
-    self.navigationItem.rightBarButtonItem = [[[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd
-                                                                                            target:self 
-                                                                                            action:@selector(chooseRim)] autorelease];
-    
-}
+@synthesize editWheelDelegate, editController, canChoosePart;
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
+    
+    if (canChoosePart)
+    {
+        self.navigationItem.rightBarButtonItem = [[[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd
+                                                                                                target:self 
+                                                                                                action:@selector(chooseRim)] autorelease];
+    }
+    else {
+        self.navigationItem.rightBarButtonItem = nil;
+    }
     
     brandLabel.text = rim.brand;
     descriptionLabel.text = rim.description;
