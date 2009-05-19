@@ -9,6 +9,7 @@ record_front:
   left_flange_diameter: 39.0
   left_flange_to_center: 35.0
   hole_count: 32
+  verified: true
 
 king_rear:
   brand: Chris King
@@ -19,3 +20,4 @@ king_rear:
   left_flange_diameter: 46.0
   left_flange_to_center: 16.5
   hole_count: 28
+  verified: true

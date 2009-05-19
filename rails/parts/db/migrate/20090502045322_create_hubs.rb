@@ -10,6 +10,7 @@ class CreateHubs < ActiveRecord::Migration
       t.float :left_flange_diameter
       t.float :left_flange_to_center
       t.integer :hole_count
+      t.boolean :verified
 
       t.timestamps
     end

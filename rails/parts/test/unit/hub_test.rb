@@ -9,6 +9,7 @@ class HubTest < ActiveSupport::TestCase
     assert_equal "Kris Holm", hub.brand
     assert_equal "36H unicycle hub, 127mm crankset, blk", hub.description
     assert hub.rear?
+    assert hub.verified?
     assert_equal 56.0, hub.left_flange_diameter
     assert_equal 33.5, hub.left_flange_to_center
     assert_equal 56.0, hub.right_flange_diameter
@@ -24,6 +25,7 @@ class HubTest < ActiveSupport::TestCase
     assert_equal "DT Swiss", hub.brand
     assert_equal "370 Front 28h Hub QR", hub.description
     assert !hub.rear?
+    assert hub.verified?
     assert_equal 39.0, hub.left_flange_diameter
     assert_equal 36.5, hub.left_flange_to_center
     assert_equal 39.0, hub.right_flange_diameter

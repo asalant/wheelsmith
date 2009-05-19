@@ -14,7 +14,8 @@ class Hub < ActiveRecord::Base
                   :right_flange_diameter => row[4 + offset].to_f,
                   :left_flange_to_center => row[5 + offset].to_f,
                   :right_flange_to_center => row[6 + offset].to_f,
-                  :hole_count => row[7 + offset]
+                  :hole_count => row[7 + offset],
+                  :verified => true
 
     hub.description.gsub! /^#{hub.brand}\W+/, ''
     hub

@@ -9,7 +9,8 @@ class Rim < ActiveRecord::Base
                   :size => row[3],
                   :erd => row[4].to_f,
                   :offset => row[5].to_f,
-                  :hole_count => row[6]
+                  :hole_count => row[6],
+                  :verified => true
 
     rim.description.gsub! /^#{rim.brand}\W+/, ''
     rim

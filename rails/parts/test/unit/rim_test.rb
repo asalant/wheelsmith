@@ -8,6 +8,7 @@ class RimTest < ActiveSupport::TestCase
     assert_equal "RM0001", rim.part_number
     assert_equal "Surly", rim.brand
     assert_equal "Large Marge DH", rim.description
+    assert rim.verified?
     assert_equal 559, rim.size
     assert_equal 536.0, rim.erd
     assert_equal 0.0, rim.offset

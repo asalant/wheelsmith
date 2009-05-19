@@ -21,6 +21,7 @@ ActiveRecord::Schema.define(:version => 20090502045322) do
     t.float    "left_flange_diameter"
     t.float    "left_flange_to_center"
     t.integer  "hole_count"
+    t.boolean  "verified"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
@@ -35,6 +36,7 @@ ActiveRecord::Schema.define(:version => 20090502045322) do
     t.float    "erd"
     t.float    "offset"
     t.integer  "hole_count"
+    t.boolean  "verified"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

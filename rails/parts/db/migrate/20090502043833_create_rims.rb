@@ -8,6 +8,7 @@ class CreateRims < ActiveRecord::Migration
       t.float :erd
       t.float :offset
       t.integer :hole_count
+      t.boolean :verified
 
       t.timestamps
     end

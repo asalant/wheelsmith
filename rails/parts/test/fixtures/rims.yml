@@ -7,6 +7,7 @@ open_pro:
   erd: 602.0
   offset: 0.0
   hole_count: 32
+  verified: true
 
 deep_v:
   brand: Velocity
@@ -15,3 +16,4 @@ deep_v:
   erd: 582.0
   offset: 0.0
   hole_count: 28
+  verified: true
