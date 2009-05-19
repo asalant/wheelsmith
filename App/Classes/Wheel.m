@@ -18,11 +18,11 @@
             nil];
 }
 
-+ (id) readFromRow:(DatabaseResultSet *)result {
-    Wheel *wheel = (Wheel *) [super readFromRow:result];
-    wheel.hub = [Hub find:wheel.hubId];
-    wheel.rim = [Rim find:wheel.rimId];
-    return wheel;
+-(Rim *)rim {
+    if (![rimId isEqual:rim.pk]) {
+        self.rim = [Rim find:rimId];
+    }
+    return rim;
 }
 
 -(void)setRim:(Rim *)theRim {
@@ -30,6 +30,13 @@
     rim = theRim;
     [rim retain];
     self.rimId = rim.pk;
+}
+
+-(Hub *)hub {
+    if (![hubId isEqual:hub.pk]) {
+        self.hub = [Hub find:hubId];
+    }
+    return hub;
 }
 
 -(void)setHub:(Hub *)theHub {

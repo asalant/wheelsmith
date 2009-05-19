@@ -8,9 +8,9 @@
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
 		activeBuildConfigurationName = Debug;
-		activeExecutable = DF7B11480FAEA80F007FF0CA /* Unit Tests */;
+		activeExecutable = DF7B10A80FAEA69B007FF0CA /* Wheelsmith */;
 		activeSDKPreference = iphonesimulator2.2.1;
-		activeTarget = DF7B11460FAEA80F007FF0CA /* Unit Tests */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* Wheelsmith */;
 		addToTargets = (
 			DF7B11460FAEA80F007FF0CA /* Unit Tests */,
 			1D6058900D05DD3D006BFB54 /* Wheelsmith */,
@@ -433,6 +433,35 @@
 			DF5DDD480FC24A6400407EE0 /* PBXTextBookmark */ = DF5DDD480FC24A6400407EE0 /* PBXTextBookmark */;
 			DF5DDD490FC24B1C00407EE0 /* PBXTextBookmark */ = DF5DDD490FC24B1C00407EE0 /* PBXTextBookmark */;
 			DF5DDD4A0FC24B1C00407EE0 /* PBXTextBookmark */ = DF5DDD4A0FC24B1C00407EE0 /* PBXTextBookmark */;
+			DF5DDD530FC2956500407EE0 /* PBXTextBookmark */ = DF5DDD530FC2956500407EE0 /* PBXTextBookmark */;
+			DF5DDD540FC2956500407EE0 /* PBXTextBookmark */ = DF5DDD540FC2956500407EE0 /* PBXTextBookmark */;
+			DF5DDD550FC2956500407EE0 /* PBXTextBookmark */ = DF5DDD550FC2956500407EE0 /* PBXTextBookmark */;
+			DF5DDD560FC2956500407EE0 /* PBXTextBookmark */ = DF5DDD560FC2956500407EE0 /* PBXTextBookmark */;
+			DF5DDD570FC2956500407EE0 /* PBXTextBookmark */ = DF5DDD570FC2956500407EE0 /* PBXTextBookmark */;
+			DF5DDD580FC2956500407EE0 /* PBXTextBookmark */ = DF5DDD580FC2956500407EE0 /* PBXTextBookmark */;
+			DF5DDD590FC2956500407EE0 /* PBXTextBookmark */ = DF5DDD590FC2956500407EE0 /* PBXTextBookmark */;
+			DF5DDD5A0FC2956500407EE0 /* PBXTextBookmark */ = DF5DDD5A0FC2956500407EE0 /* PBXTextBookmark */;
+			DF5DDD5B0FC2956500407EE0 /* PBXTextBookmark */ = DF5DDD5B0FC2956500407EE0 /* PBXTextBookmark */;
+			DF5DDD5C0FC2956500407EE0 /* PBXTextBookmark */ = DF5DDD5C0FC2956500407EE0 /* PBXTextBookmark */;
+			DF5DDD5D0FC2956500407EE0 /* PBXTextBookmark */ = DF5DDD5D0FC2956500407EE0 /* PBXTextBookmark */;
+			DF5DDD5E0FC2956500407EE0 /* PBXTextBookmark */ = DF5DDD5E0FC2956500407EE0 /* PBXTextBookmark */;
+			DF5DDD5F0FC2956500407EE0 /* PBXTextBookmark */ = DF5DDD5F0FC2956500407EE0 /* PBXTextBookmark */;
+			DF5DDD600FC2956500407EE0 /* PBXTextBookmark */ = DF5DDD600FC2956500407EE0 /* PBXTextBookmark */;
+			DF5DDD610FC2956500407EE0 /* PBXTextBookmark */ = DF5DDD610FC2956500407EE0 /* PBXTextBookmark */;
+			DF5DDD620FC2956500407EE0 /* PBXTextBookmark */ = DF5DDD620FC2956500407EE0 /* PBXTextBookmark */;
+			DF5DDD630FC2956500407EE0 /* PBXTextBookmark */ = DF5DDD630FC2956500407EE0 /* PBXTextBookmark */;
+			DF5DDD640FC2956500407EE0 /* PBXTextBookmark */ = DF5DDD640FC2956500407EE0 /* PBXTextBookmark */;
+			DF5DDD650FC2956500407EE0 /* PBXTextBookmark */ = DF5DDD650FC2956500407EE0 /* PBXTextBookmark */;
+			DF5DDD670FC295B300407EE0 /* PBXTextBookmark */ = DF5DDD670FC295B300407EE0 /* PBXTextBookmark */;
+			DF5DDD690FC2962D00407EE0 /* PBXTextBookmark */ = DF5DDD690FC2962D00407EE0 /* PBXTextBookmark */;
+			DF5DDD6A0FC2965C00407EE0 /* PBXTextBookmark */ = DF5DDD6A0FC2965C00407EE0 /* PBXTextBookmark */;
+			DF5DDD700FC2973F00407EE0 /* PBXTextBookmark */ = DF5DDD700FC2973F00407EE0 /* PBXTextBookmark */;
+			DF5DDD710FC2973F00407EE0 /* PBXTextBookmark */ = DF5DDD710FC2973F00407EE0 /* PBXTextBookmark */;
+			DF5DDD720FC2973F00407EE0 /* PBXTextBookmark */ = DF5DDD720FC2973F00407EE0 /* PBXTextBookmark */;
+			DF5DDD730FC2973F00407EE0 /* PBXTextBookmark */ = DF5DDD730FC2973F00407EE0 /* PBXTextBookmark */;
+			DF5DDD740FC2973F00407EE0 /* PBXTextBookmark */ = DF5DDD740FC2973F00407EE0 /* PBXTextBookmark */;
+			DF5DDD750FC2973F00407EE0 /* PBXTextBookmark */ = DF5DDD750FC2973F00407EE0 /* PBXTextBookmark */;
+			DF5DDD760FC2973F00407EE0 /* PBXTextBookmark */ = DF5DDD760FC2973F00407EE0 /* PBXTextBookmark */;
 			DF7B13350FAEADF1007FF0CA = DF7B13350FAEADF1007FF0CA /* PBXTextBookmark */;
 			DFAAA3FB0FAED17700699647 = DFAAA3FB0FAED17700699647 /* PBXTextBookmark */;
 			DFAAA44E0FAF1EE800699647 = DFAAA44E0FAF1EE800699647 /* PBXTextBookmark */;
@@ -680,7 +709,7 @@
 		fRef = DF7B11FF0FAEA9A3007FF0CA /* Wheel.m */;
 		name = "Wheel.m: 76";
 		rLen = 0;
-		rLoc = 2603;
+		rLoc = 2618;
 		rType = 0;
 		vrLen = 847;
 		vrLoc = 921;
@@ -1158,7 +1187,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 103";
 		rLen = 0;
-		rLoc = 5639;
+		rLoc = 5638;
 		rType = 0;
 		vrLen = 740;
 		vrLoc = 3884;
@@ -1323,9 +1352,9 @@
 	};
 	DF29BF300FB6290C000EB5B8 /* WheelTest.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {927, 2816}}";
-			sepNavSelRange = "{3260, 0}";
-			sepNavVisRange = "{2810, 628}";
+			sepNavIntBoundsRect = "{{0, 0}, {927, 2844}}";
+			sepNavSelRange = "{3547, 0}";
+			sepNavVisRange = "{3203, 521}";
 		};
 	};
 	DF29BF490FB62AFD000EB5B8 /* PBXTextBookmark */ = {
@@ -1916,7 +1945,7 @@
 		fRef = DF7B12620FAEA9B5007FF0CA /* HubDetailControllerTest.m */;
 		name = "HubDetailControllerTest.m: 43";
 		rLen = 0;
-		rLoc = 1383;
+		rLoc = 1424;
 		rType = 0;
 		vrLen = 1021;
 		vrLoc = 373;
@@ -1926,7 +1955,7 @@
 		fRef = DF7B12620FAEA9B5007FF0CA /* HubDetailControllerTest.m */;
 		name = "HubDetailControllerTest.m: 43";
 		rLen = 0;
-		rLoc = 1383;
+		rLoc = 1424;
 		rType = 0;
 		vrLen = 1021;
 		vrLoc = 373;
@@ -1936,7 +1965,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 92";
 		rLen = 10;
-		rLoc = 5078;
+		rLoc = 5077;
 		rType = 0;
 		vrLen = 979;
 		vrLoc = 3237;
@@ -2053,7 +2082,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 143";
 		rLen = 91;
-		rLoc = 6753;
+		rLoc = 6752;
 		rType = 0;
 		vrLen = 1669;
 		vrLoc = 5483;
@@ -2855,7 +2884,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 77";
 		rLen = 0;
-		rLoc = 4334;
+		rLoc = 4333;
 		rType = 0;
 		vrLen = 1585;
 		vrLoc = 2245;
@@ -2865,7 +2894,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 77";
 		rLen = 0;
-		rLoc = 4334;
+		rLoc = 4333;
 		rType = 0;
 		vrLen = 1507;
 		vrLoc = 2460;
@@ -2875,7 +2904,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 77";
 		rLen = 0;
-		rLoc = 4334;
+		rLoc = 4333;
 		rType = 0;
 		vrLen = 826;
 		vrLoc = 2245;
@@ -2935,7 +2964,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 161";
 		rLen = 0;
-		rLoc = 6748;
+		rLoc = 6747;
 		rType = 0;
 		vrLen = 930;
 		vrLoc = 5959;
@@ -2975,7 +3004,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 146";
 		rLen = 0;
-		rLoc = 6020;
+		rLoc = 6019;
 		rType = 0;
 		vrLen = 1138;
 		vrLoc = 5256;
@@ -2985,7 +3014,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 146";
 		rLen = 0;
-		rLoc = 6020;
+		rLoc = 6019;
 		rType = 0;
 		vrLen = 1132;
 		vrLoc = 5261;
@@ -2995,7 +3024,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 146";
 		rLen = 0;
-		rLoc = 6020;
+		rLoc = 6019;
 		rType = 0;
 		vrLen = 415;
 		vrLoc = 5256;
@@ -3095,7 +3124,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 134";
 		rLen = 0;
-		rLoc = 5611;
+		rLoc = 5610;
 		rType = 0;
 		vrLen = 1202;
 		vrLoc = 4536;
@@ -3105,7 +3134,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 134";
 		rLen = 0;
-		rLoc = 5611;
+		rLoc = 5610;
 		rType = 0;
 		vrLen = 1255;
 		vrLoc = 4781;
@@ -3115,7 +3144,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 134";
 		rLen = 0;
-		rLoc = 5611;
+		rLoc = 5610;
 		rType = 0;
 		vrLen = 286;
 		vrLoc = 4536;
@@ -3145,7 +3174,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 134";
 		rLen = 0;
-		rLoc = 5611;
+		rLoc = 5610;
 		rType = 0;
 		vrLen = 1041;
 		vrLoc = 4217;
@@ -3355,7 +3384,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 169";
 		rLen = 0;
-		rLoc = 6731;
+		rLoc = 6730;
 		rType = 0;
 		vrLen = 1620;
 		vrLoc = 5823;
@@ -3365,7 +3394,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 169";
 		rLen = 0;
-		rLoc = 6731;
+		rLoc = 6730;
 		rType = 0;
 		vrLen = 1515;
 		vrLoc = 5928;
@@ -3375,7 +3404,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 169";
 		rLen = 0;
-		rLoc = 6731;
+		rLoc = 6730;
 		rType = 0;
 		vrLen = 375;
 		vrLoc = 5823;
@@ -3445,7 +3474,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 215";
 		rLen = 5;
-		rLoc = 8551;
+		rLoc = 8550;
 		rType = 0;
 		vrLen = 271;
 		vrLoc = 8190;
@@ -3465,7 +3494,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 104";
 		rLen = 0;
-		rLoc = 4858;
+		rLoc = 4857;
 		rType = 0;
 		vrLen = 811;
 		vrLoc = 4154;
@@ -3485,7 +3514,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 215";
 		rLen = 5;
-		rLoc = 8551;
+		rLoc = 8550;
 		rType = 0;
 		vrLen = 271;
 		vrLoc = 8190;
@@ -3545,7 +3574,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 215";
 		rLen = 5;
-		rLoc = 8551;
+		rLoc = 8550;
 		rType = 0;
 		vrLen = 436;
 		vrLoc = 8024;
@@ -3565,7 +3594,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 194";
 		rLen = 0;
-		rLoc = 8116;
+		rLoc = 8115;
 		rType = 0;
 		vrLen = 828;
 		vrLoc = 7365;
@@ -3575,7 +3604,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 194";
 		rLen = 0;
-		rLoc = 8116;
+		rLoc = 8115;
 		rType = 0;
 		vrLen = 758;
 		vrLoc = 7365;
@@ -3595,7 +3624,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 194";
 		rLen = 0;
-		rLoc = 8116;
+		rLoc = 8115;
 		rType = 0;
 		vrLen = 417;
 		vrLoc = 7643;
@@ -3605,7 +3634,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 161";
 		rLen = 166;
-		rLoc = 6565;
+		rLoc = 6564;
 		rType = 0;
 		vrLen = 1248;
 		vrLoc = 7179;
@@ -3615,7 +3644,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 161";
 		rLen = 166;
-		rLoc = 6565;
+		rLoc = 6564;
 		rType = 0;
 		vrLen = 1242;
 		vrLoc = 7179;
@@ -3625,7 +3654,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 161";
 		rLen = 166;
-		rLoc = 6565;
+		rLoc = 6564;
 		rType = 0;
 		vrLen = 417;
 		vrLoc = 7741;
@@ -3713,7 +3742,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 161";
 		rLen = 166;
-		rLoc = 6565;
+		rLoc = 6564;
 		rType = 0;
 		vrLen = 417;
 		vrLoc = 7739;
@@ -3943,7 +3972,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 103";
 		rLen = 0;
-		rLoc = 4685;
+		rLoc = 4684;
 		rType = 0;
 		vrLen = 837;
 		vrLoc = 4049;
@@ -3953,7 +3982,7 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 103";
 		rLen = 0;
-		rLoc = 4685;
+		rLoc = 4684;
 		rType = 0;
 		vrLen = 801;
 		vrLoc = 4162;
@@ -3973,10 +4002,300 @@
 		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
 		name = "WheelDetailController.m: 103";
 		rLen = 0;
-		rLoc = 4685;
+		rLoc = 4684;
 		rType = 0;
 		vrLen = 293;
 		vrLoc = 4339;
+	};
+	DF5DDD530FC2956500407EE0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B11DA0FAEA9A3007FF0CA /* DomainObject.h */;
+		name = "DomainObject.h: 31";
+		rLen = 0;
+		rLoc = 864;
+		rType = 0;
+		vrLen = 670;
+		vrLoc = 257;
+	};
+	DF5DDD540FC2956500407EE0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B11DD0FAEA9A3007FF0CA /* Hub.m */;
+		name = "Hub.m: 6";
+		rLen = 71;
+		rLoc = 90;
+		rType = 0;
+		vrLen = 1295;
+		vrLoc = 0;
+	};
+	DF5DDD550FC2956500407EE0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B11DB0FAEA9A3007FF0CA /* DomainObject.m */;
+		name = "DomainObject.m: 172";
+		rLen = 0;
+		rLoc = 6531;
+		rType = 0;
+		vrLen = 936;
+		vrLoc = 5225;
+	};
+	DF5DDD560FC2956500407EE0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF29BF300FB6290C000EB5B8 /* WheelTest.m */;
+		name = "WheelTest.m: 108";
+		rLen = 0;
+		rLoc = 3547;
+		rType = 0;
+		vrLen = 521;
+		vrLoc = 3203;
+	};
+	DF5DDD570FC2956500407EE0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B11FE0FAEA9A3007FF0CA /* Wheel.h */;
+		name = "Wheel.h: 4";
+		rLen = 0;
+		rLoc = 90;
+		rType = 0;
+		vrLen = 615;
+		vrLoc = 92;
+	};
+	DF5DDD580FC2956500407EE0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B11FF0FAEA9A3007FF0CA /* Wheel.m */;
+		name = "Wheel.m: 19";
+		rLen = 0;
+		rLoc = 733;
+		rType = 0;
+		vrLen = 429;
+		vrLoc = 559;
+	};
+	DF5DDD590FC2956500407EE0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
+		name = "WheelDetailController.m: 92";
+		rLen = 0;
+		rLoc = 4316;
+		rType = 0;
+		vrLen = 392;
+		vrLoc = 4127;
+	};
+	DF5DDD5A0FC2956500407EE0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
+		name = "WheelDetailController.m: 91";
+		rLen = 0;
+		rLoc = 4316;
+		rType = 0;
+		vrLen = 1108;
+		vrLoc = 3625;
+	};
+	DF5DDD5B0FC2956500407EE0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B11DA0FAEA9A3007FF0CA /* DomainObject.h */;
+		name = "DomainObject.h: 29";
+		rLen = 0;
+		rLoc = 834;
+		rType = 0;
+		vrLen = 919;
+		vrLoc = 0;
+	};
+	DF5DDD5C0FC2956500407EE0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF29BF300FB6290C000EB5B8 /* WheelTest.m */;
+		name = "WheelTest.m: 110";
+		rLen = 0;
+		rLoc = 3635;
+		rType = 0;
+		vrLen = 577;
+		vrLoc = 2787;
+	};
+	DF5DDD5D0FC2956500407EE0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
+		name = "WheelDetailController.m: 92";
+		rLen = 0;
+		rLoc = 4316;
+		rType = 0;
+		vrLen = 315;
+		vrLoc = 4127;
+	};
+	DF5DDD5E0FC2956500407EE0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF29BF300FB6290C000EB5B8 /* WheelTest.m */;
+		name = "WheelTest.m: 101";
+		rLen = 0;
+		rLoc = 3260;
+		rType = 0;
+		vrLen = 628;
+		vrLoc = 2810;
+	};
+	DF5DDD5F0FC2956500407EE0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B11DA0FAEA9A3007FF0CA /* DomainObject.h */;
+		name = "DomainObject.h: 31";
+		rLen = 0;
+		rLoc = 864;
+		rType = 0;
+		vrLen = 670;
+		vrLoc = 257;
+	};
+	DF5DDD600FC2956500407EE0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B11DB0FAEA9A3007FF0CA /* DomainObject.m */;
+		name = "DomainObject.m: 172";
+		rLen = 0;
+		rLoc = 6531;
+		rType = 0;
+		vrLen = 936;
+		vrLoc = 5225;
+	};
+	DF5DDD610FC2956500407EE0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF29BF300FB6290C000EB5B8 /* WheelTest.m */;
+		name = "WheelTest.m: 108";
+		rLen = 0;
+		rLoc = 3547;
+		rType = 0;
+		vrLen = 521;
+		vrLoc = 3203;
+	};
+	DF5DDD620FC2956500407EE0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B11FE0FAEA9A3007FF0CA /* Wheel.h */;
+		name = "Wheel.h: 4";
+		rLen = 0;
+		rLoc = 90;
+		rType = 0;
+		vrLen = 615;
+		vrLoc = 92;
+	};
+	DF5DDD630FC2956500407EE0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B11FF0FAEA9A3007FF0CA /* Wheel.m */;
+		name = "Wheel.m: 19";
+		rLen = 0;
+		rLoc = 733;
+		rType = 0;
+		vrLen = 429;
+		vrLoc = 559;
+	};
+	DF5DDD640FC2956500407EE0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
+		name = "WheelDetailController.m: 92";
+		rLen = 0;
+		rLoc = 4316;
+		rType = 0;
+		vrLen = 392;
+		vrLoc = 4127;
+	};
+	DF5DDD650FC2956500407EE0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
+		name = "WheelDetailController.m: 92";
+		rLen = 0;
+		rLoc = 4316;
+		rType = 0;
+		vrLen = 320;
+		vrLoc = 4122;
+	};
+	DF5DDD670FC295B300407EE0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
+		name = "WheelDetailController.m: 92";
+		rLen = 0;
+		rLoc = 4316;
+		rType = 0;
+		vrLen = 319;
+		vrLoc = 4122;
+	};
+	DF5DDD690FC2962D00407EE0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
+		name = "WheelDetailController.m: 92";
+		rLen = 0;
+		rLoc = 4316;
+		rType = 0;
+		vrLen = 319;
+		vrLoc = 4122;
+	};
+	DF5DDD6A0FC2965C00407EE0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
+		name = "WheelDetailController.m: 91";
+		rLen = 0;
+		rLoc = 4288;
+		rType = 0;
+		vrLen = 235;
+		vrLoc = 4162;
+	};
+	DF5DDD700FC2973F00407EE0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
+		name = "WheelDetailController.m: 91";
+		rLen = 0;
+		rLoc = 4288;
+		rType = 0;
+		vrLen = 348;
+		vrLoc = 4122;
+	};
+	DF5DDD710FC2973F00407EE0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B11FF0FAEA9A3007FF0CA /* Wheel.m */;
+		name = "Wheel.m: 36";
+		rLen = 0;
+		rLoc = 1000;
+		rType = 0;
+		vrLen = 335;
+		vrLoc = 732;
+	};
+	DF5DDD720FC2973F00407EE0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B12620FAEA9B5007FF0CA /* HubDetailControllerTest.m */;
+		name = "HubDetailControllerTest.m: 43";
+		rLen = 69;
+		rLoc = 1358;
+		rType = 0;
+		vrLen = 557;
+		vrLoc = 837;
+	};
+	DF5DDD730FC2973F00407EE0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */;
+		name = "WheelDetailController.m: 91";
+		rLen = 0;
+		rLoc = 4288;
+		rType = 0;
+		vrLen = 348;
+		vrLoc = 4122;
+	};
+	DF5DDD740FC2973F00407EE0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B11FF0FAEA9A3007FF0CA /* Wheel.m */;
+		name = "Wheel.m: 36";
+		rLen = 0;
+		rLoc = 1000;
+		rType = 0;
+		vrLen = 335;
+		vrLoc = 732;
+	};
+	DF5DDD750FC2973F00407EE0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B12620FAEA9B5007FF0CA /* HubDetailControllerTest.m */;
+		name = "HubDetailControllerTest.m: 22";
+		rLen = 0;
+		rLoc = 575;
+		rType = 0;
+		vrLen = 634;
+		vrLoc = 249;
+	};
+	DF5DDD760FC2973F00407EE0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DF7B12620FAEA9B5007FF0CA /* HubDetailControllerTest.m */;
+		name = "HubDetailControllerTest.m: 22";
+		rLen = 0;
+		rLoc = 575;
+		rType = 0;
+		vrLen = 713;
+		vrLoc = 283;
 	};
 	DF7B10A80FAEA69B007FF0CA /* Wheelsmith */ = {
 		isa = PBXExecutable;
@@ -4291,16 +4610,16 @@
 	};
 	DF7B11FE0FAEA9A3007FF0CA /* Wheel.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {938, 480}}";
+			sepNavIntBoundsRect = "{{0, 0}, {927, 416}}";
 			sepNavSelRange = "{90, 0}";
-			sepNavVisRange = "{0, 226}";
+			sepNavVisRange = "{92, 615}";
 		};
 	};
 	DF7B11FF0FAEA9A3007FF0CA /* Wheel.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1111, 1376}}";
-			sepNavSelRange = "{2603, 0}";
-			sepNavVisRange = "{921, 847}";
+			sepNavIntBoundsRect = "{{0, 0}, {927, 1648}}";
+			sepNavSelRange = "{1000, 0}";
+			sepNavVisRange = "{732, 335}";
 		};
 	};
 	DF7B12000FAEA9A3007FF0CA /* WheelDetailController.h */ = {
@@ -4312,9 +4631,9 @@
 	};
 	DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1076, 3528}}";
-			sepNavSelRange = "{4317, 0}";
-			sepNavVisRange = "{4127, 392}";
+			sepNavIntBoundsRect = "{{0, 0}, {1219, 3568}}";
+			sepNavSelRange = "{4288, 0}";
+			sepNavVisRange = "{4162, 235}";
 			sepNavWindowFrame = "{{1240, 55}, {1277, 723}}";
 		};
 	};
@@ -4325,6 +4644,11 @@
 		name = HubDetailControllerTest.m;
 		path = /Users/alon/Projects/wheelsmith/Test/Classes/HubDetailControllerTest.m;
 		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {927, 752}}";
+			sepNavSelRange = "{575, 0}";
+			sepNavVisRange = "{283, 713}";
+		};
 	};
 	DF7B12780FAEA9B5007FF0CA /* RunIPhoneUnitTest.sh */ = {
 		uiCtxt = {
@@ -4464,7 +4788,7 @@
 		fRef = DF7B11FF0FAEA9A3007FF0CA /* Wheel.m */;
 		name = "Wheel.m: 54";
 		rLen = 0;
-		rLoc = 2603;
+		rLoc = 2618;
 		rType = 0;
 		vrLen = 1257;
 		vrLoc = 1019;

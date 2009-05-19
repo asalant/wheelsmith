@@ -19,6 +19,7 @@
 
 -(void) setUp {
     Hub *hub = [[[Hub alloc] init] autorelease];
+    hub.pk = [NSNumber numberWithInt:1];
     hub.brand = @"Campagnolo";
     hub.description = @"Record";
     hub.holeCount = [NSNumber numberWithInt:32];

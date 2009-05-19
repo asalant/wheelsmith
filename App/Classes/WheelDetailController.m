@@ -86,10 +86,10 @@
 #pragma mark New Wheel controls
 
 - (void) cancelEdit {
-    if (!wheel.pk) {
-        [self disableEdit];
+    if (wheel.pk) {
         [wheel revert];
         [self updateView];
+        [self disableEdit];
     }
     else {
         [self dismissModalViewControllerAnimated:YES];
