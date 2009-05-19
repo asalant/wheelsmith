@@ -13,13 +13,6 @@
     [editController.brandTextField becomeFirstResponder];
 }
 
-#pragma mark PartEditDelegate methods
-
--(void)partSaved:(Rim *)rim created:(BOOL)created {
-    self.brands = [Rim selectBrandNamesForHoleCount:self.holeCount];
-    [self.tableView reloadData];
-}
-
 #pragma mark UITableViewController methods
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {

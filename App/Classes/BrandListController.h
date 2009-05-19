@@ -1,7 +1,7 @@
 #import <UIKit/UIKit.h>
+#import "PartEditDelegate.h"
 
-
-@interface BrandListController : UITableViewController {
+@interface BrandListController : UITableViewController <PartEditDelegate> {
     NSArray *brands;
     NSNumber *holeCount;
 }

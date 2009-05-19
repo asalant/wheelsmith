@@ -1,4 +1,5 @@
+#import "Part.h"
 
 @protocol PartEditDelegate
--(void)partSaved:(Rim *)rim created:(BOOL)created;
+-(void)partSaved:(Part *)part created:(BOOL)created;
 @end
