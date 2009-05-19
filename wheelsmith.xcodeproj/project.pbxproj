@@ -193,6 +193,7 @@
 		DF53C7240FC1B652000E9814 /* NSString+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extensions.m"; sourceTree = "<group>"; };
 		DF53C7270FC1B661000E9814 /* NSStringExtensionsTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSStringExtensionsTest.m; sourceTree = "<group>"; };
 		DF58D9210FAF693900C2F546 /* app_icon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app_icon2.png; sourceTree = "<group>"; };
+		DF5DDC410FC22FBB00407EE0 /* RimEditDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RimEditDelegate.h; sourceTree = "<group>"; };
 		DF7B11470FAEA80F007FF0CA /* Unit Tests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Unit Tests.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF7B11CD0FAEA94D007FF0CA /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		DF7B11D20FAEA9A3007FF0CA /* BrandListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrandListController.h; sourceTree = "<group>"; };
@@ -426,6 +427,7 @@
 				DF7B11F30FAEA9A3007FF0CA /* RimDetailController.m */,
 				DF29BEFA0FB6255A000EB5B8 /* RimEditController.h */,
 				DF29BEFB0FB6255A000EB5B8 /* RimEditController.m */,
+				DF5DDC410FC22FBB00407EE0 /* RimEditDelegate.h */,
 				DF7B11F40FAEA9A3007FF0CA /* RimListController.h */,
 				DF7B11F50FAEA9A3007FF0CA /* RimListController.m */,
 				DF7B11F60FAEA9A3007FF0CA /* RootMenuController.h */,

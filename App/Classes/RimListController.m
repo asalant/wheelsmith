@@ -6,16 +6,21 @@
 
 @implementation RimListController
 
-@synthesize rims, rimDetailController, editController;
+@synthesize rims, brand, rimDetailController, editController;
 
-/*
- - (void)viewDidLoad {
- [super viewDidLoad];
- 
- // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
- // self.navigationItem.rightBarButtonItem = self.editButtonItem;
- }
- */
+-(void)viewDidLoad {
+    [super viewDidLoad];
+    self.navigationItem.rightBarButtonItem = [[[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd
+                                                                                            target:self 
+                                                                                            action:@selector(addPart)] autorelease];
+}
+
+-(void)addPart {
+    editController.rim = [[[Rim alloc] init] autorelease];
+    editController.rim.brand = brand;
+    [self.navigationController pushViewController:editController animated:YES];
+    [editController.descriptionTextField becomeFirstResponder];
+}
 
 #pragma mark Table view methods
 

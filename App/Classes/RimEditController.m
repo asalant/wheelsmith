@@ -4,7 +4,7 @@
 
 @implementation RimEditController
 
-@synthesize rim;
+@synthesize rim, delegate;
 @synthesize brandTextField, descriptionTextField, erdTextField, offsetTextField, sizeTextField, holeCountTextField;
 
 -(void)viewDidLoad {
@@ -52,7 +52,14 @@
     rim.holeCount = [holeCountTextField.text intValue] == 0 ? nil : [NSNumber numberWithInt:[holeCountTextField.text intValue]];
     rim.erd = [erdTextField.text doubleValue] == 0.0 ? nil : [NSNumber numberWithDouble:[erdTextField.text doubleValue]];
     rim.offset = [NSNumber numberWithDouble:[offsetTextField.text doubleValue]];
-    [rim save];
+    if (rim.pk) {
+        [rim update];
+        [delegate rimSaved:rim created:NO];
+    }
+    else {
+        [rim create];
+        [delegate rimSaved:rim created:YES];
+    }
     [self.navigationController popViewControllerAnimated:YES];
 }
 
