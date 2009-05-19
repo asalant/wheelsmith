@@ -1,6 +1,7 @@
 #import <UIKit/UIKit.h>
 #import "Rim.h"
 #import "PartEditDelegate.h"
+#import "RimDetailController.h"
 
 @interface RimEditController : UIViewController {
     Rim *rim;
@@ -13,6 +14,7 @@
     id currentInput;
     NSArray *textFields;
     id<PartEditDelegate> delegate;
+    RimDetailController *detailController;
 }
 
 @property(nonatomic, retain) Rim *rim;
@@ -23,6 +25,7 @@
 @property(nonatomic, retain) UITextField *sizeTextField;
 @property(nonatomic, retain) UITextField *holeCountTextField;
 @property(nonatomic, retain) id<PartEditDelegate> delegate;
+@property(nonatomic, retain) RimDetailController *detailController;
 
 -(IBAction)saveRim;
 

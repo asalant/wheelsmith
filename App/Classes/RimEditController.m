@@ -4,7 +4,7 @@
 
 @implementation RimEditController
 
-@synthesize rim, delegate;
+@synthesize rim, delegate, detailController;
 @synthesize brandTextField, descriptionTextField, erdTextField, offsetTextField, sizeTextField, holeCountTextField;
 
 -(void)viewDidLoad {
@@ -54,17 +54,17 @@
     rim.offset = [NSNumber numberWithDouble:[offsetTextField.text doubleValue]];
     if (rim.pk) {
         [rim update];
-        [delegate partSaved:rim created:NO];
     }
     else {
         [rim create];
-        [delegate partSaved:rim created:YES];
     }
-    [self.navigationController popViewControllerAnimated:YES];
+    
+    [detailController.editWheelDelegate setRim:rim];
 }
 
 - (void)dealloc {
     [rim release];
+    [detailController release];
     [textFields release];
     [super dealloc];
 }

@@ -1,7 +1,6 @@
 #import <UIKit/UIKit.h>
 #import "Rim.h"
 #import "EditWheelDelegate.h"
-#import "RimEditController.h"
 
 @interface RimDetailController : UIViewController {
     Rim *rim;
@@ -13,7 +12,6 @@
     IBOutlet UILabel *holeCountLabel;
     IBOutlet UIButton *deleteButton;
     id<EditWheelDelegate> editWheelDelegate;
-    RimEditController *editController;
     BOOL canChoosePart;
 }
 
@@ -26,7 +24,6 @@
 @property(nonatomic, retain) UILabel *holeCountLabel;
 @property(nonatomic, retain) UIButton *deleteButton;
 @property(nonatomic, retain) id<EditWheelDelegate> editWheelDelegate;
-@property(nonatomic, retain) RimEditController *editController;
 @property(nonatomic, assign) BOOL canChoosePart;
 
 -(IBAction)chooseRim;

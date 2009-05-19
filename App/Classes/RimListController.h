@@ -1,5 +1,6 @@
 #import <UIKit/UIKit.h>
 #import "RimDetailController.h"
+#import "RimEditController.h"
 #import "Wheel.h"
 
 @interface RimListController : UITableViewController {

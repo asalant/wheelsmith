@@ -5,7 +5,7 @@
 
 @synthesize rim;
 @synthesize brandLabel, descriptionLabel, erdLabel, offsetLabel, sizeLabel, holeCountLabel, deleteButton;
-@synthesize editWheelDelegate, editController, canChoosePart;
+@synthesize editWheelDelegate, canChoosePart;
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
@@ -38,14 +38,8 @@
     [self.editWheelDelegate setRim:nil];
 }
 
--(void)editRim {
-    editController.rim = rim;
-    [self.navigationController pushViewController:editController animated:YES];
-}
-
 - (void)dealloc {
     [rim release];
-    [editController release];
     [super dealloc];
 }
 

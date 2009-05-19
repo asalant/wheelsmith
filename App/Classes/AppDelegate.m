@@ -20,16 +20,12 @@
 	[DomainObject setDatabase:[Database create:@"parts" overwrite:NO]];
     
     // Create and set dependencies
-    
-    RimEditController *rimEditController = [[[RimEditController alloc] initWithNibName:@"RimEditView" bundle:nil] autorelease];
-    rimEditController.title = @"Edit Rim";
-    
     RimDetailController *rimDetailController = [[[RimDetailController alloc] initWithNibName:@"RimDetailView" bundle:nil] autorelease];
     rimDetailController.title = @"Rim Detail";
-    rimDetailController.editController = rimEditController;
     
     RimEditController *rimAddController = [[[RimEditController alloc] initWithNibName:@"RimEditView" bundle:nil] autorelease];
     rimAddController.title = @"Add Rim";
+    rimAddController.detailController = rimDetailController;
     
     RimListController *rimListController = [[[RimListController alloc] initWithStyle:UITableViewStylePlain] autorelease];
     rimListController.rimDetailController = rimDetailController;
