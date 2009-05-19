@@ -4,9 +4,11 @@
 @interface Part : DomainObject {
     NSString *brand;
     NSString *description;
+    NSNumber *verified;
 }
 @property (nonatomic,retain) NSString *brand;
 @property (nonatomic,retain) NSString *description;
+@property (nonatomic,retain) NSNumber *verified;
 
 + (NSArray *) selectBrandNames;
 + (NSArray *) selectBrandNamesForHoleCount:(NSNumber *)holeCount;

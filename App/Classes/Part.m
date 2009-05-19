@@ -3,7 +3,7 @@
 
 @implementation Part
 
-@synthesize brand, description;
+@synthesize brand, description, verified;
 
 
 + (NSArray *) selectBrandNames {
@@ -24,6 +24,11 @@
 
 + (NSString *) handleBrandRow:(DatabaseResultSet *)result {
     return [result stringAt:0];
+}
+
+-(void)create {
+    self.verified = [NSNumber numberWithBool:NO];
+    [super create];
 }
 
 - (void) dealloc {

@@ -33,6 +33,7 @@
 - (void) testHydratesRim {
     Rim *rim = [[Rim findAllOrderBy:@"brand"] objectAtIndex:0];
     assertThat(rim.brand, equalTo(@"Mavic"));
+    assertThat(rim.verified, is([NSNumber numberWithBool:YES]));
     assertThat(rim.erd, equalTo([NSNumber numberWithDouble:602]));
     
 }
@@ -49,6 +50,7 @@
     rim.brand = @"Brand";
     [rim create];
     assertThat(rim.pk, notNilValue());
+    assertThat(rim.verified, is([NSNumber numberWithBool:NO]));
 }
 
 @end

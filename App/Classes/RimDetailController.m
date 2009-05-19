@@ -4,7 +4,7 @@
 @implementation RimDetailController
 
 @synthesize rim;
-@synthesize brandLabel, descriptionLabel, erdLabel, offsetLabel, sizeLabel, holeCountLabel;
+@synthesize brandLabel, descriptionLabel, erdLabel, offsetLabel, sizeLabel, holeCountLabel, deleteButton;
 @synthesize editWheelDelegate, editController, canChoosePart;
 
 - (void)viewWillAppear:(BOOL)animated {
@@ -12,7 +12,7 @@
     
     if (canChoosePart)
     {
-        self.navigationItem.rightBarButtonItem = [[[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd
+        self.navigationItem.rightBarButtonItem = [[[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemDone
                                                                                                 target:self 
                                                                                                 action:@selector(chooseRim)] autorelease];
     }
@@ -26,10 +26,16 @@
     offsetLabel.text = [StringUtil formatFloat:rim.offset];
     sizeLabel.text = [rim.size description];
     holeCountLabel.text = [NSString stringWithFormat:@"%d holes", [rim.holeCount intValue]];
+    deleteButton.hidden = [rim.verified boolValue];
 }
 
 -(IBAction)chooseRim {
     [self.editWheelDelegate setRim:rim];
+}
+
+-(IBAction)deleteRim {
+    [rim delete];
+    [self.editWheelDelegate setRim:nil];
 }
 
 -(void)editRim {

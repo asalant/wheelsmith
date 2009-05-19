@@ -76,7 +76,9 @@
                                                                                             target:self 
                                                                                             action:@selector(enableEdit)] autorelease];
     hubCell.accessoryType = UITableViewCellAccessoryNone;
+    hubCell.selectionStyle = wheel.hub ? UITableViewCellSelectionStyleBlue : UITableViewCellSelectionStyleNone;
     rimCell.accessoryType = UITableViewCellAccessoryNone;
+    rimCell.selectionStyle = wheel.rim ? UITableViewCellSelectionStyleBlue : UITableViewCellSelectionStyleNone;
     spokePatternCell.accessoryType = UITableViewCellAccessoryNone;
     spokePatternCell.selectionStyle = UITableViewCellSelectionStyleNone;
     

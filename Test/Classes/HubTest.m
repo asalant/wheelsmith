@@ -26,6 +26,7 @@
     Hub *hub = [[Hub findAllOrderBy:@"brand"] objectAtIndex:1];
     assertThat(hub.brand, equalTo(@"Chris King"));
     assertThat(hub.rear, is([NSNumber numberWithBool:YES]));
+    assertThat(hub.verified, is([NSNumber numberWithBool:YES]));
 }
 
 - (void) testSelectsBrandNames {

@@ -12,6 +12,7 @@
             [NSArray arrayWithObjects:@"updatedAt", @"datetime", nil], @"updated_at",
             [NSArray arrayWithObjects:@"brand", @"string", nil], @"brand",
             [NSArray arrayWithObjects:@"description", @"string", nil], @"description",
+            [NSArray arrayWithObjects:@"verified", @"boolean", nil], @"verified", 
             [NSArray arrayWithObjects:@"size", @"integer", nil], @"size",
             [NSArray arrayWithObjects:@"erd", @"float", nil], @"erd", 
             [NSArray arrayWithObjects:@"offset", @"float", nil], @"offset", 

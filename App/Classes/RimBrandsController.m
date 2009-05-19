@@ -43,6 +43,7 @@
 
 -(void)addPart {
     editController.rim = [[[Rim alloc] init] autorelease];
+    editController.delegate = self;
     [self.navigationController pushViewController:editController animated:YES];
     [editController.brandTextField becomeFirstResponder];
 }

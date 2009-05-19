@@ -11,6 +11,7 @@
     IBOutlet UILabel *offsetLabel;
     IBOutlet UILabel *sizeLabel;
     IBOutlet UILabel *holeCountLabel;
+    IBOutlet UIButton *deleteButton;
     id<EditWheelDelegate> editWheelDelegate;
     RimEditController *editController;
     BOOL canChoosePart;
@@ -23,10 +24,12 @@
 @property(nonatomic, retain) UILabel *offsetLabel;
 @property(nonatomic, retain) UILabel *sizeLabel;
 @property(nonatomic, retain) UILabel *holeCountLabel;
+@property(nonatomic, retain) UIButton *deleteButton;
 @property(nonatomic, retain) id<EditWheelDelegate> editWheelDelegate;
 @property(nonatomic, retain) RimEditController *editController;
 @property(nonatomic, assign) BOOL canChoosePart;
 
 -(IBAction)chooseRim;
+-(IBAction)deleteRim;
 
 @end
