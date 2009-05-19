@@ -1,11 +1,12 @@
 x Checkbox picker for spoke pattern
 x Limit rim and hub selection to hole count of the other
-Add hub
 x Add rim
 x Edit a wheel?
+x Consider wheel detail having edit button in nav bar that switches cells to allowing choosing rim, hub and pattern.
+x Refresh brand list after adding new part
+Hide add button when viewing part detail
+Add hub
 Change back button text for edit/add to Cancel
-Consider wheel detail having edit button in nav bar that switches cells to allowing choosing rim, hub and pattern.
-Refresh brand list after adding new part
 Scroll brand list to added brand and animate addition
 Scroll part list to added part and animate addition
 When editing my wheels list, hide add button
