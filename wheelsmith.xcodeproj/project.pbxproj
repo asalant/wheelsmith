@@ -848,8 +848,8 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = wheelsmith_Prefix.pch;
-				INFOPLIST_FILE = Info.plist;
+				GCC_PREFIX_HEADER = App/Source/wheelsmith_Prefix.pch;
+				INFOPLIST_FILE = App/Resources/Info.plist;
 				PRODUCT_NAME = wheelsmith;
 			};
 			name = Release;

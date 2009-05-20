@@ -14,7 +14,9 @@
         hubCell = [LabeledValueCell createCellWithLabel:@"Hub"  withValue:@""];       
         spokePatternCell = [LabeledValueCell createCellWithLabel:@"Spoke Pattern"  withValue:@""];
         leftLengthCell = [LabeledValueCell createCellWithLabel:@"Left Spoke Length" withValue:@""];
+        leftLengthCell.selectionStyle = UITableViewCellSelectionStyleNone;
         rightLengthCell = [LabeledValueCell createCellWithLabel:@"Right Spoke Length" withValue:@""];
+        rightLengthCell.selectionStyle = UITableViewCellSelectionStyleNone;
         
         sections = [[NSArray arrayWithObjects:
                      [NSArray arrayWithObjects:hubCell, rimCell, nil],
