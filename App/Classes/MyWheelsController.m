@@ -24,6 +24,9 @@
     [self.wheels insertObject:theWheel atIndex:0];
     [self.tableView insertRowsAtIndexPaths:[NSArray arrayWithObject:[NSIndexPath indexPathForRow:0 inSection:0]]
                           withRowAnimation:UITableViewRowAnimationFade];
+    
+    wheelDetailController.wheel = theWheel;
+	[self.navigationController pushViewController:wheelDetailController animated:NO];
 }
 
 -(void) afterUpdateWheel:(Wheel *)theWheel {
@@ -71,20 +74,11 @@
     return cell;
 }
 
-
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     wheelDetailController.wheel = [wheels objectAtIndex:indexPath.row];
 	[self.navigationController pushViewController:wheelDetailController animated:YES];
-}
 
-
-/*
-// Override to support conditional editing of the table view.
-- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath {
-    // Return NO if you do not want the specified item to be editable.
-    return YES;
 }
-*/
 
 
 // Override to support editing the table view.
