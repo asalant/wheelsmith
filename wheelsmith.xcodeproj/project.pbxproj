@@ -33,7 +33,7 @@
 		DF29BF220FB628E6000EB5B8 /* OCMockConstraintExtensionsTest.m in Sources */ = {isa = PBXBuildFile; fileRef = DF29BF1E0FB628E6000EB5B8 /* OCMockConstraintExtensionsTest.m */; };
 		DF29BF230FB628E6000EB5B8 /* UIViewController+Testable.m in Sources */ = {isa = PBXBuildFile; fileRef = DF29BF200FB628E6000EB5B8 /* UIViewController+Testable.m */; };
 		DF29BF310FB6290C000EB5B8 /* CheckmarkPickerControllerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = DF29BF250FB6290C000EB5B8 /* CheckmarkPickerControllerTest.m */; };
-		DF29BF320FB6290C000EB5B8 /* DatabaseSelectTest.m in Sources */ = {isa = PBXBuildFile; fileRef = DF29BF260FB6290C000EB5B8 /* DatabaseSelectTest.m */; };
+		DF29BF320FB6290C000EB5B8 /* DatabaseTest.m in Sources */ = {isa = PBXBuildFile; fileRef = DF29BF260FB6290C000EB5B8 /* DatabaseTest.m */; };
 		DF29BF330FB6290C000EB5B8 /* DomainObjectTest.m in Sources */ = {isa = PBXBuildFile; fileRef = DF29BF270FB6290C000EB5B8 /* DomainObjectTest.m */; };
 		DF29BF340FB6290C000EB5B8 /* HubDetailControllerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = DF29BF280FB6290C000EB5B8 /* HubDetailControllerTest.m */; };
 		DF29BF350FB6290C000EB5B8 /* HubTest.m in Sources */ = {isa = PBXBuildFile; fileRef = DF29BF290FB6290C000EB5B8 /* HubTest.m */; };
@@ -125,6 +125,8 @@
 		DF7B13090FAEAC55007FF0CA /* OCMock.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = DF7B127A0FAEA9B5007FF0CA /* OCMock.framework */; };
 		DF7B132B0FAEADC0007FF0CA /* hamcrest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF7B12790FAEA9B5007FF0CA /* hamcrest.framework */; };
 		DF7B132C0FAEADC0007FF0CA /* OCMock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF7B127A0FAEA9B5007FF0CA /* OCMock.framework */; };
+		DF8D38CA0FC8C8F200DF8DF0 /* SqliteDateFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = DF8D38C90FC8C8F200DF8DF0 /* SqliteDateFormatter.m */; };
+		DF8D38CB0FC8C8F200DF8DF0 /* SqliteDateFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = DF8D38C90FC8C8F200DF8DF0 /* SqliteDateFormatter.m */; };
 		DFD4DA310FAEB5DD00BC2BC2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD4DA2F0FAEB5DD00BC2BC2 /* main.m */; };
 		DFD4DA400FAEB98400BC2BC2 /* app_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DFD4DA3F0FAEB98400BC2BC2 /* app_icon.png */; };
 /* End PBXBuildFile section */
@@ -177,7 +179,7 @@
 		DF29BF1F0FB628E6000EB5B8 /* UIViewController+Testable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Testable.h"; sourceTree = "<group>"; };
 		DF29BF200FB628E6000EB5B8 /* UIViewController+Testable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Testable.m"; sourceTree = "<group>"; };
 		DF29BF250FB6290C000EB5B8 /* CheckmarkPickerControllerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckmarkPickerControllerTest.m; sourceTree = "<group>"; };
-		DF29BF260FB6290C000EB5B8 /* DatabaseSelectTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatabaseSelectTest.m; sourceTree = "<group>"; };
+		DF29BF260FB6290C000EB5B8 /* DatabaseTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatabaseTest.m; sourceTree = "<group>"; };
 		DF29BF270FB6290C000EB5B8 /* DomainObjectTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DomainObjectTest.m; sourceTree = "<group>"; };
 		DF29BF280FB6290C000EB5B8 /* HubDetailControllerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HubDetailControllerTest.m; sourceTree = "<group>"; };
 		DF29BF290FB6290C000EB5B8 /* HubTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HubTest.m; sourceTree = "<group>"; };
@@ -267,6 +269,8 @@
 		DF7B12820FAEA9B5007FF0CA /* file3 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = file3; sourceTree = "<group>"; };
 		DF7B12830FAEA9B5007FF0CA /* test.sqlite3 */ = {isa = PBXFileReference; lastKnownFileType = file; path = test.sqlite3; sourceTree = "<group>"; };
 		DF7B130F0FAEACA8007FF0CA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF8D38C80FC8C8F200DF8DF0 /* SqliteDateFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SqliteDateFormatter.h; sourceTree = "<group>"; };
+		DF8D38C90FC8C8F200DF8DF0 /* SqliteDateFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SqliteDateFormatter.m; sourceTree = "<group>"; };
 		DFAAA5A40FAF57F400699647 /* EditWheelDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditWheelDelegate.h; sourceTree = "<group>"; };
 		DFD4DA2F0FAEB5DD00BC2BC2 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DFD4DA300FAEB5DD00BC2BC2 /* wheelsmith_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wheelsmith_Prefix.pch; sourceTree = "<group>"; };
@@ -390,6 +394,8 @@
 		DF7B11D10FAEA9A3007FF0CA /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				DF8D38C80FC8C8F200DF8DF0 /* SqliteDateFormatter.h */,
+				DF8D38C90FC8C8F200DF8DF0 /* SqliteDateFormatter.m */,
 				DF53C7230FC1B652000E9814 /* NSString+Extensions.h */,
 				DF53C7240FC1B652000E9814 /* NSString+Extensions.m */,
 				DF7B11F80FAEA9A3007FF0CA /* AppDelegate.h */,
@@ -504,7 +510,7 @@
 			children = (
 				DF7B12670FAEA9B5007FF0CA /* Support */,
 				DF29BF250FB6290C000EB5B8 /* CheckmarkPickerControllerTest.m */,
-				DF29BF260FB6290C000EB5B8 /* DatabaseSelectTest.m */,
+				DF29BF260FB6290C000EB5B8 /* DatabaseTest.m */,
 				DF29BF270FB6290C000EB5B8 /* DomainObjectTest.m */,
 				DF29BF280FB6290C000EB5B8 /* HubDetailControllerTest.m */,
 				DF29BF290FB6290C000EB5B8 /* HubTest.m */,
@@ -763,6 +769,7 @@
 				DF29BC650FB488EB000EB5B8 /* CheckmarkPickerController.m in Sources */,
 				DF29BEFC0FB6255A000EB5B8 /* RimEditController.m in Sources */,
 				DF53C7260FC1B652000E9814 /* NSString+Extensions.m in Sources */,
+				DF8D38CB0FC8C8F200DF8DF0 /* SqliteDateFormatter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -807,7 +814,7 @@
 				DF29BF220FB628E6000EB5B8 /* OCMockConstraintExtensionsTest.m in Sources */,
 				DF29BF230FB628E6000EB5B8 /* UIViewController+Testable.m in Sources */,
 				DF29BF310FB6290C000EB5B8 /* CheckmarkPickerControllerTest.m in Sources */,
-				DF29BF320FB6290C000EB5B8 /* DatabaseSelectTest.m in Sources */,
+				DF29BF320FB6290C000EB5B8 /* DatabaseTest.m in Sources */,
 				DF29BF330FB6290C000EB5B8 /* DomainObjectTest.m in Sources */,
 				DF29BF340FB6290C000EB5B8 /* HubDetailControllerTest.m in Sources */,
 				DF29BF350FB6290C000EB5B8 /* HubTest.m in Sources */,
@@ -820,6 +827,7 @@
 				DF29C0650FB76725000EB5B8 /* RimEditControllerTest.m in Sources */,
 				DF53C7250FC1B652000E9814 /* NSString+Extensions.m in Sources */,
 				DF53C7280FC1B661000E9814 /* NSStringExtensionsTest.m in Sources */,
+				DF8D38CA0FC8C8F200DF8DF0 /* SqliteDateFormatter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

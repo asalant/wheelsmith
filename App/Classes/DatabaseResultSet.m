@@ -1,5 +1,6 @@
 #import "DatabaseResultSet.h"
 #import <sqlite3.h>
+#import "SqliteDateFormatter.h"
 
 @implementation DatabaseResultSet
 
@@ -47,7 +48,7 @@
     if (sqlite3_column_text(dbps, column) == nil)
         return nil;
     
-    return [NSDate dateWithTimeIntervalSince1970:sqlite3_column_double(dbps, column)];
+    return [[SqliteDateFormatter sharedFormatter] dateFromString:[self stringAt:column]];
 }
 
 - (void) dealloc {

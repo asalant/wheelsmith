@@ -1,5 +1,6 @@
 #import "DomainObject.h"
 #import "Database.h"
+#import "SqliteDateFormatter.h"
 
 static Database *database;
 
@@ -94,7 +95,8 @@ static Database *database;
                         [values componentsJoinedByString:@", "]];
     [database execute:insert delegate:nil rowHandler:nil];
     
-    id created = [[self class] findFirstByCriteria:[NSString stringWithFormat:@"created_at = %.6f", [self.createdAt timeIntervalSince1970]]
+    id created = [[self class] findFirstByCriteria:[NSString stringWithFormat:@"created_at = '%@'", 
+                                                    [[SqliteDateFormatter sharedFormatter] stringFromDate:self.createdAt]]
                                            orderBy:nil];
     self.pk = [created valueForKey:@"pk"];
 }
@@ -152,7 +154,7 @@ static Database *database;
             [values addObject:[NSString stringWithFormat:@"%f", [value doubleValue]]];
         }
         else if ([type isEqual:@"datetime"]) {
-            [values addObject:[NSString stringWithFormat:@"%.6f", [value timeIntervalSince1970]]];
+            [values addObject:[NSString stringWithFormat:@"'%@'", [[SqliteDateFormatter sharedFormatter] stringFromDate:value]]];
         }
         else if ([type isEqual:@"boolean"]) {
             [values addObject:[value boolValue] ? @"'t'" : @"'f'"];

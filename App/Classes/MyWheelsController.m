@@ -10,8 +10,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
-    self.title = @"My Wheels";
     self.navigationItem.leftBarButtonItem = self.editButtonItem; 
     self.navigationItem.rightBarButtonItem = [[[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd 
                                                                                            target:self 
