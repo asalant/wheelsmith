@@ -68,7 +68,9 @@
     spokePatternCell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     spokePatternCell.selectionStyle = UITableViewCellSelectionStyleBlue;
     
+    [self.tableView layoutIfNeeded];
     [self.tableView reloadData];
+    
 }
 
 - (void) disableEdit {
@@ -84,6 +86,7 @@
     spokePatternCell.accessoryType = UITableViewCellAccessoryNone;
     spokePatternCell.selectionStyle = UITableViewCellSelectionStyleNone;
     
+    [self.tableView layoutIfNeeded];
     [self.tableView reloadData];
 }
 
