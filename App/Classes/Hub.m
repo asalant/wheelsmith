@@ -22,6 +22,10 @@
             nil];
 }
 
+- (NSString *) rearDescription {
+    return [self.rear boolValue] ? @"rear" : @"front";
+}
+
 - (void) dealloc {
     [super dealloc];
 }

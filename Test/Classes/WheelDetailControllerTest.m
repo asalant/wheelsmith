@@ -28,17 +28,17 @@
     [controller viewWillAppear:NO];
     
     assertThat([NSNumber numberWithInt:[controller numberOfSectionsInTableView:nil]], 
-               is([NSNumber numberWithInt:2]));
+               is([NSNumber numberWithInt:1]));
     
     LabeledValueCell *hubCell = (LabeledValueCell *)[controller tableView:nil cellForRowAtIndexPath:[NSIndexPath indexPathForRow:0 inSection:0]];
-    assertThat(hubCell.valueLabel.text, is(@"Choose Hub"));
+    assertThat(hubCell.detailTextLabel.text, is(@""));
     assertThat([NSNumber numberWithInt:hubCell.accessoryType], 
                is([NSNumber numberWithInt:UITableViewCellAccessoryDisclosureIndicator]));
-    assertThat(((LabeledValueCell *)[controller tableView:nil cellForRowAtIndexPath:[NSIndexPath indexPathForRow:1 inSection:0]]).valueLabel.text,
-               is(@"Choose Rim"));
+    assertThat(((LabeledValueCell *)[controller tableView:nil cellForRowAtIndexPath:[NSIndexPath indexPathForRow:0 inSection:0]]).detailTextLabel.text,
+               is(@""));
     
-    assertThat(((LabeledValueCell *)[controller tableView:nil cellForRowAtIndexPath:[NSIndexPath indexPathForRow:0 inSection:1]]).valueLabel.text,
-               is(@"Choose Pattern"));
+    assertThat(((LabeledValueCell *)[controller tableView:nil cellForRowAtIndexPath:[NSIndexPath indexPathForRow:0 inSection:0]]).detailTextLabel.text,
+               is(@""));
 }
 
 -(void) testRendersForExistingWheel {
@@ -49,7 +49,7 @@
                is([NSNumber numberWithInt:3]));
     
     LabeledValueCell *cell = (LabeledValueCell *)[controller tableView:nil cellForRowAtIndexPath:[NSIndexPath indexPathForRow:0 inSection:0]];
-    assertThat(cell.valueLabel.text, is(@"Campagnolo Campagnolo Record Front 32h Black"));
+    assertThat(cell.detailTextLabel.text, is(@"Campagnolo Record Front 32h Black"));
     assertThat([NSNumber numberWithInt:cell.accessoryType], 
                is([NSNumber numberWithInt:UITableViewCellAccessoryNone]));
 }
@@ -62,10 +62,10 @@
     [controller enableEdit];
     
     assertThat([NSNumber numberWithInt:[controller numberOfSectionsInTableView:nil]], 
-               is([NSNumber numberWithInt:2]));
+               is([NSNumber numberWithInt:1]));
     
     LabeledValueCell *cell = (LabeledValueCell *)[controller tableView:nil cellForRowAtIndexPath:[NSIndexPath indexPathForRow:0 inSection:0]];
-    assertThat(cell.valueLabel.text, is(@"Campagnolo Campagnolo Record Front 32h Black"));
+    assertThat(cell.detailTextLabel.text, is(@"Campagnolo Record Front 32h Black"));
     assertThat([NSNumber numberWithInt:cell.accessoryType], 
                is([NSNumber numberWithInt:UITableViewCellAccessoryDisclosureIndicator]));
 }

@@ -1,6 +1,7 @@
 #import "RimEditController.h"
 #import "StringUtil.h"
 #import "NSString+Extensions.h"
+#import "FlurryAPI.h"
 
 @implementation RimEditController
 
@@ -54,9 +55,17 @@
     rim.offset = [NSNumber numberWithDouble:[offsetTextField.text doubleValue]];
     if (rim.pk) {
         [rim update];
+        [FlurryAPI logEvent:@"Update Rim" withParameters:[NSDictionary dictionaryWithObjectsAndKeys:
+                                                          rim.brand,  @"brand", 
+                                                          rim.description, @"description",
+                                                          nil]];
     }
     else {
         [rim create];
+        [FlurryAPI logEvent:@"Create Rim" withParameters:[NSDictionary dictionaryWithObjectsAndKeys:
+                                                          rim.brand,  @"brand", 
+                                                          rim.description, @"description",
+                                                          nil]];
     }
     
     [detailController.editWheelDelegate setRim:rim];

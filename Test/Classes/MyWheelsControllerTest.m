@@ -8,6 +8,7 @@
 #import "DomainObject.h"
 #import "MyWheelsController.h"
 #import "Wheel.h"
+#import "WheelCell.h"
 
 @interface MyWheelsControllerTest : SenTestCase {}
     MyWheelsController *controller;
@@ -23,9 +24,9 @@
 }
 
 -(void) testFormatsWheelCell {
-    LabeledValueCell *cell = (LabeledValueCell *)[controller tableView:0 cellForRowAtIndexPath:[NSIndexPath indexPathForRow:0 inSection:0]];
+    WheelCell *cell = (WheelCell *)[controller tableView:0 cellForRowAtIndexPath:[NSIndexPath indexPathForRow:0 inSection:0]];
     assertThat(cell, notNilValue());
-    assertThat(cell.valueLabel.text, is(@"radial"));
+    assertThat(cell.partsLabel.text, notNilValue());
 }
 
 @end

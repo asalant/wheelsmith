@@ -1,6 +1,11 @@
+#import "AppDefines.h"
 #import "WheelDetailController.h"
 #import "TableCellFactory.h"
 #import "LabeledValueCell.h"
+#import "FlurryAPI.h"
+#import "WheelEmail.h"
+#import "ButtonCell.h"
+#import "PatternPickerDelegate.h"
 
 @implementation WheelDetailController
 
@@ -10,30 +15,34 @@
 - (id)initWithStyle:(UITableViewStyle)style {
     if (self = [super initWithStyle:style]) {
         
-        rimCell = [LabeledValueCell createCellWithLabel:@"Rim"  withValue:@""];
-        hubCell = [LabeledValueCell createCellWithLabel:@"Hub"  withValue:@""];       
-        spokePatternCell = [LabeledValueCell createCellWithLabel:@"Spoke Pattern"  withValue:@""];
-        leftLengthCell = [LabeledValueCell createCellWithLabel:@"Left Spoke Length" withValue:@""];
+        rimCell = [LabeledValueCell createCellWithLabel:@"Rim"];
+        hubCell = [LabeledValueCell createCellWithLabel:@"Hub"];       
+        spokePatternCell = [LabeledValueCell createCellWithLabel:@"Pattern"];
+        leftLengthCell = [LabeledValueCell createCellWithLabel:@"Left"];
         leftLengthCell.selectionStyle = UITableViewCellSelectionStyleNone;
-        rightLengthCell = [LabeledValueCell createCellWithLabel:@"Right Spoke Length" withValue:@""];
+        rightLengthCell = [LabeledValueCell createCellWithLabel:@"Right"];
         rightLengthCell.selectionStyle = UITableViewCellSelectionStyleNone;
         
+        sendEmailCell = [ButtonCell cellWithLabel:@"Send Email"];
+        
         sections = [[NSArray arrayWithObjects:
-                     [NSArray arrayWithObjects:hubCell, rimCell, nil],
-                     [NSArray arrayWithObjects:spokePatternCell, nil],
+                     [NSArray arrayWithObjects:hubCell, rimCell, spokePatternCell, nil],
                      [NSArray arrayWithObjects:leftLengthCell, rightLengthCell, nil],
+                     [NSArray arrayWithObjects:sendEmailCell, nil],
                      nil] retain];
         
-        patternPickerOptions = [[NSDictionary dictionaryWithObjectsAndKeys:
-                                @"radial", [NSNumber numberWithInt:0], 
-                                 @"3 across", [NSNumber numberWithInt:3], 
-                                 @"4 across", [NSNumber numberWithInt:4], 
-                                 nil] retain];
+        NSArray *patternValues = [NSArray arrayWithObjects:[NSNumber numberWithInt:0], [NSNumber numberWithInt:1], [NSNumber numberWithInt:2], [NSNumber numberWithInt:3], [NSNumber numberWithInt:4], nil];
+        NSArray *patternLabels = [NSArray arrayWithObjects: @"radial", @"1 cross", @"2 cross", @"3 cross", @"4 cross", nil];
+        patternPickerOptions = [[NSDictionary dictionaryWithObjects:patternLabels forKeys:patternValues] retain];
+        
+        PatternPickerDelegate *pickerDeleagate = [[[PatternPickerDelegate alloc] init] autorelease];
+        pickerDeleagate.editWheelDelegate = self;
+        
         spokePatternPicker = [[[CheckmarkPickerController alloc] initWithStyle:UITableViewStyleGrouped] retain];
         spokePatternPicker.title = @"Spoke Pattern";
-        spokePatternPicker.delegate = self;
-        spokePatternPicker.options = [NSArray arrayWithObjects:[NSNumber numberWithInt:0], [NSNumber numberWithInt:3], [NSNumber numberWithInt:4], nil];
-        spokePatternPicker.selectedIndex = [NSNumber numberWithInt:1];
+        spokePatternPicker.delegate = pickerDeleagate;
+        spokePatternPicker.options = patternValues;
+        spokePatternPicker.selectedIndex = 3;
     }
     return self;
 }
@@ -50,11 +59,6 @@
     
 }
 
--(void)viewWillDisappear:(BOOL)animated {
-    [super viewWillDisappear:animated];
-    //[self disableEdit];
-}
-
 - (void) enableEdit {
     self.editing = YES;
     self.navigationItem.leftBarButtonItem = [[[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemCancel
@@ -68,13 +72,17 @@
     spokePatternCell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     spokePatternCell.selectionStyle = UITableViewCellSelectionStyleBlue;
     
-    [self.tableView layoutIfNeeded];
-    [self.tableView reloadData];
+    if ([self.tableView numberOfSections] > [self numberOfSectionsInTableView:self.tableView]) {
+        NSIndexSet *indices = [NSIndexSet indexSetWithIndexesInRange:NSMakeRange([self numberOfSectionsInTableView:self.tableView],
+                                                                                  [self.tableView numberOfSections] - [self numberOfSectionsInTableView:self.tableView])];
+        [self.tableView deleteSections: indices
+                      withRowAnimation: UITableViewRowAnimationFade];
+    }
     
 }
 
 - (void) disableEdit {
-    self.editing = false;
+    self.editing = NO;
     self.navigationItem.leftBarButtonItem = nil;
     self.navigationItem.rightBarButtonItem = [[[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemEdit
                                                                                             target:self 
@@ -86,8 +94,12 @@
     spokePatternCell.accessoryType = UITableViewCellAccessoryNone;
     spokePatternCell.selectionStyle = UITableViewCellSelectionStyleNone;
     
-    [self.tableView layoutIfNeeded];
-    [self.tableView reloadData];
+    if ([self.tableView numberOfSections] < [self numberOfSectionsInTableView:self.tableView]) {
+        NSIndexSet *indices = [NSIndexSet indexSetWithIndexesInRange:NSMakeRange([self.tableView numberOfSections],
+                                                                                [self numberOfSectionsInTableView:self.tableView] - [self.tableView numberOfSections])];
+        [self.tableView insertSections: indices
+                      withRowAnimation: UITableViewRowAnimationFade];
+    }
 }
 
 #pragma mark New Wheel controls
@@ -107,11 +119,13 @@
 - (void) saveWheel {
     if (!wheel.pk) {
         [self.wheel create];
+        [FlurryAPI logEvent:@"Create Wheel"];
         [delegate afterCreateWheel:self.wheel];
         [self dismissModalViewControllerAnimated:YES];
     }
     else {
         [wheel update];
+        [FlurryAPI logEvent:@"Update Wheel"];
         [delegate afterUpdateWheel:wheel];
         [self disableEdit];
     }
@@ -121,61 +135,71 @@
 
 -(void)setHub:(Hub *)hub {
     self.wheel.hub = hub;
+    [FlurryAPI logEvent:@"Choose Hub" withParameters:[NSDictionary dictionaryWithObjectsAndKeys:
+                                                      hub.brand,  @"brand", 
+                                                      hub.description, @"description",
+                                                      nil]];
     [self.navigationController popToViewController:self animated:YES];
 }
 
 -(void)setRim:(Rim *)rim {
     self.wheel.rim = rim;
+    [FlurryAPI logEvent:@"Choose Rim" withParameters:[NSDictionary dictionaryWithObjectsAndKeys:
+                                                      rim.brand,  @"brand", 
+                                                      rim.description, @"description",
+                                                      nil]];
     [self.navigationController popToViewController:self animated:YES];
 }
 
--(void)setSpokePattern:(NSNumber *)across {
-    wheel.spokePattern = across;
+-(void)setSpokePattern:(NSNumber *)cross {
+    wheel.spokePattern = cross;
+    [FlurryAPI logEvent:@"Choose Spoke Pattern" withParameters:[NSDictionary dictionaryWithObjectsAndKeys:
+                                                      wheel.spokePatternDescription,  @"pattern",
+                                                      nil]];
 }
 
 - (void) updateView {
-    [rimCell setValue:wheel.rim ? [NSString stringWithFormat:@"%@ %@",wheel.rim.brand, wheel.rim.description] : @"Choose Rim"];
-    [hubCell setValue:wheel.hub ? [NSString stringWithFormat:@"%@ %@",wheel.hub.brand, wheel.hub.description] : @"Choose Hub"];
-    [spokePatternCell setValue:wheel.spokePattern ? wheel.spokePatternDescription : @"Choose Pattern"];
+    rimCell.detailTextLabel.text = wheel.rim ? [NSString stringWithFormat:@"%@ %@",wheel.rim.brand, wheel.rim.description] : @"";
+    hubCell.detailTextLabel.text = wheel.hub ? [NSString stringWithFormat:@"%@ %@",wheel.hub.brand, wheel.hub.description] : @"";
+    spokePatternCell.detailTextLabel.text = wheel.spokePattern ? wheel.spokePatternDescription : @"";
     
-    [leftLengthCell setValue:[NSString stringWithFormat:@"%@mm", [wheel leftSpokeLength]]];
-    [rightLengthCell setValue:[NSString stringWithFormat:@"%@mm", [wheel rightSpokeLength]]];
+    leftLengthCell.detailTextLabel.text = [NSString stringWithFormat:@"%@ mm", [wheel leftSpokeLength]];
+    rightLengthCell.detailTextLabel.text = [NSString stringWithFormat:@"%@ mm", [wheel rightSpokeLength]];
     
     [self.tableView reloadData];
-}
-
-#pragma mark CheckmarkPickerDelegate methods
--(NSString *)labelForOption:(id)option {
-    return [patternPickerOptions objectForKey:option];
-}
-
--(void)optionSelected:(id)option {
-    [self setSpokePattern:option];
 }
 
 #pragma mark Table view methods
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
     if (editing || !wheel.isValid) {
-        return sections.count - 1;
+        return sections.count - 2;
     }
     return sections.count;
 }
 
+-(NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section
+{
+    switch (section) {
+        case 0:
+            return @"Build Specs";
+        case 1:
+            return @"Spoke Lengths";
+        default: 
+            return nil;
+    }
+}
 
-// Customize the number of rows in the table view.
+- (CGFloat) tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section {
+	return SECTION_HEIGHT;
+}
+
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     return [[sections objectAtIndex:section] count];
 }
 
-
-// Customize the appearance of table view cells.
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     UITableViewCell *cell = [[sections objectAtIndex:indexPath.section] objectAtIndex:indexPath.row];
-//    if (editing)
-//        cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
-//    else
-//        cell.accessoryType = UITableViewCellAccessoryNone;
     return cell;
 }
 
@@ -185,12 +209,14 @@
     if (cell == hubCell) {
         hubDetailController.editWheelDelegate = self;
         if (editing) {
+            hubDetailController.canChoosePart = YES;
             hubBrandsController.holeCount = wheel.rim.holeCount;
             hubBrandsController.brands = [Hub selectBrandNamesForHoleCount:wheel.rim.holeCount];
             [self.navigationController pushViewController:hubBrandsController animated:YES];
         }
         else if (wheel.hub) {
             hubDetailController.hub = wheel.hub;
+            hubDetailController.canChoosePart = NO;
             [self.navigationController pushViewController:hubDetailController animated:YES];
         }
     }
@@ -209,8 +235,13 @@
         }
     }
     else if (cell == spokePatternCell && editing) {
-        spokePatternPicker.selectedOption = self.wheel.spokePattern;
+        spokePatternPicker.selectedIndex = self.wheel.spokePattern ? [self.wheel.spokePattern intValue] : -1;
         [self.navigationController pushViewController:spokePatternPicker animated:YES];
+    }
+    else if (cell == sendEmailCell){
+        WheelEmail *email = [WheelEmail emailForWheel:wheel];
+        NSLog(@"Send email %@", [email createMailToUrl]);
+        [[UIApplication sharedApplication] openURL: [NSURL URLWithString: [email createMailToUrl]]];
     }
 }
 

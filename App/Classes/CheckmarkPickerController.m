@@ -4,38 +4,21 @@
 
 @synthesize selectedIndex, options, delegate;
 
--(void)viewDidLoad {
-    [super viewDidLoad];
-    
-    self.navigationItem.rightBarButtonItem = [[[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemDone
-                                                                                            target:self 
-                                                                                            action:@selector(commitSelection)] autorelease];
-}
-
 -(void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
     [self.tableView reloadData];
 }
 
 -(id)selectedOption {
-    if (!selectedIndex)
+    if (selectedIndex < 0 || selectedIndex > options.count - 1) {
         return nil;
-    return [options objectAtIndex:[selectedIndex intValue]];
+    }
+    return [options objectAtIndex:selectedIndex];
 }
 
--(void)setSelectedOption:(id)option {
-    int index = [options indexOfObject:option];
-    if (index == NSNotFound) {
-        self.selectedIndex = nil;
-    }
-    else {
-        self.selectedIndex = [NSNumber numberWithInt:index];
-    }
-}
-
--(void)commitSelection {
+-(void)setSelectedIndex:(int)index {
+    selectedIndex = index;
     [delegate optionSelected:self.selectedOption];
-    [self.navigationController popViewControllerAnimated:YES];
 }
 
 #pragma mark Table view methods
@@ -58,30 +41,37 @@
     
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     if (cell == nil) {
-        cell = [[[UITableViewCell alloc] initWithFrame:CGRectZero reuseIdentifier:CellIdentifier] autorelease];
+        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:CellIdentifier] autorelease];
+        //cell.textLabel.font = [UIFont systemFontOfSize:17];
     }
     
     // Set up the cell...
-    cell.text = [delegate labelForOption:[options objectAtIndex:indexPath.row]];
-    cell.selectionStyle = UITableViewCellSelectionStyleNone;
-    if (selectedIndex && indexPath.row == [selectedIndex intValue]) {
+    cell.textLabel.text = [delegate labelForOption:[options objectAtIndex:indexPath.row]];
+    if (indexPath.row == selectedIndex) {
         cell.accessoryType = UITableViewCellAccessoryCheckmark;
+        cell.textLabel.textColor = [UIColor colorWithRed:0/255.0 green:51/255.0 blue:153/255.0 alpha:1];
     }
     else {
         cell.accessoryType = UITableViewCellAccessoryNone;
+        cell.textLabel.textColor = [UIColor blackColor];
     }
 
     return cell;
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    self.selectedIndex = [NSNumber numberWithInt:indexPath.row];
-    [self.tableView reloadData];
+    NSMutableSet *changedIndices = [NSMutableSet setWithObject:indexPath];
+    if (self.selectedOption) {
+        [changedIndices addObject:[NSIndexPath indexPathForRow:selectedIndex inSection:0]];
+    }
+    self.selectedIndex = indexPath.row;
+
+    [tableView reloadRowsAtIndexPaths:[changedIndices allObjects]  withRowAnimation:UITableViewRowAnimationNone];
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
 }
 
 - (void)dealloc {
     [options release];
-    [selectedIndex release];
     [super dealloc];
 }
 

@@ -2,7 +2,7 @@
 
 @implementation HubCell
 
-@synthesize descriptionLabel, rearLabel;
+@synthesize descriptionLabel, rearLabel, holeCountLabel;
 
 - (Hub *) hub {
     return nil;
@@ -10,7 +10,8 @@
 
 - (void) setHub:(Hub *)hub {
     descriptionLabel.text = hub.description;
-    rearLabel.text = [hub.rear boolValue] ? @"Rear" : @"Front";
+    rearLabel.text = hub.rearDescription;
+    holeCountLabel.text = hub.holeCount ? [NSString stringWithFormat:@"%@h", hub.holeCount] : nil;
 }
 
 - (void)dealloc {

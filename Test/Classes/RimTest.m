@@ -67,4 +67,19 @@
     assertThat(rim.verified, is([NSNumber numberWithBool:NO]));
 }
 
+-(void)testDescribesNumericSize {
+    Rim *rim = [[[Rim alloc] init] autorelease];
+    assertThat(rim.sizeDescription, nilValue());
+    
+    rim.size = [NSNumber numberWithInt:0];
+    assertThat(rim.sizeDescription, nilValue());
+    
+    rim.size = [NSNumber numberWithInt:381];
+    assertThat(rim.sizeDescription, is(@"19\""));
+    
+    rim.size = [NSNumber numberWithInt:666];
+    assertThat(rim.sizeDescription, nilValue());
+}
+    
+
 @end

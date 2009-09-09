@@ -5,16 +5,20 @@
 
 @implementation HubListController
 
-@synthesize hubs, hubDetailController;
+@synthesize hubs, brand, hubDetailController, editController;
 
-/*
- - (void)viewDidLoad {
- [super viewDidLoad];
- 
- // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
- // self.navigationItem.rightBarButtonItem = self.editButtonItem;
- }
- */
+-(void)viewDidLoad {
+    [super viewDidLoad];
+//    self.navigationItem.rightBarButtonItem = [[[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd
+//                                                                                            target:self 
+//                                                                                            action:@selector(addPart)] autorelease];
+}
+
+-(void)addPart {
+    hubDetailController.hub = [[[Hub alloc] init] autorelease];
+    hubDetailController.hub.brand = brand;
+    [self.navigationController pushViewController:hubDetailController animated:YES];
+}
 
 #pragma mark Table view methods
 

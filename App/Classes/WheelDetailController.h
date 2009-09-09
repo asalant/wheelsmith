@@ -10,7 +10,7 @@
 #import "WheelDetailDelegate.h"
 #import "CheckmarkPickerDelegate.h"
 
-@interface WheelDetailController : UITableViewController <EditWheelDelegate, CheckmarkPickerDelegate> {
+@interface WheelDetailController : UITableViewController <EditWheelDelegate> {
     Wheel *wheel;
     LabeledValueCell *rimCell;
     LabeledValueCell *hubCell;
@@ -18,6 +18,7 @@
     LabeledValueCell *spokePatternCell;
     LabeledValueCell *leftLengthCell;
     LabeledValueCell *rightLengthCell;
+    UITableViewCell *sendEmailCell;
     HubDetailController *hubDetailController;
     RimDetailController *rimDetailController;
     HubBrandsController *hubBrandsController;

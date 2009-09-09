@@ -19,7 +19,7 @@
 }
 
 -(Rim *)rim {
-    if (![rimId isEqual:rim.pk]) {
+    if (rimId && ![rimId isEqual:rim.pk]) {
         self.rim = [Rim find:rimId];
     }
     return rim;
@@ -33,7 +33,7 @@
 }
 
 -(Hub *)hub {
-    if (![hubId isEqual:hub.pk]) {
+    if (hubId && ![hubId isEqual:hub.pk]) {
         self.hub = [Hub find:hubId];
     }
     return hub;
@@ -52,7 +52,7 @@
     else if ([spokePattern intValue] == 0)
         return @"radial";
     else
-        return [NSString stringWithFormat:@"%@ across", spokePattern];
+        return [NSString stringWithFormat:@"%@ cross", spokePattern];
 }
 
 - (BOOL) isValid {

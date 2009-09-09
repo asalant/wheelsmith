@@ -3,6 +3,7 @@ class Hub < ActiveRecord::Base
   validates_presence_of :brand, :description, :left_flange_diameter, :left_flange_to_center, :right_flange_diameter, :right_flange_to_center, :hole_count
   validates_inclusion_of :rear, :in => [true, false]
 
+
   def self.from_csv(row)
     rear = row[3].to_f == 0.0
     offset = rear ? 5 : 0
@@ -17,7 +18,10 @@ class Hub < ActiveRecord::Base
                   :hole_count => row[7 + offset],
                   :verified => true
 
-    hub.description.gsub! /^#{hub.brand}\W+/, ''
+    hub.description.gsub! /^#{hub.brand}\W+/i, ''
+    if BRAND_ALIASES[hub.brand]
+      hub.description.gsub! /^#{BRAND_ALIASES[hub.brand]}\W+/i, ''
+    end
     hub
   end
 

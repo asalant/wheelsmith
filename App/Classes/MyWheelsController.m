@@ -1,7 +1,8 @@
 #import "MyWheelsController.h"
 #import "Wheel.h"
 #import "TableCellFactory.h"
-#import "LabeledValueCell.h"
+#import "WheelCell.h"
+#import "FlurryAPI.h"
 
 @implementation MyWheelsController
 
@@ -20,9 +21,14 @@
 
 -(void) afterCreateWheel:(Wheel *)theWheel {
     [self.wheels insertObject:theWheel atIndex:0];
-    [self.tableView insertRowsAtIndexPaths:[NSArray arrayWithObject:[NSIndexPath indexPathForRow:0 inSection:0]]
-                          withRowAnimation:UITableViewRowAnimationFade];
-    
+    //http://bill.dudney.net/roller/objc/entry/quick_table_view_weirdness
+    if (self.wheels.count == 1) {
+        [self.tableView reloadData];
+    }
+    else {
+        [self.tableView insertRowsAtIndexPaths:[NSArray arrayWithObject:[NSIndexPath indexPathForRow:0 inSection:0]]
+                              withRowAnimation:UITableViewRowAnimationFade];
+    }
     wheelDetailController.wheel = theWheel;
 	[self.navigationController pushViewController:wheelDetailController animated:NO];
 }
@@ -51,24 +57,23 @@
     return wheels.count;
 }
 
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
+    return 60.0;
+}
 
 // Customize the appearance of table view cells.
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     
-    static NSString *CellIdentifier = @"LabeledValue";
+    static NSString *CellIdentifier = @"Wheel";
     
-    LabeledValueCell *cell = (LabeledValueCell *)[tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+    WheelCell *cell = (WheelCell *)[tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     if (cell == nil) {
-        cell = (LabeledValueCell *)[TableCellFactory createTableCellForClass:[LabeledValueCell class]
-                                                                      andNib:@"LabeledValueCell" 
+        cell = (WheelCell *)[TableCellFactory createTableCellForClass:[WheelCell class]
+                                                                      andNib:@"WheelCell" 
                                                               withIdentifier:CellIdentifier];
     }
     
-    Wheel *wheel = [wheels objectAtIndex:indexPath.row];
-    [cell setLabel:[NSString stringWithFormat:@"%@ / %@", wheel.hub ? wheel.hub.brand : @"?", wheel.rim ? wheel.rim.brand : @"?"]
-         withValue:wheel.spokePatternDescription];
-    cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
-
+    cell.wheel = [wheels objectAtIndex:indexPath.row];
     return cell;
 }
 
@@ -85,6 +90,7 @@
     if (editingStyle == UITableViewCellEditingStyleDelete) {
         Wheel *wheel = [self.wheels objectAtIndex:indexPath.row];
         [wheel delete];
+        [FlurryAPI logEvent:@"Delete Wheel"];
         [self.wheels removeObject:wheel];
         
         [tableView deleteRowsAtIndexPaths:[NSArray arrayWithObject:indexPath] withRowAnimation:YES];

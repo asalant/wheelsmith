@@ -2,14 +2,7 @@
 
 @implementation RimCell
 
-@synthesize descriptionLabel, sizeLabel;
-
-- (id)initWithFrame:(CGRect)frame reuseIdentifier:(NSString *)reuseIdentifier {
-    if (self = [super initWithFrame:frame reuseIdentifier:reuseIdentifier]) {
-        // Initialization code
-    }
-    return self;
-}
+@synthesize descriptionLabel, sizeLabel, holeCountLabel;
 
 - (Rim *) rim {
     return nil;
@@ -17,21 +10,15 @@
 
 - (void) setRim:(Rim *)rim {
     descriptionLabel.text = rim.description;
-    sizeLabel.text = [rim.size description];
-}
-
-
-- (void)setSelected:(BOOL)selected animated:(BOOL)animated {
-
-    [super setSelected:selected animated:animated];
-
-    // Configure the view for the selected state
+    sizeLabel.text = rim.sizeDescription;
+    holeCountLabel.text = rim.holeCount ? [NSString stringWithFormat:@"%@h", rim.holeCount] : nil;
 }
 
 
 - (void)dealloc {
 	[descriptionLabel release];
 	[sizeLabel release];
+	[holeCountLabel release];
     [super dealloc];
 }
 

@@ -1,32 +1,25 @@
 #import <UIKit/UIKit.h>
 #import "Rim.h"
+#import "LabeledValueCell.h"
 #import "EditWheelDelegate.h"
 
-@interface RimDetailController : UIViewController {
+@interface RimDetailController : UITableViewController {
     Rim *rim;
-    IBOutlet UILabel *brandLabel;
-    IBOutlet UILabel *descriptionLabel;
-    IBOutlet UILabel *erdLabel;
-    IBOutlet UILabel *offsetLabel;
-    IBOutlet UILabel *sizeLabel;
-    IBOutlet UILabel *holeCountLabel;
-    IBOutlet UIButton *deleteButton;
+    NSArray *sections;
+    LabeledValueCell *brandCell;
+    LabeledValueCell *descriptionCell;
+    LabeledValueCell *erdCell;
+    LabeledValueCell *offsetCell;
+    LabeledValueCell *sizeCell;
+    LabeledValueCell *holeCountCell;
     id<EditWheelDelegate> editWheelDelegate;
     BOOL canChoosePart;
 }
 
 @property(nonatomic, retain) Rim *rim;
-@property(nonatomic, retain) UILabel *brandLabel;
-@property(nonatomic, retain) UILabel *descriptionLabel;
-@property(nonatomic, retain) UILabel *erdLabel;
-@property(nonatomic, retain) UILabel *offsetLabel;
-@property(nonatomic, retain) UILabel *sizeLabel;
-@property(nonatomic, retain) UILabel *holeCountLabel;
-@property(nonatomic, retain) UIButton *deleteButton;
 @property(nonatomic, retain) id<EditWheelDelegate> editWheelDelegate;
 @property(nonatomic, assign) BOOL canChoosePart;
 
 -(IBAction)chooseRim;
--(IBAction)deleteRim;
 
 @end

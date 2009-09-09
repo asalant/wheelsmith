@@ -58,4 +58,17 @@
     assertThat(created.rear, is(hub.rear));
 }
 
+-(void)testDescriptionIsFront {
+    Hub *hub = [[[Hub alloc] init] autorelease];
+    assertThat(hub.rearDescription, is(@"front"));
+    hub.rear = [NSNumber numberWithBool:NO];
+    assertThat(hub.rearDescription, is(@"front"));
+}
+
+-(void)testDescriptionIsRear {
+    Hub *hub = [[[Hub alloc] init] autorelease];
+    hub.rear = [NSNumber numberWithBool:YES];
+    assertThat(hub.rearDescription, is(@"rear"));
+}
+
 @end

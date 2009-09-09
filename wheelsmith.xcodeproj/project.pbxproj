@@ -44,11 +44,17 @@
 		DF29BF3B0FB6290C000EB5B8 /* WheelDetailControllerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = DF29BF2F0FB6290C000EB5B8 /* WheelDetailControllerTest.m */; };
 		DF29BF3C0FB6290C000EB5B8 /* WheelTest.m in Sources */ = {isa = PBXBuildFile; fileRef = DF29BF300FB6290C000EB5B8 /* WheelTest.m */; };
 		DF29C0650FB76725000EB5B8 /* RimEditControllerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = DF29C0640FB76725000EB5B8 /* RimEditControllerTest.m */; };
+		DF43401B0FD9AA2400C63A21 /* libFlurry.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DF43401A0FD9AA2400C63A21 /* libFlurry.a */; };
+		DF43401C0FD9AA2400C63A21 /* libFlurry.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DF43401A0FD9AA2400C63A21 /* libFlurry.a */; };
 		DF4665170FAEB2C100172895 /* parts.sqlite3 in Resources */ = {isa = PBXBuildFile; fileRef = DF7B120F0FAEA9A3007FF0CA /* parts.sqlite3 */; };
 		DF53C7250FC1B652000E9814 /* NSString+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = DF53C7240FC1B652000E9814 /* NSString+Extensions.m */; };
 		DF53C7260FC1B652000E9814 /* NSString+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = DF53C7240FC1B652000E9814 /* NSString+Extensions.m */; };
 		DF53C7280FC1B661000E9814 /* NSStringExtensionsTest.m in Sources */ = {isa = PBXBuildFile; fileRef = DF53C7270FC1B661000E9814 /* NSStringExtensionsTest.m */; };
 		DF58D9220FAF693900C2F546 /* app_icon2.png in Resources */ = {isa = PBXBuildFile; fileRef = DF58D9210FAF693900C2F546 /* app_icon2.png */; };
+		DF6A15F50FFDC7BA00656308 /* ValueCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF6A15F40FFDC7BA00656308 /* ValueCell.xib */; };
+		DF6A15F60FFDC7BA00656308 /* ValueCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF6A15F40FFDC7BA00656308 /* ValueCell.xib */; };
+		DF6A161D0FFDCD8D00656308 /* PatternPickerDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6A161C0FFDCD8D00656308 /* PatternPickerDelegate.m */; };
+		DF6A161E0FFDCD8D00656308 /* PatternPickerDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF6A161C0FFDCD8D00656308 /* PatternPickerDelegate.m */; };
 		DF7B11CE0FAEA94D007FF0CA /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DF7B11CD0FAEA94D007FF0CA /* libsqlite3.dylib */; };
 		DF7B11CF0FAEA94D007FF0CA /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DF7B11CD0FAEA94D007FF0CA /* libsqlite3.dylib */; };
 		DF7B12130FAEA9A3007FF0CA /* BrandListController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B11D30FAEA9A3007FF0CA /* BrandListController.m */; };
@@ -67,19 +73,15 @@
 		DF7B12220FAEA9A3007FF0CA /* RimCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B11F10FAEA9A3007FF0CA /* RimCell.m */; };
 		DF7B12230FAEA9A3007FF0CA /* RimDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B11F30FAEA9A3007FF0CA /* RimDetailController.m */; };
 		DF7B12240FAEA9A3007FF0CA /* RimListController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B11F50FAEA9A3007FF0CA /* RimListController.m */; };
-		DF7B12250FAEA9A3007FF0CA /* RootMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B11F70FAEA9A3007FF0CA /* RootMenuController.m */; };
 		DF7B12260FAEA9A3007FF0CA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B11F90FAEA9A3007FF0CA /* AppDelegate.m */; };
 		DF7B12270FAEA9A3007FF0CA /* StringUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B11FB0FAEA9A3007FF0CA /* StringUtil.m */; };
 		DF7B12280FAEA9A3007FF0CA /* TableCellFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B11FD0FAEA9A3007FF0CA /* TableCellFactory.m */; };
 		DF7B12290FAEA9A3007FF0CA /* Wheel.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B11FF0FAEA9A3007FF0CA /* Wheel.m */; };
 		DF7B122A0FAEA9A3007FF0CA /* WheelDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */; };
 		DF7B122B0FAEA9A3007FF0CA /* HubCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF7B12040FAEA9A3007FF0CA /* HubCell.xib */; };
-		DF7B122C0FAEA9A3007FF0CA /* HubDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF7B12050FAEA9A3007FF0CA /* HubDetailView.xib */; };
 		DF7B12330FAEA9A3007FF0CA /* LabeledValueCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF7B120D0FAEA9A3007FF0CA /* LabeledValueCell.xib */; };
 		DF7B12340FAEA9A3007FF0CA /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF7B120E0FAEA9A3007FF0CA /* MainWindow.xib */; };
-		DF7B12360FAEA9A3007FF0CA /* PickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF7B12100FAEA9A3007FF0CA /* PickerView.xib */; };
 		DF7B12370FAEA9A3007FF0CA /* RimCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF7B12110FAEA9A3007FF0CA /* RimCell.xib */; };
-		DF7B12380FAEA9A3007FF0CA /* RimDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF7B12120FAEA9A3007FF0CA /* RimDetailView.xib */; };
 		DF7B12390FAEA9A3007FF0CA /* BrandListController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B11D30FAEA9A3007FF0CA /* BrandListController.m */; };
 		DF7B123A0FAEA9A3007FF0CA /* Database.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B11D50FAEA9A3007FF0CA /* Database.m */; };
 		DF7B123B0FAEA9A3007FF0CA /* DatabaseResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B11D70FAEA9A3007FF0CA /* DatabaseResultSet.m */; };
@@ -96,14 +98,12 @@
 		DF7B12480FAEA9A3007FF0CA /* RimCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B11F10FAEA9A3007FF0CA /* RimCell.m */; };
 		DF7B12490FAEA9A3007FF0CA /* RimDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B11F30FAEA9A3007FF0CA /* RimDetailController.m */; };
 		DF7B124A0FAEA9A3007FF0CA /* RimListController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B11F50FAEA9A3007FF0CA /* RimListController.m */; };
-		DF7B124B0FAEA9A3007FF0CA /* RootMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B11F70FAEA9A3007FF0CA /* RootMenuController.m */; };
 		DF7B124C0FAEA9A3007FF0CA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B11F90FAEA9A3007FF0CA /* AppDelegate.m */; };
 		DF7B124D0FAEA9A3007FF0CA /* StringUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B11FB0FAEA9A3007FF0CA /* StringUtil.m */; };
 		DF7B124E0FAEA9A3007FF0CA /* TableCellFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B11FD0FAEA9A3007FF0CA /* TableCellFactory.m */; };
 		DF7B124F0FAEA9A3007FF0CA /* Wheel.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B11FF0FAEA9A3007FF0CA /* Wheel.m */; };
 		DF7B12500FAEA9A3007FF0CA /* WheelDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */; };
 		DF7B12510FAEA9A3007FF0CA /* HubCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF7B12040FAEA9A3007FF0CA /* HubCell.xib */; };
-		DF7B12520FAEA9A3007FF0CA /* HubDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF7B12050FAEA9A3007FF0CA /* HubDetailView.xib */; };
 		DF7B12530FAEA9A3007FF0CA /* hub1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF7B12070FAEA9A3007FF0CA /* hub1.jpg */; };
 		DF7B12540FAEA9A3007FF0CA /* hub2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF7B12080FAEA9A3007FF0CA /* hub2.jpg */; };
 		DF7B12550FAEA9A3007FF0CA /* hub3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF7B12090FAEA9A3007FF0CA /* hub3.jpg */; };
@@ -111,9 +111,7 @@
 		DF7B12590FAEA9A3007FF0CA /* LabeledValueCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF7B120D0FAEA9A3007FF0CA /* LabeledValueCell.xib */; };
 		DF7B125A0FAEA9A3007FF0CA /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF7B120E0FAEA9A3007FF0CA /* MainWindow.xib */; };
 		DF7B125B0FAEA9A3007FF0CA /* parts.sqlite3 in Resources */ = {isa = PBXBuildFile; fileRef = DF7B120F0FAEA9A3007FF0CA /* parts.sqlite3 */; };
-		DF7B125C0FAEA9A3007FF0CA /* PickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF7B12100FAEA9A3007FF0CA /* PickerView.xib */; };
 		DF7B125D0FAEA9A3007FF0CA /* RimCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF7B12110FAEA9A3007FF0CA /* RimCell.xib */; };
-		DF7B125E0FAEA9A3007FF0CA /* RimDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF7B12120FAEA9A3007FF0CA /* RimDetailView.xib */; };
 		DF7B128F0FAEA9B5007FF0CA /* GTMIPhoneUnitTestDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B12740FAEA9B5007FF0CA /* GTMIPhoneUnitTestDelegate.m */; };
 		DF7B12900FAEA9B5007FF0CA /* GTMIPhoneUnitTestMain.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B12750FAEA9B5007FF0CA /* GTMIPhoneUnitTestMain.m */; };
 		DF7B12910FAEA9B5007FF0CA /* GTMSenTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7B12770FAEA9B5007FF0CA /* GTMSenTestCase.m */; };
@@ -127,8 +125,32 @@
 		DF7B132C0FAEADC0007FF0CA /* OCMock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF7B127A0FAEA9B5007FF0CA /* OCMock.framework */; };
 		DF8D38CA0FC8C8F200DF8DF0 /* SqliteDateFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = DF8D38C90FC8C8F200DF8DF0 /* SqliteDateFormatter.m */; };
 		DF8D38CB0FC8C8F200DF8DF0 /* SqliteDateFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = DF8D38C90FC8C8F200DF8DF0 /* SqliteDateFormatter.m */; };
+		DFA014430FCE050600F2BB3D /* HubEditView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFA014420FCE050600F2BB3D /* HubEditView.xib */; };
+		DFA014440FCE050600F2BB3D /* HubEditView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFA014420FCE050600F2BB3D /* HubEditView.xib */; };
+		DFA0144B0FCE084300F2BB3D /* HubEditController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA0144A0FCE084300F2BB3D /* HubEditController.m */; };
+		DFA0144C0FCE084300F2BB3D /* HubEditController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA0144A0FCE084300F2BB3D /* HubEditController.m */; };
+		DFA0144E0FCE08A300F2BB3D /* HubEditControllerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA0144D0FCE08A300F2BB3D /* HubEditControllerTest.m */; };
+		DFA1CECB0FEBF68B007C69C2 /* dist.plist in Resources */ = {isa = PBXBuildFile; fileRef = DFA1CECA0FEBF68B007C69C2 /* dist.plist */; };
+		DFA1CECC0FEBF68B007C69C2 /* dist.plist in Resources */ = {isa = PBXBuildFile; fileRef = DFA1CECA0FEBF68B007C69C2 /* dist.plist */; };
+		DFB7233F0FD9BFD600B99DAF /* WheelEmail.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB7233E0FD9BFD600B99DAF /* WheelEmail.m */; };
+		DFB723400FD9BFD600B99DAF /* WheelEmail.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB7233E0FD9BFD600B99DAF /* WheelEmail.m */; };
+		DFB723420FD9C03900B99DAF /* WheelEmailTest.m in Sources */ = {isa = PBXBuildFile; fileRef = DFB723410FD9C03900B99DAF /* WheelEmailTest.m */; };
+		DFB723AE0FD9CC7800B99DAF /* ButtonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFB723AD0FD9CC7800B99DAF /* ButtonCell.xib */; };
+		DFB723AF0FD9CC7800B99DAF /* ButtonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFB723AD0FD9CC7800B99DAF /* ButtonCell.xib */; };
+		DFC3CE1A10118BCA000CC29C /* wheel-3across.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFC3CE1910118BCA000CC29C /* wheel-3across.jpg */; };
+		DFC3CE1B10118BCA000CC29C /* wheel-3across.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFC3CE1910118BCA000CC29C /* wheel-3across.jpg */; };
 		DFD4DA310FAEB5DD00BC2BC2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD4DA2F0FAEB5DD00BC2BC2 /* main.m */; };
 		DFD4DA400FAEB98400BC2BC2 /* app_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DFD4DA3F0FAEB98400BC2BC2 /* app_icon.png */; };
+		DFEF3F9C0FE8ACB70038D0B6 /* RimCellTest.m in Sources */ = {isa = PBXBuildFile; fileRef = DFEF3F9B0FE8ACB70038D0B6 /* RimCellTest.m */; };
+		DFEF3FDE0FE8B3520038D0B6 /* HubCellTest.m in Sources */ = {isa = PBXBuildFile; fileRef = DFEF3FDD0FE8B3520038D0B6 /* HubCellTest.m */; };
+		DFEF40130FE8B8770038D0B6 /* WheelCellTest.m in Sources */ = {isa = PBXBuildFile; fileRef = DFEF40120FE8B8770038D0B6 /* WheelCellTest.m */; };
+		DFEF40150FE8B88C0038D0B6 /* WheelCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFEF40140FE8B88C0038D0B6 /* WheelCell.xib */; };
+		DFEF40160FE8B88C0038D0B6 /* WheelCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFEF40140FE8B88C0038D0B6 /* WheelCell.xib */; };
+		DFEF401A0FE8B8A90038D0B6 /* WheelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DFEF40190FE8B8A90038D0B6 /* WheelCell.m */; };
+		DFEF401B0FE8B8A90038D0B6 /* WheelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DFEF40190FE8B8A90038D0B6 /* WheelCell.m */; };
+		DFFB75B80FF5953C0066B00E /* ButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DFFB75B70FF5953C0066B00E /* ButtonCell.m */; };
+		DFFB75B90FF5953C0066B00E /* ButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DFFB75B70FF5953C0066B00E /* ButtonCell.m */; };
+		DFFB75BB0FF596390066B00E /* ButtonCellTest.m in Sources */ = {isa = PBXBuildFile; fileRef = DFFB75BA0FF596390066B00E /* ButtonCellTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -163,6 +185,7 @@
 		DF0CE7D50FB1E7D300701164 /* ObjectiveResourceDateFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectiveResourceDateFormatter.m; sourceTree = "<group>"; };
 		DF0CE7D60FB1E7D300701164 /* ObjectiveSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectiveSupport.h; sourceTree = "<group>"; };
 		DF0CE8D30FB2FF8F00701164 /* WheelDetailDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WheelDetailDelegate.h; sourceTree = "<group>"; };
+		DF1D462210586FCF009ED175 /* AppDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDefines.h; sourceTree = "<group>"; };
 		DF29BB6A0FB38BCC000EB5B8 /* TODO.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TODO.txt; sourceTree = "<group>"; };
 		DF29BBE10FB47960000EB5B8 /* Part.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Part.h; sourceTree = "<group>"; };
 		DF29BBE20FB47960000EB5B8 /* Part.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Part.m; sourceTree = "<group>"; };
@@ -190,12 +213,17 @@
 		DF29BF2F0FB6290C000EB5B8 /* WheelDetailControllerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WheelDetailControllerTest.m; sourceTree = "<group>"; };
 		DF29BF300FB6290C000EB5B8 /* WheelTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WheelTest.m; sourceTree = "<group>"; };
 		DF29C0640FB76725000EB5B8 /* RimEditControllerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RimEditControllerTest.m; sourceTree = "<group>"; };
+		DF4340190FD9AA2400C63A21 /* FlurryAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlurryAPI.h; sourceTree = "<group>"; };
+		DF43401A0FD9AA2400C63A21 /* libFlurry.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFlurry.a; sourceTree = "<group>"; };
 		DF4665120FAEB1A200172895 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DF53C7230FC1B652000E9814 /* NSString+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extensions.h"; sourceTree = "<group>"; };
 		DF53C7240FC1B652000E9814 /* NSString+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extensions.m"; sourceTree = "<group>"; };
 		DF53C7270FC1B661000E9814 /* NSStringExtensionsTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSStringExtensionsTest.m; sourceTree = "<group>"; };
 		DF58D9210FAF693900C2F546 /* app_icon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app_icon2.png; sourceTree = "<group>"; };
-		DF7B11470FAEA80F007FF0CA /* Unit Tests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Unit Tests.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF6A15F40FFDC7BA00656308 /* ValueCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ValueCell.xib; path = App/Resources/ValueCell.xib; sourceTree = "<group>"; };
+		DF6A161B0FFDCD8D00656308 /* PatternPickerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PatternPickerDelegate.h; sourceTree = "<group>"; };
+		DF6A161C0FFDCD8D00656308 /* PatternPickerDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PatternPickerDelegate.m; sourceTree = "<group>"; };
+		DF7B11470FAEA80F007FF0CA /* Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF7B11CD0FAEA94D007FF0CA /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		DF7B11D20FAEA9A3007FF0CA /* BrandListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrandListController.h; sourceTree = "<group>"; };
 		DF7B11D30FAEA9A3007FF0CA /* BrandListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrandListController.m; sourceTree = "<group>"; };
@@ -229,8 +257,6 @@
 		DF7B11F30FAEA9A3007FF0CA /* RimDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RimDetailController.m; sourceTree = "<group>"; };
 		DF7B11F40FAEA9A3007FF0CA /* RimListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RimListController.h; sourceTree = "<group>"; };
 		DF7B11F50FAEA9A3007FF0CA /* RimListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RimListController.m; sourceTree = "<group>"; };
-		DF7B11F60FAEA9A3007FF0CA /* RootMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootMenuController.h; sourceTree = "<group>"; };
-		DF7B11F70FAEA9A3007FF0CA /* RootMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootMenuController.m; sourceTree = "<group>"; };
 		DF7B11F80FAEA9A3007FF0CA /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DF7B11F90FAEA9A3007FF0CA /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		DF7B11FA0FAEA9A3007FF0CA /* StringUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringUtil.h; sourceTree = "<group>"; };
@@ -242,7 +268,6 @@
 		DF7B12000FAEA9A3007FF0CA /* WheelDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WheelDetailController.h; sourceTree = "<group>"; };
 		DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WheelDetailController.m; sourceTree = "<group>"; };
 		DF7B12040FAEA9A3007FF0CA /* HubCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HubCell.xib; sourceTree = "<group>"; };
-		DF7B12050FAEA9A3007FF0CA /* HubDetailView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HubDetailView.xib; sourceTree = "<group>"; };
 		DF7B12070FAEA9A3007FF0CA /* hub1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hub1.jpg; sourceTree = "<group>"; };
 		DF7B12080FAEA9A3007FF0CA /* hub2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hub2.jpg; sourceTree = "<group>"; };
 		DF7B12090FAEA9A3007FF0CA /* hub3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hub3.jpg; sourceTree = "<group>"; };
@@ -250,9 +275,7 @@
 		DF7B120D0FAEA9A3007FF0CA /* LabeledValueCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LabeledValueCell.xib; sourceTree = "<group>"; };
 		DF7B120E0FAEA9A3007FF0CA /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
 		DF7B120F0FAEA9A3007FF0CA /* parts.sqlite3 */ = {isa = PBXFileReference; lastKnownFileType = file; path = parts.sqlite3; sourceTree = "<group>"; };
-		DF7B12100FAEA9A3007FF0CA /* PickerView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PickerView.xib; sourceTree = "<group>"; };
 		DF7B12110FAEA9A3007FF0CA /* RimCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RimCell.xib; sourceTree = "<group>"; };
-		DF7B12120FAEA9A3007FF0CA /* RimDetailView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RimDetailView.xib; sourceTree = "<group>"; };
 		DF7B12710FAEA9B5007FF0CA /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
 		DF7B12730FAEA9B5007FF0CA /* GTMIPhoneUnitTestDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMIPhoneUnitTestDelegate.h; sourceTree = "<group>"; };
 		DF7B12740FAEA9B5007FF0CA /* GTMIPhoneUnitTestDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMIPhoneUnitTestDelegate.m; sourceTree = "<group>"; };
@@ -271,10 +294,29 @@
 		DF7B130F0FAEACA8007FF0CA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DF8D38C80FC8C8F200DF8DF0 /* SqliteDateFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SqliteDateFormatter.h; sourceTree = "<group>"; };
 		DF8D38C90FC8C8F200DF8DF0 /* SqliteDateFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SqliteDateFormatter.m; sourceTree = "<group>"; };
+		DFA014420FCE050600F2BB3D /* HubEditView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HubEditView.xib; sourceTree = "<group>"; };
+		DFA014490FCE084300F2BB3D /* HubEditController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HubEditController.h; sourceTree = "<group>"; };
+		DFA0144A0FCE084300F2BB3D /* HubEditController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HubEditController.m; sourceTree = "<group>"; };
+		DFA0144D0FCE08A300F2BB3D /* HubEditControllerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HubEditControllerTest.m; sourceTree = "<group>"; };
+		DFA1CECA0FEBF68B007C69C2 /* dist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = dist.plist; sourceTree = "<group>"; };
 		DFAAA5A40FAF57F400699647 /* EditWheelDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditWheelDelegate.h; sourceTree = "<group>"; };
+		DFB7233D0FD9BFD600B99DAF /* WheelEmail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WheelEmail.h; sourceTree = "<group>"; };
+		DFB7233E0FD9BFD600B99DAF /* WheelEmail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WheelEmail.m; sourceTree = "<group>"; };
+		DFB723410FD9C03900B99DAF /* WheelEmailTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WheelEmailTest.m; sourceTree = "<group>"; };
+		DFB723AD0FD9CC7800B99DAF /* ButtonCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ButtonCell.xib; sourceTree = "<group>"; };
+		DFC3CE1910118BCA000CC29C /* wheel-3across.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "wheel-3across.jpg"; sourceTree = "<group>"; };
 		DFD4DA2F0FAEB5DD00BC2BC2 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DFD4DA300FAEB5DD00BC2BC2 /* wheelsmith_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wheelsmith_Prefix.pch; sourceTree = "<group>"; };
 		DFD4DA3F0FAEB98400BC2BC2 /* app_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = app_icon.png; sourceTree = "<group>"; };
+		DFEF3F9B0FE8ACB70038D0B6 /* RimCellTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RimCellTest.m; sourceTree = "<group>"; };
+		DFEF3FDD0FE8B3520038D0B6 /* HubCellTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HubCellTest.m; sourceTree = "<group>"; };
+		DFEF40120FE8B8770038D0B6 /* WheelCellTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WheelCellTest.m; sourceTree = "<group>"; };
+		DFEF40140FE8B88C0038D0B6 /* WheelCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WheelCell.xib; sourceTree = "<group>"; };
+		DFEF40180FE8B8A90038D0B6 /* WheelCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WheelCell.h; sourceTree = "<group>"; };
+		DFEF40190FE8B8A90038D0B6 /* WheelCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WheelCell.m; sourceTree = "<group>"; };
+		DFFB75B60FF5953C0066B00E /* ButtonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonCell.h; sourceTree = "<group>"; };
+		DFFB75B70FF5953C0066B00E /* ButtonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonCell.m; sourceTree = "<group>"; };
+		DFFB75BA0FF596390066B00E /* ButtonCellTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonCellTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -286,6 +328,7 @@
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */,
 				DF7B11CF0FAEA94D007FF0CA /* libsqlite3.dylib in Frameworks */,
+				DF43401C0FD9AA2400C63A21 /* libFlurry.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +342,7 @@
 				DF7B13030FAEAB11007FF0CA /* Foundation.framework in Frameworks */,
 				DF7B13040FAEAB11007FF0CA /* UIKit.framework in Frameworks */,
 				DF7B13050FAEAB11007FF0CA /* CoreGraphics.framework in Frameworks */,
+				DF43401B0FD9AA2400C63A21 /* libFlurry.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,7 +353,7 @@
 			isa = PBXGroup;
 			children = (
 				1D6058910D05DD3D006BFB54 /* wheelsmith.app */,
-				DF7B11470FAEA80F007FF0CA /* Unit Tests.app */,
+				DF7B11470FAEA80F007FF0CA /* Test.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -317,12 +361,14 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				DF29BB6A0FB38BCC000EB5B8 /* TODO.txt */,
+				DFA1CECA0FEBF68B007C69C2 /* dist.plist */,
 				DF7B11D00FAEA9A3007FF0CA /* App */,
 				DF7B125F0FAEA9B5007FF0CA /* Test */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
-				DF29BB6A0FB38BCC000EB5B8 /* TODO.txt */,
+				DF6A15F40FFDC7BA00656308 /* ValueCell.xib */,
 			);
 			name = CustomTemplate;
 			sourceTree = "<group>";
@@ -380,6 +426,15 @@
 			path = Inflections;
 			sourceTree = "<group>";
 		};
+		DF4340180FD9AA2400C63A21 /* FlurryLib */ = {
+			isa = PBXGroup;
+			children = (
+				DF4340190FD9AA2400C63A21 /* FlurryAPI.h */,
+				DF43401A0FD9AA2400C63A21 /* libFlurry.a */,
+			);
+			path = FlurryLib;
+			sourceTree = "<group>";
+		};
 		DF7B11D00FAEA9A3007FF0CA /* App */ = {
 			isa = PBXGroup;
 			children = (
@@ -394,12 +449,15 @@
 		DF7B11D10FAEA9A3007FF0CA /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				DFB7233D0FD9BFD600B99DAF /* WheelEmail.h */,
+				DFB7233E0FD9BFD600B99DAF /* WheelEmail.m */,
 				DF8D38C80FC8C8F200DF8DF0 /* SqliteDateFormatter.h */,
 				DF8D38C90FC8C8F200DF8DF0 /* SqliteDateFormatter.m */,
 				DF53C7230FC1B652000E9814 /* NSString+Extensions.h */,
 				DF53C7240FC1B652000E9814 /* NSString+Extensions.m */,
 				DF7B11F80FAEA9A3007FF0CA /* AppDelegate.h */,
 				DF7B11F90FAEA9A3007FF0CA /* AppDelegate.m */,
+				DF1D462210586FCF009ED175 /* AppDefines.h */,
 				DF7B11D20FAEA9A3007FF0CA /* BrandListController.h */,
 				DF7B11D30FAEA9A3007FF0CA /* BrandListController.m */,
 				DF7B11D40FAEA9A3007FF0CA /* Database.h */,
@@ -418,6 +476,8 @@
 				DF7B11E30FAEA9A3007FF0CA /* HubDetailController.m */,
 				DF7B11E40FAEA9A3007FF0CA /* HubListController.h */,
 				DF7B11E50FAEA9A3007FF0CA /* HubListController.m */,
+				DFA014490FCE084300F2BB3D /* HubEditController.h */,
+				DFA0144A0FCE084300F2BB3D /* HubEditController.m */,
 				DF7B11E60FAEA9A3007FF0CA /* LabeledValueCell.h */,
 				DF7B11E70FAEA9A3007FF0CA /* LabeledValueCell.m */,
 				DF7B11E80FAEA9A3007FF0CA /* MyWheelsController.h */,
@@ -434,23 +494,27 @@
 				DF29BEFB0FB6255A000EB5B8 /* RimEditController.m */,
 				DF7B11F40FAEA9A3007FF0CA /* RimListController.h */,
 				DF7B11F50FAEA9A3007FF0CA /* RimListController.m */,
-				DF7B11F60FAEA9A3007FF0CA /* RootMenuController.h */,
-				DF7B11F70FAEA9A3007FF0CA /* RootMenuController.m */,
 				DF7B11FA0FAEA9A3007FF0CA /* StringUtil.h */,
 				DF7B11FB0FAEA9A3007FF0CA /* StringUtil.m */,
 				DF7B11FC0FAEA9A3007FF0CA /* TableCellFactory.h */,
 				DF7B11FD0FAEA9A3007FF0CA /* TableCellFactory.m */,
 				DF7B11FE0FAEA9A3007FF0CA /* Wheel.h */,
 				DF7B11FF0FAEA9A3007FF0CA /* Wheel.m */,
+				DFEF40180FE8B8A90038D0B6 /* WheelCell.h */,
+				DFEF40190FE8B8A90038D0B6 /* WheelCell.m */,
 				DF7B12000FAEA9A3007FF0CA /* WheelDetailController.h */,
 				DF7B12010FAEA9A3007FF0CA /* WheelDetailController.m */,
 				DF0CE8D30FB2FF8F00701164 /* WheelDetailDelegate.h */,
+				DF6A161B0FFDCD8D00656308 /* PatternPickerDelegate.h */,
+				DF6A161C0FFDCD8D00656308 /* PatternPickerDelegate.m */,
 				DFAAA5A40FAF57F400699647 /* EditWheelDelegate.h */,
 				DF29BBE10FB47960000EB5B8 /* Part.h */,
 				DF29BBE20FB47960000EB5B8 /* Part.m */,
 				DF29BC610FB488EB000EB5B8 /* CheckmarkPickerController.h */,
 				DF29BC620FB488EB000EB5B8 /* CheckmarkPickerController.m */,
 				DF29BC630FB488EB000EB5B8 /* CheckmarkPickerDelegate.h */,
+				DFFB75B60FF5953C0066B00E /* ButtonCell.h */,
+				DFFB75B70FF5953C0066B00E /* ButtonCell.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -458,6 +522,7 @@
 		DF7B12020FAEA9A3007FF0CA /* Library */ = {
 			isa = PBXGroup;
 			children = (
+				DF4340180FD9AA2400C63A21 /* FlurryLib */,
 				DF0CE7C80FB1E7D300701164 /* ObjectiveSupport */,
 			);
 			path = Library;
@@ -469,14 +534,14 @@
 				DF7B12060FAEA9A3007FF0CA /* Images */,
 				DF7B130F0FAEACA8007FF0CA /* Info.plist */,
 				DF7B120F0FAEA9A3007FF0CA /* parts.sqlite3 */,
-				DF7B12040FAEA9A3007FF0CA /* HubCell.xib */,
-				DF7B12050FAEA9A3007FF0CA /* HubDetailView.xib */,
-				DF7B120D0FAEA9A3007FF0CA /* LabeledValueCell.xib */,
 				DF7B120E0FAEA9A3007FF0CA /* MainWindow.xib */,
-				DF7B12100FAEA9A3007FF0CA /* PickerView.xib */,
+				DF7B120D0FAEA9A3007FF0CA /* LabeledValueCell.xib */,
+				DF7B12040FAEA9A3007FF0CA /* HubCell.xib */,
+				DFA014420FCE050600F2BB3D /* HubEditView.xib */,
 				DF7B12110FAEA9A3007FF0CA /* RimCell.xib */,
-				DF7B12120FAEA9A3007FF0CA /* RimDetailView.xib */,
 				DF29BEF60FB6219C000EB5B8 /* RimEditView.xib */,
+				DFEF40140FE8B88C0038D0B6 /* WheelCell.xib */,
+				DFB723AD0FD9CC7800B99DAF /* ButtonCell.xib */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -484,6 +549,7 @@
 		DF7B12060FAEA9A3007FF0CA /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				DFC3CE1910118BCA000CC29C /* wheel-3across.jpg */,
 				DF29BEA50FB606EA000EB5B8 /* Default.png */,
 				DF58D9210FAF693900C2F546 /* app_icon2.png */,
 				DFD4DA3F0FAEB98400BC2BC2 /* app_icon.png */,
@@ -510,9 +576,12 @@
 			children = (
 				DF7B12670FAEA9B5007FF0CA /* Support */,
 				DF29BF250FB6290C000EB5B8 /* CheckmarkPickerControllerTest.m */,
+				DFEF3F9B0FE8ACB70038D0B6 /* RimCellTest.m */,
+				DFEF3FDD0FE8B3520038D0B6 /* HubCellTest.m */,
 				DF29BF260FB6290C000EB5B8 /* DatabaseTest.m */,
 				DF29BF270FB6290C000EB5B8 /* DomainObjectTest.m */,
 				DF29BF280FB6290C000EB5B8 /* HubDetailControllerTest.m */,
+				DFA0144D0FCE08A300F2BB3D /* HubEditControllerTest.m */,
 				DF29BF290FB6290C000EB5B8 /* HubTest.m */,
 				DF29BF2A0FB6290C000EB5B8 /* MyWheelsControllerTest.m */,
 				DF53C7270FC1B661000E9814 /* NSStringExtensionsTest.m */,
@@ -522,6 +591,9 @@
 				DF29BF2E0FB6290C000EB5B8 /* TableCellFactoryTest.m */,
 				DF29BF2F0FB6290C000EB5B8 /* WheelDetailControllerTest.m */,
 				DF29BF300FB6290C000EB5B8 /* WheelTest.m */,
+				DFB723410FD9C03900B99DAF /* WheelEmailTest.m */,
+				DFEF40120FE8B8770038D0B6 /* WheelCellTest.m */,
+				DFFB75BA0FF596390066B00E /* ButtonCellTest.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -645,7 +717,7 @@
 			);
 			name = "Unit Tests";
 			productName = Test;
-			productReference = DF7B11470FAEA80F007FF0CA /* Unit Tests.app */;
+			productReference = DF7B11470FAEA80F007FF0CA /* Test.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -679,7 +751,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF7B12510FAEA9A3007FF0CA /* HubCell.xib in Resources */,
-				DF7B12520FAEA9A3007FF0CA /* HubDetailView.xib in Resources */,
 				DF7B12530FAEA9A3007FF0CA /* hub1.jpg in Resources */,
 				DF7B12540FAEA9A3007FF0CA /* hub2.jpg in Resources */,
 				DF7B12550FAEA9A3007FF0CA /* hub3.jpg in Resources */,
@@ -687,13 +758,17 @@
 				DF7B12590FAEA9A3007FF0CA /* LabeledValueCell.xib in Resources */,
 				DF7B125A0FAEA9A3007FF0CA /* MainWindow.xib in Resources */,
 				DF7B125B0FAEA9A3007FF0CA /* parts.sqlite3 in Resources */,
-				DF7B125C0FAEA9A3007FF0CA /* PickerView.xib in Resources */,
 				DF7B125D0FAEA9A3007FF0CA /* RimCell.xib in Resources */,
-				DF7B125E0FAEA9A3007FF0CA /* RimDetailView.xib in Resources */,
 				DFD4DA400FAEB98400BC2BC2 /* app_icon.png in Resources */,
 				DF58D9220FAF693900C2F546 /* app_icon2.png in Resources */,
 				DF29BEA60FB606EA000EB5B8 /* Default.png in Resources */,
 				DF29BEF70FB6219C000EB5B8 /* RimEditView.xib in Resources */,
+				DFA014440FCE050600F2BB3D /* HubEditView.xib in Resources */,
+				DFB723AF0FD9CC7800B99DAF /* ButtonCell.xib in Resources */,
+				DFEF40160FE8B88C0038D0B6 /* WheelCell.xib in Resources */,
+				DFA1CECB0FEBF68B007C69C2 /* dist.plist in Resources */,
+				DF6A15F60FFDC7BA00656308 /* ValueCell.xib in Resources */,
+				DFC3CE1B10118BCA000CC29C /* wheel-3across.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -702,15 +777,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF7B122B0FAEA9A3007FF0CA /* HubCell.xib in Resources */,
-				DF7B122C0FAEA9A3007FF0CA /* HubDetailView.xib in Resources */,
 				DF7B12330FAEA9A3007FF0CA /* LabeledValueCell.xib in Resources */,
 				DF7B12340FAEA9A3007FF0CA /* MainWindow.xib in Resources */,
-				DF7B12360FAEA9A3007FF0CA /* PickerView.xib in Resources */,
 				DF7B12370FAEA9A3007FF0CA /* RimCell.xib in Resources */,
-				DF7B12380FAEA9A3007FF0CA /* RimDetailView.xib in Resources */,
 				DF7B129A0FAEA9B5007FF0CA /* test.sqlite3 in Resources */,
 				DF4665170FAEB2C100172895 /* parts.sqlite3 in Resources */,
 				DF29BEF80FB6219C000EB5B8 /* RimEditView.xib in Resources */,
+				DFA014430FCE050600F2BB3D /* HubEditView.xib in Resources */,
+				DFB723AE0FD9CC7800B99DAF /* ButtonCell.xib in Resources */,
+				DFEF40150FE8B88C0038D0B6 /* WheelCell.xib in Resources */,
+				DFA1CECC0FEBF68B007C69C2 /* dist.plist in Resources */,
+				DF6A15F50FFDC7BA00656308 /* ValueCell.xib in Resources */,
+				DFC3CE1A10118BCA000CC29C /* wheel-3across.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -753,7 +831,6 @@
 				DF7B12480FAEA9A3007FF0CA /* RimCell.m in Sources */,
 				DF7B12490FAEA9A3007FF0CA /* RimDetailController.m in Sources */,
 				DF7B124A0FAEA9A3007FF0CA /* RimListController.m in Sources */,
-				DF7B124B0FAEA9A3007FF0CA /* RootMenuController.m in Sources */,
 				DF7B124C0FAEA9A3007FF0CA /* AppDelegate.m in Sources */,
 				DF7B124D0FAEA9A3007FF0CA /* StringUtil.m in Sources */,
 				DF7B124E0FAEA9A3007FF0CA /* TableCellFactory.m in Sources */,
@@ -770,6 +847,11 @@
 				DF29BEFC0FB6255A000EB5B8 /* RimEditController.m in Sources */,
 				DF53C7260FC1B652000E9814 /* NSString+Extensions.m in Sources */,
 				DF8D38CB0FC8C8F200DF8DF0 /* SqliteDateFormatter.m in Sources */,
+				DFA0144C0FCE084300F2BB3D /* HubEditController.m in Sources */,
+				DFB7233F0FD9BFD600B99DAF /* WheelEmail.m in Sources */,
+				DFEF401A0FE8B8A90038D0B6 /* WheelCell.m in Sources */,
+				DFFB75B90FF5953C0066B00E /* ButtonCell.m in Sources */,
+				DF6A161E0FFDCD8D00656308 /* PatternPickerDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -793,7 +875,6 @@
 				DF7B12220FAEA9A3007FF0CA /* RimCell.m in Sources */,
 				DF7B12230FAEA9A3007FF0CA /* RimDetailController.m in Sources */,
 				DF7B12240FAEA9A3007FF0CA /* RimListController.m in Sources */,
-				DF7B12250FAEA9A3007FF0CA /* RootMenuController.m in Sources */,
 				DF7B12260FAEA9A3007FF0CA /* AppDelegate.m in Sources */,
 				DF7B12270FAEA9A3007FF0CA /* StringUtil.m in Sources */,
 				DF7B12280FAEA9A3007FF0CA /* TableCellFactory.m in Sources */,
@@ -828,6 +909,17 @@
 				DF53C7250FC1B652000E9814 /* NSString+Extensions.m in Sources */,
 				DF53C7280FC1B661000E9814 /* NSStringExtensionsTest.m in Sources */,
 				DF8D38CA0FC8C8F200DF8DF0 /* SqliteDateFormatter.m in Sources */,
+				DFA0144B0FCE084300F2BB3D /* HubEditController.m in Sources */,
+				DFA0144E0FCE08A300F2BB3D /* HubEditControllerTest.m in Sources */,
+				DFB723400FD9BFD600B99DAF /* WheelEmail.m in Sources */,
+				DFB723420FD9C03900B99DAF /* WheelEmailTest.m in Sources */,
+				DFEF3F9C0FE8ACB70038D0B6 /* RimCellTest.m in Sources */,
+				DFEF3FDE0FE8B3520038D0B6 /* HubCellTest.m in Sources */,
+				DFEF40130FE8B8770038D0B6 /* WheelCellTest.m in Sources */,
+				DFEF401B0FE8B8A90038D0B6 /* WheelCell.m in Sources */,
+				DFFB75B80FF5953C0066B00E /* ButtonCell.m in Sources */,
+				DFFB75BB0FF596390066B00E /* ButtonCellTest.m in Sources */,
+				DF6A161D0FFDCD8D00656308 /* PatternPickerDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -838,15 +930,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Alon Salant";
+				CODE_SIGN_ENTITLEMENTS = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = App/Source/wheelsmith_Prefix.pch;
 				INFOPLIST_FILE = App/Resources/Info.plist;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/App/Library/FlurryLib\"",
+				);
 				PRODUCT_NAME = wheelsmith;
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "F9AA39CC-8ED0-4390-9421-7BF89485EA3C";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 			};
 			name = Debug;
 		};
@@ -854,11 +951,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_ENTITLEMENTS = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = App/Source/wheelsmith_Prefix.pch;
 				INFOPLIST_FILE = App/Resources/Info.plist;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/App/Library/FlurryLib\"",
+				);
 				PRODUCT_NAME = wheelsmith;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 			};
 			name = Release;
 		};
@@ -867,12 +971,15 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 3;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PREBINDING = NO;
-				SDKROOT = iphoneos2.2.1;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos3.0;
+				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
 		};
@@ -881,11 +988,14 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 3;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				PREBINDING = NO;
-				SDKROOT = iphoneos2.2.1;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos3.0;
+				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
 		};
@@ -905,6 +1015,10 @@
 				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/UIKit.framework/Headers/UIKit.h";
 				INFOPLIST_FILE = Test/Resources/Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/App/Library/FlurryLib\"",
+				);
 				OTHER_LDFLAGS = (
 					"-framework",
 					Foundation,
@@ -933,6 +1047,10 @@
 				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/UIKit.framework/Headers/UIKit.h";
 				INFOPLIST_FILE = "Test-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/App/Library/FlurryLib\"",
+				);
 				OTHER_LDFLAGS = (
 					"-framework",
 					Foundation,
@@ -946,6 +1064,74 @@
 			};
 			name = Release;
 		};
+		DFB0585A0FEC143300BCFB3A /* Ad Hoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CURRENT_PROJECT_VERSION = 3;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos3.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = "Ad Hoc";
+		};
+		DFB0585B0FEC143300BCFB3A /* Ad Hoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_ENTITLEMENTS = dist.plist;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = App/Source/wheelsmith_Prefix.pch;
+				INFOPLIST_FILE = App/Resources/Info.plist;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/App/Library/FlurryLib\"",
+				);
+				PRODUCT_NAME = wheelsmith;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+			};
+			name = "Ad Hoc";
+		};
+		DFB0585C0FEC143300BCFB3A /* Ad Hoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Test/Library\"",
+				);
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/UIKit.framework/Headers/UIKit.h";
+				INFOPLIST_FILE = "Test-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/App/Library/FlurryLib\"",
+				);
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					UIKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = Test;
+				SDKROOT = iphoneos2.2.1;
+				ZERO_LINK = NO;
+			};
+			name = "Ad Hoc";
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -954,6 +1140,7 @@
 			buildConfigurations = (
 				1D6058940D05DD3E006BFB54 /* Debug */,
 				1D6058950D05DD3E006BFB54 /* Release */,
+				DFB0585B0FEC143300BCFB3A /* Ad Hoc */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -963,6 +1150,7 @@
 			buildConfigurations = (
 				C01FCF4F08A954540054247B /* Debug */,
 				C01FCF5008A954540054247B /* Release */,
+				DFB0585A0FEC143300BCFB3A /* Ad Hoc */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -972,6 +1160,7 @@
 			buildConfigurations = (
 				DF7B114A0FAEA810007FF0CA /* Debug */,
 				DF7B114B0FAEA810007FF0CA /* Release */,
+				DFB0585C0FEC143300BCFB3A /* Ad Hoc */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

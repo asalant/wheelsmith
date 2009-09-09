@@ -15,6 +15,7 @@
 @property (nonatomic,retain) NSNumber *rightFlangeDiameter;
 @property (nonatomic,retain) NSNumber *rightFlangeToCenter;
 @property (nonatomic,retain) NSNumber *rear;
+@property (readonly) NSString *rearDescription;
 @property (nonatomic,retain) NSNumber *holeCount;
 
 @end

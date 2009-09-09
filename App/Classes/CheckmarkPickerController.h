@@ -2,14 +2,14 @@
 #import "CheckmarkPickerDelegate.h"
 
 @interface CheckmarkPickerController : UITableViewController {
-    NSNumber *selectedIndex;
+    int selectedIndex;
     NSArray *options;
     id<CheckmarkPickerDelegate> delegate;
 }
 
-@property(nonatomic, retain) NSNumber *selectedIndex;
+@property(nonatomic, assign) int selectedIndex;
+@property(nonatomic, readonly) id selectedOption;
 @property(nonatomic, retain) NSArray *options;
-@property(nonatomic, retain) id selectedOption;
 @property(nonatomic, retain) id<CheckmarkPickerDelegate> delegate;
 
 @end

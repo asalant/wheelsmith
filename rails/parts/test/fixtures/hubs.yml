@@ -2,7 +2,7 @@
 
 record_front:
   brand: Campagnolo
-  description: Campagnolo Record Front 32h Black
+  description: Record Front 32h Black
   rear: false
   right_flange_diameter: 39.0
   right_flange_to_center: 35.0
@@ -13,7 +13,7 @@ record_front:
 
 king_rear:
   brand: Chris King
-  description: King 28H Rear Hub Silver 135mm
+  description: 28H Rear Hub Silver 135mm
   rear: true
   right_flange_diameter: 44.0
   right_flange_to_center: 36.0

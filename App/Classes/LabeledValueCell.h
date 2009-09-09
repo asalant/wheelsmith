@@ -1,15 +1,14 @@
 #import <UIKit/UIKit.h>
 
 @interface LabeledValueCell : UITableViewCell {
-	IBOutlet UILabel *labelLabel; 
-	IBOutlet UILabel *valueLabel;
+	IBOutlet UILabel *textLabel; 
+	IBOutlet UILabel *detailTextLabel;
 }
 
-@property(nonatomic, retain) UILabel *labelLabel; 
-@property(nonatomic, retain) UILabel *valueLabel;
+@property(nonatomic, retain) UILabel *textLabel; 
+@property(nonatomic, retain) UILabel *detailTextLabel;
 
 + (LabeledValueCell *) createCell;
-+ (LabeledValueCell *) createCellWithLabel:(NSString *)label withValue:(NSString *)value;
-- (void) setLabel:(NSString *)label withValue:(NSString *)value;
++ (LabeledValueCell *) createCellWithLabel:(NSString *)label;
 - (void) setValue:(NSString *)value;
 @end

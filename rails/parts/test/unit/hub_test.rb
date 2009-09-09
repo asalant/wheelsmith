@@ -32,4 +32,10 @@ class HubTest < ActiveSupport::TestCase
     assert_equal 36.5, hub.right_flange_to_center
     assert_equal 28, hub.hole_count
   end
+
+  test "cleans up description" do
+    assert_equal "440 FR 32h", Hub.from_csv("HU0570	DT 440 FR 32h	DT Swiss".split(/\t/)).description
+    assert_equal "28 Front Hub Black", Hub.from_csv("HU0570	King 28 Front Hub Black	Chris King".split(/\t/)).description
+    assert_equal "front disc hub", Hub.from_csv("HU0570	American classic front disc hub	American Classic".split(/\t/)).description
+  end
 end

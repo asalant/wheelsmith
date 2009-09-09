@@ -9,72 +9,68 @@
 
 @interface CheckmarkPickerControllerTest : SenTestCase <CheckmarkPickerDelegate> {}
 CheckmarkPickerController *controller;
-NSDictionary *options;
 @end
 
 @implementation CheckmarkPickerControllerTest
 
 -(void) setUp {
-    options = [NSDictionary dictionaryWithObjectsAndKeys:
-               @"radial", [NSNumber numberWithInt:0], 
-               @"3 across", [NSNumber numberWithInt:3], 
-               @"4 across", [NSNumber numberWithInt:4], 
-               nil];
     
     controller = [[[CheckmarkPickerController alloc] initWithStyle:UITableViewStyleGrouped] autorelease];
-    controller.options = [NSArray arrayWithObjects:@"radial", @"3 across", @"4 across", nil];
+    controller.options = [NSArray arrayWithObjects:@"radial", @"3 cross", @"4 cross", nil];
     controller.delegate = self;
+    controller.selectedIndex = -1;
     [controller loadView];
 }
 
 -(void) testNothingSelected {
-    assertThat(controller.selectedIndex, nilValue());
+    assertThat([NSNumber numberWithInt:controller.selectedIndex], is([NSNumber numberWithInt:-1]));
     assertThat(controller.selectedOption, nilValue());
 }
 
 -(void) testSelectsObjectAtIndex {
-    controller.selectedIndex = [NSNumber numberWithInt:0];
+    controller.selectedIndex = 0;
     assertThat(controller.selectedOption, is(@"radial"));
 }
 
--(void) testSelectsOption {
-    controller.selectedOption = @"3 across";
-    assertThat(controller.selectedIndex, is([NSNumber numberWithInt:1]));
-}
-
--(void) testNoSelectionForNonexistentOption {
-    controller.selectedIndex = [NSNumber numberWithInt:1];
-    controller.selectedOption = @"foo";
-    assertThat(controller.selectedIndex, nilValue());
+-(void) testSelectsNothingAtInvalidIndex {
+    controller.selectedIndex = -1;
+    assertThat(controller.selectedOption, nilValue());
+    controller.selectedIndex = 6;
+    assertThat(controller.selectedOption, nilValue());
 }
 
 -(void)testShowsNoCheckmarkForNotSelectedIndex {
-    controller.selectedIndex = [NSNumber numberWithInt:0];
+    controller.selectedIndex = 0;
     UITableViewCell *cell = [controller tableView:nil cellForRowAtIndexPath:[NSIndexPath indexPathForRow:1 inSection:0]];
     assertThat([NSNumber numberWithInt:cell.accessoryType], 
                is([NSNumber numberWithInt:UITableViewCellAccessoryNone]));
 }
 
 -(void)testShowsCheckmarkForSelectedIndex {
-    controller.selectedIndex = [NSNumber numberWithInt:0];
+    controller.selectedIndex = 0;
     UITableViewCell *cell = [controller tableView:nil cellForRowAtIndexPath:[NSIndexPath indexPathForRow:0 inSection:0]];
     assertThat([NSNumber numberWithInt:cell.accessoryType], 
                is([NSNumber numberWithInt:UITableViewCellAccessoryCheckmark]));
 }
 
--(void)testSelectsRow {
-    [controller tableView:nil didSelectRowAtIndexPath:[NSIndexPath indexPathForRow:1 inSection:0]];
-    assertThat(controller.selectedIndex, is([NSNumber numberWithInt:1]));
+-(void)testDeselectsPreviewRowWhenSelectingAnother {
+    NSIndexPath *firstIndexPath = [NSIndexPath indexPathForRow:1 inSection:0];
+    [controller tableView:nil didSelectRowAtIndexPath:firstIndexPath];
+    assertThat([NSNumber numberWithInt:controller.selectedIndex], is([NSNumber numberWithInt:firstIndexPath.row]));
+    assertThat([NSNumber numberWithInt:[controller tableView:nil cellForRowAtIndexPath:firstIndexPath].accessoryType], 
+               is([NSNumber numberWithInt:UITableViewCellAccessoryCheckmark]));
+    
+    NSIndexPath *nextIndexPath = [NSIndexPath indexPathForRow:2 inSection:0];
+    [controller tableView:nil didSelectRowAtIndexPath:nextIndexPath];
+    assertThat([NSNumber numberWithInt:[controller tableView:nil cellForRowAtIndexPath:firstIndexPath].accessoryType], 
+               is([NSNumber numberWithInt:UITableViewCellAccessoryNone]));
 }
 
 -(void)testNumbersAsOptions {
-    assertThat([options objectForKey:[NSNumber numberWithInt:0]], is(@"radial"));
-    
     controller = [[[CheckmarkPickerController alloc] initWithStyle:UITableViewStyleGrouped] autorelease];
     controller.options = [NSArray arrayWithObjects:[NSNumber numberWithInt:0], [NSNumber numberWithInt:3], [NSNumber numberWithInt:4], nil];
     controller.delegate = self;
     [controller loadView];
-    [controller viewDidLoad];
     [controller tableView:nil cellForRowAtIndexPath:[NSIndexPath indexPathForRow:0 inSection:0]];
 }
 

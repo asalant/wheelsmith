@@ -1,9 +1,12 @@
 #import "AppDelegate.h"
-#import "RootMenuController.h"
+#import "FlurryAPI.h"
+#import "MyWheelsController.h"
 #import "RimBrandsController.h"
 #import "RimListController.h"
 #import "RimDetailController.h"
 #import "RimEditController.h"
+#import "HubEditController.h"
+#import "HubDetailController.h"
 #import "HubBrandsController.h"
 #import "HubListController.h"
 #import "Rim.h"
@@ -15,37 +18,52 @@
 @synthesize window;
 @synthesize navigationController;
 
+void uncaughtExceptionHandler(NSException *exception) {
+    [FlurryAPI logError:@"Uncaught exception" message:@"Application crash" exception:exception];
+}
 
 - (void)applicationDidFinishLaunching:(UIApplication *)application {
+
+    // Analytics configuration
+    NSSetUncaughtExceptionHandler(&uncaughtExceptionHandler);
+    [FlurryAPI startSession:@"3QX4VNFUP7F4FPVDAG5Q"];
+    
 	[DomainObject setDatabase:[Database create:@"parts" overwrite:NO]];
     
     // Create and set dependencies
-    RimDetailController *rimDetailController = [[[RimDetailController alloc] initWithNibName:@"RimDetailView" bundle:nil] autorelease];
+    RimDetailController *rimDetailController = [[[RimDetailController alloc] initWithStyle:UITableViewStyleGrouped] autorelease];
     rimDetailController.title = @"Rim Detail";
     
-    RimEditController *rimAddController = [[[RimEditController alloc] initWithNibName:@"RimEditView" bundle:nil] autorelease];
-    rimAddController.title = @"Add Rim";
-    rimAddController.detailController = rimDetailController;
+    RimEditController *rimEditController= [[[RimEditController alloc] initWithNibName:@"RimEditView" bundle:nil] autorelease];
+    rimEditController.title = @"Add Rim";
+    rimEditController.detailController = rimDetailController;
     
     RimListController *rimListController = [[[RimListController alloc] initWithStyle:UITableViewStylePlain] autorelease];
     rimListController.rimDetailController = rimDetailController;
-    rimListController.editController = rimAddController;
+    rimListController.editController = rimEditController;
     
     RimBrandsController *rimBrandsController = [[[RimBrandsController alloc] initWithStyle:UITableViewStylePlain] autorelease];
     rimBrandsController.title = @"Rim Brands";
     rimBrandsController.brands = [Rim selectBrandNames];
     rimBrandsController.rimsController = rimListController;
-    rimBrandsController.editController = rimAddController;
+    rimBrandsController.editController = rimEditController;    
     
-    HubDetailController *hubDetailController = [[[HubDetailController alloc] initWithNibName:@"HubDetailView" bundle:nil] autorelease];
+    HubDetailController *hubDetailController = [[[HubDetailController alloc] initWithStyle:UITableViewStyleGrouped] autorelease];
     hubDetailController.title = @"Hub Detail";
+    
+    HubEditController *hubEditController= [[[HubEditController alloc] initWithNibName:@"HubEditView" bundle:nil] autorelease];
+    hubEditController.title = @"Add Hub";
+    hubEditController.detailController = hubDetailController;
+    
     HubListController *hubListController =  [[[HubListController alloc] initWithStyle:UITableViewStylePlain] autorelease];
     hubListController.hubDetailController = hubDetailController;
+    hubListController.editController = hubEditController;
     
     HubBrandsController *hubBrandsController = [[[HubBrandsController alloc] initWithStyle:UITableViewStylePlain] autorelease];
     hubBrandsController.title = @"Hub Brands";
     hubBrandsController.brands = [Hub selectBrandNames];
     hubBrandsController.hubsController = hubListController;
+    hubBrandsController.editController = hubEditController;
     
     WheelDetailController *wheelDetailController = [[[WheelDetailController alloc] initWithStyle:UITableViewStyleGrouped] autorelease];
     wheelDetailController.title = @"Wheel Build";
@@ -64,7 +82,7 @@
     
     UINavigationController *newWheelController = [[[UINavigationController alloc] initWithRootViewController:newWheelDetailController] autorelease];
     
-    MyWheelsController *myWheelsController = [[[MyWheelsController alloc] initWithStyle:UITableViewStylePlain] autorelease];
+    MyWheelsController *myWheelsController = [[[MyWheelsController alloc] initWithStyle:UITableViewStyleGrouped] autorelease];
     myWheelsController.title = @"My Wheels";
     myWheelsController.wheels = [NSMutableArray arrayWithArray:[Wheel findAllOrderBy:@"created_at desc"]];
     myWheelsController.wheelDetailController = wheelDetailController;
@@ -72,17 +90,20 @@
     newWheelDetailController.delegate = myWheelsController;
     wheelDetailController.delegate = myWheelsController;
     
-    RootMenuController *menuController = [[[RootMenuController alloc] initWithStyle:UITableViewStyleGrouped] autorelease];
-    menuController.title = @"Spoke Length Calculator";
-    menuController.myWheelsController = myWheelsController;
-    menuController.rimBrandListController = rimBrandsController;
-    menuController.hubBrandListController = hubBrandsController;
-    
-    
     [self.navigationController pushViewController:myWheelsController animated:NO];
     
-	// Configure and show the window
+	// Configure the window
+    [[UIApplication sharedApplication] setStatusBarHidden:NO animated:NO];
 	[window addSubview:[navigationController view]];
+    
+    // Show new wheel modal if no existing wheels
+    if (myWheelsController.wheels.count == 0) {
+        newWheelDetailController.wheel = [[[Wheel alloc] init] autorelease];
+        newWheelDetailController.editing = YES;
+        [myWheelsController presentModalViewController:newWheelController animated:NO];
+    }
+    
+	// Show the window
 	[window makeKeyAndVisible];
 }
 

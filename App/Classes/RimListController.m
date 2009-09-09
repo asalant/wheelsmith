@@ -10,9 +10,9 @@
 
 -(void)viewDidLoad {
     [super viewDidLoad];
-    self.navigationItem.rightBarButtonItem = [[[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd
-                                                                                            target:self 
-                                                                                            action:@selector(addPart)] autorelease];
+//    self.navigationItem.rightBarButtonItem = [[[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd
+//                                                                                            target:self 
+//                                                                                            action:@selector(addPart)] autorelease];
 }
 
 -(void)addPart {

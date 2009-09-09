@@ -73,3 +73,18 @@ Rails::Initializer.run do |config|
   # Please note that observers generated using script/generate observer need to have an _observer suffix
   # config.active_record.observers = :cacher, :garbage_collector, :forum_observer
 end
+
+
+BRAND_ALIASES = {
+  'Chris King' => 'King',
+  'DT Swiss' => 'DT',
+  'Formula Hubs' => 'Formula',
+  'Industry Nine' => 'I-9',
+  'Paul Components' => 'Paul',
+  'Profile Racing' => 'Profile',
+  'Salsa Cycles' => 'Salsa',
+              'Sturmey-Archer' => 'Sturmey Archer',
+  'Sun Ringle' => 'Sun',
+  'Vicious Cycles' => 'Vicious',
+  'Zipp Speed Weaponry' => 'Zipp'
+}

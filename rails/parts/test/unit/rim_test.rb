@@ -15,4 +15,10 @@ class RimTest < ActiveSupport::TestCase
     assert_equal 32, rim.hole_count
   end
 
+  test "cleans up description" do
+    assert_equal "440 FR 32h", Rim.from_csv("HU0570	DT 440 FR 32h	DT Swiss".split(/\t/)).description
+    assert_equal "28 Front Hub Black", Rim.from_csv("HU0570	King 28 Front Hub Black	Chris King".split(/\t/)).description
+    assert_equal "front disc hub", Rim.from_csv("HU0570	American classic front disc hub	American Classic".split(/\t/)).description
+  end
+
 end
