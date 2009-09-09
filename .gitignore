@@ -1,1 +1,4 @@
-rails/parts/.idea
+/build
+/rails/parts/log
+*.pbxuser
+*.perspectivev3
